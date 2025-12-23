@@ -1,0 +1,69 @@
+import { LucideIcon } from "lucide-react";
+
+// ============================================================================
+// Home Page Component Types
+// ============================================================================
+
+// WhoItsFor Component Types
+export interface Audience {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+  color: string;
+}
+
+// CharterStyles Component Types
+export interface CharterStyle {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+  link: string;
+  gradient: string;
+}
+
+// SailingPhuket Component Types
+export interface TripType {
+  number: string;
+  title: string;
+  description: string;
+  gradient: string;
+}
+
+// JumpLinks Component Types
+export interface JumpLink {
+  id: string;
+  label: string;
+}
+
+// Pricing Component Types
+export interface PriceAnchor {
+  service: string;
+  price: string;
+  color: string;
+}
+
+// FAQs Component Types
+export interface FAQ {
+  question: string;
+  answer: string;
+}
+
+// PopularRoutes Component Types
+export interface Route {
+  name: string;
+  subtitle: string;
+  description: string;
+  image: string;
+}
+
+// OvernightSailing Component Types
+export interface Destination {
+  name: string;
+  description: string;
+}
+
+export interface TripDuration {
+  duration: string;
+  description: string;
+}
+
