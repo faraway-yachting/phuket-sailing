@@ -1,7 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { toast } from "sonner";
 import { Button } from "@/components/shared/ui/button";
 import { contactFormSchema, type ContactFormValues } from "@/lib/validation/schema";
 import {
@@ -46,17 +48,46 @@ const defaultFormValues: ContactFormValues = {
   comments: "",
 };
 
+const WEBHOOK_URL = "https://phpstack-858394-5597469.cloudwaysapps.com/webhook/bc92f5de-31ce-4083-af54-587f0ce18ad7";
+
 export function ContactForm() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const form = useForm<ContactFormValues>({
     resolver: yupResolver(contactFormSchema),
     defaultValues: defaultFormValues,
   });
 
-  const onSubmit = (data: ContactFormValues) => {
-    console.log("Form submitted:", data);
-    // TODO: Handle form submission (e.g., send to API)
-    alert("Thank you for your inquiry! We'll get back to you soon.");
-    form.reset(defaultFormValues);
+  const onSubmit = async (data: ContactFormValues) => {
+    setIsSubmitting(true);
+    
+    try {
+      const response = await fetch(WEBHOOK_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      toast.success("Form Submitted Successfully!", {
+        description: "Thank you for your inquiry! We'll get back to you soon.",
+        duration: 5000,
+      });
+
+      form.reset(defaultFormValues);
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      toast.error("Submission Failed", {
+        description: "There was an error submitting your form. Please try again or contact us directly.",
+        duration: 5000,
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -375,9 +406,10 @@ export function ContactForm() {
                   <Button
                     type="submit"
                     size="lg"
-                    className="bg-gradient-to-r from-sky-700 to-blue-800 hover:from-sky-800 hover:to-blue-900 text-white px-12 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-105 font-semibold"
+                    disabled={isSubmitting}
+                    className="bg-gradient-to-r from-sky-700 to-blue-800 hover:from-sky-800 hover:to-blue-900 text-white px-12 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-105 font-semibold disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                   >
-                    Submit
+                    {isSubmitting ? "Submitting..." : "Submit"}
                   </Button>
                 </div>
               </form>
