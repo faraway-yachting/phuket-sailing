@@ -15,7 +15,7 @@ import {
   FAQSchema,
   ContactForm,
 } from "@/components/features/home";
-import { Footer } from "@/components/layout/footer";
+// import { Footer } from "@/components/layout/footer";
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
       <FAQs />
       <CTASection />
       <ContactForm />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
