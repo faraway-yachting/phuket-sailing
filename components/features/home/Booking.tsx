@@ -1,71 +1,144 @@
 "use client";
-import { Card } from "@/components/shared/ui/card";
 import { Button } from "@/components/shared/ui/button";
-import { Check, Calendar } from "lucide-react";
-import { steps, inquiryChecklist, explorePages } from "@/data/home";
+import { Check, Send, Ship, ThumbsUp, CheckSquare } from "lucide-react";
+import { steps, inquiryChecklist } from "@/data/home";
+
+const stepIcons = [Send, Ship, ThumbsUp, CheckSquare];
 
 export function Booking() {
   return (
-    <section id="booking" className="section-padding bg-white">
-      <div className="container mx-auto container-padding">
-        <div className="flex items-center gap-4 mb-8">
-          <Calendar className="w-12 h-12 text-sky-600" />
-          <h2 className="heading-section">
+    <section id="booking" className="py-20 md:py-28 bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 overflow-hidden">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
+        {/* Section Header */}
+        <div className="text-center mb-14">
+          <h2 className="text-4xl md:text-5xl font-bold text-sky-900 mb-5">
             How Booking Works
           </h2>
-        </div>
-
-        <p className="text-body-large text-gray-700 mb-14 leading-relaxed">Simple and fast:</p>
-
-        <div className="grid md:grid-cols-4 gap-6 mb-16">
-          {steps.map((step, index) => (
-            <Card key={index} className="p-8 text-center card-elevated-hover">
-              <div className="w-16 h-16 bg-gradient-to-br from-sky-600 to-blue-700 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg">
-                {index + 1}
-              </div>
-              <p className="text-gray-700 text-lg leading-relaxed">{step}</p>
-            </Card>
-          ))}
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
-          <Card className="p-10 gradient-ocean border border-sky-200 shadow-xl">
-            <h3 className="heading-subsection mb-8">
-              The 20-second inquiry checklist
-            </h3>
-            <ul className="space-y-5">
-              {inquiryChecklist.map((item, index) => (
-                <li key={index} className="flex items-start">
-                  <Check className="w-6 h-6 text-sky-600 mt-1 mr-4 flex-shrink-0" />
-                  <span className="text-gray-700 text-lg">{item}</span>
-                </li>
-              ))}
-            </ul>
-          </Card>
-
-          <Card className="p-10 card-elevated">
-            <h3 className="heading-subsection mb-8">
-              Explore All Pages
-            </h3>
-            <ul className="space-y-5">
-              {explorePages.map((page, index) => (
-                <li key={index} className="flex items-center text-sky-600 hover:text-sky-700 font-semibold text-lg cursor-pointer hover:underline transition-colors duration-300">
-                  → {page}
-                </li>
-              ))}
-            </ul>
-          </Card>
-        </div>
-
-        <div className="gradient-ocean-dark text-white rounded-3xl p-16 text-center shadow-2xl border-2 border-amber-400/60">
-          <h3 className="text-4xl font-bold mb-8 tracking-tight">INQUIRE NOW</h3>
-          <p className="text-2xl mb-12 text-sky-100 leading-relaxed max-w-2xl mx-auto">
-            Ready to start planning your Phuket sailing adventure?
+          <div className="flex items-center justify-center gap-2 mb-6">
+            <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+            <div className="h-2 w-2 bg-amber-500 rounded-full"></div>
+            <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+          </div>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+            Simple and fast — from inquiry to sailing in just 4 easy steps
           </p>
-          <Button 
-            size="lg" 
-            className="button-primary px-14 py-8 text-2xl rounded-2xl font-bold"
+        </div>
+
+        {/* Step Cards */}
+        <div className="grid md:grid-cols-3 gap-6 mb-14 max-w-5xl mx-auto">
+          {/* Step 1 & 2 Card */}
+          <div className="relative bg-gradient-to-br from-sky-800 via-sky-900 to-slate-900 rounded-3xl p-8 shadow-xl group hover:shadow-2xl transition-all duration-300">
+            {/* Gold Number Badge */}
+            <div className="absolute -top-4 left-8 w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+              <span className="text-white font-bold text-lg">1</span>
+            </div>
+
+            {/* Content */}
+            <div className="mt-4">
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
+                Start & Share your details
+              </h3>
+              <p className="text-sky-100/80 text-base leading-relaxed mb-6">
+                {steps[0]}
+              </p>
+
+              <div className="border-t border-white/10 pt-6">
+                <p className="text-sky-100/80 text-base leading-relaxed">
+                  {steps[1]}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Step 3 Card */}
+          <div className="relative bg-gradient-to-br from-sky-800 via-sky-900 to-slate-900 rounded-3xl p-8 shadow-xl group hover:shadow-2xl transition-all duration-300">
+            {/* Gold Number Badge */}
+            <div className="absolute -top-4 left-8 w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+              <span className="text-white font-bold text-lg">2</span>
+            </div>
+
+            {/* Content */}
+            <div className="mt-4">
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
+                Get tailored recommendations
+              </h3>
+              <p className="text-sky-100/80 text-base leading-relaxed mb-6">
+                {steps[2]}
+              </p>
+
+              <div className="border-t border-white/10 pt-6">
+                <p className="text-sky-100/80 text-base leading-relaxed">
+                  Compare options transparently with clear pricing and details.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Step 4 Card - Inquiry Checklist */}
+          <div className="relative bg-gradient-to-br from-sky-800 via-sky-900 to-slate-900 rounded-3xl p-8 shadow-xl group hover:shadow-2xl transition-all duration-300">
+            {/* Gold Number Badge */}
+            <div className="absolute -top-4 left-8 w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-500 rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+              <span className="text-white font-bold text-lg">3</span>
+            </div>
+
+            {/* Content */}
+            <div className="mt-4">
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
+                What to include in your inquiry
+              </h3>
+              <ul className="space-y-3">
+                {inquiryChecklist.map((item, index) => (
+                  <li key={index} className="flex items-start">
+                    <div className="flex-shrink-0 w-5 h-5 bg-amber-400/20 rounded flex items-center justify-center mr-3 mt-0.5">
+                      <Check className="w-3 h-3 text-amber-400" strokeWidth={3} />
+                    </div>
+                    <span className="text-sky-100/80 text-sm leading-relaxed">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Final Step - Confirm Banner */}
+        <div className="max-w-5xl mx-auto mb-14">
+          <div className="relative bg-gradient-to-r from-amber-500 to-orange-500 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+            {/* Left - Step Number & Text */}
+            <div className="flex items-center gap-6">
+              <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg flex-shrink-0">
+                <span className="text-amber-600 font-bold text-2xl">4</span>
+              </div>
+              <div>
+                <h3 className="text-xl md:text-2xl font-bold text-white">
+                  Confirm and relax
+                </h3>
+                <p className="text-white/90 text-base">
+                  Book with confidence — we handle all the details for your perfect trip
+                </p>
+              </div>
+            </div>
+
+            {/* Right - CTA */}
+            <Button
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              className="bg-white hover:bg-gray-100 text-amber-600 px-8 py-6 text-lg font-bold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 whitespace-nowrap"
+            >
+              Start Your Inquiry
+            </Button>
+          </div>
+        </div>
+
+        {/* CTA Section */}
+        <div className="bg-gradient-to-br from-sky-50 to-blue-50 rounded-3xl p-10 text-center border-2 border-sky-200 shadow-xl max-w-4xl mx-auto">
+          <h3 className="text-2xl md:text-3xl font-bold text-sky-900 mb-4">
+            Ready to start planning?
+          </h3>
+          <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed">
+            Send us your dates and group size — we&apos;ll craft the perfect sailing adventure for you
+          </p>
+          <Button
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-10 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
           >
             Get Your Individual Quote
           </Button>

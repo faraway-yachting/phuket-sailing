@@ -11,10 +11,10 @@ export function SectionHeading({ children, subtitle, centered = true }: SectionH
         {children}
       </h2>
       
-      <div className={`flex items-center gap-4 mb-3 ${centered ? 'justify-center' : ''}`}>
-        <div className="h-1 w-20 bg-gradient-to-r from-ocean-500 to-ocean-600 rounded-full shadow-sm"></div>
-        <div className="h-2 w-2 bg-ocean-600 rounded-full"></div>
-        <div className="h-1 w-20 bg-gradient-to-r from-ocean-600 to-ocean-500 rounded-full shadow-sm"></div>
+      <div className={`flex items-center gap-2 mb-3 ${centered ? 'justify-center' : ''}`}>
+        <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+        <div className="h-2 w-2 bg-amber-500 rounded-full"></div>
+        <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
       </div>
       
       {subtitle && (
