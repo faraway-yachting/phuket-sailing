@@ -46,7 +46,7 @@ export function ContactCards() {
         <a
           key={index}
           href={contact.href}
-          className="group relative bg-white rounded-2xl p-6 shadow-lg shadow-cyan-200/50 hover:shadow-xl hover:shadow-cyan-300/60 transition-all duration-300 hover:-translate-y-1 flex flex-col items-center justify-center text-center"
+          className="group relative bg-white rounded-2xl p-6 shadow-lg shadow-gray-200/50 hover:shadow-xl hover:shadow-ocean-900/20 transition-all duration-300 hover:-translate-y-1 flex flex-col items-center justify-center text-center"
         >
           <div className={`bg-gradient-to-br ${contact.gradient} w-16 h-16 rounded-2xl flex items-center justify-center mb-4 transition-all duration-300 group-hover:scale-110 shadow-md`}>
             <contact.icon className="w-7 h-7 text-white" />
