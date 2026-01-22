@@ -299,7 +299,7 @@ function CharterStylesSection() {
             Send your dates + group size, and we'll recommend the best match.
           </p>
           <div className="flex flex-col sm:flex-row flex-wrap gap-3 justify-center">
-            <button className="inline-flex items-center justify-center px-4 sm:px-5 py-2.5 text-sm sm:text-base font-bold text-white bg-[#ca8a44] rounded-lg hover:bg-[#b67934] transition-all duration-300">
+            <button className="inline-flex items-center justify-center px-4 sm:px-5 py-2.5 text-sm sm:text-base font-bold text-white bg-[#14b8a6] rounded-lg hover:bg-[#0d9488] transition-all duration-300">
               Get a Fast Quote
             </button>
             <button className="inline-flex items-center justify-center px-4 sm:px-5 py-2.5 text-sm sm:text-base font-bold text-white bg-green-600 rounded-lg hover:bg-green-700 transition-all duration-300">
@@ -526,7 +526,7 @@ function OvernightSailingSection() {
             {/* Bottom Right Circle - Couple */}
             <div className="absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-12 w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl border-4 sm:border-6 border-white">
               <Image
-                src="/assets/images/home/couple.jpg"
+                src="/assets/images/home/couple2.jpg"
                 alt="Couple on overnight sailing trip"
                 fill
                 className="object-cover"
@@ -664,11 +664,11 @@ function OvernightRecommendationSection() {
                 <p className="text-sm sm:text-base text-neutral-600 mb-4">
                   Tell us your dates and number of nights and we'll recommend the best route.
                 </p>
-                <button className="inline-flex items-center justify-center px-6 py-3 text-sm sm:text-base font-bold text-white bg-gradient-to-r from-[#ca8a44] to-[#b67934] rounded-lg hover:from-[#b67934] hover:to-[#a66824] transition-all duration-300 shadow-lg hover:shadow-xl">
+                <button className="inline-flex items-center justify-center px-6 py-3 text-sm sm:text-base font-bold text-white bg-gradient-to-r from-[#14b8a6] to-[#0d9488] rounded-lg hover:from-[#0d9488] hover:to-[#0f766e] transition-all duration-300 shadow-lg hover:shadow-xl">
                   Tell us your dates and number of nights
                 </button>
                 <p className="mt-4">
-                  <a href="#overnight" className="text-[#ca8a44] hover:text-[#b67934] font-semibold text-sm inline-flex items-center gap-1 transition-colors duration-200">
+                  <a href="#overnight" className="text-[#14b8a6] hover:text-[#0d9488] font-semibold text-sm inline-flex items-center gap-1 transition-colors duration-200">
                     → Start here: Overnight Sailing Trips Phuket
                   </a>
                 </p>
@@ -732,7 +732,7 @@ function CatamaranVsSailingSection() {
               </li>
             </ul>
 
-            <a href="#" className="text-[#ca8a44] font-semibold hover:text-[#b67934] transition-colors text-sm sm:text-base">
+            <a href="#" className="text-[#14b8a6] font-semibold hover:text-[#0d9488] transition-colors text-sm sm:text-base">
               Compare options: Catamaran Charters in Phuket →
             </a>
           </div>
@@ -767,7 +767,7 @@ function CatamaranVsSailingSection() {
               </li>
             </ul>
 
-            <a href="#" className="text-[#ca8a44] font-semibold hover:text-[#b67934] transition-colors text-sm sm:text-base">
+            <a href="#" className="text-[#14b8a6] font-semibold hover:text-[#0d9488] transition-colors text-sm sm:text-base">
               Compare options: Sailing Yachts in Phuket →
             </a>
           </div>
@@ -928,8 +928,8 @@ function PopularRoutesSection() {
       <div className="bg-[#164e63] py-5 sm:py-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h3 className="mb-2 sm:mb-3 text-white text-lg sm:text-xl md:text-2xl font-bold">Want help choosing?</h3>
-          <p className="text-[#ca8a44] font-semibold text-sm sm:text-base md:text-lg">
-            <a href="#" className="hover:text-[#b67934]">See route ideas: Sailing Itineraries Phuket →</a>
+          <p className="text-[#14b8a6] font-semibold text-sm sm:text-base md:text-lg">
+            <a href="#" className="hover:text-[#0d9488]">See route ideas: Sailing Itineraries Phuket →</a>
           </p>
         </div>
       </div>
@@ -1105,7 +1105,7 @@ function WhatsIncludedSection() {
 
       <div className="bg-[#164e63] py-5 sm:py-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block px-3 sm:px-4 py-1 bg-[#ca8a44] rounded-full text-xs sm:text-sm font-bold mb-2 sm:mb-3">
+          <div className="inline-block px-3 sm:px-4 py-1 bg-[#14b8a6] rounded-full text-xs sm:text-sm font-bold mb-2 sm:mb-3">
             ✨ EXCLUSIVE OFFER
           </div>
           <h3 className="text-white mb-3 sm:mb-4 text-xl sm:text-2xl md:text-3xl font-bold">Want a simple, itemized quote?</h3>
@@ -1293,7 +1293,7 @@ function BookingProcessSection() {
           {steps.map((step) => (
             <div key={step.number} className="relative bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 md:p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
               {/* Gold Number Badge */}
-              <div className="absolute -top-4 left-6 w-10 h-10 bg-gradient-to-br from-[#ca8a44] to-[#b67934] rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+              <div className="absolute -top-4 left-6 w-10 h-10 bg-gradient-to-br from-[#14b8a6] to-[#0d9488] rounded-full flex items-center justify-center shadow-lg border-4 border-white">
                 <span className="text-white font-bold text-lg">{step.number}</span>
               </div>
 
