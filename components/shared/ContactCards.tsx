@@ -41,20 +41,26 @@ export function ContactCards() {
   ]
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+    <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
       {contacts.map((contact, index) => (
         <a
           key={index}
           href={contact.href}
-          className="group relative bg-white rounded-2xl p-6 shadow-lg shadow-gray-200/50 hover:shadow-xl hover:shadow-ocean-900/20 transition-all duration-300 hover:-translate-y-1 flex flex-col items-center justify-center text-center"
+          className="group flex flex-col items-center justify-center text-center"
         >
-          <div className={`bg-gradient-to-br ${contact.gradient} w-16 h-16 rounded-2xl flex items-center justify-center mb-4 transition-all duration-300 group-hover:scale-110 shadow-md`}>
-            <contact.icon className="w-7 h-7 text-white" />
+          {/* Outer circle border */}
+          <div className="relative mb-3 sm:mb-4">
+            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gray-100 flex items-center justify-center p-1 transition-all duration-300 group-hover:bg-gray-200 shadow-md group-hover:shadow-lg">
+              {/* Inner colored circle */}
+              <div className={`bg-gradient-to-br ${contact.gradient} w-full h-full rounded-full flex items-center justify-center transition-all duration-300 group-hover:scale-105`}>
+                <contact.icon className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
+              </div>
+            </div>
           </div>
-          
-          <h3 className="text-lg font-bold text-ocean-900 mb-2">{contact.title}</h3>
-          
-          <p className="text-sm text-ocean-600 font-medium break-words">
+
+          <h3 className="text-sm sm:text-base font-bold text-gray-800 mb-1">{contact.title}</h3>
+
+          <p className="text-xs sm:text-sm text-teal-600 font-medium break-words px-2">
             {contact.value}
           </p>
         </a>

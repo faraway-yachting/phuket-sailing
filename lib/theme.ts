@@ -4,8 +4,8 @@ export const theme = {
     primaryHover: '#0f3a47',
     primaryDark: '#0a2a35',
     secondary: '#1e5a6d',
-    accent: '#ca8a44',
-    accentHover: '#b67934',
+    accent: '#14b8a6',
+    accentHover: '#0d9488',
     ocean: {
       50: '#f0fdfa',
       100: '#ccfbf1',
