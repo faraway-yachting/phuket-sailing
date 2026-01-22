@@ -6,12 +6,12 @@ interface SectionHeadingProps {
 
 export function SectionHeading({ children, subtitle, centered = true }: SectionHeadingProps) {
   return (
-    <div className={`mb-10 ${centered ? 'text-center' : ''}`}>
-      <h2 className={`mb-4 ${centered ? 'mx-auto' : ''}`}>
+    <div className={`mb-6 sm:mb-8 ${centered ? 'text-center' : ''}`}>
+      <h2 className={`mb-3 sm:mb-4 ${centered ? 'mx-auto' : ''}`}>
         {children}
       </h2>
-      
-      <div className={`flex items-center gap-2 mb-3 ${centered ? 'justify-center' : ''}`}>
+
+      <div className={`flex items-center gap-2 mb-2 sm:mb-3 ${centered ? 'justify-center' : ''}`}>
         <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
         <div className="h-2 w-2 bg-amber-500 rounded-full"></div>
         <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>

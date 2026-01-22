@@ -70,7 +70,7 @@ function HeroSection() {
 
 function ContactCardsSection() {
   return (
-    <section className="bg-white py-4 sm:py-5 md:py-6">
+    <section className="bg-white py-6 sm:py-8">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <ContactCards />
       </div>
@@ -179,6 +179,14 @@ function CharterStylesSection() {
     setCurrentSlide(index)
   }
 
+  // Auto-swipe every 4 seconds
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide()
+    }, 8000)
+    return () => clearInterval(interval)
+  }, [])
+
   // Calculate visible cards (current + 2 on each side)
   const getVisibleCards = () => {
     const visible = []
@@ -190,8 +198,8 @@ function CharterStylesSection() {
   }
 
   return (
-    <section id="charter-style" className="pt-8 sm:pt-10 md:pt-12 bg-gradient-to-b from-white to-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 sm:pb-10 md:pb-12">
+    <section id="charter-style" className="py-8 sm:py-12 bg-gradient-to-b from-white to-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
             Choose Your Charter Style
@@ -292,20 +300,22 @@ function CharterStylesSection() {
 
       </div>
 
-      <div className="bg-[#164e63] py-6 sm:py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-2 sm:mb-3">Not sure what fits best?</h3>
-          <p className="text-white/90 text-sm sm:text-base mb-4">
-            Send your dates + group size, and we'll recommend the best match.
-          </p>
-          <div className="flex flex-col sm:flex-row flex-wrap gap-3 justify-center">
-            <button className="inline-flex items-center justify-center px-4 sm:px-5 py-2.5 text-sm sm:text-base font-bold text-white bg-[#14b8a6] rounded-lg hover:bg-[#0d9488] transition-all duration-300">
-              Get a Fast Quote
-            </button>
-            <button className="inline-flex items-center justify-center px-4 sm:px-5 py-2.5 text-sm sm:text-base font-bold text-white bg-green-600 rounded-lg hover:bg-green-700 transition-all duration-300">
-              <MessageCircle className="mr-2 h-4 w-4" />
-              WhatsApp Us
-            </button>
+      <div className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 pt-6 sm:pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4 text-white">Not sure what fits best?</h3>
+            <p className="text-white/80 text-sm sm:text-base md:text-lg mb-6 sm:mb-8 leading-relaxed">
+              Send your dates + group size, and we'll recommend the best match.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <button className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-[#14b8a6] rounded-full hover:bg-[#0d9488] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
+                Get a Fast Quote
+              </button>
+              <button className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-green-600 rounded-full hover:bg-green-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
+                <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                WhatsApp Us
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -315,7 +325,7 @@ function CharterStylesSection() {
 
 function SailingPhuketSection() {
   return (
-    <section id="sailing-phuket" className="py-12 sm:py-16 md:py-20 bg-gray-50">
+    <section id="sailing-phuket" className="py-10 sm:py-14 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
           {/* Image Collage - Left Side */}
@@ -405,17 +415,17 @@ function WhatTripTypeSection() {
     {
       title: 'Overnight Sailing Boat rental/charter',
       description: 'More time, more calm, more real holiday.',
-      image: '/assets/images/home/overnight-sailing.webp',
+      image: '/assets/images/home/overnight-sailing2.jpg',
     },
   ]
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-10 sm:py-14 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] text-center mb-3 sm:mb-4">
           What type of trip are you planning?
         </h2>
-        <p className="text-center text-neutral-600 mb-8 sm:mb-10 md:mb-12 text-base sm:text-lg">Here are the three most common starting points:</p>
+        <p className="text-center text-neutral-600 mb-6 sm:mb-8 text-base sm:text-lg">Here are the three most common starting points:</p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {tripTypes.map((type, index) => (
@@ -459,7 +469,7 @@ function WhatTripTypeSection() {
 
 function OvernightSailingSection() {
   return (
-    <section id="overnight" className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section id="overnight" className="py-10 sm:py-14 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Side - Text Content */}
@@ -541,7 +551,7 @@ function OvernightSailingSection() {
 
 function OvernightRecommendationSection() {
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-10 sm:py-14 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Banner with Background Image */}
         <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
@@ -695,15 +705,15 @@ function OvernightRecommendationSection() {
 
 function CatamaranVsSailingSection() {
   return (
-    <section id="catamaran-vs-sailing" className="pt-12 sm:pt-16 md:pt-20 bg-ocean-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16 md:pb-20">
+    <section id="catamaran-vs-sailing" className="py-10 sm:py-14 bg-ocean-50">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading subtitle="If you are stuck choosing, this quick guide usually solves it">
           Catamaran vs Sailing Yacht
         </SectionHeading>
 
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
-          <div className="bg-white rounded-lg p-6 sm:p-8 shadow-lg">
-            <div className="relative h-48 sm:h-56 md:h-64 mb-4 sm:mb-6 rounded-lg overflow-hidden">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
+            <div className="relative h-48 sm:h-56 md:h-64 mb-4 sm:mb-6 rounded-2xl overflow-hidden">
               <Image
                 src="/assets/images/home/catamaran.webp"
                 alt="Catamaran"
@@ -737,10 +747,10 @@ function CatamaranVsSailingSection() {
             </a>
           </div>
 
-          <div className="bg-white rounded-lg p-6 sm:p-8 shadow-lg">
-            <div className="relative h-48 sm:h-56 md:h-64 mb-4 sm:mb-6 rounded-lg overflow-hidden">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
+            <div className="relative h-48 sm:h-56 md:h-64 mb-4 sm:mb-6 rounded-2xl overflow-hidden">
               <Image
-                src="/assets/images/home/sailing-yacht.jpg"
+                src="/assets/images/home/ynz2xdnl8u0iuplpnrtb.jpg"
                 alt="Sailing Yacht"
                 fill
                 className="object-cover"
@@ -775,11 +785,13 @@ function CatamaranVsSailingSection() {
 
       </div>
 
-      <div className="bg-[#164e63] py-8 sm:py-10 md:py-12">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">Still unsure?</h3>
-          <p className="text-white/90 mb-6 sm:mb-8 text-base sm:text-lg">Message us your group size + comfort preferences and we will recommend the best fit.</p>
-          <CTAButton trackingId="comparison-quote">Get Personalized Recommendation</CTAButton>
+      <div className="bg-ocean-50 pt-6 sm:pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
+            <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">Still unsure?</h3>
+            <p className="text-white/80 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">Message us your group size + comfort preferences and we will recommend the best fit.</p>
+            <CTAButton trackingId="comparison-quote">Get Personalized Recommendation</CTAButton>
+          </div>
         </div>
       </div>
     </section>
@@ -832,8 +844,8 @@ function PopularRoutesSection() {
   const displayRoutes = getShuffledRoutes()
 
   return (
-    <section id="routes" className="pt-12 sm:pt-16 md:pt-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16 md:pb-20">
+    <section id="routes" className="py-10 sm:py-14 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading subtitle="Use these as inspiration. We will finalize the best route for your season and trip length">
           Most Popular Routes
         </SectionHeading>
@@ -925,12 +937,14 @@ function PopularRoutesSection() {
 
       </div>
 
-      <div className="bg-[#164e63] py-5 sm:py-6">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="mb-2 sm:mb-3 text-white text-lg sm:text-xl md:text-2xl font-bold">Want help choosing?</h3>
-          <p className="text-[#14b8a6] font-semibold text-sm sm:text-base md:text-lg">
-            <a href="#" className="hover:text-[#0d9488]">See route ideas: Sailing Itineraries Phuket →</a>
-          </p>
+      <div className="bg-gray-50 pt-6 sm:pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
+            <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">Want help choosing?</h3>
+            <p className="text-[#14b8a6] font-semibold text-sm sm:text-base md:text-lg">
+              <a href="#" className="hover:text-[#0d9488] transition-colors">See route ideas: Sailing Itineraries Phuket →</a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -972,7 +986,7 @@ function WhoItsForSection() {
   ]
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-ocean-50">
+    <section className="py-10 sm:py-14 bg-ocean-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading subtitle="Sailing adventures for everyone - families, couples, groups, and solo travelers">
           Who Phuket Sailing is perfect for
@@ -980,18 +994,20 @@ function WhoItsForSection() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {audiences.map((audience, index) => (
-            <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg card-hover">
-              <div className="relative h-48 sm:h-56">
-                <Image
-                  src={audience.image}
-                  alt={audience.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-4 sm:p-6">
-                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3">{audience.title}</h3>
-                <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">{audience.description}</p>
+            <div key={index} className="relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 h-64 sm:h-72 md:h-80 cursor-pointer group hover:-translate-y-2">
+              <Image
+                src={audience.image}
+                alt={audience.title}
+                fill
+                className="object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              {/* Shaded bottom gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent group-hover:from-black/90"></div>
+
+              {/* Content overlay at bottom */}
+              <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6 transition-all duration-300">
+                <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 text-white">{audience.title}</h3>
+                <p className="text-white/95 leading-relaxed text-sm sm:text-base">{audience.description}</p>
               </div>
             </div>
           ))}
@@ -1003,15 +1019,15 @@ function WhoItsForSection() {
 
 function WhatsIncludedSection() {
   return (
-    <section id="included" className="pt-12 sm:pt-16 md:pt-20">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16 md:pb-20">
+    <section id="included" className="py-10 sm:py-14 bg-white">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading subtitle="Inclusions vary by boat and trip type, but we keep it clear before you confirm anything">
           What is Included
         </SectionHeading>
 
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-10 md:mb-12">
-          <div className="bg-ocean-50 rounded-lg p-6 sm:p-8">
-            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl">Typically included on crewed charters</h3>
+          <div className="bg-ocean-50 rounded-2xl p-6 sm:p-8">
+            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl font-bold text-[#164e63]">Typically included on crewed charters</h3>
             <ul className="space-y-2 sm:space-y-3">
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
@@ -1032,8 +1048,8 @@ function WhatsIncludedSection() {
             </ul>
           </div>
 
-          <div className="bg-white rounded-lg p-6 sm:p-8 border-2 border-ocean-200">
-            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl">Often optional (depends on boat / route)</h3>
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border-2 border-ocean-200">
+            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl font-bold text-[#164e63]">Often optional (depends on boat / route)</h3>
             <ul className="space-y-2 sm:space-y-3">
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0">•</span>
@@ -1061,37 +1077,37 @@ function WhatsIncludedSection() {
 
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center">
           <div>
-            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl">What to Pack</h3>
-            <p className="mb-3 sm:mb-4 text-neutral-700 text-sm sm:text-base">Keep it simple:</p>
-            <ul className="space-y-1.5 sm:space-y-2">
+            <h3 className="mb-4 sm:mb-6 text-xl sm:text-2xl md:text-3xl font-bold text-[#164e63]">What to Pack</h3>
+            <p className="mb-4 sm:mb-5 text-neutral-700 text-base sm:text-lg">Keep it simple:</p>
+            <ul className="space-y-2 sm:space-y-3">
               <li className="flex items-start gap-2 sm:gap-3">
-                <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">Swimwear (bring ideally 3 sets as you might not wear anything else)</span>
+                <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
+                <span className="text-base sm:text-lg">Swimwear (bring ideally 3 sets as you might not wear anything else)</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
-                <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">Sunscreen, hat, sunglasses</span>
+                <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
+                <span className="text-base sm:text-lg">Sunscreen, hat, sunglasses</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
-                <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">Light cover-up / rash guard for snorkeling (we sell them at 500 THB)</span>
+                <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
+                <span className="text-base sm:text-lg">Light cover-up / rash guard for snorkeling (we sell them at 500 THB)</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
-                <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">Waterproof pouch for phone</span>
+                <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
+                <span className="text-base sm:text-lg">Waterproof pouch for phone</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
-                <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">Shoes that can get wet, but are suitable for hiking</span>
+                <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
+                <span className="text-base sm:text-lg">Shoes that can get wet, but are suitable for hiking</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
-                <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">Any personal medication (we have all kind of medications onboard seasickness, antibiotics, etc.)</span>
+                <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
+                <span className="text-base sm:text-lg">Any personal medication (we have all kind of medications onboard seasickness, antibiotics, etc.)</span>
               </li>
             </ul>
           </div>
 
-          <div className="relative h-64 sm:h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
+          <div className="relative h-64 sm:h-80 md:h-96 rounded-2xl overflow-hidden shadow-xl">
             <Image
               src="/assets/images/home/packing.webp"
               alt="What to pack"
@@ -1103,13 +1119,12 @@ function WhatsIncludedSection() {
 
       </div>
 
-      <div className="bg-[#164e63] py-5 sm:py-6">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block px-3 sm:px-4 py-1 bg-[#14b8a6] rounded-full text-xs sm:text-sm font-bold mb-2 sm:mb-3">
-            ✨ EXCLUSIVE OFFER
+      <div className="bg-white pt-6 sm:pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
+            <h3 className="text-white mb-6 sm:mb-8 text-xl sm:text-2xl md:text-3xl font-bold">Want a simple, itemized quote?</h3>
+            <CTAButton trackingId="included-quote"> Get a Fast Quote</CTAButton>
           </div>
-          <h3 className="text-white mb-3 sm:mb-4 text-xl sm:text-2xl md:text-3xl font-bold">Want a simple, itemized quote?</h3>
-          <CTAButton trackingId="included-quote">💰 Get a Fast Quote</CTAButton>
         </div>
       </div>
     </section>
@@ -1118,8 +1133,8 @@ function WhatsIncludedSection() {
 
 function PricingSection() {
   return (
-    <section id="pricing" className="pt-12 sm:pt-16 md:pt-20 bg-ocean-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16 md:pb-20">
+    <section id="pricing" className="py-10 sm:py-14 bg-ocean-50">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading subtitle="Prices depend on a few factors. This transparency helps you choose quickly">
           How Pricing Works
         </SectionHeading>
@@ -1127,12 +1142,12 @@ function PricingSection() {
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 mt-6 sm:mt-8">
           <div className="bg-white rounded-xl px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 shadow-xl border-2 border-ocean-200/50">
             <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 md:mb-8">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-gradient-to-br from-ocean-500 to-ocean-600 rounded-lg flex items-center justify-center shadow-lg flex-shrink-0">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-[#0d4d5c] rounded-lg flex items-center justify-center shadow-lg flex-shrink-0">
                 <svg className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-ocean-700">Main pricing drivers</h3>
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-bg-[#0d4d5c]">Main pricing drivers</h3>
             </div>
             <ul className="space-y-3 sm:space-y-4 md:space-y-6 px-0 sm:px-2">
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4">
@@ -1180,7 +1195,7 @@ function PricingSection() {
             </ul>
           </div>
           
-          <div className="bg-gradient-to-br from-ocean-600 to-ocean-700 rounded-xl px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 shadow-2xl border-2 border-ocean-500/50">
+          <div className=" bg-[#0d4d5c] backdrop-blur rounded-2xl px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 shadow-2xl border-2 border-white/10">
             <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 md:mb-8">
               <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-white/20 backdrop-blur-sm rounded-lg flex items-center justify-center shadow-lg flex-shrink-0">
                 <svg className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1232,14 +1247,13 @@ function PricingSection() {
 
       </div>
 
-      <div className="bg-[#164e63] py-5 sm:py-6">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block px-3 sm:px-4 py-1 bg-green-500 text-white rounded-full font-bold text-xs sm:text-sm mb-2 sm:mb-3">
-            💎 BEST VALUE GUARANTEE
+      <div className="bg-ocean-50 pt-6 sm:pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
+            <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">Fastest path to your quote</h3>
+            <p className="text-white/80 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">Send your dates + group size, and we will recommend the best options with clear pricing.</p>
+            <CTAButton trackingId="pricing-quote">Get Your Personalized Quote</CTAButton>
           </div>
-          <h3 className="mb-2 sm:mb-3 text-white text-xl sm:text-2xl md:text-3xl font-bold">Fastest path to your quote</h3>
-          <p className="text-white/90 mb-4 sm:mb-6 text-sm sm:text-base md:text-lg max-w-2xl mx-auto">Send your dates + group size, and we will recommend the best options with clear pricing.</p>
-          <CTAButton trackingId="pricing-quote">🎁 Get Your Personalized Quote</CTAButton>
         </div>
       </div>
     </section>
@@ -1271,10 +1285,10 @@ function BookingProcessSection() {
   ]
 
   return (
-    <section id="booking" className="pt-12 sm:pt-16 md:pt-20 bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50">
-      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 pb-12 sm:pb-16 md:pb-20">
+    <section id="booking" className="py-10 sm:py-14 bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-8 sm:mb-10">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#164e63] mb-5">
             How Booking Works
           </h2>
@@ -1311,8 +1325,8 @@ function BookingProcessSection() {
         </div>
 
         {/* 20-Second Inquiry Checklist */}
-        <div className="mb-14 max-w-6xl mx-auto">
-          <div className="text-center mb-10">
+        <div className="mb-8 sm:mb-10 max-w-6xl mx-auto">
+          <div className="text-center mb-6 sm:mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-[#164e63] mb-3">
               The 20-second inquiry checklist
             </h3>
@@ -1321,9 +1335,9 @@ function BookingProcessSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 sm:gap-6 md:gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
@@ -1333,7 +1347,7 @@ function BookingProcessSection() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
@@ -1343,7 +1357,7 @@ function BookingProcessSection() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -1353,7 +1367,7 @@ function BookingProcessSection() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
@@ -1363,7 +1377,7 @@ function BookingProcessSection() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
+              <div className="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -1378,17 +1392,19 @@ function BookingProcessSection() {
       </div>
 
       {/* CTA Section - Full Width */}
-      <div className="bg-gradient-to-r from-[#164e63] to-[#0f3a47] py-12 md:py-16">
-        <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8 text-center">
-          <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-            Ready to start planning?
-          </h3>
-          <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Send us your dates and group size — we&apos;ll craft the perfect sailing adventure for you
-          </p>
-          <CTAButton trackingId="booking-inquire">
-            Get Your Individual Quote
-          </CTAButton>
+      <div className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 pt-6 sm:pt-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4">
+              Ready to start planning?
+            </h3>
+            <p className="text-sm sm:text-base md:text-lg text-white/80 mb-6 sm:mb-8 leading-relaxed">
+              Send us your dates and group size — we&apos;ll craft the perfect sailing adventure for you
+            </p>
+            <CTAButton trackingId="booking-inquire">
+              Get Your Individual Quote
+            </CTAButton>
+          </div>
         </div>
       </div>
     </section>
@@ -1405,18 +1421,31 @@ function ExplorePages() {
   ]
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-ocean-600 text-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-white mb-8 sm:mb-10 md:mb-12 text-2xl sm:text-3xl md:text-4xl">Explore All Pages</h2>
+    <section className="relative py-10 sm:py-14 overflow-hidden">
+      {/* Blurry background image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/assets/images/home/ynz2xdnl8u0iuplpnrtb.jpg"
+          alt="Background"
+          fill
+          className="object-cover blur-md"
+        />
+        {/* Blurred teal overlay shade */}
+        <div className="absolute inset-0 bg-[#0d4d5c]/70 backdrop-blur-sm"></div>
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-center text-white mb-8 sm:mb-10 md:mb-12 text-3xl sm:text-4xl md:text-5xl font-bold">Explore All Pages</h2>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
           {pages.map((page, index) => (
             <a
               key={index}
               href="#"
-              className="bg-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 hover:bg-white/20 transition-all duration-300 card-hover"
+              className="bg-[#0d4d5c]/60 backdrop-blur-md rounded-2xl p-5 sm:p-6 md:p-7 hover:bg-[#14b8a6]/40 hover:scale-105 hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-2xl border border-white/30"
             >
-              <h3 className="text-lg sm:text-xl text-white">{page} →</h3>
+              <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-white">{page}</h3>
             </a>
           ))}
         </div>
@@ -1466,7 +1495,7 @@ function FAQSection() {
   ]
 
   return (
-    <section id="faqs" className="py-12 sm:py-16 md:py-20 bg-white">
+    <section id="faqs" className="py-10 sm:py-14 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading subtitle="Quick answers to common questions about sailing in Phuket">
           Frequently Asked Questions
@@ -1487,31 +1516,28 @@ function FAQSection() {
 
 function FinalCTASection() {
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-800 text-white relative overflow-hidden">
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 sm:top-20 left-10 sm:left-20 w-48 sm:w-72 h-48 sm:h-72 bg-sunset-500 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-10 sm:bottom-20 right-10 sm:right-20 w-64 sm:w-96 h-64 sm:h-96 bg-ocean-400 rounded-full blur-3xl animate-pulse delay-1000"></div>
-      </div>
+    <section className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 py-6 sm:py-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
+          <h2 className="text-white mb-6 sm:mb-8 text-xl sm:text-2xl md:text-3xl font-bold">Ready to plan your Phuket Sailing Charter?</h2>
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <h2 className="text-white mb-8 sm:mb-10 md:mb-12 text-2xl sm:text-3xl md:text-4xl">Ready to plan your Phuket Sailing Charter?</h2>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center max-w-xl mx-auto">
+            <a
+              href="tel:+6661234562"
+              className="group flex items-center justify-center gap-2 sm:gap-3 bg-white hover:bg-ocean-50 text-ocean-700 font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
+            >
+              <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
+              <span className="text-sm sm:text-base md:text-lg">Call Now</span>
+            </a>
 
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center max-w-xl mx-auto">
-          <a
-            href="tel:+6661234562"
-            className="group flex items-center justify-center gap-2 sm:gap-3 bg-white hover:bg-ocean-50 text-ocean-700 font-bold px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 w-full sm:w-auto"
-          >
-            <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
-            <span className="text-base sm:text-lg">Call Now</span>
-          </a>
-
-          <a
-            href="https://wa.me/6661234562"
-            className="group flex items-center justify-center gap-2 sm:gap-3 bg-green-500 hover:bg-green-600 text-white font-bold px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 w-full sm:w-auto"
-          >
-            <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
-            <span className="text-base sm:text-lg">WhatsApp</span>
-          </a>
+            <a
+              href="https://wa.me/6661234562"
+              className="group flex items-center justify-center gap-2 sm:gap-3 bg-green-600 hover:bg-green-700 text-white font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
+            >
+              <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
+              <span className="text-sm sm:text-base md:text-lg">WhatsApp</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
