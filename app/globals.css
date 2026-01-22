@@ -43,14 +43,21 @@
   
   h1 {
     @apply text-[clamp(2.5rem,5vw,3.75rem)] font-bold leading-tight tracking-tight text-[#164e63];
+    font-family: var(--font-playfair);
   }
-  
+
   h2 {
     @apply text-[clamp(2rem,4vw,3rem)] font-bold leading-tight tracking-tight text-[#164e63];
+    font-family: var(--font-playfair);
   }
-  
+
   h3 {
     @apply text-[clamp(1.5rem,3vw,2rem)] font-semibold leading-snug text-[#1e5a6d];
+    font-family: var(--font-playfair);
+  }
+
+  h4 {
+    font-family: var(--font-playfair);
   }
   
   p {
