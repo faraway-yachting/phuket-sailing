@@ -1,8 +1,10 @@
+'use client'
+import React from 'react'
 import Image from 'next/image'
 import { CTAButton } from '@/components/shared/CTAButton'
 import { ContactCards } from '@/components/shared/ContactCards'
 import { SectionHeading } from '@/components/shared/SectionHeading'
-import { Phone, MessageCircle } from 'lucide-react'
+import { Phone, MessageCircle, ChevronLeft, ChevronRight } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -51,7 +53,10 @@ function HeroSection() {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-white drop-shadow-lg leading-relaxed">
-            Plan your next Sailing Phuket experience in minutes. Choose your boat style, pick the trip length, and we'll recommend the best route for your dates—fast, clear, and holiday-easy.
+            Plan your next Sailing Phuket experience in minutes.
+            <br/> Choose your boat style, pick the trip length,
+            <br/> and we'll recommend the best route for your
+            <br/> dates—fast, clear, and holiday-easy.
           </p>
 
           <CTAButton trackingId="hero-quote" className="!px-6 !py-3 !text-base">
@@ -65,7 +70,7 @@ function HeroSection() {
 
 function ContactCardsSection() {
   return (
-    <section className="bg-white py-8 sm:py-10 md:py-12">
+    <section className="bg-white py-4 sm:py-5 md:py-6">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <ContactCards />
       </div>
@@ -74,51 +79,33 @@ function ContactCardsSection() {
 }
 
 function JumpLinks() {
-  const linksRow1 = [
+  const links = [
     { href: '#charter-style', label: 'Choose Your Charter Style' },
     { href: '#sailing-phuket', label: 'Sailing Phuket' },
-    { href: '#overnight', label: 'Overnight Sailing Trips Phuket' },
-    { href: '#catamaran-vs-sailing', label: 'Catamaran vs Sailing Yachts' },
-    { href: '#routes', label: 'Most Popular Routes' },
-  ]
-
-  const linksRow2 = [
+    { href: '#overnight', label: 'Overnight Sailing Trips' },
+    { href: '#catamaran-vs-sailing', label: 'Catamaran vs Sailing' },
+    { href: '#routes', label: 'Popular Routes' },
     { href: '#included', label: "What's Included" },
-    { href: '#pricing', label: 'How Pricing Works' },
-    { href: '#booking', label: 'How Booking Works' },
+    { href: '#pricing', label: 'Pricing' },
+    { href: '#booking', label: 'Booking' },
     { href: '#faqs', label: 'FAQs' },
   ]
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#164e63] shadow-lg">
-      <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 py-2 sm:py-3">
-        <div className="flex flex-col gap-1 sm:gap-2">
-          <div className="flex items-center justify-center gap-0.5 sm:gap-1 flex-wrap">
-            {linksRow1.map((link, index) => (
-              <span key={link.href} className="flex items-center">
+    <nav className="sticky top-0 z-50 -mt-8 sm:-mt-10 md:-mt-12 lg:-mt-14">
+      <div className="max-w-6xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
+        <div className="bg-white/90 backdrop-blur-md rounded-xl sm:rounded-2xl shadow-2xl p-2.5 sm:p-3 md:p-5 lg:p-6 border border-white/20">
+          <div className="flex flex-wrap items-center justify-center gap-x-1.5 sm:gap-x-2 md:gap-x-3 gap-y-1 sm:gap-y-1.5 md:gap-y-2">
+            {links.map((link, index) => (
+              <span key={link.href} className="flex items-center gap-1.5 sm:gap-2 md:gap-3">
                 <a
                   href={link.href}
-                  className="text-white hover:text-[#ca8a44] transition-colors duration-300 text-xs sm:text-sm whitespace-nowrap px-2 sm:px-3 py-1"
+                  className="text-[#164e63] hover:text-[#0891b2] transition-colors duration-300 text-[10px] sm:text-xs md:text-sm lg:text-base font-medium whitespace-nowrap px-0.5 sm:px-1"
                 >
                   {link.label}
                 </a>
-                {index < linksRow1.length - 1 && (
-                  <span className="text-white/40 text-xs sm:text-sm hidden sm:inline">|</span>
-                )}
-              </span>
-            ))}
-          </div>
-          <div className="flex items-center justify-center gap-0.5 sm:gap-1 flex-wrap">
-            {linksRow2.map((link, index) => (
-              <span key={link.href} className="flex items-center">
-                <a
-                  href={link.href}
-                  className="text-white hover:text-[#ca8a44] transition-colors duration-300 text-xs sm:text-sm whitespace-nowrap px-2 sm:px-3 py-1"
-                >
-                  {link.label}
-                </a>
-                {index < linksRow2.length - 1 && (
-                  <span className="text-white/40 text-xs sm:text-sm hidden sm:inline">|</span>
+                {index < links.length - 1 && (
+                  <span className="text-gray-300 text-[10px] sm:text-xs md:text-sm lg:text-base">|</span>
                 )}
               </span>
             ))}
@@ -145,71 +132,162 @@ function YachtFormSection() {
 }
 
 function CharterStylesSection() {
+  const [currentSlide, setCurrentSlide] = React.useState(0)
+
   const styles = [
     {
-      title: 'Private Sailing Yachts in Phuket',
-      description: 'A sailing yacht is the classic choice. You get the true feeling of sailing, a relaxed pace, and a real boat holiday vibe. Perfect for couples, smaller groups, and anyone who loves the romance of sails and sea breeze.',
+      title: 'Private Sailing Yachts',
       link: '#',
-      linkText: 'Explore: Sailing Yachts in Phuket',
+      linkText: 'Explore',
       image: '/assets/images/home/sailing-yacht.jpg',
     },
     {
-      title: 'Catamaran Charters in Phuket',
-      description: 'Catamarans are all about space and comfort. They are stable, family-friendly, and great for groups who want more lounging areas, shade, and a social deck layout.',
+      title: 'Catamaran Charters',
       link: '#',
-      linkText: 'Explore: Catamaran Charters in Phuket',
+      linkText: 'Explore',
       image: '/assets/images/home/catamaran.webp',
     },
     {
-      title: 'Overnight & Multi-Day Sailing',
-      description: 'If you want the best overall experience, go overnight. You get quiet mornings at anchor, less rushing, and routes day trips simply cannot reach.',
+      title: 'Overnight Sailing',
       link: '#',
-      linkText: 'Explore: Overnight Sailing Trips Phuket',
+      linkText: 'Explore',
       image: '/assets/images/home/overnight-sailing.webp',
     },
     {
-      title: 'Cabin Cruises Phuket',
-      description: 'Want a multi-day sailing trip without renting a whole private boat? Cabin cruises let you book by the cabin. Ideal for solo travelers, couples, and small groups who still want incredible island-hopping at a lower cost.',
+      title: 'Cabin Cruises',
       link: '#',
-      linkText: 'Explore: Cabin Cruises Phuket',
+      linkText: 'Explore',
       image: '/assets/images/home/cabin-cruise.avif',
     },
     {
-      title: 'Bareboat Charter Phuket',
-      description: 'For confident sailors who want full freedom. Bareboat usually requires a license and proven sailing experience. If you qualify, it is an amazing way to explore on your own terms.',
+      title: 'Bareboat Charter',
       link: '#',
-      linkText: 'Explore: Bareboat Charter Phuket',
+      linkText: 'Explore',
       image: '/assets/images/home/day-sailing.webp',
     },
   ]
 
-  return (
-    <section id="charter-style" className="pt-12 sm:pt-16 md:pt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16 md:pb-20">
-        <SectionHeading subtitle="Find the perfect boat and trip style for your Phuket sailing adventure">
-          Choose Your Charter Style
-        </SectionHeading>
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % styles.length)
+  }
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {styles.map((style, index) => (
-            <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg card-hover">
-              <div className="relative h-48 sm:h-56">
-                <Image
-                  src={style.image}
-                  alt={style.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-4 sm:p-6">
-                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3">{style.title}</h3>
-                <p className="text-neutral-600 mb-3 sm:mb-4 text-sm sm:text-base leading-relaxed">{style.description}</p>
-                <a href={style.link} className="text-[#ca8a44] font-semibold hover:text-[#b67934] transition-colors text-sm sm:text-base">
-                  {style.linkText} →
-                </a>
-              </div>
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + styles.length) % styles.length)
+  }
+
+  const goToSlide = (index: number) => {
+    setCurrentSlide(index)
+  }
+
+  // Calculate visible cards (current + 2 on each side)
+  const getVisibleCards = () => {
+    const visible = []
+    for (let i = -2; i <= 2; i++) {
+      const index = (currentSlide + i + styles.length) % styles.length
+      visible.push({ ...styles[index], position: i, originalIndex: index })
+    }
+    return visible
+  }
+
+  return (
+    <section id="charter-style" className="pt-8 sm:pt-10 md:pt-12 bg-gradient-to-b from-white to-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 sm:pb-10 md:pb-12">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
+            Choose Your Charter Style
+          </h2>
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+            <div className="h-2 w-2 bg-amber-500 rounded-full"></div>
+            <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+          </div>
+        </div>
+
+        {/* Carousel Container */}
+        <div className="relative mt-8">
+          {/* Navigation Buttons */}
+          <button
+            onClick={prevSlide}
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10 sm:w-12 sm:h-12 bg-[#0891b2] hover:bg-[#0e7490] rounded-full flex items-center justify-center text-white shadow-lg transition-all duration-300"
+            aria-label="Previous slide"
+          >
+            <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+          </button>
+
+          <button
+            onClick={nextSlide}
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10 sm:w-12 sm:h-12 bg-[#0891b2] hover:bg-[#0e7490] rounded-full flex items-center justify-center text-white shadow-lg transition-all duration-300"
+            aria-label="Next slide"
+          >
+            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
+          </button>
+
+          {/* Cards Container */}
+          <div className="overflow-hidden px-12 sm:px-16">
+            <div className="relative h-[550px] sm:h-[600px] flex items-center justify-center">
+              {getVisibleCards().map((style, idx) => {
+                const { position, originalIndex } = style
+                const isCenter = position === 0
+
+                return (
+                  <div
+                    key={`${originalIndex}-${idx}`}
+                    className="absolute transition-all duration-500 ease-in-out cursor-pointer"
+                    style={{
+                      left: `${50 + position * 22}%`,
+                      transform: `translateX(-50%) scale(${isCenter ? 1 : 0.85})`,
+                      zIndex: isCenter ? 10 : 5 - Math.abs(position),
+                      opacity: Math.abs(position) > 2 ? 0 : isCenter ? 1 : 0.6,
+                    }}
+                    onClick={() => !isCenter && goToSlide(originalIndex)}
+                  >
+                    <div className={`bg-white rounded-2xl overflow-hidden shadow-xl w-[320px] sm:w-[380px] transition-all duration-300 ${isCenter ? 'shadow-2xl' : ''}`}>
+                      {/* Image */}
+                      <div className="relative h-[400px] sm:h-[480px]">
+                        <Image
+                          src={style.image}
+                          alt={style.title}
+                          fill
+                          className="object-cover"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+
+                        {/* Content Overlay */}
+                        <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
+                          <div className="flex items-center justify-center gap-2 mb-2">
+                            <div className="h-px w-6 bg-white/60"></div>
+                            <div className="h-1 w-1 bg-white/60 rounded-full"></div>
+                          </div>
+                          <h3 className="text-white text-lg sm:text-xl font-bold text-center mb-4">
+                            {style.title}
+                          </h3>
+                          <button className="w-full bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white font-semibold py-2.5 px-4 rounded-lg transition-all duration-300 border border-white/30">
+                            {style.linkText}
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
             </div>
-          ))}
+          </div>
+
+          {/* Dots Navigation */}
+          <div className="flex items-center justify-center gap-2 mt-6">
+            {styles.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goToSlide(index)}
+                className={`transition-all duration-300 rounded-full ${
+                  index === currentSlide
+                    ? 'w-8 h-2 bg-[#0891b2]'
+                    : 'w-2 h-2 bg-gray-300 hover:bg-gray-400'
+                }`}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
+          </div>
         </div>
 
       </div>
@@ -240,14 +318,37 @@ function SailingPhuketSection() {
     <section id="sailing-phuket" className="py-12 sm:py-16 md:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
-          {/* Image - Left Side */}
-          <div className="relative h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
-            <Image
-              src="/assets/images/home/phuket.jpg"
-              alt="Sailing in Phuket"
-              fill
-              className="object-cover rounded-xl sm:rounded-2xl"
-            />
+          {/* Image Collage - Left Side */}
+          <div className="relative h-[350px] sm:h-[450px] md:h-[500px] lg:h-[550px]">
+            {/* Left large image - Main */}
+            <div className="absolute left-0 top-[10%] w-[58%] h-[85%] rounded-3xl overflow-hidden shadow-2xl border-4 border-white z-10">
+              <Image
+                src="/assets/images/home/phuket1.jpg"
+                alt="Phuket tropical waters"
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            {/* Top right image */}
+            <div className="absolute right-0 top-0 w-[48%] h-[42%] rounded-2xl overflow-hidden shadow-xl border-4 border-white">
+              <Image
+                src="/assets/images/home/phuket2.jpg"
+                alt="Phuket limestone caves"
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            {/* Bottom right image */}
+            <div className="absolute right-0 bottom-0 w-[48%] h-[52%] rounded-2xl overflow-hidden shadow-xl border-4 border-white">
+              <Image
+                src="/assets/images/home/phuket3.jpg"
+                alt="Phuket James Bond Island"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
 
           {/* Text Content - Right Side */}
@@ -309,30 +410,44 @@ function WhatTripTypeSection() {
   ]
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-gray-50">
+    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] text-center mb-3 sm:mb-4">
           What type of trip are you planning?
         </h2>
         <p className="text-center text-neutral-600 mb-8 sm:mb-10 md:mb-12 text-base sm:text-lg">Here are the three most common starting points:</p>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {tripTypes.map((type, index) => (
-            <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="relative h-48 sm:h-56">
+            <div key={index} className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+              {/* Image Container */}
+              <div className="relative h-64 sm:h-72 overflow-hidden">
                 <Image
                   src={type.image}
                   alt={type.title}
                   fill
-                  className="object-cover"
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
+                {/* Gradient Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+
+                {/* Explore Button Badge */}
+                <div className="absolute bottom-4 right-4">
+                  <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2.5 rounded-full font-semibold text-sm shadow-lg transition-all duration-300 transform hover:scale-105">
+                    Explore
+                  </button>
+                </div>
               </div>
-              <div className="p-4 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-bold text-[#164e63] mb-2 sm:mb-3">{type.title}</h3>
-                <p className="text-neutral-600 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base">{type.description}</p>
-                <a href="#" className="text-[#ca8a44] font-semibold hover:text-[#b67934] transition-colors inline-flex items-center gap-1 text-sm sm:text-base">
-                  Explore →
-                </a>
+
+              {/* Content */}
+              <div className="p-5 sm:p-6">
+                <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3">
+                  {type.title}
+                </h3>
+
+                <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
+                  {type.description}
+                </p>
               </div>
             </div>
           ))}
@@ -344,68 +459,80 @@ function WhatTripTypeSection() {
 
 function OvernightSailingSection() {
   return (
-    <section id="overnight" className="relative py-12 sm:py-16 md:py-20 overflow-hidden">
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/assets/images/home/overnight-sailing.webp"
-          alt="Overnight Sailing Background"
-          fill
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-[#164e63]/75"></div>
-      </div>
+    <section id="overnight" className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-gray-50 to-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          {/* Left Side - Text Content */}
+          <div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-6">
+              Overnight Sailing Trips Phuket
+            </h2>
 
-      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 text-center">
-          Overnight Sailing Trips Phuket
-        </h2>
+            <p className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
+              If you want the trip that people talk about for years, choose overnight sailing. Day trips are fun, but overnight is where Phuket becomes quiet, beautiful, and unhurried.
+            </p>
 
-        <p className="text-white text-sm sm:text-base md:text-lg mb-8 sm:mb-10 text-center max-w-3xl mx-auto leading-relaxed">
-          If you want the trip that people talk about for years, choose overnight sailing. Day trips are fun, but overnight is where Phuket becomes quiet, beautiful, and unhurried.
-        </p>
+            <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-6">
+              Why overnight sailing feels different
+            </h3>
 
-        <div className="max-w-2xl mx-auto mb-8 sm:mb-10">
-          <div className="relative h-56 sm:h-72 md:h-96 rounded-lg overflow-hidden shadow-2xl">
-            <Image
-              src="/assets/images/home/overnight-sailing.webp"
-              alt="Overnight Sailing Catamaran at Sunset"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-
-        <div className="max-w-2xl mx-auto">
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-6 sm:mb-8">
-            Why overnight sailing feels different
-          </h3>
-
-          <div className="space-y-3 sm:space-y-4">
-          <div className="flex items-start gap-3 sm:gap-4">
-            <span className="text-[#ca8a44] text-lg sm:text-xl mt-1 flex-shrink-0">✓</span>
-            <p className="text-sm sm:text-base md:text-lg text-white">You don't rush back to the pier</p>
-          </div>
-
-          <div className="flex items-start gap-3 sm:gap-4">
-            <span className="text-[#ca8a44] text-lg sm:text-xl mt-1 flex-shrink-0">✓</span>
-            <p className="text-sm sm:text-base md:text-lg text-white">You swim when bays are calm</p>
+            <ul className="space-y-3 sm:space-y-4">
+              <li className="flex items-start gap-3">
+                <span className="text-[#ca8a44] text-xl mt-0.5 flex-shrink-0">✓</span>
+                <span className="text-gray-700 text-base sm:text-lg">You don't rush back to the pier</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-[#ca8a44] text-xl mt-0.5 flex-shrink-0">✓</span>
+                <span className="text-gray-700 text-base sm:text-lg">You swim when bays are calm</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-[#ca8a44] text-xl mt-0.5 flex-shrink-0">✓</span>
+                <span className="text-gray-700 text-base sm:text-lg">You enjoy sunset and sunrise at anchor</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-[#ca8a44] text-xl mt-0.5 flex-shrink-0">✓</span>
+                <span className="text-gray-700 text-base sm:text-lg">You can reach the best islands with fewer crowds</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-[#ca8a44] text-xl mt-0.5 flex-shrink-0">✓</span>
+                <span className="text-gray-700 text-base sm:text-lg">You get time for snorkeling, beaches, viewpoints, and "do nothing" moments</span>
+              </li>
+            </ul>
           </div>
 
-          <div className="flex items-start gap-3 sm:gap-4">
-            <span className="text-[#ca8a44] text-lg sm:text-xl mt-1 flex-shrink-0">✓</span>
-            <p className="text-sm sm:text-base md:text-lg text-white">You enjoy sunset and sunrise at anchor</p>
-          </div>
+          {/* Right Side - Image with Overlays */}
+          <div className="relative">
+            {/* Main Image */}
+            <div className="relative h-[400px] sm:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+              <Image
+                src="/assets/images/home/overnight-sailing.webp"
+                alt="Overnight Sailing Catamaran"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#164e63]/20 to-transparent"></div>
+            </div>
 
-          <div className="flex items-start gap-3 sm:gap-4">
-            <span className="text-[#ca8a44] text-lg sm:text-xl mt-1 flex-shrink-0">✓</span>
-            <p className="text-sm sm:text-base md:text-lg text-white">You can reach the best islands with fewer crowds</p>
-          </div>
+            {/* Top Right Circle - Yacht Guests */}
+            <div className="absolute -top-8 -right-8 sm:-top-12 sm:-right-12 w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl border-4 sm:border-6 border-white">
+              <Image
+                src="/assets/images/home/party.jpg"
+                alt="Guests enjoying yacht experience"
+                fill
+                className="object-cover"
+              />
+            </div>
 
-          <div className="flex items-start gap-3 sm:gap-4">
-            <span className="text-[#ca8a44] text-lg sm:text-xl mt-1 flex-shrink-0">✓</span>
-            <p className="text-sm sm:text-base md:text-lg text-white">You get time for snorkeling, beaches, viewpoints, and "do nothing" moments</p>
+            {/* Bottom Right Circle - Couple */}
+            <div className="absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-12 w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl border-4 sm:border-6 border-white">
+              <Image
+                src="/assets/images/home/couple.jpg"
+                alt="Couple on overnight sailing trip"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </section>
@@ -415,91 +542,150 @@ function OvernightSailingSection() {
 function OvernightRecommendationSection() {
   return (
     <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-gray-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-gradient-to-br from-[#164e63] to-[#0a3a4a] rounded-xl p-6 sm:p-8 md:p-12 text-white shadow-xl">
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight text-white">
-            Our honest recommendation: 5 nights minimum (if you can)
-          </h2>
-
-          <p className="text-sm sm:text-base md:text-lg mb-8 sm:mb-10 text-white leading-relaxed max-w-4xl">
-            If your schedule allows, 5+ nights is the sweet spot. That's when you can reach more remote areas and enjoy a calmer experience than the busiest hotspots.
-          </p>
-
-          <h3 className="text-base sm:text-lg md:text-xl font-bold mb-4 sm:mb-6 text-white">
-            Three standout "off-the-beaten-track" destinations:
-          </h3>
-
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 border border-white/30 hover:border-white/60 hover:bg-white/20 transition-all duration-300">
-              <h4 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-white">Koh Rok</h4>
-              <p className="text-white/95 text-xs sm:text-sm md:text-base">Clear water and a quieter, more remote feel</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 border border-white/30 hover:border-white/60 hover:bg-white/20 transition-all duration-300">
-              <h4 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-white">Koh Ha</h4>
-              <p className="text-white/95 text-xs sm:text-sm md:text-base">Beautiful lagoons and amazing snorkeling conditions</p>
-            </div>
-
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 border border-white/30 hover:border-white/60 hover:bg-white/20 transition-all duration-300 sm:col-span-2 md:col-span-1">
-              <h4 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-white">Butang Islands (7+ nights)</h4>
-              <p className="text-white/95 text-xs sm:text-sm md:text-base">Fewest crowds, amazing landscapes over and under water</p>
-            </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Hero Banner with Background Image */}
+        <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <Image
+              src="/assets/images/home/catamaran-aerial-hero.jpg"
+              alt="Aerial view of catamarans"
+              fill
+              className="object-cover blur-[2px] scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-[#164e63]/70 to-[#164e63]/95"></div>
           </div>
 
-          <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed">
-            These areas are typically far less crowded than the most popular day-trip zones like Phang Nga Bay or Phi Phi islands. That's why we recommend five nights minimum when guests want the best version of Phuket sailing.
-          </p>
+          {/* Content - Right Side */}
+          <div className="relative z-10 flex flex-col lg:flex-row min-h-[550px] sm:min-h-[600px]">
+            {/* Empty left side for image visibility */}
+            <div className="hidden lg:block lg:w-[45%]"></div>
+
+            {/* Text Content - Right Side */}
+            <div className="w-full lg:w-[55%] p-6 sm:p-8 md:p-10 lg:p-12 flex flex-col justify-center">
+              <span className="text-teal-300 text-lg sm:text-xl italic mb-2">Our honest recommendation</span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-5 leading-tight text-white">
+                5 nights minimum (if you can)
+              </h2>
+
+              <p className="text-sm sm:text-base md:text-lg mb-6 text-white/90 leading-relaxed">
+                If your schedule allows, 5+ nights is the sweet spot. That's when you can reach more remote areas and enjoy a calmer experience than the busiest hotspots.
+              </p>
+
+              <h3 className="text-base sm:text-lg font-bold text-white mb-4">
+                Three standout "off-the-beaten-track" destinations:
+              </h3>
+
+              {/* Destination Cards */}
+              <div className="space-y-3 mb-6">
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
+                  <h4 className="font-bold text-white text-sm sm:text-base">Koh Rok</h4>
+                  <p className="text-white/80 text-xs sm:text-sm">Clear water and a quieter, more remote feel</p>
+                </div>
+
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
+                  <h4 className="font-bold text-white text-sm sm:text-base">Koh Ha</h4>
+                  <p className="text-white/80 text-xs sm:text-sm">Beautiful lagoons and amazing snorkeling conditions</p>
+                </div>
+
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
+                  <h4 className="font-bold text-white text-sm sm:text-base">Butang Islands (7+ nights)</h4>
+                  <p className="text-white/80 text-xs sm:text-sm">Fewest crowds, amazing landscapes over and under water</p>
+                </div>
+              </div>
+
+              <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-6">
+                These areas are typically far less crowded than the most popular day-trip zones like Phang Nga Bay or Phi Phi islands. That's why we recommend five nights minimum when guests want the best version of Phuket sailing.
+              </p>
+              
+            </div>
+          </div>
         </div>
 
-        <div className="mt-8 sm:mt-10 md:mt-12 bg-white rounded-xl p-6 sm:p-8 md:p-10 lg:p-12 shadow-xl border border-gray-100">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] mb-4 sm:mb-6">
-            Shorter overnights still work
-          </h3>
+        {/* Shorter Overnights Section - New Design */}
+        <div className="mt-8 sm:mt-10 md:mt-12 bg-white rounded-xl overflow-hidden shadow-xl border border-gray-100">
+          <div className="grid lg:grid-cols-2 gap-0">
+            {/* Left Side - Content */}
+            <div className="p-6 sm:p-8 md:p-10 lg:p-12">
+              {/* Header */}
+              <span className="text-teal-500 text-sm sm:text-base italic mb-2 block">Plan your trip</span>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] mb-6 sm:mb-8">
+                Shorter overnights still work
+              </h3>
 
-          <p className="text-neutral-600 text-base sm:text-lg md:text-xl mb-6 sm:mb-8 leading-relaxed">
-            If you have fewer nights, we'll plan a route that feels realistic and relaxed:
-          </p>
+              <p className="text-neutral-600 text-sm sm:text-base md:text-lg mb-8 leading-relaxed">
+                If you have fewer nights, we'll plan a route that feels realistic and relaxed:
+              </p>
 
-          <div className="space-y-4 sm:space-y-5 mb-8 sm:mb-10">
-            <div className="flex items-start gap-3 sm:gap-4 p-4 sm:p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200">
-              <span className="text-[#ca8a44] text-xl sm:text-2xl mt-1 flex-shrink-0">•</span>
-              <div className="text-sm sm:text-base md:text-lg">
-                <span className="font-bold text-[#164e63] text-base sm:text-lg">1–2 nights:</span>
-                <span className="text-neutral-700"> nearby highlights like Phi Phi and Racha Islands</span>
+              {/* Feature Items with Icons */}
+              <div className="space-y-6 sm:space-y-8">
+                {/* 1-2 Nights */}
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 sm:w-7 sm:h-7 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-[#164e63] text-base sm:text-lg mb-1">1–2 nights</h4>
+                    <p className="text-neutral-600 text-sm sm:text-base leading-relaxed">Nearby highlights like Phi Phi and Racha Islands</p>
+                  </div>
+                </div>
+
+                {/* 3-4 Nights */}
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 sm:w-7 sm:h-7 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-[#164e63] text-base sm:text-lg mb-1">3–4 nights</h4>
+                    <p className="text-neutral-600 text-sm sm:text-base leading-relaxed">A bigger loop with more variety of destinations</p>
+                  </div>
+                </div>
+
+                {/* 5-14 Nights */}
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 sm:w-7 sm:h-7 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-[#164e63] text-base sm:text-lg mb-1">5–14 nights</h4>
+                    <p className="text-neutral-600 text-sm sm:text-base leading-relaxed">Absolute best destinations and deeper exploration of Thai islands and culture</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* CTA */}
+              <div className="mt-8 sm:mt-10">
+                <p className="text-sm sm:text-base text-neutral-600 mb-4">
+                  Tell us your dates and number of nights and we'll recommend the best route.
+                </p>
+                <button className="inline-flex items-center justify-center px-6 py-3 text-sm sm:text-base font-bold text-white bg-gradient-to-r from-[#ca8a44] to-[#b67934] rounded-lg hover:from-[#b67934] hover:to-[#a66824] transition-all duration-300 shadow-lg hover:shadow-xl">
+                  Tell us your dates and number of nights
+                </button>
+                <p className="mt-4">
+                  <a href="#overnight" className="text-[#ca8a44] hover:text-[#b67934] font-semibold text-sm inline-flex items-center gap-1 transition-colors duration-200">
+                    → Start here: Overnight Sailing Trips Phuket
+                  </a>
+                </p>
               </div>
             </div>
 
-            <div className="flex items-start gap-3 sm:gap-4 p-4 sm:p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200">
-              <span className="text-[#ca8a44] text-xl sm:text-2xl mt-1 flex-shrink-0">•</span>
-              <div className="text-sm sm:text-base md:text-lg">
-                <span className="font-bold text-[#164e63] text-base sm:text-lg">3–4 nights:</span>
-                <span className="text-neutral-700"> a bigger loop with more variety of destinations</span>
-              </div>
+            {/* Right Side - Image */}
+            <div className="relative h-[300px] lg:h-auto min-h-[400px]">
+              <Image
+                src="/assets/images/home/couple3.jpg"
+                alt="Overnight sailing yacht"
+                fill
+                className="object-cover object-center"
+              />
+              {/* Subtle gradient overlay for blending */}
+              <div className="absolute inset-0 bg-gradient-to-r from-white/20 via-transparent to-transparent lg:block hidden"></div>
             </div>
-
-            <div className="flex items-start gap-3 sm:gap-4 p-4 sm:p-5 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200">
-              <span className="text-[#ca8a44] text-xl sm:text-2xl mt-1 flex-shrink-0">•</span>
-              <div className="text-sm sm:text-base md:text-lg">
-                <span className="font-bold text-[#164e63] text-base sm:text-lg">5-14 nights:</span>
-                <span className="text-neutral-700"> absolute best destinations and deeper exploration of Thai islands and culture</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center bg-gradient-to-br from-gray-50 to-white rounded-lg p-6 sm:p-8 border border-gray-100">
-            <p className="text-base sm:text-lg md:text-xl text-neutral-700 mb-6 sm:mb-8 leading-relaxed font-medium">
-              Tell us your dates and number of nights and we'll recommend the best route.
-            </p>
-
-            <button className="inline-flex items-center justify-center px-6 sm:px-8 md:px-10 py-4 sm:py-5 text-base sm:text-lg md:text-xl font-bold text-white bg-gradient-to-r from-[#ca8a44] to-[#b67934] rounded-lg hover:from-[#b67934] hover:to-[#a66824] transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1 transform w-full sm:w-auto">
-              Tell us your dates and number of nights
-            </button>
-
-            <p className="mt-6 sm:mt-8">
-              <a href="#overnight" className="text-[#ca8a44] hover:text-[#b67934] font-bold text-sm sm:text-base md:text-lg inline-flex items-center gap-2 transition-colors duration-200">
-                → Start here: Overnight Sailing Trips Phuket
-              </a>
-            </p>
           </div>
         </div>
       </div>
@@ -624,30 +810,117 @@ function PopularRoutesSection() {
     },
   ]
 
+  const [activeIndex, setActiveIndex] = React.useState(0)
+
+  // Auto-shuffle every 4 seconds
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % routes.length)
+    }, 4000)
+    return () => clearInterval(interval)
+  }, [routes.length])
+
+  // Get shuffled routes based on activeIndex
+  const getShuffledRoutes = () => {
+    const shuffled = []
+    for (let i = 0; i < routes.length; i++) {
+      shuffled.push(routes[(activeIndex + i) % routes.length])
+    }
+    return shuffled
+  }
+
+  const displayRoutes = getShuffledRoutes()
+
   return (
-    <section id="routes" className="pt-12 sm:pt-16 md:pt-20">
+    <section id="routes" className="pt-12 sm:pt-16 md:pt-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16 md:pb-20">
         <SectionHeading subtitle="Use these as inspiration. We will finalize the best route for your season and trip length">
           Most Popular Routes
         </SectionHeading>
 
-        <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
-          {routes.map((route, index) => (
-            <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg card-hover">
-              <div className="relative h-48 sm:h-56 md:h-64">
-                <Image
-                  src={route.image}
-                  alt={route.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-4 sm:p-6">
-                <h3 className="text-lg sm:text-xl mb-2 sm:mb-3">{route.title}</h3>
-                <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">{route.description}</p>
+        {/* Bento Grid Layout */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
+          {/* Left - Large Card */}
+          <div className="group relative h-[300px] sm:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
+            <Image
+              src={displayRoutes[0].image}
+              alt={displayRoutes[0].title}
+              fill
+              className="object-cover group-hover:scale-105 transition-all duration-700"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6 lg:p-8">
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3 transition-all duration-500">
+                {displayRoutes[0].title}
+              </h3>
+              <p className="text-white/90 text-sm sm:text-base leading-relaxed line-clamp-3 transition-all duration-500">
+                {displayRoutes[0].description}
+              </p>
+            </div>
+          </div>
+
+          {/* Right Column */}
+          <div className="flex flex-col gap-4 sm:gap-5">
+            {/* Top Right - Medium Card */}
+            <div className="group relative h-[200px] sm:h-[240px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
+              <Image
+                src={displayRoutes[1].image}
+                alt={displayRoutes[1].title}
+                fill
+                className="object-cover group-hover:scale-105 transition-all duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+              <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5">
+                <h3 className="text-lg sm:text-xl font-bold text-white mb-1 sm:mb-2 transition-all duration-500">
+                  {displayRoutes[1].title}
+                </h3>
+                <p className="text-white/90 text-xs sm:text-sm leading-relaxed line-clamp-2 transition-all duration-500">
+                  {displayRoutes[1].description}
+                </p>
               </div>
             </div>
-          ))}
+
+            {/* Bottom Row - Two Small Cards */}
+            <div className="grid grid-cols-2 gap-4 sm:gap-5">
+              {/* Card 3 */}
+              <div className="group relative h-[180px] sm:h-[240px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
+                <Image
+                  src={displayRoutes[2].image}
+                  alt={displayRoutes[2].title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-all duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4">
+                  <h3 className="text-sm sm:text-base font-bold text-white mb-1 transition-all duration-500">
+                    {displayRoutes[2].title}
+                  </h3>
+                  <p className="text-white/90 text-xs leading-relaxed line-clamp-2 hidden sm:block transition-all duration-500">
+                    {displayRoutes[2].description}
+                  </p>
+                </div>
+              </div>
+
+              {/* Card 4 */}
+              <div className="group relative h-[180px] sm:h-[240px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
+                <Image
+                  src={displayRoutes[3].image}
+                  alt={displayRoutes[3].title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-all duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 right-0 p-3 sm:p-4">
+                  <h3 className="text-sm sm:text-base font-bold text-white mb-1 transition-all duration-500">
+                    {displayRoutes[3].title}
+                  </h3>
+                  <p className="text-white/90 text-xs leading-relaxed line-clamp-2 hidden sm:block transition-all duration-500">
+                    {displayRoutes[3].description}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
