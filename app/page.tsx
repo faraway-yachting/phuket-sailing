@@ -14,14 +14,17 @@ export default function Home() {
       <ContactCardsSection />
       <CharterStylesSection />
       <SailingPhuketSection />
+      <SailingContactSection />
       <WhatTripTypeSection />
       <OvernightSailingSection />
       <OvernightRecommendationSection />
+      <CatamaranContactSection />
       <CatamaranVsSailingSection />
       <PopularRoutesSection />
       <WhoItsForSection />
       <WhatsIncludedSection />
       <PricingSection />
+      <BookingContactSection />
       <BookingProcessSection />
       <ExplorePages />
       <FAQSection />
@@ -335,6 +338,16 @@ function SailingPhuketSection() {
   )
 }
 
+function SailingContactSection() {
+  return (
+    <section className="bg-white py-6 sm:py-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ContactCards />
+      </div>
+    </section>
+  )
+}
+
 function WhatTripTypeSection() {
   const tripTypes = [
     {
@@ -633,6 +646,16 @@ function OvernightRecommendationSection() {
             </div>
           </div>
         </div>
+      </div>
+    </section>
+  )
+}
+
+function CatamaranContactSection() {
+  return (
+    <section className="bg-white py-6 sm:py-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ContactCards />
       </div>
     </section>
   )
@@ -1190,6 +1213,16 @@ function PricingSection() {
             <CTAButton trackingId="pricing-quote">Get Your Personalized Quote</CTAButton>
           </div>
         </div>
+      </div>
+    </section>
+  )
+}
+
+function BookingContactSection() {
+  return (
+    <section className="bg-white py-6 sm:py-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ContactCards />
       </div>
     </section>
   )
