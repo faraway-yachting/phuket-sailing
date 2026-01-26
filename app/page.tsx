@@ -132,172 +132,107 @@ function YachtFormSection() {
 }
 
 function CharterStylesSection() {
-  const [currentSlide, setCurrentSlide] = React.useState(0)
-
-  const styles = [
+  const charterStyles = [
     {
-      title: 'Private Sailing Yachts',
-      link: '#',
-      linkText: 'Explore',
+      title: 'Private Sailing Yachts in Phuket',
+      description: 'A sailing yacht is the classic choice. You get the true feeling of sailing, a relaxed pace, and a "real boat holiday" vibe. It\'s perfect for couples, smaller groups, and anyone who loves the romance of sails and sea breeze.',
+      link: '/sailing-yachts-phuket',
+      linkText: 'Explore: Sailing Yachts in Phuket',
       image: '/assets/images/home/sailing-yacht.jpg',
     },
     {
-      title: 'Catamaran Charters',
-      link: '#',
-      linkText: 'Explore',
+      title: 'Catamaran Charters in Phuket',
+      description: 'Catamarans are all about space and comfort. They\'re stable, family-friendly, and great for groups who want more lounging areas, shade, and a social deck layout.',
+      link: '/catamaran-charters-phuket',
+      linkText: 'Explore: Catamaran Charters in Phuket',
       image: '/assets/images/home/catamaran.webp',
     },
     {
-      title: 'Overnight Sailing',
-      link: '#',
-      linkText: 'Explore',
+      title: 'Overnight & Multi-Day Sailing',
+      description: 'If you want the best overall experience, go overnight. You get quiet mornings at anchor, less rushing, and routes day trips simply can\'t reach.',
+      link: '/overnight-sailing-phuket',
+      linkText: 'Explore: Overnight Sailing Trips Phuket',
       image: '/assets/images/home/overnight-sailing.webp',
     },
     {
-      title: 'Cabin Cruises',
-      link: '#',
-      linkText: 'Explore',
+      title: 'Cabin Cruises Phuket',
+      description: 'Want a multi-day sailing trip without renting a whole private boat? Cabin cruises let you book by the cabin. It\'s ideal for solo travelers, couples, and small groups who still want incredible island-hopping at a lower cost.',
+      link: '/cabin-cruises-phuket',
+      linkText: 'Explore: Cabin Cruises Phuket',
       image: '/assets/images/home/cabin-cruise.avif',
     },
     {
-      title: 'Bareboat Charter',
-      link: '#',
-      linkText: 'Explore',
+      title: 'Bareboat Charter Phuket',
+      description: 'For confident sailors who want full freedom. Bareboat usually requires a license and/or proven sailing experience. If you qualify, it\'s an amazing way to explore on your own terms.',
+      link: '/bareboat-charter-phuket',
+      linkText: 'Explore: Bareboat Charter Phuket',
       image: '/assets/images/home/day-sailing.webp',
     },
   ]
 
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % styles.length)
-  }
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + styles.length) % styles.length)
-  }
-
-  const goToSlide = (index: number) => {
-    setCurrentSlide(index)
-  }
-
-  // Auto-swipe every 4 seconds
-  React.useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide()
-    }, 8000)
-    return () => clearInterval(interval)
-  }, [])
-
-  // Calculate visible cards (current + 2 on each side)
-  const getVisibleCards = () => {
-    const visible = []
-    for (let i = -2; i <= 2; i++) {
-      const index = (currentSlide + i + styles.length) % styles.length
-      visible.push({ ...styles[index], position: i, originalIndex: index })
-    }
-    return visible
-  }
-
   return (
-    <section id="charter-style" className="py-8 sm:py-12 bg-gradient-to-b from-white to-gray-50">
+    <section id="charter-style" className="py-10 sm:py-14 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-8">
+        <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
             Choose Your Charter Style
           </h2>
-          <div className="flex items-center justify-center gap-2 mb-4">
+          <div className="flex items-center justify-center gap-2">
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
             <div className="h-2 w-2 bg-amber-500 rounded-full"></div>
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
           </div>
         </div>
 
-        {/* Carousel Container */}
-        <div className="relative mt-8">
-          {/* Navigation Buttons */}
-          <button
-            onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10 sm:w-12 sm:h-12 bg-[#0891b2] hover:bg-[#0e7490] rounded-full flex items-center justify-center text-white shadow-lg transition-all duration-300"
-            aria-label="Previous slide"
-          >
-            <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
-          </button>
+        {/* Charter Cards */}
+        <div className="space-y-6 sm:space-y-8">
+          {charterStyles.map((charter, index) => (
+            <div
+              key={index}
+              className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
+            >
+              <div className="grid md:grid-cols-5 gap-0">
+                {/* Left Side - Image */}
+                <div className="relative h-64 md:h-auto md:col-span-2 overflow-hidden">
+                  <Image
+                    src={charter.image}
+                    alt={charter.title}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  {/* Diagonal slash overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-[#0a2a35]/20"></div>
+                  <svg className="absolute bottom-0 right-0 w-full h-32 md:h-full" preserveAspectRatio="none" viewBox="0 0 100 100">
+                    <polygon points="100,0 100,100 85,100" fill="#0a2a35" opacity="0.85" />
+                  </svg>
+                </div>
 
-          <button
-            onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10 sm:w-12 sm:h-12 bg-[#0891b2] hover:bg-[#0e7490] rounded-full flex items-center justify-center text-white shadow-lg transition-all duration-300"
-            aria-label="Next slide"
-          >
-            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
-          </button>
+                {/* Right Side - Content */}
+                <div className="md:col-span-3 bg-white p-6 sm:p-8 md:p-10 flex flex-col justify-center relative">
+                  {/* Dark blue background extension from diagonal */}
+                  <div className="absolute left-0 top-0 bottom-0 w-8 md:w-12 bg-gradient-to-r from-[#0a2a35] to-transparent opacity-60"></div>
 
-          {/* Cards Container */}
-          <div className="overflow-hidden px-12 sm:px-16">
-            <div className="relative h-[550px] sm:h-[600px] flex items-center justify-center">
-              {getVisibleCards().map((style, idx) => {
-                const { position, originalIndex } = style
-                const isCenter = position === 0
+                  <div className="relative z-10">
+                    <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#164e63] mb-3 sm:mb-4">
+                      {charter.title}
+                    </h3>
 
-                return (
-                  <div
-                    key={`${originalIndex}-${idx}`}
-                    className="absolute transition-all duration-500 ease-in-out cursor-pointer"
-                    style={{
-                      left: `${50 + position * 22}%`,
-                      transform: `translateX(-50%) scale(${isCenter ? 1 : 0.85})`,
-                      zIndex: isCenter ? 10 : 5 - Math.abs(position),
-                      opacity: Math.abs(position) > 2 ? 0 : isCenter ? 1 : 0.6,
-                    }}
-                    onClick={() => !isCenter && goToSlide(originalIndex)}
-                  >
-                    <div className={`bg-white rounded-2xl overflow-hidden shadow-xl w-[320px] sm:w-[380px] transition-all duration-300 ${isCenter ? 'shadow-2xl' : ''}`}>
-                      {/* Image */}
-                      <div className="relative h-[400px] sm:h-[480px]">
-                        <Image
-                          src={style.image}
-                          alt={style.title}
-                          fill
-                          className="object-cover"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                    <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6">
+                      {charter.description}
+                    </p>
 
-                        {/* Content Overlay */}
-                        <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6">
-                          <div className="flex items-center justify-center gap-2 mb-2">
-                            <div className="h-px w-6 bg-white/60"></div>
-                            <div className="h-1 w-1 bg-white/60 rounded-full"></div>
-                          </div>
-                          <h3 className="text-white text-lg sm:text-xl font-bold text-center mb-4">
-                            {style.title}
-                          </h3>
-                          <button className="w-full bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white font-semibold py-2.5 px-4 rounded-lg transition-all duration-300 border border-white/30">
-                            {style.linkText}
-                          </button>
-                        </div>
-                      </div>
-                    </div>
+                    <a
+                      href={charter.link}
+                      className="inline-flex items-center justify-center bg-gradient-to-r from-[#14b8a6] to-[#0d9488] hover:from-[#0d9488] hover:to-[#0a7a6a] text-white font-bold px-6 py-3 rounded-lg text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-fit"
+                    >
+                      Explore →
+                    </a>
                   </div>
-                )
-              })}
+                </div>
+              </div>
             </div>
-          </div>
-
-          {/* Dots Navigation */}
-          <div className="flex items-center justify-center gap-2 mt-6">
-            {styles.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index)}
-                className={`transition-all duration-300 rounded-full ${
-                  index === currentSlide
-                    ? 'w-8 h-2 bg-[#0891b2]'
-                    : 'w-2 h-2 bg-gray-300 hover:bg-gray-400'
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
-          </div>
+          ))}
         </div>
-
       </div>
 
       <div className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 pt-6 sm:pt-8">
