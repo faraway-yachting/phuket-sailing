@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { CTAButton } from '@/components/shared/CTAButton'
 import { ContactCards } from '@/components/shared/ContactCards'
 import { SectionHeading } from '@/components/shared/SectionHeading'
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <JumpLinks />
       <ContactCardsSection />
+      <FeaturedYachtsSection />
       <CharterStylesSection />
       <SailingPhuketSection />
       <SailingContactSection />
@@ -128,6 +130,159 @@ function YachtFormSection() {
           <div className="inline-block px-6 py-2 bg-sunset-500 text-white rounded-full font-bold text-sm mb-4 animate-pulse">
             🔥 POPULAR - Book Your Dream Yacht Now
           </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function FeaturedYachtsSection() {
+  const yachts = [
+    {
+      name: 'Serenity Seeker',
+      image: '/assets/images/home/catamaran.webp',
+      length: '51 ft',
+      guests: 30,
+      beds: 8,
+      cabins: 4,
+      bathrooms: 4,
+      pricePerDay: 399,
+      currency: '$',
+    },
+    {
+      name: 'Ocean Whisperer',
+      image: '/assets/images/home/sailing-yacht.jpg',
+      length: '45 ft',
+      guests: 12,
+      beds: 6,
+      cabins: 3,
+      bathrooms: 3,
+      pricePerDay: 199,
+      currency: '$',
+    },
+    {
+      name: 'Majestic Pearl',
+      image: '/assets/images/home/overnight-sailing.webp',
+      length: '58 ft',
+      guests: 40,
+      beds: 12,
+      cabins: 5,
+      bathrooms: 5,
+      pricePerDay: 799,
+      currency: '$',
+    }
+  ]
+
+  return (
+    <section className="py-10 sm:py-14 bg-gradient-to-b from-gray-50 to-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
+            Featured Yachts & Catamarans
+          </h2>
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+            <div className="h-2 w-2 bg-amber-500 rounded-full"></div>
+            <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+          </div>
+          <p className="text-gray-600 text-base sm:text-lg max-w-3xl mx-auto">
+            Explore our handpicked selection of premium yachts and catamarans available for charter in Phuket
+          </p>
+        </div>
+
+        {/* Yacht Cards Grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+          {yachts.map((yacht, index) => (
+            <div
+              key={index}
+              className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+            >
+              {/* Yacht Image with Price Badge */}
+              <div className="relative h-64 sm:h-72 overflow-hidden rounded-t-3xl">
+                <Image
+                  src={yacht.image}
+                  alt={yacht.name}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+
+                {/* Price Badge - Bottom Right Corner */}
+                <div className="absolute bottom-0 right-0 bg-[#14b8a6] text-white rounded-tl-2xl px-4 py-2.5 shadow-lg">
+                  <p className="text-[10px] font-bold uppercase tracking-wider leading-tight">Per Day</p>
+                  <p className="text-xl font-bold leading-tight">{yacht.currency}{yacht.pricePerDay}</p>
+                </div>
+              </div>
+
+              {/* Yacht Details */}
+              <div className="p-5">
+                <h3 className="text-lg sm:text-xl font-bold text-[#164e63] mb-3">
+                  {yacht.name}
+                </h3>
+
+                {/* First Line - With Skipper, Cabins, Bathrooms */}
+                <div className="flex items-center justify-center gap-2 mb-2 text-xs text-gray-700">
+                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span>With skipper</span>
+                  <span className="text-gray-400">|</span>
+                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <rect x="3" y="11" width="7" height="10" rx="1" strokeLinecap="round" strokeLinejoin="round" />
+                    <rect x="14" y="11" width="7" height="10" rx="1" strokeLinecap="round" strokeLinejoin="round" />
+                    <line x1="3" y1="9" x2="10" y2="9" strokeLinecap="round" />
+                    <line x1="14" y1="9" x2="21" y2="9" strokeLinecap="round" />
+                  </svg>
+                  <span>{yacht.cabins} Cabins</span>
+                  <span className="text-gray-400">|</span>
+                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path d="M9 17v1a3 3 0 003 3v0a3 3 0 003-3v-1" strokeLinecap="round" strokeLinejoin="round" />
+                    <rect x="6" y="11" width="12" height="6" rx="1" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M12 11V9" strokeLinecap="round" />
+                    <path d="M12 9a2 2 0 100-4 2 2 0 000 4z" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  <span>{yacht.bathrooms} Bathrooms</span>
+                </div>
+
+                {/* Second Line - Length, Guests, Beds */}
+                <div className="flex items-center justify-center gap-2 mb-4 text-xs text-gray-600">
+                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                  </svg>
+                  <span className="font-medium">{yacht.length}</span>
+                  <span className="text-gray-400">|</span>
+                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                  <span className="font-medium">{yacht.guests}</span>
+                  <span className="text-gray-400">|</span>
+                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                  </svg>
+                  <span className="font-medium">{yacht.beds}</span>
+                </div>
+
+                {/* Action Buttons */}
+                <div className="grid grid-cols-2 gap-2">
+                  <button className="bg-gradient-to-r from-[#14b8a6] to-[#0d9488] hover:from-[#0d9488] hover:to-[#14b8a6] text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95">
+                    Book Now
+                  </button>
+                  <Link href={`/yacht/${index + 1}`} className="border-2 border-[#14b8a6] text-[#14b8a6] hover:bg-[#14b8a6] hover:text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
+                    Details
+                  </Link>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* View All Button */}
+        <div className="text-center mt-10 sm:mt-12">
+          <a
+            href="#"
+            className="inline-flex items-center justify-center bg-gradient-to-r from-[#164e63] to-[#0d3a47] hover:from-[#0d3a47] hover:to-[#164e63] text-white font-bold px-8 sm:px-12 py-4 rounded-xl text-base sm:text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95"
+          >
+            View All Yachts →
+          </a>
         </div>
       </div>
     </section>
