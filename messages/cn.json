@@ -1,0 +1,297 @@
+{
+  "nav": {
+    "home": "首页",
+    "charterStyles": "租船风格",
+    "sailingPhuket": "普吉岛帆船",
+    "overnightTrips": "过夜帆船之旅",
+    "catamaranVsSailing": "双体船 vs 帆船",
+    "routes": "热门航线",
+    "included": "包含项目",
+    "pricing": "价格",
+    "booking": "预订",
+    "faq": "常见问题",
+    "bookNow": "立即预订",
+    "selectLanguage": "选择语言"
+  },
+  "hero": {
+    "title": "普吉岛帆船",
+    "description": "在几分钟内规划您的下一次普吉岛帆船体验。选择您的船型，选择行程长度，我们将为您的日期推荐最佳路线——快速、清晰、假期友好。",
+    "cta": "获取个性化报价"
+  },
+  "featuredYachts": {
+    "title": "精选游艇和双体船",
+    "subtitle": "探索我们精心挑选的普吉岛高级游艇和双体船",
+    "viewAll": "查看所有游艇",
+    "bookNow": "立即预订",
+    "details": "详情",
+    "withSkipper": "配备船长",
+    "cabins": "客舱",
+    "bathrooms": "浴室",
+    "perDay": "每天",
+    "guests": "客人",
+    "beds": "床位"
+  },
+  "charterStyles": {
+    "title": "选择您的租船风格",
+    "explore": "探索",
+    "notSure": {
+      "title": "不确定哪种最适合？",
+      "description": "发送您的日期 + 团队规模，我们将推荐最佳匹配。",
+      "getQuote": "快速获取报价",
+      "whatsapp": "通过 WhatsApp 联系我们"
+    },
+    "sailing": {
+      "title": "普吉岛私人帆船游艇",
+      "description": "帆船游艇是经典选择。您将获得真正的帆船感觉、悠闲的节奏和\"真正的船上假期\"氛围。非常适合情侣、小团体以及所有热爱帆船和海风浪漫的人。"
+    },
+    "catamaran": {
+      "title": "普吉岛双体船租赁",
+      "description": "双体船的特点是空间和舒适。它们稳定、适合家庭，非常适合想要更多休息区、阴凉处和社交甲板布局的团体。"
+    },
+    "overnight": {
+      "title": "过夜和多日帆船",
+      "description": "如果您想要最佳的整体体验，选择过夜。您将获得安静的清晨锚地、不用匆忙赶路，以及一日游无法到达的航线。"
+    },
+    "cabin": {
+      "title": "普吉岛舱室巡航",
+      "description": "想要多日帆船之旅但不想租整艘私人船？舱室巡航让您按舱室预订。非常适合独自旅行者、情侣和小团体，他们仍然想以更低的成本享受令人难以置信的跳岛游。"
+    },
+    "bareboat": {
+      "title": "普吉岛裸船租赁",
+      "description": "适合自信的水手，他们想要完全的自由。裸船租赁通常需要执照和/或经过验证的帆船经验。如果您符合条件，这是按照您自己的条件探索的绝佳方式。"
+    }
+  },
+  "sailingPhuket": {
+    "title": "普吉岛帆船",
+    "description": "普吉岛是东南亚最好的帆船中心之一。岛屿之间的距离非常适合一日游或多夜航线。您可以选择平静的海湾、风景如画的石灰岩景观、浮潜站点或远离人群的偏远锚地。",
+    "whySpecial": "这就是普吉岛帆船的特别之处：",
+    "warmWater": "温暖的海水和热带岛屿风光",
+    "routes": "适合各种心情的航线：悠闲、浪漫、冒险",
+    "groups": "适合各种团体的选择：家庭、情侣、企业团队、朋友、独自旅行者",
+    "trips": "一日游、日落航行或多日探险"
+  },
+  "tripType": {
+    "title": "什么行程类型适合您？",
+    "subtitle": "选择合适的普吉岛帆船之旅的快速指南",
+    "day": {
+      "title": "一日游 / 日落航行",
+      "time": "4-8小时",
+      "description": "快速体验，附近海湾，浮潜，灵活。"
+    },
+    "oneNight": {
+      "title": "1晚 / 2天",
+      "time": "过夜",
+      "description": "日落 + 日出在锚地。醒来享受水上宁静的清晨。"
+    },
+    "multiDay": {
+      "title": "3-5晚",
+      "time": "多日",
+      "description": "真正的跳岛游。宁静的海湾，更长的游泳时间，更多放松时间。"
+    },
+    "extended": {
+      "title": "6-14+晚",
+      "time": "延长",
+      "description": "充分探索偏远岛屿。体验很少有一日游客看到的区域。"
+    }
+  },
+  "overnightSailing": {
+    "title": "普吉岛过夜帆船——为什么值得",
+    "description": "过夜行程让您逃离拥挤的一日游区域，体验普吉岛更安静的一面。清晨在锚地，夜晚的星星，以及通往未被触及的岛屿的航线。",
+    "mornings": "在其他船只到达之前醒来享受平静的海湾",
+    "islands": "到达更远的岛屿：Koh Rok、Koh Ha、Butang、Similan",
+    "pace": "更轻松的节奏——不用急着回港口",
+    "experience": "更好的浮潜，更少的人群，更难忘的体验",
+    "recommendation": {
+      "title": "我们的建议",
+      "description": "如果可以的话，至少预订5晚。这是覆盖普吉岛最好的南部岛屿而不感到匆忙的最佳时间。"
+    }
+  },
+  "catamaranVsSailing": {
+    "title": "普吉岛双体船 vs 帆船游艇",
+    "subtitle": "不确定选择哪个？两者都很好，但它们适合不同的偏好。",
+    "catamaran": {
+      "title": "双体船",
+      "space": "甲板上更多空间",
+      "stable": "稳定（摇晃更少）",
+      "families": "非常适合家庭、团体",
+      "shade": "大型阴凉区"
+    },
+    "sailingYacht": {
+      "title": "帆船游艇",
+      "classic": "经典的帆船感觉",
+      "romantic": "更浪漫/亲密",
+      "upwind": "更好的逆风航行",
+      "affordable": "通常更实惠"
+    },
+    "conclusion": "仍然不确定？告诉我们您的团队规模、旅行风格和日期——我们将为您推荐最佳船型。"
+  },
+  "popularRoutes": {
+    "title": "从普吉岛出发的热门帆船航线",
+    "subtitle": "我们根据季节、团体类型和您的优先事项定制路线。以下是一些常见的：",
+    "phangNga": {
+      "title": "攀牙湾（1-2天）",
+      "description": "标志性的石灰岩喀斯特、詹姆斯邦德岛、洞穴、平静的划船。"
+    },
+    "kohRacha": {
+      "title": "拉查岛 / 珊瑚岛（1天）",
+      "description": "清澈的海水、白色的沙滩、浮潜——非常适合快速度假。"
+    },
+    "southern": {
+      "title": "南部岛屿：Koh Rok、Koh Ha（3-5+晚）",
+      "description": "绿松石泻湖、海洋公园、世界级浮潜。"
+    },
+    "similan": {
+      "title": "斯米兰群岛（5+晚，季节性）",
+      "description": "偏远、原始——泰国顶级潜水/浮潜目的地。"
+    },
+    "cta": "想要定制路线？让我们知道您的日期和兴趣。"
+  },
+  "whoItsFor": {
+    "title": "普吉岛帆船适合谁？",
+    "couples": {
+      "title": "情侣和蜜月旅行者",
+      "description": "浪漫的日落、私人锚地、甲板上的亲密晚餐。"
+    },
+    "families": {
+      "title": "有孩子的家庭",
+      "description": "安全、有趣、有教育意义——孩子们喜欢游泳、浮潜和船上生活。"
+    },
+    "friends": {
+      "title": "朋友和团体",
+      "description": "共同的冒险、团体用餐、灵活的节奏。"
+    },
+    "corporate": {
+      "title": "企业团队",
+      "description": "团队建设、静修、高管度假。"
+    },
+    "solo": {
+      "title": "独自旅行者",
+      "description": "舱室巡航让您以实惠的价格加入团体旅行。"
+    }
+  },
+  "whatsIncluded": {
+    "title": "通常包括什么？",
+    "subtitle": "每艘船都不同，但大多数配备船员的租船包括：",
+    "captain": "专业船长和船员",
+    "meals": "船上所有餐食（早餐、午餐、晚餐）",
+    "cabin": "客舱住宿",
+    "snorkeling": "基本浮潜装备",
+    "fuel": "标准航线的燃料",
+    "towels": "毛巾、床单、清洁",
+    "notIncluded": {
+      "title": "通常不包括：",
+      "parkFees": "国家公园费用",
+      "alcohol": "酒精和特殊饮料",
+      "tips": "船员小费",
+      "transfers": "机场接送（可以安排）"
+    },
+    "note": "我们在您预订之前确认所有包含项目——没有惊喜。"
+  },
+  "pricing": {
+    "title": "价格概览",
+    "subtitle": "价格根据船型、季节和行程长度而异。以下是大致指南：",
+    "dayCharter": {
+      "title": "一日租船",
+      "price": "从 $300–$1,500+ / 天",
+      "note": "取决于船只"
+    },
+    "overnight": {
+      "title": "过夜帆船",
+      "price": "从 $500–$3,000+ / 晚",
+      "note": "包括船员、餐食"
+    },
+    "cabinCruise": {
+      "title": "舱室巡航",
+      "price": "从 $150–$400 / 人 / 晚",
+      "note": "共享船只"
+    },
+    "cta": "想要确切报价？发送您的日期和团队规模。",
+    "getQuote": "获取报价"
+  },
+  "bookingProcess": {
+    "title": "预订如何运作",
+    "step1": {
+      "title": "告诉我们您想要什么",
+      "description": "日期、团队规模、船只偏好、预算。"
+    },
+    "step2": {
+      "title": "获得定制推荐",
+      "description": "我们为您的旅行推荐最佳船只和路线。"
+    },
+    "step3": {
+      "title": "确认并支付定金",
+      "description": "锁定您的预订。余额在出发前到期。"
+    },
+    "step4": {
+      "title": "享受您的旅行",
+      "description": "我们处理细节。您只需出现并航行。"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "bestTime": {
+      "question": "普吉岛帆船的最佳时间是什么时候？",
+      "answer": "大多数客人更喜欢更平静、更干燥的月份，但普吉岛全年都可以通过正确的路线选择。我们将为您的确切日期推荐最佳行程。"
+    },
+    "catamaranVsSailing": {
+      "question": "双体船比帆船游艇好吗？",
+      "answer": "双体船提供更多空间和稳定性。帆船游艇感觉更经典。最佳选择取决于您的团队规模和偏好。"
+    },
+    "recommendedNights": {
+      "question": "您推荐多少晚？",
+      "answer": "如果可能的话，我们建议至少5晚才能到达像 Koh Rok 和 Koh Ha 这样更安静的区域。"
+    },
+    "familyFriendly": {
+      "question": "行程适合家庭吗？",
+      "answer": "是的。我们推荐稳定的船只、平静的游泳站点和适合家庭的路线。"
+    },
+    "romantic": {
+      "question": "适合情侣吗？",
+      "answer": "绝对适合。情侣们喜欢日落航行和过夜锚地的私密性和氛围。"
+    }
+  },
+  "finalCta": {
+    "title": "准备开始规划了吗？",
+    "description": "告诉我们您的日期、团队规模和偏好。我们将为您提供个性化的船只和路线推荐——通常在几小时内回复。",
+    "cta": "获取您的免费报价",
+    "whatsapp": "直接通过 WhatsApp 联系我们"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "正在寻找游艇租赁？",
+    "name": "您的姓名",
+    "email": "电子邮件",
+    "phone": "WhatsApp（如有）",
+    "guests": "客人数量",
+    "travelDate": "出行日期",
+    "returnDate": "返回日期",
+    "comments": "其他评论或要求？",
+    "submit": "提交",
+    "orCall": "或致电我们",
+    "orWhatsapp": "或 WhatsApp"
+  },
+  "yachtDetails": {
+    "aboutBoat": "关于船只",
+    "dayCharter": "一日租船",
+    "overnightCharter": "过夜租船",
+    "share": "分享",
+    "length": "长度",
+    "type": "类型",
+    "cabins": "客舱",
+    "bathrooms": "浴室",
+    "dayCapacity": "一日租船容量",
+    "overnightCapacity": "过夜租船容量"
+  },
+  "footer": {
+    "rights": "版权所有"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "readMore": "阅读更多",
+    "seeAll": "查看全部",
+    "back": "返回",
+    "next": "下一个",
+    "previous": "上一个",
+    "backToHome": "返回首页"
+  }
+}

@@ -309,3 +309,8 @@ Browserslist: caniuse-lite is outdated. Please run:
  ✓ Compiled in 966ms (648 modules)
 
  ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3001". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ✓ Compiled /not-found in 4.4s (639 modules)
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3001". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\DELL\phuket-sailing\.next\cache\webpack\server-development\0.pack.gz_' -> 'C:\Users\DELL\phuket-sailing\.next\cache\webpack\server-development\0.pack.gz'

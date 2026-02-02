@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
+import { WhatsAppButton } from '@/components/shared/WhatsAppButton'
+import { Navbar } from '@/components/shared/Navbar'
+import { LanguageProvider } from '@/components/providers/LanguageProvider'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
@@ -139,7 +142,13 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <LanguageProvider>
+          <Navbar />
+          {children}
+          <WhatsAppButton />
+        </LanguageProvider>
+      </body>
     </html>
   )
 }

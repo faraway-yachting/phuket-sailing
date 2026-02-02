@@ -6,6 +6,7 @@ import { CTAButton } from '@/components/shared/CTAButton'
 import { ContactCards } from '@/components/shared/ContactCards'
 import { SectionHeading } from '@/components/shared/SectionHeading'
 import { Phone, MessageCircle, ChevronLeft, ChevronRight } from 'lucide-react'
+import { useLanguage } from '@/components/providers/LanguageProvider'
 
 export default function Home() {
   return (
@@ -36,6 +37,8 @@ export default function Home() {
 }
 
 function HeroSection() {
+  const { t } = useLanguage()
+
   return (
     <section className="relative min-h-[85vh] flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
@@ -54,18 +57,15 @@ function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-16 md:py-20">
         <div className="max-w-3xl">
           <h1 className="font-[family-name:var(--font-playfair)] text-white mb-4 sm:mb-6 leading-[1.2] drop-shadow-2xl text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal">
-            Phuket Sailing
+            {t('hero.title')}
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-white drop-shadow-lg leading-relaxed">
-            Plan your next Sailing Phuket experience in minutes.
-            <br/> Choose your boat style, pick the trip length,
-            <br/> and we'll recommend the best route for your
-            <br/> dates—fast, clear, and holiday-easy.
+            {t('hero.description')}
           </p>
 
           <CTAButton trackingId="hero-quote" className="!px-6 !py-3 !text-base">
-            GET YOUR INDIVIDUAL QUOTE
+            {t('hero.cta')}
           </CTAButton>
         </div>
       </div>
@@ -84,16 +84,18 @@ function ContactCardsSection() {
 }
 
 function JumpLinks() {
+  const { t } = useLanguage()
+
   const links = [
-    { href: '#charter-style', label: 'Choose Your Charter Style' },
-    { href: '#sailing-phuket', label: 'Sailing Phuket' },
-    { href: '#overnight', label: 'Overnight Sailing Trips' },
-    { href: '#catamaran-vs-sailing', label: 'Catamaran vs Sailing' },
-    { href: '#routes', label: 'Popular Routes' },
-    { href: '#included', label: "What's Included" },
-    { href: '#pricing', label: 'Pricing' },
-    { href: '#booking', label: 'Booking' },
-    { href: '#faqs', label: 'FAQs' },
+    { href: '#charter-style', label: t('nav.charterStyles') },
+    { href: '#sailing-phuket', label: t('nav.sailingPhuket') },
+    { href: '#overnight', label: t('nav.overnightTrips') },
+    { href: '#catamaran-vs-sailing', label: t('nav.catamaranVsSailing') },
+    { href: '#routes', label: t('nav.routes') },
+    { href: '#included', label: t('nav.included') },
+    { href: '#pricing', label: t('nav.pricing') },
+    { href: '#booking', label: t('nav.booking') },
+    { href: '#faqs', label: t('nav.faq') },
   ]
 
   return (
@@ -137,6 +139,8 @@ function YachtFormSection() {
 }
 
 function FeaturedYachtsSection() {
+  const { t } = useLanguage()
+
   const yachts = [
     {
       name: 'Serenity Seeker',
@@ -178,7 +182,7 @@ function FeaturedYachtsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
-            Featured Yachts & Catamarans
+            {t('featuredYachts.title')}
           </h2>
           <div className="flex items-center justify-center gap-2 mb-4">
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
@@ -186,7 +190,7 @@ function FeaturedYachtsSection() {
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
           </div>
           <p className="text-gray-600 text-base sm:text-lg max-w-3xl mx-auto">
-            Explore our handpicked selection of premium yachts and catamarans available for charter in Phuket
+            {t('featuredYachts.subtitle')}
           </p>
         </div>
 

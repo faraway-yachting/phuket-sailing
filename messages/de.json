@@ -1,0 +1,297 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "charterStyles": "Charter-Stile",
+    "sailingPhuket": "Segeln Phuket",
+    "overnightTrips": "Übernachtungs-Segelreisen",
+    "catamaranVsSailing": "Katamaran vs Segeln",
+    "routes": "Beliebte Routen",
+    "included": "Was ist Inbegriffen",
+    "pricing": "Preise",
+    "booking": "Buchung",
+    "faq": "FAQ",
+    "bookNow": "Jetzt Buchen",
+    "selectLanguage": "Sprache Wählen"
+  },
+  "hero": {
+    "title": "Segeln Phuket",
+    "description": "Planen Sie Ihr nächstes Segelerlebnis in Phuket in wenigen Minuten. Wählen Sie Ihren Bootsstil, die Reisedauer, und wir empfehlen Ihnen die beste Route für Ihre Termine—schnell, klar und urlaubsfreundlich.",
+    "cta": "HOLEN SIE SICH IHR INDIVIDUELLES ANGEBOT"
+  },
+  "featuredYachts": {
+    "title": "Ausgewählte Yachten & Katamarane",
+    "subtitle": "Entdecken Sie unsere handverlesene Auswahl an Premium-Yachten und Katamaranen für Charter in Phuket",
+    "viewAll": "Alle Yachten Anzeigen",
+    "bookNow": "Jetzt Buchen",
+    "details": "Details",
+    "withSkipper": "Mit Skipper",
+    "cabins": "Kabinen",
+    "bathrooms": "Badezimmer",
+    "perDay": "Pro Tag",
+    "guests": "Gäste",
+    "beds": "Betten"
+  },
+  "charterStyles": {
+    "title": "Wählen Sie Ihren Charter-Stil",
+    "explore": "Erkunden",
+    "notSure": {
+      "title": "Nicht sicher, was am besten passt?",
+      "description": "Senden Sie uns Ihre Termine + Gruppengröße, und wir empfehlen die beste Option.",
+      "getQuote": "Schnelles Angebot Erhalten",
+      "whatsapp": "WhatsApp Uns"
+    },
+    "sailing": {
+      "title": "Private Segelyachten in Phuket",
+      "description": "Eine Segelyacht ist die klassische Wahl. Sie erleben das wahre Gefühl des Segelns, ein entspanntes Tempo und eine \"echte Bootsurlaub\"-Atmosphäre. Perfekt für Paare, kleinere Gruppen und alle, die die Romantik von Segeln und Meeresbrise lieben."
+    },
+    "catamaran": {
+      "title": "Katamaran-Charter in Phuket",
+      "description": "Katamarane stehen für Platz und Komfort. Sie sind stabil, familienfreundlich und ideal für Gruppen, die mehr Liegebereiche, Schatten und ein geselliges Deck-Layout wünschen."
+    },
+    "overnight": {
+      "title": "Übernachtungs- & Mehrtägiges Segeln",
+      "description": "Wenn Sie das beste Gesamterlebnis wollen, wählen Sie eine Übernachtung. Sie genießen ruhige Morgen vor Anker, weniger Hektik und Routen, die Tagesausflüge einfach nicht erreichen können."
+    },
+    "cabin": {
+      "title": "Kabinenkreuzfahrten Phuket",
+      "description": "Möchten Sie eine mehrtägige Segelreise ohne ein ganzes Privatboot zu mieten? Kabinenkreuzfahrten ermöglichen es Ihnen, pro Kabine zu buchen. Ideal für Alleinreisende, Paare und kleine Gruppen, die dennoch unglaubliches Inselhopping zu geringeren Kosten erleben möchten."
+    },
+    "bareboat": {
+      "title": "Bareboat-Charter Phuket",
+      "description": "Für selbstbewusste Segler, die volle Freiheit wünschen. Bareboat erfordert normalerweise einen Führerschein und/oder nachgewiesene Segelerfahrung. Wenn Sie qualifiziert sind, ist es eine fantastische Möglichkeit, auf eigene Faust zu erkunden."
+    }
+  },
+  "sailingPhuket": {
+    "title": "Segeln Phuket",
+    "description": "Phuket ist einer der besten Segelstandorte in Südostasien. Die Entfernungen zwischen den Inseln sind perfekt für Tagesausflüge oder mehrtägige Routen. Sie können ruhige Buchten, malerische Kalksteinlandschaften, Schnorchelstopps oder abgelegene Ankerplätze wählen, die sich weit weg von Menschenmassen anfühlen.",
+    "whySpecial": "Das macht Segeln in Phuket besonders:",
+    "warmWater": "Warmes Wasser und tropische Insellandschaft",
+    "routes": "Routen für jede Stimmung: entspannt, romantisch, abenteuerlich",
+    "groups": "Optionen für jede Gruppe: Familien, Paare, Firmenteams, Freunde, Alleinreisende",
+    "trips": "Tagesausflüge, Sunset-Segel oder mehrtägige Erkundungen"
+  },
+  "tripType": {
+    "title": "Welcher Reisetyp Passt zu Ihnen?",
+    "subtitle": "Schneller Leitfaden zur Auswahl der richtigen Segelreise in Phuket",
+    "day": {
+      "title": "Tagesausflug / Sunset-Segeln",
+      "time": "4–8 Stunden",
+      "description": "Schneller Vorgeschmack, nahegelegene Buchten, Schnorcheln, flexibel."
+    },
+    "oneNight": {
+      "title": "1 Nacht / 2 Tage",
+      "time": "Übernachtung",
+      "description": "Sonnenuntergang + Sonnenaufgang vor Anker. Wachen Sie zu ruhigen Morgen auf dem Wasser auf."
+    },
+    "multiDay": {
+      "title": "3–5 Nächte",
+      "time": "Mehrtägig",
+      "description": "Echtes Inselhopping. Ruhige Buchten, längere Schwimmzeiten, mehr Zeit zum Entspannen."
+    },
+    "extended": {
+      "title": "6–14+ Nächte",
+      "time": "Erweitert",
+      "description": "Vollständige Erkundung abgelegener Inseln. Erleben Sie Gebiete, die wenige Tagesausflügler jemals sehen."
+    }
+  },
+  "overnightSailing": {
+    "title": "Übernachtungs-Segeln Phuket — Warum Es Sich Lohnt",
+    "description": "Übernachtungsreisen ermöglichen es Ihnen, überfüllten Tagesausflugsbereichen zu entkommen und die ruhigere Seite von Phuket zu erleben. Morgen vor Anker, Sterne in der Nacht und Routen zu Inseln, die sich unberührt anfühlen.",
+    "mornings": "Wachen Sie in ruhigen Buchten auf, bevor andere Boote ankommen",
+    "islands": "Erreichen Sie weiter entfernte Inseln: Koh Rok, Koh Ha, Butang, Similan",
+    "pace": "Entspannteres Tempo—keine Eile zurück zum Hafen",
+    "experience": "Besseres Schnorcheln, weniger Menschenmassen, unvergesslichere Erlebnisse",
+    "recommendation": {
+      "title": "Unsere Empfehlung",
+      "description": "Wenn möglich, buchen Sie mindestens 5 Nächte. Das ist der optimale Punkt, um Phukets beste südliche Inseln abzudecken, ohne sich gehetzt zu fühlen."
+    }
+  },
+  "catamaranVsSailing": {
+    "title": "Katamaran vs Segelyacht in Phuket",
+    "subtitle": "Nicht sicher, was Sie wählen sollen? Beide sind großartig, aber sie passen zu unterschiedlichen Vorlieben.",
+    "catamaran": {
+      "title": "Katamaran",
+      "space": "Mehr Platz auf dem Deck",
+      "stable": "Stabil (weniger Schaukeln)",
+      "families": "Ideal für Familien, Gruppen",
+      "shade": "Große Schattenbereiche"
+    },
+    "sailingYacht": {
+      "title": "Segelyacht",
+      "classic": "Klassisches Segelgefühl",
+      "romantic": "Romantischer / intimer",
+      "upwind": "Besseres Segeln gegen den Wind",
+      "affordable": "Oft erschwinglicher"
+    },
+    "conclusion": "Immer noch unsicher? Teilen Sie uns Ihre Gruppengröße, Reisestil und Termine mit—wir empfehlen Ihnen den besten Bootstyp."
+  },
+  "popularRoutes": {
+    "title": "Beliebte Segelrouten von Phuket",
+    "subtitle": "Wir passen Routen basierend auf Saison, Gruppentyp und Ihren Prioritäten an. Hier sind einige häufige:",
+    "phangNga": {
+      "title": "Phang Nga Bucht (1–2 Tage)",
+      "description": "Ikonische Kalksteinkarste, James Bond Insel, Höhlen, ruhiges Paddeln."
+    },
+    "kohRacha": {
+      "title": "Koh Racha / Coral Island (1 Tag)",
+      "description": "Klares Wasser, weißer Sand, Schnorcheln—ideal für einen schnellen Kurzurlaub."
+    },
+    "southern": {
+      "title": "Südliche Inseln: Koh Rok, Koh Ha (3–5+ Nächte)",
+      "description": "Türkisfarbene Lagunen, Meeresparks, Weltklasse-Schnorcheln."
+    },
+    "similan": {
+      "title": "Similan Inseln (5+ Nächte, saisonal)",
+      "description": "Abgelegen, unberührt—Thailands Top-Tauch-/Schnorchelziel."
+    },
+    "cta": "Möchten Sie eine maßgeschneiderte Route? Lassen Sie uns Ihre Termine und Interessen wissen."
+  },
+  "whoItsFor": {
+    "title": "Für Wen Ist Segeln Phuket?",
+    "couples": {
+      "title": "Paare & Honeymooner",
+      "description": "Romantische Sonnenuntergänge, private Ankerplätze, intime Abendessen an Deck."
+    },
+    "families": {
+      "title": "Familien mit Kindern",
+      "description": "Sicher, unterhaltsam, lehrreich—Kinder lieben Schwimmen, Schnorcheln und das Leben an Bord."
+    },
+    "friends": {
+      "title": "Freunde & Gruppen",
+      "description": "Gemeinsames Abenteuer, Gruppenmahlzeiten, flexibles Tempo."
+    },
+    "corporate": {
+      "title": "Firmenteams",
+      "description": "Teambuilding, Retreats, Executive-Ausflüge."
+    },
+    "solo": {
+      "title": "Alleinreisende",
+      "description": "Kabinenkreuzfahrten ermöglichen es Ihnen, kostengünstig an einer Gruppenreise teilzunehmen."
+    }
+  },
+  "whatsIncluded": {
+    "title": "Was Ist Normalerweise Inbegriffen?",
+    "subtitle": "Jedes Boot ist anders, aber die meisten Charters mit Crew beinhalten:",
+    "captain": "Professioneller Kapitän und Crew",
+    "meals": "Alle Mahlzeiten an Bord (Frühstück, Mittagessen, Abendessen)",
+    "cabin": "Kabinenunterkunft",
+    "snorkeling": "Grundlegende Schnorchelausrüstung",
+    "fuel": "Kraftstoff für Standardrouten",
+    "towels": "Handtücher, Bettwäsche, Reinigung",
+    "notIncluded": {
+      "title": "Normalerweise NICHT inbegriffen:",
+      "parkFees": "Nationalparkgebühren",
+      "alcohol": "Alkohol und spezielle Getränke",
+      "tips": "Trinkgelder für die Crew",
+      "transfers": "Flughafentransfers (können arrangiert werden)"
+    },
+    "note": "Wir bestätigen alle Inklusivleistungen vor Ihrer Buchung—keine Überraschungen."
+  },
+  "pricing": {
+    "title": "Preisübersicht",
+    "subtitle": "Die Preise variieren je nach Bootstyp, Saison und Reisedauer. Hier ist eine grobe Orientierung:",
+    "dayCharter": {
+      "title": "Tagescharter",
+      "price": "Ab $300–$1.500+ / Tag",
+      "note": "abhängig vom Boot"
+    },
+    "overnight": {
+      "title": "Übernachtungs-Segeln",
+      "price": "Ab $500–$3.000+ / Nacht",
+      "note": "inklusive Crew, Mahlzeiten"
+    },
+    "cabinCruise": {
+      "title": "Kabinenkreuzfahrt",
+      "price": "Ab $150–$400 / Person / Nacht",
+      "note": "geteiltes Boot"
+    },
+    "cta": "Möchten Sie ein genaues Angebot? Senden Sie uns Ihre Termine und Gruppengröße.",
+    "getQuote": "Angebot Erhalten"
+  },
+  "bookingProcess": {
+    "title": "Wie Funktioniert die Buchung",
+    "step1": {
+      "title": "Sagen Sie Uns, Was Sie Möchten",
+      "description": "Termine, Gruppengröße, Bootspräferenz, Budget."
+    },
+    "step2": {
+      "title": "Erhalten Sie eine Maßgeschneiderte Empfehlung",
+      "description": "Wir schlagen die besten Boote und Routen für Ihre Reise vor."
+    },
+    "step3": {
+      "title": "Bestätigen & Anzahlung Leisten",
+      "description": "Sichern Sie Ihre Buchung. Restbetrag vor Abfahrt fällig."
+    },
+    "step4": {
+      "title": "Genießen Sie Ihre Reise",
+      "description": "Wir kümmern uns um die Details. Sie erscheinen einfach und segeln."
+    }
+  },
+  "faq": {
+    "title": "Häufig Gestellte Fragen",
+    "bestTime": {
+      "question": "Was ist die beste Zeit für Segeln in Phuket?",
+      "answer": "Die meisten Gäste bevorzugen ruhigere, trockenere Monate, aber Phuket funktioniert das ganze Jahr über mit den richtigen Routenentscheidungen. Wir empfehlen die beste Route für Ihre genauen Termine."
+    },
+    "catamaranVsSailing": {
+      "question": "Ist ein Katamaran besser als eine Segelyacht?",
+      "answer": "Katamarane bieten mehr Platz und Stabilität. Segelyachten fühlen sich klassischer an. Die beste Wahl hängt von Ihrer Gruppengröße und Vorlieben ab."
+    },
+    "recommendedNights": {
+      "question": "Wie viele Nächte empfehlen Sie?",
+      "answer": "Wenn möglich, empfehlen wir mindestens 5 Nächte, um ruhigere Gebiete wie Koh Rok und Koh Ha zu erreichen."
+    },
+    "familyFriendly": {
+      "question": "Sind Reisen familienfreundlich?",
+      "answer": "Ja. Wir empfehlen stabile Boote, ruhige Schwimmstopps und familienfreundliche Routen."
+    },
+    "romantic": {
+      "question": "Ist es gut für Paare?",
+      "answer": "Absolut. Paare lieben Sunset-Segel und Übernachtungs-Ankerplätze für Privatsphäre und Atmosphäre."
+    }
+  },
+  "finalCta": {
+    "title": "Bereit mit der Planung zu Beginnen?",
+    "description": "Teilen Sie uns Ihre Termine, Gruppengröße und Vorlieben mit. Wir melden uns mit personalisierten Boot- und Routenempfehlungen zurück—normalerweise innerhalb weniger Stunden.",
+    "cta": "Holen Sie Sich Ihr Kostenloses Angebot",
+    "whatsapp": "WhatsApp Uns Direkt"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Suchen Sie einen Yachtcharter?",
+    "name": "Ihr Name",
+    "email": "E-Mail",
+    "phone": "WhatsApp (falls verfügbar)",
+    "guests": "Anzahl der Gäste",
+    "travelDate": "Reisedatum",
+    "returnDate": "Rückreisedatum",
+    "comments": "Weitere Kommentare oder Wünsche?",
+    "submit": "Absenden",
+    "orCall": "Oder rufen Sie uns an",
+    "orWhatsapp": "Oder WhatsApp"
+  },
+  "yachtDetails": {
+    "aboutBoat": "Über das Boot",
+    "dayCharter": "Tagescharter",
+    "overnightCharter": "Übernachtungscharter",
+    "share": "Teilen",
+    "length": "Länge",
+    "type": "Typ",
+    "cabins": "Kabinen",
+    "bathrooms": "Badezimmer",
+    "dayCapacity": "Tagescharter Kapazität",
+    "overnightCapacity": "Übernachtungscharter Kapazität"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten"
+  },
+  "common": {
+    "learnMore": "Mehr Erfahren",
+    "readMore": "Weiterlesen",
+    "seeAll": "Alle Anzeigen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Vorherige",
+    "backToHome": "Zurück zur Startseite"
+  }
+}
