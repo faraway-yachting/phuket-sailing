@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { CTAButton } from '@/components/shared/CTAButton'
@@ -7,6 +7,8 @@ import { ContactCards } from '@/components/shared/ContactCards'
 import { SectionHeading } from '@/components/shared/SectionHeading'
 import { Phone, MessageCircle, ChevronLeft, ChevronRight } from 'lucide-react'
 import { useLanguage } from '@/components/providers/LanguageProvider'
+import { fetchAllYachts } from '@/lib/api/yachts'
+import type { Yacht } from '@/lib/types/home'
 
 export default function Home() {
   return (
@@ -143,44 +145,47 @@ function YachtFormSection() {
   )
 }
 
+const FALLBACK_YACHTS: Yacht[] = [
+  { _id: '1', title: 'Serenity Seeker', slug: 'serenity-seeker', primaryImage: '/assets/images/home/catamaran.webp', length: '51 ft', guests: '30', cabins: '4', bathrooms: '4', dayTripPrice: '399', overnightPrice: '499', passengerDayTrip: '30', passengerOvernight: '8', boatType: 'Catamaran', status: 'published', type: 'crewed' },
+  { _id: '2', title: 'Ocean Whisperer', slug: 'ocean-whisperer', primaryImage: '/assets/images/home/sailing-yacht.jpg', length: '45 ft', guests: '12', cabins: '3', bathrooms: '3', dayTripPrice: '199', overnightPrice: '299', passengerDayTrip: '12', passengerOvernight: '6', boatType: 'Sailing', status: 'published', type: 'crewed' },
+  { _id: '3', title: 'Majestic Pearl', slug: 'majestic-pearl', primaryImage: '/assets/images/home/overnight-sailing.webp', length: '58 ft', guests: '40', cabins: '5', bathrooms: '5', dayTripPrice: '799', overnightPrice: '999', passengerDayTrip: '40', passengerOvernight: '12', boatType: 'Sailing', status: 'published', type: 'crewed' },
+]
+
 function FeaturedYachtsSection() {
   const { t } = useLanguage()
+  const [yachts, setYachts] = useState<Yacht[]>([])
+  const [loading, setLoading] = useState(true)
+  const [loadingMore, setLoadingMore] = useState(false)
+  const [nextPage, setNextPage] = useState(1)
+  const [hasMore, setHasMore] = useState(true)
 
-  const yachts = [
-    {
-      name: 'Serenity Seeker',
-      image: '/assets/images/home/catamaran.webp',
-      length: '51 ft',
-      guests: 30,
-      beds: 8,
-      cabins: 4,
-      bathrooms: 4,
-      pricePerDay: 399,
-      currency: '$',
-    },
-    {
-      name: 'Ocean Whisperer',
-      image: '/assets/images/home/sailing-yacht.jpg',
-      length: '45 ft',
-      guests: 12,
-      beds: 6,
-      cabins: 3,
-      bathrooms: 3,
-      pricePerDay: 199,
-      currency: '$',
-    },
-    {
-      name: 'Majestic Pearl',
-      image: '/assets/images/home/overnight-sailing.webp',
-      length: '58 ft',
-      guests: 40,
-      beds: 12,
-      cabins: 5,
-      bathrooms: 5,
-      pricePerDay: 799,
-      currency: '$',
-    }
-  ]
+  useEffect(() => {
+    fetchAllYachts(1, 3)
+      .then(data => {
+        if (data.yachts.length > 0) setYachts(data.yachts)
+        if (data.total <= 3) setHasMore(false)
+      })
+      .catch(() => setHasMore(false))
+      .finally(() => setLoading(false))
+  }, [])
+
+  const displayYachts = yachts.length > 0 ? yachts : FALLBACK_YACHTS
+
+  const handleLoadMore = () => {
+    setLoadingMore(true)
+    fetchAllYachts(nextPage, 9)
+      .then(data => {
+        setYachts(prev => {
+          const existingIds = new Set(prev.map(y => y._id))
+          const newYachts = data.yachts.filter(y => !existingIds.has(y._id))
+          return [...prev, ...newYachts]
+        })
+        setNextPage(p => p + 1)
+        if (data.yachts.length < 9) setHasMore(false)
+      })
+      .catch(() => {})
+      .finally(() => setLoadingMore(false))
+  }
 
   return (
     <section className="py-10 sm:py-14 bg-gradient-to-b from-gray-50 to-white">
@@ -196,18 +201,39 @@ function FeaturedYachtsSection() {
           </div>
         </div>
 
+        {/* Loading Skeleton */}
+        {loading && (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            {[1, 2, 3].map(i => (
+              <div key={i} className="bg-white rounded-3xl overflow-hidden shadow-lg animate-pulse">
+                <div className="h-64 sm:h-72 bg-gray-200 rounded-t-3xl" />
+                <div className="p-5 space-y-3">
+                  <div className="h-6 bg-gray-200 rounded w-3/4" />
+                  <div className="h-4 bg-gray-100 rounded w-full" />
+                  <div className="h-4 bg-gray-100 rounded w-5/6" />
+                  <div className="flex gap-2 mt-4">
+                    <div className="h-10 bg-gray-200 rounded-lg flex-1" />
+                    <div className="h-10 bg-gray-200 rounded-lg flex-1" />
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
         {/* Yacht Cards Grid */}
+        {!loading && (
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
-          {yachts.map((yacht, index) => (
+          {displayYachts.map((yacht) => (
             <div
-              key={index}
+              key={yacht._id}
               className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
               {/* Yacht Image with Price Badge */}
               <div className="relative h-64 sm:h-72 overflow-hidden rounded-t-3xl">
                 <Image
-                  src={yacht.image}
-                  alt={yacht.name}
+                  src={yacht.primaryImage}
+                  alt={yacht.title}
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -215,14 +241,14 @@ function FeaturedYachtsSection() {
                 {/* Price Badge - Bottom Right Corner */}
                 <div className="absolute bottom-0 right-0 bg-[#14b8a6] text-white rounded-tl-2xl px-4 py-2.5 shadow-lg">
                   <p className="text-[10px] font-bold uppercase tracking-wider leading-tight">{t('featuredYachts.perDay')}</p>
-                  <p className="text-xl font-bold leading-tight">{yacht.currency}{yacht.pricePerDay}</p>
+                  <p className="text-xl font-bold leading-tight">${yacht.dayTripPrice}</p>
                 </div>
               </div>
 
               {/* Yacht Details */}
               <div className="p-5">
                 <h3 className="text-lg sm:text-xl font-bold text-[#164e63] mb-3">
-                  {yacht.name}
+                  {yacht.title}
                 </h3>
 
                 {/* First Line - With Skipper, Cabins, Bathrooms */}
@@ -263,14 +289,14 @@ function FeaturedYachtsSection() {
                   <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                   </svg>
-                  <span className="font-medium">{yacht.beds}</span>
+                  <span className="font-medium">{yacht.passengerOvernight}</span>
                 </div>
 
                 <div className="grid grid-cols-2 gap-2">
                   <Link href="/contact" className="bg-amber-gradient text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
                     {t('featuredYachts.bookNow')}
                   </Link>
-                  <Link href={`/yacht/${index + 1}`} className="border-2 border-[#14b8a6] text-[#14b8a6] hover:bg-[#14b8a6] hover:text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
+                  <Link href={`/yacht/${yacht._id}`} className="border-2 border-[#14b8a6] text-[#14b8a6] hover:bg-[#14b8a6] hover:text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
                     {t('featuredYachts.details')}
                   </Link>
                 </div>
@@ -278,15 +304,19 @@ function FeaturedYachtsSection() {
             </div>
           ))}
         </div>
+        )}
 
-        <div className="text-center mt-10 sm:mt-12">
-          <a
-            href="#"
-            className="inline-flex items-center justify-center bg-gradient-to-r from-[#164e63] to-[#0d3a47] hover:from-[#0d3a47] hover:to-[#164e63] text-white font-bold px-8 sm:px-12 py-4 rounded-xl text-base sm:text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95"
-          >
-            {t('featuredYachts.viewAll')}
-          </a>
-        </div>
+        {hasMore && (
+          <div className="text-center mt-10 sm:mt-12">
+            <button
+              onClick={handleLoadMore}
+              disabled={loadingMore}
+              className="inline-flex items-center justify-center bg-gradient-to-r from-[#164e63] to-[#0d3a47] hover:from-[#0d3a47] hover:to-[#164e63] text-white font-bold px-8 sm:px-12 py-4 rounded-xl text-base sm:text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95 disabled:opacity-70 disabled:cursor-wait"
+            >
+              {t('featuredYachts.viewMore')}
+            </button>
+          </div>
+        )}
       </div>
     </section>
   )

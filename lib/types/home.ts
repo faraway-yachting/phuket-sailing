@@ -67,3 +67,44 @@ export interface TripDuration {
   description: string;
 }
 
+// Yacht (fetched from backend API / MongoDB)
+export interface Yacht {
+  _id: string;
+  title: string;
+  slug: string;
+  primaryImage: string;
+  galleryImages?: string[];
+  length: string;
+  guests: string;
+  cabins: string;
+  bathrooms: string;
+  dayTripPrice: string;
+  overnightPrice: string;
+  passengerDayTrip: string;
+  passengerOvernight: string;
+  boatType: string;
+  status: string;
+  type: string;
+  // Detail-page fields (optional – only present on single-yacht fetch)
+  price?: string;
+  capacity?: string;
+  lengthRange?: string;
+  guestsRange?: string;
+  daytripPriceEuro?: string;
+  dayCharter?: string;
+  overnightCharter?: string;
+  aboutThisBoat?: string;
+  specifications?: string;
+  boatLayout?: string;
+  videoLink?: string;
+  badge?: string;
+  design?: string;
+  built?: string;
+  cruisingSpeed?: string;
+  lengthOverall?: string;
+  fuelCapacity?: string;
+  waterCapacity?: string;
+  code?: string;
+  tags?: string[];
+}
+
