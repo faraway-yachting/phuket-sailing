@@ -104,7 +104,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                <Link href="/terms-and-conditions" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
                 </Link>
               </li>

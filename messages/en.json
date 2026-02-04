@@ -369,20 +369,16 @@
     "sections": {
       "1": {
         "title": "Booking",
-        "1": {
-          "1": "To book a trip, please confirm availability with us and notify us.",
-          "2": "Upon confirmation, you will receive an invoice (formal or informal, but written) stating the amounts to be paid as a deposit and the outstanding balance. The deposit is due immediately after the invoice has been sent.",
-          "3": "After depositing, please inform us of your payment with a payment slip or similar. Upon receiving this payment into our accounts, we will immediately send you a confirmation.",
-          "4": "We reserve the right to sell the charter to another party after sending the invoice if not paid in time after receiving the invoice. If you require an original copy of this invoice, please state so when making the booking.",
-          "5Label": "Discounted Charters:",
-          "5": "All discounted charters are non-refundable."
-        }
+        "1.1": "To book a trip, please confirm availability with us and notify us.",
+        "1.2": "Upon confirmation, you will receive an invoice (formal or informal, but written) stating the amounts to be paid as a deposit and the outstanding balance. The deposit is due immediately after the invoice has been sent.",
+        "1.3": "After depositing, please inform us of your payment with a payment slip or similar. Upon receiving this payment into our accounts, we will immediately send you a confirmation.",
+        "1.4": "We reserve the right to sell the charter to another party after sending the invoice if not paid in time after receiving the invoice. If you require an original copy of this invoice, please state so when making the booking.",
+        "1.5Label": "Discounted Charters:",
+        "1.5": "All discounted charters are non-refundable."
       },
       "2": {
         "title": "Altering a Booking",
-        "2": {
-          "1": "Minor alterations are usually free of charge, provided they do not interfere with our schedules. Major alterations that interfere with our booking schedules may be treated as cancellations and re-bookings, and the relevant charges may apply."
-        }
+        "2.1": "Minor alterations are usually free of charge, provided they do not interfere with our schedules. Major alterations that interfere with our booking schedules may be treated as cancellations and re-bookings, and the relevant charges may apply."
       },
       "3": {
         "title": "Payments",
