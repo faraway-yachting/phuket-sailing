@@ -85,6 +85,14 @@
   .gradient-sunset {
     @apply bg-gradient-to-r from-[#14b8a6] to-[#0d9488];
   }
+
+  .bg-amber-gradient {
+    background: linear-gradient(90deg, #A0522D 0%, #FF8C00 100%);
+  }
+
+  .bg-amber-gradient:hover {
+    background: linear-gradient(90deg, #8B4513 0%, #E07B00 100%);
+  }
   
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-[#164e63] to-[#0a2a35];
@@ -114,7 +122,7 @@ html {
 
 .cta-button {
   @apply inline-flex items-center justify-center px-6 py-4 sm:px-8 sm:py-4 md:px-10 md:py-5 text-base sm:text-lg md:text-xl font-bold text-white rounded-lg sm:rounded-xl transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 sm:hover:scale-110 active:scale-95 relative overflow-hidden;
-  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+ background: linear-gradient(90deg, #A0522D 0%, #FF8C00 100%);  /* Sunset amber gradient */
 }
 
 .cta-button::before {
@@ -169,3 +177,25 @@ html {
 .animate-fadeIn {
   animation: fadeIn 0.2s ease-out forwards;
 }
+
+/* Override browser default focus outline on all form elements */
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+[role="combobox"]:focus {
+  outline: none !important;
+  border-color: #164e63 !important;
+  box-shadow: 0 0 0 2px rgba(22, 78, 99, 0.2) !important;
+}
+
+/* Override browser autofill yellow background */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: #171717 !important;
+}
+

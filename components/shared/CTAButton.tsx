@@ -6,6 +6,7 @@ interface CTAButtonProps {
   children: React.ReactNode
   variant?: 'primary' | 'secondary' | 'whatsapp'
   className?: string
+  style?: React.CSSProperties
   onClick?: () => void
   href?: string
   trackingId?: string
@@ -15,6 +16,7 @@ export function CTAButton({
   children, 
   variant = 'primary', 
   className,
+  style,
   onClick,
   href,
   trackingId 
@@ -37,6 +39,7 @@ export function CTAButton({
       <a 
         href={href}
         className={cn(baseStyles, className)}
+        style={style}
         onClick={handleClick}
         data-tracking={trackingId}
       >
@@ -49,6 +52,7 @@ export function CTAButton({
     <button 
       onClick={handleClick}
       className={cn(baseStyles, className)}
+      style={style}
       data-tracking={trackingId}
     >
       {children}

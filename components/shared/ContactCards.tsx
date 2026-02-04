@@ -23,7 +23,7 @@ export function ContactCards() {
     {
       icon: MailIcon,
       title: 'Email',
-      value: 'booking@faraway-yachting.com',
+      value: ' info@phuket-sailing.com',
       href: 'mailto:bookings@faraway-yachting.com',
       gradient: 'from-blue-500 to-blue-600',
     },

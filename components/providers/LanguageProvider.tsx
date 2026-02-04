@@ -80,8 +80,31 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     }
   }
 
-  // Translation function with dot notation support
+  // Translation function with dot notation support and bracket notation for keys with dots
   const t = (key: string): string => {
+    // Handle bracket notation like terms.sections.1["1.1"]
+    const bracketMatch = key.match(/^(.+)\["(.+)"\]$/)
+    if (bracketMatch) {
+      const [, baseKey, bracketKey] = bracketMatch
+      const keys = baseKey.split('.')
+      let value: unknown = messages
+
+      for (const k of keys) {
+        if (value && typeof value === 'object' && k in value) {
+          value = (value as Record<string, unknown>)[k]
+        } else {
+          return key
+        }
+      }
+
+      if (value && typeof value === 'object' && bracketKey in value) {
+        const result = (value as Record<string, unknown>)[bracketKey]
+        return typeof result === 'string' ? result : key
+      }
+      return key
+    }
+
+    // Standard dot notation
     const keys = key.split('.')
     let value: unknown = messages
 
@@ -89,7 +112,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       if (value && typeof value === 'object' && k in value) {
         value = (value as Record<string, unknown>)[k]
       } else {
-        return key // Return key if translation not found
+        return key
       }
     }
 

@@ -70,7 +70,12 @@ export function Navbar() {
             >
               {t('home')}
             </Link>
-            {/* Add more tabs here */}
+            <Link
+              href="/contact"
+              className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
+            >
+              {t('contactUs')}
+            </Link>
           </div>
 
           {/* Language Selector & Book Now Button */}
@@ -120,8 +125,8 @@ export function Navbar() {
 
             {/* Book Now Button */}
             <Link
-              href="#contact"
-              className="bg-gradient-to-r from-[#14b8a6] to-[#0d9488] hover:from-[#0d9488] hover:to-[#14b8a6] text-white font-bold px-6 py-2.5 rounded-lg text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105"
+              href="/contact"
+              className="bg-amber-gradient text-white font-bold px-6 py-2.5 rounded-lg text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105"
             >
               {t('bookNow')}
             </Link>
@@ -159,6 +164,13 @@ export function Navbar() {
             >
               {t('home')}
             </Link>
+            <Link
+              href="/contact"
+              onClick={() => setIsMenuOpen(false)}
+              className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
+            >
+              {t('contactUs')}
+            </Link>
 
             {/* Mobile Language Selector */}
             <div className="px-4 py-2">
@@ -182,9 +194,9 @@ export function Navbar() {
             </div>
 
             <Link
-              href="#contact"
+              href="/contact"
               onClick={() => setIsMenuOpen(false)}
-              className="block w-full text-center bg-gradient-to-r from-[#14b8a6] to-[#0d9488] text-white font-bold px-5 py-3 rounded-lg transition-all duration-300"
+              className="block w-full text-center bg-amber-gradient text-white font-bold px-5 py-3 rounded-lg transition-all duration-300"
             >
               {t('bookNow')}
             </Link>

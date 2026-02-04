@@ -11,6 +11,7 @@
     "booking": "Buchung",
     "faq": "FAQ",
     "bookNow": "Jetzt Buchen",
+    "contactUs": "Kontaktieren Sie Uns",
     "selectLanguage": "Sprache Wählen"
   },
   "hero": {
@@ -19,21 +20,18 @@
     "cta": "HOLEN SIE SICH IHR INDIVIDUELLES ANGEBOT"
   },
   "featuredYachts": {
-    "title": "Ausgewählte Yachten & Katamarane",
-    "subtitle": "Entdecken Sie unsere handverlesene Auswahl an Premium-Yachten und Katamaranen für Charter in Phuket",
-    "viewAll": "Alle Yachten Anzeigen",
+    "title": "Ausgewählte Segelyachten",
+    "viewAll": "Alle Yachten Anzeigen →",
     "bookNow": "Jetzt Buchen",
     "details": "Details",
     "withSkipper": "Mit Skipper",
     "cabins": "Kabinen",
     "bathrooms": "Badezimmer",
-    "perDay": "Pro Tag",
-    "guests": "Gäste",
-    "beds": "Betten"
+    "perDay": "Pro Tag"
   },
   "charterStyles": {
     "title": "Wählen Sie Ihren Charter-Stil",
-    "explore": "Erkunden",
+    "explore": "Erkunden →",
     "notSure": {
       "title": "Nicht sicher, was am besten passt?",
       "description": "Senden Sie uns Ihre Termine + Gruppengröße, und wir empfehlen die beste Option.",
@@ -42,256 +40,458 @@
     },
     "sailing": {
       "title": "Private Segelyachten in Phuket",
-      "description": "Eine Segelyacht ist die klassische Wahl. Sie erleben das wahre Gefühl des Segelns, ein entspanntes Tempo und eine \"echte Bootsurlaub\"-Atmosphäre. Perfekt für Paare, kleinere Gruppen und alle, die die Romantik von Segeln und Meeresbrise lieben."
+      "description": "Eine Segelyacht ist die klassische Wahl. Sie erleben das wahre Gefühl des Segelns, ein entspanntes Tempo und eine \"echte Bootsurlaub\"-Atmosphäre. Perfekt für Paare, kleinere Gruppen und alle, die die Romantik von Segeln und Meeresbrise lieben.",
+      "linkText": "Erkunden: Segelyachten in Phuket"
     },
     "catamaran": {
       "title": "Katamaran-Charter in Phuket",
-      "description": "Katamarane stehen für Platz und Komfort. Sie sind stabil, familienfreundlich und ideal für Gruppen, die mehr Liegebereiche, Schatten und ein geselliges Deck-Layout wünschen."
+      "description": "Katamarane stehen für Platz und Komfort. Sie sind stabil, familienfreundlich und ideal für Gruppen, die mehr Liegebereiche, Schatten und ein geselliges Deck-Layout wünschen.",
+      "linkText": "Erkunden: Katamaran-Charter in Phuket"
     },
     "overnight": {
-      "title": "Übernachtungs- & Mehrtägiges Segeln",
-      "description": "Wenn Sie das beste Gesamterlebnis wollen, wählen Sie eine Übernachtung. Sie genießen ruhige Morgen vor Anker, weniger Hektik und Routen, die Tagesausflüge einfach nicht erreichen können."
+      "title": "Übernachtungs- & Mehrtages-Segeln",
+      "description": "Wenn Sie die beste Gesamterfahrung wollen, gehen Sie über Nacht. Sie bekommen ruhige Morgenstunden vor Anker, weniger Hetze und Routen, die Tagesausflüge einfach nicht erreichen können.",
+      "linkText": "Erkunden: Übernachtungs-Segelreisen Phuket"
     },
     "cabin": {
-      "title": "Kabinenkreuzfahrten Phuket",
-      "description": "Möchten Sie eine mehrtägige Segelreise ohne ein ganzes Privatboot zu mieten? Kabinenkreuzfahrten ermöglichen es Ihnen, pro Kabine zu buchen. Ideal für Alleinreisende, Paare und kleine Gruppen, die dennoch unglaubliches Inselhopping zu geringeren Kosten erleben möchten."
+      "title": "Kabinen-Kreuzfahrten Phuket",
+      "description": "Möchten Sie eine mehrtägige Segelreise ohne ein ganzes privates Boot zu mieten? Kabinen-Kreuzfahrten ermöglichen es Ihnen, nach Kabine zu buchen. Ideal für Alleinreisende, Paare und kleine Gruppen, die immer noch unglaubliches Inselhüpfen zu niedrigeren Kosten wollen.",
+      "linkText": "Erkunden: Kabinen-Kreuzfahrten Phuket"
     },
     "bareboat": {
       "title": "Bareboat-Charter Phuket",
-      "description": "Für selbstbewusste Segler, die volle Freiheit wünschen. Bareboat erfordert normalerweise einen Führerschein und/oder nachgewiesene Segelerfahrung. Wenn Sie qualifiziert sind, ist es eine fantastische Möglichkeit, auf eigene Faust zu erkunden."
+      "description": "Für selbstbewusste Segler, die volle Freiheit wollen. Bareboat erfordert normalerweise eine Lizenz und/oder nachgewiesene Segelerfahrung. Wenn Sie qualifiziert sind, ist es eine erstaunliche Art, auf Ihre eigenen Bedingungen zu erkunden.",
+      "linkText": "Erkunden: Bareboat-Charter Phuket"
     }
   },
   "sailingPhuket": {
     "title": "Segeln Phuket",
-    "description": "Phuket ist einer der besten Segelstandorte in Südostasien. Die Entfernungen zwischen den Inseln sind perfekt für Tagesausflüge oder mehrtägige Routen. Sie können ruhige Buchten, malerische Kalksteinlandschaften, Schnorchelstopps oder abgelegene Ankerplätze wählen, die sich weit weg von Menschenmassen anfühlen.",
+    "description": "Phuket ist einer der besten Segelzentren in Südostasien. Die Entfernungen zwischen den Inseln sind perfekt für Tagesausflüge oder mehrtägige Routen. Sie können ruhige Buchten, malerische Kalksteinlandschaften, Schnorchelstopps oder abgelegene Ankerplätze wählen, die sich weit von Menschenmengen entfernt anfühlen.",
     "whySpecial": "Das macht Segeln in Phuket besonders:",
-    "warmWater": "Warmes Wasser und tropische Insellandschaft",
+    "warmWater": "Warmes Wasser und tropische Inselkulisse",
     "routes": "Routen für jede Stimmung: entspannt, romantisch, abenteuerlich",
     "groups": "Optionen für jede Gruppe: Familien, Paare, Firmenteams, Freunde, Alleinreisende",
-    "trips": "Tagesausflüge, Sunset-Segel oder mehrtägige Erkundungen"
+    "trips": "Tagesausflüge, Sonnenuntergangssegeln oder mehrtägige Erkundung"
   },
   "tripType": {
-    "title": "Welcher Reisetyp Passt zu Ihnen?",
-    "subtitle": "Schneller Leitfaden zur Auswahl der richtigen Segelreise in Phuket",
+    "title": "Welche Art von Reise planen Sie?",
+    "explore": "Erkunden",
     "day": {
-      "title": "Tagesausflug / Sunset-Segeln",
-      "time": "4–8 Stunden",
-      "description": "Schneller Vorgeschmack, nahegelegene Buchten, Schnorcheln, flexibel."
+      "title": "Tages-Segeln",
+      "description": "Ideal, wenn Sie einen Urlaub auf dem Wasser mit Schwimmen und Bootstag-Atmosphäre ohne Übernachtung wollen."
     },
-    "oneNight": {
-      "title": "1 Nacht / 2 Tage",
-      "time": "Übernachtung",
-      "description": "Sonnenuntergang + Sonnenaufgang vor Anker. Wachen Sie zu ruhigen Morgen auf dem Wasser auf."
+    "sunset": {
+      "title": "Sonnenuntergangs-Segeln",
+      "description": "Perfekt für Paare, Familien und Feiern. Kürzer, malerisch und charmant."
     },
-    "multiDay": {
-      "title": "3–5 Nächte",
-      "time": "Mehrtägig",
-      "description": "Echtes Inselhopping. Ruhige Buchten, längere Schwimmzeiten, mehr Zeit zum Entspannen."
-    },
-    "extended": {
-      "title": "6–14+ Nächte",
-      "time": "Erweitert",
-      "description": "Vollständige Erkundung abgelegener Inseln. Erleben Sie Gebiete, die wenige Tagesausflügler jemals sehen."
+    "overnight": {
+      "title": "Übernachtungs-Segelboot Vermietung/Charter",
+      "description": "Mehr Zeit, mehr Ruhe, mehr echter Urlaub."
     }
   },
   "overnightSailing": {
-    "title": "Übernachtungs-Segeln Phuket — Warum Es Sich Lohnt",
-    "description": "Übernachtungsreisen ermöglichen es Ihnen, überfüllten Tagesausflugsbereichen zu entkommen und die ruhigere Seite von Phuket zu erleben. Morgen vor Anker, Sterne in der Nacht und Routen zu Inseln, die sich unberührt anfühlen.",
-    "mornings": "Wachen Sie in ruhigen Buchten auf, bevor andere Boote ankommen",
-    "islands": "Erreichen Sie weiter entfernte Inseln: Koh Rok, Koh Ha, Butang, Similan",
-    "pace": "Entspannteres Tempo—keine Eile zurück zum Hafen",
-    "experience": "Besseres Schnorcheln, weniger Menschenmassen, unvergesslichere Erlebnisse",
-    "recommendation": {
-      "title": "Unsere Empfehlung",
-      "description": "Wenn möglich, buchen Sie mindestens 5 Nächte. Das ist der optimale Punkt, um Phukets beste südliche Inseln abzudecken, ohne sich gehetzt zu fühlen."
-    }
+    "title": "Übernachtungs-Segelreisen Phuket",
+    "description": "Wenn Sie die Reise wollen, über die die Leute jahrelang sprechen, wählen Sie Übernachtungs-Segeln. Tagesausflüge sind lustig, aber Übernachtungen sind es, wo Phuket ruhig, schön und ungehetzt wird.",
+    "whyDifferent": "Warum sich Übernachtungs-Segeln anders anfühlt",
+    "noRush": "Sie hetzen nicht zurück zum Pier",
+    "calmBays": "Sie schwimmen, wenn die Buchten ruhig sind",
+    "sunsetSunrise": "Sie genießen Sonnenuntergang und Sonnenaufgang vor Anker",
+    "bestIslands": "Sie können die besten Inseln mit weniger Menschenmengen erreichen",
+    "timeForActivities": "Sie haben Zeit zum Schnorcheln, Strände, Aussichtspunkte und \"Nichts tun\"-Momente"
+  },
+  "overnightRecommendation": {
+    "honestRecommendation": "Unsere ehrliche Empfehlung",
+    "title": "5 Nächte Minimum (wenn möglich)",
+    "description": "Wenn Ihr Zeitplan es erlaubt, sind 5+ Nächte der Sweet Spot. Dann können Sie abgelegenere Gebiete erreichen und eine ruhigere Erfahrung genießen als die geschäftigsten Hotspots.",
+    "destinations": "Drei herausragende \"abseits der ausgetretenen Pfade\" Ziele:",
+    "kohRok": {
+      "title": "Koh Rok",
+      "description": "Klares Wasser und ein ruhigeres, abgelegeneres Gefühl"
+    },
+    "kohHa": {
+      "title": "Koh Ha",
+      "description": "Schöne Lagunen und erstaunliche Schnorchelbedingungen"
+    },
+    "butang": {
+      "title": "Butang-Inseln (7+ Nächte)",
+      "description": "Wenigste Menschenmengen, erstaunliche Landschaften über und unter Wasser"
+    },
+    "lessCrowded": "Diese Gebiete sind typischerweise viel weniger überfüllt als die beliebtesten Tagesausflugszonen wie Phang Nga Bay oder Phi Phi Inseln. Deshalb empfehlen wir mindestens fünf Nächte, wenn Gäste die beste Version von Phuket-Segeln wollen.",
+    "shorterTitle": "Kürzere Übernachtungen funktionieren immer noch",
+    "shorterDescription": "Wenn Sie weniger Nächte haben, planen wir eine Route, die sich realistisch und entspannt anfühlt:",
+    "oneTwoNights": "1–2 Nächte: nahegelegene Highlights wie Phi Phi und Racha-Inseln",
+    "threeFourNights": "3–4 Nächte: eine größere Schleife mit mehr Vielfalt an Zielen",
+    "fiveFourteenNights": "5-14 Nächte: absolut beste Ziele und tiefere Erkundung thailändischer Inseln und Kultur",
+    "ctaText": "Sagen Sie uns Ihre Termine und Anzahl der Nächte und wir empfehlen die beste Route.",
+    "ctaButton": "Sagen Sie uns Ihre Termine und Anzahl der Nächte",
+    "ctaLink": "→ Starten Sie hier: Übernachtungs-Segelreisen Phuket"
   },
   "catamaranVsSailing": {
-    "title": "Katamaran vs Segelyacht in Phuket",
-    "subtitle": "Nicht sicher, was Sie wählen sollen? Beide sind großartig, aber sie passen zu unterschiedlichen Vorlieben.",
-    "catamaran": {
-      "title": "Katamaran",
-      "space": "Mehr Platz auf dem Deck",
-      "stable": "Stabil (weniger Schaukeln)",
-      "families": "Ideal für Familien, Gruppen",
-      "shade": "Große Schattenbereiche"
-    },
-    "sailingYacht": {
-      "title": "Segelyacht",
-      "classic": "Klassisches Segelgefühl",
-      "romantic": "Romantischer / intimer",
-      "upwind": "Besseres Segeln gegen den Wind",
-      "affordable": "Oft erschwinglicher"
-    },
-    "conclusion": "Immer noch unsicher? Teilen Sie uns Ihre Gruppengröße, Reisestil und Termine mit—wir empfehlen Ihnen den besten Bootstyp."
+    "title": "Katamaran vs Segelyacht",
+    "catamaranTitle": "Wählen Sie einen Katamaran, wenn Sie wollen",
+    "catamaranSpace": "Mehr Platz und Stabilität (großartig für Kinder und Gruppen)",
+    "catamaranShade": "Mehr Schatten und Liegebereiche",
+    "catamaranVilla": "Ein Gefühl einer schwimmenden Villa",
+    "catamaranSocial": "Ein sehr geselliges Layout",
+    "catamaranLink": "Optionen vergleichen: Katamaran-Charter in Phuket →",
+    "sailingTitle": "Wählen Sie eine Segelyacht, wenn Sie wollen",
+    "sailingClassic": "Ein klassischeres Segelgefühl",
+    "sailingSportier": "Eine sportlichere, authentische Segelboot-Erfahrung",
+    "sailingValue": "Großartiges Preis-Leistungs-Verhältnis für Paare und kleinere Gruppen",
+    "sailingRomantic": "Eine gemütliche, romantische Atmosphäre",
+    "sailingLink": "Optionen vergleichen: Segelyachten in Phuket →",
+    "stillUnsure": "Immer noch unsicher?",
+    "stillUnsureDescription": "Senden Sie uns Ihre Gruppengröße + Komfortpräferenzen und wir empfehlen die beste Passform.",
+    "getRecommendation": "Personalisierte Empfehlung Erhalten"
   },
   "popularRoutes": {
-    "title": "Beliebte Segelrouten von Phuket",
-    "subtitle": "Wir passen Routen basierend auf Saison, Gruppentyp und Ihren Prioritäten an. Hier sind einige häufige:",
+    "title": "Beliebteste Routen",
+    "racha": {
+      "title": "Racha-Inseln (Racha Yai / Racha Noi)",
+      "description": "Ein Favorit für klares Wasser und Schnorcheln. Großartig für sowohl Segelyachten als auch Katamarane. Eine starke Wahl, wenn Sie einen sauberen tropischen Inseltag ohne Komplizierung des Plans wollen."
+    },
+    "coral": {
+      "title": "Coral Island",
+      "description": "Einfach, entspannt und beliebt für Schwimmen und Strandzeit. Großartig für Familien, gemischte Gruppen und Besucher, die einen lustigen Tag auf dem Meer mit einfacher Logistik wollen."
+    },
     "phangNga": {
-      "title": "Phang Nga Bucht (1–2 Tage)",
-      "description": "Ikonische Kalksteinkarste, James Bond Insel, Höhlen, ruhiges Paddeln."
+      "title": "Phang Nga Bay",
+      "description": "Ikone Kalksteinlandschaft, ruhiges Wasser und unglaubliche Fotos. Oft perfekt für gemischte Gruppen, Firmenausflüge und Reisende, die Sightseeing und dramatische Landschaften lieben."
     },
-    "kohRacha": {
-      "title": "Koh Racha / Coral Island (1 Tag)",
-      "description": "Klares Wasser, weißer Sand, Schnorcheln—ideal für einen schnellen Kurzurlaub."
+    "kohRokHa": {
+      "title": "Koh Rok & Koh Ha (am besten mit 5+ Nächten)",
+      "description": "Wenn Ihr Ziel weniger Menschenmengen und mehr Wow ist, glänzen diese Routen bei längeren Charters. Ruhige Ankerplätze und dieses seltene Gefühl von Raum."
     },
-    "southern": {
-      "title": "Südliche Inseln: Koh Rok, Koh Ha (3–5+ Nächte)",
-      "description": "Türkisfarbene Lagunen, Meeresparks, Weltklasse-Schnorcheln."
-    },
-    "similan": {
-      "title": "Similan Inseln (5+ Nächte, saisonal)",
-      "description": "Abgelegen, unberührt—Thailands Top-Tauch-/Schnorchelziel."
-    },
-    "cta": "Möchten Sie eine maßgeschneiderte Route? Lassen Sie uns Ihre Termine und Interessen wissen."
+    "wantHelp": "Brauchen Sie Hilfe bei der Wahl?",
+    "routeIdeas": "Routenideen sehen: Segel-Itinerarien Phuket"
   },
   "whoItsFor": {
-    "title": "Für Wen Ist Segeln Phuket?",
-    "couples": {
-      "title": "Paare & Honeymooner",
-      "description": "Romantische Sonnenuntergänge, private Ankerplätze, intime Abendessen an Deck."
-    },
+    "title": "Für wen Phuket Segeln perfekt ist",
     "families": {
-      "title": "Familien mit Kindern",
-      "description": "Sicher, unterhaltsam, lehrreich—Kinder lieben Schwimmen, Schnorcheln und das Leben an Bord."
+      "title": "Familien & Kinder",
+      "description": "Familienfreundliche Routen, stabile Bootsempfehlungen, ruhige Schwimmstopps und das richtige Tempo. Katamarane sind oft ideal wegen Platz und Stabilität."
     },
-    "friends": {
-      "title": "Freunde & Gruppen",
-      "description": "Gemeinsames Abenteuer, Gruppenmahlzeiten, flexibles Tempo."
+    "couples": {
+      "title": "Paare & romantische Auszeiten",
+      "description": "Sonnenuntergangssegeln, ruhige Ankernächte und private Zeit an schönen Orten. Großartig für Flitterwochen, Jubiläen und Heiratsanträge."
     },
     "corporate": {
-      "title": "Firmenteams",
-      "description": "Teambuilding, Retreats, Executive-Ausflüge."
+      "title": "Firmen- & Teambuilding-Gruppen",
+      "description": "Segeln schafft echte Verbindung. Es ist lustig, premium und entspannt—ohne sich formal anzufühlen."
+    },
+    "adventure": {
+      "title": "Abenteuersuchende",
+      "description": "Längere Charters ermöglichen Wandern, Tauchen und abseits der ausgetretenen Pfade Inseln. Wenn Sie Erkundung wollen, werden wir eine Route bauen, die sich wie ein echtes Abenteuer anfühlt."
     },
     "solo": {
-      "title": "Alleinreisende",
-      "description": "Kabinenkreuzfahrten ermöglichen es Ihnen, kostengünstig an einer Gruppenreise teilzunehmen."
+      "title": "Alleinreisende & kleine Freundesgruppen",
+      "description": "Kabinen-Kreuzfahrten sind hier perfekt. Sie bekommen die mehrtägige Erfahrung ohne für einen vollständigen privaten Charter zu zahlen."
+    },
+    "occasions": {
+      "title": "Besondere Anlässe",
+      "description": "Meilenstein-Geburtstage (50./60.), Flitterwochen, Jubiläen—sagen Sie uns, was Sie feiern und wir helfen, eine Überraschung an Bord zu planen."
     }
   },
   "whatsIncluded": {
-    "title": "Was Ist Normalerweise Inbegriffen?",
-    "subtitle": "Jedes Boot ist anders, aber die meisten Charters mit Crew beinhalten:",
-    "captain": "Professioneller Kapitän und Crew",
-    "meals": "Alle Mahlzeiten an Bord (Frühstück, Mittagessen, Abendessen)",
-    "cabin": "Kabinenunterkunft",
-    "snorkeling": "Grundlegende Schnorchelausrüstung",
-    "fuel": "Kraftstoff für Standardrouten",
-    "towels": "Handtücher, Bettwäsche, Reinigung",
-    "notIncluded": {
-      "title": "Normalerweise NICHT inbegriffen:",
-      "parkFees": "Nationalparkgebühren",
-      "alcohol": "Alkohol und spezielle Getränke",
-      "tips": "Trinkgelder für die Crew",
-      "transfers": "Flughafentransfers (können arrangiert werden)"
-    },
-    "note": "Wir bestätigen alle Inklusivleistungen vor Ihrer Buchung—keine Überraschungen."
+    "title": "Was ist Inbegriffen",
+    "typicallyIncluded": "Typischerweise inbegriffen bei bemannten Charters",
+    "professionalCrew": "Professionelle Besatzung (nicht für Bareboat-Charters)",
+    "safetyEquipment": "Sicherheitsausrüstung",
+    "standardSetup": "Standard-Bordausstattung und -einrichtungen",
+    "routePlanning": "Routenplanung durch unser Management-Team, Support und lokale Beratung",
+    "oftenOptional": "Oft optional (hängt vom Boot / Route ab)",
+    "mealsDrinks": "Essens- und Getränkepakete",
+    "parkFees": "Nationalparkgebühren (routenabhängig)",
+    "specialOccasion": "Besondere Anlass-Ausstattung",
+    "waterToys": "Zusätzliche Wasserspielzeuge",
+    "legalArrangements": "Alles, was legal ist, kann mit genügend Zeit arrangiert werden",
+    "whatToPack": "Was Einpacken",
+    "keepSimple": "Halten Sie es einfach:",
+    "swimwear": "Badebekleidung (bringen Sie idealerweise 3 Sets mit, da Sie möglicherweise nichts anderes tragen)",
+    "sunscreen": "Sonnenschutz, Hut, Sonnenbrille",
+    "coverUp": "Leichte Abdeckung / Rash Guard zum Schnorcheln (wir verkaufen sie für 500 THB)",
+    "waterproofPouch": "Wasserdichte Hülle für Telefon",
+    "shoes": "Schuhe, die nass werden können, aber für Wandern geeignet sind",
+    "medication": "Persönliche Medikamente (wir haben alle Arten von Medikamenten an Bord: Seekrankheit, Antibiotika, etc.)",
+    "wantQuote": "Möchten Sie ein einfaches, detailliertes Angebot?",
+    "getFastQuote": "Schnelles Angebot Erhalten"
   },
   "pricing": {
-    "title": "Preisübersicht",
-    "subtitle": "Die Preise variieren je nach Bootstyp, Saison und Reisedauer. Hier ist eine grobe Orientierung:",
-    "dayCharter": {
-      "title": "Tagescharter",
-      "price": "Ab $300–$1.500+ / Tag",
-      "note": "abhängig vom Boot"
-    },
-    "overnight": {
-      "title": "Übernachtungs-Segeln",
-      "price": "Ab $500–$3.000+ / Nacht",
-      "note": "inklusive Crew, Mahlzeiten"
-    },
-    "cabinCruise": {
-      "title": "Kabinenkreuzfahrt",
-      "price": "Ab $150–$400 / Person / Nacht",
-      "note": "geteiltes Boot"
-    },
-    "cta": "Möchten Sie ein genaues Angebot? Senden Sie uns Ihre Termine und Gruppengröße.",
-    "getQuote": "Angebot Erhalten"
+    "title": "Wie die Preisgestaltung Funktioniert",
+    "mainDrivers": "Hauptpreisfaktoren",
+    "boatType": "Bootstyp",
+    "privateVsCabin": "Privater Charter vs Kabinen-Kreuzfahrt",
+    "tripLength": "Reisedauer (Tag / Übernachtung)",
+    "routeDestination": "Route & Ziel",
+    "seasonDemand": "Saison und Nachfrage",
+    "bookingTiming": "Buchungszeitpunkt",
+    "groupSize": "Gruppengröße und Komfortniveau",
+    "priceAnchors": "Preisanker",
+    "dayTrips": "Tages-Segelreisen:",
+    "dayTripsPrice": "ab 29.900 THB",
+    "sunsetSailing": "Sonnenuntergangs-Segeln:",
+    "sunsetSailingPrice": "ab 24.900 THB",
+    "overnightCharters": "Übernachtungs-Charters:",
+    "overnightChartersPrice": "ab 1000 Euro pro Nacht",
+    "cabinCruises": "Kabinen-Kreuzfahrten:",
+    "cabinCruisesPrice": "ab 1998 Euro pro Kabine für 5 Nächte",
+    "fastestPath": "Schnellster Weg zu Ihrem Angebot",
+    "fastestPathDescription": "Senden Sie uns Ihre Termine + Gruppengröße, und wir empfehlen die besten Optionen mit klaren Preisen.",
+    "getPersonalizedQuote": "Erhalten Sie Ihr Personalisiertes Angebot"
   },
   "bookingProcess": {
-    "title": "Wie Funktioniert die Buchung",
+    "title": "Wie die Buchung Funktioniert",
     "step1": {
-      "title": "Sagen Sie Uns, Was Sie Möchten",
-      "description": "Termine, Gruppengröße, Bootspräferenz, Budget."
+      "title": "Teilen Sie Ihre Details",
+      "description": "Senden Sie Termine + Gruppengröße und sagen Sie uns, welche Erfahrung Sie suchen."
     },
     "step2": {
-      "title": "Erhalten Sie eine Maßgeschneiderte Empfehlung",
-      "description": "Wir schlagen die besten Boote und Routen für Ihre Reise vor."
+      "title": "Wählen Sie Ihren Stil",
+      "description": "Wählen Sie Ihren Stil (Segelyacht / Katamaran / Kabinen-Kreuzfahrt / Bareboat)"
     },
     "step3": {
-      "title": "Bestätigen & Anzahlung Leisten",
-      "description": "Sichern Sie Ihre Buchung. Restbetrag vor Abfahrt fällig."
+      "title": "Erhalten Sie Empfehlungen",
+      "description": "Wir empfehlen die besten Boote + Routen (basierend auf Saison und Zielen)"
     },
     "step4": {
-      "title": "Genießen Sie Ihre Reise",
-      "description": "Wir kümmern uns um die Details. Sie erscheinen einfach und segeln."
-    }
+      "title": "Bestätigen und entspannen",
+      "description": "Buchen Sie mit Vertrauen — wir kümmern uns um alle Details für Ihre perfekte Reise"
+    },
+    "inquiryChecklist": "Die 20-Sekunden-Anfrage-Checkliste",
+    "inquiryChecklistDescription": "Beantworten Sie einfach diese 5 schnellen Fragen und wir kümmern uns um den Rest",
+    "howManyGuests": "Wie viele Gäste?",
+    "howManyGuestsDesc": "Sagen Sie uns Ihre Gruppengröße",
+    "dayOrNights": "Tagesausflug oder Nächte?",
+    "dayOrNightsDesc": "Wählen Sie Ihre Reisedauer",
+    "preferredYacht": "Bevorzugte Yacht?",
+    "preferredYachtDesc": "Katamaran oder Segelyacht",
+    "tripStyle": "Reisestil?",
+    "tripStyleDesc": "Familie / romantisch / Abenteuer",
+    "mustSeeIslands": "Muss-sehen Inseln?",
+    "mustSeeIslandsDesc": "Irgendwelche spezifischen Ziele",
+    "readyToPlan": "Bereit mit der Planung zu beginnen?",
+    "readyToPlanDescription": "Senden Sie uns Ihre Termine und Gruppengröße — wir erstellen das perfekte Segelabenteuer für Sie",
+    "getIndividualQuote": "Erhalten Sie Ihr Individuelles Angebot"
+  },
+  "explorePages": {
+    "title": "Alle Seiten Erkunden",
+    "sailingYachts": "Segelyachten in Phuket",
+    "catamaranCharters": "Katamaran-Charter in Phuket",
+    "sailingItineraries": "Segel-Itinerarien Phuket",
+    "cabinCruises": "Kabinen-Kreuzfahrten Phuket",
+    "bareboatCharter": "Bareboat-Charter Phuket"
   },
   "faq": {
     "title": "Häufig Gestellte Fragen",
     "bestTime": {
       "question": "Was ist die beste Zeit für Segeln in Phuket?",
-      "answer": "Die meisten Gäste bevorzugen ruhigere, trockenere Monate, aber Phuket funktioniert das ganze Jahr über mit den richtigen Routenentscheidungen. Wir empfehlen die beste Route für Ihre genauen Termine."
+      "answer": "Die meisten Gäste bevorzugen ruhigere, trockenere Monate, aber Phuket kann das ganze Jahr über mit den richtigen Routenwahlen funktionieren. Wir empfehlen die beste Route für Ihre genauen Termine basierend auf Saison, Seebedingungen und Komfortniveau. Beachten Sie, dass die Preise in der Nebensaison zwischen Mai und Oktober ca. 30-40% günstiger sind!"
     },
     "catamaranVsSailing": {
-      "question": "Ist ein Katamaran besser als eine Segelyacht?",
-      "answer": "Katamarane bieten mehr Platz und Stabilität. Segelyachten fühlen sich klassischer an. Die beste Wahl hängt von Ihrer Gruppengröße und Vorlieben ab."
+      "question": "Ist ein Katamaran besser als eine Segelyacht in Phuket?",
+      "answer": "Katamarane bieten mehr Platz und Stabilität, was Familien und Gruppen lieben. Segelyachten fühlen sich klassischer und \"echtes Segeln\" an. Die beste Wahl hängt von Ihrer Gruppengröße, Komfortpräferenzen und der Atmosphäre ab, die Sie an Bord wollen."
     },
     "recommendedNights": {
-      "question": "Wie viele Nächte empfehlen Sie?",
-      "answer": "Wenn möglich, empfehlen wir mindestens 5 Nächte, um ruhigere Gebiete wie Koh Rok und Koh Ha zu erreichen."
+      "question": "Wie viele Nächte empfehlen Sie für die beste Erfahrung?",
+      "answer": "Wenn möglich, empfehlen wir mindestens 5 Nächte. Dann können Sie ruhigere Gebiete wie Koh Rok und Koh Ha erreichen, die sich normalerweise viel weniger überfüllt anfühlen als Phukets beliebteste Tagesausflugsziele."
     },
     "familyFriendly": {
-      "question": "Sind Reisen familienfreundlich?",
-      "answer": "Ja. Wir empfehlen stabile Boote, ruhige Schwimmstopps und familienfreundliche Routen."
+      "question": "Sind Ihre Segelreisen in Phuket familienfreundlich?",
+      "answer": "Ja. Wir können stabile Boote, ruhige Schwimmstopps und familienfreundliche Routen empfehlen. Katamarane sind oft die einfachste Wahl für Kinder, weil sie mehr Platz, Schatten und Stabilität haben—besonders für entspannte Tagesausflüge."
     },
     "romantic": {
-      "question": "Ist es gut für Paare?",
-      "answer": "Absolut. Paare lieben Sunset-Segel und Übernachtungs-Ankerplätze für Privatsphäre und Atmosphäre."
+      "question": "Ist Segeln in Phuket gut für Paare und romantische Auszeiten?",
+      "answer": "Absolut. Paare lieben Sonnenuntergangssegeln und Übernachtungs-Ankerplätze für Privatsphäre und Atmosphäre. Wenn es eine Flitterwochen, Jubiläum oder Heiratsantrag ist, sagen Sie uns früh und wir empfehlen das beste Boot und helfen, eine Überraschung zu planen."
+    },
+    "soloTravelers": {
+      "question": "Können Alleinreisende buchen, ohne ein ganzes Boot zu mieten?",
+      "answer": "Ja. Mit Kabinen-Kreuzfahrten Phuket können Sie nach Kabine buchen. Es ist ideal für Alleinreisende, Paare oder kleine Freundesgruppen, die eine mehrtägige Segelerfahrung zu niedrigeren Kosten als ein privater Charter wollen."
+    },
+    "whatsIncluded": {
+      "question": "Was ist in einem bemannten Segelcharter inbegriffen?",
+      "answer": "Inklusionen variieren je nach Boot, aber bemannte Charters umfassen typischerweise das Boot, die Besatzung, alle Mahlzeiten, Sicherheitsausrüstung und Standard-Bordausstattung. Extras wie Getränke, Parkgebühren und spezielle Ausstattungen hängen vom Schiff und der Route ab. Wir bestätigen alles im Voraus."
+    },
+    "bareboatLicense": {
+      "question": "Benötigen wir eine Lizenz für Bareboat-Charter Phuket?",
+      "answer": "Normalerweise ja. Bareboat-Charters erfordern typischerweise eine gültige Lizenz und starken Nachweis von Erfahrung. Wenn Sie unsicher sind, können wir stattdessen einen bemannten Charter empfehlen oder besprechen, was basierend auf Ihrem Segelhintergrund erforderlich ist."
+    },
+    "chooseItinerary": {
+      "question": "Können Sie uns helfen, die beste Route zu wählen?",
+      "answer": "Ja. Teilen Sie uns Ihre Termine, Anzahl der Nächte, Gruppengröße und Prioritäten mit (Schnorcheln, Strände, ruhige Inseln, Abenteuer). Wir empfehlen eine realistische Route, die zur Saison passt und Ihnen die beste Gesamterfahrung gibt."
     }
   },
   "finalCta": {
-    "title": "Bereit mit der Planung zu Beginnen?",
-    "description": "Teilen Sie uns Ihre Termine, Gruppengröße und Vorlieben mit. Wir melden uns mit personalisierten Boot- und Routenempfehlungen zurück—normalerweise innerhalb weniger Stunden.",
-    "cta": "Holen Sie Sich Ihr Kostenloses Angebot",
-    "whatsapp": "WhatsApp Uns Direkt"
-  },
-  "contact": {
-    "title": "Kontaktieren Sie Uns",
-    "subtitle": "Suchen Sie einen Yachtcharter?",
-    "name": "Ihr Name",
-    "email": "E-Mail",
-    "phone": "WhatsApp (falls verfügbar)",
-    "guests": "Anzahl der Gäste",
-    "travelDate": "Reisedatum",
-    "returnDate": "Rückreisedatum",
-    "comments": "Weitere Kommentare oder Wünsche?",
-    "submit": "Absenden",
-    "orCall": "Oder rufen Sie uns an",
-    "orWhatsapp": "Oder WhatsApp"
-  },
-  "yachtDetails": {
-    "aboutBoat": "Über das Boot",
-    "dayCharter": "Tagescharter",
-    "overnightCharter": "Übernachtungscharter",
-    "share": "Teilen",
-    "length": "Länge",
-    "type": "Typ",
-    "cabins": "Kabinen",
-    "bathrooms": "Badezimmer",
-    "dayCapacity": "Tagescharter Kapazität",
-    "overnightCapacity": "Übernachtungscharter Kapazität"
-  },
-  "footer": {
-    "rights": "Alle Rechte vorbehalten"
+    "title": "Bereit, Ihren Phuket Segel-Charter zu planen?",
+    "callNow": "Jetzt Anrufen",
+    "whatsapp": "WhatsApp"
   },
   "common": {
     "learnMore": "Mehr Erfahren",
-    "readMore": "Weiterlesen",
+    "readMore": "Mehr Lesen",
     "seeAll": "Alle Anzeigen",
     "back": "Zurück",
     "next": "Weiter",
     "previous": "Vorherige",
     "backToHome": "Zurück zur Startseite"
+  },
+  "terms": {
+    "metadata": {
+      "title": "Allgemeine Geschäftsbedingungen | Phuket Sailing",
+      "description": "Lesen Sie unsere Buchungsbedingungen für Yachtcharter mit Faraway Yachting Co. Ltd. Gültig für alle Charters, die nach September 2025 gebucht wurden."
+    },
+    "hero": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "subtitle": "Gültig für alle Charters, die nach dem 1. September 2025 gebucht wurden"
+    },
+    "toc": {
+      "title": "Inhaltsverzeichnis",
+      "items": {
+        "1": "Buchung",
+        "2": "Änderung einer Buchung",
+        "3": "Zahlungen",
+        "4": "Stornierungen und Versicherung",
+        "5": "Höhere Gewalt",
+        "6": "Sicherheit",
+        "7": "Haftung",
+        "8": "Reise- und Stornierungsversicherung",
+        "9": "Geräteausfall",
+        "10": "Beschwerden",
+        "11": "Bereitgestellte Informationen",
+        "12": "Preisänderungen und Werbeaktionen",
+        "13": "Geistiges Eigentum und Datenschutzrichtlinie",
+        "14": "Zusätzliche Bedingungen",
+        "15": "Schlussbemerkung"
+      }
+    },
+    "mainTitle": "Allgemeine Geschäftsbedingungen",
+    "important": "Wichtig",
+    "sections": {
+      "1": {
+        "title": "Buchung",
+        "1.1": "Um eine Reise zu buchen, bestätigen Sie bitte die Verfügbarkeit mit uns und benachrichtigen Sie uns.",
+        "1.2": "Nach Bestätigung erhalten Sie eine Rechnung (formell oder informell, aber schriftlich), die die als Anzahlung zu zahlenden Beträge und den ausstehenden Saldo angibt. Die Anzahlung ist sofort nach Versand der Rechnung fällig.",
+        "1.3": "Nach der Einzahlung informieren Sie uns bitte über Ihre Zahlung mit einem Zahlungsbeleg oder Ähnlichem. Nach Eingang dieser Zahlung auf unsere Konten senden wir Ihnen sofort eine Bestätigung.",
+        "1.4": "Wir behalten uns das Recht vor, den Charter nach Versand der Rechnung an eine andere Partei zu verkaufen, wenn er nicht rechtzeitig nach Erhalt der Rechnung bezahlt wird. Wenn Sie eine Originalkopie dieser Rechnung benötigen, geben Sie dies bitte bei der Buchung an.",
+        "1.5Label": "Ermäßigte Charters:",
+        "1.5": "Alle ermäßigten Charters sind nicht erstattungsfähig."
+      },
+      "2": {
+        "title": "Änderung einer Buchung",
+        "2.1": "Geringfügige Änderungen sind normalerweise kostenlos, sofern sie unsere Zeitpläne nicht beeinträchtigen. Größere Änderungen, die unsere Buchungszeitpläne beeinträchtigen, können als Stornierungen und Neubuchungen behandelt werden, und die entsprechenden Gebühren können anfallen."
+      },
+      "3": {
+        "title": "Zahlungen",
+        "3.1Title": "Zahlungsmethoden und akzeptierte Währungen",
+        "3.1": "Die Zahlung ist mit den zum Zeitpunkt der Buchung von Faraway Yachting Co. Ltd. genehmigten Methoden zu leisten. Die Banküberweisung ist die bevorzugte Methode. Zahlungen werden in thailändischen Baht (THB), Euro (EUR) oder US-Dollar (USD) akzeptiert, wobei der Google-Wechselkurs des Rechnungsdatums verwendet wird. Wenn Sie bar in USD oder EUR zahlen, muss der genaue Betrag bereitgestellt werden, da wir kein Wechselgeld in diesen Währungen führen.",
+        "3.2Title": "Service- und Verwaltungsgebühr",
+        "3.2": "Eine Service- und Verwaltungsgebühr von 5% gilt für alle Buchungen zur Deckung der Betriebs- und Bearbeitungskosten. Diese Gebühr entfällt für Zahlungen per Banküberweisung oder bar, was keine zusätzlichen Gebühren für diese Transaktionen bedeutet. Für Zahlungen über Kryptowährung oder PayPal gilt ein Aufschlag von 10% zur Deckung zusätzlicher Transaktions- und Umrechnungskosten.",
+        "3.3Title": "Zahlungsfristen",
+        "3.3Intro": "Die Zahlungsfristen für verschiedene Chartertypen sind unten aufgeführt.",
+        "3.3Day": "Tagescharters:",
+        "3.3DayDesc": "50% Anzahlung bei Buchung, Restbetrag mindestens 7 Tage vor Abfahrt. Buchungen, die weniger als 7 Tage im Voraus getätigt werden, müssen vollständig bezahlt werden.",
+        "3.3Overnight": "Übernachtungscharters:",
+        "3.3OvernightDesc": "30% Anzahlung bei Buchung, Restbetrag mindestens 45 Tage vor Abfahrt. Buchungen, die weniger als 45 Tage im Voraus getätigt werden, müssen vollständig bezahlt werden.",
+        "3.4Title": "Verantwortung für die Abwicklung",
+        "3.4": "Der Charterer ist dafür verantwortlich, dass der in der Rechnung angegebene volle Charterbetrag bis zu den oben genannten Zahlungsfristen auf unserem angegebenen Konto eingeht, unabhängig von der verwendeten Zahlungsmethode. Alle Transaktions-, Bank-, Währungsumrechnungs- oder Bearbeitungsgebühren müssen vom Charterer übernommen werden.",
+        "3.5Title": "Folgen verspäteter oder nicht erfolgter Zahlung",
+        "3.5": "Der Charterer muss sicherstellen, dass der volle Saldo bis zu den in Klausel 3.3 angegebenen Zahlungsfristen auf unserem angegebenen Konto eingeht. Wenn die Zahlung nicht vollständig und rechtzeitig eingeht, behält sich Faraway Yachting Co. Ltd. das Recht vor, den Charter ohne Rückerstattung bereits gezahlter Beträge zu stornieren. Darüber hinaus wird eine Verspätungsgebühr von 10% des ausstehenden Saldos erhoben, und damit verbundene Verzögerungen können zu Betriebsstörungen oder Verweigerung des Boardings führen."
+      },
+      "4": {
+        "title": "Stornierungen und Versicherung",
+        "4.1": "Wir müssen über Stornierungen schriftlich per E-Mail informiert werden.",
+        "4.2": "Das Datum, an dem wir die Nachricht erhalten, ist das für die Berechnung der Gebühr verwendete Datum. Die folgenden Stornogebühren gelten:",
+        "4.2.1Title": "Stornierung eines Tagescharters",
+        "4.2.1": "Mehr als 14 Tage vor dem Charterdatum – es wird eine Verwaltungsgebühr von 100 Euro für Stornierungen erhoben. Weniger als 14 Tage vor dem Charterdatum – 50% der vollen Chartergebühr werden berechnet. Weniger als 7 Tage vor dem Abfahrtsdatum – 100% der vollen Chartergebühr werden berechnet.",
+        "4.2.2Title": "Stornierung eines Übernachtungscharters",
+        "4.2.2": "60 Tage oder vor dem Charter – es wird eine Verwaltungsgebühr von 100 Euro für Stornierungen erhoben. Zwischen 60 und 45 Tagen vor dem Charter – 30% der gesamten Chartergebühr. Weniger als 45 Tage – 100% der Chartergebühr werden berechnet.",
+        "4.3": "Wenn das Wetter vom Meteorologiedepartment Thailands als unsicher eingestuft wird, wird Faraway Yachting Co. Ltd. den Charter stornieren und zunächst ein alternatives Datum anbieten. Wenn dies nicht möglich ist, wird eine vollständige Rückerstattung gewährt.",
+        "4.4": "Es werden keine Rückerstattungen gewährt, wenn der Charter von den Gästen während der Charterperiode storniert wird.",
+        "4.5Label": "Verspätete Ankunft",
+        "4.5": "Wenn der Charterer oder seine Gruppe aus einem nicht auf Faraway Yachting zurückzuführenden Grund verspätet am Einschiffungspunkt ankommt, wird die Charterzeit nicht verlängert. Der Charter endet zur ursprünglich geplanten Zeit, und es werden keine Rückerstattungen oder teilweisen Erstattungen für verlorene Zeit gewährt."
+      },
+      "5": {
+        "title": "Höhere Gewalt",
+        "5.1": "Es wird keine Entschädigung gezahlt bei unvorhersehbaren und ungewöhnlichen Umständen außerhalb unserer Kontrolle, deren Folgen auch bei Ausübung aller gebotenen Sorgfalt nicht hätten vermieden werden können. Zu solchen Umständen oder Ereignissen gehören, sind aber nicht beschränkt auf, Krieg oder Kriegsdrohung, Aufruhr, bürgerliche Unruhen, Arbeitsstreitigkeiten, unvermeidliche technische Probleme mit dem Transport, Schließung oder Überlastung von Flughäfen, terroristische Aktivitäten, Natur- oder Atomkatastrophen, Feuer, Pandemie und widrige Wetterbedingungen."
+      },
+      "6": {
+        "title": "Sicherheit",
+        "6.1": "Wir nehmen Sicherheit sehr ernst, und der Kapitän der Yacht hat das Ermessen, die geplante Route zu ändern, wenn er sie für unsicher hält. Im Falle einer Routenänderung werden keine Rückerstattungen gewährt.",
+        "6.2": "Wenn Itinerare angegeben werden, können sie je nach Wetterbedingungen, Gästepräferenzen oder anderen unvorhergesehenen Umständen geändert werden.",
+        "6.3": "Die endgültige Entscheidung bezüglich des Itinerars liegt beim Kapitän der Reise.",
+        "6.4": "Passagiere müssen den Sicherheitsanweisungen unseres professionellen Personals folgen. Die Nichteinhaltung der Anweisungen kann zur Stornierung des Charters ohne Rückerstattung führen.",
+        "6.5": "Bitte beachten Sie, dass unsere Versicherung betrunkene Passagiere nicht abdeckt. Gäste, die berauschende Substanzen einschließlich Alkohol und Drogen konsumieren, tun dies auf eigenes Risiko und können aus Sicherheitsgründen von Aktivitäten oder dem Zugang zu bestimmten Bereichen der Yacht ausgeschlossen werden.",
+        "6.6Label": "Einhaltung der Teamempfehlungen:",
+        "6.6": "Es wird keine Haftung übernommen, wenn Gäste gegen die Empfehlungen des Faraway Yachting-Teams handeln."
+      },
+      "7": {
+        "title": "Haftung",
+        "7.1": "Faraway Yachting übernimmt keine Verantwortung für Handlungen oder Unterlassungen unserer Kunden, ob fahrlässig oder anderweitig, und haftet nicht für Ansprüche, die gegen sie (oder als Folge ihrer Handlungen) entweder von anderen Kunden von Faraway Yachting oder Dritten geltend gemacht werden.",
+        "7.2": "Wir übernehmen keine Haftung für Verluste, die nicht durch eine Verletzung unsererseits verursacht wurden und zum Zeitpunkt der Buchung unvorhersehbar waren.",
+        "7.3Label": "Persönliche Gegenstände:",
+        "7.3": "Faraway Yachting übernimmt unter keinen Umständen die Verantwortung für persönliche Verluste, insbesondere teure Elektronik. Gästen wird empfohlen, teure Elektronik in wasserdichten Behältern zu transportieren und sicherzustellen, dass sie versichert sind. Faraway Yachting übernimmt keine Haftung für diese Artikel.",
+        "7.4Label": "Schadensverantwortung:",
+        "7.4": "Gäste sind für alle Schäden verantwortlich, die am Schiff oder seiner Ausrüstung durch ihre Handlungen, Nachlässigkeit oder Missbrauch verursacht werden. Die Kosten für Reparaturen oder Ersatz werden direkt dem Gast berechnet."
+      },
+      "8": {
+        "title": "Reise- und Stornierungsversicherung",
+        "8.1": "Wir empfehlen Gästen dringend, eine umfassende Reiseversicherung abzuschließen, die Segeln und Wassersportaktivitäten sowie eine Reise-Stornierungsversicherung abdeckt. Faraway Yachting Co. Ltd. verfügt über alle erforderlichen Lizenzen und Betriebsversicherungen am Charterstandort. Bitte beachten Sie, dass außer dort, wo in Klausel 4 ausdrücklich angegeben (z. B. unsichere Wetterstornierungen), keine Rückerstattungen für jede Form der Stornierung gewährt werden.",
+        "8.2Title": "Reiseversicherungsempfehlung",
+        "8.2": "Erwägen Sie eine Reiseversicherung für Ihre Reise? World Nomads bietet Deckung für mehr als 150 Abenteueraktivitäten sowie Notfallmedizin, verlorenes Gepäck, Reise-Stornierung und mehr."
+      },
+      "9": {
+        "title": "Geräteausfall",
+        "9.1": "Während wir große Sorgfalt darauf verwenden, alle Systeme und Geräte zu warten, können Geräteausfälle oder -fehlfunktionen auftreten. Yachten sind komplexe Maschinen, die einer Reihe von Bedingungen und Belastungen ausgesetzt sind, einschließlich intensiver Nutzung, Wetter und Seebedingungen. Unsere Crew ist geschult und erfahren im Umgang mit Geräteausfällen und -fehlfunktionen, und wir haben Verfahren, um diese Situationen schnell und effektiv zu beheben.",
+        "9.2": "Bitte beachten Sie, dass wir keine Rückerstattungen für kleinere Probleme anbieten, die das Gesamterlebnis des Charters nicht beeinträchtigen. Wenn ein erhebliches Problem auftritt, das die Sicherheit Ihres Charters beeinträchtigt, werden wir alle notwendigen Schritte unternehmen, um das Problem zu beheben und eine zufriedenstellende Lösung zu bieten.",
+        "9.3": "Wenn Faraway Yachting, selbst ohne eigenes Verschulden, nicht in der Lage ist, die gecharterte Yacht oder eine ähnliche Yacht zu Beginn der Charterperiode zu liefern, sind wir verpflichtet, einen anteiligen Betrag der Chartergebühr zu erstatten."
+      },
+      "10": {
+        "title": "Beschwerden",
+        "10.1": "Sollte ein Kunde eine Beschwerde haben, muss er den Skipper der Yacht oder im Falle eines Bareboat-Charters die Küstenbasis sofort informieren. Der Skipper oder die Küstenbasis wird ihr Möglichstes tun, um das Problem zu beheben. Wenn das Ergebnis nicht zufriedenstellend ist, muss der Kunde uns schriftlich innerhalb von 14 Tagen nach Ende des Charters informieren.",
+        "10.2": "Beschwerden, die nicht zuerst dem Skipper auf der betreffenden Reise oder der Küstenbasis im Falle eines Bareboat-Charters mitgeteilt wurden, werden nicht berücksichtigt. Wenn Probleme an Bord nicht gelöst werden können, kontaktieren Sie uns bitte sofort unter +66612345623. Alle Probleme, die nicht sofort mitgeteilt wurden, gelten als nicht gültig.",
+        "10.3": "Zur Bearbeitung von Beschwerden benötigen wir die ursprüngliche Beschwerde des Kunden, die vom Kunden selbst unterschrieben wurde.",
+        "10.4": "Wenn die Angelegenheit als fair erachtet wird, wird dem Kunden seine Reise teilweise oder vollständig erstattet."
+      },
+      "11": {
+        "title": "Bereitgestellte Informationen",
+        "11.1": "Die von uns bereitgestellten Informationen bezüglich der Yachten, Itinerare, Crew, Standorte, Transfers, Ankünfte/Abfahrten, Preise und alle anderen Aspekte der Charters sind nach bestem Wissen korrekt. Wir behalten uns jedoch das Recht vor, alle oben genannten Punkte je nach Umständen ohne vorherige Ankündigung zu ändern. Von digitalen Tools bereitgestellte Informationen, einschließlich, aber nicht beschränkt auf künstliche Intelligenz (KI)-Systeme, Chatbots oder automatisierte Kommunikationsplattformen, dienen nur zu Informationszwecken. Nur die offizielle schriftliche Rechnung, die von Faraway Yachting Co. Ltd. ausgestellt wurde, stellt eine bindende Vereinbarung dar. Alle Fehler, Abweichungen oder Missverständnisse, die aus KI- oder automatisierten Systemen resultieren, gelten nicht als gültig oder durchsetzbar."
+      },
+      "12": {
+        "title": "Preisänderungen und Werbeaktionen",
+        "12.1": "Wir behalten uns das Recht vor, Preise jederzeit zu ändern oder Werbeaktionen durchzuführen. Der zum Zeitpunkt der Buchung angegebene Preis gilt für die Dauer Ihres Charters, aber Werbeaktionen oder Rabatte können später nicht auf den Charter angewendet werden.",
+        "12.2": "Sie können über unsere Werbeaktionen und Rabatte informiert bleiben, indem Sie unsere Social-Media-Kanäle überprüfen.",
+        "12.3": "Faraway Yachting Co. Ltd. ist nicht verantwortlich für zusätzliche Gebühren, die von Drittanbieter-Agenten oder Vermittlern erhoben werden. Alle Streitigkeiten bezüglich Agentenaufschlägen müssen direkt zwischen dem Kunden und dem jeweiligen Agenten gelöst werden."
+      },
+      "13": {
+        "title": "Geistiges Eigentum und Datenschutzrichtlinie",
+        "13.1": "Alle Inhalte auf der Website von Faraway Yachting Co. Ltd., einschließlich Text, Bilder, Logos und Videos, sind Eigentum des Unternehmens und durch Urheberrechtsgesetze geschützt. Der Inhalt darf ohne schriftliche Genehmigung des Unternehmens nicht verwendet, reproduziert oder verteilt werden. Alle Medien außer dem Text auf unserer Website können jedoch zum Zweck der Förderung unserer Dienstleistungen verwendet werden.",
+        "13.2": "Wir behalten uns die Rechte an allen Medien vor, die auf Ihren Yachten erstellt wurden.",
+        "13.3": "Faraway Yachting Co. Ltd. verpflichtet sich, die persönlichen Daten unserer Kunden zu schützen und ihre Privatsphäre zu respektieren. Das Unternehmen wird persönliche Daten, die vom Kunden bereitgestellt werden, nur zum Zweck der Erfüllung des Charters verwenden und diese Daten nicht an Dritte weitergeben, außer wenn dies zur Erfüllung des Charters erforderlich ist oder gesetzlich vorgeschrieben ist."
+      },
+      "14": {
+        "title": "Zusätzliche Bedingungen",
+        "14.1Label": "Aufschlag für komplexe Buchungen:",
+        "14.1": "Ein Aufschlag von bis zu 20% kann für komplexe Buchungen wie Hochzeiten, Firmenveranstaltungen, Charters mit hohem Maß an Anpassung oder Fälle, die umfangreiche Kommunikation erfordern (z. B. Telefonanrufe oder Gruppenchats), erhoben werden.",
+        "14.2": "Unbeschadet Klausel 5 gibt es keine Garantie für die besten Wetterbedingungen, es sei denn, der Charterpreis wird doppelt bezahlt. Wenn Faraway Yachting den doppelten Chartertarif für die 'Garantie für bestes Wetter' akzeptiert, erstatten wir, wenn es am Chartertag starken Regen oder widrige Seebedingungen (z. B. große Wellen) gibt. Andernfalls wird Faraway Yachting Charters nicht stornieren, wenn alle anderen Charterbetreiber an diesem Tag operieren."
+      },
+      "15": {
+        "title": "Schlussbemerkung",
+        "15.1": "Durch die Buchung bei Faraway Yachting Co. Ltd. stimmen Sie unseren Buchungsbedingungen zu. Diese Bedingungen gelten auf unseren Schiffen (SY Amadeus, SY Shindig, SY Mozart, MY Hot Chilli und MY Sail La Vie) für Kunden, die direkt bei uns oder über eine Agentur buchen.",
+        "15.2": "Diese Bedingungen für Charters, die über Faraway Yachting als Agentur auf anderen Booten als SY Amadeus, SY Shindig, SY Mozart, MY Hot Chilli und MY Sail La Vie gebucht wurden, gelten nicht. Die aktuellen Bedingungen der Charterbetreiber gelten entsprechend. Viele Verträge von Charterbetreibern ändern sich häufig, bitte fragen Sie uns nach den neuesten Allgemeinen Geschäftsbedingungen des Charterbetreibers.",
+        "15.3": "Jede Abweichung von diesen Buchungsbedingungen muss schriftlich von beiden Parteien vereinbart werden. Mündliche Vereinbarungen haben keine Gültigkeit.",
+        "15.4": "Diese Bedingungen unterliegen den Gesetzen der Gerichtsbarkeit des Königreichs Thailand. Alle Streitigkeiten, die aus diesen Bedingungen oder der Buchung entstehen, unterliegen der Gerichtsbarkeit der thailändischen Gerichte.",
+        "15.5": "Wenn ein Teil dieser Buchungsbedingungen als ungültig oder nicht durchsetzbar befunden wird, bleiben die verbleibenden Bestimmungen weiterhin gültig und durchsetzbar.",
+        "15.6": "Wenn Sie Fragen oder Bedenken zu diesen Bedingungen haben, kontaktieren Sie uns bitte zur Klärung, bevor Sie eine Buchung vornehmen."
+      }
+    },
+    "closing": {
+      "message": "Wir hoffen, dass Sie diese Bedingungen klar und prägnant finden.",
+      "wish": "Wir wünschen Ihnen einen großartigen Charter,",
+      "team": "Ihr Team Faraway Yachting Co. Ltd.",
+      "note": "Allgemeine Geschäftsbedingungen: Für alle Charters, die vor dem 1. September 2025 gebucht wurden"
+    },
+    "certifications": {
+      "title": "Unsere Zertifizierungen und Auszeichnungen",
+      "tourismAuthority": "Thailand Tourismusbehörde OTD-Lizenz #34/02546"
+    }
   }
 }

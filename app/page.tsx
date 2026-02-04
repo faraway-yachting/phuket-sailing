@@ -43,28 +43,33 @@ function HeroSection() {
     <section className="relative min-h-[85vh] flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/assets/images/home/hero.jpg"
+          src="/assets/images/home/hero2.png"
           alt="Sailing in Phuket"
           fill
-          className="object-cover"
+          className="object-cover blur-[2px]"
           priority
           quality={100}
         />
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/20 to-transparent z-[1]"></div>
+      <div className="absolute inset-0 bg-gradient-to-l from-black/50 via-black/20 to-transparent z-[1]"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-16 md:py-20">
-        <div className="max-w-3xl">
-          <h1 className="font-[family-name:var(--font-playfair)] text-white mb-4 sm:mb-6 leading-[1.2] drop-shadow-2xl text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-16 md:py-20 flex justify-end">
+        <div className="max-w-xl ml-16 sm:ml-20 md:ml-24 lg:ml-32">
+          <h1 className="font-[family-name:var(--font-playfair)] text-white mb-4 sm:mb-6 leading-[1.2] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal" style={{ textShadow: '2px 2px 8px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 0, 0, 0.5)' }}>
             {t('hero.title')}
           </h1>
 
-          <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-white drop-shadow-lg leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-white leading-relaxed max-w-xl" style={{ textShadow: '1px 1px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.6)' }}>
             {t('hero.description')}
           </p>
 
-          <CTAButton trackingId="hero-quote" className="!px-6 !py-3 !text-base">
+          <CTAButton 
+            href="/contact" 
+            trackingId="hero-quote" 
+            className="!px-6 !py-3 !text-base"
+            style={{ background: 'linear-gradient(90deg, #A0522D 0%, #FF8C00 100%)' }}
+          >
             {t('hero.cta')}
           </CTAButton>
         </div>
@@ -99,7 +104,7 @@ function JumpLinks() {
   ]
 
   return (
-    <nav className="sticky top-0 z-50 -mt-8 sm:-mt-10 md:-mt-12 lg:-mt-14">
+    <nav className="py-2 sm:py-4">
       <div className="max-w-6xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
         <div className="bg-white/90 backdrop-blur-md rounded-xl sm:rounded-2xl shadow-2xl p-2.5 sm:p-3 md:p-5 lg:p-6 border border-white/20">
           <div className="flex flex-wrap items-center justify-center gap-x-1.5 sm:gap-x-2 md:gap-x-3 gap-y-1 sm:gap-y-1.5 md:gap-y-2">
@@ -184,14 +189,11 @@ function FeaturedYachtsSection() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
             {t('featuredYachts.title')}
           </h2>
-          <div className="flex items-center justify-center gap-2 mb-4">
+          <div className="flex items-center justify-center gap-2 mb-8">
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
             <div className="h-2 w-2 bg-amber-500 rounded-full"></div>
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
           </div>
-          <p className="text-gray-600 text-base sm:text-lg max-w-3xl mx-auto">
-            {t('featuredYachts.subtitle')}
-          </p>
         </div>
 
         {/* Yacht Cards Grid */}
@@ -212,7 +214,7 @@ function FeaturedYachtsSection() {
 
                 {/* Price Badge - Bottom Right Corner */}
                 <div className="absolute bottom-0 right-0 bg-[#14b8a6] text-white rounded-tl-2xl px-4 py-2.5 shadow-lg">
-                  <p className="text-[10px] font-bold uppercase tracking-wider leading-tight">Per Day</p>
+                  <p className="text-[10px] font-bold uppercase tracking-wider leading-tight">{t('featuredYachts.perDay')}</p>
                   <p className="text-xl font-bold leading-tight">{yacht.currency}{yacht.pricePerDay}</p>
                 </div>
               </div>
@@ -228,7 +230,7 @@ function FeaturedYachtsSection() {
                   <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span>With skipper</span>
+                  <span>{t('featuredYachts.withSkipper')}</span>
                   <span className="text-gray-400">|</span>
                   <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                     <rect x="3" y="11" width="7" height="10" rx="1" strokeLinecap="round" strokeLinejoin="round" />
@@ -236,7 +238,7 @@ function FeaturedYachtsSection() {
                     <line x1="3" y1="9" x2="10" y2="9" strokeLinecap="round" />
                     <line x1="14" y1="9" x2="21" y2="9" strokeLinecap="round" />
                   </svg>
-                  <span>{yacht.cabins} Cabins</span>
+                  <span>{yacht.cabins} {t('featuredYachts.cabins')}</span>
                   <span className="text-gray-400">|</span>
                   <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                     <path d="M9 17v1a3 3 0 003 3v0a3 3 0 003-3v-1" strokeLinecap="round" strokeLinejoin="round" />
@@ -244,10 +246,9 @@ function FeaturedYachtsSection() {
                     <path d="M12 11V9" strokeLinecap="round" />
                     <path d="M12 9a2 2 0 100-4 2 2 0 000 4z" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
-                  <span>{yacht.bathrooms} Bathrooms</span>
+                  <span>{yacht.bathrooms} {t('featuredYachts.bathrooms')}</span>
                 </div>
 
-                {/* Second Line - Length, Guests, Beds */}
                 <div className="flex items-center justify-center gap-2 mb-4 text-xs text-gray-600">
                   <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
@@ -265,13 +266,12 @@ function FeaturedYachtsSection() {
                   <span className="font-medium">{yacht.beds}</span>
                 </div>
 
-                {/* Action Buttons */}
                 <div className="grid grid-cols-2 gap-2">
-                  <button className="bg-gradient-to-r from-[#14b8a6] to-[#0d9488] hover:from-[#0d9488] hover:to-[#14b8a6] text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95">
-                    Book Now
-                  </button>
+                  <Link href="/contact" className="bg-amber-gradient text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
+                    {t('featuredYachts.bookNow')}
+                  </Link>
                   <Link href={`/yacht/${index + 1}`} className="border-2 border-[#14b8a6] text-[#14b8a6] hover:bg-[#14b8a6] hover:text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
-                    Details
+                    {t('featuredYachts.details')}
                   </Link>
                 </div>
               </div>
@@ -279,13 +279,12 @@ function FeaturedYachtsSection() {
           ))}
         </div>
 
-        {/* View All Button */}
         <div className="text-center mt-10 sm:mt-12">
           <a
             href="#"
             className="inline-flex items-center justify-center bg-gradient-to-r from-[#164e63] to-[#0d3a47] hover:from-[#0d3a47] hover:to-[#164e63] text-white font-bold px-8 sm:px-12 py-4 rounded-xl text-base sm:text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95"
           >
-            View All Yachts →
+            {t('featuredYachts.viewAll')}
           </a>
         </div>
       </div>
@@ -294,40 +293,42 @@ function FeaturedYachtsSection() {
 }
 
 function CharterStylesSection() {
+  const { t } = useLanguage()
+
   const charterStyles = [
     {
-      title: 'Private Sailing Yachts in Phuket',
-      description: 'A sailing yacht is the classic choice. You get the true feeling of sailing, a relaxed pace, and a "real boat holiday" vibe. It\'s perfect for couples, smaller groups, and anyone who loves the romance of sails and sea breeze.',
+      title: t('charterStyles.sailing.title'),
+      description: t('charterStyles.sailing.description'),
       link: '/sailing-yachts-phuket',
-      linkText: 'Explore: Sailing Yachts in Phuket',
+      linkText: t('charterStyles.sailing.linkText'),
       image: '/assets/images/home/sailing-yacht.jpg',
     },
     {
-      title: 'Catamaran Charters in Phuket',
-      description: 'Catamarans are all about space and comfort. They\'re stable, family-friendly, and great for groups who want more lounging areas, shade, and a social deck layout.',
+      title: t('charterStyles.catamaran.title'),
+      description: t('charterStyles.catamaran.description'),
       link: '/catamaran-charters-phuket',
-      linkText: 'Explore: Catamaran Charters in Phuket',
+      linkText: t('charterStyles.catamaran.linkText'),
       image: '/assets/images/home/catamaran.webp',
     },
     {
-      title: 'Overnight & Multi-Day Sailing',
-      description: 'If you want the best overall experience, go overnight. You get quiet mornings at anchor, less rushing, and routes day trips simply can\'t reach.',
+      title: t('charterStyles.overnight.title'),
+      description: t('charterStyles.overnight.description'),
       link: '/overnight-sailing-phuket',
-      linkText: 'Explore: Overnight Sailing Trips Phuket',
+      linkText: t('charterStyles.overnight.linkText'),
       image: '/assets/images/home/overnight-sailing.webp',
     },
     {
-      title: 'Cabin Cruises Phuket',
-      description: 'Want a multi-day sailing trip without renting a whole private boat? Cabin cruises let you book by the cabin. It\'s ideal for solo travelers, couples, and small groups who still want incredible island-hopping at a lower cost.',
+      title: t('charterStyles.cabin.title'),
+      description: t('charterStyles.cabin.description'),
       link: '/cabin-cruises-phuket',
-      linkText: 'Explore: Cabin Cruises Phuket',
+      linkText: t('charterStyles.cabin.linkText'),
       image: '/assets/images/home/cabin-cruise.avif',
     },
     {
-      title: 'Bareboat Charter Phuket',
-      description: 'For confident sailors who want full freedom. Bareboat usually requires a license and/or proven sailing experience. If you qualify, it\'s an amazing way to explore on your own terms.',
+      title: t('charterStyles.bareboat.title'),
+      description: t('charterStyles.bareboat.description'),
       link: '/bareboat-charter-phuket',
-      linkText: 'Explore: Bareboat Charter Phuket',
+      linkText: t('charterStyles.bareboat.linkText'),
       image: '/assets/images/home/day-sailing.webp',
     },
   ]
@@ -337,7 +338,7 @@ function CharterStylesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
-            Choose Your Charter Style
+            {t('charterStyles.title')}
           </h2>
           <div className="flex items-center justify-center gap-2">
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
@@ -346,7 +347,6 @@ function CharterStylesSection() {
           </div>
         </div>
 
-        {/* Charter Cards */}
         <div className="space-y-6 sm:space-y-8">
           {charterStyles.map((charter, index) => (
             <div
@@ -354,7 +354,6 @@ function CharterStylesSection() {
               className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
               <div className="grid md:grid-cols-5 gap-0">
-                {/* Left Side - Image */}
                 <div className="relative h-64 md:h-auto md:col-span-2 overflow-hidden">
                   <Image
                     src={charter.image}
@@ -362,16 +361,13 @@ function CharterStylesSection() {
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  {/* Diagonal slash overlay */}
                   <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-[#0a2a35]/20"></div>
                   <svg className="absolute bottom-0 right-0 w-full h-32 md:h-full" preserveAspectRatio="none" viewBox="0 0 100 100">
                     <polygon points="100,0 100,100 85,100" fill="#0a2a35" opacity="0.85" />
                   </svg>
                 </div>
 
-                {/* Right Side - Content */}
                 <div className="md:col-span-3 bg-white p-6 sm:p-8 md:p-10 flex flex-col justify-center relative">
-                  {/* Dark blue background extension from diagonal */}
                   <div className="absolute left-0 top-0 bottom-0 w-8 md:w-12 bg-gradient-to-r from-[#0a2a35] to-transparent opacity-60"></div>
 
                   <div className="relative z-10">
@@ -387,7 +383,7 @@ function CharterStylesSection() {
                       href={charter.link}
                       className="inline-flex items-center justify-center bg-gradient-to-r from-[#14b8a6] to-[#0d9488] hover:from-[#0d9488] hover:to-[#0a7a6a] text-white font-bold px-6 py-3 rounded-lg text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-fit"
                     >
-                      Explore →
+                      {t('charterStyles.explore')}
                     </a>
                   </div>
                 </div>
@@ -400,17 +396,17 @@ function CharterStylesSection() {
       <div className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 pt-6 sm:pt-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4 text-white">Not sure what fits best?</h3>
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4 text-white">{t('charterStyles.notSure.title')}</h3>
             <p className="text-white/80 text-sm sm:text-base md:text-lg mb-6 sm:mb-8 leading-relaxed">
-              Send your dates + group size, and we'll recommend the best match.
+              {t('charterStyles.notSure.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <button className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-[#14b8a6] rounded-full hover:bg-[#0d9488] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
-                Get a Fast Quote
-              </button>
+              <Link href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
+                {t('charterStyles.notSure.getQuote')}
+              </Link>
               <button className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-green-600 rounded-full hover:bg-green-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
                 <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                WhatsApp Us
+                {t('charterStyles.notSure.whatsapp')}
               </button>
             </div>
           </div>
@@ -421,13 +417,13 @@ function CharterStylesSection() {
 }
 
 function SailingPhuketSection() {
+  const { t } = useLanguage()
+
   return (
     <section id="sailing-phuket" className="py-10 sm:py-14 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
-          {/* Image Collage - Left Side */}
           <div className="relative h-[350px] sm:h-[450px] md:h-[500px] lg:h-[550px]">
-            {/* Left large image - Main */}
             <div className="absolute left-0 top-[10%] w-[58%] h-[85%] rounded-3xl overflow-hidden shadow-2xl border-4 border-white z-10">
               <Image
                 src="/assets/images/home/phuket1.jpg"
@@ -437,7 +433,6 @@ function SailingPhuketSection() {
               />
             </div>
 
-            {/* Top right image */}
             <div className="absolute right-0 top-0 w-[48%] h-[42%] rounded-2xl overflow-hidden shadow-xl border-4 border-white">
               <Image
                 src="/assets/images/home/phuket2.jpg"
@@ -447,7 +442,6 @@ function SailingPhuketSection() {
               />
             </div>
 
-            {/* Bottom right image */}
             <div className="absolute right-0 bottom-0 w-[48%] h-[52%] rounded-2xl overflow-hidden shadow-xl border-4 border-white">
               <Image
                 src="/assets/images/home/phuket3.jpg"
@@ -458,36 +452,35 @@ function SailingPhuketSection() {
             </div>
           </div>
 
-          {/* Text Content - Right Side */}
           <div className="w-full">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#164e63] mb-4 sm:mb-6">
-              Sailing Phuket
+              {t('sailingPhuket.title')}
             </h2>
 
             <p className="text-sm sm:text-base md:text-lg text-neutral-700 leading-relaxed mb-6 sm:mb-8">
-              Phuket is one of the best sailing hubs in Southeast Asia. Distances between islands are perfect for day trips or multi-night routes. You can choose calm bays, scenic limestone landscapes, snorkeling stops, or remote anchorages that feel far from crowds.
+              {t('sailingPhuket.description')}
             </p>
 
             <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#164e63] mb-4 sm:mb-6">
-              This is what makes Sailing Phuket special:
+              {t('sailingPhuket.whySpecial')}
             </h3>
 
             <ul className="space-y-3 sm:space-y-4">
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-[#ca8a44] text-xl sm:text-2xl mt-0.5 flex-shrink-0">✓</span>
-                <span className="text-neutral-700 text-sm sm:text-base md:text-lg leading-relaxed">Warm water and tropical island scenery</span>
+                <span className="text-neutral-700 text-sm sm:text-base md:text-lg leading-relaxed">{t('sailingPhuket.warmWater')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-[#ca8a44] text-xl sm:text-2xl mt-0.5 flex-shrink-0">✓</span>
-                <span className="text-neutral-700 text-sm sm:text-base md:text-lg leading-relaxed">Routes for every mood: relaxed, romantic, adventurous</span>
+                <span className="text-neutral-700 text-sm sm:text-base md:text-lg leading-relaxed">{t('sailingPhuket.routes')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-[#ca8a44] text-xl sm:text-2xl mt-0.5 flex-shrink-0">✓</span>
-                <span className="text-neutral-700 text-sm sm:text-base md:text-lg leading-relaxed">Options for every group: families, couples, corporate teams, friends, solo travelers</span>
+                <span className="text-neutral-700 text-sm sm:text-base md:text-lg leading-relaxed">{t('sailingPhuket.groups')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-[#ca8a44] text-xl sm:text-2xl mt-0.5 flex-shrink-0">✓</span>
-                <span className="text-neutral-700 text-sm sm:text-base md:text-lg leading-relaxed">Day trips, sunset sails, or multi-day exploration</span>
+                <span className="text-neutral-700 text-sm sm:text-base md:text-lg leading-relaxed">{t('sailingPhuket.trips')}</span>
               </li>
             </ul>
           </div>
@@ -508,20 +501,22 @@ function SailingContactSection() {
 }
 
 function WhatTripTypeSection() {
+  const { t } = useLanguage()
+
   const tripTypes = [
     {
-      title: 'Day Sailing',
-      description: 'Ideal if you want a holiday on the water with swimming, and boat-day-ish vibes without staying overnight.',
+      title: t('tripType.day.title'),
+      description: t('tripType.day.description'),
       image: '/assets/images/home/day-sailing.webp',
     },
     {
-      title: 'Sunset Sailing',
-      description: 'Perfect for couples, families, and celebrations. Shorter, scenic, and charming.',
+      title: t('tripType.sunset.title'),
+      description: t('tripType.sunset.description'),
       image: '/assets/images/home/Sunset-sailing.jpg',
     },
     {
-      title: 'Overnight Sailing Boat rental/charter',
-      description: 'More time, more calm, more real holiday.',
+      title: t('tripType.overnight.title'),
+      description: t('tripType.overnight.description'),
       image: '/assets/images/home/overnight-sailing2.jpg',
     },
   ]
@@ -530,14 +525,13 @@ function WhatTripTypeSection() {
     <section className="py-10 sm:py-14 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] text-center mb-3 sm:mb-4">
-          What type of trip are you planning?
+          {t('tripType.title')}
         </h2>
-        <p className="text-center text-neutral-600 mb-6 sm:mb-8 text-base sm:text-lg">Here are the three most common starting points:</p>
+        <p className="text-center text-neutral-600 mb-6 sm:mb-8 text-base sm:text-lg">{t('tripType.subtitle')}</p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {tripTypes.map((type, index) => (
             <div key={index} className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-              {/* Image Container */}
               <div className="relative h-64 sm:h-72 overflow-hidden">
                 <Image
                   src={type.image}
@@ -545,18 +539,15 @@ function WhatTripTypeSection() {
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
 
-                {/* Explore Button Badge */}
                 <div className="absolute bottom-4 right-4">
-                  <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2.5 rounded-full font-semibold text-sm shadow-lg transition-all duration-300 transform hover:scale-105">
-                    Explore
+                  <button className="bg-amber-gradient text-white px-6 py-2.5 rounded-full font-semibold text-sm shadow-lg transition-all duration-300 transform hover:scale-105">
+                    {t('tripType.explore')}
                   </button>
                 </div>
               </div>
 
-              {/* Content */}
               <div className="p-5 sm:p-6">
                 <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3">
                   {type.title}
@@ -575,44 +566,45 @@ function WhatTripTypeSection() {
 }
 
 function OvernightSailingSection() {
+  const { t } = useLanguage()
+
   return (
     <section id="overnight" className="py-10 sm:py-14 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          {/* Left Side - Text Content */}
           <div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-6">
-              Overnight Sailing Trips Phuket
+              {t('overnightSailing.title')}
             </h2>
 
             <p className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
-              If you want the trip that people talk about for years, choose overnight sailing. Day trips are fun, but overnight is where Phuket becomes quiet, beautiful, and unhurried.
+              {t('overnightSailing.description')}
             </p>
 
             <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-6">
-              Why overnight sailing feels different
+              {t('overnightSailing.whyDifferent')}
             </h3>
 
             <ul className="space-y-3 sm:space-y-4">
               <li className="flex items-start gap-3">
                 <span className="text-[#ca8a44] text-xl mt-0.5 flex-shrink-0">✓</span>
-                <span className="text-gray-700 text-base sm:text-lg">You don't rush back to the pier</span>
+                <span className="text-gray-700 text-base sm:text-lg">{t('overnightSailing.noRush')}</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#ca8a44] text-xl mt-0.5 flex-shrink-0">✓</span>
-                <span className="text-gray-700 text-base sm:text-lg">You swim when bays are calm</span>
+                <span className="text-gray-700 text-base sm:text-lg">{t('overnightSailing.calmBays')}</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#ca8a44] text-xl mt-0.5 flex-shrink-0">✓</span>
-                <span className="text-gray-700 text-base sm:text-lg">You enjoy sunset and sunrise at anchor</span>
+                <span className="text-gray-700 text-base sm:text-lg">{t('overnightSailing.sunsetSunrise')}</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#ca8a44] text-xl mt-0.5 flex-shrink-0">✓</span>
-                <span className="text-gray-700 text-base sm:text-lg">You can reach the best islands with fewer crowds</span>
+                <span className="text-gray-700 text-base sm:text-lg">{t('overnightSailing.bestIslands')}</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-[#ca8a44] text-xl mt-0.5 flex-shrink-0">✓</span>
-                <span className="text-gray-700 text-base sm:text-lg">You get time for snorkeling, beaches, viewpoints, and "do nothing" moments</span>
+                <span className="text-gray-700 text-base sm:text-lg">{t('overnightSailing.timeForActivities')}</span>
               </li>
             </ul>
           </div>
@@ -657,12 +649,12 @@ function OvernightSailingSection() {
 }
 
 function OvernightRecommendationSection() {
+  const { t } = useLanguage()
+
   return (
     <section className="py-10 sm:py-14 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Hero Banner with Background Image */}
         <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
-          {/* Background Image */}
           <div className="absolute inset-0">
             <Image
               src="/assets/images/home/catamaran-aerial-hero.jpg"
@@ -673,70 +665,61 @@ function OvernightRecommendationSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-[#164e63]/70 to-[#164e63]/95"></div>
           </div>
 
-          {/* Content - Right Side */}
           <div className="relative z-10 flex flex-col lg:flex-row min-h-[550px] sm:min-h-[600px]">
-            {/* Empty left side for image visibility */}
             <div className="hidden lg:block lg:w-[45%]"></div>
 
-            {/* Text Content - Right Side */}
             <div className="w-full lg:w-[55%] p-6 sm:p-8 md:p-10 lg:p-12 flex flex-col justify-center">
-              <span className="text-teal-300 text-lg sm:text-xl italic mb-2">Our honest recommendation</span>
+              <span className="text-teal-300 text-lg sm:text-xl italic mb-2">{t('overnightRecommendation.honestRecommendation')}</span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-5 leading-tight text-white">
-                5 nights minimum (if you can)
+                {t('overnightRecommendation.title')}
               </h2>
 
               <p className="text-sm sm:text-base md:text-lg mb-6 text-white/90 leading-relaxed">
-                If your schedule allows, 5+ nights is the sweet spot. That's when you can reach more remote areas and enjoy a calmer experience than the busiest hotspots.
+                {t('overnightRecommendation.description')}
               </p>
 
               <h3 className="text-base sm:text-lg font-bold text-white mb-4">
-                Three standout "off-the-beaten-track" destinations:
+                {t('overnightRecommendation.destinations')}
               </h3>
 
-              {/* Destination Cards */}
               <div className="space-y-3 mb-6">
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
-                  <h4 className="font-bold text-white text-sm sm:text-base">Koh Rok</h4>
-                  <p className="text-white/80 text-xs sm:text-sm">Clear water and a quieter, more remote feel</p>
+                  <h4 className="font-bold text-white text-sm sm:text-base">{t('overnightRecommendation.kohRok.title')}</h4>
+                  <p className="text-white/80 text-xs sm:text-sm">{t('overnightRecommendation.kohRok.description')}</p>
                 </div>
 
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
-                  <h4 className="font-bold text-white text-sm sm:text-base">Koh Ha</h4>
-                  <p className="text-white/80 text-xs sm:text-sm">Beautiful lagoons and amazing snorkeling conditions</p>
+                  <h4 className="font-bold text-white text-sm sm:text-base">{t('overnightRecommendation.kohHa.title')}</h4>
+                  <p className="text-white/80 text-xs sm:text-sm">{t('overnightRecommendation.kohHa.description')}</p>
                 </div>
 
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
-                  <h4 className="font-bold text-white text-sm sm:text-base">Butang Islands (7+ nights)</h4>
-                  <p className="text-white/80 text-xs sm:text-sm">Fewest crowds, amazing landscapes over and under water</p>
+                  <h4 className="font-bold text-white text-sm sm:text-base">{t('overnightRecommendation.butang.title')}</h4>
+                  <p className="text-white/80 text-xs sm:text-sm">{t('overnightRecommendation.butang.description')}</p>
                 </div>
               </div>
 
               <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-6">
-                These areas are typically far less crowded than the most popular day-trip zones like Phang Nga Bay or Phi Phi islands. That's why we recommend five nights minimum when guests want the best version of Phuket sailing.
+                {t('overnightRecommendation.lessCrowded')}
               </p>
               
             </div>
           </div>
         </div>
 
-        {/* Shorter Overnights Section - New Design */}
         <div className="mt-8 sm:mt-10 md:mt-12 bg-white rounded-xl overflow-hidden shadow-xl border border-gray-100">
           <div className="grid lg:grid-cols-2 gap-0">
-            {/* Left Side - Content */}
             <div className="p-6 sm:p-8 md:p-10 lg:p-12">
-              {/* Header */}
               <span className="text-teal-500 text-sm sm:text-base italic mb-2 block">Plan your trip</span>
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] mb-6 sm:mb-8">
-                Shorter overnights still work
+                {t('overnightRecommendation.shorterTitle')}
               </h3>
 
               <p className="text-neutral-600 text-sm sm:text-base md:text-lg mb-8 leading-relaxed">
-                If you have fewer nights, we'll plan a route that feels realistic and relaxed:
+                {t('overnightRecommendation.shorterDescription')}
               </p>
 
-              {/* Feature Items with Icons */}
               <div className="space-y-6 sm:space-y-8">
-                {/* 1-2 Nights */}
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 sm:w-7 sm:h-7 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -745,11 +728,10 @@ function OvernightRecommendationSection() {
                   </div>
                   <div>
                     <h4 className="font-bold text-[#164e63] text-base sm:text-lg mb-1">1–2 nights</h4>
-                    <p className="text-neutral-600 text-sm sm:text-base leading-relaxed">Nearby highlights like Phi Phi and Racha Islands</p>
+                    <p className="text-neutral-600 text-sm sm:text-base leading-relaxed">{t('overnightRecommendation.oneTwoNights')}</p>
                   </div>
                 </div>
 
-                {/* 3-4 Nights */}
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 sm:w-7 sm:h-7 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -758,11 +740,10 @@ function OvernightRecommendationSection() {
                   </div>
                   <div>
                     <h4 className="font-bold text-[#164e63] text-base sm:text-lg mb-1">3–4 nights</h4>
-                    <p className="text-neutral-600 text-sm sm:text-base leading-relaxed">A bigger loop with more variety of destinations</p>
+                    <p className="text-neutral-600 text-sm sm:text-base leading-relaxed">{t('overnightRecommendation.threeFourNights')}</p>
                   </div>
                 </div>
 
-                {/* 5-14 Nights */}
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-teal-50 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 sm:w-7 sm:h-7 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -771,22 +752,21 @@ function OvernightRecommendationSection() {
                   </div>
                   <div>
                     <h4 className="font-bold text-[#164e63] text-base sm:text-lg mb-1">5–14 nights</h4>
-                    <p className="text-neutral-600 text-sm sm:text-base leading-relaxed">Absolute best destinations and deeper exploration of Thai islands and culture</p>
+                    <p className="text-neutral-600 text-sm sm:text-base leading-relaxed">{t('overnightRecommendation.fiveFourteenNights')}</p>
                   </div>
                 </div>
               </div>
 
-              {/* CTA */}
               <div className="mt-8 sm:mt-10">
                 <p className="text-sm sm:text-base text-neutral-600 mb-4">
-                  Tell us your dates and number of nights and we'll recommend the best route.
+                  {t('overnightRecommendation.ctaText')}
                 </p>
-                <button className="inline-flex items-center justify-center px-6 py-3 text-sm sm:text-base font-bold text-white bg-gradient-to-r from-[#14b8a6] to-[#0d9488] rounded-lg hover:from-[#0d9488] hover:to-[#0f766e] transition-all duration-300 shadow-lg hover:shadow-xl">
-                  Tell us your dates and number of nights
-                </button>
+                <Link href="/contact" className="inline-flex items-center justify-center px-6 py-3 text-sm sm:text-base font-bold text-white bg-amber-gradient rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+                  {t('overnightRecommendation.ctaButton')}
+                </Link>
                 <p className="mt-4">
                   <a href="#overnight" className="text-[#14b8a6] hover:text-[#0d9488] font-semibold text-sm inline-flex items-center gap-1 transition-colors duration-200">
-                    → Start here: Overnight Sailing Trips Phuket
+                    {t('overnightRecommendation.ctaLink')}
                   </a>
                 </p>
               </div>
@@ -821,11 +801,13 @@ function CatamaranContactSection() {
 }
 
 function CatamaranVsSailingSection() {
+  const { t } = useLanguage()
+
   return (
     <section id="catamaran-vs-sailing" className="py-10 sm:py-14 bg-ocean-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading subtitle="If you are stuck choosing, this quick guide usually solves it">
-          Catamaran vs Sailing Yacht
+        <SectionHeading subtitle={t('catamaranVsSailing.subtitle')}>
+          {t('catamaranVsSailing.title')}
         </SectionHeading>
 
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
@@ -839,28 +821,28 @@ function CatamaranVsSailingSection() {
               />
             </div>
 
-            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl">Choose a catamaran if you want</h3>
+            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl">{t('catamaranVsSailing.catamaranTitle')}</h3>
             <ul className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">More space and stability (great for kids and groups)</span>
+                <span className="text-sm sm:text-base">{t('catamaranVsSailing.catamaranSpace')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">More shade and lounging areas</span>
+                <span className="text-sm sm:text-base">{t('catamaranVsSailing.catamaranShade')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">A floating villa feel</span>
+                <span className="text-sm sm:text-base">{t('catamaranVsSailing.catamaranVilla')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">A very social layout</span>
+                <span className="text-sm sm:text-base">{t('catamaranVsSailing.catamaranSocial')}</span>
               </li>
             </ul>
 
             <a href="#" className="text-[#14b8a6] font-semibold hover:text-[#0d9488] transition-colors text-sm sm:text-base">
-              Compare options: Catamaran Charters in Phuket →
+              {t('catamaranVsSailing.catamaranLink')}
             </a>
           </div>
 
@@ -874,28 +856,28 @@ function CatamaranVsSailingSection() {
               />
             </div>
 
-            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl">Choose a sailing yacht if you want</h3>
+            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl">{t('catamaranVsSailing.sailingTitle')}</h3>
             <ul className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">A more classic sailing sensation</span>
+                <span className="text-sm sm:text-base">{t('catamaranVsSailing.sailingClassic')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">A sportier, authentic sailboat experience</span>
+                <span className="text-sm sm:text-base">{t('catamaranVsSailing.sailingSportier')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">Great value for couples and smaller groups</span>
+                <span className="text-sm sm:text-base">{t('catamaranVsSailing.sailingValue')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">A cozy, romantic atmosphere</span>
+                <span className="text-sm sm:text-base">{t('catamaranVsSailing.sailingRomantic')}</span>
               </li>
             </ul>
 
             <a href="#" className="text-[#14b8a6] font-semibold hover:text-[#0d9488] transition-colors text-sm sm:text-base">
-              Compare options: Sailing Yachts in Phuket →
+              {t('catamaranVsSailing.sailingLink')}
             </a>
           </div>
         </div>
@@ -905,9 +887,9 @@ function CatamaranVsSailingSection() {
       <div className="bg-ocean-50 pt-6 sm:pt-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
-            <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">Still unsure?</h3>
-            <p className="text-white/80 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">Message us your group size + comfort preferences and we will recommend the best fit.</p>
-            <CTAButton trackingId="comparison-quote">Get Personalized Recommendation</CTAButton>
+            <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">{t('catamaranVsSailing.stillUnsure')}</h3>
+            <p className="text-white/80 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">{t('catamaranVsSailing.stillUnsureDescription')}</p>
+            <CTAButton href="/contact" trackingId="comparison-quote">{t('catamaranVsSailing.getRecommendation')}</CTAButton>
           </div>
         </div>
       </div>
@@ -916,25 +898,27 @@ function CatamaranVsSailingSection() {
 }
 
 function PopularRoutesSection() {
+  const { t } = useLanguage()
+
   const routes = [
     {
-      title: 'Racha Islands (Racha Yai / Racha Noi)',
-      description: 'A favorite for clear water and snorkeling. Great for both sailing yachts and catamarans. A strong choice when you want a clean tropical island day without overcomplicating the plan.',
+      title: t('popularRoutes.racha.title'),
+      description: t('popularRoutes.racha.description'),
       image: '/assets/images/home/racha-island.webp',
     },
     {
-      title: 'Coral Island',
-      description: 'Easy, relaxed, and popular for swimming and beach time. Great for families, mixed groups, and visitors who want a fun day on the sea with simple logistics.',
+      title: t('popularRoutes.coral.title'),
+      description: t('popularRoutes.coral.description'),
       image: '/assets/images/home/coral-island.webp',
     },
     {
-      title: 'Phang Nga Bay',
-      description: 'Iconic limestone scenery, calm water, and incredible photos. Often perfect for mixed groups, corporate outings, and travelers who love sightseeing and dramatic landscapes.',
+      title: t('popularRoutes.phangNga.title'),
+      description: t('popularRoutes.phangNga.description'),
       image: '/assets/images/home/phang-nga-bay.jpg',
     },
     {
-      title: 'Koh Rok & Koh Ha (best with 5+ nights)',
-      description: 'If your goal is fewer crowds and more wow, these routes shine on longer charters. Quiet anchorages and that rare feeling of space.',
+      title: t('popularRoutes.kohRokHa.title'),
+      description: t('popularRoutes.kohRokHa.description'),
       image: '/assets/images/home/koh-rok-koh-ha.jpg',
     },
   ]
@@ -963,8 +947,8 @@ function PopularRoutesSection() {
   return (
     <section id="routes" className="py-10 sm:py-14 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading subtitle="Use these as inspiration. We will finalize the best route for your season and trip length">
-          Most Popular Routes
+        <SectionHeading subtitle={t('popularRoutes.subtitle')}>
+          {t('popularRoutes.title')}
         </SectionHeading>
 
         {/* Bento Grid Layout */}
@@ -1057,10 +1041,10 @@ function PopularRoutesSection() {
       <div className="bg-gray-50 pt-6 sm:pt-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
-            <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">Want help choosing?</h3>
-            <p className="text-[#14b8a6] font-semibold text-sm sm:text-base md:text-lg">
-              <a href="#" className="hover:text-[#0d9488] transition-colors">See route ideas: Sailing Itineraries Phuket →</a>
-            </p>
+            <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">{t('popularRoutes.wantHelp')}</h3>
+            <button className="bg-amber-gradient text-white font-bold px-6 py-3 rounded-full text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95">
+              {t('popularRoutes.routeIdeas')}
+            </button>
           </div>
         </div>
       </div>
@@ -1069,35 +1053,37 @@ function PopularRoutesSection() {
 }
 
 function WhoItsForSection() {
+  const { t } = useLanguage()
+
   const audiences = [
     {
-      title: 'Families & kids',
-      description: 'Family-friendly routes, stable boat recommendations, calm swim stops, and the right pacing. Catamarans are often ideal because of space and stability.',
+      title: t('whoItsFor.families.title'),
+      description: t('whoItsFor.families.description'),
       image: '/assets/images/home/family.jpeg',
     },
     {
-      title: 'Couples & romantic getaways',
-      description: 'Sunset sails, quiet anchor nights, and private time in beautiful places. Great for honeymoons, anniversaries, and proposals.',
+      title: t('whoItsFor.couples.title'),
+      description: t('whoItsFor.couples.description'),
       image: '/assets/images/home/couple.jpg',
     },
     {
-      title: 'Corporate & team-building groups',
-      description: 'Sailing creates real connection. It is fun, premium, and relaxed—without feeling formal.',
+      title: t('whoItsFor.corporate.title'),
+      description: t('whoItsFor.corporate.description'),
       image: '/assets/images/home/corporate.jpg',
     },
     {
-      title: 'Adventure seekers',
-      description: 'Longer charters unlock hiking, diving, and off-the-beaten-track islands. If you want exploration, we will build a route that feels like a real adventure.',
+      title: t('whoItsFor.adventure.title'),
+      description: t('whoItsFor.adventure.description'),
       image: '/assets/images/home/au6lybsyxqznyrp0816h.jpg',
     },
     {
-      title: 'Solo travelers & small friend groups',
-      description: 'Cabin cruises are perfect here. You get the multi-day experience without paying for a full private charter.',
+      title: t('whoItsFor.solo.title'),
+      description: t('whoItsFor.solo.description'),
       image: '/assets/images/home/yacht-guests-hero.jpg',
     },
     {
-      title: 'Special occasions',
-      description: 'Milestone birthdays (50th/60th), honeymoons, anniversaries—tell us what you are celebrating and we will help plan a surprise onboard.',
+      title: t('whoItsFor.occasions.title'),
+      description: t('whoItsFor.occasions.description'),
       image: '/assets/images/home/occasion.jpeg',
     },
   ]
@@ -1105,8 +1091,8 @@ function WhoItsForSection() {
   return (
     <section className="py-10 sm:py-14 bg-ocean-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading subtitle="Sailing adventures for everyone - families, couples, groups, and solo travelers">
-          Who Phuket Sailing is perfect for
+        <SectionHeading subtitle={t('whoItsFor.subtitle')}>
+          {t('whoItsFor.title')}
         </SectionHeading>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -1135,58 +1121,60 @@ function WhoItsForSection() {
 }
 
 function WhatsIncludedSection() {
+  const { t } = useLanguage()
+
   return (
     <section id="included" className="py-10 sm:py-14 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading subtitle="Inclusions vary by boat and trip type, but we keep it clear before you confirm anything">
-          What is Included
+        <SectionHeading subtitle={t('whatsIncluded.subtitle')}>
+          {t('whatsIncluded.title')}
         </SectionHeading>
 
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-10 md:mb-12">
           <div className="bg-ocean-50 rounded-2xl p-6 sm:p-8">
-            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl font-bold text-[#164e63]">Typically included on crewed charters</h3>
+            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl font-bold text-[#164e63]">{t('whatsIncluded.typicallyIncluded')}</h3>
             <ul className="space-y-2 sm:space-y-3">
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">Professional crew (not for bareboat charters)</span>
+                <span className="text-sm sm:text-base">{t('whatsIncluded.professionalCrew')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">Safety equipment</span>
+                <span className="text-sm sm:text-base">{t('whatsIncluded.safetyEquipment')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">Standard onboard setup and facilities</span>
+                <span className="text-sm sm:text-base">{t('whatsIncluded.standardSetup')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 font-bold text-lg sm:text-xl flex-shrink-0">✓</span>
-                <span className="text-sm sm:text-base">Route planning by our management team, support and local guidance</span>
+                <span className="text-sm sm:text-base">{t('whatsIncluded.routePlanning')}</span>
               </li>
             </ul>
           </div>
 
           <div className="bg-white rounded-2xl p-6 sm:p-8 border-2 border-ocean-200">
-            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl font-bold text-[#164e63]">Often optional (depends on boat / route)</h3>
+            <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl font-bold text-[#164e63]">{t('whatsIncluded.oftenOptional')}</h3>
             <ul className="space-y-2 sm:space-y-3">
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">Meals and drinks packages</span>
+                <span className="text-sm sm:text-base">{t('whatsIncluded.mealsDrinks')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">National park fees (route-dependent)</span>
+                <span className="text-sm sm:text-base">{t('whatsIncluded.parkFees')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">Special occasion setup</span>
+                <span className="text-sm sm:text-base">{t('whatsIncluded.specialOccasion')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">Extra water toys</span>
+                <span className="text-sm sm:text-base">{t('whatsIncluded.waterToys')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0">•</span>
-                <span className="text-sm sm:text-base">Everything that is legal can be arranged with enough time</span>
+                <span className="text-sm sm:text-base">{t('whatsIncluded.legalArrangements')}</span>
               </li>
             </ul>
           </div>
@@ -1194,32 +1182,32 @@ function WhatsIncludedSection() {
 
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center">
           <div>
-            <h3 className="mb-4 sm:mb-6 text-xl sm:text-2xl md:text-3xl font-bold text-[#164e63]">What to Pack</h3>
-            <p className="mb-4 sm:mb-5 text-neutral-700 text-base sm:text-lg">Keep it simple:</p>
+            <h3 className="mb-4 sm:mb-6 text-xl sm:text-2xl md:text-3xl font-bold text-[#164e63]">{t('whatsIncluded.whatToPack')}</h3>
+            <p className="mb-4 sm:mb-5 text-neutral-700 text-base sm:text-lg">{t('whatsIncluded.keepSimple')}</p>
             <ul className="space-y-2 sm:space-y-3">
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
-                <span className="text-base sm:text-lg">Swimwear (bring ideally 3 sets as you might not wear anything else)</span>
+                <span className="text-base sm:text-lg">{t('whatsIncluded.swimwear')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
-                <span className="text-base sm:text-lg">Sunscreen, hat, sunglasses</span>
+                <span className="text-base sm:text-lg">{t('whatsIncluded.sunscreen')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
-                <span className="text-base sm:text-lg">Light cover-up / rash guard for snorkeling (we sell them at 500 THB)</span>
+                <span className="text-base sm:text-lg">{t('whatsIncluded.coverUp')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
-                <span className="text-base sm:text-lg">Waterproof pouch for phone</span>
+                <span className="text-base sm:text-lg">{t('whatsIncluded.waterproofPouch')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
-                <span className="text-base sm:text-lg">Shoes that can get wet, but are suitable for hiking</span>
+                <span className="text-base sm:text-lg">{t('whatsIncluded.shoes')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3">
                 <span className="text-ocean-600 flex-shrink-0 text-lg">•</span>
-                <span className="text-base sm:text-lg">Any personal medication (we have all kind of medications onboard seasickness, antibiotics, etc.)</span>
+                <span className="text-base sm:text-lg">{t('whatsIncluded.medication')}</span>
               </li>
             </ul>
           </div>
@@ -1239,8 +1227,8 @@ function WhatsIncludedSection() {
       <div className="bg-white pt-6 sm:pt-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
-            <h3 className="text-white mb-6 sm:mb-8 text-xl sm:text-2xl md:text-3xl font-bold">Want a simple, itemized quote?</h3>
-            <CTAButton trackingId="included-quote"> Get a Fast Quote</CTAButton>
+            <h3 className="text-white mb-6 sm:mb-8 text-xl sm:text-2xl md:text-3xl font-bold">{t('whatsIncluded.wantQuote')}</h3>
+            <CTAButton href="/contact" trackingId="included-quote">{t('whatsIncluded.getFastQuote')}</CTAButton>
           </div>
         </div>
       </div>
@@ -1249,11 +1237,13 @@ function WhatsIncludedSection() {
 }
 
 function PricingSection() {
+  const { t } = useLanguage()
+
   return (
     <section id="pricing" className="py-10 sm:py-14 bg-ocean-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading subtitle="Prices depend on a few factors. This transparency helps you choose quickly">
-          How Pricing Works
+        <SectionHeading subtitle={t('pricing.subtitle')}>
+          {t('pricing.title')}
         </SectionHeading>
 
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 mt-6 sm:mt-8">
@@ -1264,50 +1254,50 @@ function PricingSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-bg-[#0d4d5c]">Main pricing drivers</h3>
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-bg-[#0d4d5c]">{t('pricing.mainDrivers')}</h3>
             </div>
             <ul className="space-y-3 sm:space-y-4 md:space-y-6 px-0 sm:px-2">
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4">
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ocean-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">Boat type</span>
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">{t('pricing.boatType')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4">
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ocean-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">Private charter vs cabin cruise</span>
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">{t('pricing.privateVsCabin')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4">
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ocean-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">Trip length (day / overnight)</span>
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">{t('pricing.tripLength')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4">
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ocean-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">Route & Destination</span>
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">{t('pricing.routeDestination')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4">
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ocean-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">Season and demand</span>
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">{t('pricing.seasonDemand')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4">
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ocean-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">Booking Timing</span>
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">{t('pricing.bookingTiming')}</span>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4">
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-ocean-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">Group size and comfort level</span>
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">{t('pricing.groupSize')}</span>
               </li>
             </ul>
           </div>
@@ -1319,7 +1309,7 @@ function PricingSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">Price anchors</h3>
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">{t('pricing.priceAnchors')}</h3>
             </div>
             <ul className="space-y-3 sm:space-y-4 md:space-y-6 px-0 sm:px-2">
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4 pb-3 sm:pb-4 md:pb-5 border-b border-white/20">
@@ -1327,8 +1317,8 @@ function PricingSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
                 <div className="flex-1">
-                  <div className="text-white/90 text-xs sm:text-sm md:text-base mb-1">Day sailing trips:</div>
-                  <div className="text-white font-bold text-base sm:text-lg md:text-xl">from 29,900 THB</div>
+                  <div className="text-white/90 text-xs sm:text-sm md:text-base mb-1">{t('pricing.dayTrips')}</div>
+                  <div className="text-white font-bold text-base sm:text-lg md:text-xl">{t('pricing.dayTripsPrice')}</div>
                 </div>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4 pb-3 sm:pb-4 md:pb-5 border-b border-white/20">
@@ -1336,8 +1326,8 @@ function PricingSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                 </svg>
                 <div className="flex-1">
-                  <div className="text-white/90 text-xs sm:text-sm md:text-base mb-1">Sunset sailing:</div>
-                  <div className="text-white font-bold text-base sm:text-lg md:text-xl">from 24,900 THB</div>
+                  <div className="text-white/90 text-xs sm:text-sm md:text-base mb-1">{t('pricing.sunsetSailing')}</div>
+                  <div className="text-white font-bold text-base sm:text-lg md:text-xl">{t('pricing.sunsetSailingPrice')}</div>
                 </div>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4 pb-3 sm:pb-4 md:pb-5 border-b border-white/20">
@@ -1345,8 +1335,8 @@ function PricingSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
                 </svg>
                 <div className="flex-1">
-                  <div className="text-white/90 text-xs sm:text-sm md:text-base mb-1">Overnight charters:</div>
-                  <div className="text-white font-bold text-base sm:text-lg md:text-xl">from 1000 Euro per night</div>
+                  <div className="text-white/90 text-xs sm:text-sm md:text-base mb-1">{t('pricing.overnightCharters')}</div>
+                  <div className="text-white font-bold text-base sm:text-lg md:text-xl">{t('pricing.overnightChartersPrice')}</div>
                 </div>
               </li>
               <li className="flex items-start gap-2 sm:gap-3 md:gap-4">
@@ -1354,8 +1344,8 @@ function PricingSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
                 <div className="flex-1">
-                  <div className="text-white/90 text-xs sm:text-sm md:text-base mb-1">Cabin cruises:</div>
-                  <div className="text-white font-bold text-base sm:text-lg md:text-xl">from 1998 Euro per cabin for 5 nights</div>
+                  <div className="text-white/90 text-xs sm:text-sm md:text-base mb-1">{t('pricing.cabinCruises')}</div>
+                  <div className="text-white font-bold text-base sm:text-lg md:text-xl">{t('pricing.cabinCruisesPrice')}</div>
                 </div>
               </li>
             </ul>
@@ -1367,9 +1357,9 @@ function PricingSection() {
       <div className="bg-ocean-50 pt-6 sm:pt-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
-            <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">Fastest path to your quote</h3>
-            <p className="text-white/80 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">Send your dates + group size, and we will recommend the best options with clear pricing.</p>
-            <CTAButton trackingId="pricing-quote">Get Your Personalized Quote</CTAButton>
+            <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">{t('pricing.fastestPath')}</h3>
+            <p className="text-white/80 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">{t('pricing.fastestPathDescription')}</p>
+            <CTAButton href="/contact" trackingId="pricing-quote">{t('pricing.getPersonalizedQuote')}</CTAButton>
           </div>
         </div>
       </div>
@@ -1388,36 +1378,37 @@ function BookingContactSection() {
 }
 
 function BookingProcessSection() {
+  const { t } = useLanguage()
+
   const steps = [
     {
       number: 1,
-      title: 'Share your details',
-      description: 'Send dates + group size and tell us what experience you are looking for.',
+      title: t('bookingProcess.step1.title'),
+      description: t('bookingProcess.step1.description'),
     },
     {
       number: 2,
-      title: 'Choose your style',
-      description: 'Choose your style (sailing yacht / catamaran / cabin cruise / bareboat)',
+      title: t('bookingProcess.step2.title'),
+      description: t('bookingProcess.step2.description'),
     },
     {
       number: 3,
-      title: 'Get recommendations',
-      description: 'We recommend the best boats + routes (based on season and goals)',
+      title: t('bookingProcess.step3.title'),
+      description: t('bookingProcess.step3.description'),
     },
     {
       number: 4,
-      title: 'Confirm and relax',
-      description: 'Book with confidence — we handle all the details for your perfect trip',
+      title: t('bookingProcess.step4.title'),
+      description: t('bookingProcess.step4.description'),
     },
   ]
 
   return (
     <section id="booking" className="py-10 sm:py-14 bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50">
       <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
-        {/* Section Header */}
         <div className="text-center mb-8 sm:mb-10">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#164e63] mb-5">
-            How Booking Works
+            {t('bookingProcess.title')}
           </h2>
           <div className="flex items-center justify-center gap-2 mb-6">
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
@@ -1425,7 +1416,7 @@ function BookingProcessSection() {
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
           </div>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Simple and fast — from inquiry to sailing in just 4 easy steps
+            {t('bookingProcess.subtitle')}
           </p>
         </div>
 
@@ -1451,14 +1442,13 @@ function BookingProcessSection() {
           ))}
         </div>
 
-        {/* 20-Second Inquiry Checklist */}
         <div className="mb-8 sm:mb-10 max-w-6xl mx-auto">
           <div className="text-center mb-6 sm:mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-[#164e63] mb-3">
-              The 20-second inquiry checklist
+              {t('bookingProcess.inquiryChecklist')}
             </h3>
             <p className="text-gray-600">
-              Just answer these 5 quick questions and we&apos;ll handle the rest
+              {t('bookingProcess.inquiryChecklistDescription')}
             </p>
           </div>
 
@@ -1469,8 +1459,8 @@ function BookingProcessSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <h4 className="font-bold text-[#164e63] mb-1">How many guests?</h4>
-              <p className="text-sm text-gray-500">Tell us your group size</p>
+              <h4 className="font-bold text-[#164e63] mb-1">{t('bookingProcess.howManyGuests')}</h4>
+              <p className="text-sm text-gray-500">{t('bookingProcess.howManyGuestsDesc')}</p>
             </div>
 
             <div className="text-center">
@@ -1479,8 +1469,8 @@ function BookingProcessSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h4 className="font-bold text-[#164e63] mb-1">Day trip or nights?</h4>
-              <p className="text-sm text-gray-500">Choose your trip length</p>
+              <h4 className="font-bold text-[#164e63] mb-1">{t('bookingProcess.dayOrNights')}</h4>
+              <p className="text-sm text-gray-500">{t('bookingProcess.dayOrNightsDesc')}</p>
             </div>
 
             <div className="text-center">
@@ -1489,8 +1479,8 @@ function BookingProcessSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h4 className="font-bold text-[#164e63] mb-1">Preferred yacht?</h4>
-              <p className="text-sm text-gray-500">Catamaran or sailing yacht</p>
+              <h4 className="font-bold text-[#164e63] mb-1">{t('bookingProcess.preferredYacht')}</h4>
+              <p className="text-sm text-gray-500">{t('bookingProcess.preferredYachtDesc')}</p>
             </div>
 
             <div className="text-center">
@@ -1499,8 +1489,8 @@ function BookingProcessSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                 </svg>
               </div>
-              <h4 className="font-bold text-[#164e63] mb-1">Trip style?</h4>
-              <p className="text-sm text-gray-500">Family / romantic / adventure</p>
+              <h4 className="font-bold text-[#164e63] mb-1">{t('bookingProcess.tripStyle')}</h4>
+              <p className="text-sm text-gray-500">{t('bookingProcess.tripStyleDesc')}</p>
             </div>
 
             <div className="text-center">
@@ -1510,26 +1500,25 @@ function BookingProcessSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
-              <h4 className="font-bold text-[#164e63] mb-1">Must-see islands?</h4>
-              <p className="text-sm text-gray-500">Any specific destinations</p>
+              <h4 className="font-bold text-[#164e63] mb-1">{t('bookingProcess.mustSeeIslands')}</h4>
+              <p className="text-sm text-gray-500">{t('bookingProcess.mustSeeIslandsDesc')}</p>
             </div>
           </div>
         </div>
 
       </div>
 
-      {/* CTA Section - Full Width */}
       <div className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 pt-6 sm:pt-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4">
-              Ready to start planning?
+              {t('bookingProcess.readyToPlan')}
             </h3>
             <p className="text-sm sm:text-base md:text-lg text-white/80 mb-6 sm:mb-8 leading-relaxed">
-              Send us your dates and group size — we&apos;ll craft the perfect sailing adventure for you
+              {t('bookingProcess.readyToPlanDescription')}
             </p>
-            <CTAButton trackingId="booking-inquire">
-              Get Your Individual Quote
+            <CTAButton href="/contact" trackingId="booking-inquire">
+              {t('bookingProcess.getIndividualQuote')}
             </CTAButton>
           </div>
         </div>
@@ -1539,17 +1528,18 @@ function BookingProcessSection() {
 }
 
 function ExplorePages() {
+  const { t } = useLanguage()
+
   const pages = [
-    'Sailing Yachts in Phuket',
-    'Catamaran Charters in Phuket',
-    'Sailing Itineraries Phuket',
-    'Cabin Cruises Phuket',
-    'Bareboat Charter Phuket',
+    t('explorePages.sailingYachts'),
+    t('explorePages.catamaranCharters'),
+    t('explorePages.sailingItineraries'),
+    t('explorePages.cabinCruises'),
+    t('explorePages.bareboatCharter'),
   ]
 
   return (
     <section className="relative py-10 sm:py-14 overflow-hidden">
-      {/* Blurry background image */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/assets/images/home/ynz2xdnl8u0iuplpnrtb.jpg"
@@ -1557,13 +1547,11 @@ function ExplorePages() {
           fill
           className="object-cover blur-md"
         />
-        {/* Blurred teal overlay shade */}
         <div className="absolute inset-0 bg-[#0d4d5c]/70 backdrop-blur-sm"></div>
       </div>
 
-      {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-white mb-8 sm:mb-10 md:mb-12 text-3xl sm:text-4xl md:text-5xl font-bold">Explore All Pages</h2>
+        <h2 className="text-center text-white mb-8 sm:mb-10 md:mb-12 text-3xl sm:text-4xl md:text-5xl font-bold">{t('explorePages.title')}</h2>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
           {pages.map((page, index) => (
@@ -1582,50 +1570,52 @@ function ExplorePages() {
 }
 
 function FAQSection() {
+  const { t } = useLanguage()
+
   const faqs = [
     {
-      question: 'What is the best time for Sailing Phuket?',
-      answer: 'Most guests prefer calmer, drier months, but Phuket can work year-round with the right route choices. We will recommend the best itinerary for your exact dates based on season, sea conditions, and comfort level. Note, the prices in low season between May and October are ca. 30-40% cheaper!',
+      question: t('faq.bestTime.question'),
+      answer: t('faq.bestTime.answer'),
     },
     {
-      question: 'Is a catamaran better than a sailing yacht in Phuket?',
-      answer: 'Catamarans offer more space and stability, which families and groups love. Sailing yachts feel more classic and real sailing. The best choice depends on your group size, comfort preferences, and the vibe you want onboard.',
+      question: t('faq.catamaranVsSailing.question'),
+      answer: t('faq.catamaranVsSailing.answer'),
     },
     {
-      question: 'How many nights do you recommend for the best experience?',
-      answer: 'If possible, we recommend 5 nights minimum. That is when you can reach quieter areas like Koh Rok and Koh Ha, which usually feel much less crowded than Phuket most popular day-trip destinations.',
+      question: t('faq.recommendedNights.question'),
+      answer: t('faq.recommendedNights.answer'),
     },
     {
-      question: 'Are your Sailing Phuket trips family-friendly?',
-      answer: 'Yes. We can recommend stable boats, calm swim stops, and family-friendly routes. Catamarans are often the easiest choice for kids because they have more space, shade, and stability—especially for relaxed day trips.',
+      question: t('faq.familyFriendly.question'),
+      answer: t('faq.familyFriendly.answer'),
     },
     {
-      question: 'Is Phuket sailing good for couples and romantic getaways?',
-      answer: 'Absolutely. Couples love sunset sails and overnight anchorages for privacy and atmosphere. If it is a honeymoon, anniversary, or proposal, tell us early and we will recommend the best boat and help plan a surprise.',
+      question: t('faq.romantic.question'),
+      answer: t('faq.romantic.answer'),
     },
     {
-      question: 'Can solo travelers book without renting a full boat?',
-      answer: 'Yes. With Cabin Cruises Phuket, you can book by the cabin. It is ideal for solo travelers, couples, or small friend groups who want a multi-day sailing experience at a lower cost than a private charter.',
+      question: t('faq.soloTravelers.question'),
+      answer: t('faq.soloTravelers.answer'),
     },
     {
-      question: 'What is included in a crewed sailing charter?',
-      answer: 'Inclusions vary by boat, but crewed charters typically include the boat, crew, all meals, safety equipment, and standard onboard setup. Extras like drinks, park fees, and special setups depend on the vessel and route. We confirm everything upfront.',
+      question: t('faq.whatsIncluded.question'),
+      answer: t('faq.whatsIncluded.answer'),
     },
     {
-      question: 'Do we need a license for bareboat charter Phuket?',
-      answer: 'Usually yes. Bareboat charters typically require a valid license and strong proof of experience. If you are unsure, we can recommend a crewed charter instead or discuss what is required based on your sailing background.',
+      question: t('faq.bareboatLicense.question'),
+      answer: t('faq.bareboatLicense.answer'),
     },
     {
-      question: 'Can you help us choose the best itinerary?',
-      answer: 'Yes. Share your dates, number of nights, group size, and priorities (snorkeling, beaches, quiet islands, adventure). We will recommend a realistic route that suits the season and gives you the best overall experience.',
+      question: t('faq.chooseItinerary.question'),
+      answer: t('faq.chooseItinerary.answer'),
     },
   ]
 
   return (
     <section id="faqs" className="py-10 sm:py-14 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading subtitle="Quick answers to common questions about sailing in Phuket">
-          Frequently Asked Questions
+        <SectionHeading subtitle={t('faq.subtitle')}>
+          {t('faq.title')}
         </SectionHeading>
 
         <div className="space-y-4 sm:space-y-6">
@@ -1642,11 +1632,13 @@ function FAQSection() {
 }
 
 function FinalCTASection() {
+  const { t } = useLanguage()
+
   return (
     <section className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 py-6 sm:py-8">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
-          <h2 className="text-white mb-6 sm:mb-8 text-xl sm:text-2xl md:text-3xl font-bold">Ready to plan your Phuket Sailing Charter?</h2>
+          <h2 className="text-white mb-6 sm:mb-8 text-xl sm:text-2xl md:text-3xl font-bold">{t('finalCta.title')}</h2>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center max-w-xl mx-auto">
             <a
@@ -1654,7 +1646,7 @@ function FinalCTASection() {
               className="group flex items-center justify-center gap-2 sm:gap-3 bg-white hover:bg-ocean-50 text-ocean-700 font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
             >
               <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
-              <span className="text-sm sm:text-base md:text-lg">Call Now</span>
+              <span className="text-sm sm:text-base md:text-lg">{t('finalCta.callNow')}</span>
             </a>
 
             <a
@@ -1662,7 +1654,7 @@ function FinalCTASection() {
               className="group flex items-center justify-center gap-2 sm:gap-3 bg-green-600 hover:bg-green-700 text-white font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
             >
               <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
-              <span className="text-sm sm:text-base md:text-lg">WhatsApp</span>
+              <span className="text-sm sm:text-base md:text-lg">{t('finalCta.whatsapp')}</span>
             </a>
           </div>
         </div>
