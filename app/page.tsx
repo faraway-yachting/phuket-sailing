@@ -241,7 +241,7 @@ function FeaturedYachtsSection() {
                 {/* Price Badge - Bottom Right Corner */}
                 <div className="absolute bottom-0 right-0 bg-[#14b8a6] text-white rounded-tl-2xl px-4 py-2.5 shadow-lg">
                   <p className="text-[10px] font-bold uppercase tracking-wider leading-tight">{t('featuredYachts.perDay')}</p>
-                  <p className="text-xl font-bold leading-tight">${yacht.dayTripPrice}</p>
+                  <p className="text-xl font-bold leading-tight">€{yacht.daytripPriceEuro || yacht.dayTripPrice}</p>
                 </div>
               </div>
 
