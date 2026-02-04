@@ -126,7 +126,7 @@ export function Navbar() {
             {/* Book Now Button */}
             <Link
               href="/contact"
-              className="bg-amber-gradient text-white font-bold px-6 py-2.5 rounded-lg text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105"
+              className="bg-amber-gradient text-white font-bold px-6 py-2.5 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105"
             >
               {t('bookNow')}
             </Link>
@@ -196,7 +196,7 @@ export function Navbar() {
             <Link
               href="/contact"
               onClick={() => setIsMenuOpen(false)}
-              className="block w-full text-center bg-amber-gradient text-white font-bold px-5 py-3 rounded-lg transition-all duration-300"
+              className="block w-full text-center bg-amber-gradient text-white font-bold px-5 py-3 rounded-xl transition-all duration-300"
             >
               {t('bookNow')}
             </Link>

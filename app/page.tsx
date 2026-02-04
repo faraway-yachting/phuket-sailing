@@ -293,10 +293,10 @@ function FeaturedYachtsSection() {
                 </div>
 
                 <div className="grid grid-cols-2 gap-2">
-                  <Link href="/contact" className="bg-amber-gradient text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
+                  <Link href="/contact" className="bg-amber-gradient text-white font-bold py-2.5 px-4 rounded-xl text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
                     {t('featuredYachts.bookNow')}
                   </Link>
-                  <Link href={`/yacht/${yacht._id}`} className="border-2 border-[#14b8a6] text-[#14b8a6] hover:bg-[#14b8a6] hover:text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
+                  <Link href={`/yacht/${yacht._id}`} className="border-2 border-[#14b8a6] text-[#14b8a6] hover:bg-[#14b8a6] hover:text-white font-bold py-2.5 px-4 rounded-xl text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
                     {t('featuredYachts.details')}
                   </Link>
                 </div>
@@ -411,7 +411,7 @@ function CharterStylesSection() {
 
                     <a
                       href={charter.link}
-                      className="inline-flex items-center justify-center bg-gradient-to-r from-[#14b8a6] to-[#0d9488] hover:from-[#0d9488] hover:to-[#0a7a6a] text-white font-bold px-6 py-3 rounded-lg text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-fit"
+                      className="inline-flex items-center justify-center bg-gradient-to-r from-[#14b8a6] to-[#0d9488] hover:from-[#0d9488] hover:to-[#0a7a6a] text-white font-bold px-6 py-3 rounded-xl text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-fit"
                     >
                       {t('charterStyles.explore')}
                     </a>
@@ -431,10 +431,10 @@ function CharterStylesSection() {
               {t('charterStyles.notSure.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
+              <Link href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
                 {t('charterStyles.notSure.getQuote')}
               </Link>
-              <button className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-green-600 rounded-full hover:bg-green-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
+              <button className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-green-600 rounded-xl hover:bg-green-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
                 <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                 {t('charterStyles.notSure.whatsapp')}
               </button>
@@ -791,7 +791,7 @@ function OvernightRecommendationSection() {
                 <p className="text-sm sm:text-base text-neutral-600 mb-4">
                   {t('overnightRecommendation.ctaText')}
                 </p>
-                <Link href="/contact" className="inline-flex items-center justify-center px-6 py-3 text-sm sm:text-base font-bold text-white bg-amber-gradient rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+                <Link href="/contact" className="inline-flex items-center justify-center px-6 py-3 text-sm sm:text-base font-bold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl">
                   {t('overnightRecommendation.ctaButton')}
                 </Link>
                 <p className="mt-4">
@@ -1072,7 +1072,7 @@ function PopularRoutesSection() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
             <h3 className="mb-3 sm:mb-4 text-white text-xl sm:text-2xl md:text-3xl font-bold">{t('popularRoutes.wantHelp')}</h3>
-            <button className="bg-amber-gradient text-white font-bold px-6 py-3 rounded-full text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95">
+            <button className="bg-amber-gradient text-white font-bold px-6 py-3 rounded-xl text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95">
               {t('popularRoutes.routeIdeas')}
             </button>
           </div>
@@ -1673,7 +1673,7 @@ function FinalCTASection() {
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center max-w-xl mx-auto">
             <a
               href="tel:+6661234562"
-              className="group flex items-center justify-center gap-2 sm:gap-3 bg-white hover:bg-ocean-50 text-ocean-700 font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
+              className="group flex items-center justify-center gap-2 sm:gap-3 bg-white hover:bg-ocean-50 text-ocean-700 font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
             >
               <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
               <span className="text-sm sm:text-base md:text-lg">{t('finalCta.callNow')}</span>
@@ -1681,7 +1681,7 @@ function FinalCTASection() {
 
             <a
               href="https://wa.me/6661234562"
-              className="group flex items-center justify-center gap-2 sm:gap-3 bg-green-600 hover:bg-green-700 text-white font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
+              className="group flex items-center justify-center gap-2 sm:gap-3 bg-green-600 hover:bg-green-700 text-white font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
             >
               <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
               <span className="text-sm sm:text-base md:text-lg">{t('finalCta.whatsapp')}</span>

@@ -131,10 +131,10 @@ export default function YachtsPage() {
                         </div>
 
                         <div className="grid grid-cols-2 gap-2">
-                          <Link href="/contact" className="bg-amber-gradient text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
+                          <Link href="/contact" className="bg-amber-gradient text-white font-bold py-2.5 px-4 rounded-xl text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
                             {t('featuredYachts.bookNow')}
                           </Link>
-                          <Link href={`/yacht/${yacht._id}`} className="border-2 border-[#14b8a6] text-[#14b8a6] hover:bg-[#14b8a6] hover:text-white font-bold py-2.5 px-4 rounded-lg text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
+                          <Link href={`/yacht/${yacht._id}`} className="border-2 border-[#14b8a6] text-[#14b8a6] hover:bg-[#14b8a6] hover:text-white font-bold py-2.5 px-4 rounded-xl text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
                             {t('featuredYachts.details')}
                           </Link>
                         </div>
