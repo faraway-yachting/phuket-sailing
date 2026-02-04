@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useLanguage } from '@/components/providers/LanguageProvider';
 
 const navyBadge =
-  "w-10 h-10 rounded-full bg-gradient-to-br from-[#1e5a6d] to-[#164e63] flex items-center justify-center text-white font-bold text-sm flex-shrink-0 shadow-md";
+  "w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br from-[#1e5a6d] to-[#164e63] flex items-center justify-center text-white font-bold text-xs sm:text-sm flex-shrink-0 shadow-md";
 
 function SectionBadge({ id }: { id: number }) {
   return <div className={navyBadge}>{String(id).padStart(2, "0")}</div>;
@@ -66,15 +66,15 @@ export default function TermsPage() {
 
       {/* Table of Contents – full width */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 md:pt-14 pb-0">
-        <div className="bg-gradient-to-br from-[#0a2a35] via-[#0f3a47] to-[#164e63] rounded-2xl shadow-xl shadow-[#0a2a35]/25 p-8 sm:p-10 mb-12">
+        <div className="bg-gradient-to-br from-[#0a2a35] via-[#0f3a47] to-[#164e63] rounded-2xl shadow-xl shadow-[#0a2a35]/25 p-6 sm:p-8 md:p-10 mb-8 sm:mb-12">
           {/* Centered header */}
-          <div className="flex flex-row items-center gap-3 mb-6">
-            <div className="w-13 h-13 rounded-full bg-[#14b8a6]/15 border-2 border-[#14b8a6] flex items-center justify-center w-14 h-14">
-              <svg className="w-6 h-6 text-[#14b8a6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="flex flex-row items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full bg-[#14b8a6]/15 border-2 border-[#14b8a6] flex items-center justify-center flex-shrink-0">
+              <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-[#14b8a6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h10" />
               </svg>
             </div>
-            <h2 className="text-3xl font-bold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
               {t('terms.toc.title')}
             </h2>
           </div>
@@ -100,8 +100,8 @@ export default function TermsPage() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 md:pb-14">
 
         {/* Title */}
-        <div className="text-center mb-10">
-          <h2 className="text-3xl font-bold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
+        <div className="text-center mb-6 sm:mb-10">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
             {t('terms.mainTitle')}
           </h2>
           <div className="w-12 h-0.5 bg-gradient-to-r from-[#14b8a6] to-[#FF8C00] rounded-full mx-auto mt-3" />
@@ -109,13 +109,13 @@ export default function TermsPage() {
 
         {/* ── 1. Booking ── */}
         <section id="section-1" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={1} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 1. {t('terms.sections.1.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">1.1</span> {t('terms.sections.1["1.1"]')}
                 </p>
@@ -139,13 +139,13 @@ export default function TermsPage() {
 
         {/* ── 2. Altering a Booking ── */}
         <section id="section-2" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={2} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 2. {t('terms.sections.2.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">2.1</span> {t('terms.sections.2["2.1"]')}
                 </p>
@@ -156,13 +156,13 @@ export default function TermsPage() {
 
         {/* ── 3. Payments ── */}
         <section id="section-3" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={3} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 3. {t('terms.sections.3.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-4">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-4">
                 <div className="bg-[#f8fffe] rounded-lg p-4 border border-gray-100">
                   <p className="font-semibold text-[#164e63] text-base mb-1.5">3.1 {t('terms.sections.3["3.1Title"]')}</p>
                   <p className="text-neutral-700 text-base leading-relaxed">
@@ -210,13 +210,13 @@ export default function TermsPage() {
 
         {/* ── 4. Cancellations and Insurance ── */}
         <section id="section-4" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={4} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 4. {t('terms.sections.4.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">4.1</span> {t('terms.sections.4["4.1"]')}
                 </p>
@@ -252,13 +252,13 @@ export default function TermsPage() {
 
         {/* ── 5. Force Majeure ── */}
         <section id="section-5" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={5} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 5. {t('terms.sections.5.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">5.1</span> {t('terms.sections.5["5.1"]')}
                 </p>
@@ -269,13 +269,13 @@ export default function TermsPage() {
 
         {/* ── 6. Safety ── */}
         <section id="section-6" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={6} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 6. {t('terms.sections.6.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">6.1</span> {t('terms.sections.6["6.1"]')}
                 </p>
@@ -302,13 +302,13 @@ export default function TermsPage() {
 
         {/* ── 7. Liability ── */}
         <section id="section-7" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={7} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 7. {t('terms.sections.7.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">7.1</span> {t('terms.sections.7["7.1"]')}
                 </p>
@@ -330,13 +330,13 @@ export default function TermsPage() {
 
         {/* ── 8. Holiday & Cancellation Insurance ── */}
         <section id="section-8" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={8} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 8. {t('terms.sections.8.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">8.1</span> {t('terms.sections.8["8.1"]')}
                 </p>
@@ -363,13 +363,13 @@ export default function TermsPage() {
 
         {/* ── 9. Equipment Breakdown ── */}
         <section id="section-9" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={9} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 9. {t('terms.sections.9.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">9.1</span> {t('terms.sections.9["9.1"]')}
                 </p>
@@ -386,13 +386,13 @@ export default function TermsPage() {
 
         {/* ── 10. Complaints ── */}
         <section id="section-10" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={10} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 10. {t('terms.sections.10.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">10.1</span> {t('terms.sections.10["10.1"]')}
                 </p>
@@ -412,13 +412,13 @@ export default function TermsPage() {
 
         {/* ── 11. Information Provided ── */}
         <section id="section-11" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={11} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 11. {t('terms.sections.11.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">11.1</span> {t('terms.sections.11["11.1"]')}
                 </p>
@@ -429,13 +429,13 @@ export default function TermsPage() {
 
         {/* ── 12. Price Changes & Promotions ── */}
         <section id="section-12" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={12} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 12. {t('terms.sections.12.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">12.1</span> {t('terms.sections.12["12.1"]')}
                 </p>
@@ -452,13 +452,13 @@ export default function TermsPage() {
 
         {/* ── 13. Intellectual Property & Privacy Policy ── */}
         <section id="section-13" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={13} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 13. {t('terms.sections.13.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">13.1</span> {t('terms.sections.13["13.1"]')}
                 </p>
@@ -475,13 +475,13 @@ export default function TermsPage() {
 
         {/* ── 14. Additional Terms ── */}
         <section id="section-14" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={14} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 14. {t('terms.sections.14.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">14.1</span>{" "}
                   <span className="font-semibold">{t('terms.sections.14["14.1Label"]')}</span> {t('terms.sections.14["14.1"]')}
@@ -496,13 +496,13 @@ export default function TermsPage() {
 
         {/* ── 15. Final Note ── */}
         <section id="section-15" className="mb-8">
-          <div className="flex items-start gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
             <SectionBadge id={15} />
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+            <div className="flex-1 w-full">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 15. {t('terms.sections.15.title')}
               </h3>
-              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-5 space-y-3">
+              <div className="bg-white rounded-xl shadow-sm shadow-[#164e63]/5 border border-gray-100 p-4 sm:p-5 space-y-3">
                 <p className="text-neutral-700 text-base leading-relaxed">
                   <span className="font-semibold text-[#164e63]">15.1</span> {t('terms.sections.15["15.1"]')}
                 </p>

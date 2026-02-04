@@ -54,8 +54,8 @@ function HeroSection() {
 
       <div className="absolute inset-0 bg-gradient-to-l from-black/50 via-black/20 to-transparent z-[1]"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-16 md:py-20 flex justify-end">
-        <div className="max-w-xl ml-16 sm:ml-20 md:ml-24 lg:ml-32">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-16 md:py-20 flex justify-center sm:justify-end">
+        <div className="max-w-xl mx-auto sm:mx-0 sm:ml-20 md:ml-24 lg:ml-32">
           <h1 className="font-[family-name:var(--font-playfair)] text-white mb-4 sm:mb-6 leading-[1.2] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal" style={{ textShadow: '2px 2px 8px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 0, 0, 0.5)' }}>
             {t('hero.title')}
           </h1>
