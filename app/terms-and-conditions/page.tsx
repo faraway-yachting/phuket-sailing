@@ -9,18 +9,6 @@ function SectionBadge({ id }: { id: number }) {
   return <div className={navyBadge}>{String(id).padStart(2, "0")}</div>;
 }
 
-function WarningTag() {
-  const { t } = useLanguage()
-  return (
-    <span className="inline-flex items-center gap-1.5 bg-amber-50 border border-amber-200 text-amber-700 text-xs font-semibold px-2.5 py-1 rounded-full mb-3">
-      <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v3.75m-9.303 3.376a12 12 0 1 0 20.817 0M12 15.75h.008v.008H12v-.008z" />
-      </svg>
-      {t('terms.important')}
-    </span>
-  );
-}
-
 export default function TermsPage() {
   const { t } = useLanguage()
   
@@ -537,40 +525,6 @@ export default function TermsPage() {
             <p className="text-[#14b8a6] text-sm">
               {t('terms.closing.note')}
             </p>
-          </div>
-        </div>
-
-        {/* ── Certifications & Awards ── */}
-        <div className="mt-8 mb-4">
-          <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl shadow-xl shadow-gray-300/30 p-8">
-            <div className="text-[#164e63] text-center text-lg font-semibold mb-2" style={{ fontFamily: "var(--font-playfair)" }}>
-              {t('terms.certifications.title')}
-            </div>
-            <div className="w-12 h-0.5 bg-gradient-to-r from-[#14b8a6] to-[#FF8C00] rounded-full mx-auto mb-6" />
-
-            {/* Tourism Authority Certificate - Featured */}
-            <div className="flex flex-col items-center mb-8">
-              <Image src="/assets/images/certificates/certificate1.png" alt="Tourism Authority of Thailand" width={120} height={120} className="object-contain mb-3" />
-              <p className="text-[#164e63] text-base font-semibold text-center">
-                {t('terms.certifications.tourismAuthority')}
-              </p>
-            </div>
-
-            {/* Other Certificates */}
-            <div className="flex flex-wrap justify-center items-center gap-6">
-              <Image src="/assets/images/certificates/certificate2.png" alt="TripAdvisor 2016 Certificate of Excellence" width={72} height={72} className="object-contain" />
-              <Image src="/assets/images/certificates/certificate3.png" alt="TripAdvisor 2017 Certificate of Excellence" width={72} height={72} className="object-contain" />
-              <Image src="/assets/images/certificates/certificate4.png" alt="TripAdvisor 2018 Certificate of Excellence" width={72} height={72} className="object-contain" />
-              <Image src="/assets/images/certificates/certificate5.png" alt="TripAdvisor 2019 Certificate of Excellence" width={72} height={72} className="object-contain" />
-              <div className="bg-white rounded-xl p-2 shadow-sm">
-                <Image src="/assets/images/certificates/certificate6.webp" alt="Travelers Choice 2023" width={64} height={64} className="object-contain" />
-              </div>
-              <Image src="/assets/images/certificates/certificate7.gif" alt="TripAdvisor Travelers Choice Awards 2025" width={88} height={68} className="object-contain" />
-              <div className="bg-[#164e63] rounded-full p-3 shadow-md">
-                <Image src="/assets/images/certificates/certificate8.webp" alt="World Luxury Travel Awards 2025 Winner" width={84} height={84} className="object-contain" />
-              </div>
-              <Image src="/assets/images/certificates/2025PersonalisedTravelWinnerLogo2631.webp" alt="Personalised Travel Winner 2025" width={72} height={72} className="object-contain" />
-            </div>
           </div>
         </div>
       </div>

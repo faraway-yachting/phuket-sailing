@@ -145,12 +145,6 @@ function YachtFormSection() {
   )
 }
 
-const FALLBACK_YACHTS: Yacht[] = [
-  { _id: '1', title: 'Serenity Seeker', slug: 'serenity-seeker', primaryImage: '/assets/images/home/catamaran.webp', length: '51 ft', guests: '30', cabins: '4', bathrooms: '4', dayTripPrice: '399', overnightPrice: '499', passengerDayTrip: '30', passengerOvernight: '8', boatType: 'Catamaran', status: 'published', type: 'crewed' },
-  { _id: '2', title: 'Ocean Whisperer', slug: 'ocean-whisperer', primaryImage: '/assets/images/home/sailing-yacht.jpg', length: '45 ft', guests: '12', cabins: '3', bathrooms: '3', dayTripPrice: '199', overnightPrice: '299', passengerDayTrip: '12', passengerOvernight: '6', boatType: 'Sailing', status: 'published', type: 'crewed' },
-  { _id: '3', title: 'Majestic Pearl', slug: 'majestic-pearl', primaryImage: '/assets/images/home/overnight-sailing.webp', length: '58 ft', guests: '40', cabins: '5', bathrooms: '5', dayTripPrice: '799', overnightPrice: '999', passengerDayTrip: '40', passengerOvernight: '12', boatType: 'Sailing', status: 'published', type: 'crewed' },
-]
-
 function FeaturedYachtsSection() {
   const { t } = useLanguage()
   const [yachts, setYachts] = useState<Yacht[]>([])
@@ -168,8 +162,6 @@ function FeaturedYachtsSection() {
       .catch(() => setHasMore(false))
       .finally(() => setLoading(false))
   }, [])
-
-  const displayYachts = yachts.length > 0 ? yachts : FALLBACK_YACHTS
 
   const handleLoadMore = () => {
     setLoadingMore(true)
@@ -222,9 +214,15 @@ function FeaturedYachtsSection() {
         )}
 
         {/* Yacht Cards Grid */}
-        {!loading && (
+        {!loading && yachts.length === 0 && (
+          <div className="text-center py-12">
+            <p className="text-lg text-gray-500">Loading yachts...</p>
+          </div>
+        )}
+
+        {!loading && yachts.length > 0 && (
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
-          {displayYachts.map((yacht) => (
+          {yachts.map((yacht) => (
             <div
               key={yacht._id}
               className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"

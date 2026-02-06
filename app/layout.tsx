@@ -4,6 +4,7 @@ import './globals.css'
 import { WhatsAppButton } from '@/components/shared/WhatsAppButton'
 import { Navbar } from '@/components/shared/Navbar'
 import { Footer } from '@/components/shared/Footer'
+import { Certifications } from '@/components/shared/Certifications'
 import { LanguageProvider } from '@/components/providers/LanguageProvider'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
@@ -147,6 +148,7 @@ export default function RootLayout({
         <LanguageProvider>
           <Navbar />
           {children}
+          <Certifications />
           <Footer />
           <WhatsAppButton />
         </LanguageProvider>
