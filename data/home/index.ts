@@ -1,5 +1,5 @@
 import { Users, Heart, Briefcase, Compass, User, Gift } from "lucide-react";
-import { Anchor, Ship, Sunrise, Sailboat } from "lucide-react";
+import { Anchor, Ship, Sunrise, Sailboat, Moon, MapPin, CheckCircle, CreditCard, Calendar, HelpCircle, MessageCircle } from "lucide-react";
 import type {
   Audience,
   CharterStyle,
@@ -152,16 +152,16 @@ export const tripTypes: TripType[] = [
 // ============================================================================
 
 export const links: JumpLink[] = [
-  { id: "charter-style", label: "Choose Your Charter Style" },
-  { id: "sailing-phuket", label: "Sailing Phuket" },
-  { id: "overnight-sailing", label: "Overnight Sailing Trips Phuket" },
-  { id: "catamaran-vs-sailing", label: "Catamaran vs Sailing Yacht" },
-  { id: "popular-routes", label: "Most Popular Routes" },
-  { id: "whats-included", label: "What's Included" },
-  { id: "pricing", label: "How Pricing Works" },
-  { id: "booking", label: "How Booking Works" },
-  { id: "faqs", label: "FAQs" },
-  { id: "contact", label: "Contact Us" },
+  { id: "charter-style", label: "Charter Styles", icon: Anchor },
+  { id: "sailing-phuket", label: "Sailing Phuket", icon: Sailboat },
+  { id: "overnight-sailing", label: "Overnight Trips", icon: Moon },
+  { id: "catamaran-vs-sailing", label: "Cat vs Yacht", icon: Ship },
+  { id: "popular-routes", label: "Popular Routes", icon: MapPin },
+  { id: "whats-included", label: "What's Included", icon: CheckCircle },
+  { id: "pricing", label: "Pricing", icon: CreditCard },
+  { id: "booking", label: "Booking", icon: Calendar },
+  { id: "faqs", label: "FAQs", icon: HelpCircle },
+  { id: "contact", label: "Contact", icon: MessageCircle },
 ];
 
 // ============================================================================

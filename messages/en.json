@@ -28,7 +28,7 @@
     "withSkipper": "With skipper",
     "cabins": "Cabins",
     "bathrooms": "Bathrooms",
-    "perDay": "Per Day"
+    "from": "From"
   },
   "charterStyles": {
     "title": "Choose Your Charter Style",

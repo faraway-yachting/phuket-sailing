@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react'
 
-export type Locale = 'en' | 'fr' | 'de' | 'ru' | 'th' | 'cn' | 'ar' | 'ur' | 'hi'
+export type Locale = 'en' | 'fr' | 'de' | 'ru' | 'th' | 'cn' | 'ar'
 
 interface LanguageContextType {
   locale: Locale
@@ -21,8 +21,6 @@ const localeData: Record<Locale, { code: string; name: string; countryCode: stri
   th: { code: 'TH', name: 'Thai', countryCode: 'th' },
   cn: { code: 'CN', name: 'Chinese', countryCode: 'cn' },
   ar: { code: 'AR', name: 'Arabic', countryCode: 'sa' },
-  ur: { code: 'UR', name: 'Urdu', countryCode: 'pk' },
-  hi: { code: 'HI', name: 'Hindi', countryCode: 'in' },
 }
 
 export const languages = Object.entries(localeData).map(([key, value]) => ({
@@ -38,8 +36,6 @@ import ruMessages from '@/messages/ru.json'
 import thMessages from '@/messages/th.json'
 import cnMessages from '@/messages/cn.json'
 import arMessages from '@/messages/ar.json'
-import urMessages from '@/messages/ur.json'
-import hiMessages from '@/messages/hi.json'
 
 const allMessages: Record<Locale, Record<string, unknown>> = {
   en: enMessages,
@@ -49,13 +45,21 @@ const allMessages: Record<Locale, Record<string, unknown>> = {
   th: thMessages,
   cn: cnMessages,
   ar: arMessages,
-  ur: urMessages,
-  hi: hiMessages,
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>('en')
   const [messages, setMessages] = useState<Record<string, unknown>>(enMessages)
+
+  const langMap: Record<Locale, string> = {
+    en: 'en',
+    fr: 'fr',
+    de: 'de',
+    ru: 'ru',
+    th: 'th',
+    cn: 'zh-CN',
+    ar: 'ar'
+  }
 
   useEffect(() => {
     // Get locale from localStorage or cookie on mount
@@ -63,6 +67,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     if (savedLocale && allMessages[savedLocale]) {
       setLocaleState(savedLocale)
       setMessages(allMessages[savedLocale])
+      document.documentElement.lang = langMap[savedLocale]
+      document.documentElement.dir = savedLocale === 'ar' ? 'rtl' : 'ltr'
     }
   }, [])
 
@@ -72,12 +78,12 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     localStorage.setItem('locale', newLocale)
     document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`
 
-    // Set RTL for Arabic and Urdu
-    if (newLocale === 'ar' || newLocale === 'ur') {
-      document.documentElement.dir = 'rtl'
-    } else {
-      document.documentElement.dir = 'ltr'
-    }
+    // Set lang attribute for accessibility (but prevent browser translation)
+    document.documentElement.lang = langMap[newLocale]
+    document.documentElement.setAttribute('translate', 'no')
+
+    // Set RTL for Arabic
+    document.documentElement.dir = newLocale === 'ar' ? 'rtl' : 'ltr'
   }
 
   // Translation function with dot notation support and bracket notation for keys with dots

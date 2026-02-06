@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { CTAButton } from '@/components/shared/CTAButton'
 import { ContactCards } from '@/components/shared/ContactCards'
 import { SectionHeading } from '@/components/shared/SectionHeading'
-import { Phone, MessageCircle, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Phone, MessageCircle, ChevronLeft, ChevronRight, Anchor, Sailboat, Moon, Ship, MapPin, CheckCircle, CreditCard, Calendar, HelpCircle } from 'lucide-react'
 import { useLanguage } from '@/components/providers/LanguageProvider'
 import { fetchAllYachts } from '@/lib/api/yachts'
 import type { Yacht } from '@/lib/types/home'
@@ -48,21 +48,21 @@ function HeroSection() {
           src="/assets/images/home/hero2.png"
           alt="Sailing in Phuket"
           fill
-          className="object-cover blur-[2px]"
+          className="object-cover "
           priority
           quality={100}
         />
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-l from-black/50 via-black/20 to-transparent z-[1]"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-[#164e63]/60 via-[#164e63]/40 to-[#164e63]/60 z-[1]"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-16 md:py-20 flex justify-center sm:justify-end">
-        <div className="max-w-xl mx-auto sm:mx-0 sm:ml-20 md:ml-24 lg:ml-32">
-          <h1 className="font-[family-name:var(--font-playfair)] text-white mb-4 sm:mb-6 leading-[1.2] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal" style={{ textShadow: '2px 2px 8px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 0, 0, 0.5)' }}>
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-16 md:py-20 flex justify-center">
+        <div className="max-w-3xl text-center">
+          <h1 className="font-[family-name:var(--font-playfair)] text-white mb-4 sm:mb-6 leading-[1.2] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold" style={{ textShadow: '3px 3px 12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.6)' }}>
             {t('hero.title')}
           </h1>
 
-          <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-white leading-relaxed max-w-xl" style={{ textShadow: '1px 1px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.6)' }}>
+          <p className="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-white leading-relaxed font-medium max-w-3xl mx-auto" style={{ textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.6)' }}>
             {t('hero.description')}
           </p>
 
@@ -94,35 +94,35 @@ function JumpLinks() {
   const { t } = useLanguage()
 
   const links = [
-    { href: '#charter-style', label: t('nav.charterStyles') },
-    { href: '#sailing-phuket', label: t('nav.sailingPhuket') },
-    { href: '#overnight', label: t('nav.overnightTrips') },
-    { href: '#catamaran-vs-sailing', label: t('nav.catamaranVsSailing') },
-    { href: '#routes', label: t('nav.routes') },
-    { href: '#included', label: t('nav.included') },
-    { href: '#pricing', label: t('nav.pricing') },
-    { href: '#booking', label: t('nav.booking') },
-    { href: '#faqs', label: t('nav.faq') },
+    { href: '#charter-style', label: t('nav.charterStyles'), icon: Anchor },
+    { href: '#sailing-phuket', label: t('nav.sailingPhuket'), icon: Sailboat },
+    { href: '#overnight', label: t('nav.overnightTrips'), icon: Moon },
+    { href: '#catamaran-vs-sailing', label: t('nav.catamaranVsSailing'), icon: Ship },
+    { href: '#routes', label: t('nav.routes'), icon: MapPin },
+    { href: '#included', label: t('nav.included'), icon: CheckCircle },
+    { href: '#pricing', label: t('nav.pricing'), icon: CreditCard },
+    { href: '#booking', label: t('nav.booking'), icon: Calendar },
+    { href: '#faqs', label: t('nav.faq'), icon: HelpCircle },
   ]
 
   return (
-    <nav className="py-2 sm:py-4">
-      <div className="max-w-6xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
-        <div className="bg-white/90 backdrop-blur-md rounded-xl sm:rounded-2xl shadow-2xl p-2.5 sm:p-3 md:p-5 lg:p-6 border border-white/20">
-          <div className="flex flex-wrap items-center justify-center gap-x-1.5 sm:gap-x-2 md:gap-x-3 gap-y-1 sm:gap-y-1.5 md:gap-y-2">
-            {links.map((link, index) => (
-              <span key={link.href} className="flex items-center gap-1.5 sm:gap-2 md:gap-3">
+    <nav className="py-2 sm:py-3 md:py-4">
+      <div className="max-w-6xl mx-auto px-2 sm:px-4">
+        <div className="bg-white/90 backdrop-blur-md rounded-xl sm:rounded-2xl shadow-lg p-1.5 sm:p-2.5 md:p-4 border border-gray-100">
+          <div className="flex flex-wrap items-center justify-center gap-x-0 gap-y-0.5 sm:gap-1 md:gap-1.5">
+            {links.map((link) => {
+              const Icon = link.icon
+              return (
                 <a
+                  key={link.href}
                   href={link.href}
-                  className="text-[#164e63] hover:text-[#0891b2] transition-colors duration-300 text-[10px] sm:text-xs md:text-sm lg:text-base font-medium whitespace-nowrap px-0.5 sm:px-1"
+                  className="flex items-center gap-1 sm:gap-1.5 text-gray-600 hover:text-[#164e63] hover:bg-gray-50 transition-all duration-300 text-[11px] sm:text-sm md:text-base font-medium whitespace-nowrap px-1.5 sm:px-2.5 md:px-3 py-1 sm:py-1.5 md:py-2 rounded-md sm:rounded-lg"
                 >
-                  {link.label}
+                  <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 text-[#14b8a6] flex-shrink-0" />
+                  <span>{link.label}</span>
                 </a>
-                {index < links.length - 1 && (
-                  <span className="text-gray-300 text-[10px] sm:text-xs md:text-sm lg:text-base">|</span>
-                )}
-              </span>
-            ))}
+              )
+            })}
           </div>
         </div>
       </div>
@@ -223,9 +223,10 @@ function FeaturedYachtsSection() {
         {!loading && yachts.length > 0 && (
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
           {yachts.map((yacht) => (
-            <div
+            <Link
               key={yacht._id}
-              className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+              href={`/yacht/${yacht._id}`}
+              className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer block"
             >
               {/* Yacht Image with Price Badge */}
               <div className="relative h-64 sm:h-72 overflow-hidden rounded-t-3xl">
@@ -238,7 +239,7 @@ function FeaturedYachtsSection() {
 
                 {/* Price Badge - Bottom Right Corner */}
                 <div className="absolute bottom-0 right-0 bg-[#14b8a6] text-white rounded-tl-2xl px-4 py-2.5 shadow-lg">
-                  <p className="text-[10px] font-bold uppercase tracking-wider leading-tight">{t('featuredYachts.perDay')}</p>
+                  <p className="text-[10px] font-bold uppercase tracking-wider leading-tight">{t('featuredYachts.from')}</p>
                   <p className="text-xl font-bold leading-tight">€{yacht.daytripPriceEuro || yacht.dayTripPrice}</p>
                 </div>
               </div>
@@ -250,21 +251,21 @@ function FeaturedYachtsSection() {
                 </h3>
 
                 {/* First Line - With Skipper, Cabins, Bathrooms */}
-                <div className="flex items-center justify-center gap-2 mb-2 text-xs text-gray-700">
-                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="flex items-center justify-center gap-1 mb-2 text-[13px] text-gray-700">
+                  <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span>{t('featuredYachts.withSkipper')}</span>
-                  <span className="text-gray-400">|</span>
-                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <span className="text-gray-400 mx-1">|</span>
+                  <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                     <rect x="3" y="11" width="7" height="10" rx="1" strokeLinecap="round" strokeLinejoin="round" />
                     <rect x="14" y="11" width="7" height="10" rx="1" strokeLinecap="round" strokeLinejoin="round" />
                     <line x1="3" y1="9" x2="10" y2="9" strokeLinecap="round" />
                     <line x1="14" y1="9" x2="21" y2="9" strokeLinecap="round" />
                   </svg>
                   <span>{yacht.cabins} {t('featuredYachts.cabins')}</span>
-                  <span className="text-gray-400">|</span>
-                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <span className="text-gray-400 mx-1">|</span>
+                  <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                     <path d="M9 17v1a3 3 0 003 3v0a3 3 0 003-3v-1" strokeLinecap="round" strokeLinejoin="round" />
                     <rect x="6" y="11" width="12" height="6" rx="1" strokeLinecap="round" strokeLinejoin="round" />
                     <path d="M12 11V9" strokeLinecap="round" />
@@ -273,33 +274,30 @@ function FeaturedYachtsSection() {
                   <span>{yacht.bathrooms} {t('featuredYachts.bathrooms')}</span>
                 </div>
 
-                <div className="flex items-center justify-center gap-2 mb-4 text-xs text-gray-600">
-                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="flex items-center justify-center gap-1 mb-4 text-[13px] text-gray-600">
+                  <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
                   </svg>
                   <span className="font-medium">{yacht.length}</span>
-                  <span className="text-gray-400">|</span>
-                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <span className="text-gray-400 mx-1">|</span>
+                  <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>
                   <span className="font-medium">{yacht.guests}</span>
-                  <span className="text-gray-400">|</span>
-                  <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <span className="text-gray-400 mx-1">|</span>
+                  <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                   </svg>
                   <span className="font-medium">{yacht.passengerOvernight}</span>
                 </div>
 
-                <div className="grid grid-cols-2 gap-2">
-                  <Link href="/contact" className="bg-amber-gradient text-white font-bold py-2.5 px-4 rounded-xl text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
+                <div className="flex justify-center">
+                  <span className="bg-amber-gradient text-white font-bold py-2.5 px-20 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 inline-flex items-center justify-center">
                     {t('featuredYachts.bookNow')}
-                  </Link>
-                  <Link href={`/yacht/${yacht._id}`} className="border-2 border-[#14b8a6] text-[#14b8a6] hover:bg-[#14b8a6] hover:text-white font-bold py-2.5 px-4 rounded-xl text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
-                    {t('featuredYachts.details')}
-                  </Link>
+                  </span>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
         )}

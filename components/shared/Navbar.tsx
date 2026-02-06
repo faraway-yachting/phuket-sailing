@@ -40,7 +40,9 @@ export function Navbar() {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  const handleLanguageChange = (lang: typeof languages[0]) => {
+  const handleLanguageChange = (lang: typeof languages[0], e?: React.MouseEvent) => {
+    e?.preventDefault()
+    e?.stopPropagation()
     setLocale(lang.locale)
     setIsLangOpen(false)
   }
@@ -104,7 +106,8 @@ export function Navbar() {
                   {languages.map((lang) => (
                     <button
                       key={lang.code}
-                      onClick={() => handleLanguageChange(lang)}
+                      type="button"
+                      onClick={(e) => handleLanguageChange(lang, e)}
                       className={`w-full flex items-center gap-2 px-3 py-2 hover:bg-gray-50 transition-colors ${
                         locale === lang.locale ? 'bg-gray-50' : ''
                       }`}
@@ -179,7 +182,8 @@ export function Navbar() {
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
-                    onClick={() => handleLanguageChange(lang)}
+                    type="button"
+                    onClick={(e) => handleLanguageChange(lang, e)}
                     className={`flex flex-col items-center p-1.5 rounded-lg transition-colors ${
                       locale === lang.locale
                         ? 'bg-[#14b8a6]/10 border-2 border-[#14b8a6]'

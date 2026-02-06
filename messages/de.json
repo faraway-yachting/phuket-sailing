@@ -28,7 +28,7 @@
     "withSkipper": "Mit Skipper",
     "cabins": "Kabinen",
     "bathrooms": "Badezimmer",
-    "perDay": "Pro Tag"
+    "from": "Ab"
   },
   "charterStyles": {
     "title": "Wählen Sie Ihren Charter-Stil",

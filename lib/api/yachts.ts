@@ -34,7 +34,6 @@ export async function fetchYachtById(id: string): Promise<Yacht> {
   const json = await res.json() as { statusCode: number; success: boolean; message: string; data: Yacht | { yacht: Yacht } }
   if (!json.success) throw new Error(json.message)
 
-  // Handle both shapes: data = yacht directly, or data = { yacht }
   return ('yacht' in json.data) ? (json.data as { yacht: Yacht }).yacht : json.data as Yacht
 }
 

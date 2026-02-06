@@ -33,6 +33,7 @@ export interface TripType {
 export interface JumpLink {
   id: string;
   label: string;
+  icon: LucideIcon;
 }
 
 // Pricing Component Types

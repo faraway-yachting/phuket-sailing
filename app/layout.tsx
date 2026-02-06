@@ -58,8 +58,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" translate="no" className={`${inter.variable} ${playfair.variable}`}>
       <head>
+        <meta name="google" content="notranslate" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

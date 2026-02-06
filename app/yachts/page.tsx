@@ -80,9 +80,10 @@ export default function YachtsPage() {
               <>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
                   {yachts.map((yacht) => (
-                    <div
+                    <Link
                       key={yacht._id}
-                      className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+                      href={`/yacht/${yacht._id}`}
+                      className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer block"
                     >
                       {/* Image + Price Badge */}
                       <div className="relative h-64 sm:h-72 overflow-hidden rounded-t-3xl">
@@ -93,7 +94,7 @@ export default function YachtsPage() {
                           className="object-cover group-hover:scale-110 transition-transform duration-500"
                         />
                         <div className="absolute bottom-0 right-0 bg-[#14b8a6] text-white rounded-tl-2xl px-4 py-2.5 shadow-lg">
-                          <p className="text-[10px] font-bold uppercase tracking-wider leading-tight">{t('featuredYachts.perDay')}</p>
+                          <p className="text-[10px] font-bold uppercase tracking-wider leading-tight">{t('featuredYachts.from')}</p>
                           <p className="text-xl font-bold leading-tight">€{yacht.daytripPriceEuro || yacht.dayTripPrice}</p>
                         </div>
                       </div>
@@ -102,44 +103,41 @@ export default function YachtsPage() {
                       <div className="p-5">
                         <h3 className="text-lg sm:text-xl font-bold text-[#164e63] mb-3">{yacht.title}</h3>
 
-                        <div className="flex items-center justify-center gap-2 mb-2 text-xs text-gray-700">
-                          <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div className="flex items-center justify-center gap-1 mb-2 text-[13px] text-gray-700">
+                          <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                           </svg>
                           <span>{t('featuredYachts.withSkipper')}</span>
-                          <span className="text-gray-400">|</span>
+                          <span className="text-gray-400 mx-1">|</span>
                           <span>{yacht.cabins} {t('featuredYachts.cabins')}</span>
-                          <span className="text-gray-400">|</span>
+                          <span className="text-gray-400 mx-1">|</span>
                           <span>{yacht.bathrooms} {t('featuredYachts.bathrooms')}</span>
                         </div>
 
-                        <div className="flex items-center justify-center gap-2 mb-4 text-xs text-gray-600">
-                          <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div className="flex items-center justify-center gap-1 mb-4 text-[13px] text-gray-600">
+                          <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
                           </svg>
                           <span className="font-medium">{yacht.length}</span>
-                          <span className="text-gray-400">|</span>
-                          <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <span className="text-gray-400 mx-1">|</span>
+                          <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                           </svg>
                           <span className="font-medium">{yacht.guests}</span>
-                          <span className="text-gray-400">|</span>
-                          <svg className="w-4 h-4 text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <span className="text-gray-400 mx-1">|</span>
+                          <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                           </svg>
                           <span className="font-medium">{yacht.passengerOvernight}</span>
                         </div>
 
-                        <div className="grid grid-cols-2 gap-2">
-                          <Link href="/contact" className="bg-amber-gradient text-white font-bold py-2.5 px-4 rounded-xl text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
+                        <div className="flex justify-center">
+                          <span className="bg-amber-gradient text-white font-bold py-2.5 px-12 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 inline-flex items-center justify-center">
                             {t('featuredYachts.bookNow')}
-                          </Link>
-                          <Link href={`/yacht/${yacht._id}`} className="border-2 border-[#14b8a6] text-[#14b8a6] hover:bg-[#14b8a6] hover:text-white font-bold py-2.5 px-4 rounded-xl text-xs transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 flex items-center justify-center">
-                            {t('featuredYachts.details')}
-                          </Link>
+                          </span>
                         </div>
                       </div>
-                    </div>
+                    </Link>
                   ))}
                 </div>
 
