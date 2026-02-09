@@ -333,6 +333,57 @@
     "callNow": "Appeler Maintenant",
     "whatsapp": "WhatsApp"
   },
+  "contactForm": {
+    "title": "Contactez-nous",
+    "subtitle": "Remplissez les détails ci-dessous et nous vous répondrons dans les 24 heures",
+    "name": "Votre Nom",
+    "namePlaceholder": "Jean Dupont",
+    "email": "Votre Email",
+    "emailPlaceholder": "vous@email.com",
+    "phone": "Numéro de Téléphone",
+    "phonePlaceholder": "612345623",
+    "preferredChannel": "Canal Préféré",
+    "selectChannel": "Sélectionner le canal",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "line": "Line"
+    },
+    "yachtRange": "Gamme de Yacht",
+    "selectRange": "Sélectionner la gamme",
+    "ranges": {
+      "budget": "Budget",
+      "midrange": "Milieu de gamme",
+      "luxury": "Luxe"
+    },
+    "yachtType": "Type de Yacht",
+    "selectType": "Sélectionner le type",
+    "types": {
+      "crewedDay": "Charter de Jour avec Équipage",
+      "catamaran": "Catamaran",
+      "crewedOvernight": "Charter de Nuit avec Équipage",
+      "bareboat": "Charter Bareboat"
+    },
+    "travelDate": "Date de Voyage",
+    "returnDate": "Date de Retour",
+    "guests": "Nombre d'Invités",
+    "guestsPlaceholder": "par ex. 4",
+    "comments": "D'autres commentaires ou demandes?",
+    "commentsPlaceholder": "Parlez-nous de votre voyage en voilier de rêve...",
+    "submit": "Soumettre",
+    "submitting": "En cours d'envoi...",
+    "required": "*",
+    "sidebarTitle": "Vous avez des Questions?",
+    "sidebarTitleHighlight": "Discutons!",
+    "sidebarDescription": "Nos experts en voile sont là pour vous aider à planifier le charter parfait. Contactez-nous à tout moment. Nous répondons généralement dans les 24 heures.",
+    "contactMethods": {
+      "email": "Email",
+      "call": "Appelez-nous",
+      "whatsapp": "WhatsApp",
+      "line": "Line",
+      "location": "Notre Emplacement"
+    }
+  },
   "common": {
     "learnMore": "En Savoir Plus",
     "readMore": "Lire Plus",

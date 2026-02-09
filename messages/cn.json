@@ -339,6 +339,57 @@
     "callNow": "立即致电",
     "whatsapp": "直接通过 WhatsApp 联系我们"
   },
+  "contactForm": {
+    "title": "联系我们",
+    "subtitle": "填写以下详细信息，我们将在24小时内回复您",
+    "name": "您的姓名",
+    "namePlaceholder": "张三",
+    "email": "您的邮箱",
+    "emailPlaceholder": "您@email.com",
+    "phone": "电话号码",
+    "phonePlaceholder": "612345623",
+    "preferredChannel": "首选渠道",
+    "selectChannel": "选择渠道",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "电子邮件",
+      "line": "Line"
+    },
+    "yachtRange": "游艇等级",
+    "selectRange": "选择等级",
+    "ranges": {
+      "budget": "经济型",
+      "midrange": "中端",
+      "luxury": "豪华"
+    },
+    "yachtType": "游艇类型",
+    "selectType": "选择类型",
+    "types": {
+      "crewedDay": "配船员日间包船",
+      "catamaran": "双体船",
+      "crewedOvernight": "配船员过夜包船",
+      "bareboat": "裸船包船"
+    },
+    "travelDate": "出行日期",
+    "returnDate": "返回日期",
+    "guests": "客人数量",
+    "guestsPlaceholder": "例如 4",
+    "comments": "其他意见或要求？",
+    "commentsPlaceholder": "告诉我们您梦想的帆船之旅...",
+    "submit": "提交",
+    "submitting": "提交中...",
+    "required": "*",
+    "sidebarTitle": "有问题吗？",
+    "sidebarTitleHighlight": "让我们聊聊！",
+    "sidebarDescription": "我们的帆船专家随时为您规划完美的包船服务。随时联系我们。我们通常在24小时内回复。",
+    "contactMethods": {
+      "email": "电子邮件",
+      "call": "致电我们",
+      "whatsapp": "WhatsApp",
+      "line": "Line",
+      "location": "我们的位置"
+    }
+  },
   "contact": {
     "title": "联系我们",
     "name": "您的姓名",

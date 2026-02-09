@@ -339,6 +339,57 @@
     "callNow": "Позвонить Сейчас",
     "whatsapp": "WhatsApp"
   },
+  "contactForm": {
+    "title": "Свяжитесь с Нами",
+    "subtitle": "Заполните данные ниже, и мы свяжемся с вами в течение 24 часов",
+    "name": "Ваше Имя",
+    "namePlaceholder": "Иван Иванов",
+    "email": "Ваш Email",
+    "emailPlaceholder": "вы@email.com",
+    "phone": "Номер Телефона",
+    "phonePlaceholder": "612345623",
+    "preferredChannel": "Предпочитаемый Канал",
+    "selectChannel": "Выберите канал",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "line": "Line"
+    },
+    "yachtRange": "Класс Яхты",
+    "selectRange": "Выберите класс",
+    "ranges": {
+      "budget": "Бюджет",
+      "midrange": "Средний класс",
+      "luxury": "Люкс"
+    },
+    "yachtType": "Тип Яхты",
+    "selectType": "Выберите тип",
+    "types": {
+      "crewedDay": "Дневной Чартер с Экипажем",
+      "catamaran": "Катамаран",
+      "crewedOvernight": "Ночной Чартер с Экипажем",
+      "bareboat": "Bareboat Чартер"
+    },
+    "travelDate": "Дата Поездки",
+    "returnDate": "Дата Возвращения",
+    "guests": "Количество Гостей",
+    "guestsPlaceholder": "напр. 4",
+    "comments": "Другие комментарии или пожелания?",
+    "commentsPlaceholder": "Расскажите нам о парусном путешествии вашей мечты...",
+    "submit": "Отправить",
+    "submitting": "Отправка...",
+    "required": "*",
+    "sidebarTitle": "Есть Вопросы?",
+    "sidebarTitleHighlight": "Давайте Поговорим!",
+    "sidebarDescription": "Наши эксперты по парусному спорту готовы помочь вам спланировать идеальный чартер. Свяжитесь с нами в любое время. Мы обычно отвечаем в течение 24 часов.",
+    "contactMethods": {
+      "email": "Email",
+      "call": "Позвоните Нам",
+      "whatsapp": "WhatsApp",
+      "line": "Line",
+      "location": "Наше Местоположение"
+    }
+  },
   "contact": {
     "title": "Связаться с Нами",
     "name": "Ваше Имя",

@@ -333,6 +333,57 @@
     "callNow": "Call Now",
     "whatsapp": "WhatsApp"
   },
+  "contactForm": {
+    "title": "Get In Touch",
+    "subtitle": "Fill out the details below and we'll get back to you within 24 hours",
+    "name": "Your Name",
+    "namePlaceholder": "John Smith",
+    "email": "Your Email",
+    "emailPlaceholder": "you@email.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "612345623",
+    "preferredChannel": "Preferred Channel",
+    "selectChannel": "Select channel",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "line": "Line"
+    },
+    "yachtRange": "Yacht Range",
+    "selectRange": "Select range",
+    "ranges": {
+      "budget": "Budget",
+      "midrange": "Midrange",
+      "luxury": "Luxury"
+    },
+    "yachtType": "Yacht Type",
+    "selectType": "Select type",
+    "types": {
+      "crewedDay": "Crewed Day Charter",
+      "catamaran": "Catamaran",
+      "crewedOvernight": "Crewed Overnight Charter",
+      "bareboat": "Bareboat Charter"
+    },
+    "travelDate": "Travel Date",
+    "returnDate": "Return Date",
+    "guests": "No. of Guests",
+    "guestsPlaceholder": "e.g. 4",
+    "comments": "Any other comments or requests?",
+    "commentsPlaceholder": "Tell us about your dream sailing trip...",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "required": "*",
+    "sidebarTitle": "Got Questions?",
+    "sidebarTitleHighlight": "Let's Chat!",
+    "sidebarDescription": "Our sailing experts are here to help you plan the perfect charter. Reach out anytime. We typically respond within 24 hours.",
+    "contactMethods": {
+      "email": "Email",
+      "call": "Call Us",
+      "whatsapp": "WhatsApp",
+      "line": "Line",
+      "location": "Our Location"
+    }
+  },
   "common": {
     "learnMore": "Learn More",
     "readMore": "Read More",

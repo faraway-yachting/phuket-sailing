@@ -333,6 +333,57 @@
     "callNow": "Jetzt Anrufen",
     "whatsapp": "WhatsApp"
   },
+  "contactForm": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Füllen Sie die Details unten aus und wir melden uns innerhalb von 24 Stunden bei Ihnen",
+    "name": "Ihr Name",
+    "namePlaceholder": "Max Mustermann",
+    "email": "Ihre E-Mail",
+    "emailPlaceholder": "sie@email.com",
+    "phone": "Telefonnummer",
+    "phonePlaceholder": "612345623",
+    "preferredChannel": "Bevorzugter Kanal",
+    "selectChannel": "Kanal auswählen",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "E-Mail",
+      "line": "Line"
+    },
+    "yachtRange": "Yacht-Bereich",
+    "selectRange": "Bereich auswählen",
+    "ranges": {
+      "budget": "Budget",
+      "midrange": "Mittelklasse",
+      "luxury": "Luxus"
+    },
+    "yachtType": "Yacht-Typ",
+    "selectType": "Typ auswählen",
+    "types": {
+      "crewedDay": "Tages-Charter mit Besatzung",
+      "catamaran": "Katamaran",
+      "crewedOvernight": "Übernachtungs-Charter mit Besatzung",
+      "bareboat": "Bareboat-Charter"
+    },
+    "travelDate": "Reisedatum",
+    "returnDate": "Rückkehrdatum",
+    "guests": "Anzahl der Gäste",
+    "guestsPlaceholder": "z.B. 4",
+    "comments": "Weitere Kommentare oder Wünsche?",
+    "commentsPlaceholder": "Erzählen Sie uns von Ihrer Traum-Segelreise...",
+    "submit": "Absenden",
+    "submitting": "Wird gesendet...",
+    "required": "*",
+    "sidebarTitle": "Fragen?",
+    "sidebarTitleHighlight": "Lassen Sie uns sprechen!",
+    "sidebarDescription": "Unsere Segelexperten helfen Ihnen gerne bei der Planung des perfekten Charters. Kontaktieren Sie uns jederzeit. Wir antworten in der Regel innerhalb von 24 Stunden.",
+    "contactMethods": {
+      "email": "E-Mail",
+      "call": "Rufen Sie uns an",
+      "whatsapp": "WhatsApp",
+      "line": "Line",
+      "location": "Unser Standort"
+    }
+  },
   "common": {
     "learnMore": "Mehr Erfahren",
     "readMore": "Mehr Lesen",

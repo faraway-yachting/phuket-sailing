@@ -339,6 +339,57 @@
     "callNow": "โทรเลย",
     "whatsapp": "ติดต่อเราโดยตรงทาง WhatsApp"
   },
+  "contactForm": {
+    "title": "ติดต่อเรา",
+    "subtitle": "กรอกรายละเอียดด้านล่างและเราจะติดต่อกลับภายใน 24 ชั่วโมง",
+    "name": "ชื่อของคุณ",
+    "namePlaceholder": "สมชาย ใจดี",
+    "email": "อีเมลของคุณ",
+    "emailPlaceholder": "คุณ@email.com",
+    "phone": "หมายเลขโทรศัพท์",
+    "phonePlaceholder": "612345623",
+    "preferredChannel": "ช่องทางที่ต้องการ",
+    "selectChannel": "เลือกช่องทาง",
+    "channels": {
+      "whatsapp": "WhatsApp",
+      "email": "อีเมล",
+      "line": "Line"
+    },
+    "yachtRange": "ระดับเรือยอทช์",
+    "selectRange": "เลือกระดับ",
+    "ranges": {
+      "budget": "ประหยัด",
+      "midrange": "กลาง",
+      "luxury": "หรูหรา"
+    },
+    "yachtType": "ประเภทเรือยอทช์",
+    "selectType": "เลือกประเภท",
+    "types": {
+      "crewedDay": "เช่าเรือรายวันพร้อมลูกเรือ",
+      "catamaran": "คาตามารัน",
+      "crewedOvernight": "เช่าเรือค้างคืนพร้อมลูกเรือ",
+      "bareboat": "เช่าเรือแบบไม่มีลูกเรือ"
+    },
+    "travelDate": "วันเดินทาง",
+    "returnDate": "วันกลับ",
+    "guests": "จำนวนผู้เข้าพัก",
+    "guestsPlaceholder": "เช่น 4",
+    "comments": "ความคิดเห็นหรือคำขออื่นๆ?",
+    "commentsPlaceholder": "บอกเราเกี่ยวกับทริปล่องเรือในฝันของคุณ...",
+    "submit": "ส่ง",
+    "submitting": "กำลังส่ง...",
+    "required": "*",
+    "sidebarTitle": "มีคำถาม?",
+    "sidebarTitleHighlight": "มาคุยกัน!",
+    "sidebarDescription": "ผู้เชี่ยวชาญด้านการล่องเรือของเราพร้อมช่วยคุณวางแผนการเช่าเรือที่สมบูรณ์แบบ ติดต่อเราได้ตลอดเวลา เรามักจะตอบกลับภายใน 24 ชั่วโมง",
+    "contactMethods": {
+      "email": "อีเมล",
+      "call": "โทรหาเรา",
+      "whatsapp": "WhatsApp",
+      "line": "Line",
+      "location": "ที่ตั้งของเรา"
+    }
+  },
   "contact": {
     "title": "ติดต่อเรา",
     "name": "ชื่อของคุณ",

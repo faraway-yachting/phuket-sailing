@@ -24,6 +24,7 @@ import {
   SelectValue,
 } from "@/components/shared/ui/select";
 import { Mail, Phone, MessageCircle, MessageSquare, MapPin } from "lucide-react";
+import { useLanguage } from "@/components/providers/LanguageProvider";
 
 const countryCodes = {
   "+66": { flag: "🇹🇭", name: "Thailand" },
@@ -52,6 +53,7 @@ const WEBHOOK_URL = "https://phpstack-858394-5597469.cloudwaysapps.com/webhook/b
 const inputClass = "h-11 rounded-lg border border-gray-200 bg-white text-neutral-800 placeholder-gray-400 focus:border-[#164e63] focus:ring-2 focus:ring-[#164e63]/20 focus:outline-none transition-all duration-200";
 
 export function ContactForm() {
+  const { t } = useLanguage();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const form = useForm<ContactFormValues>({
     resolver: yupResolver(contactFormSchema),
@@ -100,9 +102,9 @@ export function ContactForm() {
           <div className="lg:col-span-3 bg-white rounded-2xl shadow-lg shadow-[#164e63]/8 border border-gray-100 p-6 sm:p-8 md:p-10">
             <div className="mb-8">
               <h2 className="text-3xl font-bold text-[#164e63] mb-2">
-                Get In Touch
+                {t('contactForm.title')}
               </h2>
-              <p className="text-gray-500 text-sm">Fill out the details below and we'll get back to you within 24 hours</p>
+              <p className="text-gray-500 text-sm">{t('contactForm.subtitle')}</p>
             </div>
 
             <Form {...form}>
@@ -118,11 +120,11 @@ export function ContactForm() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="text-[#164e63] font-semibold text-sm">
-                          Your Name <span className="text-red-500">*</span>
+                          {t('contactForm.name')} <span className="text-red-500">{t('contactForm.required')}</span>
                         </FormLabel>
                         <FormControl>
                           <Input
-                            placeholder="John Smith"
+                            placeholder={t('contactForm.namePlaceholder')}
                             {...field}
                             className={inputClass}
                           />
@@ -137,12 +139,12 @@ export function ContactForm() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="text-[#164e63] font-semibold text-sm">
-                          Your Email <span className="text-red-500">*</span>
+                          {t('contactForm.email')} <span className="text-red-500">{t('contactForm.required')}</span>
                         </FormLabel>
                         <FormControl>
                           <Input
                             type="email"
-                            placeholder="you@email.com"
+                            placeholder={t('contactForm.emailPlaceholder')}
                             {...field}
                             className={inputClass}
                           />
@@ -161,7 +163,7 @@ export function ContactForm() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="text-[#164e63] font-semibold text-sm">
-                          Phone Number
+                          {t('contactForm.phone')}
                         </FormLabel>
                         <div className="flex gap-2">
                           <FormField
@@ -202,7 +204,7 @@ export function ContactForm() {
                           <FormControl>
                             <Input
                               type="tel"
-                              placeholder="612345623"
+                              placeholder={t('contactForm.phonePlaceholder')}
                               {...field}
                               value={field.value || ""}
                               className={`${inputClass} flex-1`}
@@ -219,7 +221,7 @@ export function ContactForm() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="text-[#164e63] font-semibold text-sm">
-                          Preferred Channel
+                          {t('contactForm.preferredChannel')}
                         </FormLabel>
                         <Select
                           onValueChange={field.onChange}
@@ -227,13 +229,13 @@ export function ContactForm() {
                         >
                           <FormControl>
                             <SelectTrigger className="h-11 rounded-lg border border-gray-200 bg-white focus:border-[#164e63] focus:ring-2 focus:ring-[#164e63]/20 focus:outline-none">
-                              <SelectValue placeholder="Select channel" />
+                              <SelectValue placeholder={t('contactForm.selectChannel')} />
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="whatsapp">WhatsApp</SelectItem>
-                            <SelectItem value="email">Email</SelectItem>
-                            <SelectItem value="line">Line</SelectItem>
+                            <SelectItem value="whatsapp">{t('contactForm.channels.whatsapp')}</SelectItem>
+                            <SelectItem value="email">{t('contactForm.channels.email')}</SelectItem>
+                            <SelectItem value="line">{t('contactForm.channels.line')}</SelectItem>
                           </SelectContent>
                         </Select>
                         <FormMessage />
@@ -250,7 +252,7 @@ export function ContactForm() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="text-[#164e63] font-semibold text-sm">
-                          Yacht Range
+                          {t('contactForm.yachtRange')}
                         </FormLabel>
                         <Select
                           onValueChange={field.onChange}
@@ -258,13 +260,13 @@ export function ContactForm() {
                         >
                           <FormControl>
                             <SelectTrigger className="h-11 rounded-lg border border-gray-200 bg-white focus:border-[#164e63] focus:ring-2 focus:ring-[#164e63]/20 focus:outline-none">
-                              <SelectValue placeholder="Select range" />
+                              <SelectValue placeholder={t('contactForm.selectRange')} />
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="budget">Budget</SelectItem>
-                            <SelectItem value="mid-range">Midrange</SelectItem>
-                            <SelectItem value="luxury">Luxury</SelectItem>
+                            <SelectItem value="budget">{t('contactForm.ranges.budget')}</SelectItem>
+                            <SelectItem value="mid-range">{t('contactForm.ranges.midrange')}</SelectItem>
+                            <SelectItem value="luxury">{t('contactForm.ranges.luxury')}</SelectItem>
                           </SelectContent>
                         </Select>
                         <FormMessage />
@@ -277,7 +279,7 @@ export function ContactForm() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="text-[#164e63] font-semibold text-sm">
-                          Yacht Type
+                          {t('contactForm.yachtType')}
                         </FormLabel>
                         <Select
                           onValueChange={field.onChange}
@@ -285,14 +287,14 @@ export function ContactForm() {
                         >
                           <FormControl>
                             <SelectTrigger className="h-11 rounded-lg border border-gray-200 bg-white focus:border-[#164e63] focus:ring-2 focus:ring-[#164e63]/20 focus:outline-none">
-                              <SelectValue placeholder="Select type" />
+                              <SelectValue placeholder={t('contactForm.selectType')} />
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="crewed-day-charter">Crewed Day Charter</SelectItem>
-                            <SelectItem value="catamaran">Catamaran</SelectItem>
-                            <SelectItem value="crewed-overnight-charter">Crewed Overnight Charter</SelectItem>
-                            <SelectItem value="bareboat-charter">Bareboat Charter</SelectItem>
+                            <SelectItem value="crewed-day-charter">{t('contactForm.types.crewedDay')}</SelectItem>
+                            <SelectItem value="catamaran">{t('contactForm.types.catamaran')}</SelectItem>
+                            <SelectItem value="crewed-overnight-charter">{t('contactForm.types.crewedOvernight')}</SelectItem>
+                            <SelectItem value="bareboat-charter">{t('contactForm.types.bareboat')}</SelectItem>
                           </SelectContent>
                         </Select>
                         <FormMessage />
@@ -309,7 +311,7 @@ export function ContactForm() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="text-[#164e63] font-semibold text-sm">
-                          Travel Date
+                          {t('contactForm.travelDate')}
                         </FormLabel>
                         <FormControl>
                           <Input
@@ -329,7 +331,7 @@ export function ContactForm() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="text-[#164e63] font-semibold text-sm">
-                          Return Date
+                          {t('contactForm.returnDate')}
                         </FormLabel>
                         <FormControl>
                           <Input
@@ -352,12 +354,12 @@ export function ContactForm() {
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel className="text-[#164e63] font-semibold text-sm">
-                        No. of Guests
+                        {t('contactForm.guests')}
                       </FormLabel>
                       <FormControl>
                         <Input
                           type="number"
-                          placeholder="e.g. 4"
+                          placeholder={t('contactForm.guestsPlaceholder')}
                           value={field.value ?? ""}
                           onBlur={field.onBlur}
                           name={field.name}
@@ -384,11 +386,11 @@ export function ContactForm() {
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel className="text-[#164e63] font-semibold text-sm">
-                        Any other comments or requests?
+                        {t('contactForm.comments')}
                       </FormLabel>
                       <FormControl>
                         <Textarea
-                          placeholder="Tell us about your dream sailing trip..."
+                          placeholder={t('contactForm.commentsPlaceholder')}
                           className="min-h-[110px] resize-none rounded-lg border border-gray-200 bg-white placeholder-gray-400 focus:border-[#164e63] focus:ring-2 focus:ring-[#164e63]/20 focus:outline-none transition-all duration-200"
                           {...field}
                           value={field.value || ""}
@@ -407,7 +409,7 @@ export function ContactForm() {
                     disabled={isSubmitting}
                     className="bg-amber-gradient text-white w-full sm:w-auto sm:px-16 py-3 text-base rounded-xl shadow-lg shadow-[#A0522D]/25 hover:shadow-xl transition-all transform hover:scale-105 font-semibold disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                   >
-                    {isSubmitting ? "Submitting..." : "Submit"}
+                    {isSubmitting ? t('contactForm.submitting') : t('contactForm.submit')}
                   </Button>
                 </div>
               </form>
@@ -423,11 +425,11 @@ export function ContactForm() {
                 {/* Header */}
                 <div className="mb-7">
                   <h2 className="text-2xl lg:text-3xl font-bold text-white mb-2">
-                    Got Questions?{" "}
-                    <span className="text-[#FF8C00]">Let&apos;s Chat!</span>
+                    {t('contactForm.sidebarTitle')}{" "}
+                    <span className="text-[#FF8C00]">{t('contactForm.sidebarTitleHighlight')}</span>
                   </h2>
                   <p className="text-white/80 text-sm leading-relaxed">
-                    Our sailing experts are here to help you plan the perfect charter. Reach out anytime. We typically respond within 24 hours.
+                    {t('contactForm.sidebarDescription')}
                   </p>
                 </div>
 
@@ -445,7 +447,7 @@ export function ContactForm() {
                       <Mail className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="font-semibold text-white text-sm">Email</p>
+                      <p className="font-semibold text-white text-sm">{t('contactForm.contactMethods.email')}</p>
                       <p className="text-xs text-white/80 group-hover:text-[#14b8a6] transition-colors">
                         info@phuket-sailing.com
                       </p>
@@ -461,7 +463,7 @@ export function ContactForm() {
                       <Phone className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="font-semibold text-white text-sm">Call Us</p>
+                      <p className="font-semibold text-white text-sm">{t('contactForm.contactMethods.call')}</p>
                       <p className="text-xs text-white/80 group-hover:text-[#14b8a6] transition-colors">+66 612345623</p>
                     </div>
                   </a>
@@ -477,7 +479,7 @@ export function ContactForm() {
                       <MessageCircle className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="font-semibold text-white text-sm">WhatsApp</p>
+                      <p className="font-semibold text-white text-sm">{t('contactForm.contactMethods.whatsapp')}</p>
                       <p className="text-xs text-white/80 group-hover:text-[#22c55e] transition-colors">+66 612345623</p>
                     </div>
                   </a>
@@ -493,7 +495,7 @@ export function ContactForm() {
                       <MessageSquare className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="font-semibold text-white text-sm">Line</p>
+                      <p className="font-semibold text-white text-sm">{t('contactForm.contactMethods.line')}</p>
                       <p className="text-xs text-white/80 group-hover:text-[#00c300] transition-colors">+66 612345623</p>
                     </div>
                   </a>
@@ -504,7 +506,7 @@ export function ContactForm() {
                       <MapPin className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <p className="font-semibold text-white text-sm">Our Location</p>
+                      <p className="font-semibold text-white text-sm">{t('contactForm.contactMethods.location')}</p>
                       <p className="text-xs text-white/80">40/1 Moo 9 Chalong Phuket</p>
                     </div>
                   </div>

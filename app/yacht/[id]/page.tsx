@@ -64,7 +64,7 @@ export default function YachtDetailsPage() {
       <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4">
         <h1 className="text-2xl font-bold text-[#164e63] mb-3">Yacht Not Found</h1>
         <p className="text-gray-500 mb-6 text-center max-w-md">
-          The yacht you're looking for doesn't exist or has been removed.
+          The yacht you&apos;re looking for doesn&apos;t exist or has been removed.
         </p>
         <Link href="/" className="text-[#14b8a6] font-semibold hover:underline">← Back to Home</Link>
       </main>

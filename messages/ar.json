@@ -339,6 +339,57 @@
     "callNow": "اتصل الآن",
     "whatsapp": "تواصل معنا مباشرة عبر واتساب"
   },
+  "contactForm": {
+    "title": "تواصل معنا",
+    "subtitle": "املأ التفاصيل أدناه وسنعاود الاتصال بك خلال 24 ساعة",
+    "name": "اسمك",
+    "namePlaceholder": "أحمد محمد",
+    "email": "بريدك الإلكتروني",
+    "emailPlaceholder": "انت@email.com",
+    "phone": "رقم الهاتف",
+    "phonePlaceholder": "612345623",
+    "preferredChannel": "القناة المفضلة",
+    "selectChannel": "اختر القناة",
+    "channels": {
+      "whatsapp": "واتساب",
+      "email": "البريد الإلكتروني",
+      "line": "لاين"
+    },
+    "yachtRange": "فئة اليخت",
+    "selectRange": "اختر الفئة",
+    "ranges": {
+      "budget": "اقتصادي",
+      "midrange": "متوسط",
+      "luxury": "فاخر"
+    },
+    "yachtType": "نوع اليخت",
+    "selectType": "اختر النوع",
+    "types": {
+      "crewedDay": "استئجار يومي مع طاقم",
+      "catamaran": "قارب مزدوج",
+      "crewedOvernight": "استئجار ليلي مع طاقم",
+      "bareboat": "استئجار بدون طاقم"
+    },
+    "travelDate": "تاريخ السفر",
+    "returnDate": "تاريخ العودة",
+    "guests": "عدد الضيوف",
+    "guestsPlaceholder": "مثلاً 4",
+    "comments": "أي تعليقات أو طلبات أخرى؟",
+    "commentsPlaceholder": "أخبرنا عن رحلة الإبحار التي تحلم بها...",
+    "submit": "إرسال",
+    "submitting": "جارٍ الإرسال...",
+    "required": "*",
+    "sidebarTitle": "لديك أسئلة؟",
+    "sidebarTitleHighlight": "لنتحدث!",
+    "sidebarDescription": "خبراء الإبحار لدينا هنا لمساعدتك في التخطيط للاستئجار المثالي. تواصل معنا في أي وقت. نحن عادة نرد خلال 24 ساعة.",
+    "contactMethods": {
+      "email": "البريد الإلكتروني",
+      "call": "اتصل بنا",
+      "whatsapp": "واتساب",
+      "line": "لاين",
+      "location": "موقعنا"
+    }
+  },
   "contact": {
     "title": "اتصل بنا",
     "name": "اسمك",
