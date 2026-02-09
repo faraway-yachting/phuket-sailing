@@ -109,16 +109,16 @@ function JumpLinks() {
     <nav className="py-2 sm:py-3 md:py-4">
       <div className="max-w-6xl mx-auto px-2 sm:px-4">
         <div className="bg-white/90 backdrop-blur-md rounded-xl sm:rounded-2xl shadow-lg p-1.5 sm:p-2.5 md:p-4 border border-gray-100">
-          <div className="flex flex-wrap items-center justify-center gap-x-0 gap-y-0.5 sm:gap-1 md:gap-1.5">
+          <div className="flex flex-wrap items-center justify-center gap-x-1.5 gap-y-1.5 sm:gap-2 md:gap-2.5">
             {links.map((link) => {
               const Icon = link.icon
               return (
                 <a
                   key={link.href}
                   href={link.href}
-                  className="flex items-center gap-1 sm:gap-1.5 text-gray-600 hover:text-[#164e63] hover:bg-gray-50 transition-all duration-300 text-[11px] sm:text-sm md:text-base font-medium whitespace-nowrap px-1.5 sm:px-2.5 md:px-3 py-1 sm:py-1.5 md:py-2 rounded-md sm:rounded-lg"
+                  className="group flex items-center gap-1 sm:gap-1.5 bg-gradient-to-r from-gray-50 to-gray-100 text-gray-700 hover:from-[#164e63] hover:to-[#0c3a47] hover:text-white transition-all duration-300 text-[11px] sm:text-sm md:text-base font-medium whitespace-nowrap px-2.5 sm:px-3.5 md:px-4 py-1.5 sm:py-2 md:py-2.5 rounded-lg sm:rounded-xl shadow-sm hover:shadow-md border border-gray-200 hover:border-[#164e63] transform hover:scale-105"
                 >
-                  <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 text-[#14b8a6] flex-shrink-0" />
+                  <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 text-[#14b8a6] group-hover:text-white flex-shrink-0 transition-colors duration-300" />
                   <span>{link.label}</span>
                 </a>
               )
@@ -334,7 +334,7 @@ function CharterStylesSection() {
       description: t('charterStyles.catamaran.description'),
       link: '/catamaran-charters-phuket',
       linkText: t('charterStyles.catamaran.linkText'),
-      image: '/assets/images/home/catamaran.webp',
+      image: '/assets/images/home/sailing-catamaran.png',
     },
     {
       title: t('charterStyles.overnight.title'),
@@ -348,7 +348,7 @@ function CharterStylesSection() {
       description: t('charterStyles.cabin.description'),
       link: '/cabin-cruises-phuket',
       linkText: t('charterStyles.cabin.linkText'),
-      image: '/assets/images/home/cabin-cruise.avif',
+      image: '/assets/images/home/SY-cabin.png',
     },
     {
       title: t('charterStyles.bareboat.title'),
@@ -533,7 +533,7 @@ function WhatTripTypeSection() {
     {
       title: t('tripType.day.title'),
       description: t('tripType.day.description'),
-      image: '/assets/images/home/day-sailing.webp',
+      image: '/assets/images/home/day-sailing1.jpg',
     },
     {
       title: t('tripType.sunset.title'),
@@ -840,7 +840,7 @@ function CatamaranVsSailingSection() {
           <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
             <div className="relative h-48 sm:h-56 md:h-64 mb-4 sm:mb-6 rounded-2xl overflow-hidden">
               <Image
-                src="/assets/images/home/catamaran.webp"
+                src="/assets/images/home/sailing-catamaran.png"
                 alt="Catamaran"
                 fill
                 className="object-cover"
@@ -875,7 +875,7 @@ function CatamaranVsSailingSection() {
           <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
             <div className="relative h-48 sm:h-56 md:h-64 mb-4 sm:mb-6 rounded-2xl overflow-hidden">
               <Image
-                src="/assets/images/home/ynz2xdnl8u0iuplpnrtb.jpg"
+                src="/assets/images/home/sailing-monohull.png"
                 alt="Sailing Yacht"
                 fill
                 className="object-cover"
@@ -1640,7 +1640,7 @@ function FAQSection() {
   return (
     <section id="faqs" className="py-10 sm:py-14 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading subtitle={t('faq.subtitle')}>
+        <SectionHeading>
           {t('faq.title')}
         </SectionHeading>
 
