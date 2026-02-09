@@ -78,6 +78,7 @@
   },
   "tripType": {
     "title": "什么行程类型适合您？",
+    "subtitle": "这是三个最常见的起点：",
     "explore": "探索",
     "day": {
       "title": "日间航行",
@@ -131,6 +132,7 @@
   },
   "catamaranVsSailing": {
     "title": "双体船 vs 帆船游艇",
+    "subtitle": "如果您在选择上犹豫不决，这个快速指南通常能解决问题。",
     "catamaranTitle": "如果您想要，请选择双体船",
     "catamaranSpace": "更多空间和稳定性（非常适合儿童和团体）",
     "catamaranShade": "更多阴凉和休息区",
@@ -149,6 +151,7 @@
   },
   "popularRoutes": {
     "title": "最受欢迎的路线",
+    "subtitle": "将这些用作灵感。我们将为您的季节和行程长度敲定最佳路线。",
     "racha": {
       "title": "拉查岛（拉查大岛 / 拉查小岛）",
       "description": "清澈的水和浮潜的最爱。非常适合帆船游艇和双体船。当您想要一个干净的热带岛屿日而不使计划过于复杂时，这是一个强有力的选择。"
@@ -170,6 +173,7 @@
   },
   "whoItsFor": {
     "title": "普吉岛帆船适合谁？",
+    "subtitle": "我们服务所有人：家庭、情侣、企业团队、冒险寻求者、独自旅行者和特殊场合。",
     "couples": {
       "title": "情侣和蜜月旅行者",
       "description": "浪漫的日落、私人锚地、甲板上的亲密晚餐。"
@@ -201,6 +205,7 @@
   },
   "whatsIncluded": {
     "title": "包含什么",
+    "subtitle": "包含内容因船只和行程类型而异，但我们会在您确认任何事项之前保持清晰。",
     "typicallyIncluded": "通常包含在带船员的包船中",
     "professionalCrew": "专业船员（不适用于裸船包船）",
     "safetyEquipment": "安全设备",
@@ -225,6 +230,7 @@
   },
   "pricing": {
     "title": "定价如何运作",
+    "subtitle": "价格取决于几个因素。这种透明度帮助您快速选择。",
     "mainDrivers": "主要定价因素",
     "boatType": "船型",
     "privateVsCabin": "私人包船 vs 舱室巡航",
@@ -248,6 +254,7 @@
   },
   "bookingProcess": {
     "title": "预订如何运作",
+    "subtitle": "简单快捷——从咨询到航行仅需4个简单步骤。",
     "step1": {
       "title": "告诉我们您想要什么",
       "description": "日期、团队规模、船只偏好、预算。"

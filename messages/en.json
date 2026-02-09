@@ -76,6 +76,7 @@
   },
   "tripType": {
     "title": "What type of trip are you planning?",
+    "subtitle": "Here are the three most common starting points:",
     "explore": "Explore",
     "day": {
       "title": "Day Sailing",
@@ -129,6 +130,7 @@
   },
   "catamaranVsSailing": {
     "title": "Catamaran vs Sailing Yacht",
+    "subtitle": "If you're stuck choosing, this quick guide usually solves it.",
     "catamaranTitle": "Choose a catamaran if you want",
     "catamaranSpace": "More space and stability (great for kids and groups)",
     "catamaranShade": "More shade and lounging areas",
@@ -147,6 +149,7 @@
   },
   "popularRoutes": {
     "title": "Most Popular Routes",
+    "subtitle": "Use these as inspiration. We'll finalize the best route for your season and trip length.",
     "racha": {
       "title": "Racha Islands (Racha Yai / Racha Noi)",
       "description": "A favorite for clear water and snorkeling. Great for both sailing yachts and catamarans. A strong choice when you want a clean tropical island day without overcomplicating the plan."
@@ -168,6 +171,7 @@
   },
   "whoItsFor": {
     "title": "Who Phuket Sailing is perfect for",
+    "subtitle": "We serve everyone: families, couples, corporate teams, adventure seekers, solo travelers, and special occasions.",
     "families": {
       "title": "Families & kids",
       "description": "Family-friendly routes, stable boat recommendations, calm swim stops, and the right pacing. Catamarans are often ideal because of space and stability."
@@ -195,6 +199,7 @@
   },
   "whatsIncluded": {
     "title": "What is Included",
+    "subtitle": "Inclusions vary by boat and trip type, but we keep it clear before you confirm anything.",
     "typicallyIncluded": "Typically included on crewed charters",
     "professionalCrew": "Professional crew (not for bareboat charters)",
     "safetyEquipment": "Safety equipment",
@@ -219,6 +224,7 @@
   },
   "pricing": {
     "title": "How Pricing Works",
+    "subtitle": "Prices depend on a few factors. This transparency helps you choose quickly.",
     "mainDrivers": "Main pricing drivers",
     "boatType": "Boat type",
     "privateVsCabin": "Private charter vs cabin cruise",
@@ -242,6 +248,7 @@
   },
   "bookingProcess": {
     "title": "How Booking Works",
+    "subtitle": "Simple and fast — from inquiry to sailing in just 4 easy steps.",
     "step1": {
       "title": "Share your details",
       "description": "Send dates + group size and tell us what experience you are looking for."

@@ -76,6 +76,7 @@
   },
   "tripType": {
     "title": "Welche Art von Reise planen Sie?",
+    "subtitle": "Hier sind die drei häufigsten Ausgangspunkte:",
     "explore": "Erkunden",
     "day": {
       "title": "Tages-Segeln",
@@ -129,6 +130,7 @@
   },
   "catamaranVsSailing": {
     "title": "Katamaran vs Segelyacht",
+    "subtitle": "Wenn Sie bei der Wahl feststecken, löst dieser schnelle Leitfaden das Problem normalerweise.",
     "catamaranTitle": "Wählen Sie einen Katamaran, wenn Sie wollen",
     "catamaranSpace": "Mehr Platz und Stabilität (großartig für Kinder und Gruppen)",
     "catamaranShade": "Mehr Schatten und Liegebereiche",
@@ -147,6 +149,7 @@
   },
   "popularRoutes": {
     "title": "Beliebteste Routen",
+    "subtitle": "Nutzen Sie diese als Inspiration. Wir finalisieren die beste Route für Ihre Saison und Reisedauer.",
     "racha": {
       "title": "Racha-Inseln (Racha Yai / Racha Noi)",
       "description": "Ein Favorit für klares Wasser und Schnorcheln. Großartig für sowohl Segelyachten als auch Katamarane. Eine starke Wahl, wenn Sie einen sauberen tropischen Inseltag ohne Komplizierung des Plans wollen."
@@ -168,6 +171,7 @@
   },
   "whoItsFor": {
     "title": "Für wen Phuket Segeln perfekt ist",
+    "subtitle": "Wir bedienen alle: Familien, Paare, Firmenteams, Abenteuersuchende, Alleinreisende und besondere Anlässe.",
     "families": {
       "title": "Familien & Kinder",
       "description": "Familienfreundliche Routen, stabile Bootsempfehlungen, ruhige Schwimmstopps und das richtige Tempo. Katamarane sind oft ideal wegen Platz und Stabilität."
@@ -195,6 +199,7 @@
   },
   "whatsIncluded": {
     "title": "Was ist Inbegriffen",
+    "subtitle": "Die Inklusivleistungen variieren je nach Boot und Reiseart, aber wir halten es klar, bevor Sie etwas bestätigen.",
     "typicallyIncluded": "Typischerweise inbegriffen bei bemannten Charters",
     "professionalCrew": "Professionelle Besatzung (nicht für Bareboat-Charters)",
     "safetyEquipment": "Sicherheitsausrüstung",
@@ -219,6 +224,7 @@
   },
   "pricing": {
     "title": "Wie die Preisgestaltung Funktioniert",
+    "subtitle": "Die Preise hängen von einigen Faktoren ab. Diese Transparenz hilft Ihnen, schnell zu wählen.",
     "mainDrivers": "Hauptpreisfaktoren",
     "boatType": "Bootstyp",
     "privateVsCabin": "Privater Charter vs Kabinen-Kreuzfahrt",
@@ -242,6 +248,7 @@
   },
   "bookingProcess": {
     "title": "Wie die Buchung Funktioniert",
+    "subtitle": "Einfach und schnell — von der Anfrage bis zum Segeln in nur 4 einfachen Schritten.",
     "step1": {
       "title": "Teilen Sie Ihre Details",
       "description": "Senden Sie Termine + Gruppengröße und sagen Sie uns, welche Erfahrung Sie suchen."

@@ -76,6 +76,7 @@
   },
   "tripType": {
     "title": "Quel type de voyage planifiez-vous?",
+    "subtitle": "Voici les trois points de départ les plus courants:",
     "explore": "Explorer",
     "day": {
       "title": "Voile de Jour",
@@ -129,6 +130,7 @@
   },
   "catamaranVsSailing": {
     "title": "Catamaran vs Yacht à Voile",
+    "subtitle": "Si vous hésitez à choisir, ce guide rapide résout généralement le problème.",
     "catamaranTitle": "Choisissez un catamaran si vous voulez",
     "catamaranSpace": "Plus d'espace et de stabilité (idéal pour les enfants et les groupes)",
     "catamaranShade": "Plus d'ombre et d'espaces de détente",
@@ -147,6 +149,7 @@
   },
   "popularRoutes": {
     "title": "Itinéraires les Plus Populaires",
+    "subtitle": "Utilisez-les comme source d'inspiration. Nous finaliserons le meilleur itinéraire pour votre saison et la durée de votre voyage.",
     "racha": {
       "title": "Îles Racha (Racha Yai / Racha Noi)",
       "description": "Un favori pour l'eau claire et la plongée avec tuba. Excellent pour les yachts à voile et les catamarans. Un choix solide lorsque vous voulez une journée d'île tropicale propre sans compliquer le plan."
@@ -168,6 +171,7 @@
   },
   "whoItsFor": {
     "title": "Pour qui la Voile Phuket est parfaite",
+    "subtitle": "Nous servons tout le monde: familles, couples, équipes d'entreprise, chercheurs d'aventure, voyageurs solo et occasions spéciales.",
     "families": {
       "title": "Familles & enfants",
       "description": "Itinéraires adaptés aux familles, recommandations de bateaux stables, arrêts de baignade calmes et le bon rythme. Les catamarans sont souvent idéaux en raison de l'espace et de la stabilité."
@@ -195,6 +199,7 @@
   },
   "whatsIncluded": {
     "title": "Ce qui est Inclus",
+    "subtitle": "Les inclusions varient selon le bateau et le type de voyage, mais nous restons clairs avant que vous ne confirmiez quoi que ce soit.",
     "typicallyIncluded": "Généralement inclus dans les charters avec équipage",
     "professionalCrew": "Équipage professionnel (pas pour les charters bareboat)",
     "safetyEquipment": "Équipement de sécurité",
@@ -219,6 +224,7 @@
   },
   "pricing": {
     "title": "Comment Fonctionnent les Tarifs",
+    "subtitle": "Les prix dépendent de quelques facteurs. Cette transparence vous aide à choisir rapidement.",
     "mainDrivers": "Principaux facteurs de prix",
     "boatType": "Type de bateau",
     "privateVsCabin": "Charter privé vs croisière en cabine",
@@ -242,6 +248,7 @@
   },
   "bookingProcess": {
     "title": "Comment Fonctionne la Réservation",
+    "subtitle": "Simple et rapide — de la demande à la navigation en seulement 4 étapes faciles.",
     "step1": {
       "title": "Partagez vos détails",
       "description": "Envoyez les dates + taille du groupe et dites-nous quelle expérience vous recherchez."
