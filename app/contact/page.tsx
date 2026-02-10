@@ -34,15 +34,6 @@ export default function ContactPage() {
       {/* Contact Form Section */}
       <ContactForm />
 
-      {/* Terms Link */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-6 sm:pb-10">
-        <h3 className="text-center text-[#164e63] text-sm sm:text-base md:text-lg font-medium px-4">
-          By submitting this form, you agree to our{" "}
-          <Link href="/terms-and-conditions" className="text-[#164e63] font-semibold hover:text-[#14b8a6] transition-colors underline underline-offset-4">
-            Terms &amp; Conditions
-          </Link>
-        </h3>
-      </div>
     </div>
   );
 }

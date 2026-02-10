@@ -401,8 +401,16 @@ export function ContactForm() {
                   )}
                 />
 
+                {/* Terms & Conditions */}
+                <p className="text-center text-sm text-gray-600">
+                  By submitting this form, you agree to our{' '}
+                  <a href="/terms-and-conditions" className="text-[#164e63] hover:text-[#14b8a6] underline underline-offset-2 font-medium">
+                    Terms & Conditions
+                  </a>
+                </p>
+
                 {/* Submit Button */}
-                <div className="flex justify-center pt-2">
+                <div className="flex justify-center">
                   <Button
                     type="submit"
                     size="lg"
@@ -454,6 +462,17 @@ export function ContactForm() {
                     </div>
                   </a>
 
+                  {/* Location */}
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#A0522D] to-[#FF8C00] rounded-xl flex items-center justify-center shadow-md shadow-black/20">
+                      <MapPin className="w-6 h-6 text-white" />
+                    </div>
+                    <div>
+                      <p className="font-semibold text-white text-sm">{t('contactForm.contactMethods.location')}</p>
+                      <p className="text-xs text-white/80">160 Robinson Road, #14-04 Singapore</p>
+                    </div>
+                  </div>
+
                   {/* Phone */}
                   <a
                     href="tel:+66612345623"
@@ -499,17 +518,6 @@ export function ContactForm() {
                       <p className="text-xs text-white/80 group-hover:text-[#00c300] transition-colors">+66 612345623</p>
                     </div>
                   </a>
-
-                  {/* Location */}
-                  <div className="flex items-center gap-4">
-                    <div className="w-11 h-11 bg-gradient-to-br from-[#A0522D] to-[#FF8C00] rounded-xl flex items-center justify-center shadow-md shadow-black/20">
-                      <MapPin className="w-5 h-5 text-white" />
-                    </div>
-                    <div>
-                      <p className="font-semibold text-white text-sm">{t('contactForm.contactMethods.location')}</p>
-                      <p className="text-xs text-white/80">40/1 Moo 9 Chalong Phuket</p>
-                    </div>
-                  </div>
                 </div>
 
               </div>

@@ -73,6 +73,12 @@ export function Navbar() {
               {t('home')}
             </Link>
             <Link
+              href="/catamaran-charter-phuket"
+              className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
+            >
+              Catamaran Charter
+            </Link>
+            <Link
               href="/contact"
               className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
             >
@@ -166,6 +172,13 @@ export function Navbar() {
               className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
             >
               {t('home')}
+            </Link>
+            <Link
+              href="/catamaran-charter-phuket"
+              onClick={() => setIsMenuOpen(false)}
+              className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
+            >
+              Catamaran Charter
             </Link>
             <Link
               href="/contact"

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { CTAButton } from '@/components/shared/CTAButton'
 import { ContactCards } from '@/components/shared/ContactCards'
+import { ReviewBadges } from '@/components/shared/ReviewBadges'
 import { SectionHeading } from '@/components/shared/SectionHeading'
 import { Phone, MessageCircle, ChevronLeft, ChevronRight, Anchor, Sailboat, Moon, Ship, MapPin, CheckCircle, CreditCard, Calendar, HelpCircle } from 'lucide-react'
 import { useLanguage } from '@/components/providers/LanguageProvider'
@@ -56,7 +57,7 @@ function HeroSection() {
 
       <div className="absolute inset-0 bg-gradient-to-b from-[#164e63]/60 via-[#164e63]/40 to-[#164e63]/60 z-[1]"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-16 md:py-20 flex justify-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16 sm:py-20 md:py-24 flex justify-center">
         <div className="max-w-3xl text-center">
           <h1 className="font-[family-name:var(--font-playfair)] text-white mb-4 sm:mb-6 leading-[1.2] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold" style={{ textShadow: '3px 3px 12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.6)' }}>
             {t('hero.title')}
@@ -66,14 +67,16 @@ function HeroSection() {
             {t('hero.description')}
           </p>
 
-          <CTAButton 
-            href="/contact" 
-            trackingId="hero-quote" 
+          <CTAButton
+            href="/contact"
+            trackingId="hero-quote"
             className="!px-6 !py-3 !text-base"
             style={{ background: 'linear-gradient(90deg, #A0522D 0%, #FF8C00 100%)' }}
           >
             {t('hero.cta')}
           </CTAButton>
+
+          <ReviewBadges />
         </div>
       </div>
     </section>
