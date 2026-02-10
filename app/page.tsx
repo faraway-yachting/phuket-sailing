@@ -44,17 +44,17 @@ function HeroSection() {
 
   return (
     <section className="relative min-h-[85vh] flex items-center overflow-hidden">
-      <div className="absolute inset-0 z-0">
-        <Image
+        <div className="absolute inset-0 z-0">
+          <Image
           src="/assets/images/home/hero2.png"
-          alt="Sailing in Phuket"
-          fill
+            alt="Sailing in Phuket"
+            fill
           className="object-cover "
-          priority
+            priority
           quality={100}
-        />
-      </div>
-
+          />
+        </div>
+        
       <div className="absolute inset-0 bg-gradient-to-b from-[#164e63]/60 via-[#164e63]/40 to-[#164e63]/60 z-[1]"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16 sm:py-20 md:py-24 flex justify-center">
@@ -78,8 +78,8 @@ function HeroSection() {
 
           <ReviewBadges />
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
   )
 }
 
@@ -87,14 +87,15 @@ function ContactCardsSection() {
   return (
     <section className="bg-white py-6 sm:py-8">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <ContactCards />
-      </div>
-    </section>
+          <ContactCards />
+        </div>
+      </section>
   )
 }
 
 function JumpLinks() {
   const { t } = useLanguage()
+  const [activeLink, setActiveLink] = useState('')
 
   const links = [
     { href: '#charter-style', label: t('nav.charterStyles'), icon: Anchor },
@@ -108,26 +109,67 @@ function JumpLinks() {
     { href: '#faqs', label: t('nav.faq'), icon: HelpCircle },
   ]
 
+  useEffect(() => {
+    const handleHashChange = () => {
+      setActiveLink(window.location.hash || links[0]?.href || '')
+    }
+
+    const handleScroll = () => {
+      const sections = links.map(link => {
+        const id = link.href.replace('#', '')
+        const element = document.getElementById(id)
+        if (element) {
+          const rect = element.getBoundingClientRect()
+          return { href: link.href, top: rect.top, bottom: rect.bottom }
+        }
+        return null
+      }).filter(Boolean)
+
+      const current = sections.find(section => 
+        section && section.top <= 100 && section.bottom >= 100
+      )
+
+      if (current) {
+        setActiveLink(current.href)
+      } else if (sections.length > 0 && window.scrollY < 100) {
+        setActiveLink(links[0]?.href || '')
+      }
+    }
+
+    handleHashChange()
+    handleScroll()
+    window.addEventListener('hashchange', handleHashChange)
+    window.addEventListener('scroll', handleScroll)
+    
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange)
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [links])
+
   return (
-    <nav className="py-2 sm:py-3 md:py-4">
-      <div className="max-w-6xl mx-auto px-2 sm:px-4">
-        <div className="bg-white/90 backdrop-blur-md rounded-xl sm:rounded-2xl shadow-lg p-1.5 sm:p-2.5 md:p-4 border border-gray-100">
-          <div className="flex flex-wrap items-center justify-center gap-x-1.5 gap-y-1.5 sm:gap-2 md:gap-2.5">
-            {links.map((link) => {
-              const Icon = link.icon
-              return (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="group flex items-center gap-1 sm:gap-1.5 bg-gradient-to-r from-gray-50 to-gray-100 text-gray-700 hover:from-[#164e63] hover:to-[#0c3a47] hover:text-white transition-all duration-300 text-[11px] sm:text-sm md:text-base font-medium whitespace-nowrap px-2.5 sm:px-3.5 md:px-4 py-1.5 sm:py-2 md:py-2.5 rounded-lg sm:rounded-xl shadow-sm hover:shadow-md border border-gray-200 hover:border-[#164e63] transform hover:scale-105"
-                >
-                  <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 text-[#14b8a6] group-hover:text-white flex-shrink-0 transition-colors duration-300" />
-                  <span>{link.label}</span>
-                </a>
-              )
-            })}
-          </div>
-        </div>
+    <nav className="bg-white border-t border-gray-200">
+      <div className="flex flex-wrap items-center justify-center gap-0.5 sm:gap-1 md:flex-nowrap py-3 sm:py-4">
+        {links.map((link) => {
+          const Icon = link.icon
+          const isActive = activeLink === link.href || (!activeLink && link.href === links[0]?.href)
+          return (
+            <a
+              key={link.href}
+              href={link.href}
+              className={`flex items-center gap-1 sm:gap-1.5 transition-colors duration-200 text-xs sm:text-sm font-medium whitespace-nowrap px-2 sm:px-3 py-2 sm:py-2.5 border-t ${
+                isActive 
+                  ? 'text-[#0c3a47] border-[#0c3a47] border-t-2' 
+                  : 'text-gray-600 hover:text-[#164e63] border-gray-200'
+              }`}
+            >
+              <Icon className={`w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 ${
+                isActive ? 'text-[#0c3a47]' : 'text-[#14b8a6]'
+              }`} />
+              <span>{link.label}</span>
+            </a>
+          )
+        })}
       </div>
     </nav>
   )
@@ -384,17 +426,17 @@ function CharterStylesSection() {
             >
               <div className="grid md:grid-cols-5 gap-0">
                 <div className="relative h-64 md:h-auto md:col-span-2 overflow-hidden">
-                  <Image
+                <Image
                     src={charter.image}
                     alt={charter.title}
-                    fill
+                  fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
+                />
                   <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-[#0a2a35]/20"></div>
                   <svg className="absolute bottom-0 right-0 w-full h-32 md:h-full" preserveAspectRatio="none" viewBox="0 0 100 100">
                     <polygon points="100,0 100,100 85,100" fill="#0a2a35" opacity="0.85" />
                   </svg>
-                </div>
+              </div>
 
                 <div className="md:col-span-3 bg-white p-6 sm:p-8 md:p-10 flex flex-col justify-center relative">
                   <div className="absolute left-0 top-0 bottom-0 w-8 md:w-12 bg-gradient-to-r from-[#0a2a35] to-transparent opacity-60"></div>
@@ -420,8 +462,8 @@ function CharterStylesSection() {
             </div>
           ))}
         </div>
-      </div>
-
+        </div>
+        
       <div className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 pt-6 sm:pt-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
@@ -470,7 +512,7 @@ function SailingPhuketSection() {
                 className="object-cover"
               />
             </div>
-
+            
             <div className="absolute right-0 bottom-0 w-[48%] h-[52%] rounded-2xl overflow-hidden shadow-xl border-4 border-white">
               <Image
                 src="/assets/images/home/phuket3.jpg"
@@ -478,8 +520,8 @@ function SailingPhuketSection() {
                 fill
                 className="object-cover"
               />
-            </div>
-          </div>
+              </div>
+              </div>
 
           <div className="w-full">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#164e63] mb-4 sm:mb-6">
@@ -512,9 +554,9 @@ function SailingPhuketSection() {
                 <span className="text-neutral-700 text-sm sm:text-base md:text-lg leading-relaxed">{t('sailingPhuket.trips')}</span>
               </li>
             </ul>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
     </section>
   )
 }
@@ -574,18 +616,18 @@ function WhatTripTypeSection() {
                   <button className="bg-amber-gradient text-white px-6 py-2.5 rounded-full font-semibold text-sm shadow-lg transition-all duration-300 transform hover:scale-105">
                     {t('tripType.explore')}
                   </button>
-                </div>
               </div>
-
+        </div>
+        
               <div className="p-5 sm:p-6">
                 <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3">
                   {type.title}
-                </h3>
-
+            </h3>
+            
                 <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
                   {type.description}
                 </p>
-              </div>
+          </div>
             </div>
           ))}
         </div>
@@ -637,19 +679,19 @@ function OvernightSailingSection() {
               </li>
             </ul>
           </div>
-
+          
           {/* Right Side - Image with Overlays */}
           <div className="relative">
             {/* Main Image */}
             <div className="relative h-[400px] sm:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
-              <Image
-                src="/assets/images/home/overnight-sailing.webp"
+            <Image
+              src="/assets/images/home/overnight-sailing.webp"
                 alt="Overnight Sailing Catamaran"
-                fill
-                className="object-cover"
-              />
+              fill
+              className="object-cover"
+            />
               <div className="absolute inset-0 bg-gradient-to-t from-[#164e63]/20 to-transparent"></div>
-            </div>
+          </div>
 
             {/* Top Right Circle - Yacht Guests */}
             <div className="absolute -top-8 -right-8 sm:-top-12 sm:-right-12 w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl border-4 sm:border-6 border-white">
@@ -659,8 +701,8 @@ function OvernightSailingSection() {
                 fill
                 className="object-cover"
               />
-            </div>
-
+        </div>
+        
             {/* Bottom Right Circle - Couple */}
             <div className="absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-12 w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl border-4 sm:border-6 border-white">
               <Image
@@ -715,27 +757,27 @@ function OvernightRecommendationSection() {
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
                   <h4 className="font-bold text-white text-sm sm:text-base">{t('overnightRecommendation.kohRok.title')}</h4>
                   <p className="text-white/80 text-xs sm:text-sm">{t('overnightRecommendation.kohRok.description')}</p>
-                </div>
+              </div>
 
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
                   <h4 className="font-bold text-white text-sm sm:text-base">{t('overnightRecommendation.kohHa.title')}</h4>
                   <p className="text-white/80 text-xs sm:text-sm">{t('overnightRecommendation.kohHa.description')}</p>
-                </div>
+              </div>
 
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 sm:p-4 border border-white/20">
                   <h4 className="font-bold text-white text-sm sm:text-base">{t('overnightRecommendation.butang.title')}</h4>
                   <p className="text-white/80 text-xs sm:text-sm">{t('overnightRecommendation.butang.description')}</p>
-                </div>
               </div>
-
+            </div>
+            
               <p className="text-xs sm:text-sm text-white/80 leading-relaxed mb-6">
                 {t('overnightRecommendation.lessCrowded')}
-              </p>
+            </p>
               
             </div>
           </div>
         </div>
-
+        
         <div className="mt-8 sm:mt-10 md:mt-12 bg-white rounded-xl overflow-hidden shadow-xl border border-gray-100">
           <div className="grid lg:grid-cols-2 gap-0">
             <div className="p-6 sm:p-8 md:p-10 lg:p-12">
@@ -796,10 +838,10 @@ function OvernightRecommendationSection() {
                 <p className="mt-4">
                   <a href="#overnight" className="text-[#14b8a6] hover:text-[#0d9488] font-semibold text-sm inline-flex items-center gap-1 transition-colors duration-200">
                     {t('overnightRecommendation.ctaLink')}
-                  </a>
-                </p>
-              </div>
-            </div>
+              </a>
+            </p>
+          </div>
+        </div>
 
             {/* Right Side - Image */}
             <div className="relative h-[300px] lg:h-auto min-h-[400px]">
@@ -838,7 +880,7 @@ function CatamaranVsSailingSection() {
         <SectionHeading subtitle={t('catamaranVsSailing.subtitle')}>
           {t('catamaranVsSailing.title')}
         </SectionHeading>
-
+        
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
           <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
             <div className="relative h-48 sm:h-56 md:h-64 mb-4 sm:mb-6 rounded-2xl overflow-hidden">
@@ -849,7 +891,7 @@ function CatamaranVsSailingSection() {
                 className="object-cover"
               />
             </div>
-
+            
             <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl">{t('catamaranVsSailing.catamaranTitle')}</h3>
             <ul className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
               <li className="flex items-start gap-2 sm:gap-3">
@@ -869,12 +911,12 @@ function CatamaranVsSailingSection() {
                 <span className="text-sm sm:text-base">{t('catamaranVsSailing.catamaranSocial')}</span>
               </li>
             </ul>
-
+            
             <a href="#" className="text-[#14b8a6] font-semibold hover:text-[#0d9488] transition-colors text-sm sm:text-base">
               {t('catamaranVsSailing.catamaranLink')}
             </a>
           </div>
-
+          
           <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
             <div className="relative h-48 sm:h-56 md:h-64 mb-4 sm:mb-6 rounded-2xl overflow-hidden">
               <Image
@@ -884,7 +926,7 @@ function CatamaranVsSailingSection() {
                 className="object-cover"
               />
             </div>
-
+            
             <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl">{t('catamaranVsSailing.sailingTitle')}</h3>
             <ul className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
               <li className="flex items-start gap-2 sm:gap-3">
@@ -904,13 +946,13 @@ function CatamaranVsSailingSection() {
                 <span className="text-sm sm:text-base">{t('catamaranVsSailing.sailingRomantic')}</span>
               </li>
             </ul>
-
+            
             <a href="#" className="text-[#14b8a6] font-semibold hover:text-[#0d9488] transition-colors text-sm sm:text-base">
               {t('catamaranVsSailing.sailingLink')}
             </a>
           </div>
         </div>
-
+        
       </div>
 
       <div className="bg-ocean-50 pt-6 sm:pt-8">
@@ -979,12 +1021,12 @@ function PopularRoutesSection() {
         <SectionHeading subtitle={t('popularRoutes.subtitle')}>
           {t('popularRoutes.title')}
         </SectionHeading>
-
+        
         {/* Bento Grid Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
           {/* Left - Large Card */}
           <div className="group relative h-[300px] sm:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl cursor-pointer">
-            <Image
+                <Image
               src={displayRoutes[0].image}
               alt={displayRoutes[0].title}
               fill
@@ -998,8 +1040,8 @@ function PopularRoutesSection() {
               <p className="text-white/90 text-sm sm:text-base leading-relaxed line-clamp-3 transition-all duration-500">
                 {displayRoutes[0].description}
               </p>
-            </div>
-          </div>
+              </div>
+              </div>
 
           {/* Right Column */}
           <div className="flex flex-col gap-4 sm:gap-5">
@@ -1019,9 +1061,9 @@ function PopularRoutesSection() {
                 <p className="text-white/90 text-xs sm:text-sm leading-relaxed line-clamp-2 transition-all duration-500">
                   {displayRoutes[1].description}
                 </p>
-              </div>
             </div>
-
+        </div>
+        
             {/* Bottom Row - Two Small Cards */}
             <div className="grid grid-cols-2 gap-4 sm:gap-5">
               {/* Card 3 */}
@@ -1123,14 +1165,14 @@ function WhoItsForSection() {
         <SectionHeading subtitle={t('whoItsFor.subtitle')}>
           {t('whoItsFor.title')}
         </SectionHeading>
-
+        
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {audiences.map((audience, index) => (
             <div key={index} className="relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 h-64 sm:h-72 md:h-80 cursor-pointer group hover:-translate-y-2">
-              <Image
-                src={audience.image}
-                alt={audience.title}
-                fill
+                <Image
+                  src={audience.image}
+                  alt={audience.title}
+                  fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
               {/* Shaded bottom gradient overlay */}
@@ -1158,7 +1200,7 @@ function WhatsIncludedSection() {
         <SectionHeading subtitle={t('whatsIncluded.subtitle')}>
           {t('whatsIncluded.title')}
         </SectionHeading>
-
+        
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-10 md:mb-12">
           <div className="bg-ocean-50 rounded-2xl p-6 sm:p-8">
             <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl font-bold text-[#164e63]">{t('whatsIncluded.typicallyIncluded')}</h3>
@@ -1181,7 +1223,7 @@ function WhatsIncludedSection() {
               </li>
             </ul>
           </div>
-
+          
           <div className="bg-white rounded-2xl p-6 sm:p-8 border-2 border-ocean-200">
             <h3 className="mb-4 sm:mb-6 text-lg sm:text-xl font-bold text-[#164e63]">{t('whatsIncluded.oftenOptional')}</h3>
             <ul className="space-y-2 sm:space-y-3">
@@ -1208,7 +1250,7 @@ function WhatsIncludedSection() {
             </ul>
           </div>
         </div>
-
+        
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center">
           <div>
             <h3 className="mb-4 sm:mb-6 text-xl sm:text-2xl md:text-3xl font-bold text-[#164e63]">{t('whatsIncluded.whatToPack')}</h3>
@@ -1240,7 +1282,7 @@ function WhatsIncludedSection() {
               </li>
             </ul>
           </div>
-
+          
           <div className="relative h-64 sm:h-80 md:h-96 rounded-2xl overflow-hidden shadow-xl">
             <Image
               src="/assets/images/home/packing.webp"
@@ -1250,8 +1292,8 @@ function WhatsIncludedSection() {
             />
           </div>
         </div>
-
-      </div>
+        
+            </div>
 
       <div className="bg-white pt-6 sm:pt-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1274,7 +1316,7 @@ function PricingSection() {
         <SectionHeading subtitle={t('pricing.subtitle')}>
           {t('pricing.title')}
         </SectionHeading>
-
+        
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 mt-6 sm:mt-8">
           <div className="bg-white rounded-xl px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 shadow-xl border-2 border-ocean-200/50">
             <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 md:mb-8">
@@ -1380,8 +1422,8 @@ function PricingSection() {
             </ul>
           </div>
         </div>
-
-      </div>
+        
+          </div>
 
       <div className="bg-ocean-50 pt-6 sm:pt-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1470,7 +1512,7 @@ function BookingProcessSection() {
             </div>
           ))}
         </div>
-
+        
         <div className="mb-8 sm:mb-10 max-w-6xl mx-auto">
           <div className="text-center mb-6 sm:mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-[#164e63] mb-3">
@@ -1482,7 +1524,7 @@ function BookingProcessSection() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 sm:gap-6 md:gap-8">
-            <div className="text-center">
+          <div className="text-center">
               <div className="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -1646,7 +1688,7 @@ function FAQSection() {
         <SectionHeading>
           {t('faq.title')}
         </SectionHeading>
-
+        
         <div className="space-y-4 sm:space-y-6">
           {faqs.map((faq, index) => (
             <div key={index} className="bg-ocean-50 rounded-lg p-4 sm:p-6 border border-ocean-200">
@@ -1670,21 +1712,21 @@ function FinalCTASection() {
           <h2 className="text-white mb-6 sm:mb-8 text-xl sm:text-2xl md:text-3xl font-bold">{t('finalCta.title')}</h2>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center max-w-xl mx-auto">
-            <a
-              href="tel:+6661234562"
+          <a
+            href="tel:+6661234562"
               className="group flex items-center justify-center gap-2 sm:gap-3 bg-white hover:bg-ocean-50 text-ocean-700 font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
-            >
+          >
               <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
               <span className="text-sm sm:text-base md:text-lg">{t('finalCta.callNow')}</span>
-            </a>
-
-            <a
-              href="https://wa.me/6661234562"
+          </a>
+          
+          <a
+            href="https://wa.me/6661234562"
               className="group flex items-center justify-center gap-2 sm:gap-3 bg-green-600 hover:bg-green-700 text-white font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
-            >
+          >
               <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
               <span className="text-sm sm:text-base md:text-lg">{t('finalCta.whatsapp')}</span>
-            </a>
+          </a>
           </div>
         </div>
       </div>

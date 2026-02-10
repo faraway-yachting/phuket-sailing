@@ -143,11 +143,11 @@ export default function YachtsPage() {
 
                 {/* Pagination */}
                 {totalPages > 1 && (
-                  <div className="flex items-center justify-center gap-2 mt-10 flex-wrap">
+                  <div className="flex items-center justify-center gap-1 sm:gap-2 mt-10 flex-wrap px-4">
                     <button
                       onClick={() => setPage(p => Math.max(1, p - 1))}
                       disabled={page === 1}
-                      className="px-4 py-2 rounded-lg border border-[#164e63] text-[#164e63] text-sm font-semibold disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#164e63] hover:text-white transition-colors"
+                      className="px-3 sm:px-4 py-2 rounded-lg border border-[#164e63] text-[#164e63] text-xs sm:text-sm font-semibold disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#164e63] hover:text-white transition-colors"
                     >
                       Previous
                     </button>
@@ -155,7 +155,7 @@ export default function YachtsPage() {
                       <button
                         key={p}
                         onClick={() => setPage(p)}
-                        className={`w-9 h-9 rounded-lg text-sm font-semibold transition-colors ${p === page ? 'bg-[#164e63] text-white' : 'border border-gray-200 text-gray-600 hover:border-[#164e63] hover:text-[#164e63]'}`}
+                        className={`w-8 h-8 sm:w-9 sm:h-9 rounded-lg text-xs sm:text-sm font-semibold transition-colors ${p === page ? 'bg-[#164e63] text-white' : 'border border-gray-200 text-gray-600 hover:border-[#164e63] hover:text-[#164e63]'}`}
                       >
                         {p}
                       </button>
@@ -163,7 +163,7 @@ export default function YachtsPage() {
                     <button
                       onClick={() => setPage(p => Math.min(totalPages, p + 1))}
                       disabled={page === totalPages}
-                      className="px-4 py-2 rounded-lg border border-[#164e63] text-[#164e63] text-sm font-semibold disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#164e63] hover:text-white transition-colors"
+                      className="px-3 sm:px-4 py-2 rounded-lg border border-[#164e63] text-[#164e63] text-xs sm:text-sm font-semibold disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#164e63] hover:text-white transition-colors"
                     >
                       Next
                     </button>

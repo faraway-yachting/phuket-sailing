@@ -203,20 +203,20 @@ function IntroSection() {
 
           {/* Stylish Pricing Banner */}
           <div className="bg-gradient-to-r from-[#164e63] via-[#0f3a47] to-[#164e63] rounded-2xl p-6 sm:p-8 shadow-2xl text-center">
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-white">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-white">
               <div className="flex flex-col items-center">
-                <span className="text-lg sm:text-xl font-bold text-amber-300">Day charters</span>
-                <span className="text-2xl sm:text-3xl font-bold">from €800</span>
+                <span className="text-base sm:text-lg md:text-xl font-bold text-amber-300">Day charters</span>
+                <span className="text-xl sm:text-2xl md:text-3xl font-bold">from €800</span>
               </div>
               <div className="hidden sm:block w-px h-12 bg-white/30"></div>
               <div className="flex flex-col items-center">
-                <span className="text-lg sm:text-xl font-bold text-amber-300">Overnight</span>
-                <span className="text-2xl sm:text-3xl font-bold">from €1,000/night</span>
+                <span className="text-base sm:text-lg md:text-xl font-bold text-amber-300">Overnight</span>
+                <span className="text-xl sm:text-2xl md:text-3xl font-bold">from €1,000/night</span>
               </div>
               <div className="hidden sm:block w-px h-12 bg-white/30"></div>
               <div className="flex flex-col items-center">
-                <span className="text-lg sm:text-xl font-bold text-amber-300">Premium air-conditioned</span>
-                <span className="text-2xl sm:text-3xl font-bold">from €2,500/night</span>
+                <span className="text-base sm:text-lg md:text-xl font-bold text-amber-300">Premium air-conditioned</span>
+                <span className="text-xl sm:text-2xl md:text-3xl font-bold">from €2,500/night</span>
               </div>
             </div>
           </div>
@@ -727,40 +727,40 @@ function CatamaranVsMonohullSection() {
             More Space, Privacy & Onboard Comfort
           </h3>
 
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden min-w-[640px]">
               <thead>
                 <tr className="bg-[#164e63] text-white">
-                  <th className="px-6 py-4 text-left font-bold">Feature</th>
-                  <th className="px-6 py-4 text-left font-bold">Catamaran</th>
-                  <th className="px-6 py-4 text-left font-bold">Monohull</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">Feature</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">Catamaran</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">Monohull</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b border-neutral-200">
-                  <td className="px-6 py-4 font-semibold text-neutral-700">Deck space</td>
-                  <td className="px-6 py-4 text-neutral-700">Wide beam, dual lounging areas, large cockpit</td>
-                  <td className="px-6 py-4 text-neutral-600">Narrow deck, limited seating</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">Deck space</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Wide beam, dual lounging areas, large cockpit</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-600 text-sm sm:text-base">Narrow deck, limited seating</td>
                 </tr>
                 <tr className="bg-neutral-50 border-b border-neutral-200">
-                  <td className="px-6 py-4 font-semibold text-neutral-700">Stability</td>
-                  <td className="px-6 py-4 text-neutral-700">Flat, minimal rolling — ideal for non-sailors</td>
-                  <td className="px-6 py-4 text-neutral-600">Heels under sail, constant motion</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">Stability</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Flat, minimal rolling — ideal for non-sailors</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-600 text-sm sm:text-base">Heels under sail, constant motion</td>
                 </tr>
                 <tr className="border-b border-neutral-200">
-                  <td className="px-6 py-4 font-semibold text-neutral-700">Cabins</td>
-                  <td className="px-6 py-4 text-neutral-700">3–4 spacious cabins with ensuite bathrooms</td>
-                  <td className="px-6 py-4 text-neutral-600">Typically smaller, fewer ensuites</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">Cabins</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">3–4 spacious cabins with ensuite bathrooms</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-600 text-sm sm:text-base">Typically smaller, fewer ensuites</td>
                 </tr>
                 <tr className="bg-neutral-50 border-b border-neutral-200">
-                  <td className="px-6 py-4 font-semibold text-neutral-700">Seasickness risk</td>
-                  <td className="px-6 py-4 text-neutral-700">Very low — stable platform</td>
-                  <td className="px-6 py-4 text-neutral-600">Higher — rolling and heeling motion</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">Seasickness risk</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Very low — stable platform</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-600 text-sm sm:text-base">Higher — rolling and heeling motion</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 font-semibold text-neutral-700">Swim access</td>
-                  <td className="px-6 py-4 text-neutral-700">Open stern platforms, easy water entry</td>
-                  <td className="px-6 py-4 text-neutral-600">Ladder access, more difficult</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">Swim access</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Open stern platforms, easy water entry</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-600 text-sm sm:text-base">Ladder access, more difficult</td>
                 </tr>
               </tbody>
             </table>
@@ -908,46 +908,46 @@ function PlanYourCharterSection() {
                 Select the Right Catamaran and Duration
               </h3>
 
-              <div className="overflow-x-auto">
-            <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
+              <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden min-w-[640px]">
               <thead>
                 <tr className="bg-[#164e63] text-white">
-                  <th className="px-6 py-4 text-left font-bold">Charter Type</th>
-                  <th className="px-6 py-4 text-left font-bold">Duration</th>
-                  <th className="px-6 py-4 text-left font-bold">Best For</th>
-                  <th className="px-6 py-4 text-left font-bold">Starting Price</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">Charter Type</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">Duration</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">Best For</th>
+                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">Starting Price</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b border-neutral-200">
-                  <td className="px-6 py-4 font-semibold text-neutral-700">Day Charter</td>
-                  <td className="px-6 py-4 text-neutral-700">Full day (8–9 hours)</td>
-                  <td className="px-6 py-4 text-neutral-700">Short stays, specific island visits</td>
-                  <td className="px-6 py-4 text-amber-600 font-bold">€800/day</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">Day Charter</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Full day (8–9 hours)</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Short stays, specific island visits</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-amber-600 font-bold text-sm sm:text-base">€800/day</td>
                 </tr>
                 <tr className="bg-neutral-50 border-b border-neutral-200">
-                  <td className="px-6 py-4 font-semibold text-neutral-700">Extended Day</td>
-                  <td className="px-6 py-4 text-neutral-700">10–12 hours</td>
-                  <td className="px-6 py-4 text-neutral-700">Reaching further destinations</td>
-                  <td className="px-6 py-4 text-amber-600 font-bold">€1,000/day</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">Extended Day</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">10–12 hours</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Reaching further destinations</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-amber-600 font-bold text-sm sm:text-base">€1,000/day</td>
                 </tr>
                 <tr className="border-b border-neutral-200">
-                  <td className="px-6 py-4 font-semibold text-neutral-700">Overnight</td>
-                  <td className="px-6 py-4 text-neutral-700">2–4 nights</td>
-                  <td className="px-6 py-4 text-neutral-700">Phi Phi, Racha, Koh Lanta circuits</td>
-                  <td className="px-6 py-4 text-amber-600 font-bold">€1,000/night</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">Overnight</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">2–4 nights</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Phi Phi, Racha, Koh Lanta circuits</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-amber-600 font-bold text-sm sm:text-base">€1,000/night</td>
                 </tr>
                 <tr className="bg-neutral-50 border-b border-neutral-200">
-                  <td className="px-6 py-4 font-semibold text-neutral-700">Multi-Day Expedition</td>
-                  <td className="px-6 py-4 text-neutral-700">5–7 nights</td>
-                  <td className="px-6 py-4 text-neutral-700">Koh Rok, Koh Ha, Koh Lipe</td>
-                  <td className="px-6 py-4 text-amber-600 font-bold">€1,000/night</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">Multi-Day Expedition</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">5–7 nights</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Koh Rok, Koh Ha, Koh Lipe</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-amber-600 font-bold text-sm sm:text-base">€1,000/night</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 font-semibold text-neutral-700">Premium/Air-Con</td>
-                  <td className="px-6 py-4 text-neutral-700">Any duration</td>
-                  <td className="px-6 py-4 text-neutral-700">Maximum comfort year-round</td>
-                  <td className="px-6 py-4 text-amber-600 font-bold">€2,500/night</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">Premium/Air-Con</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Any duration</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">Maximum comfort year-round</td>
+                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-amber-600 font-bold text-sm sm:text-base">€2,500/night</td>
                 </tr>
               </tbody>
             </table>
