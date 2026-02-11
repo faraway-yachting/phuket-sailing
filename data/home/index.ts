@@ -364,7 +364,7 @@ export const routes: Route[] = [
     name: "Racha Islands",
     subtitle: "(Racha Yai / Racha Noi)",
     description: "A favorite for clear water and snorkeling. Great for both sailing yachts and catamarans. A strong choice when you want a clean \"tropical island day\" without overcomplicating the plan.",
-    image: "/assets/images/routes/racha-island.webp"
+    image: "/assets/images/routes/racha-island.jpg"
   },
   {
     name: "Coral Island",

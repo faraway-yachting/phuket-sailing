@@ -552,5 +552,362 @@
       "title": "Our Certifications & Awards",
       "tourismAuthority": "Tourism Authority Thailand OTD Licence #34/02546"
     }
+  },
+  "catamaranCharter": {
+    "hero": {
+      "title": "Catamaran Charter Phuket – Private Sailing in Comfort & Style",
+      "description1": "Charter a private catamaran in Phuket and explore Thailand's most stunning islands the way they deserve to be seen — at your own pace, with your own crew, from a yacht designed for space, stability, and all-day comfort.",
+      "description2": "Whether you're planning a romantic escape to Phi Phi Islands, a family adventure around Phang Nga Bay, or a multi-day cruise south to Koh Lipe, our sailing catamarans deliver the perfect balance of luxury and freedom on the Andaman Sea.",
+      "cta": "Get Your Free Quote"
+    },
+    "cta1": {
+      "text": "Planning a catamaran charter in Phuket? Share your dates, group size, and wish list — we'll send a personalized itinerary and quote within 24 hours. No obligation.",
+      "button1": "Get a Free Catamaran Quote",
+      "button2": "WhatsApp Us Now"
+    },
+    "intro": {
+      "title": "Premium Catamaran Charters in Phuket, Thailand",
+      "section1": {
+        "title": "Private Sailing Experiences Designed for Space, Stability & Comfort",
+        "p1": "A catamaran charter gives you something no speedboat, longtail, or standard yacht can match — genuine room to breathe. Twin hulls create a wide, stable platform with expansive deck space for lounging, dining, and watching islands drift by. Below deck, private cabins with ensuite bathrooms mean you never sacrifice comfort for adventure.",
+        "p2": "Our catamarans sit flat on the water. There's no heeling, no rolling, and far less motion than monohull sailboats — making them the most comfortable choice for families with children, guests who get seasick, and anyone who simply wants to relax rather than brace themselves.",
+        "p3": "Every private catamaran charter from Phuket includes a professional crew — licensed skipper, onboard chef, and experienced deckhand — so you don't need any sailing experience. You set the pace. They handle everything else."
+      },
+      "section2": {
+        "title": "Luxury Phuket Catamarans Offering Exceptional Value",
+        "p1": "Premium catamaran charters in Phuket cost 30–50% less than comparable experiences in the Mediterranean, Caribbean, or South Pacific — without compromising on quality, crew standards, or vessel condition. Thailand's lower operating costs mean your budget goes further, whether you're booking a day trip or a week-long expedition.",
+        "p2": "Our fleet ranges from modern 38-foot catamarans ideal for couples and small groups to spacious 45-foot+ vessels that accommodate families and larger parties with four private cabins, air conditioning, and full galley kitchens."
+      },
+      "pricing": {
+        "dayCharters": "Day charters",
+        "overnight": "Overnight",
+        "premium": "Premium air-conditioned",
+        "from": "from"
+      }
+    },
+    "whyCatamaran": {
+      "title": "Why a Catamaran Is the Best Way to Sail Phuket",
+      "features": {
+        "space": {
+          "title": "Spacious Decks, Smooth Sailing & Modern Design",
+          "p1": "The twin-hull design of a sailing catamaran creates nearly double the usable deck space of a monohull of similar length. Wide trampolines at the bow, shaded cockpit dining areas, and open sterns with swim platforms mean your group is never crowded into one spot. On a catamaran, everyone finds their own space — whether that's sunbathing, reading in the shade, or watching your kids snorkel from the swim ladder.",
+          "p2": "Modern sailing catamarans also feature shallow drafts, allowing them to anchor in protected bays and tuck into turquoise lagoons that deeper-keeled yachts and larger boats simply cannot access. This is a real advantage around Phuket's limestone islands, where the best swimming spots often sit in shallow, sheltered water close to shore."
+        },
+        "safety": {
+          "title": "Ideal Safety & Balance of Performance and Relaxation",
+          "p1": "Catamarans are among the safest vessels on the water. Twin hulls make them virtually impossible to capsize, and their wide beam provides a stable platform even in choppy conditions. For families with young children, this stability is a genuine safety advantage — kids can move around the deck freely without the constant tipping that comes with monohull sailing.",
+          "p2": "This matters especially in Phuket, where speedboat tours remain the most common way tourists visit islands like Phi Phi and James Bond Island. Speedboat accidents in Thai waters make international headlines with troubling regularity — overcrowded boats, high speeds, rough open-water crossings, and limited safety equipment create real risks that tourists often don't consider until they're onboard. A private catamaran charter is the opposite experience: controlled speeds, professional crew, proper safety equipment, calm sailing, and the freedom to adjust your route if conditions change."
+        },
+        "alternative": {
+          "title": "A Refined Alternative to Standard Phuket Boat Charters",
+          "p1": "Most boat charters in Phuket fall into two categories: budget speedboats that prioritize volume over comfort, or expensive superyachts that price out most travelers. A catamaran charter sits in the sweet spot — genuinely luxurious, beautifully designed, and fully crewed, but at a price point that makes multi-day sailing accessible to couples, families, and friend groups who want something special without spending five figures a night."
+        }
+      }
+    },
+    "cta2": {
+      "icon": "⚓",
+      "title": "Phuket's Peak Sailing Season: November–April",
+      "text": "The Andaman Sea's calmest waters, clearest visibility, and steadiest breezes fall between November and April. Christmas, New Year, and Chinese New Year charters book out 2–3 months ahead. If your dates are flexible, shoulder months (November, April) offer the best availability and value.",
+      "button": "Check Catamaran Availability"
+    },
+    "charterOptions": {
+      "title": "Catamaran Charter Options in Phuket",
+      "options": {
+        "day": {
+          "title": "Private Day Catamaran Charters",
+          "price": "From €800/day",
+          "perfectFor": "Departs ~9:00 AM, returns ~5:30 PM | Up to 8 guests",
+          "description": "A full-day private catamaran charter is the best way to experience Phuket's islands if you're short on time. Depart Chalong Bay in the morning, sail to your chosen destination — Phi Phi, Racha Islands, Phang Nga Bay, or Koh Hong — and return by sunset. Lunch prepared by your onboard chef, snorkeling gear, kayaks, and paddleboards are all included.",
+          "linkText": "Book Now →"
+        },
+        "extended": {
+          "title": "Extended Day & Full-Day Sailing",
+          "price": "From €1,000/day",
+          "perfectFor": "Flexible scheduling | Ideal for Phi Phi full exploration",
+          "description": "Want to go further or stay out longer? Extended day charters push departure earlier and return later, giving you time to reach destinations like the far side of Phi Phi or the outer Racha Islands without rushing. These are ideal when you want the depth of an overnight trip but prefer to sleep on land.",
+          "linkText": "Book Now →"
+        },
+        "overnight": {
+          "title": "Overnight & Multi-Day Cruises",
+          "price": "From €1,000/night",
+          "perfectFor": "4 private cabins, ensuite bathrooms | All meals, crew, activities included",
+          "description": "Multi-day catamaran cruises unlock Phuket's most magical experiences — overnight anchorages in deserted bays, sunrise swims before other boats arrive, and the freedom to explore remote islands that day-trippers never reach. Sleep in private cabins, dine under the stars, and wake up to a new island every morning.",
+          "linkText": "Book Now →"
+        }
+      },
+      "multiDayInfo": "Popular multi-day routes include: Phi Phi and Koh Lanta (2–3 nights), Koh Rok and Koh Ha (3–4 nights), and the ultimate expedition south to Koh Lipe and the Butang Archipelago (5–7 nights)."
+    },
+    "destinations": {
+      "title": "Phuket Island Routes & Destinations by Catamaran",
+      "phiPhi": {
+        "title": "Catamaran Charter Phi Phi Islands, Maya Bay & Surrounding Lagoons",
+        "description": "Thailand's most iconic sailing destination. Towering limestone cliffs, Maya Bay (from The Beach), Monkey Beach, Pileh Lagoon, and vibrant coral reefs. A catamaran's shallow draft lets you anchor inside Pileh Lagoon where larger vessels can't enter — and overnight stays mean you experience Phi Phi after the speedboats leave.",
+        "distance": "4–5 hours sailing from Chalong Bay",
+        "type": "Day trip or overnight",
+        "linkText": "Phi Phi Catamaran Charter →"
+      },
+      "phangNga": {
+        "title": "Catamaran Charter Phang Nga Bay & Dramatic Limestone Landscapes",
+        "description": "Vertical limestone karsts rising from emerald water, James Bond Island, hidden sea caves, and traditional floating villages. Kayak through collapsed cave systems into secret hongs (lagoons) that are only accessible at certain tides. Phang Nga Bay is calmer than open-sea destinations, making it ideal for families and first-time sailors.",
+        "distance": "3–4 hours from Chalong Bay",
+        "type": "Perfect for day charters",
+        "linkText": "Phang Nga Bay Charter →"
+      },
+      "racha": {
+        "title": "Racha Islands & Clear-Water Anchorages",
+        "subtitle1": "Snorkeling Reefs, Kayaking Routes & Calm Moorings",
+        "description1": "The Racha Islands (Racha Yai and Racha Noi) offer Phuket's closest premium anchorage — crystal-clear water, healthy coral reefs, and calm bays that are perfect for snorkeling, kayaking, and paddleboarding. Siam Bay and Batok Bay on Racha Yai provide sheltered overnight moorings with pristine white-sand beaches.",
+        "subtitle2": "Secluded Beaches, Coves & Natural Caves",
+        "description2": "After day-trip boats depart by mid-afternoon, overnight catamaran guests have entire beaches to themselves. Explore hidden coves along Racha Yai's eastern coast, swim through natural rock formations, and enjoy sunset from anchorages with no other boats in sight.",
+        "distance": "2–3 hours from Chalong Bay",
+        "type": "Closest overnight destination | Excellent for families",
+        "linkText": "Racha Islands Charter →"
+      }
+    },
+    "testimonials": {
+      "title": "What Catamaran Charter Guests Say",
+      "testimonial1": {
+        "quote": "The catamaran was spotless, spacious, and the crew made us feel like family. We anchored at Phi Phi overnight and had Maya Bay practically to ourselves at sunrise.",
+        "author": "David & Claire, Canada",
+        "charter": "3-Night Catamaran Cruise",
+        "rating": 5
+      },
+      "testimonial2": {
+        "quote": "We chose a catamaran specifically because our kids get motion sick. Zero issues — they spent the whole trip jumping off the back and snorkeling. Best decision we made.",
+        "author": "The Tanaka Family, Japan",
+        "charter": "Private Day Charter, Racha Islands",
+        "rating": 5
+      },
+      "testimonial3": {
+        "quote": "We've chartered monohulls in Croatia and Greece. The catamaran in Phuket was more comfortable, the crew was better, and it cost half the price. We're coming back next year.",
+        "author": "Mark & friends, UK",
+        "charter": "5-Night Charter, Phi Phi to Koh Lanta",
+        "rating": 5
+      },
+      "readAll": "Read all 750+ reviews →"
+    },
+    "crew": {
+      "title": "Catamaran Crews, Comfort & Onboard Experience",
+      "features": {
+        "skippers": {
+          "title": "Professional Skippers with Local Andaman Sea Knowledge",
+          "content": "Every catamaran charter includes a licensed Thai skipper with deep knowledge of the Andaman Sea — tidal patterns, seasonal weather shifts, the best anchorages for each time of day, and quiet snorkeling spots that don't appear in tourist guides. With 30 years of collective experience, our captains adjust routes in real time to ensure you get the best conditions and the most rewarding sailing experience."
+        },
+        "comfort": {
+          "title": "Comfortable Cabins, Bathrooms & Shaded Lounge Areas",
+          "p1": "Our catamarans feature 3–4 private cabins with queen or double beds, ensuite bathrooms with hot-water showers, and ample storage. Above deck, shaded cockpit areas provide comfortable dining and lounging space protected from the sun, while open foredeck trampolines and swim platforms give you direct access to the water.",
+          "p2": "Air-conditioned catamarans are available for guests who want climate-controlled comfort below deck — particularly popular during the warmer months."
+        },
+        "meals": {
+          "title": "Freshly Prepared Thai Meals, Drinks & Catering Options",
+          "p1": "Your onboard chef prepares every meal fresh from local ingredients. Expect authentic Thai cuisine — green curry, pad thai, tom yum soup, fresh seafood, and tropical fruits — alongside international options on request. Beach BBQs on secluded shores are a highlight of overnight charters.",
+          "p2": "All dietary preferences are accommodated: vegetarian, vegan, halal, gluten-free, and allergy-specific menus. For celebrations, we arrange custom cakes, premium seafood platters, and champagne service with advance notice.",
+          "p3": "All meals, drinking water, fuel, and activities included — transparent pricing, no hidden fees."
+        }
+      }
+    },
+    "specialMoments": {
+      "title": "Private Phuket Catamaran Charters for Special Moments",
+      "honeymoon": {
+        "title": "Honeymoons & Romantic Sailing Escapes Phuket",
+        "content": "A private catamaran is the most romantic way to experience Phuket's islands. Secluded anchorages, sunset dinners on deck, champagne service, and mornings waking up in deserted bays create an intimacy that no resort can match. We specialize in honeymoons, anniversaries, and proposals — with personalized touches like flowers, custom cakes, and candlelit dining arranged on request.",
+        "linkText": "See Honeymoon Packages →"
+      },
+      "family": {
+        "title": "Phuket Family Holidays & Refined Group Getaways",
+        "p1": "Catamarans are the most family-friendly charter option in Phuket. The wide, stable deck means kids can move freely. Shallow protected bays provide safe swimming. Snorkeling gear, kayaks, and paddleboards keep children entertained for hours. And with a professional crew handling sailing, cooking, and safety, parents actually get to relax.",
+        "p2": "For friend groups, catamarans offer the perfect shared holiday — enough private cabin space for everyone, but plenty of communal areas for long meals, card games, and late nights under the stars.",
+        "linkText": "Family Sailing Guide →"
+      },
+      "celebrations": {
+        "title": "Celebrations at Sea Without the Crowds in Phuket",
+        "content": "Birthdays, milestone anniversaries, bachelor and bachelorette parties, corporate retreats — a private catamaran gives you an exclusive floating venue with no strangers, no noise restrictions from neighboring tables, and no compromises. We customize decorations, menus, entertainment, and photography with advance planning.",
+        "linkText": "Plan a Celebration Charter →"
+      }
+    },
+    "vsMonohull": {
+      "title": "Catamaran Charter vs Monohull Charters",
+      "subtitle": "More Space, Privacy & Onboard Comfort",
+      "table": {
+        "feature": "Feature",
+        "catamaran": "Catamaran",
+        "monohull": "Monohull",
+        "deckSpace": {
+          "label": "Deck space",
+          "catamaran": "Wide beam, dual lounging areas, large cockpit",
+          "monohull": "Narrow deck, limited seating"
+        },
+        "stability": {
+          "label": "Stability",
+          "catamaran": "Flat, minimal rolling — ideal for non-sailors",
+          "monohull": "Heels under sail, constant motion"
+        },
+        "cabins": {
+          "label": "Cabins",
+          "catamaran": "3–4 spacious cabins with ensuite bathrooms",
+          "monohull": "Typically smaller, fewer ensuites"
+        },
+        "seasickness": {
+          "label": "Seasickness risk",
+          "catamaran": "Very low — stable platform",
+          "monohull": "Higher — rolling and heeling motion"
+        },
+        "swimAccess": {
+          "label": "Swim access",
+          "catamaran": "Open stern platforms, easy water entry",
+          "monohull": "Ladder access, more difficult"
+        }
+      },
+      "anchorage": {
+        "title": "Access to Quieter Anchorages and Hidden Locations",
+        "text": "A catamaran's shallow draft (typically 1.0–1.5 meters) means you can anchor in turquoise shallows, tuck into narrow lagoons, and moor close to beaches that deeper-keeled monohulls can't reach. Around Phuket's limestone islands — particularly Phi Phi's Pileh Lagoon, Koh Hong's inner lagoon, and the sheltered coves of Racha Yai — this translates into dramatically better anchorage positions and more private beach access."
+      },
+      "calm": {
+        "title": "A Calmer, More Elegant Way to Explore Phuket",
+        "p1": "Monohulls are built for performance sailing — exciting for experienced sailors, but the constant heel and motion can be uncomfortable for guests who just want to relax. A catamaran sails flat, moves smoothly, and provides a calm, civilized experience where the focus is on the destination and the company rather than hanging on.",
+        "p2": "For experienced sailors wanting a sportier experience, we also offer",
+        "link": "monohull and bareboat options →"
+      }
+    },
+    "customExperience": {
+      "title": "Your Phuket Flavor Catamaran Charter Experience",
+      "itineraries": {
+        "title": "Custom Itineraries Based on Your Preferences",
+        "content": "No two charters are the same. Tell us what matters most to you — snorkeling, photography, remote beaches, nightlife, island hopping, or simply doing nothing — and we'll design an itinerary around it. Every private catamaran charter is fully customizable: destinations, timing, activities, meals, and special requests."
+      },
+      "routes": {
+        "title": "Flexible Sailing Routes Guided by Conditions",
+        "content": "Our skippers adapt your route based on real-time weather, wind direction, tidal patterns, and sea conditions. If conditions favor a different island or anchorage than planned, your captain will suggest the best alternative — always prioritizing your comfort, safety, and enjoyment over a rigid schedule."
+      },
+      "unhurried": {
+        "title": "Unhurried Days Focused on Quality Time at Sea",
+        "content": "The beauty of a private catamaran charter is that there's no schedule to keep except your own. Sleep in. Linger at a snorkeling spot. Stay at anchor while the sun sets. Have a second coffee before raising the sails. This isn't a tour — it's your time, your way."
+      }
+    },
+    "cta3": {
+      "title": "Your Catamaran Charter Starts with a Conversation",
+      "text": "Every great sailing trip begins with understanding what you want. Tell us your travel dates, group size, preferred destinations, and any special occasions — and we'll build a tailored catamaran itinerary with transparent pricing. No obligation, no pressure.",
+      "button1": "Get Your Free Catamaran Quote",
+      "button2": "WhatsApp Us"
+    },
+    "planCharter": {
+      "title": "Plan Your Catamaran Charter in Phuket",
+      "selectTitle": "Select the Right Catamaran and Duration",
+      "table": {
+        "charterType": "Charter Type",
+        "duration": "Duration",
+        "bestFor": "Best For",
+        "startingPrice": "Starting Price",
+        "dayCharter": {
+          "type": "Day Charter",
+          "duration": "Full day (8–9 hours)",
+          "bestFor": "Short stays, specific island visits",
+          "price": "€800/day"
+        },
+        "extendedDay": {
+          "type": "Extended Day",
+          "duration": "10–12 hours",
+          "bestFor": "Reaching further destinations",
+          "price": "€1,000/day"
+        },
+        "overnight": {
+          "type": "Overnight",
+          "duration": "2–4 nights",
+          "bestFor": "Phi Phi, Racha, Koh Lanta circuits",
+          "price": "€1,000/night"
+        },
+        "multiDay": {
+          "type": "Multi-Day Expedition",
+          "duration": "5–7 nights",
+          "bestFor": "Koh Rok, Koh Ha, Koh Lipe",
+          "price": "€1,000/night"
+        },
+        "premium": {
+          "type": "Premium/Air-Con",
+          "duration": "Any duration",
+          "bestFor": "Maximum comfort year-round",
+          "price": "€2,500/night"
+        }
+      },
+      "includes": {
+        "title": "All prices include:",
+        "text": "crew, all meals, drinking water, fuel, mooring, snorkeling gear, kayaks, paddleboards, safety equipment, and accident insurance (1M THB per guest).",
+        "notIncluded": "Not included:",
+        "notIncludedText": "National park fees (300–400 THB per adult per park, cash), alcoholic beverages."
+      },
+      "confidence": {
+        "title": "Sail Phuket with Confidence and Comfort",
+        "points": {
+          "reviews": "750+ five-star reviews from international travelers across Google, TripAdvisor, and booking platforms",
+          "experience": "30 years of Andaman Sea experience — our team knows these waters better than anyone",
+          "licensed": "Tourism Authority of Thailand licensed (OTD #34/02546)",
+          "award": "World Luxury Travel Awards Winner 2025",
+          "refund": "Free rescheduling or full refund if we cancel for weather — your safety always comes first"
+        }
+      },
+      "specialists": {
+        "title": "Speak with Our Phuket-Based Charter Specialists",
+        "text": "Our team is based at Chalong Bay, Phuket's main yacht harbor — 15 minutes from Phuket Town, 30 minutes from Patong, 40 minutes from the airport. We're not a booking aggregator or overseas call center. You deal directly with the people who manage the fleet, brief the crews, and sail these waters every day."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Catamaran Charters Phuket",
+      "questions": {
+        "cost": {
+          "q": "How much does a catamaran charter cost in Phuket?",
+          "a": "Day charters start from €800. Overnight catamaran charters from €1,000/night. Premium air-conditioned catamarans from €2,500/night. All prices include crew, meals, fuel, and activities — no hidden fees."
+        },
+        "guests": {
+          "q": "How many guests can a catamaran accommodate?",
+          "a": "Our catamarans have 3–4 private cabins accommodating up to 8 overnight guests. For day charters, we can host up to 10–12 guests depending on the vessel. Every booking is private — you won't share with strangers."
+        },
+        "experience": {
+          "q": "Do I need sailing experience to charter a catamaran?",
+          "a": "Not at all. Every crewed catamaran charter includes a licensed skipper who handles all sailing. You're free to participate or simply relax. For experienced sailors, we also offer bareboat catamaran charters (valid license required)."
+        },
+        "children": {
+          "q": "Are catamarans safe for children?",
+          "a": "Yes — catamarans are the safest and most family-friendly charter option. The wide, stable platform means very little motion, safety railings and netting are standard, and life jackets are provided for all ages. Our crews are experienced with families and keep kids engaged with water activities."
+        },
+        "difference": {
+          "q": "What's the difference between a catamaran and a monohull charter?",
+          "a": "Catamarans are wider, more stable, and have more deck and cabin space. They don't heel (lean) under sail, making them far more comfortable for guests who aren't experienced sailors. They also have shallower drafts, allowing access to anchorages and lagoons monohulls can't reach."
+        },
+        "islands": {
+          "q": "Which islands can I visit on a catamaran from Phuket?",
+          "a": "Day trips: Phi Phi Islands, Racha Islands, Phang Nga Bay, Koh Hong. Multi-day: Koh Lanta, Koh Rok, Koh Ha, Similan Islands, Koh Lipe. Your itinerary is fully customizable."
+        },
+        "included": {
+          "q": "What's included in the charter price?",
+          "a": "Professional crew, all meals, drinking water, fuel, mooring, snorkeling gear, kayaks, paddleboards, safety equipment, and accident insurance. National park fees and alcoholic beverages are extra."
+        },
+        "bestTime": {
+          "q": "When is the best time for a catamaran charter in Phuket?",
+          "a": "November to April offers the best conditions — calm seas, clear skies, and steady sailing winds. December to March is peak season and books earliest. For quieter waters and lower prices, November and April are excellent shoulder months."
+        },
+        "advance": {
+          "q": "How far in advance should I book?",
+          "a": "Peak season (Dec–Mar): 2–4 weeks minimum. Christmas/New Year: 2–3 months recommended. For the best catamaran selection, booking early is always worthwhile — especially for multi-day charters."
+        },
+        "weather": {
+          "q": "What if the weather is bad?",
+          "a": "We reschedule for free, suggest alternative sheltered routes, or provide a full refund if we cancel for safety reasons. Our skippers monitor conditions constantly and will always prioritize your safety and comfort."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Book Your Phuket Catamaran Charter",
+      "subtitle": "Private Catamaran Sailing from €800/Day | Day Trips | Overnight Cruises | Multi-Day Expeditions",
+      "waysTitle": "Three ways to get started:",
+      "phone": "Call/WhatsApp:",
+      "phoneText": "We respond within 1 hour during business hours",
+      "email": "Email:",
+      "emailText": "Custom itinerary & quote within 24 hours",
+      "line": "Line App: Connect instantly",
+      "button": "GET YOUR FREE CATAMARAN QUOTE →",
+      "office": "Office: Chalong Bay, Phuket — 15 minutes from Phuket Town, 30 minutes from Patong, 40 minutes from the airport",
+      "footer": "Tourism Authority of Thailand Licensed (OTD #34/02546) • Fully Insured • World Luxury Travel Awards Winner 2025"
+    }
   }
 }

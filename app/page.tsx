@@ -975,7 +975,7 @@ function PopularRoutesSection() {
     {
       title: t('popularRoutes.racha.title'),
       description: t('popularRoutes.racha.description'),
-      image: '/assets/images/home/racha-island.webp',
+      image: '/assets/images/home/racha-island.jpg',
     },
     {
       title: t('popularRoutes.coral.title'),
