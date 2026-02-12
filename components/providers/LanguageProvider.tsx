@@ -1,8 +1,10 @@
 'use client'
 
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react'
+import React, { createContext, useContext, ReactNode } from 'react'
+import { useParams, useRouter, usePathname } from 'next/navigation'
+import { type Locale, locales, defaultLocale, localeHtmlLang } from '@/lib/i18n'
 
-export type Locale = 'en' | 'fr' | 'de' | 'ru' | 'th' | 'cn' | 'ar'
+export type { Locale }
 
 interface LanguageContextType {
   locale: Locale
@@ -28,7 +30,6 @@ export const languages = Object.entries(localeData).map(([key, value]) => ({
   ...value,
 }))
 
-// Import all messages statically
 import enMessages from '@/messages/en.json'
 import frMessages from '@/messages/fr.json'
 import deMessages from '@/messages/de.json'
@@ -48,47 +49,33 @@ const allMessages: Record<Locale, Record<string, unknown>> = {
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>('en')
-  const [messages, setMessages] = useState<Record<string, unknown>>(enMessages)
+  const params = useParams()
+  const router = useRouter()
+  const pathname = usePathname()
 
-  const langMap: Record<Locale, string> = {
-    en: 'en',
-    fr: 'fr',
-    de: 'de',
-    ru: 'ru',
-    th: 'th',
-    cn: 'zh-CN',
-    ar: 'ar'
-  }
-
-  useEffect(() => {
-    // Get locale from localStorage or cookie on mount
-    const savedLocale = localStorage.getItem('locale') as Locale | null
-    if (savedLocale && allMessages[savedLocale]) {
-      setLocaleState(savedLocale)
-      setMessages(allMessages[savedLocale])
-      document.documentElement.lang = langMap[savedLocale]
-      document.documentElement.dir = savedLocale === 'ar' ? 'rtl' : 'ltr'
-    }
-  }, [])
+  const paramLocale = params?.locale as string
+  const locale: Locale = locales.includes(paramLocale as Locale) ? (paramLocale as Locale) : defaultLocale
+  const messages = allMessages[locale]
 
   const setLocale = (newLocale: Locale) => {
-    setLocaleState(newLocale)
-    setMessages(allMessages[newLocale])
-    localStorage.setItem('locale', newLocale)
     document.cookie = `NEXT_LOCALE=${newLocale};path=/;max-age=31536000`
-
-    // Set lang attribute for accessibility (but prevent browser translation)
-    document.documentElement.lang = langMap[newLocale]
-    document.documentElement.setAttribute('translate', 'no')
-
-    // Set RTL for Arabic
+    document.documentElement.lang = localeHtmlLang[newLocale]
     document.documentElement.dir = newLocale === 'ar' ? 'rtl' : 'ltr'
+
+    const segments = pathname.split('/')
+    const currentHasLocale = locales.includes(segments[1] as Locale)
+    if (currentHasLocale) {
+      segments.splice(1, 1)
+    }
+    const pathWithoutLocale = segments.join('/') || '/'
+    if (newLocale === defaultLocale) {
+      router.push(pathWithoutLocale)
+    } else {
+      router.push(`/${newLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`)
+    }
   }
 
-  // Translation function with dot notation support and bracket notation for keys with dots
   const t = (key: string): string => {
-    // Handle bracket notation like terms.sections.1["1.1"]
     const bracketMatch = key.match(/^(.+)\["(.+)"\]$/)
     if (bracketMatch) {
       const [, baseKey, bracketKey] = bracketMatch
@@ -110,7 +97,6 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       return key
     }
 
-    // Standard dot notation
     const keys = key.split('.')
     let value: unknown = messages
 

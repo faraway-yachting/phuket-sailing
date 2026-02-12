@@ -12,12 +12,13 @@
     "faq": "FAQ",
     "bookNow": "Book Now",
     "contactUs": "Nous Contacter",
-    "selectLanguage": "Choisir la Langue"
+    "selectLanguage": "Choisir la Langue",
+    "catamaranCharter": "Charter Catamaran"
   },
   "hero": {
-    "title": "Voile Phuket",
-    "description": "Planifiez votre prochaine expérience de voile à Phuket en quelques minutes. Choisissez votre style de bateau, la durée du voyage, et nous vous recommanderons le meilleur itinéraire pour vos dates—rapide, clair et facile pour vos vacances.",
-    "cta": "OBTENEZ VOTRE DEVIS PERSONNALISÉ"
+    "title": "Phuket Sailing",
+    "description": "Planifiez votre croisière à la voile à Phuket en quelques minutes. Indiquez-nous la taille de votre groupe, le nombre de nuits et les îles que vous souhaitez voir — nous vous proposerons le yacht et l'itinéraire idéaux pour une expérience dont vous parlerez pendant des années.",
+    "cta": "Obtenez votre devis personnalisé"
   },
   "featuredYachts": {
     "title": "Voiliers en Vedette",
@@ -31,255 +32,255 @@
     "from": "À partir de"
   },
   "charterStyles": {
-    "title": "Choisissez Votre Style de Charter",
+    "title": "Choisissez votre style de croisière à la voile",
     "explore": "Explorer →",
     "notSure": {
-      "title": "Pas sûr de ce qui convient le mieux?",
-      "description": "Envoyez vos dates + taille du groupe, et nous recommanderons la meilleure option.",
-      "getQuote": "Obtenez un Devis Rapide",
-      "whatsapp": "Contactez-nous sur WhatsApp"
+      "title": "Vous ne savez pas ce qui vous convient ?",
+      "description": "Partagez vos dates, la taille de votre groupe et le type d'expérience que vous recherchez — nous vous recommanderons la meilleure option en moins de 24 heures.",
+      "getQuote": "Obtenir un devis rapide",
+      "whatsapp": "WhatsApp"
     },
     "sailing": {
-      "title": "Yachts à Voile Privés à Phuket",
-      "description": "Un yacht à voile est le choix classique. Vous ressentez la vraie sensation de naviguer, un rythme détendu et une ambiance \"vraies vacances en bateau\". Parfait pour les couples, petits groupes et tous ceux qui aiment le romantisme des voiles et de la brise marine.",
-      "linkText": "Explorer: Yachts à Voile à Phuket"
+      "title": "Voiliers privés à Phuket",
+      "description": "Un voilier privé vous offre l'expérience complète — de vraies voiles, la mer d'Andaman ouverte et un rythme qui vous permet de vraiment profiter des îles. Parfait pour les couples, les petits groupes et tous ceux qui veulent des vacances à la voile authentiques.",
+      "linkText": "Explorer : Voiliers à Phuket"
     },
     "catamaran": {
-      "title": "Location de Catamarans à Phuket",
-      "description": "Les catamarans sont synonymes d'espace et de confort. Ils sont stables, adaptés aux familles et parfaits pour les groupes qui veulent plus d'espaces de détente, d'ombre et un aménagement de pont social.",
-      "linkText": "Explorer: Location de Catamarans à Phuket"
+      "title": "Location de catamarans à Phuket",
+      "description": "Les catamarans sont conçus pour le confort en mer. Plus d'espace sur le pont, une meilleure stabilité, des espaces de détente ombragés et un aménagement convivial qui convient parfaitement aux familles et aux groupes.",
+      "linkText": "Explorer : Catamarans à Phuket"
     },
     "overnight": {
-      "title": "Voile de Nuit & Multi-Jours",
-      "description": "Si vous voulez la meilleure expérience globale, optez pour une nuit. Vous profiterez de matinées calmes au mouillage, moins de précipitation et d'itinéraires que les excursions d'une journée ne peuvent tout simplement pas atteindre.",
-      "linkText": "Explorer: Voyages en Voilier de Nuit Phuket"
+      "title": "Croisières de nuit et multi-jours",
+      "description": "La meilleure version de la voile à Phuket est en croisière de nuit. Des matins tranquilles au mouillage, des plages avant la foule et des itinéraires que les excursions à la journée ne peuvent atteindre — y compris les îles Phi Phi, Koh Rok et au-delà.",
+      "linkText": "Explorer : Croisières de nuit à Phuket"
     },
     "cabin": {
-      "title": "Croisières en Cabine Phuket",
-      "description": "Vous voulez un voyage en voilier de plusieurs jours sans louer un bateau privé complet? Les croisières en cabine vous permettent de réserver par cabine. C'est idéal pour les voyageurs solo, les couples et les petits groupes qui veulent quand même un incroyable saut d'île en île à moindre coût.",
-      "linkText": "Explorer: Croisières en Cabine Phuket"
+      "title": "Croisières en cabine à Phuket",
+      "description": "Vous souhaitez naviguer plusieurs jours sans louer un bateau entier ? Réservez une cabine sur nos croisières partagées. Idéal pour les voyageurs solo, les couples et les petits groupes qui veulent découvrir les îles — Phi Phi, Koh Lanta, Koh Rok — à une fraction du prix d'une croisière privée.",
+      "linkText": "Explorer : Croisières en cabine à Phuket"
     },
     "bareboat": {
-      "title": "Location Bareboat Phuket",
-      "description": "Pour les marins confiants qui veulent une liberté totale. Le bareboat nécessite généralement une licence et/ou une expérience de navigation prouvée. Si vous êtes qualifié, c'est une façon incroyable d'explorer selon vos propres termes.",
-      "linkText": "Explorer: Location Bareboat Phuket"
+      "title": "Location bareboat à Phuket",
+      "description": "Pour les navigateurs expérimentés et licenciés qui veulent une liberté totale. Tracez votre propre route à travers la mer d'Andaman — baie de Phang Nga, îles Racha, ou plus au sud vers Koh Lipe. Nous vous brieferons entièrement avant votre départ.",
+      "linkText": "Explorer : Bareboat à Phuket"
     }
   },
   "sailingPhuket": {
-    "title": "Voile Phuket",
-    "description": "Phuket est l'un des meilleurs centres de voile en Asie du Sud-Est. Les distances entre les îles sont parfaites pour des excursions d'une journée ou des itinéraires de plusieurs nuits. Vous pouvez choisir des baies calmes, des paysages karstiques pittoresques, des arrêts de plongée avec tuba ou des mouillages isolés qui semblent loin des foules.",
-    "whySpecial": "Voici ce qui rend la Voile à Phuket spéciale:",
-    "warmWater": "Eau chaude et paysages d'îles tropicales",
-    "routes": "Itinéraires pour toutes les humeurs: détendu, romantique, aventureux",
-    "groups": "Options pour tous les groupes: familles, couples, équipes d'entreprise, amis, voyageurs solo",
-    "trips": "Excursions d'une journée, voiles au coucher du soleil ou exploration de plusieurs jours"
+    "title": "Navigation à Phuket",
+    "description": "Phuket est la première destination de voile en Asie du Sud-Est. La mer d'Andaman offre des eaux calmes, des paysages calcaires spectaculaires et des distances entre îles idéales pour tout, des croisières au coucher du soleil aux expéditions de 14 nuits vers Koh Lipe.",
+    "whySpecial": "Voici ce qui rend la navigation à Phuket exceptionnelle :",
+    "warmWater": "Eaux turquoise chaudes et paysages insulaires tropicaux de classe mondiale",
+    "routes": "Des itinéraires pour chaque humeur : romantique, aventureux, familial ou tranquille",
+    "groups": "Accès aux destinations emblématiques : îles Phi Phi, baie de Phang Nga, îles Racha, Koh Hong",
+    "trips": "Sorties à la journée, croisières au coucher du soleil ou exploration multi-jours — tout depuis Chalong Bay"
   },
   "tripType": {
-    "title": "Quel type de voyage planifiez-vous?",
-    "subtitle": "Voici les trois points de départ les plus courants:",
+    "title": "Quel type de voyage planifiez-vous ?",
+    "subtitle": "Voici les trois points de départ les plus courants :",
     "explore": "Explorer",
     "day": {
-      "title": "Voile de Jour",
-      "description": "Idéal si vous voulez des vacances sur l'eau avec baignade et ambiance de journée en bateau sans passer la nuit."
+      "title": "Navigation de jour à Phuket (privé)",
+      "description": "Une journée complète sur la mer d'Andaman avec baignade, plongée avec tuba et arrêts aux îles — sans engagement de nuit."
     },
     "sunset": {
-      "title": "Voile au Coucher du Soleil",
-      "description": "Parfait pour les couples, familles et célébrations. Plus court, pittoresque et charmant."
+      "title": "Navigation au coucher du soleil",
+      "description": "Court, panoramique et marquant. Parfait pour les couples, les familles et les célébrations spéciales."
     },
     "overnight": {
-      "title": "Location/Location de Bateau de Voile de Nuit",
-      "description": "Plus de temps, plus de calme, plus de vraies vacances."
+      "title": "Navigation de nuit (notre meilleure recommandation)",
+      "description": "Plus de temps, plus de calme, plus de ce que de vraies vacances à la voile devraient être. Vous atteindrez des endroits inaccessibles en excursion à la journée."
     }
   },
   "overnightSailing": {
-    "title": "Voyages en Voilier de Nuit Phuket",
-    "description": "Si vous voulez le voyage dont les gens parlent pendant des années, choisissez la voile de nuit. Les excursions d'une journée sont amusantes, mais la nuit est là où Phuket devient calme, beau et sans précipitation.",
-    "whyDifferent": "Pourquoi la voile de nuit est différente",
-    "noRush": "Vous ne vous précipitez pas pour retourner au quai",
-    "calmBays": "Vous nagez quand les baies sont calmes",
-    "sunsetSunrise": "Vous profitez du coucher et du lever du soleil au mouillage",
-    "bestIslands": "Vous pouvez atteindre les meilleures îles avec moins de monde",
-    "timeForActivities": "Vous avez le temps pour la plongée avec tuba, les plages, les points de vue et les moments \"ne rien faire\""
+    "title": "Croisières de nuit à Phuket",
+    "description": "Si vous voulez le voyage dont on parle pendant des années, choisissez la navigation de nuit. Les excursions à la journée sont agréables — mais la nuit, Phuket devient calme, tranquille et véritablement inoubliable.",
+    "whyDifferent": "Pourquoi la navigation de nuit est différente",
+    "noRush": "Pas de précipitation pour rentrer au port avant le coucher du soleil",
+    "calmBays": "Nagez dans des baies calmes et vides avant l'arrivée des bateaux d'excursion",
+    "sunsetSunrise": "Coucher et lever de soleil au mouillage dans les plus beaux endroits de Thaïlande",
+    "bestIslands": "Atteignez des îles que les excursionnistes ne voient jamais — Koh Rok, Koh Ha, les îles Butang",
+    "timeForActivities": "Du temps pour la plongée, les plages, les points de vue et ne rien faire du tout"
   },
   "overnightRecommendation": {
     "honestRecommendation": "Notre recommandation honnête",
-    "title": "5 nuits minimum (si vous le pouvez)",
-    "description": "Si votre emploi du temps le permet, 5+ nuits est le point idéal. C'est à ce moment-là que vous pouvez atteindre des zones plus isolées et profiter d'une expérience plus calme que les endroits les plus fréquentés.",
-    "destinations": "Trois destinations \"hors des sentiers battus\" remarquables:",
+    "title": "5 nuits minimum (si possible)",
+    "description": "Si votre emploi du temps le permet, 5+ nuits est l'idéal pour la voile à Phuket. C'est là que vous échappez aux zones touristiques les plus fréquentées et atteignez des destinations plus calmes et plus enrichissantes.",
+    "destinations": "Trois destinations hors des sentiers battus accessibles en 5+ nuits :",
     "kohRok": {
       "title": "Koh Rok",
-      "description": "Eau claire et une sensation plus calme et isolée"
+      "description": "Eaux d'une clarté saisissante et atmosphère plus calme et isolée"
     },
     "kohHa": {
       "title": "Koh Ha",
-      "description": "Beaux lagons et conditions de plongée avec tuba incroyables"
+      "description": "Lagons spectaculaires et parmi les meilleurs sites de plongée de Thaïlande"
     },
     "butang": {
-      "title": "Îles Butang (7+ nuits)",
-      "description": "Moins de monde, paysages incroyables au-dessus et sous l'eau"
+      "title": "Îles Butang / Koh Lipe (7+ nuits)",
+      "description": "Le moins de foule, des paysages extraordinaires au-dessus et sous l'eau"
     },
-    "lessCrowded": "Ces zones sont généralement beaucoup moins fréquentées que les zones d'excursion d'une journée les plus populaires comme la baie de Phang Nga ou les îles Phi Phi. C'est pourquoi nous recommandons un minimum de cinq nuits lorsque les invités veulent la meilleure version de la voile à Phuket.",
-    "shorterTitle": "Les nuits plus courtes fonctionnent toujours",
-    "shorterDescription": "Si vous avez moins de nuits, nous planifierons un itinéraire qui semble réaliste et détendu:",
-    "oneTwoNights": "1–2 nuits: points forts à proximité comme Phi Phi et les îles Racha",
-    "threeFourNights": "3–4 nuits: une boucle plus grande avec plus de variété de destinations",
-    "fiveFourteenNights": "5-14 nuits: meilleures destinations absolues et exploration plus approfondie des îles et de la culture thaïlandaises",
-    "ctaText": "Dites-nous vos dates et le nombre de nuits et nous recommanderons le meilleur itinéraire.",
-    "ctaButton": "Dites-nous vos dates et le nombre de nuits",
-    "ctaLink": "→ Commencez ici: Voyages en Voilier de Nuit Phuket"
+    "lessCrowded": "Ces zones sont bien moins fréquentées que les zones d'excursion populaires comme la baie de Phang Nga ou les îles Phi Phi. C'est pourquoi nous recommandons systématiquement 5 nuits minimum pour les visiteurs qui veulent la meilleure expérience de voile à Phuket.",
+    "shorterTitle": "Les nuits plus courtes sont aussi très bien",
+    "shorterDescription": "Si votre emploi du temps est plus serré, nous planifierons un itinéraire agréable et détendu :",
+    "oneTwoNights": "1–2 nuits : Îles Phi Phi et îles Racha — la voile classique à Phuket dans un temps limité",
+    "threeFourNights": "3–4 nuits : une boucle plus large avec plus de variété d'îles et une vraie aventure",
+    "fiveFourteenNights": "5–14 nuits : les meilleures destinations de Thaïlande, au bon rythme",
+    "ctaText": "Indiquez-nous vos dates et le nombre de nuits — nous vous recommanderons le meilleur itinéraire.",
+    "ctaButton": "Indiquez-nous vos dates et le nombre de nuits",
+    "ctaLink": "→ Commencez ici : Croisières de nuit à Phuket"
   },
   "catamaranVsSailing": {
-    "title": "Catamaran vs Yacht à Voile",
-    "subtitle": "Si vous hésitez à choisir, ce guide rapide résout généralement le problème.",
+    "title": "Catamaran ou voilier à Phuket",
+    "subtitle": "Vous hésitez encore ? Cette comparaison rapide tranche généralement la question.",
     "catamaranTitle": "Choisissez un catamaran si vous voulez",
-    "catamaranSpace": "Plus d'espace et de stabilité (idéal pour les enfants et les groupes)",
-    "catamaranShade": "Plus d'ombre et d'espaces de détente",
-    "catamaranVilla": "Une sensation de villa flottante",
-    "catamaranSocial": "Un aménagement très social",
-    "catamaranLink": "Comparer les options: Location de Catamarans à Phuket →",
-    "sailingTitle": "Choisissez un yacht à voile si vous voulez",
-    "sailingClassic": "Une sensation de voile plus classique",
-    "sailingSportier": "Une expérience de voilier plus sportive et authentique",
+    "catamaranSpace": "Plus d'espace et de stabilité — idéal pour les familles, les enfants et les grands groupes",
+    "catamaranShade": "Des espaces de détente ombragés et un aménagement ouvert et convivial",
+    "catamaranVilla": "Une ambiance « villa flottante » avec des cabines confortables",
+    "catamaranSocial": "Une navigation douce dans les conditions de la mer d'Andaman",
+    "catamaranLink": "Comparer : Catamarans à Phuket →",
+    "sailingTitle": "Choisissez un voilier si vous voulez",
+    "sailingClassic": "Une vraie sensation de voile — le vent dans les voiles, réactif et vivant",
+    "sailingSportier": "Une expérience de voile plus sportive et authentique sur la mer d'Andaman",
     "sailingValue": "Excellent rapport qualité-prix pour les couples et les petits groupes",
-    "sailingRomantic": "Une atmosphère chaleureuse et romantique",
-    "sailingLink": "Comparer les options: Yachts à Voile à Phuket →",
-    "stillUnsure": "Toujours pas sûr?",
-    "stillUnsureDescription": "Envoyez-nous la taille de votre groupe + vos préférences de confort et nous recommanderons le meilleur choix.",
-    "getRecommendation": "Obtenir une Recommandation Personnalisée"
+    "sailingRomantic": "Une atmosphère intime et romantique à bord",
+    "sailingLink": "Comparer : Voiliers à Phuket →",
+    "stillUnsure": "Toujours indécis ?",
+    "stillUnsureDescription": "Envoyez-nous la taille de votre groupe et vos préférences de confort — nous vous recommanderons la meilleure option.",
+    "getRecommendation": "Obtenir une recommandation personnalisée"
   },
   "popularRoutes": {
-    "title": "Itinéraires les Plus Populaires",
-    "subtitle": "Utilisez-les comme source d'inspiration. Nous finaliserons le meilleur itinéraire pour votre saison et la durée de votre voyage.",
+    "title": "Itinéraires de voile les plus populaires à Phuket",
+    "subtitle": "Utilisez-les comme inspiration. Nous finaliserons le meilleur itinéraire selon votre saison et la durée du voyage.",
     "racha": {
       "title": "Îles Racha (Racha Yai / Racha Noi)",
-      "description": "Un favori pour l'eau claire et la plongée avec tuba. Excellent pour les yachts à voile et les catamarans. Un choix solide lorsque vous voulez une journée d'île tropicale propre sans compliquer le plan."
+      "description": "Eaux cristallines, récifs coralliens en bonne santé et plages de sable blanc dignes des photos. Un excellent choix pour les voiliers et les catamarans quand vous voulez une journée tropicale parfaite au sud de Phuket."
     },
     "coral": {
-      "title": "Coral Island",
-      "description": "Facile, détendu et populaire pour la baignade et le temps à la plage. Excellent pour les familles, groupes mixtes et visiteurs qui veulent une journée amusante en mer avec une logistique simple."
+      "title": "Coral Island (Koh Hae)",
+      "description": "Détendue, belle et populaire pour la baignade et les moments à la plage. Idéale pour les familles, les groupes mixtes et les visiteurs qui veulent une journée agréable et simple sur la mer d'Andaman."
     },
     "phangNga": {
-      "title": "Baie de Phang Nga",
-      "description": "Paysage calcaire emblématique, eau calme et photos incroyables. Souvent parfait pour les groupes mixtes, sorties d'entreprise et voyageurs qui aiment le tourisme et les paysages dramatiques."
+      "title": "Baie de Phang Nga & Koh Hong",
+      "description": "Karsts calcaires emblématiques, lagons émeraude et parmi les paysages les plus spectaculaires d'Asie du Sud-Est. Parfait pour les visites, le kayak et la photographie — un point fort de tout itinéraire de voile à Phuket."
     },
     "kohRokHa": {
-      "title": "Koh Rok & Koh Ha (meilleur avec 5+ nuits)",
-      "description": "Si votre objectif est moins de monde et plus de wow, ces itinéraires brillent sur des charters plus longs. Mouillages calmes et ce sentiment rare d'espace."
+      "title": "Koh Rok & Koh Ha (idéal avec 5+ nuits)",
+      "description": "Moins de monde, eaux plus claires et cette rare sensation d'espace. Ces destinations récompensent les passagers en croisière longue par une expérience véritablement isolée — et véritablement spéciale."
     },
-    "wantHelp": "Vous voulez de l'aide pour choisir?",
-    "routeIdeas": "Voir des idées d'itinéraires: Itinéraires de Voile Phuket"
+    "wantHelp": "Besoin d'aide pour choisir ?",
+    "routeIdeas": "Voir les idées d'itinéraires : Itinéraires de voile à Phuket"
   },
   "whoItsFor": {
-    "title": "Pour qui la Voile Phuket est parfaite",
-    "subtitle": "Nous servons tout le monde: familles, couples, équipes d'entreprise, chercheurs d'aventure, voyageurs solo et occasions spéciales.",
+    "title": "Pour qui Phuket Sailing est parfait",
+    "subtitle": "",
     "families": {
       "title": "Familles & enfants",
-      "description": "Itinéraires adaptés aux familles, recommandations de bateaux stables, arrêts de baignade calmes et le bon rythme. Les catamarans sont souvent idéaux en raison de l'espace et de la stabilité."
+      "description": "Des catamarans stables, des arrêts baignade calmes et protégés, et un rythme flexible rendent la voile à Phuket excellente pour les familles. Les enfants adorent les activités nautiques — et les parents adorent que tout soit pris en charge."
     },
     "couples": {
       "title": "Couples & escapades romantiques",
-      "description": "Voiles au coucher du soleil, nuits d'ancrage calmes et temps privé dans de beaux endroits. Excellent pour les lunes de miel, anniversaires et demandes en mariage."
+      "description": "Navigations au coucher du soleil, nuits calmes au mouillage et intimité dans de beaux endroits. Que ce soit une lune de miel, un anniversaire ou une demande en mariage, nous savons comment rendre cela mémorable."
     },
     "corporate": {
       "title": "Groupes d'entreprise & team-building",
-      "description": "La voile crée une vraie connexion. C'est amusant, premium et détendu—sans se sentir formel."
+      "description": "La voile crée de vraies connexions dans un cadre naturellement détendu et haut de gamme — sans paraître corporatif. Une croisière à la voile à Phuket est le team-building dont votre groupe parlera vraiment."
     },
     "adventure": {
-      "title": "Chercheurs d'aventure",
-      "description": "Les charters plus longs débloquent la randonnée, la plongée et les îles hors des sentiers battus. Si vous voulez de l'exploration, nous construirons un itinéraire qui ressemble à une vraie aventure."
+      "title": "Aventuriers",
+      "description": "Les croisières longues à Phuket ouvrent la voie à la randonnée, la plongée et des destinations qui n'apparaissent jamais dans les circuits touristiques standard. Si l'exploration est votre objectif, nous construirons un itinéraire qui tient ses promesses."
     },
     "solo": {
       "title": "Voyageurs solo & petits groupes d'amis",
-      "description": "Les croisières en cabine sont parfaites ici. Vous obtenez l'expérience de plusieurs jours sans payer pour un charter privé complet."
+      "description": "Les croisières en cabine sont la solution idéale — navigation multi-jours autour des plus belles îles de Phuket sans payer une croisière privée complète."
     },
     "occasions": {
       "title": "Occasions spéciales",
-      "description": "Anniversaires marquants (50e/60e), lunes de miel, anniversaires—dites-nous ce que vous célébrez et nous aiderons à planifier une surprise à bord."
+      "description": "Anniversaires importants, lunes de miel, anniversaires de mariage, demandes en mariage — dites-nous ce que vous célébrez et nous vous aiderons à concevoir l'expérience parfaite à bord."
     }
   },
   "whatsIncluded": {
-    "title": "Ce qui est Inclus",
-    "subtitle": "Les inclusions varient selon le bateau et le type de voyage, mais nous restons clairs avant que vous ne confirmiez quoi que ce soit.",
-    "typicallyIncluded": "Généralement inclus dans les charters avec équipage",
-    "professionalCrew": "Équipage professionnel (pas pour les charters bareboat)",
-    "safetyEquipment": "Équipement de sécurité",
-    "standardSetup": "Configuration et installations standard à bord",
-    "routePlanning": "Planification d'itinéraire par notre équipe de gestion, soutien et conseils locaux",
-    "oftenOptional": "Souvent optionnel (dépend du bateau / itinéraire)",
+    "title": "Ce qui est inclus",
+    "subtitle": "Les inclusions varient selon le bateau et le type de voyage. Nous clarifions tout avant que vous ne confirmiez quoi que ce soit.",
+    "typicallyIncluded": "Généralement inclus sur les croisières avec équipage",
+    "professionalCrew": "Équipage professionnel — capitaine, chef et matelot (sauf bareboat)",
+    "safetyEquipment": "Équipement de sécurité certifié aux normes maritimes thaïlandaises",
+    "routePlanning": "Planification d'itinéraire par notre équipe avec briefing météo en temps réel",
+    "standardSetup": "Installation standard et équipements à bord",
+    "oftenOptional": "Souvent en option (selon le bateau / l'itinéraire)",
     "mealsDrinks": "Forfaits repas et boissons",
-    "parkFees": "Frais de parc national (dépend de l'itinéraire)",
-    "specialOccasion": "Configuration d'occasion spéciale",
-    "waterToys": "Jouets aquatiques supplémentaires",
-    "legalArrangements": "Tout ce qui est légal peut être organisé avec suffisamment de temps",
-    "whatToPack": "Que Mettre dans la Valise",
-    "keepSimple": "Gardez-le simple:",
-    "swimwear": "Maillot de bain (apportez idéalement 3 ensembles car vous ne porterez peut-être rien d'autre)",
+    "parkFees": "Frais de parc national (selon l'itinéraire)",
+    "specialOccasion": "Organisation d'occasions spéciales",
+    "waterToys": "Jouets nautiques supplémentaires",
+    "legalArrangements": "Tout ce qui est légal et faisable peut être arrangé avec suffisamment de préavis",
+    "whatToPack": "Que mettre dans vos bagages",
+    "keepSimple": "Restez simple :",
+    "swimwear": "Maillots de bain (apportez au moins 3 — c'est peut-être tout ce que vous porterez)",
     "sunscreen": "Crème solaire, chapeau, lunettes de soleil",
-    "coverUp": "Couverture légère / rash guard pour la plongée avec tuba (nous les vendons à 500 THB)",
+    "coverUp": "Couvre-corps léger ou rashguard pour la plongée (disponible à bord pour 500 THB)",
     "waterproofPouch": "Pochette étanche pour téléphone",
-    "shoes": "Chaussures qui peuvent être mouillées, mais adaptées à la randonnée",
-    "medication": "Tout médicament personnel (nous avons toutes sortes de médicaments à bord: mal de mer, antibiotiques, etc.)",
-    "wantQuote": "Vous voulez un devis simple et détaillé?",
-    "getFastQuote": "Obtenir un Devis Rapide"
+    "shoes": "Chaussures qui peuvent être mouillées mais adaptées au terrain insulaire",
+    "medication": "Tout médicament personnel (nous avons les essentiels à bord : anti-mal de mer, antibiotiques, etc.)",
+    "wantQuote": "Vous voulez un devis clair et détaillé sans surprises ?",
+    "getFastQuote": "Obtenir un devis rapide"
   },
   "pricing": {
-    "title": "Comment Fonctionnent les Tarifs",
-    "subtitle": "Les prix dépendent de quelques facteurs. Cette transparence vous aide à choisir rapidement.",
+    "title": "Comment fonctionne la tarification des croisières à la voile",
+    "subtitle": "Les prix des croisières à la voile à Phuket dépendent de quelques facteurs clés. Les comprendre vous aide à choisir rapidement et en toute confiance.",
     "mainDrivers": "Principaux facteurs de prix",
-    "boatType": "Type de bateau",
-    "privateVsCabin": "Charter privé vs croisière en cabine",
-    "tripLength": "Durée du voyage (jour / nuit)",
-    "routeDestination": "Itinéraire & Destination",
-    "seasonDemand": "Saison et demande",
-    "bookingTiming": "Moment de la Réservation",
+    "boatType": "Type et taille du navire",
+    "privateVsCabin": "Croisière privée vs. croisière en cabine",
+    "tripLength": "Durée du voyage (journée, nuit ou multi-jours)",
+    "routeDestination": "Saison et demande — les prix en basse saison (mai–octobre) sont 30–40% inférieurs",
+    "seasonDemand": "Taille du groupe et niveau de confort",
+    "bookingTiming": "Moment de la réservation",
     "groupSize": "Taille du groupe et niveau de confort",
-    "priceAnchors": "Ancres de prix",
-    "dayTrips": "Voyages de voile de jour:",
+    "priceAnchors": "Points de référence des prix",
+    "dayTrips": "Navigation de jour à Phuket :",
     "dayTripsPrice": "à partir de 29 900 THB",
-    "sunsetSailing": "Voile au coucher du soleil:",
+    "sunsetSailing": "Navigation au coucher du soleil :",
     "sunsetSailingPrice": "à partir de 24 900 THB",
-    "overnightCharters": "Charters de nuit:",
-    "overnightChartersPrice": "à partir de 1000 Euro par nuit",
-    "cabinCruises": "Croisières en cabine:",
-    "cabinCruisesPrice": "à partir de 1998 Euro par cabine pour 5 nuits",
-    "fastestPath": "Chemin le plus rapide vers votre devis",
-    "fastestPathDescription": "Envoyez vos dates + taille du groupe, et nous recommanderons les meilleures options avec des prix clairs.",
-    "getPersonalizedQuote": "Obtenez Votre Devis Personnalisé"
+    "overnightCharters": "Croisières de nuit :",
+    "overnightChartersPrice": "à partir de 1 000 € par nuit",
+    "cabinCruises": "Croisières en cabine à Phuket :",
+    "cabinCruisesPrice": "à partir de 1 998 € par cabine pour 5 nuits",
+    "fastestPath": "Le chemin le plus rapide",
+    "fastestPathDescription": "Envoyez vos dates et la taille de votre groupe. Nous vous répondrons avec les meilleures options et des prix clairs — sans ambiguïté.",
+    "getPersonalizedQuote": "Obtenez votre devis personnalisé"
   },
   "bookingProcess": {
-    "title": "Comment Fonctionne la Réservation",
-    "subtitle": "Simple et rapide — de la demande à la navigation en seulement 4 étapes faciles.",
+    "title": "Comment fonctionne la réservation de yacht",
+    "subtitle": "Simple et rapide :",
     "step1": {
       "title": "Partagez vos détails",
-      "description": "Envoyez les dates + taille du groupe et dites-nous quelle expérience vous recherchez."
+      "description": "Envoyez vos dates, la taille de votre groupe et le type d'expérience que vous recherchez."
     },
     "step2": {
       "title": "Choisissez votre style",
-      "description": "Choisissez votre style (yacht à voile / catamaran / croisière en cabine / bareboat)"
+      "description": "Voilier, catamaran, croisière en cabine ou bareboat"
     },
     "step3": {
-      "title": "Obtenez des recommandations",
-      "description": "Nous recommandons les meilleurs bateaux + itinéraires (basés sur la saison et les objectifs)"
+      "title": "Recevez nos recommandations",
+      "description": "Nous recommandons les meilleurs bateaux et itinéraires selon votre saison, groupe et objectifs"
     },
     "step4": {
-      "title": "Confirmez et détendez-vous",
-      "description": "Réservez en toute confiance — nous gérons tous les détails pour votre voyage parfait"
+      "title": "Confirmez et réjouissez-vous",
+      "description": "Réservez en toute confiance — nous nous occupons de tous les détails pour votre voyage parfait"
     },
-    "inquiryChecklist": "La liste de contrôle d'enquête de 20 secondes",
-    "inquiryChecklistDescription": "Répondez simplement à ces 5 questions rapides et nous nous occuperons du reste",
-    "howManyGuests": "Combien d'invités?",
-    "howManyGuestsDesc": "Dites-nous la taille de votre groupe",
-    "dayOrNights": "Excursion d'une journée ou nuits?",
+    "inquiryChecklist": "Le questionnaire de 20 secondes",
+    "inquiryChecklistDescription": "Répondez simplement à ces 5 questions rapides et nous nous occupons du reste",
+    "howManyGuests": "Combien de passagers ?",
+    "howManyGuestsDesc": "Indiquez la taille de votre groupe",
+    "dayOrNights": "Journée ou combien de nuits ?",
     "dayOrNightsDesc": "Choisissez la durée de votre voyage",
-    "preferredYacht": "Yacht préféré?",
-    "preferredYachtDesc": "Catamaran ou yacht à voile",
-    "tripStyle": "Style de voyage?",
-    "tripStyleDesc": "Famille / romantique / aventure",
-    "mustSeeIslands": "Îles à voir absolument?",
-    "mustSeeIslandsDesc": "Toute destination spécifique",
-    "readyToPlan": "Prêt à commencer à planifier?",
-    "readyToPlanDescription": "Envoyez-nous vos dates et la taille de votre groupe — nous créerons l'aventure de voile parfaite pour vous",
-    "getIndividualQuote": "Obtenez Votre Devis Individuel"
+    "preferredYacht": "Style de yacht préféré (ou laissez-nous choisir) ?",
+    "preferredYachtDesc": "Catamaran ou voilier",
+    "tripStyle": "Famille / romantique / aventure / entreprise ?",
+    "tripStyleDesc": "Dites-nous votre style",
+    "mustSeeIslands": "Îles incontournables ?",
+    "mustSeeIslandsDesc": "Phi Phi, Racha, Koh Hong, Koh Lipe…",
+    "readyToPlan": "Prêt à commencer la planification ?",
+    "readyToPlanDescription": "Envoyez-nous vos dates et la taille de votre groupe — nous créerons l'aventure à la voile parfaite pour vous",
+    "getIndividualQuote": "DEMANDEZ MAINTENANT"
   },
   "explorePages": {
     "title": "Explorer Toutes les Pages",
@@ -290,47 +291,47 @@
     "bareboatCharter": "Location Bareboat Phuket"
   },
   "faq": {
-    "title": "Questions Fréquemment Posées",
+    "title": "Questions fréquemment posées",
     "bestTime": {
-      "question": "Quelle est la meilleure période pour la voile à Phuket?",
-      "answer": "La plupart des clients préfèrent les mois plus calmes et secs, mais Phuket peut fonctionner toute l'année avec les bons choix d'itinéraires. Nous recommanderons le meilleur itinéraire pour vos dates exactes en fonction de la saison, des conditions de mer et du niveau de confort. Notez que les prix en basse saison entre mai et octobre sont environ 30 à 40% moins chers!"
+      "question": "Quelle est la meilleure période pour naviguer à Phuket ?",
+      "answer": "Novembre à avril offre les mers les plus calmes et le temps le plus fiable — c'est la haute saison pour la voile à Phuket. La basse saison (mai–octobre) offre des prix 30–40% inférieurs et des mouillages plus calmes. La voile à Phuket fonctionne toute l'année avec le bon itinéraire. Nous recommandons toujours le meilleur itinéraire pour vos dates exactes."
     },
     "catamaranVsSailing": {
-      "question": "Un catamaran est-il meilleur qu'un yacht à voile à Phuket?",
-      "answer": "Les catamarans offrent plus d'espace et de stabilité, ce que les familles et les groupes adorent. Les yachts à voile ont une sensation plus classique et de \"vraie voile\". Le meilleur choix dépend de la taille de votre groupe, de vos préférences de confort et de l'ambiance que vous voulez à bord."
+      "question": "Un catamaran est-il mieux qu'un voilier à Phuket ?",
+      "answer": "Les catamarans offrent plus d'espace et de stabilité — idéal pour les familles et les grands groupes. Les voiliers offrent une sensation de voile plus authentique et un excellent rapport qualité-prix pour les couples ou petits groupes. Le bon choix dépend de la taille de votre groupe, de vos préférences de confort et de l'atmosphère souhaitée à bord."
     },
     "recommendedNights": {
-      "question": "Combien de nuits recommandez-vous pour la meilleure expérience?",
-      "answer": "Si possible, nous recommandons un minimum de 5 nuits. C'est à ce moment-là que vous pouvez atteindre des zones plus calmes comme Koh Rok et Koh Ha, qui semblent généralement beaucoup moins fréquentées que les destinations d'excursion d'une journée les plus populaires de Phuket."
+      "question": "Combien de nuits recommandez-vous pour la meilleure expérience ?",
+      "answer": "Nous recommandons 5 nuits minimum. C'est à ce moment-là que vous pouvez confortablement atteindre des destinations plus calmes et plus enrichissantes comme Koh Rok, Koh Ha et les îles Butang / Koh Lipe — des endroits nettement moins fréquentés que les îles Phi Phi et la baie de Phang Nga."
     },
     "familyFriendly": {
-      "question": "Vos voyages de voile à Phuket sont-ils adaptés aux familles?",
-      "answer": "Oui. Nous pouvons recommander des bateaux stables, des arrêts de baignade calmes et des itinéraires adaptés aux familles. Les catamarans sont souvent le choix le plus facile pour les enfants car ils ont plus d'espace, d'ombre et de stabilité—surtout pour les excursions d'une journée détendues."
+      "question": "Les croisières à la voile à Phuket conviennent-elles aux familles avec enfants ?",
+      "answer": "Oui. Nous recommandons des catamarans stables, planifions des itinéraires avec des arrêts baignade calmes et protégés, et adaptons le rythme à votre groupe. Notre équipage a l'expérience des croisières familiales — et les enfants disent généralement que ce sont les meilleures vacances de leur vie."
     },
     "romantic": {
-      "question": "La voile à Phuket est-elle bonne pour les couples et les escapades romantiques?",
-      "answer": "Absolument. Les couples adorent les voiles au coucher du soleil et les mouillages de nuit pour l'intimité et l'atmosphère. Si c'est une lune de miel, un anniversaire ou une demande en mariage, dites-nous tôt et nous recommanderons le meilleur bateau et aiderons à planifier une surprise."
+      "question": "La voile à Phuket est-elle adaptée aux couples et aux escapades romantiques ?",
+      "answer": "Absolument. Les navigations au coucher du soleil, les mouillages de nuit tranquilles et l'intimité dans de beaux endroits font de la voile à Phuket l'une des expériences de vacances les plus romantiques disponibles. Pour les lunes de miel, anniversaires ou demandes en mariage, prévenez-nous à l'avance — nous vous aiderons à planifier quelque chose de spécial."
     },
     "soloTravelers": {
-      "question": "Les voyageurs solo peuvent-ils réserver sans louer un bateau complet?",
-      "answer": "Oui. Avec les Croisières en Cabine Phuket, vous pouvez réserver par cabine. C'est idéal pour les voyageurs solo, couples ou petits groupes d'amis qui veulent une expérience de voile de plusieurs jours à un coût inférieur à un charter privé."
+      "question": "Les voyageurs solo peuvent-ils réserver sans louer un yacht privé complet ?",
+      "answer": "Oui. Les croisières en cabine à Phuket vous permettent de réserver une cabine — un espace privé sur une croisière partagée vers les plus belles îles, y compris Phi Phi, Koh Lanta, Koh Rok et les îles Racha. Le meilleur rapport qualité-prix pour la voile multi-jours à Phuket."
     },
     "whatsIncluded": {
-      "question": "Qu'est-ce qui est inclus dans un charter de voile avec équipage?",
-      "answer": "Les inclusions varient selon le bateau, mais les charters avec équipage incluent généralement le bateau, l'équipage, tous les repas, l'équipement de sécurité et la configuration standard à bord. Les extras comme les boissons, les frais de parc et les configurations spéciales dépendent du navire et de l'itinéraire. Nous confirmons tout à l'avance."
+      "question": "Qu'est-ce qui est inclus dans une croisière avec équipage à Phuket ?",
+      "answer": "Les croisières avec équipage incluent généralement le navire, l'équipage professionnel, tous les repas, l'eau potable, le carburant, l'équipement de sécurité et les activités nautiques standard. Les extras comme les boissons, les frais de parc national et les installations spéciales sont confirmés à l'avance — pas de frais cachés."
     },
     "bareboatLicense": {
-      "question": "Avons-nous besoin d'une licence pour la location bareboat Phuket?",
-      "answer": "Généralement oui. Les charters bareboat nécessitent généralement une licence valide et une preuve solide d'expérience. Si vous n'êtes pas sûr, nous pouvons recommander un charter avec équipage à la place ou discuter de ce qui est requis en fonction de votre expérience de voile."
+      "question": "Ai-je besoin d'un permis de navigation pour un bareboat à Phuket ?",
+      "answer": "Oui. Les charters bareboat nécessitent un permis de navigation valide et une expérience démontrée sur un navire comparable. Si vous n'êtes pas sûr de votre éligibilité, nous sommes heureux de vous conseiller — ou de recommander une croisière avec équipage."
     },
     "chooseItinerary": {
-      "question": "Pouvez-vous nous aider à choisir le meilleur itinéraire?",
-      "answer": "Oui. Partagez vos dates, nombre de nuits, taille du groupe et priorités (plongée avec tuba, plages, îles calmes, aventure). Nous recommanderons un itinéraire réaliste qui convient à la saison et vous donne la meilleure expérience globale."
+      "question": "Pouvez-vous nous aider à choisir le meilleur itinéraire ?",
+      "answer": "Oui — c'est l'une des choses les plus précieuses que nous offrons. Partagez vos dates, le nombre de nuits, la taille de votre groupe et vos priorités (plongée, îles isolées, plages, aventure). Nous recommanderons un itinéraire réaliste adapté à la saison et conçu pour offrir la meilleure expérience possible."
     }
   },
   "finalCta": {
-    "title": "Prêt à planifier votre Charter de Voile Phuket?",
-    "callNow": "Appeler Maintenant",
+    "title": "Prêt à planifier votre croisière à la voile à Phuket ?",
+    "callNow": "Appelez maintenant",
     "whatsapp": "WhatsApp"
   },
   "contactForm": {
@@ -391,7 +392,9 @@
     "back": "Retour",
     "next": "Suivant",
     "previous": "Précédent",
-    "backToHome": "Retour à l'Accueil"
+    "backToHome": "← Retour à l'accueil",
+    "loading": "Chargement…",
+    "submit": "Envoyer"
   },
   "terms": {
     "metadata": {
@@ -667,24 +670,34 @@
     "testimonials": {
       "title": "Ce que Disent les Invités de Location de Catamaran",
       "testimonial1": {
-        "quote": "Le catamaran était impeccable, spacieux, et l'équipage nous a fait sentir comme en famille. Nous nous sommes ancrés à Phi Phi pour la nuit et avons eu Maya Bay pratiquement pour nous au lever du soleil.",
-        "author": "David & Claire, Canada",
-        "charter": "Croisière en Catamaran de 3 Nuits",
-        "rating": 5
+        "quote": "My trip with Faraway Yachting on the Hot Chilli crew exceeded my expectations. The captain was calm, confident, and clearly very skilled. The crew took excellent care of us, making sure we were comfortable and enjoying every moment. The food prepared by the chef was delicious and beautifully presented, adding a special touch to the trip. The overall service was outstanding and created a warm, enjoyable atmosphere on board. I truly recommend Faraway Yachting for anyone who wants a relaxing and high-quality yachting experience.",
+        "author": "Katie Brooks"
       },
       "testimonial2": {
-        "quote": "Nous avons choisi un catamaran spécifiquement parce que nos enfants ont le mal de mer. Zéro problème — ils ont passé tout le voyage à sauter de l'arrière et à faire de la plongée avec tuba. Meilleure décision que nous ayons prise.",
-        "author": "La Famille Tanaka, Japon",
-        "charter": "Location Privée d'une Journée, Îles Racha",
-        "rating": 5
+        "quote": "I went on a cruise to Thailand, and it turned out to be a fantastic experience. The route included beautiful islands, warm turquoise water, and plenty of time to explore both nature and local culture. Each stop felt unique — from quiet beaches and crystal-clear snorkeling spots to lively towns with great food and friendly people. The ship itself was comfortable, clean, and well organized. Overall, this cruise was a perfect balance of relaxation and adventure.",
+        "author": "Maria Volkova"
       },
       "testimonial3": {
-        "quote": "Nous avons loué des monocoques en Croatie et en Grèce. Le catamaran à Phuket était plus confortable, l'équipage était meilleur, et cela coûtait la moitié du prix. Nous revenons l'année prochaine.",
-        "author": "Mark & amis, Royaume-Uni",
-        "charter": "Location de 5 Nuits, Phi Phi à Koh Lanta",
-        "rating": 5
+        "quote": "We had the time of our lives with Faraway Yachting. From the very first booking contact to the warm welcome at their office, everything was seamless and professional. The crew exceeded every expectation — attentive, intuitive, and always one step ahead. The food deserves special mention: better than any restaurant we tried in Asia. We'll be back next year, guaranteed.",
+        "author": "Hans Maxheim"
       },
-      "readAll": "Lire toutes les 750+ avis →"
+      "testimonial4": {
+        "quote": "It was soooo much fun! Everyone was smiling all the time. The captain, crew, chef, and interns were super helpful and friendly. The service was excellent. I really enjoyed all the activities, and the food was delicious! The Pad Thai was amazing. It was such a great experience with Faraway Yachting, truly unforgettable!",
+        "author": "Priscilla Evanson"
+      },
+      "testimonial5": {
+        "quote": "We had the most exceptional day on board Chili — from start to finish it was flawless. The crew were warm, attentive, and genuinely passionate, striking the perfect balance between professional and relaxed. The food was outstanding — fresh, beautifully presented, and absolutely delicious, easily restaurant-quality. If you're considering a day on Chili, don't hesitate.",
+        "author": "Dara"
+      },
+      "testimonial6": {
+        "quote": "We wanted to escape the busy Christmas time and sailed faraway! The Crew did a fabulous job and we had the best time with the other passengers. The trip was awesome. From beautiful snorkeling spots to empty beaches and hikes to viewpoints. Nothing was left out. The food was delicious and plenty. We would recommend and would book again.",
+        "author": "Jonathan Singer"
+      },
+      "testimonial7": {
+        "quote": "I recently visited Phang Nga bay, and it was such a lovely trip. The atmosphere was calm and relaxing, and the nature there is truly beautiful. I really enjoyed the views of the sea, limestone cliffs, and the peaceful surroundings. It felt like a perfect place to slow down and enjoy nature. Phang Nga has its own charm, and I'm really happy I got to visit.",
+        "author": "Sandra Tomson"
+      },
+      "readAll": "Lire toutes les 800+ avis →"
     },
     "crew": {
       "title": "Équipages de Catamaran, Confort et Expérience à Bord",
@@ -838,7 +851,7 @@
       "confidence": {
         "title": "Naviguez à Phuket avec Confiance et Confort",
         "points": {
-          "reviews": "750+ avis cinq étoiles de voyageurs internationaux sur Google, TripAdvisor et plateformes de réservation",
+          "reviews": "800+ avis cinq étoiles de voyageurs internationaux sur Google, TripAdvisor et plateformes de réservation",
           "experience": "30 ans d'expérience de la mer d'Andaman — notre équipe connaît ces eaux mieux que quiconque",
           "licensed": "Agréé par l'Autorité du Tourisme de Thaïlande (OTD #34/02546)",
           "award": "Gagnant des World Luxury Travel Awards 2025",
@@ -909,5 +922,44 @@
       "office": "Bureau : Baie de Chalong, Phuket — 15 minutes de Phuket Town, 30 minutes de Patong, 40 minutes de l'aéroport",
       "footer": "Agréé par l'Autorité du Tourisme de Thaïlande (OTD #34/02546) • Entièrement Assuré • Gagnant des World Luxury Travel Awards 2025"
     }
+  },
+  "footer": {
+    "quickLinks": "Liens Rapides",
+    "usefulLinks": "Liens Utiles",
+    "subscribe": "S'abonner",
+    "subscribeText": "Abonnez-vous à notre newsletter pour rester informé des dernières nouvelles, promotions et conseils sur les charters de yachts à Phuket !",
+    "subscribeButton": "S'abonner",
+    "emailPlaceholder": "Email*",
+    "copyright": "© 2025 Copyright Phuket Sailing",
+    "impressum": "Mentions légales",
+    "sitemap": "Plan du site"
+  },
+  "yachtDetail": {
+    "notFound": "Yacht Introuvable",
+    "notFoundDescription": "Le yacht que vous recherchez n'existe pas ou a été supprimé.",
+    "aboutBoat": "À propos du bateau",
+    "aboutThisBoat": "À propos de ce bateau",
+    "dayCharter": "Charter Journée",
+    "overnightCharter": "Charter Nuit",
+    "boatLayout": "Plan du bateau",
+    "specifications": "Spécifications",
+    "watchVideo": "Voir la vidéo →",
+    "length": "Longueur",
+    "boatType": "Type de bateau",
+    "cabins": "Cabines",
+    "bathrooms": "Salles de bain",
+    "dayCapacity": "Capacité jour",
+    "nightCapacity": "Capacité nuit",
+    "design": "Design",
+    "built": "Construit",
+    "lengthOverall": "Longueur hors tout",
+    "cruisingSpeed": "Vitesse de croisière",
+    "fuelCapacity": "Capacité carburant",
+    "waterCapacity": "Capacité eau",
+    "yourName": "Votre nom *",
+    "email": "Email *",
+    "whatsapp": "WhatsApp (optionnel)",
+    "noOfGuests": "Nombre d'invités",
+    "commentsRequests": "Commentaires ou demandes ?"
   }
 }

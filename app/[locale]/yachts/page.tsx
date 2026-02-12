@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { LocaleLink } from '@/components/shared/LocaleLink'
 import { useLanguage } from '@/components/providers/LanguageProvider'
 import { fetchAllYachts } from '@/lib/api/yachts'
 import type { Yacht } from '@/lib/types/home'
@@ -74,13 +74,13 @@ export default function YachtsPage() {
             {yachts.length === 0 ? (
               <div className="text-center py-20">
                 <p className="text-gray-500 text-lg">No yachts available at the moment.</p>
-                <Link href="/" className="text-[#14b8a6] font-semibold mt-3 inline-block hover:underline">Back to Home</Link>
+                <LocaleLink href="/" className="text-[#14b8a6] font-semibold mt-3 inline-block hover:underline">Back to Home</LocaleLink>
               </div>
             ) : (
               <>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
                   {yachts.map((yacht) => (
-                    <Link
+                    <LocaleLink
                       key={yacht._id}
                       href={`/yacht/${yacht._id}`}
                       className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer block"
@@ -132,12 +132,12 @@ export default function YachtsPage() {
                         </div>
 
                         <div className="flex justify-center">
-                          <span className="bg-amber-gradient text-white font-bold py-2.5 px-12 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 inline-flex items-center justify-center">
+                          <span className="bg-amber-gradient text-white font-bold py-2.5 px-8 sm:px-12 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 inline-flex items-center justify-center">
                             {t('featuredYachts.bookNow')}
                           </span>
                         </div>
                       </div>
-                    </Link>
+                    </LocaleLink>
                   ))}
                 </div>
 

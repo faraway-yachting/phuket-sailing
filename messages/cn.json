@@ -12,11 +12,12 @@
     "faq": "常见问题",
     "bookNow": "立即预订",
     "contactUs": "联系我们",
-    "selectLanguage": "选择语言"
+    "selectLanguage": "选择语言",
+    "catamaranCharter": "双体船包船"
   },
   "hero": {
-    "title": "普吉岛帆船",
-    "description": "在几分钟内规划您的下一次普吉岛帆船体验。选择您的船型，选择行程长度，我们将为您的日期推荐最佳路线——快速、清晰、假期友好。",
+    "title": "Phuket Sailing",
+    "description": "几分钟内规划您的普吉岛帆船包船之旅。告诉我们您的团队人数、住几晚以及想去哪些岛屿——我们会为您匹配合适的游艇和路线，打造您将铭记多年的体验。",
     "cta": "获取个性化报价"
   },
   "featuredYachts": {
@@ -28,264 +29,258 @@
     "withSkipper": "配备船长",
     "cabins": "客舱",
     "bathrooms": "浴室",
-    "from": "起价",
-    "guests": "客人",
-    "beds": "床位"
+    "from": "起价"
   },
   "charterStyles": {
-    "title": "选择您的租船风格",
-    "explore": "探索",
+    "title": "选择您的帆船包船风格",
+    "explore": "探索 →",
     "notSure": {
       "title": "不确定哪种最适合？",
-      "description": "发送您的日期 + 团队规模，我们将推荐最佳匹配。",
-      "getQuote": "快速获取报价",
-      "whatsapp": "通过 WhatsApp 联系我们"
+      "description": "告诉我们您的出行日期、团队人数和想要的体验类型——我们会在24小时内推荐最佳选择。",
+      "getQuote": "获取快速报价",
+      "whatsapp": "WhatsApp联系"
     },
     "sailing": {
       "title": "普吉岛私人帆船游艇",
-      "description": "帆船游艇是经典选择。您将获得真正的帆船感觉、悠闲的节奏和\"真正的船上假期\"氛围。非常适合情侣、小团体以及所有热爱帆船和海风浪漫的人。",
+      "description": "私人帆船游艇为您提供完整体验——真正的风帆、开阔的安达曼海以及让您真正享受岛屿的从容节奏。非常适合情侣、小型团体以及想要正宗帆船假期的旅客。",
       "linkText": "探索：普吉岛帆船游艇"
     },
     "catamaran": {
-      "title": "普吉岛双体船租赁",
-      "description": "双体船的特点是空间和舒适。它们稳定、适合家庭，非常适合想要更多休息区、阴凉处和社交甲板布局的团体。",
-      "linkText": "探索：普吉岛双体船租赁"
+      "title": "普吉岛双体船包船",
+      "description": "双体船专为海上舒适而设计。更大的甲板空间、更好的稳定性、遮阳休闲区以及非常适合家庭和团体的社交布局。",
+      "linkText": "探索：普吉岛双体船包船"
     },
     "overnight": {
-      "title": "过夜和多日帆船",
-      "description": "如果您想要最佳的整体体验，选择过夜。您将获得安静的清晨锚地、不用匆忙赶路，以及一日游无法到达的航线。",
+      "title": "过夜及多日帆船之旅",
+      "description": "普吉岛帆船的最佳版本是过夜。锚泊处的宁静清晨、游客到来前的沙滩，以及一日游无法到达的岛屿路线——包括披披群岛、阁洛岛等。",
       "linkText": "探索：普吉岛过夜帆船之旅"
     },
     "cabin": {
-      "title": "普吉岛舱室巡航",
-      "description": "想要多日帆船之旅但不想租整艘私人船？舱室巡航让您按舱室预订。非常适合独自旅行者、情侣和小团体，他们仍然想以更低的成本享受令人难以置信的跳岛游。",
-      "linkText": "探索：普吉岛舱室巡航"
+      "title": "普吉岛舱位巡游",
+      "description": "想要多日帆船之旅又不想包租整艘船？按舱位预订我们的共享帆船巡游。非常适合独行旅客、情侣和小型团体，想要优质跳岛体验——披披岛、兰达岛、阁洛岛——仅需私人包船价格的一小部分。",
+      "linkText": "探索：普吉岛舱位巡游"
     },
     "bareboat": {
-      "title": "普吉岛裸船租赁",
-      "description": "适合自信的水手，他们想要完全的自由。裸船租赁通常需要执照和/或经过验证的帆船经验。如果您符合条件，这是按照您自己的条件探索的绝佳方式。",
-      "linkText": "探索：普吉岛裸船租赁"
+      "title": "普吉岛裸船包租",
+      "description": "为经验丰富、持有执照的水手打造完全自由。在安达曼海上规划自己的航线——攀牙湾、拉查群岛，或向南直达丽贝岛。我们会在出发前为您提供完整的航前简报。",
+      "linkText": "探索：普吉岛裸船包租"
     }
   },
   "sailingPhuket": {
     "title": "普吉岛帆船",
-    "description": "普吉岛是东南亚最好的帆船中心之一。岛屿之间的距离非常适合一日游或多夜航线。您可以选择平静的海湾、风景如画的石灰岩景观、浮潜站点或远离人群的偏远锚地。",
-    "whySpecial": "这就是普吉岛帆船的特别之处：",
-    "warmWater": "温暖的海水和热带岛屿风光",
-    "routes": "适合各种心情的航线：悠闲、浪漫、冒险",
-    "groups": "适合各种团体的选择：家庭、情侣、企业团队、朋友、独自旅行者",
-    "trips": "一日游、日落航行或多日探险"
+    "description": "普吉岛是东南亚首屈一指的帆船枢纽。安达曼海拥有平静的水域、壮观的石灰岩景观以及岛与岛之间的完美距离，从日落一日游到南下丽贝岛的14晚远征，应有尽有。",
+    "whySpecial": "这就是普吉岛帆船非凡之处：",
+    "warmWater": "温暖的碧蓝海水和世界级热带岛屿风光",
+    "routes": "适合各种心情的路线：浪漫、冒险、家庭友好或悠闲自在",
+    "groups": "前往标志性目的地：披披群岛、攀牙湾、拉查群岛、阁洪岛",
+    "trips": "一日游、日落巡航或多日探索——全部从查龙湾出发"
   },
   "tripType": {
-    "title": "什么行程类型适合您？",
-    "subtitle": "这是三个最常见的起点：",
+    "title": "您计划什么类型的旅行？",
+    "subtitle": "以下是三个最常见的出发点：",
     "explore": "探索",
     "day": {
-      "title": "日间航行",
-      "description": "如果您想在水上度假，游泳，享受船日氛围而不需要过夜，这是理想的选择。"
+      "title": "普吉岛日间帆船（私人）",
+      "description": "在安达曼海享受一整天的游泳、浮潜和岛屿停靠——无需过夜。"
     },
     "sunset": {
-      "title": "日落航行",
-      "description": "非常适合情侣、家庭和庆祝活动。更短、风景优美、迷人。"
+      "title": "日落帆船",
+      "description": "更短、更美、更震撼。非常适合情侣、家庭和特殊庆典。"
     },
     "overnight": {
-      "title": "过夜帆船租赁/包船",
-      "description": "更多时间，更平静，更真实的假期。"
+      "title": "过夜帆船（我们的首选推荐）",
+      "description": "更多时间、更多宁静、更多真正帆船假期应有的感觉。您将到达一日游永远无法到达的地方。"
     }
   },
   "overnightSailing": {
     "title": "普吉岛过夜帆船之旅",
-    "description": "如果您想要人们谈论多年的旅行，选择过夜帆船。一日游很有趣，但过夜是普吉岛变得安静、美丽和不匆忙的地方。",
+    "description": "如果您想要一次让人津津乐道数年的旅行，请选择过夜帆船。一日游很愉快——但过夜才是普吉岛变得宁静、悠闲且真正难忘的时刻。",
     "whyDifferent": "为什么过夜帆船感觉不同",
-    "noRush": "您不必匆忙返回码头",
-    "calmBays": "当海湾平静时您游泳",
-    "sunsetSunrise": "您在锚地享受日落和日出",
-    "bestIslands": "您可以到达最好的岛屿，人群更少",
-    "timeForActivities": "您有时间进行浮潜、海滩、观景点和\"什么都不做\"的时刻"
+    "noRush": "不必在日落前匆忙赶回码头",
+    "calmBays": "在一日游船只到达之前，在平静空旷的海湾中畅游",
+    "sunsetSunrise": "在泰国最美丽的地点锚泊处欣赏日落和日出",
+    "bestIslands": "到达一日游游客永远看不到的岛屿——阁洛岛、阁哈岛、布当群岛",
+    "timeForActivities": "有时间浮潜、享受沙滩、欣赏观景点，以及什么都不做"
   },
   "overnightRecommendation": {
-    "honestRecommendation": "我们诚实的建议",
-    "title": "至少5晚（如果可以）",
-    "description": "如果您的日程允许，5+晚是最佳选择。那时您可以到达更偏远的地区，享受比最繁忙的热点更平静的体验。",
-    "destinations": "三个突出的\"非主流\"目的地：",
+    "honestRecommendation": "我们的真诚建议",
+    "title": "至少5晚（如果可以的话）",
+    "description": "如果您的日程允许，5晚以上是普吉岛帆船的最佳选择。届时您将远离最繁忙的旅游区，到达更安静、更值得的目的地。",
+    "destinations": "三个杰出的「小众」目的地，5晚以上行程可达：",
     "kohRok": {
-      "title": "洛克岛",
-      "description": "清澈的水和更安静、更偏远的感觉"
+      "title": "阁洛岛",
+      "description": "令人惊叹的清澈海水和更安静、更偏远的氛围"
     },
     "kohHa": {
-      "title": "哈岛",
-      "description": "美丽的泻湖和令人惊叹的浮潜条件"
+      "title": "阁哈岛",
+      "description": "壮丽的泻湖和泰国最佳浮潜点之一"
     },
     "butang": {
-      "title": "布唐群岛（7+晚）",
-      "description": "人群最少，水上和水下令人惊叹的景观"
+      "title": "布当群岛 / 丽贝岛（7晚以上）",
+      "description": "最少的人群，水上水下皆非凡的景观"
     },
-    "lessCrowded": "这些地区通常比最受欢迎的一日游区域（如攀牙湾或皮皮岛）人少得多。这就是为什么当客人想要普吉岛帆船的最佳版本时，我们建议至少五晚。",
-    "shorterTitle": "较短的过夜仍然有效",
-    "shorterDescription": "如果您有更少的夜晚，我们将规划一条感觉现实和放松的路线：",
-    "oneTwoNights": "1-2晚：附近亮点如皮皮岛和拉查岛",
-    "threeFourNights": "3-4晚：更大的环线，目的地更多样化",
-    "fiveFourteenNights": "5-14晚：绝对最佳目的地和更深入的泰国岛屿和文化探索",
-    "ctaText": "告诉我们您的日期和夜数，我们将推荐最佳路线。",
-    "ctaButton": "告诉我们您的日期和夜数",
+    "lessCrowded": "这些地区远比普吉岛最热门的一日游区域如攀牙湾或披披群岛人少。这就是为什么我们一直建议想要最佳普吉岛帆船体验的客人至少安排5晚。",
+    "shorterTitle": "较短的过夜行程同样精彩",
+    "shorterDescription": "如果您的日程更紧凑，我们将规划一条物有所值且从容不迫的路线：",
+    "oneTwoNights": "1–2晚：披披群岛和拉查群岛——在有限时间内体验经典普吉岛帆船",
+    "threeFourNights": "3–4晚：更大的环线，更多岛屿多样性和真正的冒险",
+    "fiveFourteenNights": "5–14晚：泰国最佳目的地，以合适的节奏",
+    "ctaText": "告诉我们您的出行日期和住宿晚数——我们将推荐最佳路线。",
+    "ctaButton": "告诉我们您的日期和晚数",
     "ctaLink": "→ 从这里开始：普吉岛过夜帆船之旅"
   },
   "catamaranVsSailing": {
-    "title": "双体船 vs 帆船游艇",
-    "subtitle": "如果您在选择上犹豫不决，这个快速指南通常能解决问题。",
-    "catamaranTitle": "如果您想要，请选择双体船",
-    "catamaranSpace": "更多空间和稳定性（非常适合儿童和团体）",
-    "catamaranShade": "更多阴凉和休息区",
-    "catamaranVilla": "浮动别墅的感觉",
-    "catamaranSocial": "非常社交的布局",
-    "catamaranLink": "比较选项：普吉岛双体船租赁 →",
-    "sailingTitle": "如果您想要，请选择帆船游艇",
-    "sailingClassic": "更经典的帆船感觉",
-    "sailingSportier": "更运动、更真实的帆船体验",
-    "sailingValue": "对情侣和小团体来说物超所值",
-    "sailingRomantic": "舒适、浪漫的氛围",
-    "sailingLink": "比较选项：普吉岛帆船游艇 →",
-    "stillUnsure": "仍然不确定？",
-    "stillUnsureDescription": "向我们发送您的团队规模 + 舒适偏好，我们将推荐最佳匹配。",
-    "getRecommendation": "获得个性化推荐"
+    "title": "普吉岛双体船 vs 帆船游艇",
+    "subtitle": "还在纠结？这个快速对比通常能帮您做出决定。",
+    "catamaranTitle": "选择双体船，如果您想要",
+    "catamaranSpace": "更大的甲板空间和稳定性——非常适合家庭、儿童和大型团体",
+    "catamaranShade": "遮阳休闲区和开放、社交型布局",
+    "catamaranVilla": "舒适多舱房设置的「水上别墅」感觉",
+    "catamaranSocial": "在安达曼海条件下平稳航行",
+    "catamaranLink": "对比选项：普吉岛双体船包船 →",
+    "sailingTitle": "选择帆船游艇，如果您想要",
+    "sailingClassic": "真正的帆船感觉——风鼓满帆，灵活而有活力",
+    "sailingSportier": "在安达曼海上更运动、更正宗的帆船体验",
+    "sailingValue": "情侣和小型团体的超值之选",
+    "sailingRomantic": "温馨、浪漫的船上氛围",
+    "sailingLink": "对比选项：普吉岛帆船游艇 →",
+    "stillUnsure": "还是不确定？",
+    "stillUnsureDescription": "告诉我们您的团队人数和舒适度偏好——我们将推荐最合适的选择。",
+    "getRecommendation": "获取个性化推荐"
   },
   "popularRoutes": {
-    "title": "最受欢迎的路线",
-    "subtitle": "将这些用作灵感。我们将为您的季节和行程长度敲定最佳路线。",
+    "title": "普吉岛最热门帆船路线",
+    "subtitle": "以此作为灵感。我们将根据您的季节和行程长度确定最佳路线。",
     "racha": {
-      "title": "拉查岛（拉查大岛 / 拉查小岛）",
-      "description": "清澈的水和浮潜的最爱。非常适合帆船游艇和双体船。当您想要一个干净的热带岛屿日而不使计划过于复杂时，这是一个强有力的选择。"
+      "title": "拉查群岛（拉查大岛 / 拉查小岛）",
+      "description": "水晶般清澈的海水、健康的珊瑚礁和名副其实的白沙滩。当您想在普吉岛以南享受完美的热带岛屿日时，帆船游艇和双体船都是绝佳选择。"
     },
     "coral": {
-      "title": "珊瑚岛",
-      "description": "轻松、放松，游泳和海滩时间很受欢迎。非常适合家庭、混合团体和想要在海上度过有趣一天且物流简单的游客。"
+      "title": "珊瑚岛（阁嗨岛）",
+      "description": "轻松、美丽，是游泳和沙滩时光的热门选择。非常适合家庭、混合团体和想在安达曼海度过轻松愉快一天的游客。"
     },
     "phangNga": {
-      "title": "攀牙湾",
-      "description": "标志性的石灰岩风景、平静的水和令人难以置信的照片。通常非常适合混合团体、企业郊游和喜欢观光和戏剧性景观的旅行者。"
+      "title": "攀牙湾和阁洪岛",
+      "description": "标志性的石灰岩喀斯特、翡翠泻湖和东南亚最壮观的风景。非常适合观光、皮划艇和摄影——是任何普吉岛帆船行程的亮点。"
     },
     "kohRokHa": {
-      "title": "洛克岛和哈岛（最好5+晚）",
-      "description": "如果您的目标是更少的人群和更多的惊喜，这些路线在更长的包船中表现突出。安静的锚地和那种罕见的空间感。"
+      "title": "阁洛岛和阁哈岛（5晚以上最佳）",
+      "description": "更少的人群、更清澈的海水和那种稀有的空间感。这些目的地回馈长途包船客人以真正偏远——且真正特别的体验。"
     },
     "wantHelp": "需要帮助选择？",
-    "routeIdeas": "查看路线想法：普吉岛帆船行程"
+    "routeIdeas": "查看路线建议：普吉岛帆船行程"
   },
   "whoItsFor": {
-    "title": "普吉岛帆船适合谁？",
-    "subtitle": "我们服务所有人：家庭、情侣、企业团队、冒险寻求者、独自旅行者和特殊场合。",
-    "couples": {
-      "title": "情侣和蜜月旅行者",
-      "description": "浪漫的日落、私人锚地、甲板上的亲密晚餐。"
-    },
+    "title": "Phuket Sailing 适合谁",
+    "subtitle": "",
     "families": {
-      "title": "有孩子的家庭",
-      "description": "安全、有趣、有教育意义——孩子们喜欢游泳、浮潜和船上生活。"
+      "title": "家庭和儿童",
+      "description": "稳定的双体船、平静安全的游泳停靠点和灵活的节奏使普吉岛帆船非常适合家庭。孩子们喜欢水上活动——父母喜欢一切都被安排妥当。"
     },
-    "friends": {
-      "title": "朋友和团体",
-      "description": "共同的冒险、团体用餐、灵活的节奏。"
+    "couples": {
+      "title": "情侣和浪漫之旅",
+      "description": "日落帆船、锚泊处的静谧夜晚和美丽地方的私密空间。无论是蜜月、周年纪念还是求婚，我们知道如何让它令人难忘。"
     },
     "corporate": {
-      "title": "企业团队",
-      "description": "团队建设、静修、高管度假。"
-    },
-    "solo": {
-      "title": "独自旅行者",
-      "description": "舱室巡航让您以实惠的价格加入团体旅行。"
+      "title": "企业和团队建设",
+      "description": "帆船在自然轻松的高端环境中创造真正的联系——而不会让人觉得太商务化。普吉岛帆船包船是您的团队真正会谈论的团建活动。"
     },
     "adventure": {
-      "title": "冒险寻求者",
-      "description": "更长的包船可以解锁徒步、潜水和非主流岛屿。如果您想要探索，我们将构建一条感觉像真正冒险的路线。"
+      "title": "探险者",
+      "description": "更长的普吉岛帆船包船开启徒步、潜水以及标准旅游路线上永远不会出现的目的地。如果探索是目标，我们将构建一条不辜负期望的路线。"
+    },
+    "solo": {
+      "title": "独行旅客和小型朋友团",
+      "description": "舱位巡游是理想的解决方案——在普吉岛最美丽的岛屿间进行多日帆船航行，无需支付全额私人包船费用。"
     },
     "occasions": {
       "title": "特殊场合",
-      "description": "里程碑生日（50岁/60岁）、蜜月、周年纪念——告诉我们您要庆祝什么，我们将帮助在船上计划一个惊喜。"
+      "description": "里程碑生日、蜜月、周年纪念、求婚——告诉我们您在庆祝什么，我们将帮助设计完美的船上体验。"
     }
   },
   "whatsIncluded": {
-    "title": "包含什么",
-    "subtitle": "包含内容因船只和行程类型而异，但我们会在您确认任何事项之前保持清晰。",
-    "typicallyIncluded": "通常包含在带船员的包船中",
-    "professionalCrew": "专业船员（不适用于裸船包船）",
-    "safetyEquipment": "安全设备",
-    "standardSetup": "标准船上设置和设施",
-    "routePlanning": "由我们的管理团队进行路线规划、支持和当地指导",
+    "title": "包含内容",
+    "subtitle": "包含内容因船只和旅行类型而异。我们在您确认之前会说明一切。",
+    "typicallyIncluded": "配备船员的包船通常包含",
+    "professionalCrew": "专业船员——船长、厨师和水手（裸船不包含）",
+    "safetyEquipment": "符合泰国海事标准的安全设备",
+    "routePlanning": "我们团队的路线规划，提供实时天气简报和当地指导",
+    "standardSetup": "标准船上设施和设备",
     "oftenOptional": "通常可选（取决于船只/路线）",
-    "mealsDrinks": "餐食和饮料套餐",
+    "mealsDrinks": "餐饮套餐",
     "parkFees": "国家公园费用（取决于路线）",
-    "specialOccasion": "特殊场合设置",
-    "waterToys": "额外的水上玩具",
-    "legalArrangements": "所有合法的事情只要有足够的时间都可以安排",
-    "whatToPack": "打包什么",
-    "keepSimple": "保持简单：",
-    "swimwear": "泳装（理想情况下带3套，因为您可能不会穿其他任何东西）",
+    "specialOccasion": "特殊场合布置",
+    "waterToys": "额外水上玩具",
+    "legalArrangements": "任何合法且可行的事情都可以在足够的提前通知下安排",
+    "whatToPack": "需要带什么",
+    "keepSimple": "简单为主：",
+    "swimwear": "泳衣（至少带3套——可能是您全程穿的所有衣服）",
     "sunscreen": "防晒霜、帽子、太阳镜",
-    "coverUp": "轻便遮盖/浮潜防擦衣（我们以500泰铢出售）",
+    "coverUp": "浮潜用的轻薄防晒衣或防磨衣（船上有售500泰铢）",
     "waterproofPouch": "手机防水袋",
-    "shoes": "可以弄湿但适合徒步的鞋子",
-    "medication": "任何个人药物（我们在船上有各种药物：晕船药、抗生素等）",
-    "wantQuote": "想要简单、分项的报价？",
-    "getFastQuote": "快速获取报价"
+    "shoes": "可以弄湿但适合岛屿地形的鞋子",
+    "medication": "个人药物（我们船上有基本药品：晕船药、抗生素等）",
+    "wantQuote": "想要一份清晰、详细且无隐藏费用的报价？",
+    "getFastQuote": "获取快速报价"
   },
   "pricing": {
-    "title": "定价如何运作",
-    "subtitle": "价格取决于几个因素。这种透明度帮助您快速选择。",
+    "title": "游艇帆船定价方式",
+    "subtitle": "普吉岛帆船包船价格取决于几个关键因素。了解它们有助于您快速自信地做出选择。",
     "mainDrivers": "主要定价因素",
-    "boatType": "船型",
-    "privateVsCabin": "私人包船 vs 舱室巡航",
-    "tripLength": "行程长度（日间/过夜）",
-    "routeDestination": "路线和目的地",
-    "seasonDemand": "季节和需求",
-    "bookingTiming": "预订时机",
-    "groupSize": "团队规模和舒适度",
-    "priceAnchors": "价格锚点",
-    "dayTrips": "日间航行：",
-    "dayTripsPrice": "起价 29,900 泰铢",
-    "sunsetSailing": "日落航行：",
-    "sunsetSailingPrice": "起价 24,900 泰铢",
-    "overnightCharters": "过夜包船：",
-    "overnightChartersPrice": "起价每晚 1000 欧元",
-    "cabinCruises": "舱室巡航：",
-    "cabinCruisesPrice": "5晚每舱起价 1998 欧元",
-    "fastestPath": "最快获得报价的途径",
-    "fastestPathDescription": "发送您的日期 + 团队规模，我们将推荐最佳选项并提供清晰的价格。",
-    "getPersonalizedQuote": "获取您的个性化报价"
+    "boatType": "船只类型和大小",
+    "privateVsCabin": "私人包船 vs 舱位巡游",
+    "tripLength": "旅行时长（日间、过夜或多日）",
+    "routeDestination": "季节和需求——淡季价格（5月至10月）低30–40%",
+    "seasonDemand": "团队人数和舒适度级别",
+    "bookingTiming": "预订时间",
+    "groupSize": "团队人数和舒适度级别",
+    "priceAnchors": "价格参考",
+    "dayTrips": "普吉岛日间帆船：",
+    "dayTripsPrice": "29,900泰铢起",
+    "sunsetSailing": "日落帆船：",
+    "sunsetSailingPrice": "24,900泰铢起",
+    "overnightCharters": "过夜帆船包船：",
+    "overnightChartersPrice": "每晚€1,000起",
+    "cabinCruises": "普吉岛舱位巡游：",
+    "cabinCruisesPrice": "5晚每舱€1,998起",
+    "fastestPath": "最快途径",
+    "fastestPathDescription": "发送您的日期和团队人数。我们将回复最佳选择和清晰定价——毫不含糊。",
+    "getPersonalizedQuote": "获取个性化报价"
   },
   "bookingProcess": {
-    "title": "预订如何运作",
-    "subtitle": "简单快捷——从咨询到航行仅需4个简单步骤。",
+    "title": "游艇预订流程",
+    "subtitle": "简单快速：",
     "step1": {
-      "title": "告诉我们您想要什么",
-      "description": "日期、团队规模、船只偏好、预算。"
+      "title": "分享您的详情",
+      "description": "发送您的日期、团队人数和您想要的体验类型。"
     },
     "step2": {
-      "title": "获得定制推荐",
-      "description": "我们为您的旅行推荐最佳船只和路线。"
+      "title": "选择您的风格",
+      "description": "帆船游艇、双体船、舱位巡游或裸船"
     },
     "step3": {
-      "title": "确认并支付定金",
-      "description": "锁定您的预订。余额在出发前到期。"
+      "title": "获取推荐",
+      "description": "我们根据您的季节、团队和目标推荐最佳船只和路线"
     },
     "step4": {
-      "title": "享受您的旅行",
-      "description": "我们处理细节。您只需出现并航行。"
+      "title": "确认并期待",
+      "description": "自信预订——我们处理您完美旅行的所有细节"
     },
     "inquiryChecklist": "20秒咨询清单",
-    "inquiryChecklistDescription": "只需回答这5个快速问题，剩下的交给我们",
+    "inquiryChecklistDescription": "只需回答这5个快速问题，我们来处理其余的",
     "howManyGuests": "多少位客人？",
-    "howManyGuestsDesc": "告诉我们您的团队规模",
-    "dayOrNights": "日间旅行还是过夜？",
-    "dayOrNightsDesc": "选择您的行程长度",
-    "preferredYacht": "首选游艇？",
+    "howManyGuestsDesc": "告诉我们您的团队人数",
+    "dayOrNights": "一日游还是几晚？",
+    "dayOrNightsDesc": "选择您的旅行时长",
+    "preferredYacht": "偏好的游艇风格（或交给我们）？",
     "preferredYachtDesc": "双体船或帆船游艇",
-    "tripStyle": "旅行风格？",
-    "tripStyleDesc": "家庭 / 浪漫 / 冒险",
-    "mustSeeIslands": "必看岛屿？",
-    "mustSeeIslandsDesc": "任何特定目的地",
+    "tripStyle": "家庭/浪漫/探险/企业？",
+    "tripStyleDesc": "告诉我们您的风格",
+    "mustSeeIslands": "必去岛屿？",
+    "mustSeeIslandsDesc": "披披岛、拉查岛、阁洪岛、丽贝岛…",
     "readyToPlan": "准备开始规划了吗？",
-    "readyToPlanDescription": "向我们发送您的日期和团队规模——我们将为您打造完美的帆船冒险",
-    "getIndividualQuote": "获取您的个性化报价"
+    "readyToPlanDescription": "发送您的日期和团队人数——我们将为您打造完美的帆船冒险",
+    "getIndividualQuote": "立即咨询"
   },
   "explorePages": {
     "title": "探索所有页面",
@@ -298,46 +293,46 @@
   "faq": {
     "title": "常见问题",
     "bestTime": {
-      "question": "普吉岛帆船的最佳时间是什么时候？",
-      "answer": "大多数客人更喜欢更平静、更干燥的月份，但普吉岛全年都可以通过正确的路线选择。我们将根据季节、海况和舒适度为您的确切日期推荐最佳行程。请注意，5月至10月淡季的价格大约便宜30-40%！"
+      "question": "普吉岛帆船的最佳季节是什么时候？",
+      "answer": "11月至4月海面最平静、天气最可靠——这是普吉岛帆船的旺季。淡季（5月至10月）价格低30–40%，锚泊处更安静。选择正确的路线，普吉岛帆船全年可行。我们始终会为您的确切出行日期推荐最佳行程。"
     },
     "catamaranVsSailing": {
       "question": "在普吉岛，双体船比帆船游艇好吗？",
-      "answer": "双体船提供更多空间和稳定性，家庭和团体都喜欢。帆船游艇感觉更经典和\"真正的帆船\"。最佳选择取决于您的团队规模、舒适偏好以及您希望在船上感受到的氛围。"
+      "answer": "双体船提供更大的空间和稳定性——非常适合家庭和大型团体。帆船游艇带来更正宗的航海体验，对情侣或小型团体来说性价比极高。正确的选择取决于您的团队人数、舒适度偏好和您想要的船上氛围。"
     },
     "recommendedNights": {
-      "question": "您推荐多少晚以获得最佳体验？",
-      "answer": "如果可能的话，我们建议至少5晚。那时您可以到达像洛克岛和哈岛这样更安静的区域，这些区域通常感觉比普吉岛最受欢迎的一日游目的地人少得多。"
+      "question": "推荐几晚以获得最佳普吉岛帆船体验？",
+      "answer": "我们推荐至少5晚。届时您可以舒适地到达更安静、更值得的目的地，如阁洛岛、阁哈岛和布当群岛/丽贝岛——这些地方比披披群岛和攀牙湾人少得多。"
     },
     "familyFriendly": {
-      "question": "您的普吉岛帆船之旅适合家庭吗？",
-      "answer": "是的。我们可以推荐稳定的船只、平静的游泳站点和适合家庭的路线。双体船通常是儿童最容易的选择，因为它们有更多空间、阴凉和稳定性——特别是对于轻松的日间旅行。"
+      "question": "普吉岛帆船包船适合带儿童的家庭吗？",
+      "answer": "是的。我们推荐稳定的双体船，规划有平静安全游泳停靠点的路线，并根据您的团队调整节奏。我们的船员有丰富的家庭包船经验——孩子们通常说这是他们经历过的最好的假期。"
     },
     "romantic": {
-      "question": "普吉岛帆船适合情侣和浪漫度假吗？",
-      "answer": "绝对适合。情侣们喜欢日落航行和过夜锚地，以获得私密性和氛围。如果是蜜月、周年纪念或求婚，请提前告诉我们，我们将推荐最好的船只并帮助计划惊喜。"
+      "question": "普吉岛帆船适合情侣和浪漫之旅吗？",
+      "answer": "绝对适合。日落帆船、宁静的过夜锚泊和美丽地方的私密空间使普吉岛帆船成为最浪漫的假期体验之一。蜜月、周年纪念或求婚，请提前告诉我们——我们会帮您策划特别的惊喜。"
     },
     "soloTravelers": {
-      "question": "独自旅行者可以在不租整艘船的情况下预订吗？",
-      "answer": "是的。通过普吉岛舱室巡航，您可以按舱室预订。对于想要以低于私人包船的成本获得多日帆船体验的独自旅行者、情侣或小团体朋友来说，这是理想的选择。"
+      "question": "独行旅客可以不租整艘游艇就预订吗？",
+      "answer": "可以。普吉岛舱位巡游让您按舱位预订——在共享帆船巡游中享有私人空间，前往最佳岛屿，包括披披岛、兰达岛、阁洛岛和拉查群岛。体验多日普吉岛帆船的最高性价比方式。"
     },
     "whatsIncluded": {
-      "question": "带船员的帆船包船包括什么？",
-      "answer": "包含内容因船而异，但带船员的包船通常包括船只、船员、所有餐食、安全设备和标准船上设置。饮料、公园费用和特殊设置等额外费用取决于船只和路线。我们提前确认一切。"
+      "question": "普吉岛带船员的帆船包船包含什么？",
+      "answer": "带船员的包船通常包括船只、专业船员、所有餐食、饮用水、燃料、安全设备和标准水上活动。饮料、国家公园费用和特殊布置等额外费用提前确认——没有隐藏费用。"
     },
     "bareboatLicense": {
-      "question": "普吉岛裸船包船需要执照吗？",
-      "answer": "通常需要。裸船包船通常需要有效执照和强有力的经验证明。如果您不确定，我们可以推荐带船员的包船，或者根据您的帆船背景讨论需要什么。"
+      "question": "在普吉岛裸船包租需要帆船执照吗？",
+      "answer": "是的。裸船包租需要有效的帆船执照和在同等船只上的实际操作经验。如果您不确定是否符合条件，我们很乐意提供建议——或推荐带船员的包船。"
     },
     "chooseItinerary": {
-      "question": "您能帮助我们选择最佳行程吗？",
-      "answer": "是的。分享您的日期、夜数、团队规模和优先事项（浮潜、海滩、安静的岛屿、冒险）。我们将推荐一条适合季节并为您提供最佳整体体验的现实路线。"
+      "question": "你们能帮我们选择最佳普吉岛帆船行程吗？",
+      "answer": "是的——这是我们提供的最有价值的服务之一。分享您的日期、晚数、团队人数和优先事项（浮潜、偏远岛屿、沙滩、冒险）。我们将推荐一条根据季节量身定制的现实路线，旨在为您的团队提供最佳体验。"
     }
   },
   "finalCta": {
-    "title": "准备开始规划了吗？",
+    "title": "准备好规划您的普吉岛帆船包船之旅了吗？",
     "callNow": "立即致电",
-    "whatsapp": "直接通过 WhatsApp 联系我们"
+    "whatsapp": "WhatsApp"
   },
   "contactForm": {
     "title": "联系我们",
@@ -390,33 +385,16 @@
       "location": "我们的位置"
     }
   },
-  "contact": {
-    "title": "联系我们",
-    "name": "您的姓名",
-    "email": "电子邮件",
-    "phone": "WhatsApp（如有）",
-    "guests": "客人数量",
-    "travelDate": "出行日期",
-    "returnDate": "返回日期",
-    "comments": "其他评论或要求？",
-    "submit": "提交",
-    "orCall": "或致电我们",
-    "orWhatsapp": "或 WhatsApp"
-  },
-  "yachtDetails": {
-    "aboutBoat": "关于船只",
-    "dayCharter": "一日租船",
-    "overnightCharter": "过夜租船",
-    "share": "分享",
-    "length": "长度",
-    "type": "类型",
-    "cabins": "客舱",
-    "bathrooms": "浴室",
-    "dayCapacity": "一日租船容量",
-    "overnightCapacity": "过夜租船容量"
-  },
   "footer": {
-    "rights": "版权所有"
+    "quickLinks": "快速链接",
+    "usefulLinks": "实用链接",
+    "subscribe": "订阅",
+    "subscribeText": "订阅我们的通讯，及时了解普吉岛游艇包船的最新消息、优惠和内部提示！",
+    "subscribeButton": "订阅",
+    "emailPlaceholder": "邮箱*",
+    "copyright": "© 2025 版权所有 Phuket Sailing",
+    "impressum": "法律声明",
+    "sitemap": "网站地图"
   },
   "common": {
     "learnMore": "了解更多",
@@ -425,7 +403,9 @@
     "back": "返回",
     "next": "下一个",
     "previous": "上一个",
-    "backToHome": "返回首页"
+    "backToHome": "← 返回首页",
+    "loading": "加载中…",
+    "submit": "提交"
   },
   "terms": {
     "metadata": {
@@ -701,24 +681,34 @@
     "testimonials": {
       "title": "双体船租赁客人的评价",
       "testimonial1": {
-        "quote": "双体船一尘不染、宽敞舒适，船员让我们有宾至如归的感觉。我们在披披岛过夜锚泊，日出时几乎独享玛雅湾。",
-        "author": "David & Claire, Canada",
-        "charter": "3-Night Catamaran Cruise",
-        "rating": 5
+        "quote": "My trip with Faraway Yachting on the Hot Chilli crew exceeded my expectations. The captain was calm, confident, and clearly very skilled. The crew took excellent care of us, making sure we were comfortable and enjoying every moment. The food prepared by the chef was delicious and beautifully presented, adding a special touch to the trip. The overall service was outstanding and created a warm, enjoyable atmosphere on board. I truly recommend Faraway Yachting for anyone who wants a relaxing and high-quality yachting experience.",
+        "author": "Katie Brooks"
       },
       "testimonial2": {
-        "quote": "我们选择双体船正是因为孩子们容易晕船。完全没有问题——他们整个行程都在从船尾跳水和浮潜。这是我们做过的最棒的决定。",
-        "author": "The Tanaka Family, Japan",
-        "charter": "Private Day Charter, Racha Islands",
-        "rating": 5
+        "quote": "I went on a cruise to Thailand, and it turned out to be a fantastic experience. The route included beautiful islands, warm turquoise water, and plenty of time to explore both nature and local culture. Each stop felt unique — from quiet beaches and crystal-clear snorkeling spots to lively towns with great food and friendly people. The ship itself was comfortable, clean, and well organized. Overall, this cruise was a perfect balance of relaxation and adventure.",
+        "author": "Maria Volkova"
       },
       "testimonial3": {
-        "quote": "我们在克罗地亚和希腊租过单体船。普吉岛的双体船更舒适，船员更出色，价格只有一半。我们明年还会再来。",
-        "author": "Mark & friends, UK",
-        "charter": "5-Night Charter, Phi Phi to Koh Lanta",
-        "rating": 5
+        "quote": "We had the time of our lives with Faraway Yachting. From the very first booking contact to the warm welcome at their office, everything was seamless and professional. The crew exceeded every expectation — attentive, intuitive, and always one step ahead. The food deserves special mention: better than any restaurant we tried in Asia. We'll be back next year, guaranteed.",
+        "author": "Hans Maxheim"
       },
-      "readAll": "阅读全部750+条评价 →"
+      "testimonial4": {
+        "quote": "It was soooo much fun! Everyone was smiling all the time. The captain, crew, chef, and interns were super helpful and friendly. The service was excellent. I really enjoyed all the activities, and the food was delicious! The Pad Thai was amazing. It was such a great experience with Faraway Yachting, truly unforgettable!",
+        "author": "Priscilla Evanson"
+      },
+      "testimonial5": {
+        "quote": "We had the most exceptional day on board Chili — from start to finish it was flawless. The crew were warm, attentive, and genuinely passionate, striking the perfect balance between professional and relaxed. The food was outstanding — fresh, beautifully presented, and absolutely delicious, easily restaurant-quality. If you're considering a day on Chili, don't hesitate.",
+        "author": "Dara"
+      },
+      "testimonial6": {
+        "quote": "We wanted to escape the busy Christmas time and sailed faraway! The Crew did a fabulous job and we had the best time with the other passengers. The trip was awesome. From beautiful snorkeling spots to empty beaches and hikes to viewpoints. Nothing was left out. The food was delicious and plenty. We would recommend and would book again.",
+        "author": "Jonathan Singer"
+      },
+      "testimonial7": {
+        "quote": "I recently visited Phang Nga bay, and it was such a lovely trip. The atmosphere was calm and relaxing, and the nature there is truly beautiful. I really enjoyed the views of the sea, limestone cliffs, and the peaceful surroundings. It felt like a perfect place to slow down and enjoy nature. Phang Nga has its own charm, and I'm really happy I got to visit.",
+        "author": "Sandra Tomson"
+      },
+      "readAll": "阅读全部800+条评价 →"
     },
     "crew": {
       "title": "双体船船员、舒适设施与船上体验",
@@ -872,7 +862,7 @@
       "confidence": {
         "title": "自信从容地扬帆普吉岛",
         "points": {
-          "reviews": "来自全球旅客在Google、TripAdvisor及各预订平台的750+条五星好评",
+          "reviews": "来自全球旅客在Google、TripAdvisor及各预订平台的800+条五星好评",
           "experience": "30年安达曼海经验——我们的团队比任何人都更了解这片水域",
           "licensed": "泰国旅游局授权（OTD #34/02546）",
           "award": "2025年世界豪华旅游大奖得主",
@@ -943,5 +933,33 @@
       "office": "办公室：查龙湾，普吉岛——距普吉岛城15分钟，距巴东30分钟，距机场40分钟",
       "footer": "泰国旅游局授权（OTD #34/02546）• 全额保险 • 2025年世界豪华旅游大奖得主"
     }
+  },
+  "yachtDetail": {
+    "notFound": "未找到游艇",
+    "notFoundDescription": "您查找的游艇不存在或已被删除。",
+    "aboutBoat": "关于船只",
+    "aboutThisBoat": "关于这艘船",
+    "dayCharter": "日间包船",
+    "overnightCharter": "过夜包船",
+    "boatLayout": "船只布局",
+    "specifications": "规格参数",
+    "watchVideo": "观看视频 →",
+    "length": "长度",
+    "boatType": "船型",
+    "cabins": "客舱",
+    "bathrooms": "浴室",
+    "dayCapacity": "日间容量",
+    "nightCapacity": "夜间容量",
+    "design": "设计",
+    "built": "建造年份",
+    "lengthOverall": "总长度",
+    "cruisingSpeed": "巡航速度",
+    "fuelCapacity": "燃油容量",
+    "waterCapacity": "水容量",
+    "yourName": "您的姓名 *",
+    "email": "邮箱 *",
+    "whatsapp": "WhatsApp（选填）",
+    "noOfGuests": "宾客人数",
+    "commentsRequests": "备注或特殊要求？"
   }
 }

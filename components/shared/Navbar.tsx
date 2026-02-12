@@ -2,10 +2,9 @@
 
 import { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { useLanguage, useTranslations, languages } from '@/components/providers/LanguageProvider'
+import { LocaleLink } from '@/components/shared/LocaleLink'
 
-// Flag component using CDN
 const FlagIcon = ({ countryCode, size = 24 }: { countryCode: string; size?: number }) => (
   <img
     src={`https://flagcdn.com/w40/${countryCode}.png`}
@@ -26,10 +25,8 @@ export function Navbar() {
   const { locale, setLocale } = useLanguage()
   const t = useTranslations('nav')
 
-  // Get current language data
   const currentLang = languages.find(l => l.locale === locale) || languages[0]
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (langRef.current && !langRef.current.contains(event.target as Node)) {
@@ -51,8 +48,7 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between h-16 sm:h-20">
-          {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <LocaleLink href="/" className="flex items-center">
             <div className="relative w-40 h-16 sm:w-52 sm:h-20">
               <Image
                 src="/assets/images/logo.png"
@@ -62,33 +58,30 @@ export function Navbar() {
                 priority
               />
             </div>
-          </Link>
+          </LocaleLink>
 
-          {/* Center Navigation Links */}
           <div className="hidden sm:flex items-center gap-8">
-            <Link
+            <LocaleLink
               href="/"
               className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
             >
               {t('home')}
-            </Link>
-            <Link
+            </LocaleLink>
+            <LocaleLink
               href="/catamaran-charter-phuket"
               className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
             >
-              Catamaran Charter
-            </Link>
-            <Link
+              {t('catamaranCharter')}
+            </LocaleLink>
+            <LocaleLink
               href="/contact"
               className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
             >
               {t('contactUs')}
-            </Link>
+            </LocaleLink>
           </div>
 
-          {/* Language Selector & Book Now Button */}
           <div className="hidden sm:flex items-center gap-4">
-            {/* Language Dropdown */}
             <div ref={langRef} className="relative">
               <button
                 onClick={() => setIsLangOpen(!isLangOpen)}
@@ -106,7 +99,6 @@ export function Navbar() {
                 </svg>
               </button>
 
-              {/* Dropdown Menu */}
               {isLangOpen && (
                 <div className="absolute right-0 mt-2 w-40 bg-white rounded-xl shadow-xl border border-gray-100 py-1 z-50 animate-fadeIn max-h-80 overflow-y-auto">
                   {languages.map((lang) => (
@@ -132,16 +124,14 @@ export function Navbar() {
               )}
             </div>
 
-            {/* Book Now Button */}
-            <Link
+            <LocaleLink
               href="/contact"
               className="bg-amber-gradient text-white font-bold px-6 py-2.5 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105"
             >
               {t('bookNow')}
-            </Link>
+            </LocaleLink>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="sm:hidden p-2 rounded-lg text-[#164e63]"
@@ -159,39 +149,37 @@ export function Navbar() {
           </button>
         </nav>
 
-        {/* Mobile Menu */}
         <div
           className={`sm:hidden overflow-hidden transition-all duration-300 ${
-            isMenuOpen ? 'max-h-96 pb-4' : 'max-h-0'
+            isMenuOpen ? 'max-h-[500px] pb-4' : 'max-h-0'
           }`}
         >
           <div className="space-y-2">
-            <Link
+            <LocaleLink
               href="/"
               onClick={() => setIsMenuOpen(false)}
               className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
             >
               {t('home')}
-            </Link>
-            <Link
+            </LocaleLink>
+            <LocaleLink
               href="/catamaran-charter-phuket"
               onClick={() => setIsMenuOpen(false)}
               className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
             >
-              Catamaran Charter
-            </Link>
-            <Link
+              {t('catamaranCharter')}
+            </LocaleLink>
+            <LocaleLink
               href="/contact"
               onClick={() => setIsMenuOpen(false)}
               className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
             >
               {t('contactUs')}
-            </Link>
+            </LocaleLink>
 
-            {/* Mobile Language Selector */}
             <div className="px-4 py-2">
               <p className="text-xs text-gray-500 mb-2">{t('selectLanguage')}</p>
-              <div className="grid grid-cols-5 gap-1.5">
+              <div className="grid grid-cols-4 gap-1.5">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -210,13 +198,13 @@ export function Navbar() {
               </div>
             </div>
 
-            <Link
+            <LocaleLink
               href="/contact"
               onClick={() => setIsMenuOpen(false)}
               className="block w-full text-center bg-amber-gradient text-white font-bold px-5 py-3 rounded-xl transition-all duration-300"
             >
               {t('bookNow')}
-            </Link>
+            </LocaleLink>
           </div>
         </div>
       </div>

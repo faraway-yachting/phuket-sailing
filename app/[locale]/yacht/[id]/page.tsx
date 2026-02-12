@@ -1,13 +1,15 @@
 'use client'
 
-import Link from 'next/link'
+import { LocaleLink } from '@/components/shared/LocaleLink'
 import { useState, useEffect } from 'react'
 import { useParams } from 'next/navigation'
 import { fetchYachtById } from '@/lib/api/yachts'
+import { useLanguage } from '@/components/providers/LanguageProvider'
 import type { Yacht } from '@/lib/types/home'
 
 export default function YachtDetailsPage() {
   const { id } = useParams<{ id: string }>()
+  const { t } = useLanguage()
   const [yacht, setYacht] = useState<Yacht | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
@@ -24,12 +26,11 @@ export default function YachtDetailsPage() {
     ? Array.from(new Set([yacht.primaryImage].concat(yacht.galleryImages || [])))
     : []
 
-  // ── Loading skeleton ──
   if (loading) {
     return (
       <main className="min-h-screen bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-6">
-          <span className="text-sm text-gray-400 block mb-3">Loading…</span>
+          <span className="text-sm text-gray-400 block mb-3">{t('common.loading')}</span>
           <div className="grid lg:grid-cols-3 gap-6 sm:gap-8">
             <div className="lg:col-span-2">
               <div className="bg-white rounded-xl shadow-md overflow-hidden animate-pulse">
@@ -58,20 +59,18 @@ export default function YachtDetailsPage() {
     )
   }
 
-  // ── Error / not found ──
   if (error || !yacht) {
     return (
       <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4">
-        <h1 className="text-2xl font-bold text-[#164e63] mb-3">Yacht Not Found</h1>
+        <h1 className="text-2xl font-bold text-[#164e63] mb-3">{t('yachtDetail.notFound')}</h1>
         <p className="text-gray-500 mb-6 text-center max-w-md">
-          The yacht you&apos;re looking for doesn&apos;t exist or has been removed.
+          {t('yachtDetail.notFoundDescription')}
         </p>
-        <Link href="/" className="text-[#14b8a6] font-semibold hover:underline">← Back to Home</Link>
+        <LocaleLink href="/" className="text-[#14b8a6] font-semibold hover:underline">{t('common.backToHome')}</LocaleLink>
       </main>
     )
   }
 
-  // ── Helpers ──
   const youtubeEmbed = (() => {
     if (!yacht.videoLink) return null
     const m = yacht.videoLink.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})/)
@@ -79,20 +78,19 @@ export default function YachtDetailsPage() {
   })()
 
   const specRows = [
-    yacht.design && { label: 'Design', value: yacht.design },
-    yacht.built && { label: 'Built', value: yacht.built },
-    yacht.lengthOverall && { label: 'Length Overall', value: yacht.lengthOverall },
-    yacht.cruisingSpeed && { label: 'Cruising Speed', value: yacht.cruisingSpeed },
-    yacht.fuelCapacity && { label: 'Fuel Capacity', value: yacht.fuelCapacity },
-    yacht.waterCapacity && { label: 'Water Capacity', value: yacht.waterCapacity },
+    yacht.design && { label: t('yachtDetail.design'), value: yacht.design },
+    yacht.built && { label: t('yachtDetail.built'), value: yacht.built },
+    yacht.lengthOverall && { label: t('yachtDetail.lengthOverall'), value: yacht.lengthOverall },
+    yacht.cruisingSpeed && { label: t('yachtDetail.cruisingSpeed'), value: yacht.cruisingSpeed },
+    yacht.fuelCapacity && { label: t('yachtDetail.fuelCapacity'), value: yacht.fuelCapacity },
+    yacht.waterCapacity && { label: t('yachtDetail.waterCapacity'), value: yacht.waterCapacity },
   ].filter(Boolean) as { label: string; value: string }[]
 
-  // Anchor nav items – only show sections that have content
   const anchors = [
-    { id: 'about', label: 'About Boat', icon: 'ℹ' },
-    ...(yacht.dayCharter ? [{ id: 'day-charter', label: 'Day Charter', icon: '☀' }] : []),
-    ...(yacht.overnightCharter ? [{ id: 'overnight-charter', label: 'Overnight Charter', icon: '🌙' }] : []),
-    ...(yacht.boatLayout ? [{ id: 'boat-layout', label: 'Boat Layout', icon: '📐' }] : []),
+    { id: 'about', label: t('yachtDetail.aboutBoat'), icon: 'ℹ' },
+    ...(yacht.dayCharter ? [{ id: 'day-charter', label: t('yachtDetail.dayCharter'), icon: '☀' }] : []),
+    ...(yacht.overnightCharter ? [{ id: 'overnight-charter', label: t('yachtDetail.overnightCharter'), icon: '🌙' }] : []),
+    ...(yacht.boatLayout ? [{ id: 'boat-layout', label: t('yachtDetail.boatLayout'), icon: '📐' }] : []),
   ]
 
   const scrollTo = (sectionId: string) => {
@@ -100,7 +98,6 @@ export default function YachtDetailsPage() {
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
-  // ── Rich-text wrapper ──
   const RichText = ({ html }: { html: string }) => (
     <div
       className="text-gray-700 leading-relaxed space-y-3 [&_p]:mb-2 [&_ul]:list-disc [&_ul]:ml-5 [&_ol]:list-decimal [&_ol]:ml-5 [&_li]:mb-1 [&_strong]:text-[#164e63] [&_h2]:text-lg [&_h2]:font-bold [&_h2]:text-[#164e63] [&_h3]:font-bold [&_h3]:text-[#164e63] [&_img]:rounded-lg [&_img]:max-w-full"
@@ -108,20 +105,16 @@ export default function YachtDetailsPage() {
     />
   )
 
-  // ── Main render ──
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-6">
-        {/* Back link */}
-        <Link href="/" className="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-[#14b8a6] transition-colors mb-3">
-            ← Back to Home
-          </Link>
+        <LocaleLink href="/" className="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-[#14b8a6] transition-colors mb-3">
+            {t('common.backToHome')}
+          </LocaleLink>
         <div className="grid lg:grid-cols-3 gap-6 sm:gap-8">
 
-          {/* ── Left column – main content ── */}
           <div className="lg:col-span-2 space-y-6">
 
-            {/* Sticky anchor nav */}
             {anchors.length > 1 && (
               <div className="bg-white rounded-xl shadow-md overflow-hidden sticky top-16 sm:top-20 z-40">
               <div className="flex border-b">
@@ -129,7 +122,7 @@ export default function YachtDetailsPage() {
                 <button
                       key={a.id}
                       onClick={() => scrollTo(a.id)}
-                      className="flex-1 px-3 sm:px-5 py-3 sm:py-4 text-xs sm:text-sm font-bold text-gray-600 hover:bg-gray-50 hover:text-[#164e63] transition-all"
+                      className="flex-1 px-2 sm:px-3 md:px-5 py-2.5 sm:py-3 md:py-4 text-[10px] sm:text-xs md:text-sm font-bold text-gray-600 hover:bg-gray-50 hover:text-[#164e63] transition-all"
                     >
                       <span className="inline-flex items-center gap-1.5">
                         <span>{a.icon}</span>
@@ -141,13 +134,11 @@ export default function YachtDetailsPage() {
               </div>
             )}
 
-            {/* ──────── About Boat section ──────── */}
             <div id="about" className="bg-white rounded-xl shadow-md overflow-hidden p-4 sm:p-6 md:p-8">
               <h2 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-4 sm:mb-6">{yacht.title}</h2>
 
-              {/* Gallery – using native <img> to avoid Next.js re-encoding %20 in Cloudinary URLs */}
               <div className="mb-6 sm:mb-8">
-                <div className="relative h-48 sm:h-64 md:h-96 rounded-xl overflow-hidden mb-3">
+                <div className="relative h-52 sm:h-64 md:h-80 lg:h-96 rounded-xl overflow-hidden mb-3">
                   <img
                     src={gallery[mainImageIndex]}
                     alt={yacht.title}
@@ -171,7 +162,6 @@ export default function YachtDetailsPage() {
                 )}
               </div>
 
-              {/* Video embed */}
               {yacht.videoLink && (
                 <div className="mb-6">
                   {youtubeEmbed ? (
@@ -193,78 +183,76 @@ export default function YachtDetailsPage() {
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11l-5.196-3v6l5.196-3z M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
-                      Watch Video →
+                      {t('yachtDetail.watchVideo')}
                     </a>
                   )}
                 </div>
               )}
 
-              {/* Specs grid */}
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 sm:gap-4 mb-6 sm:mb-8">
-                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-4 text-center">
-                        <svg className="w-8 h-8 text-[#14b8a6] mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 md:gap-4 mb-6 sm:mb-8">
+                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-2.5 sm:p-4 text-center">
+                        <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#14b8a6] mx-auto mb-1 sm:mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
                         </svg>
-                  <p className="text-xs text-gray-500 mb-1">Length</p>
-                  <p className="text-lg font-bold text-[#164e63]">{yacht.length}</p>
+                  <p className="text-[10px] sm:text-xs text-gray-500 mb-1">{t('yachtDetail.length')}</p>
+                  <p className="text-sm sm:text-lg font-bold text-[#164e63]">{yacht.length}</p>
                       </div>
 
-                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-4 text-center">
-                        <svg className="w-8 h-8 text-[#14b8a6] mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-2.5 sm:p-4 text-center">
+                        <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#14b8a6] mx-auto mb-1 sm:mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                         </svg>
-                  <p className="text-xs text-gray-500 mb-1">Boat Type</p>
-                  <p className="text-lg font-bold text-[#164e63]">{yacht.boatType}</p>
+                  <p className="text-[10px] sm:text-xs text-gray-500 mb-1">{t('yachtDetail.boatType')}</p>
+                  <p className="text-sm sm:text-lg font-bold text-[#164e63]">{yacht.boatType}</p>
                       </div>
 
-                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-4 text-center">
-                        <svg className="w-8 h-8 text-[#14b8a6] mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-2.5 sm:p-4 text-center">
+                        <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#14b8a6] mx-auto mb-1 sm:mb-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                           <rect x="3" y="11" width="7" height="10" rx="1" strokeLinecap="round" strokeLinejoin="round" />
                           <rect x="14" y="11" width="7" height="10" rx="1" strokeLinecap="round" strokeLinejoin="round" />
                           <line x1="3" y1="9" x2="10" y2="9" strokeLinecap="round" />
                           <line x1="14" y1="9" x2="21" y2="9" strokeLinecap="round" />
                         </svg>
-                  <p className="text-xs text-gray-500 mb-1">Cabins</p>
-                  <p className="text-lg font-bold text-[#164e63]">{yacht.cabins}</p>
+                  <p className="text-[10px] sm:text-xs text-gray-500 mb-1">{t('yachtDetail.cabins')}</p>
+                  <p className="text-sm sm:text-lg font-bold text-[#164e63]">{yacht.cabins}</p>
                       </div>
 
-                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-4 text-center">
-                        <svg className="w-8 h-8 text-[#14b8a6] mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-2.5 sm:p-4 text-center">
+                        <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#14b8a6] mx-auto mb-1 sm:mb-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                           <path d="M9 17v1a3 3 0 003 3v0a3 3 0 003-3v-1" strokeLinecap="round" strokeLinejoin="round" />
                           <rect x="6" y="11" width="12" height="6" rx="1" strokeLinecap="round" strokeLinejoin="round" />
                           <path d="M12 11V9" strokeLinecap="round" />
                           <path d="M12 9a2 2 0 100-4 2 2 0 000 4z" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
-                  <p className="text-xs text-gray-500 mb-1">Bathrooms</p>
-                  <p className="text-lg font-bold text-[#164e63]">{yacht.bathrooms}</p>
+                  <p className="text-[10px] sm:text-xs text-gray-500 mb-1">{t('yachtDetail.bathrooms')}</p>
+                  <p className="text-sm sm:text-lg font-bold text-[#164e63]">{yacht.bathrooms}</p>
                       </div>
 
-                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-4 text-center">
-                        <svg className="w-8 h-8 text-[#14b8a6] mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-2.5 sm:p-4 text-center">
+                        <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#14b8a6] mx-auto mb-1 sm:mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                         </svg>
-                  <p className="text-xs text-gray-500 mb-1">Day Capacity</p>
-                  <p className="text-lg font-bold text-[#164e63]">{yacht.passengerDayTrip}</p>
+                  <p className="text-[10px] sm:text-xs text-gray-500 mb-1">{t('yachtDetail.dayCapacity')}</p>
+                  <p className="text-sm sm:text-lg font-bold text-[#164e63]">{yacht.passengerDayTrip}</p>
                       </div>
 
-                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-4 text-center">
-                        <svg className="w-8 h-8 text-[#14b8a6] mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-2.5 sm:p-4 text-center">
+                        <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#14b8a6] mx-auto mb-1 sm:mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                         </svg>
-                  <p className="text-xs text-gray-500 mb-1">Night Capacity</p>
-                  <p className="text-lg font-bold text-[#164e63]">{yacht.passengerOvernight}</p>
+                  <p className="text-[10px] sm:text-xs text-gray-500 mb-1">{t('yachtDetail.nightCapacity')}</p>
+                  <p className="text-sm sm:text-lg font-bold text-[#164e63]">{yacht.passengerOvernight}</p>
                       </div>
                     </div>
 
-              {/* About this boat – rich text or spec list fallback */}
               {yacht.aboutThisBoat ? (
                 <div className="bg-gray-50 rounded-xl p-6">
-                  <h4 className="text-lg font-bold text-[#164e63] mb-4">About This Boat</h4>
+                  <h4 className="text-lg font-bold text-[#164e63] mb-4">{t('yachtDetail.aboutThisBoat')}</h4>
                   <RichText html={yacht.aboutThisBoat} />
                 </div>
               ) : specRows.length > 0 ? (
                     <div className="bg-gray-50 rounded-xl p-6">
-                      <h4 className="text-lg font-bold text-[#164e63] mb-4">About Boat</h4>
+                      <h4 className="text-lg font-bold text-[#164e63] mb-4">{t('yachtDetail.aboutBoat')}</h4>
                       <ul className="space-y-3">
                     {specRows.map((row, idx) => (
                           <li key={idx} className="flex items-start gap-3 text-gray-700">
@@ -278,15 +266,13 @@ export default function YachtDetailsPage() {
                     </div>
               ) : null}
 
-              {/* Specifications */}
               {yacht.specifications && (
                 <div className="bg-gray-50 rounded-xl p-6 mt-6">
-                  <h4 className="text-lg font-bold text-[#164e63] mb-4">Specifications</h4>
+                  <h4 className="text-lg font-bold text-[#164e63] mb-4">{t('yachtDetail.specifications')}</h4>
                   <RichText html={yacht.specifications} />
                   </div>
                 )}
 
-              {/* Tags */}
               {yacht.tags && yacht.tags.length > 0 && (
                 <div className="flex flex-wrap gap-2 mt-6">
                   {yacht.tags.map((tag, idx) => (
@@ -298,42 +284,39 @@ export default function YachtDetailsPage() {
               )}
             </div>
 
-            {/* ──────── Day Charter section ──────── */}
             {yacht.dayCharter && (
               <div id="day-charter" className="bg-white rounded-xl shadow-md overflow-hidden p-4 sm:p-6 md:p-8">
                 <div className="flex items-center gap-3 mb-5">
                   <svg className="w-7 h-7 text-[#14b8a6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                   </svg>
-                  <h3 className="text-xl font-bold text-[#164e63]">Day Charter</h3>
+                  <h3 className="text-xl font-bold text-[#164e63]">{t('yachtDetail.dayCharter')}</h3>
                 </div>
 
                 <RichText html={yacht.dayCharter} />
                   </div>
                 )}
 
-            {/* ──────── Overnight Charter section ──────── */}
             {yacht.overnightCharter && (
               <div id="overnight-charter" className="bg-white rounded-xl shadow-md overflow-hidden p-4 sm:p-6 md:p-8">
                 <div className="flex items-center gap-3 mb-5">
                   <svg className="w-7 h-7 text-[#14b8a6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                   </svg>
-                  <h3 className="text-xl font-bold text-[#164e63]">Overnight Charter</h3>
+                  <h3 className="text-xl font-bold text-[#164e63]">{t('yachtDetail.overnightCharter')}</h3>
                 </div>
 
                 <RichText html={yacht.overnightCharter} />
                   </div>
                 )}
 
-            {/* ──────── Boat Layout section ──────── */}
             {yacht.boatLayout && (
               <div id="boat-layout" className="bg-white rounded-xl shadow-md overflow-hidden p-4 sm:p-6 md:p-8">
                 <div className="flex items-center gap-3 mb-5">
                   <svg className="w-7 h-7 text-[#14b8a6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm0 8a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zm12 0a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
                   </svg>
-                  <h3 className="text-xl font-bold text-[#164e63]">Boat Layout</h3>
+                  <h3 className="text-xl font-bold text-[#164e63]">{t('yachtDetail.boatLayout')}</h3>
                 </div>
 
                 <RichText html={yacht.boatLayout} />
@@ -341,14 +324,11 @@ export default function YachtDetailsPage() {
             )}
           </div>
 
-          {/* ── Right column – pricing + contact ── */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6">
+            <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 lg:sticky lg:top-24">
 
-              {/* Yacht name */}
               <h3 className="text-lg font-bold text-[#164e63] text-center mb-4">{yacht.title}</h3>
 
-              {/* Contact links */}
               <div className="text-center mb-4 space-y-2">
                   <a href="tel:+6661234562" className="flex items-center justify-center gap-2 text-[#164e63] hover:text-[#14b8a6] transition-colors">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -364,20 +344,19 @@ export default function YachtDetailsPage() {
                   </a>
               </div>
 
-              {/* Booking form */}
               <form className="space-y-3">
-                <input type="text" placeholder="Your Name *" required
+                <input type="text" placeholder={t('yachtDetail.yourName')} required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
-                <input type="email" placeholder="Email *" required
+                <input type="email" placeholder={t('yachtDetail.email')} required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
                 <div className="flex flex-col sm:flex-row gap-2">
                   <select className="w-full sm:w-auto px-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] text-sm">
                     <option>+66</option><option>+1</option><option>+44</option>
                   </select>
-                  <input type="tel" placeholder="WhatsApp (optional)"
+                  <input type="tel" placeholder={t('yachtDetail.whatsapp')}
                     className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
                 </div>
-                <input type="number" placeholder="No of guests"
+                <input type="number" placeholder={t('yachtDetail.noOfGuests')}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
                 <div className="grid grid-cols-2 gap-2">
                   <input type="date"
@@ -385,11 +364,11 @@ export default function YachtDetailsPage() {
                   <input type="date"
                     className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
                 </div>
-                <textarea rows={3} placeholder="Any comments or requests?"
+                <textarea rows={3} placeholder={t('yachtDetail.commentsRequests')}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm resize-none" />
                 <button type="submit"
                   className="w-full bg-gradient-to-r from-[#164e63] to-[#0a2a35] hover:from-[#0a2a35] hover:to-[#164e63] text-white font-bold py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl">
-                  Submit
+                  {t('common.submit')}
                 </button>
               </form>
             </div>

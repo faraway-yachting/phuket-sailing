@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { LocaleLink } from '@/components/shared/LocaleLink'
 import { CTAButton } from '@/components/shared/CTAButton'
 import { ContactCards } from '@/components/shared/ContactCards'
 import { ReviewBadges } from '@/components/shared/ReviewBadges'
@@ -59,7 +59,7 @@ function HeroSection() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16 sm:py-20 md:py-24 flex justify-center">
         <div className="max-w-3xl text-center">
-          <h1 className="font-[family-name:var(--font-playfair)] text-white mb-4 sm:mb-6 leading-[1.2] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold" style={{ textShadow: '3px 3px 12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.6)' }}>
+          <h1 className="font-[family-name:var(--font-playfair)] text-white mb-4 sm:mb-6 leading-[1.2] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold" style={{ textShadow: '3px 3px 12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.6)' }}>
             {t('hero.title')}
           </h1>
 
@@ -268,7 +268,7 @@ function FeaturedYachtsSection() {
         {!loading && yachts.length > 0 && (
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
           {yachts.map((yacht) => (
-            <Link
+            <LocaleLink
               key={yacht._id}
               href={`/yacht/${yacht._id}`}
               className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer block"
@@ -337,12 +337,12 @@ function FeaturedYachtsSection() {
                 </div>
 
                 <div className="flex justify-center">
-                  <span className="bg-amber-gradient text-white font-bold py-2.5 px-20 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 inline-flex items-center justify-center">
+                  <span className="bg-amber-gradient text-white font-bold py-2.5 px-8 sm:px-14 md:px-20 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 inline-flex items-center justify-center">
                     {t('featuredYachts.bookNow')}
                   </span>
                 </div>
               </div>
-            </Link>
+            </LocaleLink>
           ))}
         </div>
         )}
@@ -472,9 +472,9 @@ function CharterStylesSection() {
               {t('charterStyles.notSure.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
+              <LocaleLink href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
                 {t('charterStyles.notSure.getQuote')}
-              </Link>
+              </LocaleLink>
               <button className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-green-600 rounded-xl hover:bg-green-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
                 <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
                 {t('charterStyles.notSure.whatsapp')}
@@ -494,7 +494,7 @@ function SailingPhuketSection() {
     <section id="sailing-phuket" className="py-10 sm:py-14 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
-          <div className="relative h-[350px] sm:h-[450px] md:h-[500px] lg:h-[550px]">
+          <div className="relative h-[280px] sm:h-[380px] md:h-[450px] lg:h-[550px]">
             <div className="absolute left-0 top-[10%] w-[58%] h-[85%] rounded-3xl overflow-hidden shadow-2xl border-4 border-white z-10">
               <Image
                 src="/assets/images/home/phuket1.jpg"
@@ -681,9 +681,9 @@ function OvernightSailingSection() {
           </div>
           
           {/* Right Side - Image with Overlays */}
-          <div className="relative">
+          <div className="relative overflow-hidden">
             {/* Main Image */}
-            <div className="relative h-[400px] sm:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative h-[300px] sm:h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
               src="/assets/images/home/overnight-sailing.webp"
                 alt="Overnight Sailing Catamaran"
@@ -694,7 +694,7 @@ function OvernightSailingSection() {
           </div>
 
             {/* Top Right Circle - Yacht Guests */}
-            <div className="absolute -top-8 -right-8 sm:-top-12 sm:-right-12 w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl border-4 sm:border-6 border-white">
+            <div className="hidden sm:block absolute -top-6 -right-6 md:-top-10 md:-right-10 w-40 h-40 md:w-52 md:h-52 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-2xl border-4 sm:border-6 border-white">
               <Image
                 src="/assets/images/home/party.jpg"
                 alt="Guests enjoying yacht experience"
@@ -704,7 +704,7 @@ function OvernightSailingSection() {
         </div>
         
             {/* Bottom Right Circle - Couple */}
-            <div className="absolute -bottom-8 -right-8 sm:-bottom-12 sm:-right-12 w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl border-4 sm:border-6 border-white">
+            <div className="hidden sm:block absolute -bottom-6 -right-6 md:-bottom-10 md:-right-10 w-40 h-40 md:w-52 md:h-52 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-2xl border-4 sm:border-6 border-white">
               <Image
                 src="/assets/images/home/couple2.jpg"
                 alt="Couple on overnight sailing trip"
@@ -736,7 +736,7 @@ function OvernightRecommendationSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-[#164e63]/70 to-[#164e63]/95"></div>
           </div>
 
-          <div className="relative z-10 flex flex-col lg:flex-row min-h-[550px] sm:min-h-[600px]">
+          <div className="relative z-10 flex flex-col lg:flex-row min-h-[450px] sm:min-h-[550px] lg:min-h-[600px]">
             <div className="hidden lg:block lg:w-[45%]"></div>
 
             <div className="w-full lg:w-[55%] p-6 sm:p-8 md:p-10 lg:p-12 flex flex-col justify-center">
@@ -832,9 +832,9 @@ function OvernightRecommendationSection() {
                 <p className="text-sm sm:text-base text-neutral-600 mb-4">
                   {t('overnightRecommendation.ctaText')}
                 </p>
-                <Link href="/contact" className="inline-flex items-center justify-center px-6 py-3 text-sm sm:text-base font-bold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl">
+                <LocaleLink href="/contact" className="inline-flex items-center justify-center px-6 py-3 text-sm sm:text-base font-bold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl">
                   {t('overnightRecommendation.ctaButton')}
-                </Link>
+                </LocaleLink>
                 <p className="mt-4">
                   <a href="#overnight" className="text-[#14b8a6] hover:text-[#0d9488] font-semibold text-sm inline-flex items-center gap-1 transition-colors duration-200">
                     {t('overnightRecommendation.ctaLink')}
@@ -844,7 +844,7 @@ function OvernightRecommendationSection() {
         </div>
 
             {/* Right Side - Image */}
-            <div className="relative h-[300px] lg:h-auto min-h-[400px]">
+            <div className="relative h-[250px] sm:h-[300px] lg:h-auto lg:min-h-[400px]">
               <Image
                 src="/assets/images/home/couple3.jpg"
                 alt="Overnight sailing yacht"
@@ -1494,7 +1494,7 @@ function BookingProcessSection() {
         {/* Step Cards - 4 columns */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-14 max-w-6xl mx-auto">
           {steps.map((step) => (
-            <div key={step.number} className="relative bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 md:p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div key={step.number} className="relative bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-5 sm:p-6 md:p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
               {/* Gold Number Badge */}
               <div className="absolute -top-4 left-6 w-10 h-10 bg-gradient-to-br from-[#14b8a6] to-[#0d9488] rounded-full flex items-center justify-center shadow-lg border-4 border-white">
                 <span className="text-white font-bold text-lg">{step.number}</span>
@@ -1523,7 +1523,7 @@ function BookingProcessSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 sm:gap-6 md:gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 sm:gap-5 md:gap-6">
           <div className="text-center">
               <div className="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 bg-gray-100 rounded-full flex items-center justify-center text-[#164e63]">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">

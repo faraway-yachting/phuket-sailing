@@ -60,7 +60,7 @@ export function ContactCards() {
 
           <h3 className="text-sm sm:text-base font-bold text-gray-800 mb-1">{contact.title}</h3>
 
-          <p className="text-xs sm:text-sm text-teal-600 font-medium break-words px-2">
+          <p className="text-xs sm:text-sm text-teal-600 font-medium break-all px-1 sm:px-2">
             {contact.value}
           </p>
         </a>

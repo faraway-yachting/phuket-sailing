@@ -1,18 +1,13 @@
 import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
-import { WhatsAppButton } from '@/components/shared/WhatsAppButton'
-import { Navbar } from '@/components/shared/Navbar'
-import { Footer } from '@/components/shared/Footer'
-import { Certifications } from '@/components/shared/Certifications'
-import { LanguageProvider } from '@/components/providers/LanguageProvider'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
-  title: 'Phuket Sailing – Sailing Phuket & Catamaran Charters (Day + Overnight)',
-  description: 'Phuket Sailing makes it easy to plan Sailing Phuket: private sailing yachts, catamaran charters, overnight sailing trips, cabin cruises, bareboat options, and proven itineraries—from relaxed day sails to 14+ night adventures to the best islands of Thailand.',
+  title: 'Phuket Sailing – Private Yacht & Catamaran Charters | Day Trips to Overnight Adventures',
+  description: 'Sail Phuket\'s most beautiful islands with Phuket Sailing — 30 years of experience, 800+ five-star reviews. Private yachts, catamarans, overnight trips to Phi Phi, Racha Islands & Koh Lipe. Get your custom quote today.',
   keywords: [
     'Phuket sailing',
     'sailing Phuket',
@@ -29,8 +24,8 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Phuket Sailing' }],
   openGraph: {
-    title: 'Phuket Sailing – Sailing Phuket & Catamaran Charters',
-    description: 'Private sailing yachts, catamaran charters, overnight trips, and cabin cruises. Explore Thailand\'s best islands with expert local crew.',
+    title: 'Phuket Sailing – Private Yacht & Catamaran Charters | Day Trips to Overnight Adventures',
+    description: 'Sail Phuket\'s most beautiful islands with Phuket Sailing — 30 years of experience, 800+ five-star reviews. Private yachts, catamarans, overnight trips to Phi Phi, Racha Islands & Koh Lipe. Get your custom quote today.',
     url: 'https://phuket-sailing.com',
     siteName: 'Phuket Sailing',
     locale: 'en_US',
@@ -146,13 +141,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <LanguageProvider>
-          <Navbar />
-          {children}
-          <Certifications />
-          <Footer />
-          <WhatsAppButton />
-        </LanguageProvider>
+        {children}
       </body>
     </html>
   )

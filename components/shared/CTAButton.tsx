@@ -1,6 +1,7 @@
 'use client'
 
 import { cn } from '@/lib/utils'
+import { useLocalePath } from '@/components/shared/LocaleLink'
 
 interface CTAButtonProps {
   children: React.ReactNode
@@ -21,6 +22,8 @@ export function CTAButton({
   href,
   trackingId 
 }: CTAButtonProps) {
+  const localePath = useLocalePath()
+
   const handleClick = () => {
     if (trackingId) {
       console.log(`CTA Clicked: ${trackingId}`)
@@ -37,7 +40,7 @@ export function CTAButton({
   if (href) {
     return (
       <a 
-        href={href}
+        href={localePath(href)}
         className={cn(baseStyles, className)}
         style={style}
         onClick={handleClick}

@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Home",
+    "catamaranCharter": "Catamaran Charter",
     "charterStyles": "Charter Styles",
     "sailingPhuket": "Sailing Phuket",
     "overnightTrips": "Overnight Sailing Trips",
@@ -16,8 +17,8 @@
   },
   "hero": {
     "title": "Phuket Sailing",
-    "description": "Plan your next Sailing Phuket experience in minutes. Choose your boat style, pick the trip length, and we'll recommend the best route for your dates—fast, clear, and holiday-easy.",
-    "cta": "GET YOUR INDIVIDUAL QUOTE"
+    "description": "Plan your Phuket sailing charter in minutes. Tell us your group size, how many nights, and which islands you want to see — we'll match you with the right yacht and route for an experience you'll talk about for years.",
+    "cta": "Get Your Individual Quote"
   },
   "featuredYachts": {
     "title": "Featured Sailing Yachts",
@@ -31,255 +32,255 @@
     "from": "From"
   },
   "charterStyles": {
-    "title": "Choose Your Charter Style",
+    "title": "Choose Your Sailing Charter Style",
     "explore": "Explore →",
     "notSure": {
       "title": "Not sure what fits best?",
-      "description": "Send your dates + group size, and we'll recommend the best match.",
+      "description": "Tell us your dates, group size, and the kind of experience you're after — we'll recommend the right match in under 24 hours.",
       "getQuote": "Get a Fast Quote",
       "whatsapp": "WhatsApp Us"
     },
     "sailing": {
       "title": "Private Sailing Yachts in Phuket",
-      "description": "A sailing yacht is the classic choice. You get the true feeling of sailing, a relaxed pace, and a \"real boat holiday\" vibe. It's perfect for couples, smaller groups, and anyone who loves the romance of sails and sea breeze.",
+      "description": "A private sailing yacht gives you the full experience — real sails, open Andaman Sea, and a pace that lets you actually enjoy the islands. Perfect for couples, smaller groups, and anyone who wants an authentic sailing holiday.",
       "linkText": "Explore: Sailing Yachts in Phuket"
     },
     "catamaran": {
       "title": "Catamaran Charters in Phuket",
-      "description": "Catamarans are all about space and comfort. They're stable, family-friendly, and great for groups who want more lounging areas, shade, and a social deck layout.",
+      "description": "Catamarans are built for comfort at sea. More deck space, better stability, shaded lounging areas, and a social layout that works beautifully for families and groups.",
       "linkText": "Explore: Catamaran Charters in Phuket"
     },
     "overnight": {
       "title": "Overnight & Multi-Day Sailing",
-      "description": "If you want the best overall experience, go overnight. You get quiet mornings at anchor, less rushing, and routes day trips simply can't reach.",
+      "description": "The best version of Phuket sailing is overnight. Quiet mornings at anchor, beaches before the crowds, and island routes that day trips can't reach — including Phi Phi Islands, Koh Rok, and beyond.",
       "linkText": "Explore: Overnight Sailing Trips Phuket"
     },
     "cabin": {
       "title": "Cabin Cruises Phuket",
-      "description": "Want a multi-day sailing trip without renting a whole private boat? Cabin cruises let you book by the cabin. It's ideal for solo travelers, couples, and small groups who still want incredible island-hopping at a lower cost.",
+      "description": "Want a multi-day sailing trip without renting a whole private boat? Book by the cabin on our shared sailing cruises. Ideal for solo travelers, couples, and small groups who want premium island-hopping — Phi Phi, Koh Lanta, Koh Rok — at a fraction of private charter prices.",
       "linkText": "Explore: Cabin Cruises Phuket"
     },
     "bareboat": {
       "title": "Bareboat Charter Phuket",
-      "description": "For confident sailors who want full freedom. Bareboat usually requires a license and/or proven sailing experience. If you qualify, it's an amazing way to explore on your own terms.",
+      "description": "For experienced, licensed sailors who want total freedom. Chart your own course through the Andaman Sea — Phang Nga Bay, Racha Islands, or further south to Koh Lipe. We'll brief you fully before you depart.",
       "linkText": "Explore: Bareboat Charter Phuket"
     }
   },
   "sailingPhuket": {
     "title": "Sailing Phuket",
-    "description": "Phuket is one of the best sailing hubs in Southeast Asia. Distances between islands are perfect for day trips or multi-night routes. You can choose calm bays, scenic limestone landscapes, snorkeling stops, or remote anchorages that feel far from crowds.",
-    "whySpecial": "This is what makes Sailing Phuket special:",
-    "warmWater": "Warm water and tropical island scenery",
-    "routes": "Routes for every mood: relaxed, romantic, adventurous",
-    "groups": "Options for every group: families, couples, corporate teams, friends, solo travelers",
-    "trips": "Day trips, sunset sails, or multi-day exploration"
+    "description": "Phuket is Southeast Asia's premier sailing hub. The Andaman Sea offers calm waters, dramatic limestone scenery, and island-to-island distances that work perfectly for everything from sunset day sails to 14-night expeditions south to Koh Lipe.",
+    "whySpecial": "This is what makes sailing in Phuket exceptional:",
+    "warmWater": "Warm turquoise water and world-class tropical island scenery",
+    "routes": "Routes for every mood: romantic, adventurous, family-friendly, or unhurried",
+    "groups": "Access to iconic destinations: Phi Phi Islands, Phang Nga Bay, Racha Islands, Koh Hong",
+    "trips": "Day sails, sunset cruises, or extended multi-day exploration — all from Chalong Bay"
   },
   "tripType": {
     "title": "What type of trip are you planning?",
     "subtitle": "Here are the three most common starting points:",
     "explore": "Explore",
     "day": {
-      "title": "Day Sailing",
-      "description": "Ideal if you want a holiday on the water with swimming, and boat-day-ish vibes without staying overnight."
+      "title": "Day Sailing Phuket (private)",
+      "description": "A full day on the Andaman Sea with swimming, snorkeling, and island stops — no overnight commitment required."
     },
     "sunset": {
       "title": "Sunset Sailing",
-      "description": "Perfect for couples, families, and celebrations. Shorter, scenic, and charming."
+      "description": "Shorter, scenic, and high-impact. Perfect for couples, families, and special celebrations."
     },
     "overnight": {
-      "title": "Overnight Sailing Boat rental/charter",
-      "description": "More time, more calm, more real holiday."
+      "title": "Overnight Sailing (our top recommendation)",
+      "description": "More time, more calm, more of what a real sailing holiday should feel like. You'll reach places day trips never do."
     }
   },
   "overnightSailing": {
     "title": "Overnight Sailing Trips Phuket",
-    "description": "If you want the trip that people talk about for years, choose overnight sailing. Day trips are fun, but overnight is where Phuket becomes quiet, beautiful, and unhurried.",
+    "description": "If you want the trip that people talk about for years, choose overnight sailing. Day trips are enjoyable — but overnight is where Phuket becomes quiet, unhurried, and genuinely unforgettable.",
     "whyDifferent": "Why overnight sailing feels different",
-    "noRush": "You don't rush back to the pier",
-    "calmBays": "You swim when bays are calm",
-    "sunsetSunrise": "You enjoy sunset and sunrise at anchor",
-    "bestIslands": "You can reach the best islands with fewer crowds",
-    "timeForActivities": "You get time for snorkeling, beaches, viewpoints, and \"do nothing\" moments"
+    "noRush": "No rushing back to the pier before sunset",
+    "calmBays": "Swim in calm, empty bays before the day-trip boats arrive",
+    "sunsetSunrise": "Sunset and sunrise at anchor in some of Thailand's most beautiful spots",
+    "bestIslands": "Reach islands that day-trippers never see — Koh Rok, Koh Ha, the Butang Islands",
+    "timeForActivities": "Time for snorkeling, beaches, viewpoints, and doing absolutely nothing"
   },
   "overnightRecommendation": {
     "honestRecommendation": "Our honest recommendation",
     "title": "5 nights minimum (if you can)",
-    "description": "If your schedule allows, 5+ nights is the sweet spot. That's when you can reach more remote areas and enjoy a calmer experience than the busiest hotspots.",
-    "destinations": "Three standout \"off-the-beaten-track\" destinations:",
+    "description": "If your schedule allows, 5+ nights is the sweet spot for Phuket sailing. That's when you escape the busiest tourist zones and reach quieter, more rewarding destinations.",
+    "destinations": "Three standout \"off-the-beaten-track\" destinations reachable on 5+ night charters:",
     "kohRok": {
       "title": "Koh Rok",
-      "description": "Clear water and a quieter, more remote feel"
+      "description": "Strikingly clear water and a quieter, more remote atmosphere"
     },
     "kohHa": {
       "title": "Koh Ha",
-      "description": "Beautiful lagoons and amazing snorkeling conditions"
+      "description": "Stunning lagoons and some of the best snorkeling in Thailand"
     },
     "butang": {
-      "title": "Butang Islands (7+ nights)",
-      "description": "Fewest crowds, amazing landscapes over and under water"
+      "title": "Butang Islands / Koh Lipe (7+ nights)",
+      "description": "Fewest crowds, extraordinary landscapes above and below the waterline"
     },
-    "lessCrowded": "These areas are typically far less crowded than the most popular day-trip zones like Phang Nga Bay or Phi Phi islands. That's why we recommend five nights minimum when guests want the best version of Phuket sailing.",
-    "shorterTitle": "Shorter overnights still work",
-    "shorterDescription": "If you have fewer nights, we'll plan a route that feels realistic and relaxed:",
-    "oneTwoNights": "1–2 nights: nearby highlights like Phi Phi and Racha Islands",
-    "threeFourNights": "3–4 nights: a bigger loop with more variety of destinations",
-    "fiveFourteenNights": "5-14 nights: absolute best destinations and deeper exploration of Thai islands and culture",
-    "ctaText": "Tell us your dates and number of nights and we'll recommend the best route.",
+    "lessCrowded": "These areas are far less busy than Phuket's most popular day-trip zones like Phang Nga Bay or Phi Phi Islands. That's why we consistently recommend 5 nights minimum for guests who want the best Phuket sailing experience.",
+    "shorterTitle": "Shorter overnights still deliver",
+    "shorterDescription": "If your schedule is tighter, we'll plan a route that feels worthwhile and unhurried:",
+    "oneTwoNights": "1–2 nights: Phi Phi Islands and Racha Islands — classic Phuket sailing in a tight window",
+    "threeFourNights": "3–4 nights: a wider loop with more island variety and real adventure",
+    "fiveFourteenNights": "5–14 nights: the best destinations in Thailand, at the right pace",
+    "ctaText": "Tell us your dates and number of nights — we'll recommend the best route.",
     "ctaButton": "Tell us your dates and number of nights",
     "ctaLink": "→ Start here: Overnight Sailing Trips Phuket"
   },
   "catamaranVsSailing": {
-    "title": "Catamaran vs Sailing Yacht",
-    "subtitle": "If you're stuck choosing, this quick guide usually solves it.",
+    "title": "Catamaran vs Sailing Yacht in Phuket",
+    "subtitle": "Still deciding? This quick comparison usually resolves it.",
     "catamaranTitle": "Choose a catamaran if you want",
-    "catamaranSpace": "More space and stability (great for kids and groups)",
-    "catamaranShade": "More shade and lounging areas",
-    "catamaranVilla": "A floating villa feel",
-    "catamaranSocial": "A very social layout",
+    "catamaranSpace": "More deck space and stability — ideal for families, children, and larger groups",
+    "catamaranShade": "Shaded lounging areas and a social, open layout",
+    "catamaranVilla": "A \"floating villa\" feel with comfortable multi-cabin setup",
+    "catamaranSocial": "Smooth sailing in Andaman Sea conditions",
     "catamaranLink": "Compare options: Catamaran Charters in Phuket →",
     "sailingTitle": "Choose a sailing yacht if you want",
-    "sailingClassic": "A more classic sailing sensation",
-    "sailingSportier": "A sportier, authentic sailboat experience",
-    "sailingValue": "Great value for couples and smaller groups",
-    "sailingRomantic": "A cozy, romantic atmosphere",
+    "sailingClassic": "A genuine sailing sensation — wind in the sails, responsive and alive",
+    "sailingSportier": "A sportier, more authentic sailing experience on the Andaman Sea",
+    "sailingValue": "Excellent value for couples and smaller groups",
+    "sailingRomantic": "A cozy, romantic onboard atmosphere",
     "sailingLink": "Compare options: Sailing Yachts in Phuket →",
     "stillUnsure": "Still unsure?",
-    "stillUnsureDescription": "Message us your group size + comfort preferences and we will recommend the best fit.",
+    "stillUnsureDescription": "Message us your group size and comfort preferences — we'll recommend the best fit.",
     "getRecommendation": "Get Personalized Recommendation"
   },
   "popularRoutes": {
-    "title": "Most Popular Routes",
+    "title": "Most Popular Phuket Sailing Routes",
     "subtitle": "Use these as inspiration. We'll finalize the best route for your season and trip length.",
     "racha": {
       "title": "Racha Islands (Racha Yai / Racha Noi)",
-      "description": "A favorite for clear water and snorkeling. Great for both sailing yachts and catamarans. A strong choice when you want a clean tropical island day without overcomplicating the plan."
+      "description": "Crystal-clear water, healthy coral reefs, and white-sand beaches that live up to the photos. A strong choice for both sailing yachts and catamarans when you want a flawless tropical island day south of Phuket."
     },
     "coral": {
-      "title": "Coral Island",
-      "description": "Easy, relaxed, and popular for swimming and beach time. Great for families, mixed groups, and visitors who want a fun day on the sea with simple logistics."
+      "title": "Coral Island (Koh Hae)",
+      "description": "Relaxed, beautiful, and popular for swimming and beach time. Great for families, mixed groups, and visitors who want a fun, uncomplicated day on the Andaman Sea."
     },
     "phangNga": {
-      "title": "Phang Nga Bay",
-      "description": "Iconic limestone scenery, calm water, and incredible photos. Often perfect for mixed groups, corporate outings, and travelers who love sightseeing and dramatic landscapes."
+      "title": "Phang Nga Bay & Koh Hong",
+      "description": "Iconic limestone karsts, emerald lagoons, and some of the most dramatic scenery in Southeast Asia. Perfect for sightseeing, kayaking, and photography — and a highlight of any Phuket sailing itinerary."
     },
     "kohRokHa": {
       "title": "Koh Rok & Koh Ha (best with 5+ nights)",
-      "description": "If your goal is fewer crowds and more wow, these routes shine on longer charters. Quiet anchorages and that rare feeling of space."
+      "description": "Fewer crowds, clearer water, and that rare sense of space. These destinations reward guests on longer charters with an experience that feels genuinely remote — and genuinely special."
     },
     "wantHelp": "Want help choosing?",
     "routeIdeas": "See route ideas: Sailing Itineraries Phuket"
   },
   "whoItsFor": {
     "title": "Who Phuket Sailing is perfect for",
-    "subtitle": "We serve everyone: families, couples, corporate teams, adventure seekers, solo travelers, and special occasions.",
+    "subtitle": "",
     "families": {
       "title": "Families & kids",
-      "description": "Family-friendly routes, stable boat recommendations, calm swim stops, and the right pacing. Catamarans are often ideal because of space and stability."
+      "description": "Stable catamarans, calm protected swim stops, and flexible pacing make Phuket sailing excellent for families. Children love the water activities — and parents love that everything is handled."
     },
     "couples": {
       "title": "Couples & romantic getaways",
-      "description": "Sunset sails, quiet anchor nights, and private time in beautiful places. Great for honeymoons, anniversaries, and proposals."
+      "description": "Sunset sails, quiet nights at anchor, and privacy in beautiful places. Whether it's a honeymoon, anniversary, or proposal, we know how to make it memorable."
     },
     "corporate": {
       "title": "Corporate & team-building groups",
-      "description": "Sailing creates real connection. It is fun, premium, and relaxed—without feeling formal."
+      "description": "Sailing creates real connection in a naturally relaxed, premium setting — without feeling corporate. A Phuket sailing charter is team-building your group will actually talk about."
     },
     "adventure": {
       "title": "Adventure seekers",
-      "description": "Longer charters unlock hiking, diving, and off-the-beaten-track islands. If you want exploration, we will build a route that feels like a real adventure."
+      "description": "Longer Phuket sailing charters unlock hiking, diving, and destinations that never appear on standard tour routes. If exploration is the goal, we'll build a route that delivers."
     },
     "solo": {
       "title": "Solo travelers & small friend groups",
-      "description": "Cabin cruises are perfect here. You get the multi-day experience without paying for a full private charter."
+      "description": "Cabin cruises are the ideal solution — multi-day sailing around Phuket's best islands without paying for a full private charter."
     },
     "occasions": {
       "title": "Special occasions",
-      "description": "Milestone birthdays (50th/60th), honeymoons, anniversaries—tell us what you are celebrating and we will help plan a surprise onboard."
+      "description": "Milestone birthdays, honeymoons, anniversaries, proposals — tell us what you're celebrating and we'll help design the perfect experience onboard."
     }
   },
   "whatsIncluded": {
-    "title": "What is Included",
-    "subtitle": "Inclusions vary by boat and trip type, but we keep it clear before you confirm anything.",
+    "title": "What's Included",
+    "subtitle": "Inclusions vary by boat and trip type. We make everything clear before you confirm anything.",
     "typicallyIncluded": "Typically included on crewed charters",
-    "professionalCrew": "Professional crew (not for bareboat charters)",
-    "safetyEquipment": "Safety equipment",
+    "professionalCrew": "Professional crew — captain, chef, and deckhand (not for bareboat charters)",
+    "safetyEquipment": "Safety equipment certified to Thai maritime standards",
+    "routePlanning": "Route planning by our team with real-time weather briefing and local guidance",
     "standardSetup": "Standard onboard setup and facilities",
-    "routePlanning": "Route planning by our management team, support and local guidance",
     "oftenOptional": "Often optional (depends on boat / route)",
     "mealsDrinks": "Meals and drinks packages",
     "parkFees": "National park fees (route-dependent)",
     "specialOccasion": "Special occasion setup",
     "waterToys": "Extra water toys",
-    "legalArrangements": "Everything that is legal can be arranged with enough time",
+    "legalArrangements": "Anything legal and feasible can be arranged with enough notice",
     "whatToPack": "What to Pack",
     "keepSimple": "Keep it simple:",
-    "swimwear": "Swimwear (bring ideally 3 sets as you might not wear anything else)",
+    "swimwear": "Swimwear (bring at least 3 sets — it may be all you wear)",
     "sunscreen": "Sunscreen, hat, sunglasses",
-    "coverUp": "Light cover-up / rash guard for snorkeling (we sell them at 500 THB)",
+    "coverUp": "Light cover-up or rash guard for snorkeling (available onboard for 500 THB)",
     "waterproofPouch": "Waterproof pouch for phone",
-    "shoes": "Shoes that can get wet, but are suitable for hiking",
-    "medication": "Any personal medication (we have all kind of medications onboard seasickness, antibiotics, etc.)",
-    "wantQuote": "Want a simple, itemized quote?",
+    "shoes": "Shoes that can get wet but handle island terrain",
+    "medication": "Any personal medication (we carry onboard essentials: seasickness tablets, antibiotics, and more)",
+    "wantQuote": "Want a clear, itemized quote with no surprises?",
     "getFastQuote": "Get a Fast Quote"
   },
   "pricing": {
-    "title": "How Pricing Works",
-    "subtitle": "Prices depend on a few factors. This transparency helps you choose quickly.",
+    "title": "How Yacht Sailing Pricing Works",
+    "subtitle": "Phuket sailing charter prices depend on a few key factors. Understanding them helps you choose quickly and confidently.",
     "mainDrivers": "Main pricing drivers",
-    "boatType": "Boat type",
-    "privateVsCabin": "Private charter vs cabin cruise",
-    "tripLength": "Trip length (day / overnight)",
-    "routeDestination": "Route & Destination",
-    "seasonDemand": "Season and demand",
-    "bookingTiming": "Booking Timing",
+    "boatType": "Vessel type and size",
+    "privateVsCabin": "Private charter vs. cabin cruise",
+    "tripLength": "Trip length (day sail, overnight, or multi-day)",
+    "routeDestination": "Season and demand — low season prices (May–October) are 30–40% lower",
+    "seasonDemand": "Group size and comfort level",
+    "bookingTiming": "Booking timing",
     "groupSize": "Group size and comfort level",
     "priceAnchors": "Price anchors",
-    "dayTrips": "Day sailing trips:",
+    "dayTrips": "Day sailing Phuket:",
     "dayTripsPrice": "from 29,900 THB",
     "sunsetSailing": "Sunset sailing:",
     "sunsetSailingPrice": "from 24,900 THB",
-    "overnightCharters": "Overnight charters:",
-    "overnightChartersPrice": "from 1000 Euro per night",
-    "cabinCruises": "Cabin cruises:",
-    "cabinCruisesPrice": "from 1998 Euro per cabin for 5 nights",
-    "fastestPath": "Fastest path to your quote",
-    "fastestPathDescription": "Send your dates + group size, and we will recommend the best options with clear pricing.",
+    "overnightCharters": "Overnight sailing charters:",
+    "overnightChartersPrice": "from €1,000 per night",
+    "cabinCruises": "Cabin cruises Phuket:",
+    "cabinCruisesPrice": "from €1,998 per cabin for 5 nights",
+    "fastestPath": "The fastest path",
+    "fastestPathDescription": "Send your dates and group size. We'll respond with the best options and clear pricing — no ambiguity.",
     "getPersonalizedQuote": "Get Your Personalized Quote"
   },
   "bookingProcess": {
-    "title": "How Booking Works",
-    "subtitle": "Simple and fast — from inquiry to sailing in just 4 easy steps.",
+    "title": "How Yacht Booking Works",
+    "subtitle": "Simple and fast:",
     "step1": {
       "title": "Share your details",
-      "description": "Send dates + group size and tell us what experience you are looking for."
+      "description": "Send your dates, group size, and what kind of experience you're looking for."
     },
     "step2": {
       "title": "Choose your style",
-      "description": "Choose your style (sailing yacht / catamaran / cabin cruise / bareboat)"
+      "description": "Sailing yacht, catamaran, cabin cruise, or bareboat"
     },
     "step3": {
       "title": "Get recommendations",
-      "description": "We recommend the best boats + routes (based on season and goals)"
+      "description": "We recommend the best boats and routes based on your season, group, and goals"
     },
     "step4": {
-      "title": "Confirm and relax",
+      "title": "Confirm and look forward to it",
       "description": "Book with confidence — we handle all the details for your perfect trip"
     },
     "inquiryChecklist": "The 20-second inquiry checklist",
     "inquiryChecklistDescription": "Just answer these 5 quick questions and we'll handle the rest",
     "howManyGuests": "How many guests?",
     "howManyGuestsDesc": "Tell us your group size",
-    "dayOrNights": "Day trip or nights?",
+    "dayOrNights": "Day trip or how many nights?",
     "dayOrNightsDesc": "Choose your trip length",
-    "preferredYacht": "Preferred yacht?",
+    "preferredYacht": "Preferred yacht style (or leave it to us)?",
     "preferredYachtDesc": "Catamaran or sailing yacht",
-    "tripStyle": "Trip style?",
-    "tripStyleDesc": "Family / romantic / adventure",
+    "tripStyle": "Family / romantic / adventure / corporate?",
+    "tripStyleDesc": "Tell us your style",
     "mustSeeIslands": "Must-see islands?",
-    "mustSeeIslandsDesc": "Any specific destinations",
+    "mustSeeIslandsDesc": "Phi Phi, Racha, Koh Hong, Koh Lipe…",
     "readyToPlan": "Ready to start planning?",
     "readyToPlanDescription": "Send us your dates and group size — we'll craft the perfect sailing adventure for you",
-    "getIndividualQuote": "Get Your Individual Quote"
+    "getIndividualQuote": "INQUIRE NOW"
   },
   "explorePages": {
     "title": "Explore All Pages",
@@ -292,40 +293,40 @@
   "faq": {
     "title": "Frequently Asked Questions",
     "bestTime": {
-      "question": "What is the best time for Sailing Phuket?",
-      "answer": "Most guests prefer calmer, drier months, but Phuket can work year-round with the right route choices. We'll recommend the best itinerary for your exact dates based on season, sea conditions, and comfort level. Note, the prices in low season between May and October are ca. 30-40% cheaper!"
+      "question": "What is the best time of year for sailing in Phuket?",
+      "answer": "November to April offers the calmest seas and most reliable weather — this is peak season for Phuket sailing. Low season (May–October) brings 30–40% lower prices and quieter anchorages. Phuket sailing works year-round with the right route. We'll always recommend the best itinerary for your exact travel dates."
     },
     "catamaranVsSailing": {
       "question": "Is a catamaran better than a sailing yacht in Phuket?",
-      "answer": "Catamarans offer more space and stability, which families and groups love. Sailing yachts feel more classic and \"real sailing.\" The best choice depends on your group size, comfort preferences, and the vibe you want onboard."
+      "answer": "Catamarans offer more space and stability — ideal for families and larger groups. Sailing yachts deliver a more authentic sailing feel and excellent value for couples or small groups. The right choice depends on your group size, comfort preferences, and the onboard atmosphere you want."
     },
     "recommendedNights": {
-      "question": "How many nights do you recommend for the best experience?",
-      "answer": "If possible, we recommend 5 nights minimum. That is when you can reach quieter areas like Koh Rok and Koh Ha, which usually feel much less crowded than Phuket most popular day-trip destinations."
+      "question": "How many nights do you recommend for the best Phuket sailing experience?",
+      "answer": "We recommend 5 nights minimum. That's when you can comfortably reach quieter, more rewarding destinations like Koh Rok, Koh Ha, and the Butang Islands / Koh Lipe — places significantly less crowded than Phi Phi Islands and Phang Nga Bay."
     },
     "familyFriendly": {
-      "question": "Are your Sailing Phuket trips family-friendly?",
-      "answer": "Yes. We can recommend stable boats, calm swim stops, and family-friendly routes. Catamarans are often the easiest choice for kids because they have more space, shade, and stability—especially for relaxed day trips."
+      "question": "Are Phuket sailing charters suitable for families with children?",
+      "answer": "Yes. We recommend stable catamarans, plan routes with calm protected swim stops, and pace the itinerary to suit your group. Our crew is experienced with family charters — and children typically say it's the best holiday they've ever had."
     },
     "romantic": {
-      "question": "Is Phuket sailing good for couples and romantic getaways?",
-      "answer": "Absolutely. Couples love sunset sails and overnight anchorages for privacy and atmosphere. If it is a honeymoon, anniversary, or proposal, tell us early and we will recommend the best boat and help plan a surprise."
+      "question": "Is sailing in Phuket good for couples and romantic getaways?",
+      "answer": "Absolutely. Sunset sails, quiet overnight anchorages, and privacy in beautiful places make Phuket sailing one of the most romantic holiday experiences available. For honeymoons, anniversaries, or proposals, tell us early — we'll help plan something special."
     },
     "soloTravelers": {
-      "question": "Can solo travelers book without renting a full boat?",
-      "answer": "Yes. With Cabin Cruises Phuket, you can book by the cabin. It is ideal for solo travelers, couples, or small friend groups who want a multi-day sailing experience at a lower cost than a private charter."
+      "question": "Can solo travelers book without renting a full private yacht?",
+      "answer": "Yes. Cabin Cruises Phuket let you book by the cabin — a private space on a shared sailing cruise to the best islands, including Phi Phi, Koh Lanta, Koh Rok, and Racha Islands. The best-value way to experience multi-day Phuket sailing."
     },
     "whatsIncluded": {
-      "question": "What is included in a crewed sailing charter?",
-      "answer": "Inclusions vary by boat, but crewed charters typically include the boat, crew, all meals, safety equipment, and standard onboard setup. Extras like drinks, park fees, and special setups depend on the vessel and route. We confirm everything upfront."
+      "question": "What's included in a crewed sailing charter in Phuket?",
+      "answer": "Crewed charters typically include the vessel, professional crew, all meals, drinking water, fuel, safety equipment, and standard water activities. Extras like drinks, national park fees, and special setups are confirmed upfront — no hidden charges."
     },
     "bareboatLicense": {
-      "question": "Do we need a license for bareboat charter Phuket?",
-      "answer": "Usually yes. Bareboat charters typically require a valid license and strong proof of experience. If you are unsure, we can recommend a crewed charter instead or discuss what is required based on your sailing background."
+      "question": "Do I need a sailing license for a bareboat charter in Phuket?",
+      "answer": "Yes. Bareboat charters require a valid sailing license and demonstrated experience on a comparable vessel. If you're unsure whether you qualify, we're happy to advise — or recommend a crewed charter instead."
     },
     "chooseItinerary": {
-      "question": "Can you help us choose the best itinerary?",
-      "answer": "Yes. Share your dates, number of nights, group size, and priorities (snorkeling, beaches, quiet islands, adventure). We will recommend a realistic route that suits the season and gives you the best overall experience."
+      "question": "Can you help us choose the best Phuket sailing itinerary?",
+      "answer": "Yes — it's one of the most valuable things we offer. Share your dates, number of nights, group size, and priorities (snorkeling, remote islands, beaches, adventure). We'll recommend a realistic route tailored to the season and designed to give your group the best possible experience."
     }
   },
   "finalCta": {
@@ -391,7 +392,48 @@
     "back": "Back",
     "next": "Next",
     "previous": "Previous",
-    "backToHome": "Back to Home"
+    "backToHome": "← Back to Home",
+    "loading": "Loading…",
+    "submit": "Submit"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "usefulLinks": "Useful Links",
+    "subscribe": "Subscribe",
+    "subscribeText": "Subscribe to our newsletter to stay up-to-date with the latest news, promotions, and insider tips on Phuket yacht charters!",
+    "subscribeButton": "Subscribe",
+    "emailPlaceholder": "Email*",
+    "copyright": "© 2025 Copyright Phuket Sailing",
+    "impressum": "Impressum",
+    "sitemap": "Sitemap"
+  },
+  "yachtDetail": {
+    "notFound": "Yacht Not Found",
+    "notFoundDescription": "The yacht you're looking for doesn't exist or has been removed.",
+    "aboutBoat": "About Boat",
+    "aboutThisBoat": "About This Boat",
+    "dayCharter": "Day Charter",
+    "overnightCharter": "Overnight Charter",
+    "boatLayout": "Boat Layout",
+    "specifications": "Specifications",
+    "watchVideo": "Watch Video →",
+    "length": "Length",
+    "boatType": "Boat Type",
+    "cabins": "Cabins",
+    "bathrooms": "Bathrooms",
+    "dayCapacity": "Day Capacity",
+    "nightCapacity": "Night Capacity",
+    "design": "Design",
+    "built": "Built",
+    "lengthOverall": "Length Overall",
+    "cruisingSpeed": "Cruising Speed",
+    "fuelCapacity": "Fuel Capacity",
+    "waterCapacity": "Water Capacity",
+    "yourName": "Your Name *",
+    "email": "Email *",
+    "whatsapp": "WhatsApp (optional)",
+    "noOfGuests": "No of guests",
+    "commentsRequests": "Any comments or requests?"
   },
   "terms": {
     "metadata": {
@@ -667,24 +709,34 @@
     "testimonials": {
       "title": "What Catamaran Charter Guests Say",
       "testimonial1": {
-        "quote": "The catamaran was spotless, spacious, and the crew made us feel like family. We anchored at Phi Phi overnight and had Maya Bay practically to ourselves at sunrise.",
-        "author": "David & Claire, Canada",
-        "charter": "3-Night Catamaran Cruise",
-        "rating": 5
+        "quote": "My trip with Faraway Yachting on the Hot Chilli crew exceeded my expectations. The captain was calm, confident, and clearly very skilled. The crew took excellent care of us, making sure we were comfortable and enjoying every moment. The food prepared by the chef was delicious and beautifully presented, adding a special touch to the trip. The overall service was outstanding and created a warm, enjoyable atmosphere on board. I truly recommend Faraway Yachting for anyone who wants a relaxing and high-quality yachting experience.",
+        "author": "Katie Brooks"
       },
       "testimonial2": {
-        "quote": "We chose a catamaran specifically because our kids get motion sick. Zero issues — they spent the whole trip jumping off the back and snorkeling. Best decision we made.",
-        "author": "The Tanaka Family, Japan",
-        "charter": "Private Day Charter, Racha Islands",
-        "rating": 5
+        "quote": "I went on a cruise to Thailand, and it turned out to be a fantastic experience. The route included beautiful islands, warm turquoise water, and plenty of time to explore both nature and local culture. Each stop felt unique — from quiet beaches and crystal-clear snorkeling spots to lively towns with great food and friendly people. The ship itself was comfortable, clean, and well organized. Overall, this cruise was a perfect balance of relaxation and adventure.",
+        "author": "Maria Volkova"
       },
       "testimonial3": {
-        "quote": "We've chartered monohulls in Croatia and Greece. The catamaran in Phuket was more comfortable, the crew was better, and it cost half the price. We're coming back next year.",
-        "author": "Mark & friends, UK",
-        "charter": "5-Night Charter, Phi Phi to Koh Lanta",
-        "rating": 5
+        "quote": "We had the time of our lives with Faraway Yachting. From the very first booking contact to the warm welcome at their office, everything was seamless and professional. The crew exceeded every expectation — attentive, intuitive, and always one step ahead. The food deserves special mention: better than any restaurant we tried in Asia. We'll be back next year, guaranteed.",
+        "author": "Hans Maxheim"
       },
-      "readAll": "Read all 750+ reviews →"
+      "testimonial4": {
+        "quote": "It was soooo much fun! Everyone was smiling all the time. The captain, crew, chef, and interns were super helpful and friendly. The service was excellent. I really enjoyed all the activities, and the food was delicious! The Pad Thai was amazing. It was such a great experience with Faraway Yachting, truly unforgettable!",
+        "author": "Priscilla Evanson"
+      },
+      "testimonial5": {
+        "quote": "We had the most exceptional day on board Chili — from start to finish it was flawless. The crew were warm, attentive, and genuinely passionate, striking the perfect balance between professional and relaxed. The food was outstanding — fresh, beautifully presented, and absolutely delicious, easily restaurant-quality. If you're considering a day on Chili, don't hesitate.",
+        "author": "Dara"
+      },
+      "testimonial6": {
+        "quote": "We wanted to escape the busy Christmas time and sailed faraway! The Crew did a fabulous job and we had the best time with the other passengers. The trip was awesome. From beautiful snorkeling spots to empty beaches and hikes to viewpoints. Nothing was left out. The food was delicious and plenty. We would recommend and would book again.",
+        "author": "Jonathan Singer"
+      },
+      "testimonial7": {
+        "quote": "I recently visited Phang Nga bay, and it was such a lovely trip. The atmosphere was calm and relaxing, and the nature there is truly beautiful. I really enjoyed the views of the sea, limestone cliffs, and the peaceful surroundings. It felt like a perfect place to slow down and enjoy nature. Phang Nga has its own charm, and I'm really happy I got to visit.",
+        "author": "Sandra Tomson"
+      },
+      "readAll": "Read all 800+ reviews →"
     },
     "crew": {
       "title": "Catamaran Crews, Comfort & Onboard Experience",
@@ -838,7 +890,7 @@
       "confidence": {
         "title": "Sail Phuket with Confidence and Comfort",
         "points": {
-          "reviews": "750+ five-star reviews from international travelers across Google, TripAdvisor, and booking platforms",
+          "reviews": "800+ five-star reviews from international travelers across Google, TripAdvisor, and booking platforms",
           "experience": "30 years of Andaman Sea experience — our team knows these waters better than anyone",
           "licensed": "Tourism Authority of Thailand licensed (OTD #34/02546)",
           "award": "World Luxury Travel Awards Winner 2025",

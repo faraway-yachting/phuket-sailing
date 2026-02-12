@@ -1,14 +1,16 @@
+'use client'
+
 import Image from 'next/image'
-import Link from 'next/link'
+import { LocaleLink } from '@/components/shared/LocaleLink'
 
 export function Certifications() {
   return (
     <section className="bg-gradient-to-b from-white to-gray-50 py-8 sm:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl shadow-xl shadow-gray-300/30 p-8 sm:p-12">
-          <Link href="/terms-and-conditions" className="block text-[#164e63] text-center text-xl sm:text-2xl md:text-3xl font-bold mb-6 sm:mb-8 hover:text-[#14b8a6] transition-colors underline underline-offset-4" style={{ fontFamily: "var(--font-playfair)" }}>
+          <LocaleLink href="/terms-and-conditions" className="block text-[#164e63] text-center text-xl sm:text-2xl md:text-3xl font-bold mb-6 sm:mb-8 hover:text-[#14b8a6] transition-colors underline underline-offset-4" style={{ fontFamily: "var(--font-playfair)" }}>
             Booking Terms and Conditions
-          </Link>
+          </LocaleLink>
 
           {/* Tourism Authority Certificate - Featured */}
           <div className="flex flex-col items-center mb-8 sm:mb-12">

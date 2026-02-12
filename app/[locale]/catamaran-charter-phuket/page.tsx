@@ -1,13 +1,13 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { LocaleLink } from '@/components/shared/LocaleLink'
 import { CTAButton } from '@/components/shared/CTAButton'
 import { ContactCards } from '@/components/shared/ContactCards'
 import { ReviewBadges } from '@/components/shared/ReviewBadges'
 import { useLanguage } from '@/components/providers/LanguageProvider'
-import { Phone, MessageCircle, Mail, MapPin, CheckCircle, HelpCircle, ChevronDown, Star, Anchor, Users, Ship, Waves, Shield, Award, Calendar, Clock, Compass, Heart, Sparkles } from 'lucide-react'
+import { Phone, MessageCircle, Mail, MapPin, CheckCircle, HelpCircle, ChevronDown, Star, Anchor, Users, Ship, Waves, Shield, Award, Calendar, Clock, Compass } from 'lucide-react'
 import { CatamaranFAQSchema } from './faq-schema'
 
 export default function CatamaranCharterPhuketPage() {
@@ -115,9 +115,9 @@ function CTABlock1() {
             {t('catamaranCharter.cta1.text')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
+            <LocaleLink href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
               {t('catamaranCharter.cta1.button1')}
-            </Link>
+            </LocaleLink>
             <a
               href="https://wa.me/66612345623"
               target="_blank"
@@ -177,7 +177,7 @@ function IntroSection() {
                     <Compass className="w-11 h-11" strokeWidth={1} />
                   </div>
                   {/* Blob-shaped image */}
-                  <div className="relative w-80 h-96 md:w-[340px] md:h-[400px]"
+                  <div className="relative w-56 h-72 sm:w-80 sm:h-96 md:w-[340px] md:h-[400px]"
                     style={{ borderRadius: '60% 40% 50% 50% / 50% 60% 40% 50%' }}
                   >
                     <Image
@@ -217,7 +217,7 @@ function IntroSection() {
                     <Ship className="w-12 h-12" strokeWidth={1} />
                   </div>
                   {/* Blob-shaped image (mirrored blob shape) */}
-                  <div className="relative w-80 h-96 md:w-[340px] md:h-[400px]"
+                  <div className="relative w-56 h-72 sm:w-80 sm:h-96 md:w-[340px] md:h-[400px]"
                     style={{ borderRadius: '40% 60% 50% 50% / 60% 40% 60% 40%' }}
                   >
                     <Image
@@ -324,7 +324,7 @@ function WhyCatamaranSection() {
                 <>
                   {/* Image LEFT */}
                   <div className={`w-full md:w-[48%] flex-shrink-0 ${index === 2 ? 'md:-mt-48' : ''}`}>
-                    <div className="relative h-96 md:h-[650px] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(12,59,74,0.25)]">
+                    <div className="relative h-72 sm:h-96 md:h-[650px] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(12,59,74,0.25)]">
                       <Image src={section.image} alt={section.imageAlt} fill className="object-cover" />
                     </div>
                   </div>
@@ -355,7 +355,7 @@ function WhyCatamaranSection() {
                   </div>
                   {/* Image RIGHT - Tall overlapping image */}
                   <div className="w-full md:w-[48%] flex-shrink-0 md:pr-16 order-1 md:order-2 md:-mt-48">
-                    <div className="relative h-96 md:h-[950px] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(12,59,74,0.25)]" style={{ zIndex: 10 }}>
+                    <div className="relative h-72 sm:h-96 md:h-[700px] lg:h-[950px] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(12,59,74,0.25)]" style={{ zIndex: 10 }}>
                       <Image src={section.image} alt={section.imageAlt} fill className="object-cover" />
                     </div>
                   </div>
@@ -382,9 +382,9 @@ function CTABlock2() {
           <p className="text-white/80 text-sm sm:text-base md:text-lg mb-6 sm:mb-8 leading-relaxed">
             {t('catamaranCharter.cta2.text')}
           </p>
-          <Link href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
+          <LocaleLink href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
             {t('catamaranCharter.cta2.button')}
-          </Link>
+          </LocaleLink>
         </div>
       </div>
     </section>
@@ -466,7 +466,7 @@ function CharterOptionsSection() {
                 {option.description}
               </p>
 
-              <Link
+              <LocaleLink
                 href={option.link}
                 className={`inline-flex items-center justify-center w-full font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:scale-105 ${
                   index === 1
@@ -475,7 +475,7 @@ function CharterOptionsSection() {
                 }`}
               >
                 {index === 0 ? t('catamaranCharter.charterOptions.options.day.linkText') : index === 1 ? t('catamaranCharter.charterOptions.options.extended.linkText') : t('catamaranCharter.charterOptions.options.overnight.linkText')}
-              </Link>
+              </LocaleLink>
             </div>
           ))}
         </div>
@@ -506,15 +506,6 @@ function DestinationsSection() {
       image: '/assets/images/catamaran-charter/mayabay.jpg'
     },
     {
-      title: t('catamaranCharter.destinations.phangNga.title'),
-      description: t('catamaranCharter.destinations.phangNga.description'),
-      distance: t('catamaranCharter.destinations.phangNga.distance'),
-      type: t('catamaranCharter.destinations.phangNga.type'),
-      link: '/phang-nga-bay-yacht-charter',
-      linkText: t('catamaranCharter.destinations.phangNga.linkText'),
-      image: '/assets/images/home/phuket2.jpg'
-    },
-    {
       title: t('catamaranCharter.destinations.racha.title'),
       subtitle1: t('catamaranCharter.destinations.racha.subtitle1'),
       description1: t('catamaranCharter.destinations.racha.description1'),
@@ -525,6 +516,15 @@ function DestinationsSection() {
       link: '/racha-islands-sailing',
       linkText: t('catamaranCharter.destinations.racha.linkText'),
       image: '/assets/images/home/racha-island.jpg'
+    },
+    {
+      title: t('catamaranCharter.destinations.phangNga.title'),
+      description: t('catamaranCharter.destinations.phangNga.description'),
+      distance: t('catamaranCharter.destinations.phangNga.distance'),
+      type: t('catamaranCharter.destinations.phangNga.type'),
+      link: '/phang-nga-bay-yacht-charter',
+      linkText: t('catamaranCharter.destinations.phangNga.linkText'),
+      image: '/assets/images/home/phuket2.jpg'
     }
   ]
 
@@ -547,9 +547,9 @@ function DestinationsSection() {
 
         <div className="relative">
           {/* Main Content */}
-          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-0">
-            {/* Text Card - Left Side */}
-            <div className="w-full md:w-1/2 bg-white rounded-2xl p-6 md:p-8 shadow-2xl z-10 md:mr-[-80px]">
+          <div className={`flex flex-col ${currentSlide === 1 ? 'md:flex-row-reverse' : 'md:flex-row'} items-center justify-center gap-6 md:gap-0 mx-auto`}>
+            {/* Text Card */}
+            <div className={`w-full md:w-1/2 bg-white rounded-2xl p-4 sm:p-6 md:p-8 shadow-2xl z-10 ${currentSlide === 1 ? 'md:ml-[-80px]' : 'md:mr-[-80px]'}`}>
               <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#0c3b4a] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                 {dest.title}
               </h3>
@@ -574,16 +574,16 @@ function DestinationsSection() {
                 <span className="text-neutral-500">• {dest.type}</span>
               </div>
 
-              <Link
+              <LocaleLink
                 href={dest.link}
                 className="inline-flex items-center justify-center px-6 md:px-8 py-2.5 md:py-3 bg-[#0c3b4a] hover:bg-[#164e63] text-white text-sm font-semibold rounded-xl transition-all duration-300 hover:scale-105"
               >
                 {dest.linkText || 'Know More'}
-              </Link>
+              </LocaleLink>
             </div>
 
             {/* Image - Right Side */}
-            <div className="w-full md:w-1/2 relative h-[400px] md:h-[450px] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(12,59,74,0.5)]">
+            <div className="w-full md:w-[45%] relative h-[250px] sm:h-[350px] md:h-[400px] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(12,59,74,0.5)]">
               <Image
                 src={dest.image}
                 alt={dest.title}
@@ -596,7 +596,7 @@ function DestinationsSection() {
           {/* Navigation Arrows */}
           <button
             onClick={prevSlide}
-            className="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 bg-white hover:bg-gray-50 text-[#0c3b4a] p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-20"
+            className="absolute left-1 sm:left-0 top-1/2 -translate-y-1/2 md:-translate-x-16 bg-white hover:bg-gray-50 text-[#0c3b4a] p-2 sm:p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-20"
             aria-label="Previous destination"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -606,7 +606,7 @@ function DestinationsSection() {
 
           <button
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 bg-white hover:bg-gray-50 text-[#0c3b4a] p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-20"
+            className="absolute right-1 sm:right-0 top-1/2 -translate-y-1/2 md:translate-x-4 bg-white hover:bg-gray-50 text-[#0c3b4a] p-2 sm:p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-20"
             aria-label="Next destination"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -637,58 +637,112 @@ function DestinationsSection() {
 
 function TestimonialsSection() {
   const { t } = useLanguage()
-  const testimonials = [
-    {
-      quote: t('catamaranCharter.testimonials.testimonial1.quote'),
-      author: t('catamaranCharter.testimonials.testimonial1.author'),
-      charter: t('catamaranCharter.testimonials.testimonial1.charter'),
-      rating: 5
-    },
-    {
-      quote: t('catamaranCharter.testimonials.testimonial2.quote'),
-      author: t('catamaranCharter.testimonials.testimonial2.author'),
-      charter: t('catamaranCharter.testimonials.testimonial2.charter'),
-      rating: 5
-    },
-    {
-      quote: t('catamaranCharter.testimonials.testimonial3.quote'),
-      author: t('catamaranCharter.testimonials.testimonial3.author'),
-      charter: t('catamaranCharter.testimonials.testimonial3.charter'),
-      rating: 5
+  const [currentPage, setCurrentPage] = useState(0)
+  const [cardsPerView, setCardsPerView] = useState(1)
+
+  useEffect(() => {
+    const updateCards = () => {
+      setCardsPerView(window.innerWidth >= 768 ? 3 : 1)
     }
+    updateCards()
+    window.addEventListener('resize', updateCards)
+    return () => window.removeEventListener('resize', updateCards)
+  }, [])
+
+  useEffect(() => {
+    setCurrentPage(0)
+  }, [cardsPerView])
+
+  const testimonials = [
+    { quote: t('catamaranCharter.testimonials.testimonial1.quote'), author: t('catamaranCharter.testimonials.testimonial1.author'), url: 'https://maps.app.goo.gl/9tDweePvmhzqguD28' },
+    { quote: t('catamaranCharter.testimonials.testimonial2.quote'), author: t('catamaranCharter.testimonials.testimonial2.author'), url: 'https://maps.app.goo.gl/qSX9m3XRVBAA1ETx8' },
+    { quote: t('catamaranCharter.testimonials.testimonial3.quote'), author: t('catamaranCharter.testimonials.testimonial3.author'), url: 'https://maps.app.goo.gl/znDCvaW7y1c7P3bD9' },
+    { quote: t('catamaranCharter.testimonials.testimonial4.quote'), author: t('catamaranCharter.testimonials.testimonial4.author'), url: 'https://maps.app.goo.gl/okBG4Djrd7yRwqJ17' },
+    { quote: t('catamaranCharter.testimonials.testimonial5.quote'), author: t('catamaranCharter.testimonials.testimonial5.author'), url: 'https://maps.app.goo.gl/d4XsD7mviWsdh6bx8' },
+    { quote: t('catamaranCharter.testimonials.testimonial6.quote'), author: t('catamaranCharter.testimonials.testimonial6.author'), url: 'https://maps.app.goo.gl/GPpavLEa3Xhh5C4n7' },
+    { quote: t('catamaranCharter.testimonials.testimonial7.quote'), author: t('catamaranCharter.testimonials.testimonial7.author'), url: 'https://maps.app.goo.gl/RwB5zh8GNM3ReC6S7' }
   ]
 
-  return (
-    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-[#164e63] to-[#14b8a6]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">
-          {t('catamaranCharter.testimonials.title')}
-        </h2>
+  const maxStart = Math.max(0, testimonials.length - cardsPerView)
+  const currentTestimonials = testimonials.slice(currentPage, currentPage + cardsPerView)
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-white rounded-2xl p-8 shadow-xl">
-              <div className="flex gap-1 mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-amber-500 text-amber-500" />
-                ))}
-              </div>
-              <p className="text-neutral-700 leading-relaxed mb-6 italic">"{testimonial.quote}"</p>
-              <div className="border-t border-neutral-200 pt-4">
-                <p className="font-bold text-[#164e63]">{testimonial.author}</p>
-                <p className="text-sm text-neutral-600">{testimonial.charter}</p>
-              </div>
-            </div>
-          ))}
+  const nextPage = () => setCurrentPage((prev) => Math.min(prev + 1, maxStart))
+  const prevPage = () => setCurrentPage((prev) => Math.max(prev - 1, 0))
+
+  const getInitial = (name: string) => name.charAt(0).toUpperCase()
+
+  return (
+    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+        <div className="text-center mb-8 sm:mb-10">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#164e63] mb-5" style={{ fontFamily: "var(--font-playfair)" }}>
+            {t('catamaranCharter.testimonials.title')}
+          </h2>
+          <div className="flex items-center justify-center gap-2 mb-6">
+            <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+            <div className="h-2 w-2 bg-amber-500 rounded-full"></div>
+            <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+          </div>
         </div>
 
-        <div className="text-center mt-8">
-          <Link
-            href="/contact"
-            className="inline-block text-white hover:text-amber-300 font-semibold underline underline-offset-4 transition-colors text-lg"
+        <div className="relative">
+          <button
+            onClick={prevPage}
+            className="flex absolute -left-2 sm:-left-4 md:-left-14 top-1/2 -translate-y-1/2 w-9 h-9 md:w-12 md:h-12 bg-[#0c3b4a] hover:bg-[#164e63] text-white rounded-full shadow-lg items-center justify-center transition-all duration-300 hover:scale-110 z-20"
           >
-            {t('catamaranCharter.testimonials.readAll')}
-          </Link>
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          <button
+            onClick={nextPage}
+            className="flex absolute -right-2 sm:-right-4 md:-right-14 top-1/2 -translate-y-1/2 w-9 h-9 md:w-12 md:h-12 bg-[#0c3b4a] hover:bg-[#164e63] text-white rounded-full shadow-lg items-center justify-center transition-all duration-300 hover:scale-110 z-20"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {currentTestimonials.map((testimonial, index) => (
+              <a key={index} href={testimonial.url} target="_blank" rel="noopener noreferrer" className="relative bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 md:p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 flex flex-col items-center text-center cursor-pointer">
+                <div className="absolute -top-5 w-12 h-12 bg-gradient-to-br from-[#14b8a6] to-[#0d9488] rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+                  <span className="text-white text-xl font-bold">{getInitial(testimonial.author)}</span>
+                </div>
+
+                <div className="mt-4">
+                  <h4 className="text-lg font-bold text-white mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+                    {testimonial.author}
+                  </h4>
+                </div>
+
+                <p className="text-white/80 text-sm leading-relaxed mb-6 flex-1">
+                  {testimonial.quote}
+                </p>
+
+                <div className="flex items-center gap-1 pt-4 border-t border-white/20 w-full justify-center">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 fill-amber-400 text-amber-400" />
+                  ))}
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div className="flex justify-center gap-2 mt-8">
+          {Array.from({ length: maxStart + 1 }).map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentPage(index)}
+              className={`transition-all duration-300 rounded-full ${
+                currentPage === index
+                  ? 'w-8 h-3 bg-[#14b8a6]'
+                  : 'w-3 h-3 bg-gray-300 hover:bg-gray-400'
+              }`}
+            />
+          ))}
         </div>
       </div>
     </section>
@@ -778,82 +832,83 @@ function SpecialMomentsSection() {
   const { t } = useLanguage()
   const occasions = [
     {
-      icon: Heart,
       title: t('catamaranCharter.specialMoments.honeymoon.title'),
-      content: t('catamaranCharter.specialMoments.honeymoon.content'),
+      description: t('catamaranCharter.specialMoments.honeymoon.content'),
       link: '/honeymoon-sailing-phuket',
       linkText: t('catamaranCharter.specialMoments.honeymoon.linkText'),
-      gradient: 'from-pink-50 to-rose-50'
+      image: '/assets/images/catamaran-charter/couple-catamaran.webp',
     },
     {
-      icon: Users,
       title: t('catamaranCharter.specialMoments.family.title'),
-      paragraph1: t('catamaranCharter.specialMoments.family.p1'),
-      paragraph2: t('catamaranCharter.specialMoments.family.p2'),
+      description: `${t('catamaranCharter.specialMoments.family.p1')} ${t('catamaranCharter.specialMoments.family.p2')}`,
       link: '/family-sailing-phuket',
       linkText: t('catamaranCharter.specialMoments.family.linkText'),
-      gradient: 'from-blue-50 to-cyan-50'
+      image: '/assets/images/catamaran-charter/group-catamaran.jpg',
     },
     {
-      icon: Sparkles,
       title: t('catamaranCharter.specialMoments.celebrations.title'),
-      content: t('catamaranCharter.specialMoments.celebrations.content'),
+      description: t('catamaranCharter.specialMoments.celebrations.content'),
       link: '/yacht-wedding-phuket',
       linkText: t('catamaranCharter.specialMoments.celebrations.linkText'),
-      gradient: 'from-amber-50 to-orange-50'
+      image: '/assets/images/catamaran-charter/celebration-catamaran.jpg',
     }
   ]
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-neutral-50 to-white">
+    <section className="py-10 sm:py-14 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
-          {t('catamaranCharter.specialMoments.title')}
-        </h2>
-        <div className="flex justify-center mb-12">
-          <div className="flex items-center gap-2">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
+            {t('catamaranCharter.specialMoments.title')}
+          </h2>
+          <div className="flex items-center justify-center gap-2">
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
             <div className="h-2 w-2 bg-amber-500 rounded-full"></div>
             <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto">
+        <div className="space-y-6 sm:space-y-8">
           {occasions.map((occasion, index) => (
-            <div key={index} className={`bg-gradient-to-br ${occasion.gradient} rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 p-6 sm:p-8 border border-white group`}>
-              <div className="flex justify-center mb-6">
-                <div className="w-20 h-20 bg-gradient-to-br from-[#164e63] to-[#14b8a6] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                  <occasion.icon className="w-10 h-10 text-white" />
+            <div
+              key={index}
+              className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
+            >
+              <div className="grid md:grid-cols-5 gap-0">
+                <div className="relative h-64 md:h-auto md:col-span-2 overflow-hidden">
+                  <Image
+                    src={occasion.image}
+                    alt={occasion.title}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-[#0a2a35]/20"></div>
+                  <svg className="absolute bottom-0 right-0 w-full h-32 md:h-full" preserveAspectRatio="none" viewBox="0 0 100 100">
+                    <polygon points="100,0 100,100 85,100" fill="#0a2a35" opacity="0.85" />
+                  </svg>
+                </div>
+
+                <div className="md:col-span-3 bg-white p-6 sm:p-8 md:p-10 flex flex-col justify-center relative">
+                  <div className="absolute left-0 top-0 bottom-0 w-8 md:w-12 bg-gradient-to-r from-[#0a2a35] to-transparent opacity-60"></div>
+
+                  <div className="relative z-10">
+                    <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#164e63] mb-3 sm:mb-4">
+                      {occasion.title}
+                    </h3>
+
+                    <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6">
+                      {occasion.description}
+                    </p>
+
+                    <LocaleLink
+                      href={occasion.link}
+                      className="inline-flex items-center justify-center bg-gradient-to-r from-[#14b8a6] to-[#0d9488] hover:from-[#0d9488] hover:to-[#0a7a6a] text-white font-bold px-6 py-3 rounded-xl text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-fit"
+                    >
+                      {occasion.linkText}
+                    </LocaleLink>
+                  </div>
                 </div>
               </div>
-
-              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-4 text-center">
-                {occasion.title}
-              </h3>
-
-              {'content' in occasion ? (
-                <p className="text-neutral-700 leading-relaxed mb-6 text-center">
-                  {occasion.content}
-                </p>
-              ) : (
-                <>
-                  <p className="text-neutral-700 leading-relaxed mb-4 text-center">
-                    {occasion.paragraph1}
-                  </p>
-                  {occasion.paragraph2 && (
-                    <p className="text-neutral-700 leading-relaxed mb-6 text-center">
-                      {occasion.paragraph2}
-                    </p>
-                  )}
-                </>
-              )}
-
-              <Link
-                href={occasion.link}
-                className="inline-flex items-center justify-center w-full bg-gradient-to-r from-[#164e63] to-[#14b8a6] text-white font-semibold py-3 px-6 rounded-xl hover:shadow-lg transition-all duration-300 hover:scale-105"
-              >
-                {occasion.linkText}
-              </Link>
             </div>
           ))}
         </div>
@@ -864,80 +919,91 @@ function SpecialMomentsSection() {
 
 function CatamaranVsMonohullSection() {
   const { t } = useLanguage()
+
+  const features = [
+    'deckSpace', 'stability', 'cabins', 'seasickness', 'swimAccess',
+  ]
+
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-white">
+    <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-12 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
-          {t('catamaranCharter.vsMonohull.title')}
-        </h2>
-
-        <div className="max-w-5xl mx-auto mb-12">
-          <h3 className="text-2xl sm:text-3xl font-bold text-[#164e63] mb-6 text-center">
+        <div className="text-center mb-10 sm:mb-14">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
+            {t('catamaranCharter.vsMonohull.title')}
+          </h2>
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+            <div className="h-2 w-2 bg-amber-500 rounded-full"></div>
+            <div className="h-1 w-12 bg-[#164e63] rounded-full"></div>
+          </div>
+          <p className="text-base sm:text-lg text-neutral-600 max-w-3xl mx-auto">
             {t('catamaranCharter.vsMonohull.subtitle')}
-          </h3>
+          </p>
+        </div>
 
-          <div className="overflow-x-auto -mx-4 sm:mx-0">
-            <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden min-w-[640px]">
-              <thead>
-                <tr className="bg-[#164e63] text-white">
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.feature')}</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.catamaran')}</th>
-                  <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.monohull')}</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b border-neutral-200">
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.deckSpace.label')}</td>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.deckSpace.catamaran')}</td>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-600 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.deckSpace.monohull')}</td>
-                </tr>
-                <tr className="bg-neutral-50 border-b border-neutral-200">
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.stability.label')}</td>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.stability.catamaran')}</td>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-600 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.stability.monohull')}</td>
-                </tr>
-                <tr className="border-b border-neutral-200">
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.cabins.label')}</td>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.cabins.catamaran')}</td>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-600 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.cabins.monohull')}</td>
-                </tr>
-                <tr className="bg-neutral-50 border-b border-neutral-200">
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.seasickness.label')}</td>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.seasickness.catamaran')}</td>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-600 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.seasickness.monohull')}</td>
-                </tr>
-                <tr>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.swimAccess.label')}</td>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.swimAccess.catamaran')}</td>
-                  <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-600 text-sm sm:text-base">{t('catamaranCharter.vsMonohull.table.swimAccess.monohull')}</td>
-                </tr>
-              </tbody>
-            </table>
+        <div className="max-w-5xl mx-auto mb-10 sm:mb-14">
+          <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-2xl shadow-xl overflow-hidden">
+            <div className="grid grid-cols-2">
+              <div className="relative h-52 sm:h-60 md:h-72 overflow-hidden">
+                <Image src="/assets/images/catamaran-charter/Catamaran_luxury.jpg" alt="Catamaran" fill className="object-cover" />
+              </div>
+              <div className="relative h-52 sm:h-60 md:h-72 overflow-hidden border-l-2 border-[#164e63]">
+                <Image src="/assets/images/home/day-sailing1.jpg" alt="Monohull" fill className="object-cover" />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 border-b border-white/10">
+              <div className="px-4 sm:px-6 py-3 sm:py-4 text-center">
+                <span className="font-bold text-sm sm:text-base text-white uppercase tracking-wider">{t('catamaranCharter.vsMonohull.table.catamaran')}</span>
+              </div>
+              <div className="px-4 sm:px-6 py-3 sm:py-4 text-center border-l border-white/10">
+                <span className="font-bold text-sm sm:text-base text-white uppercase tracking-wider">{t('catamaranCharter.vsMonohull.table.monohull')}</span>
+              </div>
+            </div>
+
+            {features.map((key, i) => (
+              <div key={key} className={`grid grid-cols-2 border-b border-white/10 ${i % 2 === 0 ? 'bg-white/5' : 'bg-white/[0.02]'}`}>
+                <div className="px-4 sm:px-6 py-4 sm:py-5">
+                  <span className="text-[#14b8a6] text-[10px] sm:text-xs font-semibold uppercase tracking-wider">{t(`catamaranCharter.vsMonohull.table.${key}.label`)}: </span>
+                  <span className="text-white text-xs sm:text-sm leading-relaxed">{t(`catamaranCharter.vsMonohull.table.${key}.catamaran`)}</span>
+                </div>
+                <div className="px-4 sm:px-6 py-4 sm:py-5 border-l border-white/10">
+                  <span className="text-[#14b8a6] text-[10px] sm:text-xs font-semibold uppercase tracking-wider">{t(`catamaranCharter.vsMonohull.table.${key}.label`)}: </span>
+                  <span className="text-white text-xs sm:text-sm leading-relaxed">{t(`catamaranCharter.vsMonohull.table.${key}.monohull`)}</span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
-        <div className="max-w-5xl mx-auto prose prose-lg text-neutral-700 leading-relaxed space-y-6">
-          <div>
-            <h3 className="text-2xl sm:text-3xl font-bold text-[#164e63] mb-4">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-neutral-100 hover:shadow-xl transition-shadow">
+            <div className="w-12 h-12 bg-gradient-to-br from-[#164e63] to-[#14b8a6] rounded-xl flex items-center justify-center mb-5">
+              <Anchor className="w-6 h-6 text-white" />
+            </div>
+            <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3">
               {t('catamaranCharter.vsMonohull.anchorage.title')}
             </h3>
-            <p>
+            <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">
               {t('catamaranCharter.vsMonohull.anchorage.text')}
             </p>
           </div>
 
-          <div>
-            <h3 className="text-2xl sm:text-3xl font-bold text-[#164e63] mb-4">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-neutral-100 hover:shadow-xl transition-shadow">
+            <div className="w-12 h-12 bg-gradient-to-br from-[#164e63] to-[#14b8a6] rounded-xl flex items-center justify-center mb-5">
+              <Waves className="w-6 h-6 text-white" />
+            </div>
+            <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-3">
               {t('catamaranCharter.vsMonohull.calm.title')}
             </h3>
-            <p className="mb-4">
+            <p className="text-neutral-600 leading-relaxed mb-3 text-sm sm:text-base">
               {t('catamaranCharter.vsMonohull.calm.p1')}
             </p>
-            <p>
+            <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">
               {t('catamaranCharter.vsMonohull.calm.p2')}{' '}
-              <Link href="/bareboat-charter-phuket" className="text-[#164e63] hover:text-[#14b8a6] underline underline-offset-2">
+              <LocaleLink href="/bareboat-charter-phuket" className="text-[#14b8a6] hover:text-[#164e63] font-medium underline underline-offset-2 transition-colors">
                 {t('catamaranCharter.vsMonohull.calm.link')}
-              </Link>
+              </LocaleLink>
             </p>
           </div>
         </div>
@@ -1017,9 +1083,9 @@ function CTABlock3() {
             {t('catamaranCharter.cta3.text')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
+            <LocaleLink href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap">
               {t('catamaranCharter.cta3.button1')}
-            </Link>
+            </LocaleLink>
             <a
               href="https://wa.me/66612345623"
               target="_blank"
@@ -1118,30 +1184,30 @@ function PlanYourCharterSection() {
         </div>
 
         <div className="max-w-5xl mx-auto space-y-8">
-          <div className="bg-gradient-to-br from-neutral-50 to-white rounded-2xl shadow-lg p-8 border border-neutral-200">
-            <h3 className="text-2xl sm:text-3xl font-bold text-[#164e63] mb-4">
+          <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-2xl shadow-lg p-8">
+            <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">
               {t('catamaranCharter.planCharter.confidence.title')}
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-[#164e63] flex-shrink-0 mt-0.5" />
-                <span className="text-neutral-700">{t('catamaranCharter.planCharter.confidence.points.reviews')}</span>
+                <CheckCircle className="w-6 h-6 text-[#14b8a6] flex-shrink-0 mt-0.5" />
+                <span className="text-white/90">{t('catamaranCharter.planCharter.confidence.points.reviews')}</span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-[#164e63] flex-shrink-0 mt-0.5" />
-                <span className="text-neutral-700">{t('catamaranCharter.planCharter.confidence.points.experience')}</span>
+                <CheckCircle className="w-6 h-6 text-[#14b8a6] flex-shrink-0 mt-0.5" />
+                <span className="text-white/90">{t('catamaranCharter.planCharter.confidence.points.experience')}</span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-[#164e63] flex-shrink-0 mt-0.5" />
-                <span className="text-neutral-700">{t('catamaranCharter.planCharter.confidence.points.licensed')}</span>
+                <CheckCircle className="w-6 h-6 text-[#14b8a6] flex-shrink-0 mt-0.5" />
+                <span className="text-white/90">{t('catamaranCharter.planCharter.confidence.points.licensed')}</span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-[#164e63] flex-shrink-0 mt-0.5" />
-                <span className="text-neutral-700">{t('catamaranCharter.planCharter.confidence.points.award')}</span>
+                <CheckCircle className="w-6 h-6 text-[#14b8a6] flex-shrink-0 mt-0.5" />
+                <span className="text-white/90">{t('catamaranCharter.planCharter.confidence.points.award')}</span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-[#164e63] flex-shrink-0 mt-0.5" />
-                <span className="text-neutral-700">{t('catamaranCharter.planCharter.confidence.points.refund')}</span>
+                <CheckCircle className="w-6 h-6 text-[#14b8a6] flex-shrink-0 mt-0.5" />
+                <span className="text-white/90">{t('catamaranCharter.planCharter.confidence.points.refund')}</span>
               </li>
             </ul>
           </div>
@@ -1240,7 +1306,7 @@ function FAQSection() {
                   openIndex === index ? 'max-h-96' : 'max-h-0'
                 }`}
               >
-                <div className="px-6 pb-5 pl-20">
+                <div className="px-4 sm:px-6 pb-5 pl-10 sm:pl-16 md:pl-20">
                   <p className="text-neutral-700 leading-relaxed">{faq.answer}</p>
                 </div>
               </div>
@@ -1281,9 +1347,9 @@ function FinalCTASection() {
             </div>
           </div>
 
-          <Link href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap mb-6">
+          <LocaleLink href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap mb-6">
             {t('catamaranCharter.finalCta.button')}
-          </Link>
+          </LocaleLink>
 
           <div className="border-t border-white/20 pt-6 mt-6">
             <div className="flex items-start gap-2 text-white/70 text-xs sm:text-sm max-w-2xl mx-auto text-left mb-2">
