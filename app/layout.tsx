@@ -6,8 +6,9 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://phuket-sailing.vercel.app'),
   title: 'Phuket Sailing – Private Yacht & Catamaran Charters | Day Trips to Overnight Adventures',
-  description: 'Sail Phuket\'s most beautiful islands with Phuket Sailing — 30 years of experience, 800+ five-star reviews. Private yachts, catamarans, overnight trips to Phi Phi, Racha Islands & Koh Lipe. Get your custom quote today.',
+  description: 'Sail Phuket\'s most beautiful islands with Phuket Sailing — 30 years of experience, 800+ ★★★★★ reviews. Private yachts, catamarans, overnight trips to Phi Phi, Racha Islands & Koh Lipe. Get your custom quote today.',
   keywords: [
     'Phuket sailing',
     'sailing Phuket',
@@ -25,11 +26,25 @@ export const metadata: Metadata = {
   authors: [{ name: 'Phuket Sailing' }],
   openGraph: {
     title: 'Phuket Sailing – Private Yacht & Catamaran Charters | Day Trips to Overnight Adventures',
-    description: 'Sail Phuket\'s most beautiful islands with Phuket Sailing — 30 years of experience, 800+ five-star reviews. Private yachts, catamarans, overnight trips to Phi Phi, Racha Islands & Koh Lipe. Get your custom quote today.',
-    url: 'https://phuket-sailing.com',
+    description: 'Sail Phuket\'s most beautiful islands with Phuket Sailing — 30 years of experience, 800+ ★★★★★ reviews. Private yachts, catamarans, overnight trips to Phi Phi, Racha Islands & Koh Lipe. Get your custom quote today.',
+    url: 'https://phuket-sailing.vercel.app',
     siteName: 'Phuket Sailing',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/assets/images/home/hero2.png',
+        width: 1200,
+        height: 630,
+        alt: 'Phuket Sailing – Private Yacht & Catamaran Charters',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Phuket Sailing – Private Yacht & Catamaran Charters',
+    description: 'Sail Phuket\'s most beautiful islands with Phuket Sailing — 30 years of experience, 800+ ★★★★★ reviews. Private yachts, catamarans, overnight trips to Phi Phi, Racha Islands & Koh Lipe.',
+    images: ['/assets/images/home/hero2.png'],
   },
   robots: {
     index: true,

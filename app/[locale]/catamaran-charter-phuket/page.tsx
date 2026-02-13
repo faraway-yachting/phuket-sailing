@@ -6,8 +6,10 @@ import { LocaleLink } from '@/components/shared/LocaleLink'
 import { CTAButton } from '@/components/shared/CTAButton'
 import { ContactCards } from '@/components/shared/ContactCards'
 import { ReviewBadges } from '@/components/shared/ReviewBadges'
+import { FeaturedYachts } from '@/components/shared/FeaturedYachts'
 import { useLanguage } from '@/components/providers/LanguageProvider'
-import { Phone, MessageCircle, Mail, MapPin, CheckCircle, HelpCircle, ChevronDown, Star, Anchor, Users, Ship, Waves, Shield, Award, Calendar, Clock, Compass } from 'lucide-react'
+import { Phone, MessageCircle, Mail, MapPin, CheckCircle, Star, Anchor, Users, Ship, Waves, Shield, Award, Calendar, Clock, Compass } from 'lucide-react'
+import { FAQAccordion } from '@/components/shared/FAQAccordion'
 import { CatamaranFAQSchema } from './faq-schema'
 
 export default function CatamaranCharterPhuketPage() {
@@ -17,15 +19,18 @@ export default function CatamaranCharterPhuketPage() {
       <main className="min-h-screen">
         <HeroSection />
         <ContactCardsSection />
+        <FeaturedYachts />
         <CTABlock1 />
         <IntroSection />
         <WhyCatamaranSection />
         <CTABlock2 />
         <CharterOptionsSection />
         <DestinationsSection />
+        <ContactCardsSection />
         <TestimonialsSection />
         <CrewAndComfortSection />
         <SpecialMomentsSection />
+        <ContactCardsSection />
         <CatamaranVsMonohullSection />
         <CustomExperienceSection />
         <CTABlock3 />
@@ -54,10 +59,10 @@ function HeroSection() {
 
       <div className="absolute inset-0 bg-gradient-to-b from-[#164e63]/60 via-[#164e63]/40 to-[#164e63]/60 z-[1]"></div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-16 sm:pt-20 md:pt-24 pb-8 sm:pb-10 md:pb-12 flex justify-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-28 sm:pt-32 md:pt-36 pb-8 sm:pb-10 md:pb-12 flex justify-center">
         <div className="max-w-4xl text-center">
           <h1
-            className="font-[family-name:var(--font-playfair)] text-white mb-6 leading-[1.2] text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold"
+            className="font-[family-name:var(--font-playfair)] text-white mb-6 leading-[1.2] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold"
             style={{ textShadow: '3px 3px 12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.6)' }}
           >
             {t('catamaranCharter.hero.title')}
@@ -71,12 +76,14 @@ function HeroSection() {
               {t('catamaranCharter.hero.description1')}
             </p>
 
-            <p
-              className="text-base sm:text-lg md:text-xl text-white/95 leading-relaxed"
-              style={{ textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.6)' }}
-            >
-              {t('catamaranCharter.hero.description2')}
-            </p>
+            {t('catamaranCharter.hero.description2') && (
+              <p
+                className="text-base sm:text-lg md:text-xl text-white/95 leading-relaxed"
+                style={{ textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.6)' }}
+              >
+                {t('catamaranCharter.hero.description2')}
+              </p>
+            )}
           </div>
 
           <CTAButton
@@ -145,7 +152,7 @@ function IntroSection() {
           </h2>
 
           {/* Private Sailing Experiences - Text Left, Image Right */}
-          <div className="mb-20">
+          <div className="mb-2">
             <div className="grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-12 items-center">
               <div className="md:col-span-3">
                 <h3 className="text-2xl sm:text-3xl font-bold text-[#164e63] mb-4">
@@ -154,7 +161,6 @@ function IntroSection() {
                 <div className="text-neutral-700 leading-relaxed space-y-4">
                   <p>{t('catamaranCharter.intro.section1.p1')}</p>
                   <p>{t('catamaranCharter.intro.section1.p2')}</p>
-                  <p>{t('catamaranCharter.intro.section1.p3')}</p>
                 </div>
               </div>
               <div className="md:col-span-2">
@@ -181,7 +187,7 @@ function IntroSection() {
                     style={{ borderRadius: '60% 40% 50% 50% / 50% 60% 40% 50%' }}
                   >
                     <Image
-                      src="/assets/images/catamaran-charter/catamaran-private.jpeg"
+                      src="/assets/images/catamaran-charter/Catamaran-private.jpeg"
                       alt="Private Catamaran Charter Phuket"
                       fill
                       className="object-cover"
@@ -277,7 +283,7 @@ function WhyCatamaranSection() {
       imageLeft: true,
       title: t('catamaranCharter.whyCatamaran.features.space.title'),
       paragraph1: t('catamaranCharter.whyCatamaran.features.space.p1'),
-      paragraph2: t('catamaranCharter.whyCatamaran.features.space.p2'),
+      paragraph2: null,
     },
     {
       image: '/assets/images/home/hero3.jpeg',
@@ -285,7 +291,7 @@ function WhyCatamaranSection() {
       imageLeft: false,
       title: t('catamaranCharter.whyCatamaran.features.safety.title'),
       paragraph1: t('catamaranCharter.whyCatamaran.features.safety.p1'),
-      paragraph2: t('catamaranCharter.whyCatamaran.features.safety.p2'),
+      paragraph2: null,
     },
     {
       image: '/assets/images/catamaran-charter/catamaran-party.jpeg',
@@ -316,20 +322,20 @@ function WhyCatamaranSection() {
             <div
               key={index}
               className={`relative flex flex-col md:flex-row items-start gap-8 md:gap-0 ${
-                index === 0 ? 'md:mb-0' : index === 1 ? 'md:-mt-24' : 'md:-mt-24'
+                index === 0 ? 'md:mb-0' : index === 1 ? 'md:-mt-44' : 'md:-mt-24'
               }`}
               style={{ zIndex: index + 1 }}
             >
               {section.imageLeft ? (
                 <>
                   {/* Image LEFT */}
-                  <div className={`w-full md:w-[48%] flex-shrink-0 ${index === 2 ? 'md:-mt-48' : ''}`}>
-                    <div className="relative h-72 sm:h-96 md:h-[650px] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(12,59,74,0.25)]">
+                  <div className={`w-full md:w-[48%] flex-shrink-0 ${index === 2 ? 'md:-mt-6' : ''}`}>
+                    <div className="relative h-72 sm:h-96 md:h-[500px] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(12,59,74,0.25)]">
                       <Image src={section.image} alt={section.imageAlt} fill className="object-cover" />
                     </div>
                   </div>
                   {/* Text RIGHT */}
-                  <div className={`w-full md:w-[52%] md:pl-12 bg-white md:bg-transparent md:py-8 ${index === 2 ? 'md:mt-16' : ''}`}>
+                  <div className={`w-full md:w-[52%] md:pl-12 bg-white md:bg-transparent md:py-8 ${index === 2 ? 'md:mt-8' : ''}`}>
                     <h3 className="text-2xl sm:text-3xl font-bold text-[#164e63] mb-4">
                       {section.title}
                     </h3>
@@ -342,7 +348,7 @@ function WhyCatamaranSection() {
               ) : (
                 <>
                   {/* Text LEFT - Centered */}
-                  <div className="w-full md:w-[52%] md:pr-12 bg-white md:bg-transparent order-2 md:order-1 flex items-center md:mt-20">
+                  <div className="w-full md:w-[52%] md:pr-12 bg-white md:bg-transparent order-2 md:order-1 flex items-center md:mt-8">
                     <div>
                       <h3 className="text-2xl sm:text-3xl font-bold text-[#164e63] mb-4">
                         {section.title}
@@ -353,9 +359,9 @@ function WhyCatamaranSection() {
                       )}
                     </div>
                   </div>
-                  {/* Image RIGHT - Tall overlapping image */}
-                  <div className="w-full md:w-[48%] flex-shrink-0 md:pr-16 order-1 md:order-2 md:-mt-48">
-                    <div className="relative h-72 sm:h-96 md:h-[700px] lg:h-[950px] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(12,59,74,0.25)]" style={{ zIndex: 10 }}>
+                  {/* Image RIGHT - Overlapping image */}
+                  <div className="w-full md:w-[44%] flex-shrink-0 md:pr-16 order-1 md:order-2 md:-mt-32">
+                    <div className="relative h-72 sm:h-80 md:h-[420px] lg:h-[480px] rounded-3xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(12,59,74,0.25)]" style={{ zIndex: 10 }}>
                       <Image src={section.image} alt={section.imageAlt} fill className="object-cover" />
                     </div>
                   </div>
@@ -767,8 +773,7 @@ function CrewAndComfortSection() {
       icon: Award,
       title: t('catamaranCharter.crew.features.meals.title'),
       paragraph1: t('catamaranCharter.crew.features.meals.p1'),
-      paragraph2: t('catamaranCharter.crew.features.meals.p2'),
-      paragraph3: t('catamaranCharter.crew.features.meals.p3')
+      paragraph2: t('catamaranCharter.crew.features.meals.p2')
     }
   ]
 
@@ -809,13 +814,8 @@ function CrewAndComfortSection() {
                     {feature.paragraph1}
                   </p>
                   {feature.paragraph2 && (
-                    <p className="text-neutral-700 leading-relaxed mb-4 text-center">
+                    <p className="text-neutral-700 leading-relaxed text-center">
                       {feature.paragraph2}
-                    </p>
-                  )}
-                  {feature.paragraph3 && (
-                    <p className="text-neutral-700 leading-relaxed text-center font-medium text-[#164e63]">
-                      {feature.paragraph3}
                     </p>
                   )}
                 </>
@@ -1228,93 +1228,26 @@ function PlanYourCharterSection() {
 
 function FAQSection() {
   const { t } = useLanguage()
-  const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   const faqs = [
-    {
-      question: t('catamaranCharter.faq.questions.cost.q'),
-      answer: t('catamaranCharter.faq.questions.cost.a')
-    },
-    {
-      question: t('catamaranCharter.faq.questions.guests.q'),
-      answer: t('catamaranCharter.faq.questions.guests.a')
-    },
-    {
-      question: t('catamaranCharter.faq.questions.experience.q'),
-      answer: t('catamaranCharter.faq.questions.experience.a')
-    },
-    {
-      question: t('catamaranCharter.faq.questions.children.q'),
-      answer: t('catamaranCharter.faq.questions.children.a')
-    },
-    {
-      question: t('catamaranCharter.faq.questions.difference.q'),
-      answer: t('catamaranCharter.faq.questions.difference.a')
-    },
-    {
-      question: t('catamaranCharter.faq.questions.islands.q'),
-      answer: t('catamaranCharter.faq.questions.islands.a')
-    },
-    {
-      question: t('catamaranCharter.faq.questions.included.q'),
-      answer: t('catamaranCharter.faq.questions.included.a')
-    },
-    {
-      question: t('catamaranCharter.faq.questions.bestTime.q'),
-      answer: t('catamaranCharter.faq.questions.bestTime.a')
-    },
-    {
-      question: t('catamaranCharter.faq.questions.advance.q'),
-      answer: t('catamaranCharter.faq.questions.advance.a')
-    },
-    {
-      question: t('catamaranCharter.faq.questions.weather.q'),
-      answer: t('catamaranCharter.faq.questions.weather.a')
-    }
+    { question: t('catamaranCharter.faq.questions.cost.q'), answer: t('catamaranCharter.faq.questions.cost.a') },
+    { question: t('catamaranCharter.faq.questions.guests.q'), answer: t('catamaranCharter.faq.questions.guests.a') },
+    { question: t('catamaranCharter.faq.questions.experience.q'), answer: t('catamaranCharter.faq.questions.experience.a') },
+    { question: t('catamaranCharter.faq.questions.children.q'), answer: t('catamaranCharter.faq.questions.children.a') },
+    { question: t('catamaranCharter.faq.questions.difference.q'), answer: t('catamaranCharter.faq.questions.difference.a') },
+    { question: t('catamaranCharter.faq.questions.islands.q'), answer: t('catamaranCharter.faq.questions.islands.a') },
+    { question: t('catamaranCharter.faq.questions.included.q'), answer: t('catamaranCharter.faq.questions.included.a') },
+    { question: t('catamaranCharter.faq.questions.bestTime.q'), answer: t('catamaranCharter.faq.questions.bestTime.a') },
+    { question: t('catamaranCharter.faq.questions.advance.q'), answer: t('catamaranCharter.faq.questions.advance.a') },
+    { question: t('catamaranCharter.faq.questions.weather.q'), answer: t('catamaranCharter.faq.questions.weather.a') },
   ]
 
   return (
-    <section id="faq" className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-neutral-50 to-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
-          {t('catamaranCharter.faq.title')}
-        </h2>
-        <p className="text-xl text-neutral-600 mb-12 text-center">{t('catamaranCharter.faq.subtitle')}</p>
-
-        <div className="mt-12 space-y-4">
-          {faqs.map((faq, index) => (
-            <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden border border-neutral-200">
-              <button
-                onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-neutral-50 transition-colors duration-200"
-              >
-                <div className="flex items-center gap-4 flex-1">
-                  <div className="w-10 h-10 bg-[#164e63] rounded-full flex items-center justify-center flex-shrink-0">
-                    <HelpCircle className="w-5 h-5 text-white" />
-                  </div>
-                  <span className="text-lg font-bold text-[#164e63] pr-4">{faq.question}</span>
-                </div>
-                <ChevronDown
-                  className={`w-6 h-6 text-[#164e63] transition-transform duration-300 flex-shrink-0 ${
-                    openIndex === index ? 'rotate-180' : ''
-                  }`}
-                />
-              </button>
-
-              <div
-                className={`overflow-hidden transition-all duration-300 ${
-                  openIndex === index ? 'max-h-96' : 'max-h-0'
-                }`}
-              >
-                <div className="px-4 sm:px-6 pb-5 pl-10 sm:pl-16 md:pl-20">
-                  <p className="text-neutral-700 leading-relaxed">{faq.answer}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <FAQAccordion
+      faqs={faqs}
+      title={t('catamaranCharter.faq.title')}
+      subtitle={t('catamaranCharter.faq.subtitle')}
+    />
   )
 }
 

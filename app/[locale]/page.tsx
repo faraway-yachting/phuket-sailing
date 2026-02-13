@@ -7,6 +7,7 @@ import { ContactCards } from '@/components/shared/ContactCards'
 import { ReviewBadges } from '@/components/shared/ReviewBadges'
 import { SectionHeading } from '@/components/shared/SectionHeading'
 import { Phone, MessageCircle, ChevronLeft, ChevronRight, Anchor, Sailboat, Moon, Ship, MapPin, CheckCircle, CreditCard, Calendar, HelpCircle } from 'lucide-react'
+import { FAQAccordion } from '@/components/shared/FAQAccordion'
 import { useLanguage } from '@/components/providers/LanguageProvider'
 import { fetchAllYachts } from '@/lib/api/yachts'
 import type { Yacht } from '@/lib/types/home'
@@ -1644,61 +1645,23 @@ function FAQSection() {
   const { t } = useLanguage()
 
   const faqs = [
-    {
-      question: t('faq.bestTime.question'),
-      answer: t('faq.bestTime.answer'),
-    },
-    {
-      question: t('faq.catamaranVsSailing.question'),
-      answer: t('faq.catamaranVsSailing.answer'),
-    },
-    {
-      question: t('faq.recommendedNights.question'),
-      answer: t('faq.recommendedNights.answer'),
-    },
-    {
-      question: t('faq.familyFriendly.question'),
-      answer: t('faq.familyFriendly.answer'),
-    },
-    {
-      question: t('faq.romantic.question'),
-      answer: t('faq.romantic.answer'),
-    },
-    {
-      question: t('faq.soloTravelers.question'),
-      answer: t('faq.soloTravelers.answer'),
-    },
-    {
-      question: t('faq.whatsIncluded.question'),
-      answer: t('faq.whatsIncluded.answer'),
-    },
-    {
-      question: t('faq.bareboatLicense.question'),
-      answer: t('faq.bareboatLicense.answer'),
-    },
-    {
-      question: t('faq.chooseItinerary.question'),
-      answer: t('faq.chooseItinerary.answer'),
-    },
+    { question: t('faq.bestTime.question'), answer: t('faq.bestTime.answer') },
+    { question: t('faq.catamaranVsSailing.question'), answer: t('faq.catamaranVsSailing.answer') },
+    { question: t('faq.recommendedNights.question'), answer: t('faq.recommendedNights.answer') },
+    { question: t('faq.familyFriendly.question'), answer: t('faq.familyFriendly.answer') },
+    { question: t('faq.romantic.question'), answer: t('faq.romantic.answer') },
+    { question: t('faq.soloTravelers.question'), answer: t('faq.soloTravelers.answer') },
+    { question: t('faq.whatsIncluded.question'), answer: t('faq.whatsIncluded.answer') },
+    { question: t('faq.bareboatLicense.question'), answer: t('faq.bareboatLicense.answer') },
+    { question: t('faq.chooseItinerary.question'), answer: t('faq.chooseItinerary.answer') },
   ]
 
   return (
-    <section id="faqs" className="py-10 sm:py-14 bg-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading>
-          {t('faq.title')}
-        </SectionHeading>
-        
-        <div className="space-y-4 sm:space-y-6">
-          {faqs.map((faq, index) => (
-            <div key={index} className="bg-ocean-50 rounded-lg p-4 sm:p-6 border border-ocean-200">
-              <h2 className="text-lg sm:text-xl font-bold text-ocean-900 mb-2 sm:mb-3">{faq.question}</h2>
-              <p className="text-neutral-700 leading-relaxed text-sm sm:text-base">{faq.answer}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <FAQAccordion
+      faqs={faqs}
+      title={t('faq.title')}
+      id="faqs"
+    />
   )
 }
 
