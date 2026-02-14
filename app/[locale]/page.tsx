@@ -8,6 +8,7 @@ import { ReviewBadges } from '@/components/shared/ReviewBadges'
 import { SectionHeading } from '@/components/shared/SectionHeading'
 import { Phone, MessageCircle, ChevronLeft, ChevronRight, Anchor, Sailboat, Moon, Ship, MapPin, CheckCircle, CreditCard, Calendar, HelpCircle } from 'lucide-react'
 import { FAQAccordion } from '@/components/shared/FAQAccordion'
+import { BookingCTA } from '@/components/shared/BookingCTA'
 import { useLanguage } from '@/components/providers/LanguageProvider'
 import { fetchAllYachts } from '@/lib/api/yachts'
 import type { Yacht } from '@/lib/types/home'
@@ -35,7 +36,11 @@ export default function Home() {
       <BookingProcessSection />
       <ExplorePages />
       <FAQSection />
-      <FinalCTASection />
+      <BookingCTA
+        title="Start Planning Your Charter"
+        subtitle="Private Sailing from €800/Day | Day Trips | Overnight Cruises | Multi-Day Expeditions"
+        buttonText="GET YOUR FREE QUOTE →"
+      />
     </main>
   )
 }
@@ -338,7 +343,7 @@ function FeaturedYachtsSection() {
                 </div>
 
                 <div className="flex justify-center">
-                  <span className="bg-amber-gradient text-white font-bold py-2.5 px-8 sm:px-14 md:px-20 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 inline-flex items-center justify-center">
+                  <span className="bg-amber-gradient text-white font-bold py-2.5 px-8 sm:px-12 md:px-16 rounded-xl text-sm transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 inline-flex items-center justify-center">
                     {t('featuredYachts.bookNow')}
                   </span>
                 </div>
@@ -1374,7 +1379,7 @@ function PricingSection() {
             </ul>
           </div>
           
-          <div className=" bg-[#0d4d5c] backdrop-blur rounded-2xl px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 shadow-2xl border-2 border-white/10">
+          <div className="bg-[#0d4d5c] backdrop-blur rounded-2xl px-4 py-6 sm:px-6 sm:py-8 md:px-8 md:py-10 shadow-2xl border-2 border-white/10">
             <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 md:mb-8">
               <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-white/20 backdrop-blur-sm rounded-lg flex items-center justify-center shadow-lg flex-shrink-0">
                 <svg className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1665,34 +1670,3 @@ function FAQSection() {
   )
 }
 
-function FinalCTASection() {
-  const { t } = useLanguage()
-
-  return (
-    <section className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 py-6 sm:py-8">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
-          <h2 className="text-white mb-6 sm:mb-8 text-xl sm:text-2xl md:text-3xl font-bold">{t('finalCta.title')}</h2>
-
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center max-w-xl mx-auto">
-          <a
-            href="tel:+6661234562"
-              className="group flex items-center justify-center gap-2 sm:gap-3 bg-white hover:bg-ocean-50 text-ocean-700 font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
-          >
-              <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
-              <span className="text-sm sm:text-base md:text-lg">{t('finalCta.callNow')}</span>
-          </a>
-          
-          <a
-            href="https://wa.me/6661234562"
-              className="group flex items-center justify-center gap-2 sm:gap-3 bg-green-600 hover:bg-green-700 text-white font-semibold px-8 sm:px-10 md:px-12 py-3 sm:py-4 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-full sm:w-auto whitespace-nowrap"
-          >
-              <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
-              <span className="text-sm sm:text-base md:text-lg">{t('finalCta.whatsapp')}</span>
-          </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}

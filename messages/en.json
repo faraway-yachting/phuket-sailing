@@ -348,7 +348,7 @@
     "selectChannel": "Select channel",
     "channels": {
       "whatsapp": "WhatsApp",
-      "email": "Email",
+    "email": "Email",
       "line": "Line"
     },
     "yachtRange": "Yacht Range",
@@ -962,11 +962,11 @@
   "luxuryYachtCharter": {
     "hero": {
       "badge1": "Est. 1996",
-      "badge2": "750+ Five-Star Reviews",
+      "badge2": "850+ Five-Star Reviews",
       "badge3": "World Luxury Travel Award 2025",
-      "title": "Luxury Sailing Yacht Charter Phuket",
-      "subtitle": "Private Yachting in Thailand",
-      "description": "The Andaman Sea's most beautiful islands, a private vessel, and a crew dedicated entirely to your group. No shared tours, no fixed schedules — just Thailand by sail, on your terms.",
+      "title": "Luxury Sailing Yacht Charter Phuket – Private Yachting in Thailand",
+      "subtitle": "Private sailing yachts and luxury catamarans in Phuket — fully crewed, fully tailored, entirely yours.",
+      "description": "Est. 1996 · 850+ Five-Star Reviews · World Luxury Travel Award 2025",
       "cta1": "Get Your Private Charter Quote",
       "cta2": "Explore Our Fleet"
     },
@@ -1088,15 +1088,15 @@
       "islands": {
         "phiPhi": {
           "title": "Phi Phi Islands and Iconic Andaman Bays",
-          "description": "Maya Bay, Monkey Beach, Tonsai Bay — among Thailand's most iconic settings. By private sailing yacht, you arrive on your own schedule, anchor away from the tour boats, and experience the islands the way they were meant to be seen. Ideal for day charters and 1-3 night trips."
+          "description": "The Phi Phi Islands — Maya Bay, Monkey Beach, Tonsai Bay — are among Thailand's most iconic settings. By private sailing yacht, you arrive on your own schedule, anchor away from the tour boats, and experience the islands the way they were meant to be seen. Ideal for day charters and 1–3 night trips from Chalong Bay."
         },
         "phangNga": {
-          "title": "Phang Nga Bay and Limestone Coves",
-          "description": "Limestone karsts rise from green water, sea caves open into hidden lagoons, and traditional stilt villages offer a glimpse of local life unchanged for generations. Koh Hong — paddled through a sea cave to a private turquoise lagoon — is a consistent highlight."
+          "title": "Phang Nga Bay and Limestone Coves on a Luxury Phuket Charter",
+          "description": "Phang Nga Bay rewards slow exploration. Limestone karsts rise from green water, sea caves open into hidden lagoons, and traditional stilt villages offer a glimpse of local life unchanged for generations. Koh Hong — paddled through a sea cave to a private turquoise lagoon — is a consistent highlight of any luxury sailing itinerary in Phuket."
         },
         "hidden": {
           "title": "Hidden Gems of the Andaman Sea",
-          "description": "Guests who take 5+ night luxury sailing charters consistently say the quieter, further islands — Koh Rok for pristine reef, Koh Ha for extraordinary snorkeling, Koh Lipe and the Butang Islands for true remoteness — are the places they remember most."
+          "description": "The Andaman Sea's best destinations aren't always the most famous. Guests who take 5+ night luxury sailing charters from Phuket consistently say the quieter, further islands — Koh Rok for pristine reef and clear water, Koh Ha for extraordinary snorkeling, Koh Lipe and the Butang Islands for true remoteness near the Malaysian border — are the places they remember most."
         }
       },
       "features": {
@@ -1106,7 +1106,7 @@
         },
         "hopping": {
           "title": "Island Hopping Routes Away from the Crowds",
-          "description": "Our skippers route every charter to keep you ahead of the busy periods — arriving at popular spots early, moving to quieter anchorages in the afternoon, and timing overnight stays so your mornings are always peaceful. On longer charters, the itinerary takes you progressively further from the day-trip zones."
+          "description": "Our skippers route every charter to keep you ahead of the busy periods — arriving at popular spots early, moving to quieter anchorages in the afternoon, and timing overnight stays so your mornings are always peaceful. On longer charters, the itinerary takes you progressively further from the day-trip zones into the Andaman Sea's most rewarding territory."
         }
       },
       "cta": "See route ideas and sailing itineraries"
@@ -1135,14 +1135,14 @@
       "title": "Professional Crew and Luxury Onboard Experience",
       "skippers": {
         "title": "Experienced Skippers with Local Andaman Sea Knowledge",
-        "description": "Our captains have spent years — often decades — navigating these specific waters. They know which anchorages are sheltered in each season, which reefs are worth the detour, and how to make a route feel effortless."
+        "description": "Our captains have spent years — often decades — navigating these specific waters. They know which anchorages are sheltered in each season, which reefs are worth the detour, and how to make a route feel effortless. Before every charter, you'll receive a full briefing and have the chance to shape the route together."
       },
       "hospitality": {
-        "title": "Five-Star Hospitality and Discreet Service",
+        "title": "Five-Star Hospitality and Discreet Service on Your Luxury Charter",
         "members": {
           "captain": {
             "title": "Captain",
-            "description": "Licensed, experienced, responsible for your safety and route planning throughout."
+            "description": "licensed, experienced, responsible for your safety and route planning throughout."
           },
           "chef": {
             "title": "Chef / Hostess",
@@ -1157,7 +1157,7 @@
       },
       "dining": {
         "title": "Dining, Drinks and Comfort at a Luxury Standard",
-        "description": "Every meal is prepared fresh onboard. Full board is included on all overnight and multi-day charters. Vegetarian, vegan, gluten-free, and other dietary needs are accommodated at no extra cost. Welcome drinks are always included; wine, champagne, and spirits can be pre-ordered."
+        "description": "Every meal is prepared fresh onboard. Full board is included on all overnight and multi-day charters — breakfasts, lunches, dinners, and snacks prepared by your personal chef. Vegetarian, vegan, gluten-free, and other dietary needs are accommodated at no extra cost. Welcome drinks are always included; wine, champagne, and spirits can be pre-ordered."
       }
     },
     "who": {
@@ -1165,39 +1165,39 @@
       "title": "Who a Luxury Sailing Charter in Phuket Is For",
       "audiences": {
         "couples": {
-          "title": "Couples Seeking an Exclusive Honeymoon or Romantic Escape",
-          "description": "A private luxury sailing charter is one of the finest honeymoon experiences available in Thailand. Candlelit dinners on deck, sunsets at anchor in a private bay, and complete privacy throughout — it's the kind of experience that a resort simply can't replicate."
+          "title": "Couples Seeking an Exclusive Honeymoon or Romantic Escape in Phuket",
+          "description": "A private luxury sailing charter is one of the finest honeymoon experiences available in Thailand. Candlelit dinners on deck, sunsets at anchor in a private bay, and complete privacy throughout — it's the kind of experience that a resort simply can't replicate. If it's a honeymoon, proposal, or anniversary, let us know when you inquire and we'll plan the right details onboard."
         },
         "families": {
           "title": "Families Wanting a High-End Phuket Island Experience",
-          "description": "Families with children discover that a wide-beam luxury catamaran offers something rare: a holiday that feels genuinely relaxing for adults while keeping children happily entertained all day. Stable hulls, protected swim stops, and a crew who handles everything."
+          "description": "Families with children discover that a wide-beam luxury catamaran offers something rare: a holiday that feels genuinely relaxing for adults while keeping children happily entertained all day. Stable hulls, protected swim stops, water toys, snorkeling, and a crew who handles everything means parents can actually switch off."
         },
         "celebrations": {
-          "title": "Groups Celebrating Special Occasions at Sea",
-          "description": "A fully private sailing yacht, a personal chef, your group and no one else — it elevates any occasion, from a milestone birthday to a reunion to a hen or stag trip. Decoration, cakes, and special setups are arranged on request."
+          "title": "Groups Celebrating Special Occasions at Sea on a Luxury Phuket Sailing Charter",
+          "description": "The Andaman Sea makes an extraordinary venue for a celebration. A fully private sailing yacht, a personal chef, your group and no one else — it elevates any occasion, from a milestone birthday to a reunion to a hen or stag trip that people will still be talking about years later. Decoration, cakes, and special setups are arranged on request."
         },
         "adventurous": {
           "title": "Adventurous Sailors and Off-the-Beaten-Path Travelers",
-          "description": "For guests who want to explore — serious snorkeling, diving at the Similan Islands, kayaking through sea caves in Phang Nga Bay, or reaching the Butang Archipelago — we build itineraries that genuinely go further and feel like a real expedition."
+          "description": "Not every luxury sailing charter in Phuket is about slow relaxation. For guests who want to explore — serious snorkeling, diving at the Similan Islands, kayaking through sea caves in Phang Nga Bay, or reaching the Butang Archipelago near the Malaysian border — we build itineraries that genuinely go further and feel like a real expedition."
         }
       },
       "cta": "Tell us your group and occasion — we'll design the right experience"
     },
     "comparison": {
       "label": "Why Private Charter",
-      "title": "Luxury Yacht Charter vs Standard Tours",
+      "title": "Luxury Yacht Charter vs Monhulls Rentals",
       "features": {
         "privacy": {
-          "title": "Greater Privacy and Personalised Service",
-          "description": "On a shared speedboat tour, every decision is made for a group of strangers. On a private luxury sailing charter in Phuket, every decision is made for you. The difference isn't subtle."
+          "title": "Greater Privacy and Personalised Service on a Luxury Charter",
+          "description": "On a shared speedboat tour, every decision — where to go, how long to stay, what to eat — is made for a group of strangers. On a private luxury sailing charter in Phuket, every decision is made for you. The difference isn't subtle."
         },
         "access": {
-          "title": "Access to Exclusive Locations and Quiet Anchorages",
-          "description": "Standard tours visit the same popular beaches at the same busy times every day. A luxury sailing charter gives you access to different anchorages, better timing, and routes that take you to destinations tours simply don't reach."
+          "title": "Access to Exclusive Phuket Locations and Quiet Anchorages",
+          "description": "Standard tours visit the same popular beaches at the same busy times every day. A luxury sailing charter gives you access to different anchorages, better timing, and routes that take you to destinations — Koh Rok, Koh Ha, Koh Lipe — that tours simply don't reach."
         },
         "premium": {
-          "title": "A Premium Alternative to Shared Tours",
-          "description": "The cost gap is smaller than most guests expect. When crew, meals, activities, and equipment are included, a private luxury sailing charter compares well to a high-end land-based holiday. The experience, however, doesn't compare at all."
+          "title": "A Premium Alternative to Shared or Speedboat Phuket Tours",
+          "description": "The cost gap is smaller than most guests expect. When crew, meals, activities, and equipment are included, a private luxury sailing charter in Phuket compares well to a high-end land-based holiday. The experience, however, doesn't compare at all."
         }
       },
       "table": {

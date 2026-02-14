@@ -4,6 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import { useLanguage } from '@/components/providers/LanguageProvider'
 import { FAQAccordion } from '@/components/shared/FAQAccordion'
+import { BookingCTA } from '@/components/shared/BookingCTA'
 import { ReviewBadges } from '@/components/shared/ReviewBadges'
 import { ContactCards } from '@/components/shared/ContactCards'
 import { FeaturedYachts } from '@/components/shared/FeaturedYachts'
@@ -17,6 +18,7 @@ import {
   ArrowRight,
   Waves,
   Users,
+  UsersRound,
   Shield,
   Bed,
   Droplets,
@@ -51,6 +53,7 @@ export default function LuxuryYachtCharterPage() {
       <FeaturedYachts />
       <PrivateChartersSection />
       <WhyChooseSection />
+      <YachtsSection />
       <ExperiencesSection />
       <DestinationsSection />
       <ContactCardsSection />
@@ -61,6 +64,11 @@ export default function LuxuryYachtCharterPage() {
       <ComparisonSection />
       <PlanSection />
       <FaqSection />
+      <BookingCTA
+        title="Start Planning Your Luxury Yacht Charter"
+        subtitle="Private Sailing Yachts & Catamarans | Day Charters | Overnight | Multi-Day Expeditions"
+        buttonText="GET YOUR FREE YACHT QUOTE →"
+      />
     </main>
   )
 }
@@ -79,8 +87,8 @@ function HeroSection() {
       />
       <div className="absolute inset-0 bg-gradient-to-br from-[#164e63]/80 via-[#0f3a47]/70 to-[#0a2a35]/80" />
 
-      <div className="relative z-10 mx-auto max-w-5xl px-4 py-32 text-center">
-        <h1 className="font-serif text-4xl font-bold leading-tight tracking-tight text-white md:text-5xl lg:text-6xl text-balance" style={{ fontFamily: "var(--font-playfair)" }}>
+      <div className="relative z-10 mx-auto max-w-5xl px-4 py-20 sm:py-24 md:py-32 text-center">
+        <h1 className="font-serif text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl text-balance" style={{ fontFamily: "var(--font-playfair)" }}>
           {t('luxuryYachtCharter.hero.title')}
         </h1>
         <p className="mx-auto mt-2 font-serif text-lg text-[#14b8a6] italic md:text-xl" style={{ fontFamily: "var(--font-playfair)" }}>
@@ -109,7 +117,7 @@ function HeroSection() {
 
 function ContactCardsSection() {
   return (
-    <section className="bg-white py-12 lg:py-16">
+    <section className="bg-white py-6 lg:py-8">
       <div className="mx-auto max-w-7xl px-4">
         <ContactCards />
       </div>
@@ -145,7 +153,7 @@ function PrivateChartersSection() {
   ]
 
   return (
-    <section className="bg-white py-20 lg:py-28">
+    <section className="bg-white py-10 lg:py-14">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-[#14b8a6]">
@@ -156,11 +164,11 @@ function PrivateChartersSection() {
           </h2>
         </div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-3">
+        <div className="mt-8 sm:mt-12 lg:mt-16 grid gap-5 sm:gap-8 md:grid-cols-3">
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="group rounded-xl border border-neutral-200 bg-white p-8 transition-all hover:border-[#14b8a6]/30 hover:shadow-lg"
+              className="group rounded-xl border border-neutral-200 bg-white p-8 transition-all hover:border-[#14b8a6]/30 hover:shadow-lg flex flex-col"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#14b8a6]/10">
                 <feature.icon className="h-6 w-6 text-[#14b8a6]" />
@@ -168,15 +176,14 @@ function PrivateChartersSection() {
               <h3 className="mt-5 font-serif text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
                 {feature.title}
               </h3>
-              <p className="mt-3 text-base leading-relaxed text-neutral-600">
+              <p className="mt-3 text-base leading-relaxed text-neutral-600 flex-1">
                 {feature.description}
               </p>
               <a
                 href={feature.href}
-                className="mt-5 inline-flex items-center gap-2 text-base font-medium text-[#14b8a6] transition-colors hover:text-[#0d9488]"
+                className="mt-6 inline-flex items-center justify-center w-full px-6 py-3 text-base font-semibold text-white bg-gradient-to-r from-[#14b8a6] to-[#0d9488] rounded-xl transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95"
               >
                 {feature.cta}
-                <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-0.5" />
               </a>
             </div>
           ))}
@@ -209,23 +216,27 @@ function WhyChooseSection() {
 
   return (
     <section
-      className="py-20 lg:py-28"
+      className="py-10 lg:py-14"
       style={{ background: "linear-gradient(to bottom right, #164e63, #0f3a47, #0a2a35)" }}
     >
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-[#14b8a6]">
-              {t('luxuryYachtCharter.whyChoose.label')}
-            </p>
-            <h2 className="mt-3 font-serif text-3xl font-bold text-white md:text-4xl text-balance" style={{ fontFamily: "var(--font-playfair)" }}>
-              {t('luxuryYachtCharter.whyChoose.title')}
-            </h2>
-            <p className="mt-4 text-lg leading-relaxed text-white/90">
-              {t('luxuryYachtCharter.whyChoose.description')}
-            </p>
+        {/* Centered Header */}
+        <div className="mx-auto max-w-3xl text-center mb-10 sm:mb-16">
+          <p className="text-sm font-semibold uppercase tracking-widest text-[#14b8a6]">
+            {t('luxuryYachtCharter.whyChoose.label')}
+          </p>
+          <h2 className="mt-3 font-serif text-3xl font-bold text-white md:text-4xl text-balance" style={{ fontFamily: "var(--font-playfair)" }}>
+            {t('luxuryYachtCharter.whyChoose.title')}
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-white/90">
+            {t('luxuryYachtCharter.whyChoose.description')}
+          </p>
+        </div>
 
-            <div className="mt-10 flex flex-col gap-8">
+        {/* Content Grid */}
+        <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-20">
+          <div>
+            <div className="flex flex-col gap-8">
               {reasons.map((reason) => (
                 <div key={reason.title} className="flex gap-4">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#14b8a6]/15">
@@ -254,10 +265,194 @@ function WhyChooseSection() {
                 className="h-auto w-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-4 -left-4 rounded-xl border border-[#14b8a6]/20 bg-[#164e63]/90 px-6 py-4 backdrop-blur-sm">
+            <div className="absolute -bottom-2 -left-2 sm:-bottom-4 sm:-left-4 rounded-xl border border-[#14b8a6]/20 bg-[#164e63]/90 px-6 py-4 backdrop-blur-sm">
               <p className="text-2xl font-bold text-[#14b8a6]">{t('luxuryYachtCharter.whyChoose.badge.years')}</p>
               <p className="text-xs text-white/90">{t('luxuryYachtCharter.whyChoose.badge.label')}</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function YachtsSection() {
+  const { t } = useLanguage()
+
+  const yachtTypes = [
+    {
+      icon: Sailboat,
+      title: t('luxuryYachtCharter.yachts.types.catamarans.title'),
+      subtitle: t('luxuryYachtCharter.yachts.types.catamarans.subtitle'),
+      description: t('luxuryYachtCharter.yachts.types.catamarans.description'),
+      image: '/assets/images/catamaran-charter/Catamaran_luxury.jpg',
+      imageAlt: 'Elegant Sailing Catamaran Phuket',
+    },
+    {
+      icon: Anchor,
+      title: t('luxuryYachtCharter.yachts.types.yachts.title'),
+      subtitle: t('luxuryYachtCharter.yachts.types.yachts.subtitle'),
+      description: t('luxuryYachtCharter.yachts.types.yachts.description'),
+      image: '/assets/images/home/sailing-yacht.jpg',
+      imageAlt: 'Classic Sailing Yacht Phuket',
+    },
+  ]
+
+  const amenities = [
+    {
+      icon: Users,
+      text: t('luxuryYachtCharter.yachts.amenities.items.cabins'),
+    },
+    {
+      icon: Waves,
+      text: t('luxuryYachtCharter.yachts.amenities.items.bathrooms'),
+    },
+    {
+      icon: Sun,
+      text: t('luxuryYachtCharter.yachts.amenities.items.cockpit'),
+    },
+    {
+      icon: Award,
+      text: t('luxuryYachtCharter.yachts.amenities.items.systems'),
+    },
+  ]
+
+  const groups = [
+    {
+      icon: Heart,
+      title: t('luxuryYachtCharter.yachts.groups.couples.title'),
+      description: t('luxuryYachtCharter.yachts.groups.couples.description'),
+      image: '/assets/images/catamaran-charter/couple-catamaran.webp',
+      imageAlt: 'Couple enjoying luxury yacht charter in Phuket',
+    },
+    {
+      icon: Users,
+      title: t('luxuryYachtCharter.yachts.groups.families.title'),
+      description: t('luxuryYachtCharter.yachts.groups.families.description'),
+      image: '/assets/images/catamaran-charter/catamaran-family.jpg',
+      imageAlt: 'Family on catamaran charter in Phuket',
+    },
+    {
+      icon: UsersRound,
+      title: t('luxuryYachtCharter.yachts.groups.groupsLarge.title'),
+      description: t('luxuryYachtCharter.yachts.groups.groupsLarge.description'),
+      image: '/assets/images/catamaran-charter/group-catamaran.jpg',
+      imageAlt: 'Group enjoying private catamaran charter',
+    },
+  ]
+
+  return (
+    <section className="bg-white py-10 lg:py-14" id="yachts">
+      <div className="mx-auto max-w-7xl px-4 lg:px-8">
+        {/* Header */}
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="text-sm font-semibold uppercase tracking-widest text-[#14b8a6]">
+            {t('luxuryYachtCharter.yachts.label')}
+          </p>
+          <h2 className="mt-3 font-serif text-3xl font-bold text-[#164e63] md:text-4xl text-balance" style={{ fontFamily: "var(--font-playfair)" }}>
+            {t('luxuryYachtCharter.yachts.title')}
+          </h2>
+          <p className="mt-4 text-lg leading-relaxed text-neutral-600">
+            {t('luxuryYachtCharter.yachts.description')}
+          </p>
+        </div>
+
+        <div className="mt-10 sm:mt-16 grid gap-6 sm:gap-8 md:grid-cols-2">
+          {yachtTypes.map((type) => (
+            <div
+              key={type.title}
+              className="rounded-xl border border-neutral-200 bg-white overflow-hidden transition-all hover:border-[#14b8a6]/30 hover:shadow-lg"
+            >
+              <div className="relative h-56 overflow-hidden">
+                <Image
+                  src={type.image}
+                  alt={type.imageAlt}
+                  fill
+                  className="object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+              <div className="p-5 sm:p-6 md:p-8">
+                <h3 className="font-serif text-xl font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
+                  {type.title}
+                </h3>
+                <p className="mt-2 text-sm font-medium text-[#14b8a6]">{type.subtitle}</p>
+                <p className="mt-3 text-base leading-relaxed text-neutral-600">
+                  {type.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Note */}
+        <div className="mt-8 text-center">
+          <p className="text-sm italic text-neutral-600">
+            {t('luxuryYachtCharter.yachts.note')}
+          </p>
+        </div>
+
+        {/* Amenities Section */}
+        <div className="mt-10 sm:mt-16 rounded-2xl bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] p-5 sm:p-8 lg:p-12 shadow-xl">
+          <h3 className="font-serif text-2xl font-semibold text-white text-center" style={{ fontFamily: "var(--font-playfair)" }}>
+            {t('luxuryYachtCharter.yachts.amenities.title')}
+          </h3>
+          <p className="mt-3 text-center text-base leading-relaxed text-white/80">
+            {t('luxuryYachtCharter.yachts.amenities.description')}
+          </p>
+
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {amenities.map((amenity, idx) => (
+              <div key={idx} className="flex items-center gap-3 rounded-lg bg-white/10 p-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#14b8a6]/20">
+                  <amenity.icon className="h-5 w-5 text-[#14b8a6]" />
+                </div>
+                <p className="text-sm font-medium text-white">{amenity.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Groups Section */}
+        <div className="mt-8 sm:mt-12 lg:mt-16">
+          <h3 className="font-serif text-2xl font-semibold text-[#164e63] text-center mb-8" style={{ fontFamily: "var(--font-playfair)" }}>
+            {t('luxuryYachtCharter.yachts.groups.title')}
+          </h3>
+
+          <div className="grid gap-5 sm:gap-6 sm:grid-cols-2 md:grid-cols-3">
+            {groups.map((group) => (
+              <div
+                key={group.title}
+                className="rounded-xl border border-neutral-200 bg-white overflow-hidden transition-all hover:border-[#14b8a6]/30 hover:shadow-lg"
+              >
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src={group.image}
+                    alt={group.imageAlt}
+                    fill
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                </div>
+                <div className="p-4 sm:p-6">
+                  <h4 className="font-serif text-base sm:text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
+                    {group.title}
+                  </h4>
+                  <p className="mt-2 text-base leading-relaxed text-neutral-600">
+                    {group.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 text-center">
+            <a
+              href="#yachts"
+              className="inline-flex items-center gap-2 rounded-xl px-8 py-3.5 text-sm font-semibold text-white shadow-lg transition-all hover:shadow-xl hover:scale-105 active:scale-95"
+              style={{ background: "linear-gradient(90deg, #A0522D 0%, #FF8C00 100%)" }}
+            >
+              {t('luxuryYachtCharter.yachts.groups.cta')}
+              <ArrowRight className="h-4 w-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -297,7 +492,7 @@ function ExperiencesSection() {
   ]
 
   return (
-    <section id="experiences" className="bg-neutral-50 py-20 lg:py-28">
+    <section id="experiences" className="bg-neutral-50 py-10 lg:py-14">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-[#14b8a6]">
@@ -311,7 +506,7 @@ function ExperiencesSection() {
           </p>
         </div>
 
-        <div className="mt-16 flex flex-col gap-12">
+        <div className="mt-10 sm:mt-16 flex flex-col gap-8 sm:gap-12">
           {experiences.map((exp, idx) => (
             <div
               key={exp.title}
@@ -337,7 +532,7 @@ function ExperiencesSection() {
                     </span>
                   )}
                 </div>
-                <div className="flex flex-col justify-center p-8 lg:p-12 lg:[direction:ltr]">
+                <div className="flex flex-col justify-center p-5 sm:p-8 lg:p-12 lg:[direction:ltr]">
                   <div className="flex items-center gap-3">
                     <span className="font-serif text-3xl font-bold text-[#14b8a6]/30">
                       {exp.number}
@@ -396,7 +591,7 @@ function DestinationsSection() {
   ]
 
   return (
-    <section id="destinations" className="bg-white py-20 lg:py-28">
+    <section id="destinations" className="bg-white py-10 lg:py-14">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-[#14b8a6]">
@@ -407,7 +602,7 @@ function DestinationsSection() {
           </h2>
         </div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-3">
+        <div className="mt-8 sm:mt-12 lg:mt-16 grid gap-5 sm:gap-8 md:grid-cols-3">
           {destinations.map((dest) => (
             <div
               key={dest.title}
@@ -421,7 +616,7 @@ function DestinationsSection() {
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-4 sm:p-6">
                 <div className="flex items-center gap-2">
                   <MapPin className="h-4 w-4 text-[#14b8a6]" />
                   <h3 className="font-serif text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
@@ -436,32 +631,52 @@ function DestinationsSection() {
           ))}
         </div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2">
-          <div className="rounded-xl border border-neutral-200 bg-white p-8">
-            <h3 className="font-serif text-xl font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
-              {t('luxuryYachtCharter.destinations.features.turquoise.title')}
-            </h3>
-            <p className="mt-3 text-base leading-relaxed text-neutral-600">
-              {t('luxuryYachtCharter.destinations.features.turquoise.description')}
-            </p>
+        <div className="mt-8 sm:mt-12 lg:mt-16 grid gap-5 sm:gap-8 md:grid-cols-2">
+          <div className="rounded-xl border border-neutral-200 bg-white overflow-hidden transition-all hover:shadow-lg">
+            <div className="relative h-40 sm:h-48 overflow-hidden">
+              <Image
+                src="/assets/images/home/koh-haa.webp"
+                alt="Turquoise waters and secluded beaches in Phuket"
+                fill
+                className="object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="p-8">
+              <h3 className="font-serif text-xl font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
+                {t('luxuryYachtCharter.destinations.features.turquoise.title')}
+              </h3>
+              <p className="mt-3 text-base leading-relaxed text-neutral-600">
+                {t('luxuryYachtCharter.destinations.features.turquoise.description')}
+              </p>
+            </div>
           </div>
-          <div className="rounded-xl border border-neutral-200 bg-white p-8">
-            <h3 className="font-serif text-xl font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
-              {t('luxuryYachtCharter.destinations.features.hopping.title')}
-            </h3>
-            <p className="mt-3 text-base leading-relaxed text-neutral-600">
-              {t('luxuryYachtCharter.destinations.features.hopping.description')}
-            </p>
+          <div className="rounded-xl border border-neutral-200 bg-white overflow-hidden transition-all hover:shadow-lg">
+            <div className="relative h-40 sm:h-48 overflow-hidden">
+              <Image
+                src="/assets/images/home/coral-island.webp"
+                alt="Island hopping route destination in Phuket"
+                fill
+                className="object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+            <div className="p-8">
+              <h3 className="font-serif text-xl font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
+                {t('luxuryYachtCharter.destinations.features.hopping.title')}
+              </h3>
+              <p className="mt-3 text-base leading-relaxed text-neutral-600">
+                {t('luxuryYachtCharter.destinations.features.hopping.description')}
+              </p>
+            </div>
           </div>
         </div>
 
         <div className="mt-10 text-center">
           <a
             href="#itinerary"
-            className="inline-flex items-center gap-2 text-base font-medium text-[#14b8a6] transition-colors hover:text-[#0d9488]"
+            className="inline-flex items-center gap-2 rounded-xl px-8 py-3.5 text-sm font-semibold text-white shadow-lg transition-all hover:shadow-xl hover:scale-105 active:scale-95"
+            style={{ background: "linear-gradient(90deg, #A0522D 0%, #FF8C00 100%)" }}
           >
             {t('luxuryYachtCharter.destinations.cta')}
-            <ArrowRight className="h-5 w-5" />
           </a>
         </div>
       </div>
@@ -493,7 +708,7 @@ function ItinerarySection() {
   return (
     <section
       id="itinerary"
-      className="py-20 lg:py-28"
+      className="py-10 lg:py-14"
       style={{ background: "linear-gradient(to bottom right, #164e63, #0f3a47, #0a2a35)" }}
     >
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
@@ -506,11 +721,11 @@ function ItinerarySection() {
           </h2>
         </div>
 
-        <div className="mt-16 grid gap-8 lg:grid-cols-3">
+        <div className="mt-8 sm:mt-12 lg:mt-16 grid gap-5 sm:gap-8 lg:grid-cols-3">
           {itineraryFeatures.map((feature) => (
             <div
               key={feature.title}
-              className="rounded-xl border border-white/10 bg-white/5 p-8"
+              className="rounded-xl border border-white/10 bg-white/5 p-5 sm:p-8"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#14b8a6]/15">
                 <feature.icon className="h-6 w-6 text-[#14b8a6]" />
@@ -562,8 +777,17 @@ function CrewSection() {
   ]
 
   return (
-    <section id="crew" className="bg-white py-20 lg:py-28">
+    <section id="crew" className="bg-white py-10 lg:py-14">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
+        <div className="mx-auto max-w-3xl text-center mb-8 sm:mb-12">
+          <p className="text-sm font-semibold uppercase tracking-widest text-[#14b8a6]">
+            {t('luxuryYachtCharter.crew.label')}
+          </p>
+          <h2 className="mt-3 font-serif text-3xl font-bold text-[#164e63] md:text-4xl text-balance" style={{ fontFamily: "var(--font-playfair)" }}>
+            {t('luxuryYachtCharter.crew.title')}
+          </h2>
+        </div>
+
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <div className="relative order-2 lg:order-1">
             <div className="overflow-hidden rounded-2xl">
@@ -578,14 +802,7 @@ function CrewSection() {
           </div>
 
           <div className="order-1 lg:order-2">
-            <p className="text-sm font-semibold uppercase tracking-widest text-[#14b8a6]">
-              {t('luxuryYachtCharter.crew.label')}
-            </p>
-            <h2 className="mt-3 font-serif text-3xl font-bold text-[#164e63] md:text-4xl text-balance" style={{ fontFamily: "var(--font-playfair)" }}>
-              {t('luxuryYachtCharter.crew.title')}
-            </h2>
-
-            <div className="mt-4">
+            <div>
               <h3 className="font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('luxuryYachtCharter.crew.skippers.title')}
               </h3>
@@ -618,18 +835,19 @@ function CrewSection() {
               {t('luxuryYachtCharter.crew.hospitality.note')}
             </p>
 
-            <div className="mt-8 rounded-xl border border-[#14b8a6]/20 bg-[#14b8a6]/5 p-6">
-              <div className="flex items-center gap-2">
-                <UtensilsCrossed className="h-5 w-5 text-[#14b8a6]" />
-                <h4 className="font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
-                  {t('luxuryYachtCharter.crew.dining.title')}
-                </h4>
-              </div>
-              <p className="mt-2 text-base leading-relaxed text-neutral-600">
-                {t('luxuryYachtCharter.crew.dining.description')}
-              </p>
-            </div>
           </div>
+        </div>
+
+        <div className="mt-8 sm:mt-12 rounded-2xl bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] p-5 sm:p-8 lg:p-10 text-center max-w-3xl mx-auto">
+          <div className="flex items-center justify-center gap-2">
+            <UtensilsCrossed className="h-5 w-5 text-[#14b8a6]" />
+            <h4 className="font-semibold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
+              {t('luxuryYachtCharter.crew.dining.title')}
+            </h4>
+          </div>
+          <p className="mt-3 text-base leading-relaxed text-white/90">
+            {t('luxuryYachtCharter.crew.dining.description')}
+          </p>
         </div>
       </div>
     </section>
@@ -656,18 +874,22 @@ function WhoSection() {
     },
     {
       icon: PartyPopper,
+      image: "/assets/images/catamaran-charter/celebration-catamaran.jpg",
+      imageAlt: "Special occasion celebration on a luxury yacht",
       title: t('luxuryYachtCharter.who.audiences.celebrations.title'),
       description: t('luxuryYachtCharter.who.audiences.celebrations.description'),
     },
     {
       icon: Compass,
+      image: "/assets/images/home/Butang-Islands.jpg",
+      imageAlt: "Adventurous sailing to remote islands in the Andaman Sea",
       title: t('luxuryYachtCharter.who.audiences.adventurous.title'),
       description: t('luxuryYachtCharter.who.audiences.adventurous.description'),
     },
   ]
 
   return (
-    <section className="bg-neutral-50 py-20 lg:py-28">
+    <section className="bg-neutral-50 py-10 lg:py-14">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-[#14b8a6]">
@@ -694,7 +916,7 @@ function WhoSection() {
                   />
                 </div>
               )}
-              <div className="p-6 lg:p-8">
+              <div className="p-4 sm:p-6 lg:p-8">
                 <div className="flex items-center gap-3">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#14b8a6]/10">
                     <audience.icon className="h-5 w-5 text-[#14b8a6]" />
@@ -763,7 +985,7 @@ function ComparisonSection() {
   ]
 
   return (
-    <section className="bg-white py-20 lg:py-28">
+    <section className="bg-white py-10 lg:py-14">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-[#14b8a6]">
@@ -774,25 +996,25 @@ function ComparisonSection() {
           </h2>
         </div>
 
-        <div className="mt-12 grid gap-8 lg:grid-cols-3">
-          <div className="rounded-xl border border-neutral-200 bg-white p-8">
-            <h3 className="font-serif text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
+        <div className="mt-8 sm:mt-12 grid gap-5 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="rounded-xl border border-neutral-200 bg-white p-5 sm:p-8">
+            <h3 className="font-serif text-base sm:text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
               {t('luxuryYachtCharter.comparison.features.privacy.title')}
             </h3>
             <p className="mt-3 text-base leading-relaxed text-neutral-600">
               {t('luxuryYachtCharter.comparison.features.privacy.description')}
             </p>
           </div>
-          <div className="rounded-xl border border-neutral-200 bg-white p-8">
-            <h3 className="font-serif text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
+          <div className="rounded-xl border border-neutral-200 bg-white p-5 sm:p-8">
+            <h3 className="font-serif text-base sm:text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
               {t('luxuryYachtCharter.comparison.features.access.title')}
             </h3>
             <p className="mt-3 text-base leading-relaxed text-neutral-600">
               {t('luxuryYachtCharter.comparison.features.access.description')}
             </p>
           </div>
-          <div className="rounded-xl border border-neutral-200 bg-white p-8">
-            <h3 className="font-serif text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
+          <div className="rounded-xl border border-neutral-200 bg-white p-5 sm:p-8">
+            <h3 className="font-serif text-base sm:text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
               {t('luxuryYachtCharter.comparison.features.premium.title')}
             </h3>
             <p className="mt-3 text-base leading-relaxed text-neutral-600">
@@ -801,9 +1023,9 @@ function ComparisonSection() {
           </div>
         </div>
 
-        <div className="mt-12 overflow-hidden rounded-xl border border-neutral-200">
+        <div className="mt-8 sm:mt-12 overflow-x-auto rounded-xl border border-neutral-200">
           <div
-            className="grid grid-cols-3 px-6 py-4"
+            className="grid grid-cols-3 px-3 sm:px-6 py-3 sm:py-4"
             style={{ background: "linear-gradient(to bottom right, #164e63, #0f3a47, #0a2a35)" }}
           >
             <div className="text-sm font-medium text-white/90">{t('luxuryYachtCharter.comparison.table.header.feature')}</div>
@@ -819,16 +1041,16 @@ function ComparisonSection() {
           {comparisonItems.map((item, idx) => (
             <div
               key={item.feature}
-              className={`grid grid-cols-3 px-6 py-4 ${
+              className={`grid grid-cols-3 px-3 sm:px-6 py-3 sm:py-4 min-w-[500px] ${
                 idx % 2 === 0 ? "bg-white" : "bg-neutral-50"
               } ${idx < comparisonItems.length - 1 ? "border-b border-neutral-200" : ""}`}
             >
-              <div className="text-sm font-medium text-[#164e63]">{item.feature}</div>
-              <div className="flex items-start gap-2 text-sm text-[#164e63]">
+              <div className="text-xs sm:text-sm font-medium text-[#164e63]">{item.feature}</div>
+              <div className="flex items-start gap-1 sm:gap-2 text-xs sm:text-sm text-[#164e63]">
                 <Check className="mt-0.5 h-4 w-4 shrink-0 text-[#14b8a6]" />
                 {item.luxury}
               </div>
-              <div className="flex items-start gap-2 text-sm text-neutral-600">
+              <div className="flex items-start gap-1 sm:gap-2 text-xs sm:text-sm text-neutral-600">
                 <X className="mt-0.5 h-4 w-4 shrink-0 text-destructive/60" />
                 {item.speedboat}
               </div>
@@ -862,7 +1084,7 @@ function PlanSection() {
   return (
     <section
       id="quote"
-      className="py-20 lg:py-28"
+      className="py-10 lg:py-14"
       style={{ background: "linear-gradient(to bottom right, #164e63, #0f3a47, #0a2a35)" }}
     >
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
@@ -878,7 +1100,7 @@ function PlanSection() {
           </p>
         </div>
 
-        <div className="mt-12 mx-auto max-w-2xl">
+        <div className="mt-8 sm:mt-12 mx-auto max-w-2xl">
           <div className="flex flex-col gap-6">
             {steps.map((step, idx) => (
               <div key={idx} className="flex gap-4">
@@ -894,7 +1116,7 @@ function PlanSection() {
           </div>
         </div>
 
-        <div className="mt-16 rounded-2xl border border-white/10 bg-white/5 p-8 lg:p-12">
+        <div className="mt-10 sm:mt-16 rounded-2xl border border-white/10 bg-white/5 p-5 sm:p-8 lg:p-12">
           <div className="flex items-center justify-center gap-2">
             <Shield className="h-5 w-5 text-[#14b8a6]" />
             <h3 className="font-serif text-xl font-semibold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
@@ -911,7 +1133,7 @@ function PlanSection() {
           </div>
         </div>
 
-        <div className="mt-16 mx-auto max-w-3xl text-center">
+        <div className="mt-8 sm:mt-12 lg:mt-16 mx-auto max-w-3xl text-center">
           <h3 className="font-serif text-2xl font-bold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
             {t('luxuryYachtCharter.plan.begin.title')}
           </h3>

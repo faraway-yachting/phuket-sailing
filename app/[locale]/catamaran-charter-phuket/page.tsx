@@ -10,6 +10,7 @@ import { FeaturedYachts } from '@/components/shared/FeaturedYachts'
 import { useLanguage } from '@/components/providers/LanguageProvider'
 import { Phone, MessageCircle, Mail, MapPin, CheckCircle, Star, Anchor, Users, Ship, Waves, Shield, Award, Calendar, Clock, Compass } from 'lucide-react'
 import { FAQAccordion } from '@/components/shared/FAQAccordion'
+import { BookingCTA } from '@/components/shared/BookingCTA'
 import { CatamaranFAQSchema } from './faq-schema'
 
 export default function CatamaranCharterPhuketPage() {
@@ -36,7 +37,11 @@ export default function CatamaranCharterPhuketPage() {
         <CTABlock3 />
         <PlanYourCharterSection />
         <FAQSection />
-        <FinalCTASection />
+        <BookingCTA
+          title="Start Planning Your Charter"
+          subtitle="Private Catamaran Sailing from €800/Day | Day Trips | Overnight Cruises | Multi-Day Expeditions"
+          buttonText="GET YOUR FREE CATAMARAN QUOTE →"
+        />
       </main>
     </>
   )
@@ -168,19 +173,19 @@ function IntroSection() {
                 <div className="relative flex items-center justify-center py-10 px-6">
                   {/* Top-right: Ship icon */}
                   <div className="absolute top-2 right-2 text-gray-300">
-                    <Ship className="w-14 h-14" strokeWidth={1} />
+                    <Ship className="w-10 h-10 sm:w-14 sm:h-14" strokeWidth={1} />
                   </div>
                   {/* Bottom-left: Waves icon */}
                   <div className="absolute bottom-2 left-0 text-gray-300">
-                    <Waves className="w-14 h-14" strokeWidth={1} />
+                    <Waves className="w-10 h-10 sm:w-14 sm:h-14" strokeWidth={1} />
                   </div>
                   {/* Bottom-right: Anchor icon */}
                   <div className="absolute bottom-4 right-0 text-gray-200">
-                    <Anchor className="w-12 h-12" strokeWidth={1} />
+                    <Anchor className="w-8 h-8 sm:w-12 sm:h-12" strokeWidth={1} />
                   </div>
                   {/* Top-left: Compass icon */}
                   <div className="absolute top-4 left-0 text-gray-200">
-                    <Compass className="w-11 h-11" strokeWidth={1} />
+                    <Compass className="w-8 h-8 sm:w-11 sm:h-11" strokeWidth={1} />
                   </div>
                   {/* Blob-shaped image */}
                   <div className="relative w-56 h-72 sm:w-80 sm:h-96 md:w-[340px] md:h-[400px]"
@@ -208,19 +213,19 @@ function IntroSection() {
                 <div className="relative flex items-center justify-center py-10 px-6">
                   {/* Top-left: Anchor icon */}
                   <div className="absolute top-2 left-2 text-gray-300">
-                    <Anchor className="w-14 h-14" strokeWidth={1} />
+                    <Anchor className="w-10 h-10 sm:w-14 sm:h-14" strokeWidth={1} />
                   </div>
                   {/* Bottom-right: Waves icon */}
                   <div className="absolute bottom-2 right-0 text-gray-300">
-                    <Waves className="w-14 h-14" strokeWidth={1} />
+                    <Waves className="w-10 h-10 sm:w-14 sm:h-14" strokeWidth={1} />
                   </div>
                   {/* Top-right: Compass icon */}
                   <div className="absolute top-4 right-0 text-gray-200">
-                    <Compass className="w-11 h-11" strokeWidth={1} />
+                    <Compass className="w-8 h-8 sm:w-11 sm:h-11" strokeWidth={1} />
                   </div>
                   {/* Bottom-left: Ship icon */}
                   <div className="absolute bottom-4 left-0 text-gray-200">
-                    <Ship className="w-12 h-12" strokeWidth={1} />
+                    <Ship className="w-8 h-8 sm:w-12 sm:h-12" strokeWidth={1} />
                   </div>
                   {/* Blob-shaped image (mirrored blob shape) */}
                   <div className="relative w-56 h-72 sm:w-80 sm:h-96 md:w-[340px] md:h-[400px]"
@@ -965,11 +970,11 @@ function CatamaranVsMonohullSection() {
               <div key={key} className={`grid grid-cols-2 border-b border-white/10 ${i % 2 === 0 ? 'bg-white/5' : 'bg-white/[0.02]'}`}>
                 <div className="px-4 sm:px-6 py-4 sm:py-5">
                   <span className="text-[#14b8a6] text-[10px] sm:text-xs font-semibold uppercase tracking-wider">{t(`catamaranCharter.vsMonohull.table.${key}.label`)}: </span>
-                  <span className="text-white text-xs sm:text-sm leading-relaxed">{t(`catamaranCharter.vsMonohull.table.${key}.catamaran`)}</span>
+                  <span className="text-white text-[11px] sm:text-sm leading-relaxed">{t(`catamaranCharter.vsMonohull.table.${key}.catamaran`)}</span>
                 </div>
                 <div className="px-4 sm:px-6 py-4 sm:py-5 border-l border-white/10">
                   <span className="text-[#14b8a6] text-[10px] sm:text-xs font-semibold uppercase tracking-wider">{t(`catamaranCharter.vsMonohull.table.${key}.label`)}: </span>
-                  <span className="text-white text-xs sm:text-sm leading-relaxed">{t(`catamaranCharter.vsMonohull.table.${key}.monohull`)}</span>
+                  <span className="text-white text-[11px] sm:text-sm leading-relaxed">{t(`catamaranCharter.vsMonohull.table.${key}.monohull`)}</span>
                 </div>
               </div>
             ))}
@@ -1184,7 +1189,7 @@ function PlanYourCharterSection() {
         </div>
 
         <div className="max-w-5xl mx-auto space-y-8">
-          <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-2xl shadow-lg p-8">
+          <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-2xl shadow-lg p-5 sm:p-8">
             <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">
               {t('catamaranCharter.planCharter.confidence.title')}
             </h3>
@@ -1212,7 +1217,7 @@ function PlanYourCharterSection() {
             </ul>
           </div>
 
-          <div className="bg-gradient-to-br from-neutral-50 to-white rounded-2xl shadow-lg p-8 border border-neutral-200">
+          <div className="bg-gradient-to-br from-neutral-50 to-white rounded-2xl shadow-lg p-5 sm:p-8 border border-neutral-200">
             <h3 className="text-2xl sm:text-3xl font-bold text-[#164e63] mb-4">
               {t('catamaranCharter.planCharter.specialists.title')}
             </h3>
@@ -1251,51 +1256,3 @@ function FAQSection() {
   )
 }
 
-function FinalCTASection() {
-  const { t } = useLanguage()
-  return (
-    <section className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 py-6 sm:py-8">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
-          <h2 className="text-white mb-4 text-xl sm:text-2xl md:text-3xl font-bold">{t('catamaranCharter.finalCta.title')}</h2>
-
-          <p className="text-white/90 text-sm sm:text-base md:text-lg mb-6">
-            {t('catamaranCharter.finalCta.subtitle')}
-          </p>
-
-          <p className="text-white/80 text-sm sm:text-base mb-6">{t('catamaranCharter.finalCta.waysTitle')}</p>
-
-          <div className="space-y-3 mb-8 text-white/90 text-sm sm:text-base max-w-2xl mx-auto text-left">
-            <div className="flex items-start gap-2">
-              <Phone className="w-5 h-5 flex-shrink-0 mt-0.5" />
-              <span>{t('catamaranCharter.finalCta.phone')} <a href="https://wa.me/66612345623" className="text-amber-300 hover:text-amber-200 font-semibold">+66 61 234 5623</a> — {t('catamaranCharter.finalCta.phoneText')}</span>
-            </div>
-            <div className="flex items-start gap-2">
-              <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
-              <span>{t('catamaranCharter.finalCta.email')} <a href="mailto:booking@faraway-yachting.com" className="text-amber-300 hover:text-amber-200 font-semibold">booking@faraway-yachting.com</a> — {t('catamaranCharter.finalCta.emailText')}</span>
-            </div>
-            <div className="flex items-start gap-2">
-              <MessageCircle className="w-5 h-5 flex-shrink-0 mt-0.5" />
-              <span>{t('catamaranCharter.finalCta.line')}</span>
-            </div>
-          </div>
-
-          <LocaleLink href="/contact" className="inline-flex items-center justify-center px-8 sm:px-10 md:px-12 py-3 sm:py-4 text-sm sm:text-base md:text-lg font-semibold text-white bg-amber-gradient rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 whitespace-nowrap mb-6">
-            {t('catamaranCharter.finalCta.button')}
-          </LocaleLink>
-
-          <div className="border-t border-white/20 pt-6 mt-6">
-            <div className="flex items-start gap-2 text-white/70 text-xs sm:text-sm max-w-2xl mx-auto text-left mb-2">
-              <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-              <span>{t('catamaranCharter.finalCta.office')}</span>
-            </div>
-            <p className="text-white/60 text-xs text-center">
-              {t('catamaranCharter.finalCta.footer')}
-            </p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-  )
-}

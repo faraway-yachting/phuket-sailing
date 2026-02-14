@@ -348,7 +348,7 @@
     "selectChannel": "Kanal auswählen",
     "channels": {
       "whatsapp": "WhatsApp",
-    "email": "E-Mail",
+      "email": "E-Mail",
       "line": "Line"
     },
     "yachtRange": "Yacht-Bereich",
@@ -923,349 +923,349 @@
   "luxuryYachtCharter": {
     "hero": {
       "badge1": "Est. 1996",
-      "badge2": "750+ Five-Star Reviews",
+      "badge2": "850+ Fünf-Sterne-Bewertungen",
       "badge3": "World Luxury Travel Award 2025",
-      "title": "Luxury Sailing Yacht Charter Phuket",
-      "subtitle": "Private Yachting in Thailand",
-      "description": "The Andaman Sea's most beautiful islands, a private vessel, and a crew dedicated entirely to your group. No shared tours, no fixed schedules — just Thailand by sail, on your terms.",
-      "cta1": "Get Your Private Charter Quote",
-      "cta2": "Explore Our Fleet"
+      "title": "Luxus-Segelyacht-Charter Phuket – Private Yachting in Thailand",
+      "subtitle": "Private Segelyachten und Luxus-Katamarane in Phuket — voll besetzt, maßgeschneidert, ganz Ihnen gehörend.",
+      "description": "Est. 1996 · 850+ Fünf-Sterne-Bewertungen · World Luxury Travel Award 2025",
+      "cta1": "Holen Sie Sich Ihr Privates Charter-Angebot",
+      "cta2": "Entdecken Sie Unsere Flotte"
     },
     "privateCharters": {
-      "label": "Yachts Here",
-      "title": "Private Luxury Yacht Charters in Phuket",
+      "label": "Yachten Hier",
+      "title": "Private Luxus-Yachtcharter in Phuket",
       "features": {
         "exclusive": {
-          "title": "Exclusive Sailing Experiences on Premium Yachts",
-          "description": "A private sailing charter means the boat is yours alone — every anchorage, every meal, every moment of the day shaped around your group. Whether it's a two-night escape to Racha Islands or a two-week expedition to Koh Lipe, no detail is shared with strangers.",
-          "cta": "Explore our fleet"
+          "title": "Exklusive Segelerlebnisse auf Premium-Yachten",
+          "description": "Ein privater Segelcharter bedeutet, dass das Boot Ihnen allein gehört — jeder Ankerplatz, jede Mahlzeit, jeder Moment des Tages um Ihre Gruppe herum gestaltet. Ob es ein zweitägiger Ausflug zu den Racha-Inseln oder eine zweiwöchige Expedition nach Koh Lipe ist, kein Detail wird mit Fremden geteilt.",
+          "cta": "Entdecken Sie unsere Flotte"
         },
         "comfort": {
-          "title": "Private Yacht Hire Designed for Comfort, Privacy and Style",
-          "description": "Our luxury sailing yachts and catamarans are selected for both performance and livability — spacious cabins, quality linens, espresso machines, and generous deck space that makes time at anchor as enjoyable as the sailing itself.",
-          "cta": "View cabin layouts and specifications"
+          "title": "Private Yachtmiete für Komfort, Privatsphäre und Stil",
+          "description": "Unsere Luxus-Segelyachten und Katamarane werden sowohl für Leistung als auch für Wohnlichkeit ausgewählt — geräumige Kabinen, hochwertige Bettwäsche, Espressomaschinen und großzügiger Deckraum, der die Zeit vor Anker genauso angenehm macht wie das Segeln selbst.",
+          "cta": "Kabinenaufteilungen und Spezifikationen ansehen"
         },
         "tailored": {
-          "title": "Tailored from the First Inquiry to the Final Anchorage",
-          "description": "We design every charter from scratch. Share your group size, travel dates, preferred islands, and occasion — we'll recommend the right vessel, draft a route, and handle every logistical detail so you arrive with nothing to organise.",
-          "cta": "Start planning your charter"
+          "title": "Maßgeschneidert von der Ersten Anfrage bis zum Letzten Ankerplatz",
+          "description": "Wir entwerfen jeden Charter von Grund auf neu. Teilen Sie uns Ihre Gruppengröße, Reisedaten, bevorzugte Inseln und den Anlass mit — wir empfehlen das richtige Schiff, entwerfen eine Route und kümmern uns um jedes logistische Detail, sodass Sie nichts organisieren müssen.",
+          "cta": "Beginnen Sie mit der Planung Ihres Charters"
         }
       }
     },
     "whyChoose": {
-      "label": "Why Choose Us",
-      "title": "Why Choose a Luxury Yacht Charter in Phuket",
-      "description": "Phuket is Southeast Asia's premier sailing hub. Island-to-island distances are perfect for day sails or multi-night routes, and the scenery — limestone karsts, emerald lagoons, white-sand beaches — rewards the journey at every point.",
+      "label": "Warum Uns Wählen",
+      "title": "Warum Einen Luxus-Yachtcharter in Phuket Wählen",
+      "description": "Phuket ist Südostasiens erstklassiges Segelzentrum. Die Entfernungen von Insel zu Insel sind perfekt für Tagessegeltouren oder mehrtägige Routen, und die Landschaft — Kalksteinkarste, smaragdgrüne Lagunen, weiße Sandstrände — belohnt die Reise an jedem Punkt.",
       "reasons": {
         "refined": {
-          "title": "A Refined Way to Explore Thailand by Sea",
-          "description": "Sailing between islands on a private yacht is simply a different experience from being ferried on a speedboat. You move at the wind's pace, stop where you choose, and see the Andaman Sea the way it deserves to be seen — slowly, quietly, and without a crowd."
+          "title": "Eine Raffinierte Art, Thailand auf dem Seeweg zu Erkunden",
+          "description": "Das Segeln zwischen Inseln auf einer privaten Yacht ist einfach eine andere Erfahrung als auf einem Schnellboot befördert zu werden. Sie bewegen sich im Tempo des Windes, halten dort an, wo Sie wollen, und sehen das Andamanensee so, wie es verdient gesehen zu werden — langsam, ruhig und ohne Menschenmenge."
         },
         "personal": {
-          "title": "Personal Space, Professional Crew and Tailored Service",
-          "description": "The crew's sole job is your comfort. Your onboard chef prepares fresh Thai cuisine tailored to your preferences. Your skipper knows the best anchorages for the season. Nothing about your day is determined by other guests or fixed schedules."
+          "title": "Persönlicher Raum, Professionelle Crew und Maßgeschneiderter Service",
+          "description": "Die einzige Aufgabe der Crew ist Ihr Komfort. Ihr Bordkoch bereitet frische thailändische Küche zu, die auf Ihre Vorlieben zugeschnitten ist. Ihr Skipper kennt die besten Ankerplätze für die Saison. Nichts an Ihrem Tag wird von anderen Gästen oder festen Zeitplänen bestimmt."
         },
         "beyond": {
-          "title": "Luxury Sailing Beyond Standard Boat Tours",
-          "description": "What standard tours cannot offer is unhurried time — early morning arrivals at Phi Phi Islands before the day boats, quiet afternoons in bays other operators never visit, and overnight stays in places that feel genuinely remote. That's what a private luxury sailing charter in Phuket provides."
+          "title": "Luxussegeln Jenseits Standard-Bootstouren",
+          "description": "Was Standard-Touren nicht bieten können, ist ungestörte Zeit — frühmorgendliche Ankünfte auf den Phi Phi-Inseln vor den Tagesbooten, ruhige Nachmittage in Buchten, die andere Betreiber nie besuchen, und Übernachtungen an Orten, die sich wirklich abgelegen anfühlen. Das bietet ein privater Luxus-Segelcharter in Phuket."
         }
       },
       "badge": {
         "years": "30+",
-        "label": "Years of Experience"
+        "label": "Jahre Erfahrung"
       }
     },
     "yachts": {
-      "label": "Our Fleet",
-      "title": "Luxury Sailing Yachts Available for Charter in Phuket",
-      "description": "The right vessel sets the tone for the whole experience. Our luxury fleet covers every group size and travel style.",
+      "label": "Unsere Flotte",
+      "title": "Luxus-Segelyachten für Charter in Phuket Verfügbar",
+      "description": "Das richtige Schiff bestimmt den Ton für das gesamte Erlebnis. Unsere Luxusflotte deckt jede Gruppengröße und jeden Reisestil ab.",
       "types": {
         "catamarans": {
-          "title": "Elegant Sailing Catamarans",
-          "subtitle": "45-55ft, wide-beam, stable",
-          "description": "Purpose-built for Thailand's waters. The first choice for families, groups of 4-8, and anyone who wants generous deck space with a sailing experience."
+          "title": "Elegante Segelkatamarane",
+          "subtitle": "45-55 Fuß, breiter Rumpf, stabil",
+          "description": "Speziell für thailändische Gewässer gebaut. Die erste Wahl für Familien, Gruppen von 4-8 Personen und alle, die großzügigen Deckraum mit einem Segelerlebnis wünschen."
         },
         "yachts": {
-          "title": "Classic Sailing Yachts",
-          "subtitle": "Responsive and authentic",
-          "description": "Ideal for couples or smaller groups who want the authentic feel of wind in the sails rather than a floating villa."
+          "title": "Klassische Segelyachten",
+          "subtitle": "Reaktionsschnell und authentisch",
+          "description": "Ideal für Paare oder kleinere Gruppen, die das authentische Gefühl von Wind in den Segeln statt einer schwimmenden Villa wünschen."
         }
       },
-      "note": "All vessels are crewed, fully insured, and maintained to the standards expected of a luxury sailing charter in Phuket.",
+      "note": "Alle Schiffe haben Besatzung, sind voll versichert und werden nach den Standards gewartet, die von einem Luxus-Segelcharter in Phuket erwartet werden.",
       "amenities": {
-        "title": "Spacious Decks, Private Cabins and Premium Onboard Amenities",
-        "description": "Every vessel in the fleet offers the same core comforts. Onboard water makers, solar systems, snorkeling gear, kayaks, and paddleboards are standard.",
+        "title": "Geräumige Decks, Private Kabinen und Premium-Bordausstattung",
+        "description": "Jedes Schiff der Flotte bietet die gleichen Kernkomforts. Wasseraufbereiter an Bord, Solarsysteme, Schnorchelausrüstung, Kajaks und Paddleboards sind Standard.",
         "items": {
-          "cabins": "Private double cabins with quality linens",
-          "bathrooms": "Ensuite or nearby bathrooms",
-          "cockpit": "Shaded cockpit for outdoor dining",
-          "systems": "Sound systems & espresso machines"
+          "cabins": "Private Doppelkabinen mit hochwertiger Bettwäsche",
+          "bathrooms": "Ensuite oder nahe gelegene Badezimmer",
+          "cockpit": "Schattiges Cockpit für Mahlzeiten im Freien",
+          "systems": "Soundsysteme & Espressomaschinen"
         }
       },
       "groups": {
-        "title": "Options for Couples, Families and Private Groups",
+        "title": "Optionen für Paare, Familien und Private Gruppen",
         "couples": {
-          "title": "For Couples & Honeymooners",
-          "description": "Intimate sailing yachts and boutique catamarans with private ensuite cabins and space designed for two."
+          "title": "Für Paare & Hochzeitsreisende",
+          "description": "Intime Segelyachten und Boutique-Katamarane mit privaten Ensuite-Kabinen und Raum für zwei konzipiert."
         },
         "families": {
-          "title": "For Families",
-          "description": "Wide-beam catamarans with multiple cabins, stable hulls, and child-friendly crew who know how to pace a day on the water."
+          "title": "Für Familien",
+          "description": "Breitstrahlkatamarane mit mehreren Kabinen, stabilen Rümpfen und kinderfreundlicher Crew, die wissen, wie man einen Tag auf dem Wasser gestaltet."
         },
         "groupsLarge": {
-          "title": "For Groups up to 10",
-          "description": "Fully private multi-cabin catamarans with communal areas large enough for everyone to spread out."
+          "title": "Für Gruppen bis zu 10 Personen",
+          "description": "Vollständig private Mehrkabinen-Katamarane mit Gemeinschaftsbereichen, die groß genug sind, damit sich alle ausbreiten können."
         },
-        "cta": "Find the right yacht for your group"
+        "cta": "Finden Sie die richtige Yacht für Ihre Gruppe"
       }
     },
     "experiences": {
-      "label": "Charter Experiences",
-      "title": "Private Luxury Charter Experiences in Phuket",
-      "description": "Here are the three most popular ways to experience a luxury sailing charter in Phuket:",
+      "label": "Charter-Erlebnisse",
+      "title": "Private Luxus-Charter-Erlebnisse in Phuket",
+      "description": "Hier sind die drei beliebtesten Möglichkeiten, einen Luxus-Segelcharter in Phuket zu erleben:",
       "types": {
         "day": {
           "number": "01",
-          "title": "Luxury Day Charter",
-          "description": "A full private day on the Andaman Sea — swimming, snorkeling, and island stops with a personal chef and crew. No shared decks, no fixed route. From Phi Phi Islands to Phang Nga Bay to Racha Islands, we'll design the day around what your group wants most."
+          "title": "Luxus-Tageschart",
+          "description": "Ein ganzer privater Tag auf der Andamanensee — Schwimmen, Schnorcheln und Inselstopps mit einem persönlichen Koch und Crew. Keine geteilten Decks, keine feste Route. Von den Phi Phi-Inseln über die Phang Nga-Bucht bis zu den Racha-Inseln gestalten wir den Tag nach den Wünschen Ihrer Gruppe."
         },
         "sunset": {
           "number": "02",
-          "title": "Sunset Cruise and Private Evening Sail",
-          "description": "Shorter, more focused, and high-impact. A private sunset sailing cruise around Phuket's most scenic headlands is one of the most memorable ways to spend an evening in Thailand — perfect for honeymoons, proposals, and special anniversaries."
+          "title": "Sonnenuntergangs-Kreuzfahrt und Private Abendfahrt",
+          "description": "Kürzer, fokussierter und wirkungsvoll. Eine private Sonnenuntergangs-Segelkreuzfahrt um Phukets malerischste Landzungen ist eine der unvergesslichsten Möglichkeiten, einen Abend in Thailand zu verbringen — perfekt für Flitterwochen, Heiratsanträge und besondere Jubiläen."
         },
         "multiDay": {
           "number": "03",
-          "title": "Multi-Day Luxury Sailing Journey",
-          "badge": "Our Recommendation",
-          "description": "This is where a Phuket luxury sailing charter becomes genuinely unforgettable. Two nights is a taste; five nights is the full experience — quiet mornings at anchor, fresh meals prepared on board each day, and islands like Koh Rok, Koh Ha, and Koh Lipe that day trippers simply never reach."
+          "title": "Mehrtägige Luxus-Segelreise",
+          "badge": "Unsere Empfehlung",
+          "description": "Hier wird ein Phuket-Luxus-Segelcharter wirklich unvergesslich. Zwei Nächte sind ein Vorgeschmack; fünf Nächte sind das vollständige Erlebnis — ruhige Morgen vor Anker, frische Mahlzeiten, die jeden Tag an Bord zubereitet werden, und Inseln wie Koh Rok, Koh Ha und Koh Lipe, die Tagesausflügler einfach nie erreichen."
         }
       },
-      "cta": "Tell us how many nights you have — we'll recommend the best route"
+      "cta": "Sagen Sie uns, wie viele Nächte Sie haben — wir empfehlen die beste Route"
     },
     "destinations": {
-      "label": "Island Destinations",
-      "title": "Phuket Island Destinations Reached by Luxury Yacht",
+      "label": "Inselziele",
+      "title": "Phuket-Inselziele, die mit Luxusyacht Erreicht Werden",
       "islands": {
         "phiPhi": {
-          "title": "Phi Phi Islands and Iconic Andaman Bays",
-          "description": "Maya Bay, Monkey Beach, Tonsai Bay — among Thailand's most iconic settings. By private sailing yacht, you arrive on your own schedule, anchor away from the tour boats, and experience the islands the way they were meant to be seen. Ideal for day charters and 1-3 night trips."
+          "title": "Phi Phi-Inseln und Ikonische Andaman-Buchten",
+          "description": "Die Phi Phi Inseln — Maya Bay, Monkey Beach, Tonsai Bay — gehören zu Thailands ikonischsten Kulissen. Mit einer privaten Segelyacht kommen Sie nach Ihrem eigenen Zeitplan an, ankern abseits der Touristenboote und erleben die Inseln so, wie sie gesehen werden sollten. Ideal für Tagesausflüge und 1–3 Nächte-Reisen ab Chalong Bay."
         },
         "phangNga": {
-          "title": "Phang Nga Bay and Limestone Coves",
-          "description": "Limestone karsts rise from green water, sea caves open into hidden lagoons, and traditional stilt villages offer a glimpse of local life unchanged for generations. Koh Hong — paddled through a sea cave to a private turquoise lagoon — is a consistent highlight."
+          "title": "Phang Nga Bay und Kalksteinhöhlen auf einer Luxus-Phuket-Charter",
+          "description": "Phang Nga Bay belohnt langsame Erkundung. Kalksteinkarste ragen aus grünem Wasser empor, Meereshöhlen öffnen sich zu versteckten Lagunen, und traditionelle Pfahlbaudörfer bieten einen Einblick in das seit Generationen unveränderte lokale Leben. Koh Hong — per Kajak durch eine Meereshöhle zu einer privaten türkisfarbenen Lagune — ist ein beständiges Highlight jedes Luxus-Segelreiseplans in Phuket."
         },
         "hidden": {
-          "title": "Hidden Gems of the Andaman Sea",
-          "description": "Guests who take 5+ night luxury sailing charters consistently say the quieter, further islands — Koh Rok for pristine reef, Koh Ha for extraordinary snorkeling, Koh Lipe and the Butang Islands for true remoteness — are the places they remember most."
+          "title": "Versteckte Juwelen der Andamanensee",
+          "description": "Die besten Ziele der Andamanensee sind nicht immer die berühmtesten. Gäste, die 5+ Nächte Luxus-Segelcharter ab Phuket unternehmen, sagen durchweg, dass die ruhigeren, entfernteren Inseln — Koh Rok für unberührte Riffe und klares Wasser, Koh Ha für außergewöhnliches Schnorcheln, Koh Lipe und die Butang-Inseln für echte Abgeschiedenheit nahe der malaysischen Grenze — die Orte sind, an die sie sich am meisten erinnern."
         }
       },
       "features": {
         "turquoise": {
-          "title": "Turquoise Waters, Secluded Beaches and Quiet Anchorages",
-          "description": "On a private luxury sailing charter, mornings at anchor are genuinely different. You wake up in a bay before the tour boats arrive, swim directly from the yacht into water so clear you can see the seabed, and eat breakfast on deck in complete quiet. These are the moments guests come back for."
+          "title": "Türkisfarbene Gewässer, Abgeschiedene Strände und Ruhige Ankerplätze",
+          "description": "Bei einem privaten Luxus-Segelcharter sind Morgen vor Anker wirklich anders. Sie wachen in einer Bucht auf, bevor die Touristenboote ankommen, schwimmen direkt von der Yacht in Wasser, das so klar ist, dass Sie den Meeresboden sehen können, und frühstücken auf dem Deck in vollkommener Ruhe. Das sind die Momente, für die Gäste zurückkommen."
         },
         "hopping": {
-          "title": "Island Hopping Routes Away from the Crowds",
-          "description": "Our skippers route every charter to keep you ahead of the busy periods — arriving at popular spots early, moving to quieter anchorages in the afternoon, and timing overnight stays so your mornings are always peaceful. On longer charters, the itinerary takes you progressively further from the day-trip zones."
+          "title": "Inselhüpf-Routen Abseits der Massen",
+          "description": "Unsere Skipper planen jeden Charter so, dass Sie den Stoßzeiten voraus sind — früh an beliebten Orten ankommen, nachmittags zu ruhigeren Ankerplätzen wechseln und Übernachtungen so timen, dass Ihre Morgen immer friedlich sind. Bei längeren Chartern führt die Route Sie progressiv weiter weg von den Tagesausflugszonen in das lohnendste Gebiet der Andamanensee."
         }
       },
-      "cta": "See route ideas and sailing itineraries"
+      "cta": "Sehen Sie Routenideen und Segelrouten"
     },
     "itinerary": {
-      "label": "Your Itinerary",
-      "title": "Your Phuket Luxury Yacht Charter Itinerary",
+      "label": "Ihre Route",
+      "title": "Ihre Phuket-Luxus-Yachtcharter-Route",
       "features": {
         "tailorMade": {
-          "title": "Tailor-Made Routes Around Phuket and Beyond",
-          "description": "We build each itinerary around the group aboard — the islands you most want to see, the pace that suits you, and the balance of adventure and relaxation you're after. A typical 5-night luxury sailing charter from Phuket might cover Phi Phi Islands, Koh Lanta, Koh Muk, and Koh Rok — or we can focus on fewer islands and spend more time in each. Your call."
+          "title": "Maßgeschneiderte Routen Rund um Phuket und Darüber Hinaus",
+          "description": "Wir erstellen jede Route um die Gruppe an Bord — die Inseln, die Sie am meisten sehen möchten, das Tempo, das zu Ihnen passt, und das Gleichgewicht zwischen Abenteuer und Entspannung, das Sie suchen. Ein typischer 5-Nächte-Luxus-Segelcharter von Phuket aus könnte die Phi Phi-Inseln, Koh Lanta, Koh Muk und Koh Rok abdecken — oder wir können uns auf weniger Inseln konzentrieren und mehr Zeit in jeder verbringen. Ihre Entscheidung."
         },
         "flexible": {
-          "title": "Flexible Sailing Based on Sea and Weather Conditions",
-          "description": "Andaman Sea conditions vary by season, and our skippers read them daily. You'll receive a full weather and route briefing before departure, and the itinerary is always adjusted in real time to ensure you're sailing when the conditions are best and resting when they're not. There's no rigid programme to stick to."
+          "title": "Flexibles Segeln Basierend auf See- und Wetterbedingungen",
+          "description": "Die Bedingungen der Andamanensee variieren je nach Saison, und unsere Skipper lesen sie täglich. Sie erhalten vor der Abreise ein vollständiges Wetter- und Routenbriefing, und die Route wird immer in Echtzeit angepasst, um sicherzustellen, dass Sie segeln, wenn die Bedingungen am besten sind, und sich ausruhen, wenn sie es nicht sind. Es gibt kein starres Programm, an das man sich halten muss."
         },
         "unhurried": {
-          "title": "Unhurried Days Focused on Quality Time at Sea",
-          "description": "The defining quality of a luxury sailing charter in Phuket is pace. No rushing between attractions on a fixed schedule, no countdown to the pier. Wake up when you want, sail when the wind is right, linger in the places you love. The crew handles everything — you experience everything."
+          "title": "Gemächliche Tage mit Fokus auf Qualitätszeit auf See",
+          "description": "Die definierende Qualität eines Luxus-Segelcharters in Phuket ist das Tempo. Kein Hetzen zwischen Attraktionen nach einem festen Zeitplan, kein Countdown zum Pier. Wachen Sie auf, wann Sie wollen, segeln Sie, wenn der Wind stimmt, verweilen Sie an den Orten, die Sie lieben. Die Crew kümmert sich um alles — Sie erleben alles."
         }
       },
-      "cta": "Plan your custom luxury sailing itinerary"
+      "cta": "Planen Sie Ihre individuelle Luxus-Segelroute"
     },
     "crew": {
-      "label": "Onboard Service",
-      "title": "Professional Crew and Luxury Onboard Experience",
+      "label": "Bordservice",
+      "title": "Professionelle Crew und Luxuriöses Bord-Erlebnis",
       "skippers": {
-        "title": "Experienced Skippers with Local Andaman Sea Knowledge",
-        "description": "Our captains have spent years — often decades — navigating these specific waters. They know which anchorages are sheltered in each season, which reefs are worth the detour, and how to make a route feel effortless."
+        "title": "Erfahrene Skipper mit Lokaler Andamanensee-Kenntnis",
+        "description": "Unsere Kapitäne haben Jahre — oft Jahrzehnte — damit verbracht, diese spezifischen Gewässer zu navigieren. Sie wissen, welche Ankerplätze in jeder Saison geschützt sind, welche Riffe den Umweg wert sind und wie man eine Route mühelos erscheinen lässt. Vor jedem Charter erhalten Sie ein vollständiges Briefing und haben die Möglichkeit, die Route gemeinsam zu gestalten."
       },
       "hospitality": {
-        "title": "Five-Star Hospitality and Discreet Service",
+        "title": "Fünf-Sterne-Gastfreundschaft und Diskreter Service auf Ihrem Luxus-Charter",
         "members": {
           "captain": {
-            "title": "Captain",
-            "description": "Licensed, experienced, responsible for your safety and route planning throughout."
+            "title": "Kapitän",
+            "description": "lizenziert, erfahren, verantwortlich für Ihre Sicherheit und Routenplanung während der gesamten Reise."
           },
           "chef": {
-            "title": "Chef / Hostess",
-            "description": "Prepares fresh Thai cuisine and international meals daily, accommodates dietary preferences, and keeps the yacht running smoothly behind the scenes."
+            "title": "Koch / Gastgeberin",
+            "description": "Bereitet täglich frische thailändische Küche und internationale Mahlzeiten zu, berücksichtigt Ernährungspräferenzen und sorgt dafür, dass die Yacht hinter den Kulissen reibungslos läuft."
           },
           "deckhand": {
-            "title": "Deckhand / Guide",
-            "description": "Handles anchoring, water activities, and island excursions, and brings local knowledge to every stop."
+            "title": "Decksmann / Führer",
+            "description": "Kümmert sich um das Ankern, Wasseraktivitäten und Inselausflüge und bringt lokales Wissen zu jedem Stopp mit."
           }
         },
-        "note": "This crew-to-guest ratio is what makes the service feel genuinely attentive rather than stretched."
+        "note": "Dieses Crew-zu-Gast-Verhältnis ist es, was den Service wirklich aufmerksam statt überlastet wirken lässt."
       },
       "dining": {
-        "title": "Dining, Drinks and Comfort at a Luxury Standard",
-        "description": "Every meal is prepared fresh onboard. Full board is included on all overnight and multi-day charters. Vegetarian, vegan, gluten-free, and other dietary needs are accommodated at no extra cost. Welcome drinks are always included; wine, champagne, and spirits can be pre-ordered."
+        "title": "Speisen, Getränke und Komfort auf Luxusniveau",
+        "description": "Jede Mahlzeit wird frisch an Bord zubereitet. Vollpension ist bei allen Übernachtungs- und Mehrtages-Chartern inbegriffen — Frühstück, Mittagessen, Abendessen und Snacks, zubereitet von Ihrem persönlichen Koch. Vegetarische, vegane, glutenfreie und andere Ernährungsbedürfnisse werden ohne Aufpreis berücksichtigt. Willkommensgetränke sind immer enthalten; Wein, Champagner und Spirituosen können vorbestellt werden."
       }
     },
     "who": {
-      "label": "Who This is For",
-      "title": "Who a Luxury Sailing Charter in Phuket Is For",
+      "label": "Für Wen Das Ist",
+      "title": "Für Wen ein Luxus-Segelcharter in Phuket Bestimmt Ist",
       "audiences": {
         "couples": {
-          "title": "Couples Seeking an Exclusive Honeymoon or Romantic Escape",
-          "description": "A private luxury sailing charter is one of the finest honeymoon experiences available in Thailand. Candlelit dinners on deck, sunsets at anchor in a private bay, and complete privacy throughout — it's the kind of experience that a resort simply can't replicate."
+          "title": "Paare auf der Suche nach Exklusiven Flitterwochen oder Romantischem Kurzurlaub in Phuket",
+          "description": "Ein privater Luxus-Segelcharter ist eines der feinsten Flitterwochen-Erlebnisse in Thailand. Abendessen bei Kerzenschein an Deck, Sonnenuntergänge vor Anker in einer privaten Bucht und vollständige Privatsphäre — es ist die Art von Erlebnis, das ein Resort einfach nicht nachahmen kann. Wenn es sich um Flitterwochen, einen Heiratsantrag oder einen Jahrestag handelt, teilen Sie es uns bei Ihrer Anfrage mit und wir planen die richtigen Details an Bord."
         },
         "families": {
-          "title": "Families Wanting a High-End Phuket Island Experience",
-          "description": "Families with children discover that a wide-beam luxury catamaran offers something rare: a holiday that feels genuinely relaxing for adults while keeping children happily entertained all day. Stable hulls, protected swim stops, and a crew who handles everything."
+          "title": "Familien, die ein High-End-Phuket-Inselerlebnis Wünschen",
+          "description": "Familien mit Kindern entdecken, dass ein breiter Luxus-Katamaran etwas Seltenes bietet: einen Urlaub, der für Erwachsene wirklich entspannend ist und Kinder den ganzen Tag fröhlich unterhält. Stabile Rümpfe, geschützte Badestopps, Wasserspielzeug, Schnorcheln und eine Crew, die alles erledigt, bedeutet, dass Eltern wirklich abschalten können."
         },
         "celebrations": {
-          "title": "Groups Celebrating Special Occasions at Sea",
-          "description": "A fully private sailing yacht, a personal chef, your group and no one else — it elevates any occasion, from a milestone birthday to a reunion to a hen or stag trip. Decoration, cakes, and special setups are arranged on request."
+          "title": "Gruppen, die Besondere Anlässe auf See auf einem Luxus-Segelcharter in Phuket Feiern",
+          "description": "Die Andamanensee bietet einen außergewöhnlichen Rahmen für eine Feier. Eine vollständig private Segelyacht, ein persönlicher Koch, Ihre Gruppe und niemand sonst — es hebt jeden Anlass, von einem Meilenstein-Geburtstag bis zu einem Wiedersehen oder einem Junggesellen- oder Junggesellinnenabschied, über den man noch Jahre später spricht. Dekoration, Kuchen und besondere Arrangements werden auf Anfrage organisiert."
         },
         "adventurous": {
-          "title": "Adventurous Sailors and Off-the-Beaten-Path Travelers",
-          "description": "For guests who want to explore — serious snorkeling, diving at the Similan Islands, kayaking through sea caves in Phang Nga Bay, or reaching the Butang Archipelago — we build itineraries that genuinely go further and feel like a real expedition."
+          "title": "Abenteuerlustige Segler und Abseits-Ausgetretener-Pfade-Reisende",
+          "description": "Nicht jeder Luxus-Segelcharter in Phuket dreht sich um langsame Entspannung. Für Gäste, die erkunden möchten — ernsthaftes Schnorcheln, Tauchen an den Similan-Inseln, Kajakfahren durch Meereshöhlen in Phang Nga Bay oder das Erreichen des Butang-Archipels nahe der malaysischen Grenze — erstellen wir Reiserouten, die wirklich weiter gehen und sich wie eine echte Expedition anfühlen."
         }
       },
-      "cta": "Tell us your group and occasion — we'll design the right experience"
+      "cta": "Sagen Sie uns Ihre Gruppe und den Anlass — wir gestalten das richtige Erlebnis"
     },
     "comparison": {
-      "label": "Why Private Charter",
-      "title": "Luxury Yacht Charter vs Standard Tours",
+      "label": "Warum Privater Charter",
+      "title": "Luxus-Yachtcharter vs Einrumpfboot-Vermietung",
       "features": {
         "privacy": {
-          "title": "Greater Privacy and Personalised Service",
-          "description": "On a shared speedboat tour, every decision is made for a group of strangers. On a private luxury sailing charter in Phuket, every decision is made for you. The difference isn't subtle."
+          "title": "Mehr Privatsphäre und Persönlicher Service auf einem Luxus-Charter",
+          "description": "Bei einer gemeinsamen Speedboot-Tour wird jede Entscheidung — wohin, wie lange bleiben, was essen — für eine Gruppe von Fremden getroffen. Auf einem privaten Luxus-Segelcharter in Phuket wird jede Entscheidung für Sie getroffen. Der Unterschied ist nicht subtil."
         },
         "access": {
-          "title": "Access to Exclusive Locations and Quiet Anchorages",
-          "description": "Standard tours visit the same popular beaches at the same busy times every day. A luxury sailing charter gives you access to different anchorages, better timing, and routes that take you to destinations tours simply don't reach."
+          "title": "Zugang zu Exklusiven Phuket-Standorten und Ruhigen Ankerplätzen",
+          "description": "Standard-Touren besuchen jeden Tag dieselben beliebten Strände zu denselben Stoßzeiten. Ein Luxus-Segelcharter gibt Ihnen Zugang zu verschiedenen Ankerplätzen, besserem Timing und Routen, die Sie zu Zielen führen — Koh Rok, Koh Ha, Koh Lipe — die Touren einfach nicht erreichen."
         },
         "premium": {
-          "title": "A Premium Alternative to Shared Tours",
-          "description": "The cost gap is smaller than most guests expect. When crew, meals, activities, and equipment are included, a private luxury sailing charter compares well to a high-end land-based holiday. The experience, however, doesn't compare at all."
+          "title": "Eine Premium-Alternative zu Gemeinsamen oder Speedboot-Touren in Phuket",
+          "description": "Die Preislücke ist kleiner als die meisten Gäste erwarten. Wenn Crew, Mahlzeiten, Aktivitäten und Ausrüstung enthalten sind, schneidet ein privater Luxus-Segelcharter in Phuket gut im Vergleich zu einem gehobenen Landurlaub ab. Das Erlebnis lässt sich jedoch überhaupt nicht vergleichen."
         }
       },
       "table": {
         "header": {
-          "feature": "Feature",
-          "luxury": "Private Luxury Charter",
-          "speedboat": "Shared Speedboat Tour"
+          "feature": "Merkmal",
+          "luxury": "Privater Luxus-Charter",
+          "speedboat": "Gemeinsame Schnellboot-Tour"
         },
         "rows": {
           "privacy": {
-            "label": "Privacy",
-            "luxury": "Fully private — your group only",
-            "speedboat": "Shared with strangers"
+            "label": "Privatsphäre",
+            "luxury": "Vollständig privat — nur Ihre Gruppe",
+            "speedboat": "Mit Fremden geteilt"
           },
           "route": {
             "label": "Route",
-            "luxury": "Custom, flexible, guided by your skipper",
-            "speedboat": "Fixed schedule, same stops daily"
+            "luxury": "Individuell, flexibel, von Ihrem Skipper geführt",
+            "speedboat": "Fester Zeitplan, täglich gleiche Stopps"
           },
           "destinations": {
-            "label": "Destinations",
-            "luxury": "Koh Rok, Koh Ha, Koh Lipe and hidden bays",
-            "speedboat": "Most crowded spots at peak times"
+            "label": "Ziele",
+            "luxury": "Koh Rok, Koh Ha, Koh Lipe und versteckte Buchten",
+            "speedboat": "Meistüberfüllte Orte zu Stoßzeiten"
           },
           "meals": {
-            "label": "Meals",
-            "luxury": "Fresh Thai cuisine by personal chef",
-            "speedboat": "Standard lunch box or buffet"
+            "label": "Mahlzeiten",
+            "luxury": "Frische thailändische Küche vom persönlichen Koch",
+            "speedboat": "Standard-Lunchbox oder Buffet"
           },
           "pace": {
-            "label": "Pace",
-            "luxury": "Unhurried, at your own rhythm",
-            "speedboat": "Fast, loud, rushed"
+            "label": "Tempo",
+            "luxury": "Gemütlich, in Ihrem eigenen Rhythmus",
+            "speedboat": "Schnell, laut, gehetzt"
           },
           "experience": {
-            "label": "Experience",
-            "luxury": "Smooth sailing, genuinely premium",
-            "speedboat": "Crowded, high-speed transfers"
+            "label": "Erlebnis",
+            "luxury": "Ruhiges Segeln, wirklich premium",
+            "speedboat": "Überfüllt, Hochgeschwindigkeits-Transfers"
           }
         }
       }
     },
     "plan": {
-      "label": "Start Planning",
-      "title": "Plan Your Luxury Yacht Charter in Phuket",
-      "subtitle": "Select Your Yacht, Duration and Sailing Route",
+      "label": "Planung Beginnen",
+      "title": "Planen Sie Ihren Luxus-Yachtcharter in Phuket",
+      "subtitle": "Wählen Sie Ihre Yacht, Dauer und Segelroute",
       "steps": {
-        "step1": "Share your group size, dates, and priorities — islands you want to visit, pace you prefer, any special occasion or request",
-        "step2": "We recommend the best vessels and routes matched to your season, group, and goals",
-        "step3": "Confirm the charter — itinerary, inclusions, and pricing confirmed in writing before any commitment",
-        "step4": "Arrive and let the crew handle the rest"
+        "step1": "Teilen Sie uns Ihre Gruppengröße, Termine und Prioritäten mit — Inseln, die Sie besuchen möchten, bevorzugtes Tempo, besondere Anlässe oder Wünsche",
+        "step2": "Wir empfehlen die besten Schiffe und Routen, die zu Ihrer Saison, Gruppe und Ihren Zielen passen",
+        "step3": "Bestätigen Sie den Charter — Reiseroute, Inklusivleistungen und Preise werden schriftlich bestätigt, bevor Sie sich verpflichten",
+        "step4": "Kommen Sie an und lassen Sie die Crew den Rest erledigen"
       },
       "confidence": {
-        "title": "Book with Confidence",
+        "title": "Buchen Sie mit Vertrauen",
         "items": {
-          "item1": "Operating luxury sailing charters in Phuket since 1996",
-          "item2": "Licensed by the Tourism Authority of Thailand (OTD #34/02546)",
+          "item1": "Betreibt Luxus-Segelcharter in Phuket seit 1996",
+          "item2": "Lizenziert von der Tourismusbehörde Thailands (OTD #34/02546)",
           "item3": "World Luxury Travel Award 2025",
-          "item4": "Trusted by guests from over 50 countries",
-          "item5": "Over 750 five-star reviews on Google and TripAdvisor",
-          "item6": "Transparent pricing — everything confirmed in writing. No hidden fees, ever."
+          "item4": "Vertraut von Gästen aus über 50 Ländern",
+          "item5": "Über 850 Fünf-Sterne-Bewertungen auf Google und TripAdvisor",
+          "item6": "Transparente Preisgestaltung — alles schriftlich bestätigt. Keine versteckten Gebühren, jemals."
         }
       },
       "begin": {
-        "title": "Begin Your Luxury Sailing Experience",
-        "description": "Contact us by phone, WhatsApp, email, or Line App. We respond within 24 hours with yacht options, route ideas, and clear pricing based on your exact dates and group.",
+        "title": "Beginnen Sie Ihr Luxus-Segelerlebnis",
+        "description": "Kontaktieren Sie uns per Telefon, WhatsApp, E-Mail oder Line App. Wir antworten innerhalb von 24 Stunden mit Yachtoptionen, Routenideen und klaren Preisen basierend auf Ihren genauen Daten und Ihrer Gruppe.",
         "phone": "+66 61 234 5623",
         "email": "booking@faraway-yachting.com",
         "whatsapp": "WhatsApp",
-        "cta": "Get Your Luxury Sailing Charter Quote"
+        "cta": "Holen Sie Sich Ihr Luxus-Segelcharter-Angebot"
       }
     },
     "faq": {
-      "title": "Luxury Sailing Yacht Charter Phuket",
+      "title": "Luxus-Segelyacht-Charter Phuket",
       "subtitle": "",
       "questions": {
         "what": {
-          "q": "What is a luxury sailing yacht charter in Phuket?",
-          "a": "A fully private charter — a premium sailing yacht or catamaran, professional crew, chef, and full equipment — reserved exclusively for your group. You choose the islands, the pace, and the duration. Everything else is handled."
+          "q": "Was ist ein Luxus-Segelyacht-Charter in Phuket?",
+          "a": "Ein vollständig privater Charter — eine Premium-Segelyacht oder Katamaran, professionelle Crew, Koch und vollständige Ausrüstung — exklusiv für Ihre Gruppe reserviert. Sie wählen die Inseln, das Tempo und die Dauer. Alles andere wird geregelt."
         },
         "difference": {
-          "q": "How is a luxury sailing charter different from a superyacht charter in Phuket?",
-          "a": "Luxury sailing charters focus on authentic wind-powered sailing aboard premium catamarans and yachts — intimate, adventure-oriented, and ideal for couples, honeymooners, and small groups seeking a genuine sailing experience. Superyacht charters in Phuket involve larger motor yachts (70–106ft+) suited to VIP events, corporate entertaining, and ultra-luxury occasions. Both offer exceptional quality — the right choice depends entirely on the experience you're after."
+          "q": "Wie unterscheidet sich ein Luxus-Segelcharter von einem Superyacht-Charter in Phuket?",
+          "a": "Luxus-Segelcharter konzentrieren sich auf authentisches windgetriebenes Segeln an Bord von Premium-Katamaranen und Yachten — intim, abenteuerorientiert und ideal für Paare, Hochzeitsreisende und kleine Gruppen, die ein echtes Segelerlebnis suchen. Superyacht-Charter in Phuket umfassen größere Motoryachten (70–106 Fuß+), die für VIP-Events, Firmenveranstaltungen und Ultra-Luxus-Anlässe geeignet sind. Beide bieten außergewöhnliche Qualität — die richtige Wahl hängt ganz von der Erfahrung ab, die Sie suchen."
         },
         "honeymoon": {
-          "q": "What is the best luxury sailing charter for a honeymoon in Phuket?",
-          "a": "A 3–5 night private catamaran charter. A private ensuite cabin, fresh meals each day, and a route that covers Phi Phi Islands, Racha Islands, and Koh Rok — secluded, beautiful, and completely private. Tell us it's your honeymoon when you inquire and we'll arrange the right touches onboard."
+          "q": "Was ist der beste Luxus-Segelcharter für Flitterwochen in Phuket?",
+          "a": "Ein 3–5-Nächte-Privat-Katamaran-Charter. Eine private Ensuite-Kabine, frische Mahlzeiten jeden Tag und eine Route, die die Phi Phi-Inseln, Racha-Inseln und Koh Rok abdeckt — abgeschieden, schön und vollständig privat. Sagen Sie uns, dass es Ihre Flitterwochen sind, wenn Sie anfragen, und wir werden die richtigen Akzente an Bord setzen."
         },
         "islands": {
-          "q": "Which islands can I reach on a luxury sailing charter from Phuket?",
-          "a": "On day and overnight charters: Racha Islands (2–3 hrs), Phi Phi Islands (4–5 hrs), Phang Nga Bay and Koh Hong (3–4 hrs). On 5+ night charters: Koh Rok, Koh Ha, Koh Lanta, and Koh Lipe."
+          "q": "Welche Inseln kann ich bei einem Luxus-Segelcharter von Phuket aus erreichen?",
+          "a": "Bei Tages- und Übernachtungscharter: Racha-Inseln (2–3 Std.), Phi Phi-Inseln (4–5 Std.), Phang Nga-Bucht und Koh Hong (3–4 Std.). Bei 5+-Nächte-Charter: Koh Rok, Koh Ha, Koh Lanta und Koh Lipe."
         },
         "firstTime": {
-          "q": "Is a luxury sailing charter suitable for first-time sailors?",
-          "a": "Yes. All crewed charters include a professional captain who handles all sailing and navigation. You need no experience — just an interest in the sea and the islands."
+          "q": "Ist ein Luxus-Segelcharter für Segelanfänger geeignet?",
+          "a": "Ja. Alle Charter mit Besatzung beinhalten einen professionellen Kapitän, der das gesamte Segeln und die Navigation übernimmt. Sie benötigen keine Erfahrung — nur ein Interesse am Meer und den Inseln."
         },
         "included": {
-          "q": "What is included in a luxury sailing charter in Phuket?",
-          "a": "All meals, drinking water, fuel, crew (captain, chef, deckhand), snorkeling gear, kayaks, and paddleboards. National park fees (300–400 THB per person per park) and alcoholic drinks are typically extra — confirmed upfront with no surprises."
+          "q": "Was ist in einem Luxus-Segelcharter in Phuket enthalten?",
+          "a": "Alle Mahlzeiten, Trinkwasser, Treibstoff, Crew (Kapitän, Koch, Decksmann), Schnorchelausrüstung, Kajaks und Paddleboards. Nationalparkgebühren (300–400 THB pro Person pro Park) und alkoholische Getränke sind in der Regel extra — im Voraus bestätigt ohne Überraschungen."
         },
         "bestTime": {
-          "q": "When is the best time for a luxury sailing charter in Phuket?",
-          "a": "November to April offers the calmest conditions and most reliable weather. Low season (May–October) brings 30–40% lower prices and quieter anchorages — perfectly viable for guests comfortable with occasional afternoon rain."
+          "q": "Wann ist die beste Zeit für einen Luxus-Segelcharter in Phuket?",
+          "a": "November bis April bietet die ruhigsten Bedingungen und zuverlässigstes Wetter. Nebensaison (Mai–Oktober) bringt 30–40 % niedrigere Preise und ruhigere Ankerplätze — perfekt geeignet für Gäste, die mit gelegentlichem Nachmittagsregen zurechtkommen."
         },
         "cost": {
-          "q": "How much does a luxury sailing charter in Phuket cost?",
-          "a": "Private luxury sailing charters start from approximately €700–€900 per night for premium catamarans. Day charters from 29,900 THB. All inclusive of crew, meals, and onboard activities."
+          "q": "Wie viel kostet ein Luxus-Segelcharter in Phuket?",
+          "a": "Private Luxus-Segelcharter beginnen bei etwa 700–900 € pro Nacht für Premium-Katamarane. Tages-Charter ab 29.900 THB. Alles inklusive Crew, Mahlzeiten und Bordaktivitäten."
         }
       }
     }

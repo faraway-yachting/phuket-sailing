@@ -933,350 +933,350 @@
   },
   "luxuryYachtCharter": {
     "hero": {
-      "badge1": "Est. 1996",
-      "badge2": "750+ Five-Star Reviews",
-      "badge3": "World Luxury Travel Award 2025",
-      "title": "Luxury Sailing Yacht Charter Phuket",
-      "subtitle": "Private Yachting in Thailand",
-      "description": "The Andaman Sea's most beautiful islands, a private vessel, and a crew dedicated entirely to your group. No shared tours, no fixed schedules — just Thailand by sail, on your terms.",
-      "cta1": "Get Your Private Charter Quote",
-      "cta2": "Explore Our Fleet"
+      "badge1": "ก่อตั้งปี 1996",
+      "badge2": "850+ รีวิว 5 ดาว",
+      "badge3": "รางวัล World Luxury Travel Award 2025",
+      "title": "เช่าเรือยอชต์หรูหราภูเก็ต – เรือยอชต์ส่วนตัวในไทย",
+      "subtitle": "เรือใบส่วนตัวและเรือคาตามารันหรูหราในภูเก็ต — มีลูกเรือครบ ปรับแต่งได้ทั้งหมด เป็นของคุณทั้งหมด",
+      "description": "ก่อตั้งปี 1996 · 850+ รีวิว 5 ดาว · รางวัล World Luxury Travel Award 2025",
+      "cta1": "รับใบเสนอราคาเช่าเรือส่วนตัวของคุณ",
+      "cta2": "สำรวจฝูงเรือของเรา"
     },
     "privateCharters": {
-      "label": "Yachts Here",
-      "title": "Private Luxury Yacht Charters in Phuket",
+      "label": "เรือยอชต์ที่นี่",
+      "title": "เช่าเรือยอชต์หรูหราส่วนตัวในภูเก็ต",
       "features": {
         "exclusive": {
-          "title": "Exclusive Sailing Experiences on Premium Yachts",
-          "description": "A private sailing charter means the boat is yours alone — every anchorage, every meal, every moment of the day shaped around your group. Whether it's a two-night escape to Racha Islands or a two-week expedition to Koh Lipe, no detail is shared with strangers.",
-          "cta": "Explore our fleet"
+          "title": "ประสบการณ์การแล่นเรือพิเศษเฉพาะบนเรือยอชต์พรีเมียม",
+          "description": "การเช่าเรือใบส่วนตัวหมายความว่าเรือเป็นของคุณเพียงผู้เดียว — ทุกจุดจอดเรือ ทุกมื้ออาหาร ทุกช่วงเวลาของวันที่ออกแบบรอบกลุ่มของคุณ ไม่ว่าจะเป็นการพักผ่อนสองคืนที่เกาะราชา หรือการสำรวจสองสัปดาห์ไปเกาะหลีเป๊ะ ไม่มีรายละเอียดใดที่ต้องแบ่งปันกับคนแปลกหน้า",
+          "cta": "สำรวจฝูงเรือของเรา"
         },
         "comfort": {
-          "title": "Private Yacht Hire Designed for Comfort, Privacy and Style",
-          "description": "Our luxury sailing yachts and catamarans are selected for both performance and livability — spacious cabins, quality linens, espresso machines, and generous deck space that makes time at anchor as enjoyable as the sailing itself.",
-          "cta": "View cabin layouts and specifications"
+          "title": "เช่าเรือยอชต์ส่วนตัวที่ออกแบบมาเพื่อความสะดวกสบาย ความเป็นส่วนตัว และสไตล์",
+          "description": "เรือใบหรูหราและเรือคาตามารันของเราได้รับการคัดเลือกทั้งเพื่อประสิทธิภาพและความน่าอยู่ — ห้องโดยสารที่กว้างขวาง ผ้าปูที่นอนคุณภาพ เครื่องชงกาแฟเอสเพรสโซ และพื้นที่ดาดฟ้าที่กว้างขวางซึ่งทำให้เวลาที่จอดเรือน่าเพลิดเพลินเท่ากับการแล่นเรือ",
+          "cta": "ดูผังห้องโดยสารและข้อมูลจำเพาะ"
         },
         "tailored": {
-          "title": "Tailored from the First Inquiry to the Final Anchorage",
-          "description": "We design every charter from scratch. Share your group size, travel dates, preferred islands, and occasion — we'll recommend the right vessel, draft a route, and handle every logistical detail so you arrive with nothing to organise.",
-          "cta": "Start planning your charter"
+          "title": "ปรับแต่งตั้งแต่การสอบถามครั้งแรกจนถึงการจอดเรือครั้งสุดท้าย",
+          "description": "เราออกแบบการเช่าเรือทุกครั้งตั้งแต่เริ่มต้น แบ่งปันขนาดกลุ่มของคุณ วันที่เดินทาง เกาะที่ต้องการ และโอกาส — เราจะแนะนำเรือที่เหมาะสม ร่างเส้นทาง และจัดการรายละเอียดทางโลจิสติกส์ทุกอย่างเพื่อให้คุณมาถึงโดยไม่ต้องจัดการอะไร",
+          "cta": "เริ่มวางแผนการเช่าเรือของคุณ"
         }
       }
     },
     "whyChoose": {
-      "label": "Why Choose Us",
-      "title": "Why Choose a Luxury Yacht Charter in Phuket",
-      "description": "Phuket is Southeast Asia's premier sailing hub. Island-to-island distances are perfect for day sails or multi-night routes, and the scenery — limestone karsts, emerald lagoons, white-sand beaches — rewards the journey at every point.",
+      "label": "ทำไมต้องเลือกเรา",
+      "title": "ทำไมต้องเลือกเช่าเรือยอชต์หรูหราในภูเก็ต",
+      "description": "ภูเก็ตเป็นศูนย์กลางการแล่นเรือใบชั้นนำของเอเชียตะวันออกเฉียงใต้ ระยะทางจากเกาะสู่เกาะเหมาะสำหรับการแล่นเรือวันเดียวหรือเส้นทางหลายคืน และทัศนียภาพ — โขดหินปูนคาร์สต์ ทะเลสาบสีมรกต ชายหาดทรายขาว — ให้รางวัลกับการเดินทางในทุกจุด",
       "reasons": {
         "refined": {
-          "title": "A Refined Way to Explore Thailand by Sea",
-          "description": "Sailing between islands on a private yacht is simply a different experience from being ferried on a speedboat. You move at the wind's pace, stop where you choose, and see the Andaman Sea the way it deserves to be seen — slowly, quietly, and without a crowd."
+          "title": "วิธีที่สง่างามในการสำรวจไทยทางทะเล",
+          "description": "การแล่นเรือระหว่างเกาะบนเรือยอชต์ส่วนตัวเป็นประสบการณ์ที่แตกต่างจากการเดินทางด้วยเรือเร็ว คุณเคลื่อนที่ด้วยจังหวะของลม หยุดที่คุณเลือก และเห็นทะเลอันดามันในแบบที่สมควรจะเห็น — ช้าๆ อย่างเงียบๆ และไม่มีฝูงชน"
         },
         "personal": {
-          "title": "Personal Space, Professional Crew and Tailored Service",
-          "description": "The crew's sole job is your comfort. Your onboard chef prepares fresh Thai cuisine tailored to your preferences. Your skipper knows the best anchorages for the season. Nothing about your day is determined by other guests or fixed schedules."
+          "title": "พื้นที่ส่วนตัว ลูกเรือมืออาชีพ และบริการที่ปรับแต่งได้",
+          "description": "งานเดียวของลูกเรือคือความสะดวกสบายของคุณ พ่อครัวประจำเรือของคุณเตรียมอาหารไทยสดใหม่ที่ปรับแต่งตามความชอบของคุณ กัปตันของคุณรู้จุดจอดเรือที่ดีที่สุดสำหรับแต่ละฤดูกาล ไม่มีอะไรในวันของคุณถูกกำหนดโดยแขกคนอื่นหรือตารางเวลาที่แน่นอน"
         },
         "beyond": {
-          "title": "Luxury Sailing Beyond Standard Boat Tours",
-          "description": "What standard tours cannot offer is unhurried time — early morning arrivals at Phi Phi Islands before the day boats, quiet afternoons in bays other operators never visit, and overnight stays in places that feel genuinely remote. That's what a private luxury sailing charter in Phuket provides."
+          "title": "การแล่นเรือหรูหราเหนือกว่าทัวร์เรือมาตรฐาน",
+          "description": "สิ่งที่ทัวร์มาตรฐานไม่สามารถให้ได้คือเวลาที่ไม่รีบร้อน — การมาถึงเช้าตรู่ที่เกาะพีพีก่อนเรือเที่ยววัน บ่ายที่เงียบสงบในอ่าวที่ผู้ประกอบการรายอื่นไม่เคยเยี่ยมชม และการพักค้างคืนในสถานที่ที่รู้สึกห่างไกลจริงๆ นั่นคือสิ่งที่การเช่าเรือใบหรูหราส่วนตัวในภูเก็ตมอบให้"
         }
       },
       "badge": {
         "years": "30+",
-        "label": "Years of Experience"
+        "label": "ปีของประสบการณ์"
       }
     },
     "yachts": {
-      "label": "Our Fleet",
-      "title": "Luxury Sailing Yachts Available for Charter in Phuket",
-      "description": "The right vessel sets the tone for the whole experience. Our luxury fleet covers every group size and travel style.",
+      "label": "กองเรือ",
+      "title": "เรือยอชต์หรูหราและเรือคาตามารันในภูเก็ต",
+      "description": "เรือทุกลำในกองเรือมีความทันสมัย มีลูกเรือครบ และได้รับการบำรุงรักษาตามมาตรฐานที่คาดหวังจากการเช่าเรือยอชต์หรูหราในประเทศไทย",
       "types": {
         "catamarans": {
-          "title": "Elegant Sailing Catamarans",
-          "subtitle": "45-55ft, wide-beam, stable",
-          "description": "Purpose-built for Thailand's waters. The first choice for families, groups of 4-8, and anyone who wants generous deck space with a sailing experience."
+          "title": "เรือคาตามารันหรูหรา",
+          "subtitle": "มั่นคง กว้างขวาง และเรียบลื่น",
+          "description": "สร้างขึ้นเพื่อน่านน้ำไทยโดยเฉพาะ เป็นตัวเลือกแรกสำหรับครอบครัว กลุ่ม 4-8 คน และทุกคนที่ต้องการพื้นที่ดาดฟ้ากว้างขวางพร้อมประสบการณ์การล่องเรือ"
         },
         "yachts": {
-          "title": "Classic Sailing Yachts",
-          "subtitle": "Responsive and authentic",
-          "description": "Ideal for couples or smaller groups who want the authentic feel of wind in the sails rather than a floating villa."
+          "title": "เรือยอชต์แบบคลาสสิก",
+          "subtitle": "ตอบสนองและแท้จริง",
+          "description": "เหมาะสำหรับคู่รักหรือกลุ่มเล็กๆ ที่ต้องการความรู้สึกแท้จริงของลมในใบเรือมากกว่าวิลล่าลอยน้ำ"
         }
       },
-      "note": "All vessels are crewed, fully insured, and maintained to the standards expected of a luxury sailing charter in Phuket.",
+      "note": "เรือทุกลำมีลูกเรือ มีประกันครบถ้วน และได้รับการบำรุงรักษาตามมาตรฐานที่คาดหวังจากการเช่าเรือยอชต์หรูหราในภูเก็ต",
       "amenities": {
-        "title": "Spacious Decks, Private Cabins and Premium Onboard Amenities",
-        "description": "Every vessel in the fleet offers the same core comforts. Onboard water makers, solar systems, snorkeling gear, kayaks, and paddleboards are standard.",
+        "title": "ดาดฟ้ากว้างขวาง ห้องส่วนตัว และสิ่งอำนวยความสะดวกระดับพรีเมียม",
+        "description": "เรือทุกลำในกองเรือมีความสะดวกสบายแบบเดียวกัน เครื่องทำน้ำดื่มบนเรือ ระบบโซล่าเซลล์ อุปกรณ์ดำน้ำ คายัค และแพดเดิลบอร์ดเป็นมาตรฐาน",
         "items": {
-          "cabins": "Private double cabins with quality linens",
-          "bathrooms": "Ensuite or nearby bathrooms",
-          "cockpit": "Shaded cockpit for outdoor dining",
-          "systems": "Sound systems & espresso machines"
+          "cabins": "ห้องนอนคู่ส่วนตัวพร้อมผ้าปูที่นอนคุณภาพดี",
+          "bathrooms": "ห้องน้ำในห้องหรือใกล้เคียง",
+          "cockpit": "ห้องนักบินมีร่มเงาสำหรับรับประทานอาหารกลางแจ้ง",
+          "systems": "ระบบเสียงและเครื่องชงกาแฟเอสเพรสโซ"
         }
       },
       "groups": {
-        "title": "Options for Couples, Families and Private Groups",
+        "title": "ตัวเลือกสำหรับคู่รัก ครอบครัว และกลุ่มส่วนตัว",
         "couples": {
-          "title": "For Couples & Honeymooners",
-          "description": "Intimate sailing yachts and boutique catamarans with private ensuite cabins and space designed for two."
+          "title": "สำหรับคู่รักและคู่ฮันนีมูน",
+          "description": "เรือยอชต์แบบใกล้ชิดและเรือคาตามารันบูติคพร้อมห้องส่วนตัวที่มีห้องน้ำในตัวและพื้นที่ออกแบบสำหรับสองคน"
         },
         "families": {
-          "title": "For Families",
-          "description": "Wide-beam catamarans with multiple cabins, stable hulls, and child-friendly crew who know how to pace a day on the water."
+          "title": "สำหรับครอบครัว",
+          "description": "เรือคาตามารันกว้างพร้อมหลายห้องนอน ตัวเรือมั่นคง และลูกเรือที่เป็นมิตรกับเด็กที่รู้วิธีจัดการวันบนน้ำ"
         },
         "groupsLarge": {
-          "title": "For Groups up to 10",
-          "description": "Fully private multi-cabin catamarans with communal areas large enough for everyone to spread out."
+          "title": "สำหรับกลุ่มสูงสุด 10 คน",
+          "description": "เรือคาตามารันหลายห้องนอนแบบส่วนตัวทั้งหมดพร้อมพื้นที่ส่วนกลางกว้างพอสำหรับทุกคนที่จะกระจายตัว"
         },
-        "cta": "Find the right yacht for your group"
+        "cta": "ค้นหาเรือยอชต์ที่เหมาะสมสำหรับกลุ่มของคุณ"
       }
     },
     "experiences": {
-      "label": "Charter Experiences",
-      "title": "Private Luxury Charter Experiences in Phuket",
-      "description": "Here are the three most popular ways to experience a luxury sailing charter in Phuket:",
+      "label": "ประสบการณ์การเช่าเหมาลำ",
+      "title": "ประสบการณ์การเช่าเหมาลำหรูหราส่วนตัวในภูเก็ต",
+      "description": "นี่คือสามวิธีที่ได้รับความนิยมมากที่สุดในการสัมผัสประสบการณ์การเช่าเรือยอชต์หรูหราในภูเก็ต:",
       "types": {
         "day": {
           "number": "01",
-          "title": "Luxury Day Charter",
-          "description": "A full private day on the Andaman Sea — swimming, snorkeling, and island stops with a personal chef and crew. No shared decks, no fixed route. From Phi Phi Islands to Phang Nga Bay to Racha Islands, we'll design the day around what your group wants most."
+          "title": "เช่าเหมาลำหรูหราแบบเต็มวัน",
+          "description": "วันส่วนตัวเต็มวันบนทะเลอันดามัน — ว่ายน้ำ ดำน้ำ และแวะเกาะต่างๆ พร้อมเชฟส่วนตัวและลูกเรือ ไม่มีดาดฟ้าร่วม ไม่มีเส้นทางตายตัว จากเกาะพีพี อ่าวพังงา ไปจนถึงเกาะราชา เราจะออกแบบวันให้เหมาะกับสิ่งที่กลุ่มของคุณต้องการมากที่สุด"
         },
         "sunset": {
           "number": "02",
-          "title": "Sunset Cruise and Private Evening Sail",
-          "description": "Shorter, more focused, and high-impact. A private sunset sailing cruise around Phuket's most scenic headlands is one of the most memorable ways to spend an evening in Thailand — perfect for honeymoons, proposals, and special anniversaries."
+          "title": "ล่องเรือชมพระอาทิตย์ตกและล่องเรือยามเย็นส่วนตัว",
+          "description": "สั้นกว่า โฟกัสมากขึ้น และสร้างความประทับใจสูง การล่องเรือชมพระอาทิตย์ตกส่วนตัวรอบแหลมที่สวยที่สุดของภูเก็ตเป็นหนึ่งในวิธีที่น่าจดจำที่สุดในการใช้เวลายามเย็นในประเทศไทย — เหมาะสำหรับฮันนีมูน การขอแต่งงาน และครบรอบพิเศษ"
         },
         "multiDay": {
           "number": "03",
-          "title": "Multi-Day Luxury Sailing Journey",
-          "badge": "Our Recommendation",
-          "description": "This is where a Phuket luxury sailing charter becomes genuinely unforgettable. Two nights is a taste; five nights is the full experience — quiet mornings at anchor, fresh meals prepared on board each day, and islands like Koh Rok, Koh Ha, and Koh Lipe that day trippers simply never reach."
+          "title": "การเดินทางล่องเรือยอชต์หรูหราหลายวัน",
+          "badge": "คำแนะนำของเรา",
+          "description": "นี่คือจุดที่การเช่าเรือยอชต์หรูหราในภูเก็ตกลายเป็นความทรงจำที่ไม่มีวันลืม สองคืนคือการชิม ห้าคืนคือประสบการณ์เต็มรูปแบบ — ตอนเช้าที่เงียบสงบ อาหารสดใหม่ที่เตรียมบนเรือทุกวัน และเกาะต่างๆ เช่น เกาะรอก เกาะห้า และเกาะหลีเป๊ะ ที่นักท่องเที่ยวแบบไป-กลับไม่มีทางเข้าถึง"
         }
       },
-      "cta": "Tell us how many nights you have — we'll recommend the best route"
+      "cta": "บอกเราว่าคุณมีกี่คืน — เราจะแนะนำเส้นทางที่ดีที่สุด"
     },
     "destinations": {
-      "label": "Island Destinations",
-      "title": "Phuket Island Destinations Reached by Luxury Yacht",
+      "label": "จุดหมายปลายทางบนเกาะ",
+      "title": "จุดหมายปลายทางเกาะภูเก็ตที่เข้าถึงได้ด้วยเรือยอชต์หรูหรา",
       "islands": {
         "phiPhi": {
-          "title": "Phi Phi Islands and Iconic Andaman Bays",
-          "description": "Maya Bay, Monkey Beach, Tonsai Bay — among Thailand's most iconic settings. By private sailing yacht, you arrive on your own schedule, anchor away from the tour boats, and experience the islands the way they were meant to be seen. Ideal for day charters and 1-3 night trips."
+          "title": "หมู่เกาะพีพีและอ่าวอันดามันที่โดดเด่น",
+          "description": "หมู่เกาะพีพี — อ่าวมาหยา, หาดลิง, อ่าวต้นไทร — เป็นหนึ่งในสถานที่ที่เป็นสัญลักษณ์ที่สุดของประเทศไทย ด้วยเรือใบส่วนตัว คุณจะมาถึงตามตารางเวลาของคุณเอง ทอดสมอห่างจากเรือทัวร์ และสัมผัสหมู่เกาะในแบบที่ควรจะเป็น เหมาะสำหรับทริปเช่าเรือวันเดียวและทริป 1-3 คืนจากอ่าวฉลอง"
         },
         "phangNga": {
-          "title": "Phang Nga Bay and Limestone Coves",
-          "description": "Limestone karsts rise from green water, sea caves open into hidden lagoons, and traditional stilt villages offer a glimpse of local life unchanged for generations. Koh Hong — paddled through a sea cave to a private turquoise lagoon — is a consistent highlight."
+          "title": "อ่าวพังงาและถ้ำหินปูนบนเรือเช่าหรูภูเก็ต",
+          "description": "อ่าวพังงาให้รางวัลกับการสำรวจอย่างช้าๆ เขาหินปูนตั้งตระหง่านจากน้ำสีเขียว ถ้ำทะเลเปิดออกสู่ลากูนที่ซ่อนอยู่ และหมู่บ้านบนเสาไม้เสนอภาพวิถีชีวิตท้องถิ่นที่ไม่เปลี่ยนแปลงมาหลายชั่วอายุคน เกาะห้อง — พายเรือคายัคผ่านถ้ำทะเลสู่ลากูนเทอร์ควอยซ์ส่วนตัว — เป็นไฮไลท์ที่สม่ำเสมอของทุกเส้นทางเดินเรือหรูในภูเก็ต"
         },
         "hidden": {
-          "title": "Hidden Gems of the Andaman Sea",
-          "description": "Guests who take 5+ night luxury sailing charters consistently say the quieter, further islands — Koh Rok for pristine reef, Koh Ha for extraordinary snorkeling, Koh Lipe and the Butang Islands for true remoteness — are the places they remember most."
+          "title": "อัญมณีที่ซ่อนอยู่ของทะเลอันดามัน",
+          "description": "จุดหมายปลายทางที่ดีที่สุดของทะเลอันดามันไม่ใช่สถานที่ที่มีชื่อเสียงที่สุดเสมอไป แขกที่เดินทางเรือใบหรู 5+ คืนจากภูเก็ตพูดตรงกันว่า เกาะที่เงียบสงบและไกลออกไป — เกาะรอกสำหรับแนวปะการังบริสุทธิ์และน้ำใส เกาะห้าสำหรับการดำน้ำตื้นที่พิเศษ เกาะหลีเป๊ะและหมู่เกาะบุตังสำหรับความสันโดษแท้จริงใกล้ชายแดนมาเลเซีย — คือสถานที่ที่พวกเขาจดจำมากที่สุด"
         }
       },
       "features": {
         "turquoise": {
-          "title": "Turquoise Waters, Secluded Beaches and Quiet Anchorages",
-          "description": "On a private luxury sailing charter, mornings at anchor are genuinely different. You wake up in a bay before the tour boats arrive, swim directly from the yacht into water so clear you can see the seabed, and eat breakfast on deck in complete quiet. These are the moments guests come back for."
+          "title": "น้ำสีฟ้าครามใส หาดที่เงียบสงบ และจุดจอดเรือที่เงียบสงบ",
+          "description": "ในการเช่าเรือยอชต์หรูหราส่วนตัว ตอนเช้าที่จอดเรือแตกต่างอย่างแท้จริง คุณตื่นขึ้นมาในอ่าวก่อนเรือทัวร์จะมาถึง ว่ายน้ำตรงจากเรือยอชต์ลงสู่น้ำที่ใสจนคุณมองเห็นพื้นทะเล และรับประทานอาหารเช้าบนดาดฟ้าอย่างเงียบสงบ นี่คือช่วงเวลาที่แขกกลับมาอีกครั้ง"
         },
         "hopping": {
-          "title": "Island Hopping Routes Away from the Crowds",
-          "description": "Our skippers route every charter to keep you ahead of the busy periods — arriving at popular spots early, moving to quieter anchorages in the afternoon, and timing overnight stays so your mornings are always peaceful. On longer charters, the itinerary takes you progressively further from the day-trip zones."
+          "title": "เส้นทางเกาะฮอปที่ห่างจากฝูงชน",
+          "description": "กัปตันของเราวางแผนทุกทริปเพื่อให้คุณนำหน้าช่วงเวลาที่คนเยอะ — มาถึงจุดยอดนิยมแต่เช้า ย้ายไปจุดทอดสมอที่เงียบสงบในช่วงบ่าย และจัดเวลาค้างคืนเพื่อให้เช้าของคุณสงบเสมอ สำหรับทริปที่ยาวขึ้น เส้นทางจะพาคุณไกลออกจากโซนทริปวันเดียวเข้าสู่พื้นที่ที่คุ้มค่าที่สุดของทะเลอันดามัน"
         }
       },
-      "cta": "See route ideas and sailing itineraries"
+      "cta": "ดูไอเดียเส้นทางและกำหนดการล่องเรือ"
     },
     "itinerary": {
-      "label": "Your Itinerary",
-      "title": "Your Phuket Luxury Yacht Charter Itinerary",
+      "label": "กำหนดการของคุณ",
+      "title": "กำหนดการเช่าเรือยอชต์หรูหราภูเก็ตของคุณ",
       "features": {
         "tailorMade": {
-          "title": "Tailor-Made Routes Around Phuket and Beyond",
-          "description": "We build each itinerary around the group aboard — the islands you most want to see, the pace that suits you, and the balance of adventure and relaxation you're after. A typical 5-night luxury sailing charter from Phuket might cover Phi Phi Islands, Koh Lanta, Koh Muk, and Koh Rok — or we can focus on fewer islands and spend more time in each. Your call."
+          "title": "เส้นทางที่ออกแบบเฉพาะรอบๆ ภูเก็ตและเกินกว่า",
+          "description": "เราสร้างกำหนดการแต่ละรายการรอบกลุ่มบนเรือ — เกาะที่คุณอยากเห็นมากที่สุด จังหวะที่เหมาะกับคุณ และความสมดุลของการผจญภัยและการพักผ่อนที่คุณต้องการ การเช่าเรือยอชต์หรูหรา 5 คืนทั่วไปจากภูเก็ตอาจครอบคลุมหมู่เกาะพีพี เกาะลันตา เกาะมุก และเกาะรอก — หรือเราสามารถโฟกัสที่เกาะน้อยลงและใช้เวลามากขึ้นในแต่ละเกาะ ขึ้นอยู่กับคุณ"
         },
         "flexible": {
-          "title": "Flexible Sailing Based on Sea and Weather Conditions",
-          "description": "Andaman Sea conditions vary by season, and our skippers read them daily. You'll receive a full weather and route briefing before departure, and the itinerary is always adjusted in real time to ensure you're sailing when the conditions are best and resting when they're not. There's no rigid programme to stick to."
+          "title": "การล่องเรือที่ยืดหยุ่นตามสภาพทะเลและสภาพอากาศ",
+          "description": "สภาพทะเลอันดามันแตกต่างกันไปตามฤดูกาล และกัปตันของเราอ่านมันทุกวัน คุณจะได้รับบรีฟฟิงสภาพอากาศและเส้นทางอย่างเต็มที่ก่อนออกเดินทาง และกำหนดการจะถูกปรับเปลี่ยนตลอดเวลาเพื่อให้แน่ใจว่าคุณกำลังล่องเรือเมื่อสภาพดีที่สุดและพักเมื่อไม่ดี ไม่มีโปรแกรมที่ตายตัวให้ต้องยึดถือ"
         },
         "unhurried": {
-          "title": "Unhurried Days Focused on Quality Time at Sea",
-          "description": "The defining quality of a luxury sailing charter in Phuket is pace. No rushing between attractions on a fixed schedule, no countdown to the pier. Wake up when you want, sail when the wind is right, linger in the places you love. The crew handles everything — you experience everything."
+          "title": "วันที่ไม่รีบร้อนโฟกัสที่เวลาคุณภาพในทะเล",
+          "description": "คุณภาพที่กำหนดของการเช่าเรือยอชต์หรูหราในภูเก็ตคือจังหวะ ไม่มีการรีบร้อนระหว่างสถานที่ท่องเที่ยวตามกำหนดการที่ตายตัว ไม่มีการนับถอยหลังไปยังท่าเรือ ตื่นขึ้นมาเมื่อคุณต้องการ ล่องเรือเมื่อลมพอดี อยู่ในสถานที่ที่คุณรักนานขึ้น ลูกเรือจัดการทุกอย่าง — คุณสัมผัสทุกอย่าง"
         }
       },
-      "cta": "Plan your custom luxury sailing itinerary"
+      "cta": "วางแผนกำหนดการล่องเรือยอชต์หรูหราที่กำหนดเองของคุณ"
     },
     "crew": {
-      "label": "Onboard Service",
-      "title": "Professional Crew and Luxury Onboard Experience",
+      "label": "บริการบนเรือ",
+      "title": "ลูกเรือมืออาชีพและประสบการณ์บนเรือระดับหรูหรา",
       "skippers": {
-        "title": "Experienced Skippers with Local Andaman Sea Knowledge",
-        "description": "Our captains have spent years — often decades — navigating these specific waters. They know which anchorages are sheltered in each season, which reefs are worth the detour, and how to make a route feel effortless."
+        "title": "กัปตันที่มีประสบการณ์พร้อมความรู้ท้องถิ่นทะเลอันดามัน",
+        "description": "กัปตันของเราใช้เวลาหลายปี — มักเป็นหลายทศวรรษ — ในการเดินเรือในน่านน้ำเฉพาะเหล่านี้ พวกเขารู้ว่าจุดจอดเรือใดได้รับการป้องกันในแต่ละฤดูกาล แนวปะการังใดที่คุ้มค่าแก่การอ้อม และวิธีทำให้เส้นทางรู้สึกง่ายดาย ก่อนทุกทริป คุณจะได้รับบรีฟฟิงเต็มรูปแบบและมีโอกาสวางแผนเส้นทางร่วมกัน"
       },
       "hospitality": {
-        "title": "Five-Star Hospitality and Discreet Service",
+        "title": "การต้อนรับระดับห้าดาวและบริการที่รอบคอบบนเรือเช่าหรูของคุณ",
         "members": {
           "captain": {
-            "title": "Captain",
-            "description": "Licensed, experienced, responsible for your safety and route planning throughout."
+            "title": "กัปตัน",
+            "description": "ได้รับใบอนุญาต มีประสบการณ์ รับผิดชอบความปลอดภัยและการวางแผนเส้นทางของคุณตลอดการเดินทาง"
           },
           "chef": {
-            "title": "Chef / Hostess",
-            "description": "Prepares fresh Thai cuisine and international meals daily, accommodates dietary preferences, and keeps the yacht running smoothly behind the scenes."
+            "title": "เชฟ / แม่บ้าน",
+            "description": "เตรียมอาหารไทยสดใหม่และอาหารนานาชาติทุกวัน รองรับความชอบด้านอาหาร และทำให้เรือยอชต์ทำงานอย่างราบรื่นเบื้องหลัง"
           },
           "deckhand": {
-            "title": "Deckhand / Guide",
-            "description": "Handles anchoring, water activities, and island excursions, and brings local knowledge to every stop."
+            "title": "พนักงานดาดฟ้า / ไกด์",
+            "description": "จัดการการทอดสมอ กิจกรรมในน้ำ และการทัศนศึกษาเกาะ และนำความรู้ท้องถิ่นมาสู่ทุกจุดหยุด"
           }
         },
-        "note": "This crew-to-guest ratio is what makes the service feel genuinely attentive rather than stretched."
+        "note": "อัตราส่วนลูกเรือต่อแขกนี้ทำให้บริการรู้สึกใส่ใจอย่างแท้จริงมากกว่าการยืด"
       },
       "dining": {
-        "title": "Dining, Drinks and Comfort at a Luxury Standard",
-        "description": "Every meal is prepared fresh onboard. Full board is included on all overnight and multi-day charters. Vegetarian, vegan, gluten-free, and other dietary needs are accommodated at no extra cost. Welcome drinks are always included; wine, champagne, and spirits can be pre-ordered."
+        "title": "การรับประทานอาหาร เครื่องดื่ม และความสะดวกสบายในมาตรฐานหรูหรา",
+        "description": "อาหารทุกมื้อเตรียมสดใหม่บนเรือ อาหารครบมื้อรวมอยู่ในการเช่าเหมาลำค้างคืนและหลายวันทั้งหมด — อาหารเช้า อาหารกลางวัน อาหารเย็น และของว่างที่เตรียมโดยเชฟส่วนตัวของคุณ อาหารมังสวิรัติ วีแกน ไม่มีกลูเตน และความต้องการด้านอาหารอื่นๆ ได้รับการรองรับโดยไม่มีค่าใช้จ่ายเพิ่มเติม เครื่องดื่มต้อนรับรวมอยู่เสมอ ไวน์ แชมเปญ และสุราสามารถสั่งล่วงหน้าได้"
       }
     },
     "who": {
-      "label": "Who This is For",
-      "title": "Who a Luxury Sailing Charter in Phuket Is For",
+      "label": "เหมาะสำหรับใคร",
+      "title": "การเช่าเรือยอชต์หรูหราในภูเก็ตเหมาะสำหรับใคร",
       "audiences": {
         "couples": {
-          "title": "Couples Seeking an Exclusive Honeymoon or Romantic Escape",
-          "description": "A private luxury sailing charter is one of the finest honeymoon experiences available in Thailand. Candlelit dinners on deck, sunsets at anchor in a private bay, and complete privacy throughout — it's the kind of experience that a resort simply can't replicate."
+          "title": "คู่รักที่มองหาฮันนีมูนสุดพิเศษหรือการหลบหนีโรแมนติกในภูเก็ต",
+          "description": "การล่องเรือใบหรูส่วนตัวเป็นหนึ่งในประสบการณ์ฮันนีมูนที่ดีที่สุดในประเทศไทย ดินเนอร์แสงเทียนบนดาดฟ้า พระอาทิตย์ตกที่จุดจอดเรือในอ่าวส่วนตัว และความเป็นส่วนตัวอย่างสมบูรณ์ — เป็นประสบการณ์ที่รีสอร์ทไม่สามารถเลียนแบบได้ หากเป็นฮันนีมูน ขอแต่งงาน หรือวันครบรอบ แจ้งเราเมื่อสอบถามและเราจะวางแผนรายละเอียดที่เหมาะสมบนเรือ"
         },
         "families": {
-          "title": "Families Wanting a High-End Phuket Island Experience",
-          "description": "Families with children discover that a wide-beam luxury catamaran offers something rare: a holiday that feels genuinely relaxing for adults while keeping children happily entertained all day. Stable hulls, protected swim stops, and a crew who handles everything."
+          "title": "ครอบครัวที่ต้องการประสบการณ์เกาะภูเก็ตระดับไฮเอนด์",
+          "description": "ครอบครัวที่มีเด็กจะค้นพบว่าเรือคาตามารันหรูลำกว้างมอบสิ่งที่หายาก: วันหยุดที่ผ่อนคลายจริงๆ สำหรับผู้ใหญ่ในขณะที่เด็กๆ มีความสุขตลอดทั้งวัน ตัวเรือที่มั่นคง จุดเล่นน้ำที่ปลอดภัย ของเล่นทางน้ำ ดำน้ำตื้น และลูกเรือที่จัดการทุกอย่าง หมายความว่าพ่อแม่สามารถพักผ่อนได้อย่างแท้จริง"
         },
         "celebrations": {
-          "title": "Groups Celebrating Special Occasions at Sea",
-          "description": "A fully private sailing yacht, a personal chef, your group and no one else — it elevates any occasion, from a milestone birthday to a reunion to a hen or stag trip. Decoration, cakes, and special setups are arranged on request."
+          "title": "กลุ่มที่ฉลองโอกาสพิเศษกลางทะเลบนเรือใบหรูภูเก็ต",
+          "description": "ทะเลอันดามันเป็นสถานที่พิเศษสำหรับการเฉลิมฉลอง เรือใบส่วนตัว เชฟส่วนตัว กลุ่มของคุณและไม่มีใครอื่น — มันยกระดับทุกโอกาส ตั้งแต่วันเกิดสำคัญไปจนถึงงานรวมรุ่นหรืองานเลี้ยงส่งท้ายชีวิตโสดที่ผู้คนจะยังพูดถึงอีกหลายปีต่อมา การตกแต่ง เค้ก และการจัดเตรียมพิเศษจัดให้ตามคำขอ"
         },
         "adventurous": {
-          "title": "Adventurous Sailors and Off-the-Beaten-Path Travelers",
-          "description": "For guests who want to explore — serious snorkeling, diving at the Similan Islands, kayaking through sea caves in Phang Nga Bay, or reaching the Butang Archipelago — we build itineraries that genuinely go further and feel like a real expedition."
+          "title": "นักเดินเรือผจญภัยและนักเดินทางนอกเส้นทาง",
+          "description": "การล่องเรือใบหรูทุกทริปในภูเก็ตไม่ได้เกี่ยวกับการพักผ่อนช้าๆ เสมอไป สำหรับแขกที่ต้องการสำรวจ — ดำน้ำตื้นจริงจัง ดำน้ำลึกที่หมู่เกาะสิมิลัน พายเรือคายัคผ่านถ้ำทะเลในอ่าวพังงา หรือเดินทางถึงหมู่เกาะบุตังใกล้ชายแดนมาเลเซีย — เราสร้างเส้นทางที่ไปไกลกว่าจริงๆ และรู้สึกเหมือนการสำรวจจริง"
         }
       },
-      "cta": "Tell us your group and occasion — we'll design the right experience"
+      "cta": "บอกเราเกี่ยวกับกลุ่มและโอกาสของคุณ — เราจะออกแบบประสบการณ์ที่เหมาะสม"
     },
     "comparison": {
-      "label": "Why Private Charter",
-      "title": "Luxury Yacht Charter vs Standard Tours",
+      "label": "ทำไมต้องเช่าส่วนตัว",
+      "title": "เช่าเรือยอทช์หรู vs เช่าเรือใบเดี่ยว",
       "features": {
         "privacy": {
-          "title": "Greater Privacy and Personalised Service",
-          "description": "On a shared speedboat tour, every decision is made for a group of strangers. On a private luxury sailing charter in Phuket, every decision is made for you. The difference isn't subtle."
+          "title": "ความเป็นส่วนตัวมากขึ้นและบริการเฉพาะบุคคลบนเรือเช่าหรู",
+          "description": "ในทัวร์เรือเร็วแบบร่วมกลุ่ม ทุกการตัดสินใจ — ไปไหน อยู่นานเท่าไหร่ กินอะไร — ถูกตัดสินใจเพื่อกลุ่มคนแปลกหน้า บนเรือใบหรูส่วนตัวในภูเก็ต ทุกการตัดสินใจถูกตัดสินใจเพื่อคุณ ความแตกต่างไม่ใช่เรื่องเล็กน้อย"
         },
         "access": {
-          "title": "Access to Exclusive Locations and Quiet Anchorages",
-          "description": "Standard tours visit the same popular beaches at the same busy times every day. A luxury sailing charter gives you access to different anchorages, better timing, and routes that take you to destinations tours simply don't reach."
+          "title": "เข้าถึงสถานที่พิเศษในภูเก็ตและจุดจอดเรือที่เงียบสงบ",
+          "description": "ทัวร์มาตรฐานเยี่ยมชมชายหาดยอดนิยมเดิมๆ ในช่วงเวลาเดิมๆ ทุกวัน เรือใบหรูให้คุณเข้าถึงจุดจอดเรือที่แตกต่าง เวลาที่ดีกว่า และเส้นทางที่พาคุณไปยังจุดหมาย — เกาะรอก เกาะห้า เกาะหลีเป๊ะ — ที่ทัวร์ไปไม่ถึง"
         },
         "premium": {
-          "title": "A Premium Alternative to Shared Tours",
-          "description": "The cost gap is smaller than most guests expect. When crew, meals, activities, and equipment are included, a private luxury sailing charter compares well to a high-end land-based holiday. The experience, however, doesn't compare at all."
+          "title": "ทางเลือกระดับพรีเมียมแทนทัวร์แบบร่วมกลุ่มหรือเรือเร็วในภูเก็ต",
+          "description": "ช่องว่างราคาน้อยกว่าที่แขกส่วนใหญ่คาดคิด เมื่อลูกเรือ อาหาร กิจกรรม และอุปกรณ์รวมอยู่แล้ว เรือใบหรูส่วนตัวในภูเก็ตเปรียบเทียบได้ดีกับวันหยุดบนบกระดับไฮเอนด์ แต่ประสบการณ์นั้นเทียบกันไม่ได้เลย"
         }
       },
       "table": {
         "header": {
-          "feature": "Feature",
-          "luxury": "Private Luxury Charter",
-          "speedboat": "Shared Speedboat Tour"
+          "feature": "คุณสมบัติ",
+          "luxury": "เช่าเหมาลำหรูหราส่วนตัว",
+          "speedboat": "ทัวร์เรือเร็วแบบร่วม"
         },
         "rows": {
           "privacy": {
-            "label": "Privacy",
-            "luxury": "Fully private — your group only",
-            "speedboat": "Shared with strangers"
+            "label": "ความเป็นส่วนตัว",
+            "luxury": "ส่วนตัวทั้งหมด — เฉพาะกลุ่มของคุณ",
+            "speedboat": "แบ่งกับคนแปลกหน้า"
           },
           "route": {
-            "label": "Route",
-            "luxury": "Custom, flexible, guided by your skipper",
-            "speedboat": "Fixed schedule, same stops daily"
+            "label": "เส้นทาง",
+            "luxury": "กำหนดเอง ยืดหยุ่น นำโดยกัปตันของคุณ",
+            "speedboat": "กำหนดการตายตัว จุดหยุดเดิมทุกวัน"
           },
           "destinations": {
-            "label": "Destinations",
-            "luxury": "Koh Rok, Koh Ha, Koh Lipe and hidden bays",
-            "speedboat": "Most crowded spots at peak times"
+            "label": "จุดหมายปลายทาง",
+            "luxury": "เกาะรอก เกาะห้า เกาะหลีเป๊ะ และอ่าวที่ซ่อนอยู่",
+            "speedboat": "จุดที่พลุกพล่านที่สุดในช่วงเวลาสูงสุด"
           },
           "meals": {
-            "label": "Meals",
-            "luxury": "Fresh Thai cuisine by personal chef",
-            "speedboat": "Standard lunch box or buffet"
+            "label": "อาหาร",
+            "luxury": "อาหารไทยสดใหม่โดยเชฟส่วนตัว",
+            "speedboat": "กล่องอาหารกลางวันมาตรฐานหรือบุฟเฟ่ต์"
           },
           "pace": {
-            "label": "Pace",
-            "luxury": "Unhurried, at your own rhythm",
-            "speedboat": "Fast, loud, rushed"
+            "label": "จังหวะ",
+            "luxury": "ไม่รีบร้อน ตามจังหวะของคุณเอง",
+            "speedboat": "เร็ว ดัง รีบร้อน"
           },
           "experience": {
-            "label": "Experience",
-            "luxury": "Smooth sailing, genuinely premium",
-            "speedboat": "Crowded, high-speed transfers"
+            "label": "ประสบการณ์",
+            "luxury": "การล่องเรือที่ราบรื่น พรีเมียมอย่างแท้จริง",
+            "speedboat": "แออัด การถ่ายโอนความเร็วสูง"
           }
         }
       }
     },
     "plan": {
-      "label": "Start Planning",
-      "title": "Plan Your Luxury Yacht Charter in Phuket",
-      "subtitle": "Select Your Yacht, Duration and Sailing Route",
+      "label": "เริ่มวางแผน",
+      "title": "วางแผนการเช่าเรือยอชต์หรูหราในภูเก็ตของคุณ",
+      "subtitle": "เลือกเรือยอชต์ ระยะเวลา และเส้นทางล่องเรือของคุณ",
       "steps": {
-        "step1": "Share your group size, dates, and priorities — islands you want to visit, pace you prefer, any special occasion or request",
-        "step2": "We recommend the best vessels and routes matched to your season, group, and goals",
-        "step3": "Confirm the charter — itinerary, inclusions, and pricing confirmed in writing before any commitment",
-        "step4": "Arrive and let the crew handle the rest"
+        "step1": "แบ่งปันขนาดกลุ่ม วันที่ และลำดับความสำคัญของคุณ — เกาะที่คุณต้องการเยี่ยมชม จังหวะที่คุณชอบ โอกาสพิเศษหรือคำขอใดๆ",
+        "step2": "เราแนะนำเรือและเส้นทางที่ดีที่สุดที่ตรงกับฤดูกาล กลุ่ม และเป้าหมายของคุณ",
+        "step3": "ยืนยันการเช่าเหมาลำ — กำหนดการ สิ่งที่รวม และราคายืนยันเป็นลายลักษณ์อักษรก่อนความมุ่งมั่นใดๆ",
+        "step4": "มาถึงและปล่อยให้ลูกเรือจัดการส่วนที่เหลือ"
       },
       "confidence": {
-        "title": "Book with Confidence",
+        "title": "จองด้วยความมั่นใจ",
         "items": {
-          "item1": "Operating luxury sailing charters in Phuket since 1996",
-          "item2": "Licensed by the Tourism Authority of Thailand (OTD #34/02546)",
-          "item3": "World Luxury Travel Award 2025",
-          "item4": "Trusted by guests from over 50 countries",
-          "item5": "Over 750 five-star reviews on Google and TripAdvisor",
-          "item6": "Transparent pricing — everything confirmed in writing. No hidden fees, ever."
+          "item1": "ดำเนินการเช่าเรือยอชต์หรูหราในภูเก็ตตั้งแต่ปี 1996",
+          "item2": "ได้รับใบอนุญาตจากการท่องเที่ยวแห่งประเทศไทย (OTD #34/02546)",
+          "item3": "รางวัล World Luxury Travel Award 2025",
+          "item4": "ได้รับความไว้วางใจจากแขกจากกว่า 50 ประเทศ",
+          "item5": "มากกว่า 850 รีวิวห้าดาวบน Google และ TripAdvisor",
+          "item6": "ราคาโปร่งใส — ทุกอย่างยืนยันเป็นลายลักษณ์อักษร ไม่มีค่าธรรมเนียมที่ซ่อนเร้น"
         }
       },
       "begin": {
-        "title": "Begin Your Luxury Sailing Experience",
-        "description": "Contact us by phone, WhatsApp, email, or Line App. We respond within 24 hours with yacht options, route ideas, and clear pricing based on your exact dates and group.",
+        "title": "เริ่มประสบการณ์การล่องเรือยอชต์หรูหราของคุณ",
+        "description": "ติดต่อเราทางโทรศัพท์ WhatsApp อีเมล หรือ Line App เราตอบกลับภายใน 24 ชั่วโมงพร้อมตัวเลือกเรือยอชต์ ไอเดียเส้นทาง และราคาที่ชัดเจนตามวันที่และกลุ่มที่แน่นอนของคุณ",
         "phone": "+66 61 234 5623",
         "email": "booking@faraway-yachting.com",
         "whatsapp": "WhatsApp",
-        "cta": "Get Your Luxury Sailing Charter Quote"
+        "cta": "รับใบเสนอราคาการเช่าเรือยอชต์หรูหราของคุณ"
       }
     },
     "faq": {
-      "title": "Luxury Sailing Yacht Charter Phuket",
+      "title": "การเช่าเรือยอชต์หรูหราภูเก็ต",
       "subtitle": "",
       "questions": {
         "what": {
-          "q": "What is a luxury sailing yacht charter in Phuket?",
-          "a": "A fully private charter — a premium sailing yacht or catamaran, professional crew, chef, and full equipment — reserved exclusively for your group. You choose the islands, the pace, and the duration. Everything else is handled."
+          "q": "การเช่าเรือยอชต์หรูหราในภูเก็ตคืออะไร?",
+          "a": "การเช่าเหมาลำส่วนตัวทั้งหมด — เรือยอชต์หรือเรือคาตามารันพรีเมียม ลูกเรือมืออาชีพ เชฟ และอุปกรณ์เต็มรูปแบบ — จองไว้เฉพาะสำหรับกลุ่มของคุณ คุณเลือกเกาะ จังหวะ และระยะเวลา ทุกอย่างอื่นจัดการแล้ว"
         },
         "difference": {
-          "q": "How is a luxury sailing charter different from a superyacht charter in Phuket?",
-          "a": "Luxury sailing charters focus on authentic wind-powered sailing aboard premium catamarans and yachts — intimate, adventure-oriented, and ideal for couples, honeymooners, and small groups seeking a genuine sailing experience. Superyacht charters in Phuket involve larger motor yachts (70–106ft+) suited to VIP events, corporate entertaining, and ultra-luxury occasions. Both offer exceptional quality — the right choice depends entirely on the experience you're after."
+          "q": "การเช่าเรือยอชต์หรูหราแตกต่างจากการเช่าซูเปอร์ยอชต์ในภูเก็ตอย่างไร?",
+          "a": "การเช่าเรือยอชต์หรูหราโฟกัสที่การล่องเรือใช้พลังลมแท้จริงบนเรือคาตามารันและเรือยอชต์พรีเมียม — ใกล้ชิด มุ่งเน้นการผจญภัย และเหมาะสำหรับคู่รัก คู่ฮันนีมูน และกลุ่มเล็กที่ต้องการประสบการณ์การล่องเรือที่แท้จริง การเช่าซูเปอร์ยอชต์ในภูเก็ตเกี่ยวข้องกับเรือยอชต์มอเตอร์ขนาดใหญ่กว่า (70–106 ฟุต+) เหมาะสำหรับกิจกรรม VIP การเลี้ยงรับรององค์กร และโอกาสหรูหราสุดๆ ทั้งสองมีคุณภาพพิเศษ — ตัวเลือกที่เหมาะสมขึ้นอยู่กับประสบการณ์ที่คุณต้องการทั้งหมด"
         },
         "honeymoon": {
-          "q": "What is the best luxury sailing charter for a honeymoon in Phuket?",
-          "a": "A 3–5 night private catamaran charter. A private ensuite cabin, fresh meals each day, and a route that covers Phi Phi Islands, Racha Islands, and Koh Rok — secluded, beautiful, and completely private. Tell us it's your honeymoon when you inquire and we'll arrange the right touches onboard."
+          "q": "การเช่าเรือยอชต์หรูหราที่ดีที่สุดสำหรับฮันนีมูนในภูเก็ตคืออะไร?",
+          "a": "การเช่าเรือคาตามารันส่วนตัว 3–5 คืน ห้องส่วนตัวที่มีห้องน้ำในตัว อาหารสดใหม่ทุกวัน และเส้นทางที่ครอบคลุมหมู่เกาะพีพี เกาะราชา และเกาะรอก — เงียบสงบ สวยงาม และเป็นส่วนตัวอย่างสมบูรณ์ บอกเราว่ามันเป็นฮันนีมูนของคุณเมื่อคุณสอบถามและเราจะจัดเตรียมสัมผัสที่เหมาะสมบนเรือ"
         },
         "islands": {
-          "q": "Which islands can I reach on a luxury sailing charter from Phuket?",
-          "a": "On day and overnight charters: Racha Islands (2–3 hrs), Phi Phi Islands (4–5 hrs), Phang Nga Bay and Koh Hong (3–4 hrs). On 5+ night charters: Koh Rok, Koh Ha, Koh Lanta, and Koh Lipe."
+          "q": "ฉันสามารถเข้าถึงเกาะใดบนการเช่าเรือยอชต์หรูหราจากภูเก็ต?",
+          "a": "ในการเช่าเหมาลำแบบเต็มวันและค้างคืน: เกาะราชา (2–3 ชม.) หมู่เกาะพีพี (4–5 ชม.) อ่าวพังงาและเกาะห้อง (3–4 ชม.) ในการเช่าเหมาลำ 5+ คืน: เกาะรอก เกาะห้า เกาะลันตา และเกาะหลีเป๊ะ"
         },
         "firstTime": {
-          "q": "Is a luxury sailing charter suitable for first-time sailors?",
-          "a": "Yes. All crewed charters include a professional captain who handles all sailing and navigation. You need no experience — just an interest in the sea and the islands."
+          "q": "การเช่าเรือยอชต์หรูหราเหมาะสำหรับนักเดินเรือครั้งแรกหรือไม่?",
+          "a": "ใช่ การเช่าเหมาลำที่มีลูกเรือทั้งหมดรวมกัปตันมืออาชีพที่จัดการการล่องเรือและการเดินเรือทั้งหมด คุณไม่ต้องการประสบการณ์ — เพียงความสนใจในทะเลและเกาะ"
         },
         "included": {
-          "q": "What is included in a luxury sailing charter in Phuket?",
-          "a": "All meals, drinking water, fuel, crew (captain, chef, deckhand), snorkeling gear, kayaks, and paddleboards. National park fees (300–400 THB per person per park) and alcoholic drinks are typically extra — confirmed upfront with no surprises."
+          "q": "อะไรรวมอยู่ในการเช่าเรือยอชต์หรูหราในภูเก็ต?",
+          "a": "อาหารทุกมื้อ น้ำดื่ม เชื้อเพลิง ลูกเรือ (กัปตัน เชฟ พนักงานดาดฟ้า) อุปกรณ์ดำน้ำ คายัค และแพดเดิลบอร์ด ค่าธรรมเนียมอุทยานแห่งชาติ (300–400 บาทต่อคนต่ออุทยาน) และเครื่องดื่มแอลกอฮอล์มักเป็นค่าใช้จ่ายเพิ่มเติม — ยืนยันล่วงหน้าโดยไม่มีความประหลาดใจ"
         },
         "bestTime": {
-          "q": "When is the best time for a luxury sailing charter in Phuket?",
-          "a": "November to April offers the calmest conditions and most reliable weather. Low season (May–October) brings 30–40% lower prices and quieter anchorages — perfectly viable for guests comfortable with occasional afternoon rain."
+          "q": "เวลาที่ดีที่สุดสำหรับการเช่าเรือยอชต์หรูหราในภูเก็ตคือเมื่อไหร่?",
+          "a": "พฤศจิกายนถึงเมษายนมีสภาพที่สงบที่สุดและสภาพอากาศที่เชื่อถือได้มากที่สุด ฤดูต่ำ (พฤษภาคม–ตุลาคม) นำราคาที่ต่ำกว่า 30–40% และจุดจอดเรือที่เงียบกว่า — เป็นไปได้อย่างสมบูรณ์สำหรับแขกที่สบายกับฝนบ่ายเป็นครั้งคราว"
         },
         "cost": {
-          "q": "How much does a luxury sailing charter in Phuket cost?",
-          "a": "Private luxury sailing charters start from approximately €700–€900 per night for premium catamarans. Day charters from 29,900 THB. All inclusive of crew, meals, and onboard activities."
+          "q": "การเช่าเรือยอชต์หรูหราในภูเก็ตเสียค่าใช้จ่ายเท่าไหร่?",
+          "a": "การเช่าเรือยอชต์หรูหราส่วนตัวเริ่มต้นจากประมาณ €700–€900 ต่อคืนสำหรับเรือคาตามารันพรีเมียม การเช่าเหมาลำแบบเต็มวันจาก 29,900 บาท รวมทั้งหมดของลูกเรือ อาหาร และกิจกรรมบนเรือ"
         }
       }
     }
