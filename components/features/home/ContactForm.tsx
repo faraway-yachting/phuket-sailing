@@ -25,6 +25,7 @@ import {
 } from "@/components/shared/ui/select";
 import { Mail, Phone, MessageCircle, MessageSquare, MapPin } from "lucide-react";
 import { useLanguage } from "@/components/providers/LanguageProvider";
+import { LocaleLink } from "@/components/shared/LocaleLink";
 
 const countryCodes = {
   "+66": { flag: "🇹🇭", name: "Thailand" },
@@ -404,9 +405,9 @@ export function ContactForm() {
                 {/* Terms & Conditions */}
                 <p className="text-center text-sm text-gray-600">
                   By submitting this form, you agree to our{' '}
-                  <a href="/terms-and-conditions" className="text-[#164e63] hover:text-[#14b8a6] underline underline-offset-2 font-medium">
+                  <LocaleLink href="/terms-and-conditions" className="text-[#164e63] hover:text-[#14b8a6] underline underline-offset-2 font-medium">
                     Terms & Conditions
-                  </a>
+                  </LocaleLink>
                 </p>
 
                 {/* Submit Button */}

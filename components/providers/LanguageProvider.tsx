@@ -3,6 +3,7 @@
 import React, { createContext, useContext, ReactNode } from 'react'
 import { useParams, useRouter, usePathname } from 'next/navigation'
 import { type Locale, locales, defaultLocale, localeHtmlLang } from '@/lib/i18n'
+import { reverseTranslatePath, translatePath } from '@/lib/slugTranslations'
 
 export type { Locale }
 
@@ -62,16 +63,26 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     document.documentElement.lang = localeHtmlLang[newLocale]
     document.documentElement.dir = newLocale === 'ar' ? 'rtl' : 'ltr'
 
+    // Extract current locale and path
     const segments = pathname.split('/')
     const currentHasLocale = locales.includes(segments[1] as Locale)
+    const currentLocale: Locale = currentHasLocale ? (segments[1] as Locale) : defaultLocale
+
     if (currentHasLocale) {
       segments.splice(1, 1)
     }
     const pathWithoutLocale = segments.join('/') || '/'
+
+    // Reverse-translate current locale slug → English slug
+    const englishPath = reverseTranslatePath(currentLocale, pathWithoutLocale)
+
+    // Translate English slug → new locale slug
+    const translatedPath = translatePath(newLocale, englishPath)
+
     if (newLocale === defaultLocale) {
-      router.push(pathWithoutLocale)
+      router.push(translatedPath)
     } else {
-      router.push(`/${newLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`)
+      router.push(`/${newLocale}${translatedPath === '/' ? '' : translatedPath}`)
     }
   }
 
