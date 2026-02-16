@@ -505,7 +505,7 @@ export function ContactForm() {
 
                   {/* Line */}
                   <a
-                    href="https://line.me/ti/p/~phuket-sailing"
+                    href="https://line.me/ti/p/IF91DcUiYa"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 group"

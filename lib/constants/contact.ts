@@ -20,7 +20,7 @@ export const CONTACT_INFO = {
   whatsappRaw: '66612345623',
 
   // Line
-  line: 'https://line.me/ti/p/~phuket-sailing',
+  line: 'https://line.me/ti/p/IF91DcUiYa',
   lineId: 'phuket-sailing',
 
   // Address

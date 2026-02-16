@@ -62,7 +62,7 @@ export function Footer() {
                 <Mail className="w-5 h-5 mr-3 group-hover:scale-110 transition-transform" />
                 bookings@faraway-yachting.com
               </a>
-              <a href="https://line.me/ti/p/~phuket-sailing" target="_blank" rel="noopener noreferrer" className="flex items-center text-base text-gray-400 hover:text-white transition-colors group">
+              <a href="https://line.me/ti/p/IF91DcUiYa" target="_blank" rel="noopener noreferrer" className="flex items-center text-base text-gray-400 hover:text-white transition-colors group">
                 <MessageSquare className="w-5 h-5 mr-3 group-hover:scale-110 transition-transform" />
                 Line App
               </a>

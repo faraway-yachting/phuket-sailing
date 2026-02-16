@@ -50,33 +50,33 @@ export function Footer() {
             </h3>
             <ul className="space-y-2 text-white/80">
               <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                <LocaleLink href="/" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
+                  {t('footer.home')}
                 </LocaleLink>
               </li>
               <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                <LocaleLink href="/catamaran-charter-phuket" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
+                  {t('footer.catamaranCharter')}
                 </LocaleLink>
               </li>
               <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                <LocaleLink href="/luxury-yacht-charter" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
+                  {t('footer.luxuryYachtCharter')}
                 </LocaleLink>
               </li>
               <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                <LocaleLink href="/cabin-cruise-phuket" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
+                  {t('footer.cabinCruise')}
                 </LocaleLink>
               </li>
               <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                <LocaleLink href="/contact" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
-                </LocaleLink>
-              </li>
-              <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
-                  <span className="text-[#14b8a6]">›</span>
+                  {t('footer.contactUs')}
                 </LocaleLink>
               </li>
             </ul>
@@ -84,37 +84,31 @@ export function Footer() {
 
           <div>
             <h3 className="text-xl font-bold mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
-              {t('footer.usefulLinks')}
+              {t('footer.charterTypes')}
             </h3>
             <ul className="space-y-2 text-white/80">
               <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                <LocaleLink href="/catamaran-charter-phuket" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
+                  {t('footer.catamaranCharter')}
                 </LocaleLink>
               </li>
               <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                <LocaleLink href="/luxury-yacht-charter" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
+                  {t('footer.luxuryYachtCharter')}
                 </LocaleLink>
               </li>
               <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                <LocaleLink href="/cabin-cruise-phuket" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
+                  {t('footer.cabinCruise')}
                 </LocaleLink>
               </li>
               <li>
                 <LocaleLink href="/terms-and-conditions" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
-                </LocaleLink>
-              </li>
-              <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
-                  <span className="text-[#14b8a6]">›</span>
-                </LocaleLink>
-              </li>
-              <li>
-                <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
-                  <span className="text-[#14b8a6]">›</span>
+                  {t('footer.termsAndConditions')}
                 </LocaleLink>
               </li>
             </ul>

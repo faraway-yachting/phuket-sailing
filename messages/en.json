@@ -14,7 +14,8 @@
     "faq": "FAQs",
     "bookNow": "Book Now",
     "contactUs": "Contact Us",
-    "selectLanguage": "Select Language"
+    "selectLanguage": "Select Language",
+    "cabinCruise": "Cabin Cruise"
   },
   "hero": {
     "title": "Phuket Sailing",
@@ -348,7 +349,7 @@
     "selectChannel": "Select channel",
     "channels": {
       "whatsapp": "WhatsApp",
-    "email": "Email",
+      "email": "Email",
       "line": "Line"
     },
     "yachtRange": "Yacht Range",
@@ -406,7 +407,18 @@
     "emailPlaceholder": "Email*",
     "copyright": "© 2025 Copyright Phuket Sailing",
     "impressum": "Impressum",
-    "sitemap": "Sitemap"
+    "sitemap": "Sitemap",
+    "home": "Home",
+    "catamaranCharter": "Catamaran Charter Phuket",
+    "luxuryYachtCharter": "Luxury Yacht Charter",
+    "cabinCruise": "Cabin Cruise Phuket",
+    "contactUs": "Contact Us",
+    "termsAndConditions": "Terms & Conditions",
+    "sailingYachts": "Sailing Yachts",
+    "overnightSailing": "Overnight Sailing Trips",
+    "barefootCharter": "Bareboat Charter",
+    "sailingItineraries": "Sailing Itineraries",
+    "charterTypes": "Charter Types"
   },
   "yachtDetail": {
     "notFound": "Yacht Not Found",
@@ -734,7 +746,7 @@
         "quote": "I recently visited Phang Nga bay, and it was such a lovely trip. The atmosphere was calm and relaxing, and the nature there is truly beautiful. I really enjoyed the views of the sea, limestone cliffs, and the peaceful surroundings. It felt like a perfect place to slow down and enjoy nature. Phang Nga has its own charm, and I'm really happy I got to visit.",
         "author": "Sandra Tomson"
       },
-      "readAll": "Read all 800+ reviews →"
+      "readAll": "Read all 850+ reviews →"
     },
     "crew": {
       "title": "Catamaran Crews, Comfort & Onboard Experience",
@@ -887,7 +899,7 @@
       "confidence": {
         "title": "Sail Phuket with Confidence and Comfort",
         "points": {
-          "reviews": "800+ ★★★★★ reviews from international travelers across Google, TripAdvisor, and booking platforms",
+          "reviews": "850+ ★★★★★ reviews from international travelers across Google, TripAdvisor, and booking platforms",
           "experience": "30 years of Andaman Sea experience — our team knows these waters better than anyone",
           "licensed": "Tourism Authority of Thailand licensed (OTD #34/02546)",
           "award": "World Luxury Travel Awards Winner 2025",
@@ -1245,10 +1257,22 @@
       "title": "Plan Your Luxury Yacht Charter in Phuket",
       "subtitle": "Select Your Yacht, Duration and Sailing Route",
       "steps": {
-        "step1": "Share your group size, dates, and priorities — islands you want to visit, pace you prefer, any special occasion or request",
-        "step2": "We recommend the best vessels and routes matched to your season, group, and goals",
-        "step3": "Confirm the charter — itinerary, inclusions, and pricing confirmed in writing before any commitment",
-        "step4": "Arrive and let the crew handle the rest"
+        "step1": {
+          "title": "Share your details",
+          "description": "Group size, dates, and priorities — islands you want to visit, pace you prefer, any special occasion or request"
+        },
+        "step2": {
+          "title": "Get recommendations",
+          "description": "We recommend the best vessels and routes matched to your season, group, and goals"
+        },
+        "step3": {
+          "title": "Confirm the charter",
+          "description": "Itinerary, inclusions, and pricing confirmed in writing before any commitment"
+        },
+        "step4": {
+          "title": "Arrive and enjoy",
+          "description": "Let the crew handle the rest"
+        }
       },
       "confidence": {
         "title": "Book with Confidence",
@@ -1305,6 +1329,218 @@
         "cost": {
           "q": "How much does a luxury sailing charter in Phuket cost?",
           "a": "Private luxury sailing charters start from approximately €700–€900 per night for premium catamarans. Day charters from 29,900 THB. All inclusive of crew, meals, and onboard activities."
+        }
+      }
+    }
+  },
+  "cabinCruise": {
+    "hero": {
+      "badge1": "800+ ★★★★★ Reviews",
+      "badge2": "25 Years of Sailing Expertise",
+      "title": "Cabin Cruise Sailing Phuket – Luxury Sailing Through Thailand's Islands",
+      "description": "Experience the perfect mix of adventure and relaxation on a Cabin Cruise Phuket. Explore Phi Phi, Phang Nga Bay, and Koh Lanta with private cabins and top-notch service, all while enjoying the beauty of Thailand's islands.",
+      "cta": "Get Your Free Cabin Cruise Quote",
+      "whatsapp": "WhatsApp Us Now"
+    },
+    "ctaBanner": {
+      "text": "Planning your cabin cruise in Phuket? Share your dates, group size, and preferences, and we'll send a personalized itinerary and quote within 24 hours — no obligation.",
+      "cta": "Get Your Free Cabin Cruise Quote",
+      "whatsapp": "WhatsApp Us Now"
+    },
+    "cabins": {
+      "badge": "Premium Experience",
+      "title": "A Phuket Sailing Cruise with Private Cabins",
+      "card1": {
+        "title": "Shared Luxury Sailing on a Modern Ship",
+        "p1": "Experience the perfect balance of privacy and community on a shared cabin cruise. You'll enjoy the luxury of private cabins designed for ultimate comfort, while still having the opportunity to meet fellow travelers. Our modern ships feature spacious decks, stylish lounges, and plenty of communal areas, ensuring you feel like you're on your own private yacht without the cost of booking one.",
+        "p2": "Whether you're traveling solo, as a couple, or with friends, the cabin cruise experience lets you sail through some of the most stunning destinations in the world while maintaining your privacy. Our professional crew ensures that every aspect of your journey is taken care of, from navigating to preparing delicious meals. All you need to do is relax and enjoy the experience."
+      },
+      "card2": {
+        "title": "Comfortable Cabin Charter Experience in Thailand",
+        "p1": "Each cabin on our cabin cruise is designed with your comfort in mind. Equipped with en-suite bathrooms, air conditioning, and premium bedding, your cabin is your retreat after a day of exploring. Whether you're enjoying the calm waters of Phi Phi Islands or soaking up the sun in Phang Nga Bay, you'll feel completely at ease in the well-appointed space.",
+        "p2": "Our cabin cruises offer more than just a room — they provide a luxury escape with every detail thoughtfully planned. Whether you're seeking rest, a moment of peace, or a cozy retreat, you'll find it in your cabin, ensuring an unforgettable trip through Thailand's stunning waters.",
+        "from": "From ",
+        "perDay": "/day",
+        "departs": "Departs ~9:00 AM, returns ~5:30 PM",
+        "guests": "Up to 8 guests"
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose a Cabin Cruise in Phuket",
+      "subtitle": "The perfect solution for those who want luxury sailing at a fraction of the cost",
+      "features": {
+        "luxury": {
+          "title": "Luxury Sailing Without Booking a Private Yacht",
+          "description": "If you're dreaming of a private sailing experience but don't want the cost of booking an entire yacht, a cabin cruise in Phuket is the perfect solution. Enjoy the same luxury, comfort, and privacy as a private yacht but at a more affordable price.\nWhether you're a couple seeking a romantic escape, a family wanting to explore together, or a solo traveler craving a peaceful retreat, this experience is designed for those who want the best of both worlds — luxury sailing at a fraction of the cost. You'll enjoy spacious private cabins, a professional crew, gourmet meals, and the freedom to explore Phuket's stunning islands in style, without the hefty price tag of a private charter."
+        },
+        "limited": {
+          "title": "Limited Guests, Spacious Ships, and Relaxed Atmosphere",
+          "description": "For those seeking a more intimate and personal experience, our cabin cruises offer a unique advantage — a limited number of guests. Whether you're traveling as a couple, with friends, or on a solo adventure, you'll have plenty of space to relax and unwind without feeling crowded.\nOur spacious ships provide ample deck space, lounges, and open areas, ensuring you can enjoy the beautiful surroundings of the Andaman Sea at your leisure. The relaxed atmosphere allows families, friends, and solo travelers to find their perfect spot, whether it's for socializing or enjoying some quiet time. Unlike large cruises or commercial tours, you'll never feel rushed, offering a much more personalized and comfortable journey."
+        },
+        "curated": {
+          "title": "A Curated Sailing Trip Designed for Comfort",
+          "description": "Every detail of your cabin cruise is designed with your comfort in mind. From the moment you step aboard, the professional crew takes care of everything so you can simply relax and enjoy.\nFor couples, families, and solo travelers who value both adventure and comfort, our thoughtfully curated itineraries strike the perfect balance between exploration and relaxation. Spend your days exploring stunning islands like Phi Phi or Phang Nga Bay, enjoying snorkeling and kayaking, and then retreating to your private cabin for peaceful evenings at sea. Whether you want to adventure or unwind, our cruises cater to every need."
+        }
+      }
+    },
+    "itinerary": {
+      "badge": "Sailing Routes",
+      "title": "Cabin Cruise Itinerary in the Andaman Sea",
+      "multiDay": {
+        "title": "Multi-Day Sailing Across Phuket's Island Destinations",
+        "p1": "A multi-day cabin cruise is the perfect way to explore the best of Phuket and its surrounding islands at a leisurely pace. Embark on a journey that takes you to some of the most iconic and secluded destinations, such as the Phi Phi Islands, Phang Nga Bay, Koh Lanta, and Koh Rok. Whether you're looking to relax on the beaches, snorkel in clear waters, or explore hidden coves, every stop offers something unique.",
+        "p2": "Spend your days sailing through crystal-clear waters, discovering vibrant marine life, and enjoying the unparalleled beauty of the Andaman Sea. Sleep in comfortable private cabins, enjoy freshly prepared meals, and wake up to new breathtaking views each morning. Whether you opt for a shorter 3-day cruise or a longer 7-day expedition, the multi-day sailing itinerary allows you to experience the diversity of Thailand's islands in ultimate comfort.",
+        "price": "From €1,200/night",
+        "cabins": "4 private cabins, ensuite bathrooms",
+        "meals": "All meals, crew, and activities included",
+        "cta": "Plan a Multi-Day Cruise"
+      },
+      "balanced": {
+        "title": "Balanced Sailing Days with Time to Relax and Explore",
+        "p1": "Our cabin cruise itineraries are designed to give you a perfect balance between exploration and relaxation. During each day, you'll enjoy time exploring islands like Phi Phi or Koh Racha, visiting secluded beaches, and enjoying water activities such as snorkeling, paddleboarding, and kayaking. After a day of adventure, return to the ship for a gourmet meal and some downtime as you sail to your next destination.",
+        "p2": "The relaxed pace ensures you never feel rushed. With longer stops at key destinations, you'll have time to fully immerse yourself in each location. Whether you're lounging on deck under the sun or enjoying a quiet moment in your cabin, you'll find plenty of time to unwind while exploring Thailand's stunning coastal beauty.",
+        "price": "From €1,000/day",
+        "time": "Departs ~9:00 AM, returns ~5:30 PM",
+        "guests": "Up to 8 guests"
+      }
+    },
+    "destinations": {
+      "badge": "Destinations",
+      "title": "Island Destinations on a Phuket Cabin Sail",
+      "items": {
+        "phiPhi": {
+          "title": "Phi Phi Islands and Koh Phi Phi Leh Sailing",
+          "description": "The Phi Phi Islands are a must-see destination on any cabin cruise in Phuket. Known for their towering limestone cliffs, crystal-clear waters, and vibrant coral reefs, these islands offer the perfect combination of natural beauty and adventure. The shallow draft of our ships allows us to anchor in secluded lagoons like Pileh Lagoon, where larger boats can't reach, ensuring that you have a more exclusive experience.\nA cabin cruise in Phi Phi means you can enjoy famous spots like Maya Bay (featured in The Beach) and Monkey Beach without the crowds. Experience the islands at sunrise or sunset, when the landscapes are at their most tranquil and breathtaking.",
+          "pricing": "From €1,200/day",
+          "details": "4–5 hours sailing from Chalong Bay | Day trip or overnight",
+          "linkText": "Phi Phi Cabin Cruise"
+        },
+        "phangNga": {
+          "title": "Phang Nga Bay and Limestone Landscapes Sailing",
+          "description": "Phang Nga Bay is one of Thailand's most iconic landscapes, with its dramatic vertical limestone karsts rising from emerald green waters. On a cabin cruise sailing, you'll have the opportunity to kayak through hidden sea caves and explore secret hongs (lagoons) that can only be accessed at certain tides.\nThe calm waters and shallow depth of the bay make it perfect for those looking to enjoy a peaceful and relaxed sailing experience. James Bond Island, one of the bay's most famous spots, is a highlight of the journey. Spend the day exploring this stunning natural landscape, before anchoring in a quiet bay for the night.",
+          "pricing": "From €1,000/day",
+          "details": "3–4 hours sailing from Chalong Bay | Perfect for day charters",
+          "linkText": "Phang Nga Bay Cabin Cruise"
+        },
+        "bays": {
+          "title": "Beautiful Bays Around Southern Thailand Sailing",
+          "description": "Southern Thailand offers some of the most pristine beaches and turquoise waters in the world. On your cabin cruise sailing, you can visit secluded bays that are often inaccessible by larger boats. Enjoy swimming, sunbathing, or simply relaxing on the white sandy beaches, with no other tourists around.\nThe bays around Phuket are perfect for water activities like snorkeling, kayaking, and paddleboarding. Explore vibrant coral reefs, swim with colorful fish, and enjoy calm anchorages that offer the perfect setting for a peaceful day at sea.",
+          "pricing": "From €1,199/day",
+          "details": "4–6 hours sailing from Chalong Bay | Ideal for families and small groups",
+          "linkText": "Explore Southern Bays"
+        }
+      }
+    },
+    "lifeOnboard": {
+      "title": "Life on Board a Sailing Ship in Phuket",
+      "subtitle": "Every detail on board is designed for comfort, elegance, and unforgettable moments",
+      "features": {
+        "cabins": {
+          "title": "En-Suite Double Cabins with Space and Privacy",
+          "description": "Each of our cabin cruises in Phuket features spacious, comfortable en-suite double cabins with private bathrooms. Enjoy a peaceful retreat in your cabin, equipped with high-quality bedding, air conditioning, and ample storage. Whether you're traveling solo or with a partner, you'll have plenty of space to relax and unwind during your journey.\nOur cabins offer privacy, but there are also shared spaces on board for socializing and enjoying the views. Whether you're sunbathing on the deck or reading a book in your cabin, every moment on board is designed for your comfort."
+        },
+        "design": {
+          "title": "Stable Twin-Hulled Sailing Design",
+          "description": "The twin-hull design of our ships ensures a stable, smooth sailing experience, making them the perfect choice for guests who want a comfortable journey without the motion of traditional monohull vessels. The stability of the cabin cruise allows you to relax on deck, enjoy meals without distraction, and experience a serene voyage.\nUnlike monohulls that tilt and roll, our ships sit flat on the water, ensuring a more relaxing, comfortable ride for all guests, including families with children or those prone to seasickness."
+        },
+        "decks": {
+          "title": "Spacious Decks for Dining and Relaxation",
+          "description": "Our ships boast large, spacious decks that are perfect for dining, lounging, and enjoying the stunning views. Whether you're enjoying a meal with your group, soaking in the sun, or relaxing with a drink in hand, the spacious decks provide a comfortable environment for all your needs.\nThe shaded dining area offers respite from the sun, while the open stern is ideal for enjoying the sea breeze or taking a dip from the swim platforms. There's plenty of room for everyone, whether you prefer to relax in private or socialize with fellow passengers."
+        }
+      }
+    },
+    "diningActivities": {
+      "title": "Cabin Cruise Phuket – Dining, Activities, and Daily Experience",
+      "subtitle": "Your cabin cruise is a complete experience – from gourmet dining to exciting water adventures and peaceful evenings",
+      "cards": {
+        "dining": {
+          "title": "Gourmet Dining on Your Cabin Cruise Phuket",
+          "description": "Enjoy freshly prepared Thai dishes and international favorites while sailing through the stunning Andaman Sea. With our onboard chef crafting gourmet meals, you'll enjoy everything from flavorful green curry to fresh seafood, all prepared with the finest local ingredients. Whether you're exploring Phi Phi Islands or Phang Nga Bay, your meals will be a highlight of your day."
+        },
+        "activities": {
+          "title": "Exciting Water Activities on Your Cabin Cruise Phuket",
+          "description": "Your Cabin Cruise Phuket isn't just about sailing—it's about adventure and relaxation on the water. Spend your days snorkeling, paddleboarding, or swimming in crystal-clear lagoons. The calm waters of Phuket are perfect for exploring vibrant coral reefs, hidden beaches, and secluded bays. Whether you're an adventurer or seeking tranquility, there's plenty to enjoy on your cabin cruise."
+        },
+        "evenings": {
+          "title": "Relaxing Evenings at Anchor on Your Cabin Cruise Phuket",
+          "description": "After an exciting day of exploration and activities, your Cabin Cruise Phuket offers peaceful evenings at anchor in beautiful, serene bays. Unwind with a delicious dinner, enjoy stunning sunset views, and relax in the comfort of your cabin, all while surrounded by the peaceful waters of the Andaman Sea. Your cruise provides the perfect balance of adventure and relaxation."
+        }
+      }
+    },
+    "idealFor": {
+      "title": "Who a Phuket Cabin Sailing Charter Is Ideal For",
+      "personas": {
+        "couples": {
+          "title": "Couples Seeking a Romantic Sailing Holiday",
+          "description": "A cabin cruise in Phuket is the perfect way to celebrate a romantic getaway. With secluded anchorages, private cabins, and intimate settings, couples can enjoy a unique and memorable experience, away from the crowds. Whether you're celebrating an anniversary, honeymoon, or simply enjoying time together, a cabin cruise offers the perfect escape."
+        },
+        "solo": {
+          "title": "Solo Travelers Looking for a Premium Social Cruise",
+          "description": "For solo travelers, a cabin cruise provides a great opportunity to meet like-minded people while enjoying the privacy of your own cabin. Share the adventure of sailing through beautiful destinations with other guests, but return to your private space whenever you wish. It's the ideal combination of social sailing and personal relaxation."
+        },
+        "friends": {
+          "title": "Friends Wanting a Relaxed Sailing Adventure",
+          "description": "Friends looking for a unique and relaxed adventure will find that a cabin cruise in Phuket offers the perfect setting. With spacious cabins, plenty of communal areas, and a variety of activities on board, a cabin cruise is the ultimate way to enjoy quality time with friends while exploring the islands of the Andaman Sea."
+        }
+      }
+    },
+    "comparison": {
+      "title": "Cabin Cruise vs Private Yacht Charter Sail in Phuket",
+      "subtitle": "All the luxury, a fraction of the cost",
+      "items": {
+        "accessible": {
+          "title": "A More Accessible Way to Experience Luxury Sailing",
+          "description": "A cabin cruise provides an affordable alternative to booking a private yacht, while still offering a luxury experience. Share the cost of the voyage with a select group of guests, but enjoy the same comfort, privacy, and high-end amenities. With professional crews and custom itineraries, a cabin cruise provides an unforgettable sailing experience for a fraction of the cost of a private yacht."
+        },
+        "shared": {
+          "title": "Shared Costs Without Compromising Comfort",
+          "description": "When you book a cabin cruise, you share the cost of the yacht with a few other guests, which means you can enjoy a luxury experience at a much lower price. Each guest gets their own private cabin, ensuring a comfortable and relaxing experience, but without the steep price tag associated with booking an entire private yacht."
+        },
+        "crew": {
+          "title": "Professional Crew and Planned Routes Included",
+          "description": "Every cabin cruise includes a full crew, including a professional skipper, onboard chef, and support staff, ensuring you have a seamless experience from start to finish. With pre-planned routes and flexible itineraries, you can rest assured that every detail will be taken care of, leaving you to focus on enjoying the beauty of the Andaman Sea."
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Cabin Cruises Phuket",
+      "questions": {
+        "cost": {
+          "q": "How much does a cabin cruise in Phuket cost?",
+          "a": "Day cabin cruises start from €1,199. Overnight cabin cruises from €1,500/night. Multi-day cabin cruises from €2,500/night. All prices include crew, meals, activities, and onboard amenities — no hidden fees."
+        },
+        "guests": {
+          "q": "How many guests can a cabin cruise accommodate?",
+          "a": "Our cabin cruises offer 3–4 private cabins, accommodating up to 8 overnight guests. For day cruises, we can host up to 10-12 guests depending on the vessel. Every booking is private — you won't share with strangers, ensuring an intimate experience."
+        },
+        "experience": {
+          "q": "Do I need sailing experience to join a cabin cruise?",
+          "a": "Not at all. Every cabin cruise includes a professional crew, including a licensed skipper, chef, and support staff who handle all sailing and operations. You're free to participate in the sailing or simply relax and enjoy the journey."
+        },
+        "children": {
+          "q": "Are cabin cruises safe for children?",
+          "a": "Yes — cabin cruises are among the safest options for families. The stable twin-hull design ensures minimal motion, which is perfect for families with young children. Safety railings, netting, and life jackets for all ages are provided. Our experienced crew ensures kids are entertained and safe during water activities."
+        },
+        "difference": {
+          "q": "What's the difference between a cabin cruise and a private yacht charter?",
+          "a": "A cabin cruise offers a shared, yet luxurious sailing experience at a more accessible price. You get the comfort of private cabins, gourmet meals, and a professional crew, but at a fraction of the cost of booking an entire private yacht. A cabin cruise provides a high-end experience with shared costs, making it ideal for small groups or solo travelers seeking luxury without the premium price tag."
+        },
+        "islands": {
+          "q": "Which islands can I visit on a cabin cruise from Phuket?",
+          "a": "Day trips: Phi Phi Islands, Racha Islands, Phang Nga Bay, Koh Hong. Multi-day trips: Koh Lanta, Koh Rok, Koh Ha, Similan Islands, Koh Lipe, and more. Your itinerary is customizable to your preferences — explore at your own pace!"
+        },
+        "included": {
+          "q": "What's included in the cabin cruise price?",
+          "a": "The price includes: Professional crew (licensed skipper, chef, and support staff), private cabins with ensuite bathrooms, meals (breakfast, lunch, dinner), water activities (snorkeling, paddleboarding, kayaking), onboard comforts (air conditioning, comfortable lounges, etc.). Not included: National park fees (300–400 THB per adult per park) and alcoholic beverages."
+        },
+        "bestTime": {
+          "q": "When is the best time for a cabin cruise in Phuket?",
+          "a": "The best time for a cabin cruise in Phuket is from November to April, when the weather is calm and the skies are clear. This period offers the calmest waters, the best visibility, and the steadiest winds for sailing. For quieter experiences and lower prices, November and April (shoulder months) are great options."
+        },
+        "booking": {
+          "q": "How far in advance should I book a cabin cruise?",
+          "a": "During peak season (December–March), it's recommended to book at least 2–4 weeks in advance. For Christmas and New Year, we suggest booking 2–3 months ahead. For the best selection, booking early is always recommended, especially for multi-day cabin cruises."
         }
       }
     }

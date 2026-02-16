@@ -35,7 +35,7 @@ export function ContactCards() {
       ),
       title: 'Line',
       value: 'Connect Now',
-      href: 'https://line.me/ti/p/',
+      href: 'https://line.me/ti/p/IF91DcUiYa',
       gradient: 'from-green-500 to-green-600',
     },
   ]

@@ -9,6 +9,7 @@ import { SectionHeading } from '@/components/shared/SectionHeading'
 import { Phone, MessageCircle, ChevronLeft, ChevronRight, Anchor, Sailboat, Moon, Ship, MapPin, CheckCircle, CreditCard, Calendar, HelpCircle } from 'lucide-react'
 import { FAQAccordion } from '@/components/shared/FAQAccordion'
 import { BookingCTA } from '@/components/shared/BookingCTA'
+import { HomeFAQSchema } from './faq-schema'
 import { useLanguage } from '@/components/providers/LanguageProvider'
 import { fetchAllYachts } from '@/lib/api/yachts'
 import type { Yacht } from '@/lib/types/home'
@@ -16,6 +17,7 @@ import type { Yacht } from '@/lib/types/home'
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <HomeFAQSchema />
       <HeroSection />
       <JumpLinks />
       <ContactCardsSection />
@@ -687,7 +689,7 @@ function OvernightSailingSection() {
           </div>
           
           {/* Right Side - Image with Overlays */}
-          <div className="relative overflow-hidden">
+          <div className="relative">
             {/* Main Image */}
             <div className="relative h-[300px] sm:h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl">
             <Image

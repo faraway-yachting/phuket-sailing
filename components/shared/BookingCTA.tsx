@@ -52,7 +52,7 @@ export function BookingCTA({
             </div>
             <div className="flex items-start gap-2">
               <MessageCircle className="w-5 h-5 flex-shrink-0 mt-0.5" />
-              <span>Line App: Connect instantly</span>
+              <span>Line App: <a href="https://line.me/ti/p/IF91DcUiYa" target="_blank" rel="noopener noreferrer" className="text-amber-300 hover:text-amber-200 font-semibold underline">Connect</a></span>
             </div>
           </div>
 

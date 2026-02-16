@@ -43,7 +43,7 @@ export function CTASection() {
             </a>
 
             <a
-              href="https://line.me/ti/p/~phuket-sailing"
+              href="https://line.me/ti/p/IF91DcUiYa"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col items-center p-5 bg-white/10 backdrop-blur-md rounded-2xl hover:bg-white/20 transition-all duration-300 border border-white/20 hover:border-white/30 hover:-translate-y-1"

@@ -14,7 +14,8 @@
     "contactUs": "Kontaktieren Sie Uns",
     "selectLanguage": "Sprache Wählen",
     "catamaranCharter": "Katamaran Charter",
-    "luxuryYachtCharter": "Luxus-Yachtcharter"
+    "luxuryYachtCharter": "Luxus-Yachtcharter",
+    "cabinCruise": "Kabinenkreuzfahrt"
   },
   "hero": {
     "title": "Phuket Sailing",
@@ -695,7 +696,7 @@
         "quote": "I recently visited Phang Nga bay, and it was such a lovely trip. The atmosphere was calm and relaxing, and the nature there is truly beautiful. I really enjoyed the views of the sea, limestone cliffs, and the peaceful surroundings. It felt like a perfect place to slow down and enjoy nature. Phang Nga has its own charm, and I'm really happy I got to visit.",
         "author": "Sandra Tomson"
       },
-      "readAll": "Alle 800+ Bewertungen lesen →"
+      "readAll": "Alle 850+ Bewertungen lesen →"
     },
     "crew": {
       "title": "Katamaran-Crews, Komfort & Bord-Erlebnis",
@@ -848,7 +849,7 @@
       "confidence": {
         "title": "Segeln Sie Phuket mit Vertrauen und Komfort",
         "points": {
-          "reviews": "800+ ★★★★★ Bewertungen von internationalen Reisenden auf Google, TripAdvisor und Buchungsplattformen",
+          "reviews": "850+ ★★★★★ Bewertungen von internationalen Reisenden auf Google, TripAdvisor und Buchungsplattformen",
           "experience": "30 Jahre Andamanensee-Erfahrung — unser Team kennt diese Gewässer besser als jeder andere",
           "licensed": "Thailand Tourismusbehörde lizenziert (OTD #34/02546)",
           "award": "World Luxury Travel Awards Gewinner 2025",
@@ -1206,10 +1207,22 @@
       "title": "Planen Sie Ihren Luxus-Yachtcharter in Phuket",
       "subtitle": "Wählen Sie Ihre Yacht, Dauer und Segelroute",
       "steps": {
-        "step1": "Teilen Sie uns Ihre Gruppengröße, Termine und Prioritäten mit — Inseln, die Sie besuchen möchten, bevorzugtes Tempo, besondere Anlässe oder Wünsche",
-        "step2": "Wir empfehlen die besten Schiffe und Routen, die zu Ihrer Saison, Gruppe und Ihren Zielen passen",
-        "step3": "Bestätigen Sie den Charter — Reiseroute, Inklusivleistungen und Preise werden schriftlich bestätigt, bevor Sie sich verpflichten",
-        "step4": "Kommen Sie an und lassen Sie die Crew den Rest erledigen"
+        "step1": {
+          "title": "Teilen Sie Ihre Details mit",
+          "description": "Gruppengröße, Termine und Prioritäten — Inseln, die Sie besuchen möchten, bevorzugtes Tempo, besondere Anlässe oder Wünsche"
+        },
+        "step2": {
+          "title": "Empfehlungen erhalten",
+          "description": "Wir empfehlen die besten Schiffe und Routen, die zu Ihrer Saison, Gruppe und Ihren Zielen passen"
+        },
+        "step3": {
+          "title": "Bestätigen Sie den Charter",
+          "description": "Reiseroute, Inklusivleistungen und Preise werden schriftlich bestätigt, bevor Sie sich verpflichten"
+        },
+        "step4": {
+          "title": "Ankommen und genießen",
+          "description": "Lassen Sie die Crew den Rest erledigen"
+        }
       },
       "confidence": {
         "title": "Buchen Sie mit Vertrauen",
@@ -1279,7 +1292,18 @@
     "emailPlaceholder": "E-Mail*",
     "copyright": "© 2025 Copyright Phuket Sailing",
     "impressum": "Impressum",
-    "sitemap": "Seitenübersicht"
+    "sitemap": "Seitenübersicht",
+    "home": "Startseite",
+    "catamaranCharter": "Katamaran Charter Phuket",
+    "luxuryYachtCharter": "Luxus-Yachtcharter",
+    "cabinCruise": "Kabinenkreuzfahrt Phuket",
+    "contactUs": "Kontaktieren Sie Uns",
+    "termsAndConditions": "Allgemeine Geschäftsbedingungen",
+    "sailingYachts": "Segelyachten",
+    "overnightSailing": "Übernachtungs-Segelreisen",
+    "barefootCharter": "Bareboat Charter",
+    "sailingItineraries": "Segel-Routen",
+    "charterTypes": "Charter-Typen"
   },
   "yachtDetail": {
     "notFound": "Yacht nicht gefunden",
@@ -1308,5 +1332,217 @@
     "whatsapp": "WhatsApp (optional)",
     "noOfGuests": "Anzahl der Gäste",
     "commentsRequests": "Kommentare oder Wünsche?"
+  },
+  "cabinCruise": {
+    "hero": {
+      "badge1": "800+ ★★★★★ Bewertungen",
+      "badge2": "25 Jahre Segelerfahrung",
+      "title": "Kabinenkreuzfahrt Phuket – Luxus-Segeln durch Thailands Inseln",
+      "description": "Erleben Sie die perfekte Mischung aus Abenteuer und Entspannung auf einer Kabinenkreuzfahrt in Phuket. Erkunden Sie Phi Phi, die Phang Nga Bucht und Koh Lanta mit privaten Kabinen und erstklassigem Service, während Sie die Schönheit der thailändischen Inseln genießen.",
+      "cta": "Holen Sie sich Ihr kostenloses Kabinenkreuzfahrt-Angebot",
+      "whatsapp": "Kontaktieren Sie uns per WhatsApp"
+    },
+    "ctaBanner": {
+      "text": "Planen Sie Ihre Kabinenkreuzfahrt in Phuket? Teilen Sie uns Ihre Daten, Gruppengröße und Vorlieben mit, und wir senden Ihnen innerhalb von 24 Stunden einen personalisierten Reiseplan und ein Angebot — unverbindlich.",
+      "cta": "Holen Sie sich Ihr kostenloses Kabinenkreuzfahrt-Angebot",
+      "whatsapp": "Kontaktieren Sie uns per WhatsApp"
+    },
+    "cabins": {
+      "badge": "Premium-Erlebnis",
+      "title": "Eine Phuket-Segelkreuzfahrt mit privaten Kabinen",
+      "card1": {
+        "title": "Gemeinsames Luxus-Segeln auf einem modernen Schiff",
+        "p1": "Erleben Sie die perfekte Balance zwischen Privatsphäre und Gemeinschaft auf einer geteilten Kabinenkreuzfahrt. Sie genießen den Luxus privater Kabinen, die für höchsten Komfort konzipiert sind, und haben gleichzeitig die Möglichkeit, andere Reisende kennenzulernen. Unsere modernen Schiffe verfügen über geräumige Decks, stilvolle Lounges und zahlreiche Gemeinschaftsbereiche, sodass Sie sich wie auf Ihrer eigenen Privatyacht fühlen — ohne die Kosten einer Buchung.",
+        "p2": "Ob Sie allein, als Paar oder mit Freunden reisen — die Kabinenkreuzfahrt-Erfahrung lässt Sie durch einige der atemberaubendsten Reiseziele der Welt segeln und dabei Ihre Privatsphäre bewahren. Unsere professionelle Crew sorgt dafür, dass jeder Aspekt Ihrer Reise betreut wird — von der Navigation bis zur Zubereitung köstlicher Mahlzeiten. Sie müssen sich nur zurücklehnen und das Erlebnis genießen."
+      },
+      "card2": {
+        "title": "Komfortables Kabinen-Charter-Erlebnis in Thailand",
+        "p1": "Jede Kabine auf unserer Kreuzfahrt ist für Ihren Komfort konzipiert. Ausgestattet mit eigenem Bad, Klimaanlage und Premium-Bettwäsche ist Ihre Kabine Ihr Rückzugsort nach einem Tag voller Erkundungen. Ob Sie die ruhigen Gewässer der Phi Phi Inseln genießen oder die Sonne in der Phang Nga Bucht tanken — Sie werden sich in dem sorgfältig eingerichteten Raum rundum wohl fühlen.",
+        "p2": "Unsere Kabinenkreuzfahrten bieten mehr als nur ein Zimmer — sie bieten eine Luxus-Auszeit, bei der jedes Detail durchdacht geplant ist. Ob Sie Ruhe, einen Moment des Friedens oder einen gemütlichen Rückzugsort suchen — Sie finden ihn in Ihrer Kabine und erleben eine unvergessliche Reise durch Thailands atemberaubende Gewässer.",
+        "from": "Ab ",
+        "perDay": "/Tag",
+        "departs": "Abfahrt ~9:00 Uhr, Rückkehr ~17:30 Uhr",
+        "guests": "Bis zu 8 Gäste"
+      }
+    },
+    "whyChoose": {
+      "title": "Warum eine Kabinenkreuzfahrt in Phuket wählen",
+      "subtitle": "Die perfekte Lösung für alle, die Luxus-Segeln zu einem Bruchteil der Kosten wollen",
+      "features": {
+        "luxury": {
+          "title": "Luxus-Segeln ohne eine Privatyacht zu buchen",
+          "description": "Wenn Sie von einem privaten Segelerlebnis träumen, aber nicht die Kosten für die Buchung einer ganzen Yacht tragen möchten, ist eine Kabinenkreuzfahrt in Phuket die perfekte Lösung. Genießen Sie denselben Luxus, Komfort und dieselbe Privatsphäre wie auf einer Privatyacht, aber zu einem erschwinglicheren Preis.\nOb Sie ein Paar auf der Suche nach einem romantischen Kurzurlaub sind, eine Familie, die gemeinsam erkunden möchte, oder ein Alleinreisender, der einen friedlichen Rückzugsort sucht — dieses Erlebnis ist für diejenigen konzipiert, die das Beste aus beiden Welten wollen — Luxus-Segeln zu einem Bruchteil der Kosten. Sie genießen geräumige private Kabinen, eine professionelle Crew, Gourmet-Mahlzeiten und die Freiheit, Phukets atemberaubende Inseln stilvoll zu erkunden, ohne den hohen Preis eines privaten Charters."
+        },
+        "limited": {
+          "title": "Begrenzte Gästezahl, geräumige Schiffe und entspannte Atmosphäre",
+          "description": "Für diejenigen, die ein intimeres und persönlicheres Erlebnis suchen, bieten unsere Kabinenkreuzfahrten einen einzigartigen Vorteil — eine begrenzte Anzahl von Gästen. Ob Sie als Paar, mit Freunden oder als Solo-Abenteurer reisen — Sie haben reichlich Platz zum Entspannen, ohne sich beengt zu fühlen.\nUnsere geräumigen Schiffe bieten großzügige Deckflächen, Lounges und offene Bereiche, sodass Sie die wunderschöne Umgebung der Andamanensee in Ihrem eigenen Tempo genießen können. Die entspannte Atmosphäre ermöglicht es Familien, Freunden und Alleinreisenden, ihren perfekten Platz zu finden — sei es zum Geselligsein oder zum Genießen ruhiger Momente. Anders als bei großen Kreuzfahrten oder kommerziellen Touren fühlen Sie sich nie gehetzt, was eine viel persönlichere und komfortablere Reise ermöglicht."
+        },
+        "curated": {
+          "title": "Eine kuratierte Segelreise für Komfort konzipiert",
+          "description": "Jedes Detail Ihrer Kabinenkreuzfahrt ist für Ihren Komfort konzipiert. Sobald Sie an Bord gehen, kümmert sich die professionelle Crew um alles, damit Sie sich einfach zurücklehnen und genießen können.\nFür Paare, Familien und Alleinreisende, die sowohl Abenteuer als auch Komfort schätzen, finden unsere sorgfältig kuratierten Reiserouten die perfekte Balance zwischen Erkundung und Entspannung. Verbringen Sie Ihre Tage mit der Erkundung atemberaubender Inseln wie Phi Phi oder der Phang Nga Bucht, genießen Sie Schnorcheln und Kajakfahren und ziehen Sie sich dann in Ihre private Kabine für friedliche Abende auf See zurück. Ob Sie Abenteuer oder Entspannung suchen — unsere Kreuzfahrten erfüllen jeden Wunsch."
+        }
+      }
+    },
+    "itinerary": {
+      "badge": "Segelrouten",
+      "title": "Kabinenkreuzfahrt-Reiseroute in der Andamanensee",
+      "multiDay": {
+        "title": "Mehrtägiges Segeln zu Phukets Inseldestinationen",
+        "p1": "Eine mehrtägige Kabinenkreuzfahrt ist der perfekte Weg, das Beste von Phuket und seinen umliegenden Inseln in gemütlichem Tempo zu erkunden. Begeben Sie sich auf eine Reise zu einigen der berühmtesten und abgelegensten Ziele wie den Phi Phi Inseln, der Phang Nga Bucht, Koh Lanta und Koh Rok. Ob Sie sich an den Stränden entspannen, in klarem Wasser schnorcheln oder versteckte Buchten erkunden möchten — jeder Stopp bietet etwas Einzigartiges.",
+        "p2": "Verbringen Sie Ihre Tage mit Segeln durch kristallklares Wasser, entdecken Sie lebendige Meeresbewohner und genießen Sie die unvergleichliche Schönheit der Andamanensee. Schlafen Sie in komfortablen privaten Kabinen, genießen Sie frisch zubereitete Mahlzeiten und wachen Sie jeden Morgen mit neuen atemberaubenden Aussichten auf. Ob Sie sich für eine kürzere 3-Tage-Kreuzfahrt oder eine längere 7-Tage-Expedition entscheiden — der mehrtägige Segelplan ermöglicht es Ihnen, die Vielfalt der thailändischen Inseln in ultimativem Komfort zu erleben.",
+        "price": "Ab 1.200 €/Nacht",
+        "cabins": "4 private Kabinen, eigene Badezimmer",
+        "meals": "Alle Mahlzeiten, Crew und Aktivitäten inklusive",
+        "cta": "Mehrtägige Kreuzfahrt planen"
+      },
+      "balanced": {
+        "title": "Ausgewogene Segeltage mit Zeit zum Entspannen und Erkunden",
+        "p1": "Unsere Kabinenkreuzfahrt-Reiserouten sind so gestaltet, dass Sie die perfekte Balance zwischen Erkundung und Entspannung finden. An jedem Tag erkunden Sie Inseln wie Phi Phi oder Koh Racha, besuchen abgelegene Strände und genießen Wasseraktivitäten wie Schnorcheln, Stand-Up-Paddeln und Kajakfahren. Nach einem Tag voller Abenteuer kehren Sie zum Schiff zurück für ein Gourmet-Menü und etwas Ruhezeit, während Sie zu Ihrem nächsten Ziel segeln.",
+        "p2": "Das entspannte Tempo sorgt dafür, dass Sie sich nie gehetzt fühlen. Mit längeren Aufenthalten an Schlüsselzielen haben Sie Zeit, sich voll und ganz in jeden Ort einzutauchen. Ob Sie auf dem Deck in der Sonne liegen oder einen ruhigen Moment in Ihrer Kabine genießen — Sie finden reichlich Zeit zum Entspannen, während Sie die atemberaubende Küstenschönheit Thailands erkunden.",
+        "price": "Ab 1.000 €/Tag",
+        "time": "Abfahrt ~9:00 Uhr, Rückkehr ~17:30 Uhr",
+        "guests": "Bis zu 8 Gäste"
+      }
+    },
+    "destinations": {
+      "badge": "Reiseziele",
+      "title": "Inseldestinationen auf einer Phuket-Kabinenkreuzfahrt",
+      "items": {
+        "phiPhi": {
+          "title": "Phi Phi Inseln und Koh Phi Phi Leh Segeln",
+          "description": "Die Phi Phi Inseln sind ein Muss auf jeder Kabinenkreuzfahrt in Phuket. Bekannt für ihre hoch aufragenden Kalksteinklippen, kristallklares Wasser und lebendige Korallenriffe bieten diese Inseln die perfekte Kombination aus natürlicher Schönheit und Abenteuer. Der geringe Tiefgang unserer Schiffe ermöglicht es uns, in abgelegenen Lagunen wie der Pileh-Lagune zu ankern, die größere Boote nicht erreichen können, und garantiert Ihnen ein exklusiveres Erlebnis.\nEine Kabinenkreuzfahrt zu Phi Phi bedeutet, dass Sie berühmte Orte wie Maya Bay (bekannt aus dem Film The Beach) und Monkey Beach ohne die Menschenmassen genießen können. Erleben Sie die Inseln bei Sonnenaufgang oder Sonnenuntergang, wenn die Landschaften am ruhigsten und atemberaubendsten sind.",
+          "pricing": "Ab 1.200 €/Tag",
+          "details": "4–5 Stunden Segeln von Chalong Bay | Tagesausflug oder mit Übernachtung",
+          "linkText": "Phi Phi Kabinenkreuzfahrt"
+        },
+        "phangNga": {
+          "title": "Phang Nga Bucht und Kalksteinlandschaften Segeln",
+          "description": "Die Phang Nga Bucht ist eine der ikonischsten Landschaften Thailands mit ihren dramatischen vertikalen Karstfelsen, die aus smaragdgrünem Wasser aufragen. Auf einer Kabinenkreuzfahrt haben Sie die Möglichkeit, durch versteckte Seehöhlen zu paddeln und geheime Hongs (Lagunen) zu erkunden, die nur bei bestimmten Gezeiten zugänglich sind.\nDie ruhigen Gewässer und die geringe Tiefe der Bucht machen sie perfekt für alle, die ein friedliches und entspanntes Segelerlebnis suchen. James Bond Island, einer der berühmtesten Orte der Bucht, ist ein Höhepunkt der Reise. Verbringen Sie den Tag mit der Erkundung dieser atemberaubenden Naturlandschaft, bevor Sie für die Nacht in einer ruhigen Bucht ankern.",
+          "pricing": "Ab 1.000 €/Tag",
+          "details": "3–4 Stunden Segeln von Chalong Bay | Perfekt für Tagesausflüge",
+          "linkText": "Phang Nga Bucht Kabinenkreuzfahrt"
+        },
+        "bays": {
+          "title": "Wunderschöne Buchten Südthailands Segeln",
+          "description": "Südthailand bietet einige der unberührtesten Strände und türkisfarbendsten Gewässer der Welt. Auf Ihrer Kabinenkreuzfahrt können Sie abgelegene Buchten besuchen, die für größere Boote oft unzugänglich sind. Genießen Sie Schwimmen, Sonnenbaden oder einfach Entspannung an weißen Sandstränden, ohne andere Touristen in der Nähe.\nDie Buchten rund um Phuket sind perfekt für Wasseraktivitäten wie Schnorcheln, Kajakfahren und Stand-Up-Paddeln. Erkunden Sie lebendige Korallenriffe, schwimmen Sie mit bunten Fischen und genießen Sie ruhige Ankerplätze, die den perfekten Rahmen für einen friedlichen Tag auf See bieten.",
+          "pricing": "Ab 1.199 €/Tag",
+          "details": "4–6 Stunden Segeln von Chalong Bay | Ideal für Familien und kleine Gruppen",
+          "linkText": "Südliche Buchten erkunden"
+        }
+      }
+    },
+    "lifeOnboard": {
+      "title": "Das Leben an Bord eines Segelschiffs in Phuket",
+      "subtitle": "Jedes Detail an Bord ist für Komfort, Eleganz und unvergessliche Momente konzipiert",
+      "features": {
+        "cabins": {
+          "title": "Doppelkabinen mit eigenem Bad, Platz und Privatsphäre",
+          "description": "Jede unserer Kabinenkreuzfahrten in Phuket verfügt über geräumige, komfortable Doppelkabinen mit eigenem Badezimmer. Genießen Sie einen friedlichen Rückzugsort in Ihrer Kabine, ausgestattet mit hochwertiger Bettwäsche, Klimaanlage und reichlich Stauraum. Ob Sie allein oder mit einem Partner reisen — Sie haben viel Platz zum Entspannen während Ihrer Reise.\nUnsere Kabinen bieten Privatsphäre, aber es gibt auch Gemeinschaftsbereiche an Bord zum Geselligsein und Genießen der Aussicht. Ob Sie auf dem Deck sonnenbaden oder ein Buch in Ihrer Kabine lesen — jeder Moment an Bord ist für Ihren Komfort konzipiert."
+        },
+        "design": {
+          "title": "Stabiles Doppelrumpf-Segeldesign",
+          "description": "Das Doppelrumpf-Design unserer Schiffe gewährleistet ein stabiles, ruhiges Segelerlebnis und macht sie zur perfekten Wahl für Gäste, die eine komfortable Reise ohne die Bewegungen traditioneller Einrumpfboote wünschen. Die Stabilität der Kabinenkreuzfahrt ermöglicht es Ihnen, sich auf dem Deck zu entspannen, Mahlzeiten ohne Ablenkung zu genießen und eine ruhige Fahrt zu erleben.\nIm Gegensatz zu Einrumpfbooten, die sich neigen und rollen, liegen unsere Schiffe flach auf dem Wasser und sorgen für eine entspanntere, komfortablere Fahrt für alle Gäste, einschließlich Familien mit Kindern oder Personen, die zu Seekrankheit neigen."
+        },
+        "decks": {
+          "title": "Geräumige Decks zum Speisen und Entspannen",
+          "description": "Unsere Schiffe verfügen über große, geräumige Decks, die perfekt zum Speisen, Faulenzen und Genießen der atemberaubenden Aussicht sind. Ob Sie eine Mahlzeit mit Ihrer Gruppe genießen, die Sonne tanken oder sich mit einem Drink in der Hand entspannen — die geräumigen Decks bieten eine komfortable Umgebung für all Ihre Bedürfnisse.\nDer schattige Essbereich bietet Schutz vor der Sonne, während das offene Heck ideal ist, um die Meeresbrise zu genießen oder von den Badeplattformen ins Wasser zu springen. Es gibt reichlich Platz für jeden — ob Sie sich lieber privat entspannen oder mit anderen Passagieren gesellig sein möchten."
+        }
+      }
+    },
+    "diningActivities": {
+      "title": "Kabinenkreuzfahrt Phuket – Gastronomie, Aktivitäten und tägliches Erlebnis",
+      "subtitle": "Ihre Kabinenkreuzfahrt ist ein Gesamterlebnis – von Gourmet-Küche über aufregende Wasserabenteuer bis hin zu friedlichen Abenden",
+      "cards": {
+        "dining": {
+          "title": "Gourmet-Küche auf Ihrer Kabinenkreuzfahrt Phuket",
+          "description": "Genießen Sie frisch zubereitete thailändische Gerichte und internationale Favoriten, während Sie durch die atemberaubende Andamanensee segeln. Mit unserem Bordkoch, der Gourmet-Mahlzeiten zubereitet, genießen Sie alles von aromatischem grünem Curry bis hin zu frischen Meeresfrüchten, alles zubereitet mit den feinsten lokalen Zutaten. Ob Sie die Phi Phi Inseln oder die Phang Nga Bucht erkunden — Ihre Mahlzeiten werden ein Höhepunkt Ihres Tages sein."
+        },
+        "activities": {
+          "title": "Aufregende Wasseraktivitäten auf Ihrer Kabinenkreuzfahrt Phuket",
+          "description": "Ihre Kabinenkreuzfahrt Phuket dreht sich nicht nur ums Segeln — es geht um Abenteuer und Entspannung auf dem Wasser. Verbringen Sie Ihre Tage mit Schnorcheln, Stand-Up-Paddeln oder Schwimmen in kristallklaren Lagunen. Die ruhigen Gewässer von Phuket sind perfekt zum Erkunden lebendiger Korallenriffe, versteckter Strände und abgelegener Buchten. Ob Sie ein Abenteurer sind oder Ruhe suchen — auf Ihrer Kabinenkreuzfahrt gibt es viel zu genießen."
+        },
+        "evenings": {
+          "title": "Entspannte Abende vor Anker auf Ihrer Kabinenkreuzfahrt Phuket",
+          "description": "Nach einem aufregenden Tag voller Erkundung und Aktivitäten bietet Ihre Kabinenkreuzfahrt Phuket friedliche Abende vor Anker in wunderschönen, ruhigen Buchten. Entspannen Sie bei einem köstlichen Abendessen, genießen Sie atemberaubende Sonnenuntergänge und relaxen Sie im Komfort Ihrer Kabine — alles umgeben von den friedlichen Gewässern der Andamanensee. Ihre Kreuzfahrt bietet die perfekte Balance zwischen Abenteuer und Entspannung."
+        }
+      }
+    },
+    "idealFor": {
+      "title": "Für wen eine Phuket-Kabinenkreuzfahrt ideal ist",
+      "personas": {
+        "couples": {
+          "title": "Paare auf der Suche nach einem romantischen Segelurlaub",
+          "description": "Eine Kabinenkreuzfahrt in Phuket ist der perfekte Weg, einen romantischen Kurzurlaub zu feiern. Mit abgelegenen Ankerplätzen, privaten Kabinen und intimen Settings können Paare ein einzigartiges und unvergessliches Erlebnis abseits der Massen genießen. Ob Sie einen Jahrestag, Flitterwochen oder einfach gemeinsame Zeit feiern — eine Kabinenkreuzfahrt bietet die perfekte Auszeit."
+        },
+        "solo": {
+          "title": "Alleinreisende auf der Suche nach einer Premium-Gesellschaftskreuzfahrt",
+          "description": "Für Alleinreisende bietet eine Kabinenkreuzfahrt eine großartige Gelegenheit, Gleichgesinnte kennenzulernen, während Sie die Privatsphäre Ihrer eigenen Kabine genießen. Teilen Sie das Abenteuer des Segelns durch wunderschöne Destinationen mit anderen Gästen, aber ziehen Sie sich in Ihren privaten Raum zurück, wann immer Sie möchten. Es ist die ideale Kombination aus geselligem Segeln und persönlicher Entspannung."
+        },
+        "friends": {
+          "title": "Freunde auf der Suche nach einem entspannten Segelabenteuer",
+          "description": "Freunde, die ein einzigartiges und entspanntes Abenteuer suchen, werden feststellen, dass eine Kabinenkreuzfahrt in Phuket den perfekten Rahmen bietet. Mit geräumigen Kabinen, zahlreichen Gemeinschaftsbereichen und einer Vielzahl von Aktivitäten an Bord ist eine Kabinenkreuzfahrt der ultimative Weg, Quality-Time mit Freunden zu genießen, während Sie die Inseln der Andamanensee erkunden."
+        }
+      }
+    },
+    "comparison": {
+      "title": "Kabinenkreuzfahrt vs. Privater Yachtcharter in Phuket",
+      "subtitle": "Der ganze Luxus, ein Bruchteil der Kosten",
+      "items": {
+        "accessible": {
+          "title": "Ein zugänglicherer Weg, Luxus-Segeln zu erleben",
+          "description": "Eine Kabinenkreuzfahrt bietet eine erschwingliche Alternative zur Buchung einer Privatyacht und bietet dennoch ein Luxus-Erlebnis. Teilen Sie die Kosten der Reise mit einer ausgewählten Gruppe von Gästen, genießen Sie aber denselben Komfort, dieselbe Privatsphäre und dieselben erstklassigen Annehmlichkeiten. Mit professionellen Crews und maßgeschneiderten Reiserouten bietet eine Kabinenkreuzfahrt ein unvergessliches Segelerlebnis zu einem Bruchteil der Kosten einer Privatyacht."
+        },
+        "shared": {
+          "title": "Geteilte Kosten ohne Kompromisse beim Komfort",
+          "description": "Wenn Sie eine Kabinenkreuzfahrt buchen, teilen Sie die Kosten der Yacht mit einigen anderen Gästen, was bedeutet, dass Sie ein Luxus-Erlebnis zu einem deutlich günstigeren Preis genießen können. Jeder Gast erhält seine eigene private Kabine, was ein komfortables und entspannendes Erlebnis gewährleistet — aber ohne den hohen Preis, der mit der Buchung einer ganzen Privatyacht verbunden ist."
+        },
+        "crew": {
+          "title": "Professionelle Crew und geplante Routen inklusive",
+          "description": "Jede Kabinenkreuzfahrt beinhaltet eine vollständige Crew, einschließlich eines professionellen Skippers, eines Bordkochs und Servicepersonals, die Ihnen ein nahtloses Erlebnis von Anfang bis Ende garantieren. Mit vorgeplanten Routen und flexiblen Reiserouten können Sie sicher sein, dass jedes Detail betreut wird und Sie sich ganz auf die Schönheit der Andamanensee konzentrieren können."
+        }
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Kabinenkreuzfahrten Phuket",
+      "questions": {
+        "cost": {
+          "q": "Was kostet eine Kabinenkreuzfahrt in Phuket?",
+          "a": "Tages-Kabinenkreuzfahrten beginnen ab 1.199 €. Kabinenkreuzfahrten mit Übernachtung ab 1.500 €/Nacht. Mehrtägige Kabinenkreuzfahrten ab 2.500 €/Nacht. Alle Preise beinhalten Crew, Mahlzeiten, Aktivitäten und Annehmlichkeiten an Bord — keine versteckten Kosten."
+        },
+        "guests": {
+          "q": "Wie viele Gäste kann eine Kabinenkreuzfahrt aufnehmen?",
+          "a": "Unsere Kabinenkreuzfahrten bieten 3–4 private Kabinen für bis zu 8 Übernachtungsgäste. Für Tageskreuzfahrten können wir je nach Schiff bis zu 10-12 Gäste aufnehmen. Jede Buchung ist privat — Sie teilen nicht mit Fremden, was ein intimes Erlebnis gewährleistet."
+        },
+        "experience": {
+          "q": "Brauche ich Segelerfahrung, um an einer Kabinenkreuzfahrt teilzunehmen?",
+          "a": "Überhaupt nicht. Jede Kabinenkreuzfahrt beinhaltet eine professionelle Crew, einschließlich eines lizenzierten Skippers, Kochs und Servicepersonals, die das gesamte Segeln und den Betrieb übernehmen. Sie können am Segeln teilnehmen oder sich einfach zurücklehnen und die Reise genießen."
+        },
+        "children": {
+          "q": "Sind Kabinenkreuzfahrten sicher für Kinder?",
+          "a": "Ja — Kabinenkreuzfahrten gehören zu den sichersten Optionen für Familien. Das stabile Doppelrumpf-Design sorgt für minimale Bewegung, ideal für Familien mit kleinen Kindern. Sicherheitsgeländer, Netze und Schwimmwesten für alle Altersgruppen sind vorhanden. Unsere erfahrene Crew sorgt dafür, dass Kinder unterhalten und bei Wasseraktivitäten sicher sind."
+        },
+        "difference": {
+          "q": "Was ist der Unterschied zwischen einer Kabinenkreuzfahrt und einem privaten Yachtcharter?",
+          "a": "Eine Kabinenkreuzfahrt bietet ein geteiltes, aber luxuriöses Segelerlebnis zu einem erschwinglicheren Preis. Sie erhalten den Komfort privater Kabinen, Gourmet-Mahlzeiten und einer professionellen Crew, aber zu einem Bruchteil der Kosten einer ganzen Privatyacht. Eine Kabinenkreuzfahrt bietet ein gehobenes Erlebnis mit geteilten Kosten, ideal für kleine Gruppen oder Alleinreisende, die Luxus ohne den Premium-Preis suchen."
+        },
+        "islands": {
+          "q": "Welche Inseln kann ich auf einer Kabinenkreuzfahrt ab Phuket besuchen?",
+          "a": "Tagesausflüge: Phi Phi Inseln, Racha Inseln, Phang Nga Bucht, Koh Hong. Mehrtägige Reisen: Koh Lanta, Koh Rok, Koh Ha, Similan Inseln, Koh Lipe und mehr. Ihre Reiseroute ist nach Ihren Wünschen anpassbar — erkunden Sie in Ihrem eigenen Tempo!"
+        },
+        "included": {
+          "q": "Was ist im Preis der Kabinenkreuzfahrt enthalten?",
+          "a": "Der Preis beinhaltet: Professionelle Crew (lizenzierter Skipper, Koch und Servicepersonal), private Kabinen mit eigenen Badezimmern, Mahlzeiten (Frühstück, Mittagessen, Abendessen), Wasseraktivitäten (Schnorcheln, Stand-Up-Paddeln, Kajakfahren), Annehmlichkeiten an Bord (Klimaanlage, komfortable Lounges usw.). Nicht enthalten: Nationalparkgebühren (300-400 THB pro Erwachsener pro Park) und alkoholische Getränke."
+        },
+        "bestTime": {
+          "q": "Wann ist die beste Zeit für eine Kabinenkreuzfahrt in Phuket?",
+          "a": "Die beste Zeit für eine Kabinenkreuzfahrt in Phuket ist von November bis April, wenn das Wetter ruhig und der Himmel klar ist. Diese Periode bietet die ruhigsten Gewässer, die beste Sicht und die stetigsten Winde zum Segeln. Für ruhigere Erlebnisse und niedrigere Preise sind November und April (Nebensaisonmonate) ausgezeichnete Optionen."
+        },
+        "booking": {
+          "q": "Wie weit im Voraus sollte ich eine Kabinenkreuzfahrt buchen?",
+          "a": "Während der Hochsaison (Dezember–März) wird empfohlen, mindestens 2–4 Wochen im Voraus zu buchen. Für Weihnachten und Neujahr empfehlen wir eine Buchung 2–3 Monate im Voraus. Für die beste Auswahl ist frühzeitiges Buchen immer empfehlenswert, besonders für mehrtägige Kabinenkreuzfahrten."
+        }
+      }
+    }
   }
 }

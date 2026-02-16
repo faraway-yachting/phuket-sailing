@@ -80,6 +80,12 @@ export function Navbar() {
               {t('luxuryYachtCharter')}
             </LocaleLink>
             <LocaleLink
+              href="/cabin-cruise-phuket"
+              className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
+            >
+              {t('cabinCruise')}
+            </LocaleLink>
+            <LocaleLink
               href="/contact"
               className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
             >
@@ -181,6 +187,13 @@ export function Navbar() {
               className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
             >
               {t('luxuryYachtCharter')}
+            </LocaleLink>
+            <LocaleLink
+              href="/cabin-cruise-phuket"
+              onClick={() => setIsMenuOpen(false)}
+              className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
+            >
+              {t('cabinCruise')}
             </LocaleLink>
             <LocaleLink
               href="/contact"

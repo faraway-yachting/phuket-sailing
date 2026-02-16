@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { useLanguage } from '@/components/providers/LanguageProvider'
 import { FAQAccordion } from '@/components/shared/FAQAccordion'
 import { BookingCTA } from '@/components/shared/BookingCTA'
+import { LuxuryYachtFAQSchema } from './faq-schema'
 import { ReviewBadges } from '@/components/shared/ReviewBadges'
 import { ContactCards } from '@/components/shared/ContactCards'
 import { FeaturedYachts } from '@/components/shared/FeaturedYachts'
@@ -47,6 +48,8 @@ import {
 
 export default function LuxuryYachtCharterPage() {
   return (
+    <>
+    <LuxuryYachtFAQSchema />
     <main className="min-h-screen">
       <HeroSection />
       <ContactCardsSection />
@@ -70,6 +73,7 @@ export default function LuxuryYachtCharterPage() {
         buttonText="GET YOUR FREE YACHT QUOTE →"
       />
     </main>
+    </>
   )
 }
 
@@ -91,7 +95,7 @@ function HeroSection() {
         <h1 className="font-serif text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl text-balance" style={{ fontFamily: "var(--font-playfair)" }}>
           {t('luxuryYachtCharter.hero.title')}
         </h1>
-        <p className="mx-auto mt-2 font-serif text-lg text-[#14b8a6] italic md:text-xl" style={{ fontFamily: "var(--font-playfair)" }}>
+        <p className="mx-auto mt-2 text-lg text-white md:text-xl">
           {t('luxuryYachtCharter.hero.subtitle')}
         </p>
 
@@ -641,7 +645,7 @@ function DestinationsSection() {
                 className="object-cover transition-transform duration-300 hover:scale-105"
               />
             </div>
-            <div className="p-8">
+            <div className="p-4 sm:p-6 md:p-8">
               <h3 className="font-serif text-xl font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('luxuryYachtCharter.destinations.features.turquoise.title')}
               </h3>
@@ -659,7 +663,7 @@ function DestinationsSection() {
                 className="object-cover transition-transform duration-300 hover:scale-105"
               />
             </div>
-            <div className="p-8">
+            <div className="p-4 sm:p-6 md:p-8">
               <h3 className="font-serif text-xl font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('luxuryYachtCharter.destinations.features.hopping.title')}
               </h3>
@@ -1025,7 +1029,7 @@ function ComparisonSection() {
 
         <div className="mt-8 sm:mt-12 overflow-x-auto rounded-xl border border-neutral-200">
           <div
-            className="grid grid-cols-3 px-3 sm:px-6 py-3 sm:py-4"
+            className="grid grid-cols-3 px-3 sm:px-6 py-3 sm:py-4 min-w-[500px]"
             style={{ background: "linear-gradient(to bottom right, #164e63, #0f3a47, #0a2a35)" }}
           >
             <div className="text-sm font-medium text-white/90">{t('luxuryYachtCharter.comparison.table.header.feature')}</div>
@@ -1066,10 +1070,10 @@ function PlanSection() {
   const { t } = useLanguage()
 
   const steps = [
-    t('luxuryYachtCharter.plan.steps.step1'),
-    t('luxuryYachtCharter.plan.steps.step2'),
-    t('luxuryYachtCharter.plan.steps.step3'),
-    t('luxuryYachtCharter.plan.steps.step4'),
+    { number: 1, title: t('luxuryYachtCharter.plan.steps.step1.title'), description: t('luxuryYachtCharter.plan.steps.step1.description') },
+    { number: 2, title: t('luxuryYachtCharter.plan.steps.step2.title'), description: t('luxuryYachtCharter.plan.steps.step2.description') },
+    { number: 3, title: t('luxuryYachtCharter.plan.steps.step3.title'), description: t('luxuryYachtCharter.plan.steps.step3.description') },
+    { number: 4, title: t('luxuryYachtCharter.plan.steps.step4.title'), description: t('luxuryYachtCharter.plan.steps.step4.description') },
   ]
 
   const trustItems = [
@@ -1100,20 +1104,22 @@ function PlanSection() {
           </p>
         </div>
 
-        <div className="mt-8 sm:mt-12 mx-auto max-w-2xl">
-          <div className="flex flex-col gap-6">
-            {steps.map((step, idx) => (
-              <div key={idx} className="flex gap-4">
-                <div
-                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold text-white"
-                  style={{ background: "linear-gradient(90deg, #A0522D 0%, #FF8C00 100%)" }}
-                >
-                  {idx + 1}
-                </div>
-                <p className="pt-1 text-base leading-relaxed text-white">{step}</p>
+        <div className="mt-8 sm:mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          {steps.map((step) => (
+            <div key={step.number} className="relative bg-gradient-to-br from-[#14b8a6] via-[#0d9488] to-[#0a7b6e] rounded-3xl p-5 sm:p-6 md:p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+              <div className="absolute -top-4 left-6 w-10 h-10 bg-gradient-to-br from-[#164e63] to-[#0a2a35] rounded-full flex items-center justify-center shadow-lg border-4 border-white">
+                <span className="text-white font-bold text-lg">{step.number}</span>
               </div>
-            ))}
-          </div>
+              <div className="mt-6">
+                <h3 className="text-lg md:text-xl font-bold text-white mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
+                  {step.title}
+                </h3>
+                <p className="text-white/80 text-sm md:text-base leading-relaxed">
+                  {step.description}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
 
         <div className="mt-10 sm:mt-16 rounded-2xl border border-white/10 bg-white/5 p-5 sm:p-8 lg:p-12">

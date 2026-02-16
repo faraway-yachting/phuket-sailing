@@ -14,7 +14,8 @@
     "contactUs": "Nous Contacter",
     "selectLanguage": "Choisir la Langue",
     "catamaranCharter": "Charter Catamaran",
-    "luxuryYachtCharter": "Location de Yacht de Luxe"
+    "luxuryYachtCharter": "Location de Yacht de Luxe",
+    "cabinCruise": "Croisière Cabine"
   },
   "hero": {
     "title": "Phuket Sailing",
@@ -695,7 +696,7 @@
         "quote": "I recently visited Phang Nga bay, and it was such a lovely trip. The atmosphere was calm and relaxing, and the nature there is truly beautiful. I really enjoyed the views of the sea, limestone cliffs, and the peaceful surroundings. It felt like a perfect place to slow down and enjoy nature. Phang Nga has its own charm, and I'm really happy I got to visit.",
         "author": "Sandra Tomson"
       },
-      "readAll": "Lire toutes les 800+ avis →"
+      "readAll": "Lire toutes les 850+ avis →"
     },
     "crew": {
       "title": "Équipages de Catamaran, Confort et Expérience à Bord",
@@ -848,7 +849,7 @@
       "confidence": {
         "title": "Naviguez à Phuket avec Confiance et Confort",
         "points": {
-          "reviews": "800+ ★★★★★ avis de voyageurs internationaux sur Google, TripAdvisor et plateformes de réservation",
+          "reviews": "850+ ★★★★★ avis de voyageurs internationaux sur Google, TripAdvisor et plateformes de réservation",
           "experience": "30 ans d'expérience de la mer d'Andaman — notre équipe connaît ces eaux mieux que quiconque",
           "licensed": "Agréé par l'Autorité du Tourisme de Thaïlande (OTD #34/02546)",
           "award": "Gagnant des World Luxury Travel Awards 2025",
@@ -1206,10 +1207,22 @@
       "title": "Planifiez Votre Charter de Yacht de Luxe à Phuket",
       "subtitle": "Sélectionnez Votre Yacht, la Durée et l'Itinéraire de Navigation",
       "steps": {
-        "step1": "Partagez la taille de votre groupe, vos dates et vos priorités — les îles que vous souhaitez visiter, le rythme que vous préférez, toute occasion spéciale ou demande",
-        "step2": "Nous recommandons les meilleurs navires et itinéraires adaptés à votre saison, votre groupe et vos objectifs",
-        "step3": "Confirmez le charter — itinéraire, inclusions et tarifs confirmés par écrit avant tout engagement",
-        "step4": "Arrivez et laissez l'équipage s'occuper du reste"
+        "step1": {
+          "title": "Partagez vos détails",
+          "description": "La taille de votre groupe, vos dates et vos priorités — les îles que vous souhaitez visiter, le rythme que vous préférez, toute occasion spéciale ou demande"
+        },
+        "step2": {
+          "title": "Recevez nos recommandations",
+          "description": "Nous recommandons les meilleurs navires et itinéraires adaptés à votre saison, votre groupe et vos objectifs"
+        },
+        "step3": {
+          "title": "Confirmez le charter",
+          "description": "Itinéraire, inclusions et tarifs confirmés par écrit avant tout engagement"
+        },
+        "step4": {
+          "title": "Arrivez et profitez",
+          "description": "Laissez l'équipage s'occuper du reste"
+        }
       },
       "confidence": {
         "title": "Réservez en Toute Confiance",
@@ -1279,7 +1292,18 @@
     "emailPlaceholder": "Email*",
     "copyright": "© 2025 Copyright Phuket Sailing",
     "impressum": "Mentions légales",
-    "sitemap": "Plan du site"
+    "sitemap": "Plan du site",
+    "home": "Accueil",
+    "catamaranCharter": "Charter Catamaran Phuket",
+    "luxuryYachtCharter": "Location de Yacht de Luxe",
+    "cabinCruise": "Croisière Cabine Phuket",
+    "contactUs": "Nous Contacter",
+    "termsAndConditions": "Conditions Générales",
+    "sailingYachts": "Voiliers",
+    "overnightSailing": "Croisières de Nuit",
+    "barefootCharter": "Location sans Équipage",
+    "sailingItineraries": "Itinéraires de Voile",
+    "charterTypes": "Types de Charter"
   },
   "yachtDetail": {
     "notFound": "Yacht Introuvable",
@@ -1308,5 +1332,217 @@
     "whatsapp": "WhatsApp (optionnel)",
     "noOfGuests": "Nombre d'invités",
     "commentsRequests": "Commentaires ou demandes ?"
+  },
+  "cabinCruise": {
+    "hero": {
+      "badge1": "800+ ★★★★★ Avis",
+      "badge2": "25 Ans d'Expertise en Voile",
+      "title": "Croisière Cabine Phuket – Navigation de Luxe à Travers les Îles de Thaïlande",
+      "description": "Vivez le mélange parfait d'aventure et de détente lors d'une Croisière Cabine à Phuket. Explorez Phi Phi, la Baie de Phang Nga et Koh Lanta avec des cabines privées et un service haut de gamme, tout en profitant de la beauté des îles thaïlandaises.",
+      "cta": "Obtenez Votre Devis Croisière Cabine Gratuit",
+      "whatsapp": "Contactez-nous sur WhatsApp"
+    },
+    "ctaBanner": {
+      "text": "Vous planifiez votre croisière cabine à Phuket ? Partagez vos dates, la taille de votre groupe et vos préférences, et nous vous enverrons un itinéraire personnalisé et un devis sous 24 heures — sans engagement.",
+      "cta": "Obtenez Votre Devis Croisière Cabine Gratuit",
+      "whatsapp": "Contactez-nous sur WhatsApp"
+    },
+    "cabins": {
+      "badge": "Expérience Premium",
+      "title": "Une Croisière à Voile à Phuket avec Cabines Privées",
+      "card1": {
+        "title": "Navigation de Luxe Partagée sur un Navire Moderne",
+        "p1": "Vivez l'équilibre parfait entre intimité et convivialité lors d'une croisière cabine partagée. Vous profiterez du luxe de cabines privées conçues pour un confort optimal, tout en ayant la possibilité de rencontrer d'autres voyageurs. Nos navires modernes disposent de ponts spacieux, de salons élégants et de nombreux espaces communs, vous donnant l'impression d'être sur votre propre yacht privé sans le coût d'en réserver un.",
+        "p2": "Que vous voyagiez seul, en couple ou entre amis, l'expérience de croisière cabine vous permet de naviguer à travers certaines des destinations les plus époustouflantes du monde tout en préservant votre intimité. Notre équipage professionnel s'assure que chaque aspect de votre voyage est pris en charge, de la navigation à la préparation de délicieux repas. Il ne vous reste plus qu'à vous détendre et profiter de l'expérience."
+      },
+      "card2": {
+        "title": "Une Expérience de Charter Cabine Confortable en Thaïlande",
+        "p1": "Chaque cabine de notre croisière est conçue pour votre confort. Équipée de salles de bains privatives, de la climatisation et d'une literie premium, votre cabine est votre refuge après une journée d'exploration. Que vous profitiez des eaux calmes des îles Phi Phi ou du soleil dans la baie de Phang Nga, vous vous sentirez parfaitement à l'aise dans cet espace soigneusement aménagé.",
+        "p2": "Nos croisières cabine offrent bien plus qu'une simple chambre — elles proposent une escapade de luxe où chaque détail est soigneusement pensé. Que vous recherchiez le repos, un moment de paix ou un cocon douillet, vous le trouverez dans votre cabine, garantissant un voyage inoubliable à travers les eaux magnifiques de la Thaïlande.",
+        "from": "À partir de ",
+        "perDay": "/jour",
+        "departs": "Départ ~9h00, retour ~17h30",
+        "guests": "Jusqu'à 8 passagers"
+      }
+    },
+    "whyChoose": {
+      "title": "Pourquoi Choisir une Croisière Cabine à Phuket",
+      "subtitle": "La solution parfaite pour ceux qui veulent la voile de luxe à une fraction du coût",
+      "features": {
+        "luxury": {
+          "title": "Navigation de Luxe Sans Réserver un Yacht Privé",
+          "description": "Si vous rêvez d'une expérience de navigation privée sans vouloir supporter le coût de la réservation d'un yacht entier, une croisière cabine à Phuket est la solution parfaite. Profitez du même luxe, confort et intimité qu'un yacht privé mais à un prix plus abordable.\nQue vous soyez un couple en quête d'une escapade romantique, une famille souhaitant explorer ensemble, ou un voyageur solo en quête d'une retraite paisible, cette expérience est conçue pour ceux qui veulent le meilleur des deux mondes — la voile de luxe à une fraction du coût. Vous profiterez de cabines privées spacieuses, d'un équipage professionnel, de repas gastronomiques et de la liberté d'explorer les îles magnifiques de Phuket avec style, sans le prix élevé d'un charter privé."
+        },
+        "limited": {
+          "title": "Nombre Limité de Passagers, Navires Spacieux et Atmosphère Détendue",
+          "description": "Pour ceux qui recherchent une expérience plus intime et personnelle, nos croisières cabine offrent un avantage unique — un nombre limité de passagers. Que vous voyagiez en couple, entre amis ou en aventure solo, vous aurez amplement d'espace pour vous détendre sans vous sentir à l'étroit.\nNos navires spacieux offrent de grands ponts, des salons et des espaces ouverts, vous permettant de profiter des magnifiques environs de la mer d'Andaman à votre rythme. L'atmosphère détendue permet aux familles, amis et voyageurs solo de trouver leur coin idéal, que ce soit pour socialiser ou profiter d'un moment de calme. Contrairement aux grandes croisières ou aux excursions commerciales, vous ne vous sentirez jamais pressé, offrant un voyage bien plus personnalisé et confortable."
+        },
+        "curated": {
+          "title": "Un Voyage à Voile Organisé et Conçu pour le Confort",
+          "description": "Chaque détail de votre croisière cabine est pensé pour votre confort. Dès que vous montez à bord, l'équipage professionnel s'occupe de tout pour que vous puissiez simplement vous détendre et profiter.\nPour les couples, familles et voyageurs solo qui apprécient à la fois l'aventure et le confort, nos itinéraires soigneusement organisés trouvent l'équilibre parfait entre exploration et détente. Passez vos journées à explorer des îles magnifiques comme Phi Phi ou la baie de Phang Nga, à faire du snorkeling et du kayak, puis retirez-vous dans votre cabine privée pour des soirées paisibles en mer. Que vous souhaitiez l'aventure ou la détente, nos croisières répondent à tous les besoins."
+        }
+      }
+    },
+    "itinerary": {
+      "badge": "Itinéraires de Navigation",
+      "title": "Itinéraire de Croisière Cabine en Mer d'Andaman",
+      "multiDay": {
+        "title": "Navigation Multi-Jours à Travers les Destinations Insulaires de Phuket",
+        "p1": "Une croisière cabine de plusieurs jours est le moyen idéal d'explorer le meilleur de Phuket et de ses îles environnantes à un rythme tranquille. Embarquez pour un voyage qui vous emmène vers certaines des destinations les plus emblématiques et isolées, comme les îles Phi Phi, la baie de Phang Nga, Koh Lanta et Koh Rok. Que vous souhaitiez vous détendre sur les plages, faire du snorkeling dans des eaux cristallines ou explorer des criques cachées, chaque escale offre quelque chose d'unique.",
+        "p2": "Passez vos journées à naviguer dans des eaux cristallines, à découvrir une vie marine vibrante et à profiter de la beauté incomparable de la mer d'Andaman. Dormez dans des cabines privées confortables, savourez des repas fraîchement préparés et réveillez-vous chaque matin face à de nouveaux panoramas à couper le souffle. Que vous optiez pour une croisière de 3 jours ou une expédition de 7 jours, l'itinéraire multi-jours vous permet de découvrir la diversité des îles thaïlandaises dans un confort absolu.",
+        "price": "À partir de 1 200 €/nuit",
+        "cabins": "4 cabines privées, salles de bains privatives",
+        "meals": "Tous les repas, équipage et activités inclus",
+        "cta": "Planifier une Croisière Multi-Jours"
+      },
+      "balanced": {
+        "title": "Journées de Navigation Équilibrées avec du Temps pour Se Détendre et Explorer",
+        "p1": "Nos itinéraires de croisière cabine sont conçus pour vous offrir un équilibre parfait entre exploration et détente. Chaque jour, vous profiterez de moments pour explorer des îles comme Phi Phi ou Koh Racha, visiter des plages isolées et pratiquer des activités nautiques comme le snorkeling, le paddleboard et le kayak. Après une journée d'aventure, retrouvez le navire pour un repas gastronomique et un moment de détente pendant la navigation vers votre prochaine destination.",
+        "p2": "Le rythme détendu garantit que vous ne vous sentez jamais pressé. Avec des escales plus longues aux destinations clés, vous aurez le temps de vous immerger pleinement dans chaque lieu. Que vous vous prélassiez sur le pont au soleil ou profitiez d'un moment tranquille dans votre cabine, vous trouverez amplement de temps pour vous détendre tout en explorant la beauté côtière époustouflante de la Thaïlande.",
+        "price": "À partir de 1 000 €/jour",
+        "time": "Départ ~9h00, retour ~17h30",
+        "guests": "Jusqu'à 8 passagers"
+      }
+    },
+    "destinations": {
+      "badge": "Destinations",
+      "title": "Destinations Insulaires lors d'une Croisière Cabine à Phuket",
+      "items": {
+        "phiPhi": {
+          "title": "Îles Phi Phi et Koh Phi Phi Leh en Voilier",
+          "description": "Les îles Phi Phi sont une destination incontournable de toute croisière cabine à Phuket. Connues pour leurs imposantes falaises calcaires, leurs eaux cristallines et leurs récifs coralliens vibrants, ces îles offrent la combinaison parfaite de beauté naturelle et d'aventure. Le faible tirant d'eau de nos navires nous permet de mouiller dans des lagons isolés comme le Lagon de Pileh, inaccessibles aux grands bateaux, vous garantissant une expérience plus exclusive.\nUne croisière cabine à Phi Phi signifie que vous pouvez profiter de sites célèbres comme Maya Bay (rendu célèbre par le film La Plage) et Monkey Beach sans la foule. Découvrez les îles au lever ou au coucher du soleil, quand les paysages sont à leur plus tranquilles et époustouflants.",
+          "pricing": "À partir de 1 200 €/jour",
+          "details": "4–5 heures de navigation depuis Chalong Bay | Excursion à la journée ou avec nuitée",
+          "linkText": "Croisière Cabine Phi Phi"
+        },
+        "phangNga": {
+          "title": "Baie de Phang Nga et Paysages Calcaires en Voilier",
+          "description": "La baie de Phang Nga est l'un des paysages les plus emblématiques de Thaïlande, avec ses spectaculaires pitons calcaires verticaux émergeant d'eaux vert émeraude. Lors d'une croisière cabine, vous aurez l'opportunité de faire du kayak à travers des grottes marines cachées et d'explorer des hongs secrets (lagons) accessibles uniquement à certaines marées.\nLes eaux calmes et peu profondes de la baie en font un lieu idéal pour ceux qui recherchent une expérience de navigation paisible et détendue. L'île de James Bond, l'un des sites les plus célèbres de la baie, est un point fort du voyage. Passez la journée à explorer ce paysage naturel époustouflant, avant de mouiller dans une baie tranquille pour la nuit.",
+          "pricing": "À partir de 1 000 €/jour",
+          "details": "3–4 heures de navigation depuis Chalong Bay | Idéal pour les charters à la journée",
+          "linkText": "Croisière Cabine Baie de Phang Nga"
+        },
+        "bays": {
+          "title": "Baies Magnifiques du Sud de la Thaïlande en Voilier",
+          "description": "Le sud de la Thaïlande offre certaines des plages les plus immaculées et des eaux turquoise les plus belles du monde. Lors de votre croisière cabine, vous pouvez visiter des baies isolées souvent inaccessibles aux grands bateaux. Profitez de la baignade, du bronzage ou simplement de la détente sur les plages de sable blanc, sans aucun autre touriste aux alentours.\nLes baies autour de Phuket sont parfaites pour les activités nautiques comme le snorkeling, le kayak et le paddleboard. Explorez des récifs coralliens vibrants, nagez avec des poissons colorés et profitez de mouillages calmes offrant le cadre parfait pour une journée paisible en mer.",
+          "pricing": "À partir de 1 199 €/jour",
+          "details": "4–6 heures de navigation depuis Chalong Bay | Idéal pour les familles et petits groupes",
+          "linkText": "Explorer les Baies du Sud"
+        }
+      }
+    },
+    "lifeOnboard": {
+      "title": "La Vie à Bord d'un Voilier à Phuket",
+      "subtitle": "Chaque détail à bord est conçu pour le confort, l'élégance et des moments inoubliables",
+      "features": {
+        "cabins": {
+          "title": "Cabines Doubles avec Salle de Bain Privative, Espace et Intimité",
+          "description": "Chacune de nos croisières cabine à Phuket dispose de cabines doubles spacieuses et confortables avec salles de bains privatives. Profitez d'un refuge paisible dans votre cabine, équipée d'une literie de haute qualité, de la climatisation et d'un espace de rangement généreux. Que vous voyagiez seul ou avec un partenaire, vous aurez amplement d'espace pour vous détendre pendant votre voyage.\nNos cabines offrent de l'intimité, mais il y a aussi des espaces partagés à bord pour socialiser et profiter des vues. Que vous preniez un bain de soleil sur le pont ou lisiez un livre dans votre cabine, chaque moment à bord est conçu pour votre confort."
+        },
+        "design": {
+          "title": "Conception Stable à Double Coque",
+          "description": "La conception à double coque de nos navires garantit une expérience de navigation stable et fluide, en faisant le choix parfait pour les passagers qui souhaitent un voyage confortable sans le mouvement des monocoques traditionnels. La stabilité de la croisière cabine vous permet de vous détendre sur le pont, de savourer vos repas sans distraction et de vivre un voyage serein.\nContrairement aux monocoques qui s'inclinent et roulent, nos navires reposent à plat sur l'eau, garantissant une navigation plus relaxante et confortable pour tous les passagers, y compris les familles avec enfants ou les personnes sujettes au mal de mer."
+        },
+        "decks": {
+          "title": "Ponts Spacieux pour Dîner et Se Détendre",
+          "description": "Nos navires disposent de grands ponts spacieux parfaits pour dîner, se prélasser et profiter des vues magnifiques. Que vous savouriez un repas avec votre groupe, profitiez du soleil ou vous détendiez un verre à la main, les ponts spacieux offrent un environnement confortable pour tous vos besoins.\nL'espace repas ombragé offre un répit du soleil, tandis que la poupe ouverte est idéale pour profiter de la brise marine ou plonger depuis les plateformes de baignade. Il y a de la place pour tout le monde, que vous préfériez vous détendre en privé ou socialiser avec les autres passagers."
+        }
+      }
+    },
+    "diningActivities": {
+      "title": "Croisière Cabine Phuket – Restauration, Activités et Expérience Quotidienne",
+      "subtitle": "Votre croisière cabine est une expérience complète – de la restauration gastronomique aux aventures nautiques passionnantes et aux soirées paisibles",
+      "cards": {
+        "dining": {
+          "title": "Restauration Gastronomique sur Votre Croisière Cabine Phuket",
+          "description": "Savourez des plats thaïlandais fraîchement préparés et des spécialités internationales tout en naviguant sur la magnifique mer d'Andaman. Avec notre chef à bord préparant des repas gastronomiques, vous dégusterez tout, du curry vert savoureux aux fruits de mer frais, tous préparés avec les meilleurs ingrédients locaux. Que vous exploriez les îles Phi Phi ou la baie de Phang Nga, vos repas seront un moment fort de votre journée."
+        },
+        "activities": {
+          "title": "Activités Nautiques Passionnantes sur Votre Croisière Cabine Phuket",
+          "description": "Votre Croisière Cabine Phuket ne se résume pas à la navigation — c'est aussi l'aventure et la détente sur l'eau. Passez vos journées à faire du snorkeling, du paddleboard ou à nager dans des lagons cristallins. Les eaux calmes de Phuket sont parfaites pour explorer des récifs coralliens vibrants, des plages cachées et des baies isolées. Que vous soyez un aventurier ou en quête de tranquillité, il y a beaucoup à apprécier sur votre croisière cabine."
+        },
+        "evenings": {
+          "title": "Soirées Relaxantes au Mouillage sur Votre Croisière Cabine Phuket",
+          "description": "Après une journée passionnante d'exploration et d'activités, votre Croisière Cabine Phuket offre des soirées paisibles au mouillage dans de magnifiques baies sereines. Détendez-vous avec un délicieux dîner, profitez de vues spectaculaires au coucher du soleil et relaxez-vous dans le confort de votre cabine, le tout entouré par les eaux paisibles de la mer d'Andaman. Votre croisière offre l'équilibre parfait entre aventure et détente."
+        }
+      }
+    },
+    "idealFor": {
+      "title": "Pour Qui une Croisière Cabine à Phuket Est Idéale",
+      "personas": {
+        "couples": {
+          "title": "Couples en Quête d'Vacances Romantiques en Voilier",
+          "description": "Une croisière cabine à Phuket est le moyen parfait de célébrer une escapade romantique. Avec des mouillages isolés, des cabines privées et des cadres intimes, les couples peuvent profiter d'une expérience unique et mémorable, loin de la foule. Que vous célébriez un anniversaire, une lune de miel ou que vous profitiez simplement de moments ensemble, une croisière cabine offre l'évasion parfaite."
+        },
+        "solo": {
+          "title": "Voyageurs Solo en Quête d'une Croisière Sociale Premium",
+          "description": "Pour les voyageurs solo, une croisière cabine offre une excellente opportunité de rencontrer des personnes partageant les mêmes intérêts tout en profitant de l'intimité de votre propre cabine. Partagez l'aventure de naviguer à travers de magnifiques destinations avec d'autres passagers, mais retrouvez votre espace privé quand vous le souhaitez. C'est la combinaison idéale de navigation sociale et de détente personnelle."
+        },
+        "friends": {
+          "title": "Amis en Quête d'une Aventure de Navigation Détendue",
+          "description": "Les amis à la recherche d'une aventure unique et détendue trouveront qu'une croisière cabine à Phuket offre le cadre parfait. Avec des cabines spacieuses, de nombreux espaces communs et une variété d'activités à bord, une croisière cabine est le moyen ultime de profiter de moments de qualité entre amis tout en explorant les îles de la mer d'Andaman."
+        }
+      }
+    },
+    "comparison": {
+      "title": "Croisière Cabine vs Charter de Yacht Privé à Phuket",
+      "subtitle": "Tout le luxe, à une fraction du coût",
+      "items": {
+        "accessible": {
+          "title": "Un Moyen Plus Accessible de Vivre la Navigation de Luxe",
+          "description": "Une croisière cabine offre une alternative abordable à la réservation d'un yacht privé, tout en proposant une expérience de luxe. Partagez le coût du voyage avec un groupe sélect de passagers, mais profitez du même confort, de la même intimité et des mêmes équipements haut de gamme. Avec des équipages professionnels et des itinéraires personnalisés, une croisière cabine offre une expérience de navigation inoubliable à une fraction du coût d'un yacht privé."
+        },
+        "shared": {
+          "title": "Coûts Partagés Sans Compromettre le Confort",
+          "description": "Lorsque vous réservez une croisière cabine, vous partagez le coût du yacht avec quelques autres passagers, ce qui signifie que vous pouvez profiter d'une expérience de luxe à un prix bien inférieur. Chaque passager dispose de sa propre cabine privée, garantissant une expérience confortable et relaxante, mais sans le prix élevé associé à la réservation d'un yacht privé entier."
+        },
+        "crew": {
+          "title": "Équipage Professionnel et Itinéraires Planifiés Inclus",
+          "description": "Chaque croisière cabine comprend un équipage complet, incluant un skipper professionnel, un chef cuisinier à bord et du personnel d'assistance, garantissant une expérience fluide du début à la fin. Avec des itinéraires pré-planifiés et flexibles, vous pouvez être assuré que chaque détail sera pris en charge, vous laissant libre de vous concentrer sur la beauté de la mer d'Andaman."
+        }
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "subtitle": "Croisières Cabine Phuket",
+      "questions": {
+        "cost": {
+          "q": "Combien coûte une croisière cabine à Phuket ?",
+          "a": "Les croisières cabine à la journée commencent à partir de 1 199 €. Les croisières cabine avec nuitée à partir de 1 500 €/nuit. Les croisières cabine multi-jours à partir de 2 500 €/nuit. Tous les prix incluent l'équipage, les repas, les activités et les équipements à bord — sans frais cachés."
+        },
+        "guests": {
+          "q": "Combien de passagers une croisière cabine peut-elle accueillir ?",
+          "a": "Nos croisières cabine offrent 3 à 4 cabines privées, accueillant jusqu'à 8 passagers pour la nuit. Pour les croisières à la journée, nous pouvons accueillir jusqu'à 10-12 passagers selon le navire. Chaque réservation est privée — vous ne partagerez pas avec des inconnus, garantissant une expérience intime."
+        },
+        "experience": {
+          "q": "Ai-je besoin d'expérience en voile pour rejoindre une croisière cabine ?",
+          "a": "Pas du tout. Chaque croisière cabine comprend un équipage professionnel, incluant un skipper licencié, un chef et du personnel d'assistance qui gèrent toute la navigation et les opérations. Vous êtes libre de participer à la navigation ou simplement de vous détendre et profiter du voyage."
+        },
+        "children": {
+          "q": "Les croisières cabine sont-elles sûres pour les enfants ?",
+          "a": "Oui — les croisières cabine sont parmi les options les plus sûres pour les familles. La conception stable à double coque garantit un mouvement minimal, parfait pour les familles avec de jeunes enfants. Des garde-corps de sécurité, des filets et des gilets de sauvetage pour tous les âges sont fournis. Notre équipage expérimenté s'assure que les enfants sont divertis et en sécurité pendant les activités nautiques."
+        },
+        "difference": {
+          "q": "Quelle est la différence entre une croisière cabine et un charter de yacht privé ?",
+          "a": "Une croisière cabine offre une expérience de navigation partagée mais luxueuse à un prix plus accessible. Vous bénéficiez du confort de cabines privées, de repas gastronomiques et d'un équipage professionnel, mais à une fraction du coût de la réservation d'un yacht privé entier. Une croisière cabine offre une expérience haut de gamme avec des coûts partagés, idéale pour les petits groupes ou les voyageurs solo recherchant le luxe sans le prix premium."
+        },
+        "islands": {
+          "q": "Quelles îles puis-je visiter lors d'une croisière cabine depuis Phuket ?",
+          "a": "Excursions à la journée : Îles Phi Phi, Îles Racha, Baie de Phang Nga, Koh Hong. Voyages multi-jours : Koh Lanta, Koh Rok, Koh Ha, Îles Similan, Koh Lipe, et plus encore. Votre itinéraire est personnalisable selon vos préférences — explorez à votre rythme !"
+        },
+        "included": {
+          "q": "Qu'est-ce qui est inclus dans le prix de la croisière cabine ?",
+          "a": "Le prix comprend : Équipage professionnel (skipper licencié, chef et personnel d'assistance), cabines privées avec salles de bains privatives, repas (petit-déjeuner, déjeuner, dîner), activités nautiques (snorkeling, paddleboard, kayak), conforts à bord (climatisation, salons confortables, etc.). Non inclus : Frais de parc national (300-400 THB par adulte par parc) et boissons alcoolisées."
+        },
+        "bestTime": {
+          "q": "Quel est le meilleur moment pour une croisière cabine à Phuket ?",
+          "a": "Le meilleur moment pour une croisière cabine à Phuket est de novembre à avril, lorsque le temps est calme et le ciel dégagé. Cette période offre les eaux les plus calmes, la meilleure visibilité et les vents les plus réguliers pour la navigation. Pour des expériences plus tranquilles et des prix plus bas, novembre et avril (mois intermédiaires) sont d'excellentes options."
+        },
+        "booking": {
+          "q": "Combien de temps à l'avance dois-je réserver une croisière cabine ?",
+          "a": "Pendant la haute saison (décembre-mars), il est recommandé de réserver au moins 2 à 4 semaines à l'avance. Pour Noël et le Nouvel An, nous suggérons de réserver 2 à 3 mois à l'avance. Pour la meilleure sélection, réserver tôt est toujours recommandé, surtout pour les croisières cabine multi-jours."
+        }
+      }
+    }
   }
 }
