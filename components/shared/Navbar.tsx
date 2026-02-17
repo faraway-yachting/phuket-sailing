@@ -86,6 +86,12 @@ export function Navbar() {
               {t('cabinCruise')}
             </LocaleLink>
             <LocaleLink
+              href="/overnight-sailing-charter"
+              className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
+            >
+              {t('overnightSailing')}
+            </LocaleLink>
+            <LocaleLink
               href="/contact"
               className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
             >
@@ -194,6 +200,13 @@ export function Navbar() {
               className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
             >
               {t('cabinCruise')}
+            </LocaleLink>
+            <LocaleLink
+              href="/overnight-sailing-charter"
+              onClick={() => setIsMenuOpen(false)}
+              className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
+            >
+              {t('overnightSailing')}
             </LocaleLink>
             <LocaleLink
               href="/contact"

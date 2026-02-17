@@ -1,11 +1,6 @@
 import Image from "next/image";
 import { ContactForm } from "@/components/features/home/ContactForm";
 
-export const metadata = {
-  title: "Contact Us | Phuket Sailing",
-  description:
-    "Get in touch with Phuket Sailing. Fill out our form to get a personalized quote for your yacht charter.",
-};
 
 export default function ContactPage() {
   return (

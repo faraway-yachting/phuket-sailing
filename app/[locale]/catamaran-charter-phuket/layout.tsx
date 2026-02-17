@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://phuket-sailing.vercel.app/catamaran-charter-phuket' },
   title: 'Catamaran Charter Phuket – Private Sailing in Comfort & Style | Phuket Sailing',
   description:
     'Experience luxury catamaran charters in Phuket. Perfect for families, groups, and special events. Explore Phi Phi Islands, Phang Nga Bay, and more with our professional crew. Day trips and overnight charters available.',
@@ -20,6 +21,12 @@ export const metadata: Metadata = {
     description: 'Experience luxury catamaran charters in Phuket. Perfect for families, groups, and special events.',
     images: ['/assets/images/catamaran-charter/hero.jpg'],
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Catamaran Charter Phuket – Private Sailing in Comfort & Style',
+    description: 'Experience luxury catamaran charters in Phuket. Perfect for families, groups, and special events.',
+    images: ['/assets/images/catamaran-charter/hero.jpg'],
   },
 }
 

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://phuket-sailing.vercel.app/luxury-yacht-charter' },
   title: 'Luxury Sailing Yacht Charter Phuket - 30 years of experience. 850+ five-star reviews.',
   description:
     'Book award winning luxury sailing yacht charter in Phuket with Phuket Sailing. Private catamarans and sailing yachts to Phi Phi Islands, Koh Rok, Phang Nga Bay and Koh Lipe. Perfect for honeymoons, couples and small groups.',
@@ -21,6 +22,12 @@ export const metadata: Metadata = {
     description: 'Book award winning luxury sailing yacht charter in Phuket with Phuket Sailing. Private catamarans and sailing yachts to Phi Phi Islands, Koh Rok, Phang Nga Bay and Koh Lipe. Perfect for honeymoons, couples and small groups.',
     images: ['/assets/images/luxury-yacht-charter/hero-luxury-charter.jpg'],
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Luxury Sailing Yacht Charter Phuket - 30 years of experience. 850+ five-star reviews.',
+    description: 'Book award winning luxury sailing yacht charter in Phuket with Phuket Sailing. Private catamarans and sailing yachts.',
+    images: ['/assets/images/luxury-yacht-charter/hero-luxury-charter.jpg'],
   },
 }
 

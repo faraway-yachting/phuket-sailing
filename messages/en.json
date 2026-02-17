@@ -15,7 +15,8 @@
     "bookNow": "Book Now",
     "contactUs": "Contact Us",
     "selectLanguage": "Select Language",
-    "cabinCruise": "Cabin Cruise"
+    "cabinCruise": "Cabin Cruise",
+    "overnightSailing": "Overnight Sailing"
   },
   "hero": {
     "title": "Phuket Sailing",
@@ -1541,6 +1542,319 @@
         "booking": {
           "q": "How far in advance should I book a cabin cruise?",
           "a": "During peak season (December–March), it's recommended to book at least 2–4 weeks in advance. For Christmas and New Year, we suggest booking 2–3 months ahead. For the best selection, booking early is always recommended, especially for multi-day cabin cruises."
+        }
+      }
+    }
+  },
+  "overnightCharter": {
+    "hero": {
+      "title": "Overnight Sailing Charter Phuket – Private Catamaran on the Andaman Sea",
+      "description": "Step aboard a private catamaran for an unforgettable overnight sailing adventure in Phuket. Explore the pristine islands of the Andaman Sea, including Phi Phi, Koh Rok, Koh Ha, and Koh Lipe, while enjoying complete comfort and privacy.",
+      "cta": "Get a Free Quote",
+      "badges": "850+ Five-Star Reviews | 30 Years on the Andaman Sea | Tourism Authority of Thailand Licensed | World Luxury Travel Awards Winner 2025"
+    },
+    "ctaBanner": {
+      "title": "Planning an overnight sailing charter in Phuket?",
+      "text": "Share your dates, group size, and wish list — we'll send a personalized itinerary and quote within 24 hours. No obligation.",
+      "cta": "Get a Free Overnight Sailing Quote",
+      "whatsapp": "WhatsApp Us Now"
+    },
+    "whatIs": {
+      "title": "What Is an Overnight Sailing Charter in Phuket?",
+      "description": "An overnight sailing charter in Phuket offers a private, luxurious sailing experience, where you can explore the breathtaking Andaman Sea at your own pace. This exclusive charter allows you to visit remote islands from Phang Nga Bay over Similan or Phi Phi islands down to the Butang islands, all while being fully catered to by a professional crew. Whether you're looking for adventure or relaxation, an overnight sailing charter gives you the freedom to experience the beauty of Phuket's waters in total comfort.",
+      "cards": {
+        "yacht": {
+          "title": "A Private Sailing Yacht or Catamaran, Fully Crewed & All-Inclusive",
+          "description": "Every overnight sailing charter includes a licensed skipper, onboard chef, and deckhand, so you can enjoy the journey without lifting a finger. All meals are prepared fresh on board, and your itinerary is customized based on your preferences. From secluded beaches to vibrant coral reefs, your experience is crafted for comfort and adventure."
+        },
+        "sunrise": {
+          "title": "A Day on the Andaman Sea — From Sunrise Anchorage to Sunset Sail",
+          "description": "Start your day with a peaceful breakfast at anchor as the sun rises over the Andaman Sea. After a refreshing swim or snorkel, you'll sail to your next destination, exploring hidden coves and private islands. With no rush or rigid schedule, the day unfolds naturally, with plenty of time to relax on deck, enjoy a private dinner under the stars, and wake up in a new, beautiful spot each morning."
+        },
+        "vsDay": {
+          "title": "Overnight Sailing vs a Standard Day Charter in Phuket",
+          "dayLabel": "Day Charter:",
+          "dayText": "Limited to a few hours of sailing, with a fixed return time.",
+          "overnightLabel": "Overnight Sailing:",
+          "overnightText": "Offers the freedom to anchor at secluded islands, experience sunset views, and wake up to the tranquility of the sea, all while enjoying the luxury of a private, all-inclusive experience."
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Why You Should Choose an Overnight Sailing Charter in Phuket?",
+      "subtitle": "An overnight sailing charter in Phuket offers you more than just beautiful scenery. It's about the pace, the space, and the authentic sailing experience that comes with being on the water. Discover the reasons why overnight sailing is the best way to explore Phuket's islands.",
+      "benefits": {
+        "remoteIslands": {
+          "title": "Islands and Anchorages That Day Trips Never Reach",
+          "description": "Overnight charters let you visit hidden islands like Koh Rok, Koh Ha, and the Butang Islands, where day trips can't venture. These islands offer crystal-clear waters, vibrant coral reefs, and secluded beaches where you can escape the crowds and enjoy private time with loved ones."
+        },
+        "freedom": {
+          "title": "The Pace of Real Sailing — No Rush, No Schedules",
+          "description": "Unlike traditional tours, an overnight sailing charter gives you the flexibility to explore at your own pace. Spend more time at each stop, whether you're swimming, snorkeling, kayaking, or simply relaxing on deck. The beauty of overnight sailing is that there's no need to rush."
+        },
+        "crowds": {
+          "title": "Ahead of the Crowds, Every Morning",
+          "description": "By staying overnight, you get to enjoy the islands before the crowds arrive. Wake up early to experience Phi Phi and Koh Hong in their most peaceful state, with no tourists around. These early mornings offer an exclusive, serene experience that day-trippers simply can't access."
+        }
+      }
+    },
+    "routes": {
+      "title": "Overnight Sailing Routes & Itineraries from Phuket",
+      "subtitle": "Choose from a variety of itineraries designed to suit your available time and preferences. Whether you're looking for a short escape or an extensive exploration, our overnight sailing charters offer something for everyone.",
+      "recommended": "Recommended",
+      "items": {
+        "oneTwo": {
+          "title": "1–2 Night Overnight Sailing Charter Phuket",
+          "description": "For those with limited time, this itinerary is perfect. Explore Phi Phi Islands and Racha Islands, where you'll enjoy the best of Phuket's waters in just a couple of days. It's a great option for first-time sailors or travelers who want a quick getaway.",
+          "guests": "2–4 guests",
+          "ideal": "Ideal for short getaways or first-time sailors",
+          "price": "From €1,000/night"
+        },
+        "threeFour": {
+          "title": "3–4 Night Sailing Charter Phuket",
+          "description": "A 3–4 night charter gives you more time to explore Phi Phi, Koh Lanta, and Koh Muk. This itinerary offers a balanced mix of adventure and relaxation, perfect for families and small groups.",
+          "guests": "4–6 guests",
+          "ideal": "Excellent for families and small groups",
+          "price": "From €1,500/night"
+        },
+        "five": {
+          "title": "5 Night Overnight Sailing Phuket",
+          "description": "The 5-night charter is our most recommended option, as it provides ample time to visit Koh Rok, Koh Ha, and other remote islands. This is the best value for those looking to experience a deeper exploration of the Andaman Sea.",
+          "guests": "4–8 guests",
+          "ideal": "Best value for a comprehensive Phuket sailing experience",
+          "price": "From €1,800/night"
+        },
+        "sevenPlus": {
+          "title": "7+ Night Sailing Expedition — Similan Islands & Koh Lipe",
+          "description": "For the ultimate adventure, a 7+ night sailing expedition takes you to the Similan Islands, Koh Lipe, and the Butang Archipelago. These islands are perfect for experienced sailors and adventurous travelers seeking off-the-beaten-path destinations.",
+          "guests": "6–12 guests",
+          "ideal": "Ideal for seasoned sailors and explorers",
+          "price": "From €2,500/night"
+        }
+      }
+    },
+    "destinations": {
+      "title": "Island Destinations on an Overnight Sailing Charter in Phuket",
+      "subtitle": "Each destination on your charter offers something unique. Whether you're looking for vibrant reefs, remote beaches, or calm lagoons, these islands will take your breath away.",
+      "items": {
+        "phiPhi": {
+          "title": "Phi Phi Islands & Maya Bay",
+          "subtitle": "Overnight Sailing from Phuket",
+          "description": "Phi Phi Islands are famous for their towering limestone cliffs and vibrant coral reefs. Spend the night at anchor in Maya Bay and wake up to its serene beauty before the day-trip crowds arrive.",
+          "price": "From €1,000/night",
+          "detail": "Day trip or overnight"
+        },
+        "phangNga": {
+          "title": "Phang Nga Bay & Koh Hong",
+          "subtitle": "Limestone Caves & Hidden Lagoons",
+          "description": "Phang Nga Bay is home to James Bond Island and many other limestone formations. Explore the caves and lagoons of Koh Hong by kayak and discover hidden spots that few tourists ever get to see.",
+          "price": "From €1,000/night",
+          "detail": "3–4 hours from Phuket"
+        },
+        "kohRok": {
+          "title": "Koh Rok & Koh Ha",
+          "subtitle": "Hidden Gems of the Andaman Sea",
+          "description": "Known for their stunning coral reefs and crystal-clear waters, Koh Rok and Koh Ha are ideal for those looking for a peaceful getaway. These islands offer secluded beaches and vibrant marine life, perfect for snorkeling and diving.",
+          "price": "From €1,200/night",
+          "detail": "4+ nights from Phuket"
+        },
+        "kohLipe": {
+          "title": "Koh Lipe & the Butang Islands",
+          "subtitle": "Remote Southern Thailand Sailing",
+          "description": "Located near the Malaysian border, Koh Lipe and the Butang Islands offer untouched beauty and seclusion. These islands are perfect for a longer, more adventurous journey.",
+          "price": "From €1,200/night",
+          "detail": "7+ nights for the full experience"
+        },
+        "racha": {
+          "title": "Racha Islands & Coral Island",
+          "subtitle": "Overnight Sailing Close to Phuket",
+          "description": "If you're looking for a quick escape close to Phuket, the Racha Islands offer crystal-clear waters and beautiful beaches, perfect for 1–2 night charters.",
+          "price": "From €1,200/night",
+          "detail": "1–3 hours from Phuket"
+        },
+        "similan": {
+          "title": "Bamboo Island & Similan Islands",
+          "subtitle": "Diver's Paradise by Sail",
+          "description": "For divers, the Similan Islands and Bamboo Island are must-visit destinations, offering world-class diving experiences. These islands are perfect for longer charters, where you can explore some of Thailand's most vibrant underwater ecosystems.",
+          "price": "From €1,500/night",
+          "detail": "3+ night charter for diving enthusiasts"
+        }
+      }
+    },
+    "fleet": {
+      "title": "Sailing Catamarans for Overnight Charter in Phuket",
+      "subtitle": "Our fleet of catamarans offers comfort, stability, and eco-efficiency. Whether you're seeking a private getaway or an adventure with friends, our vessels are designed to provide the best experience at sea.",
+      "benefit1": {
+        "title": "Purpose-Built Sailing Catamarans — Space, Stability & Comfort",
+        "description": "Catamarans are perfect for overnight sailing thanks to their wide decks, stability, and shallow draft, which allows access to hidden lagoons and coves that larger boats can't reach. They are eco-friendly, providing efficient fuel use for longer trips."
+      },
+      "benefit2": {
+        "title": "Private Cabins, Ensuite Bathrooms & Quality Onboard Amenities",
+        "description": "Our catamarans come equipped with private cabins, ensuite bathrooms, and spacious living areas. You'll enjoy plenty of space to relax, and the onboard amenities ensure maximum comfort while you explore Phuket's islands."
+      },
+      "fleetTitle": "Fleet Options from Mid-Range to Luxury Overnight Sailing",
+      "vessels": {
+        "hotChilli": {
+          "name": "Hot Chilli",
+          "description": "A budget-friendly option ideal for couples or small groups. Comfortable and modern, perfect for short getaways.",
+          "price": "Starting from €1,000/night"
+        },
+        "amadeus": {
+          "name": "Amadeus",
+          "description": "A mid-range catamaran that strikes the perfect balance between luxury and comfort, ideal for families and small groups.",
+          "price": "Starting from €1,500/night"
+        },
+        "nauti": {
+          "name": "Nauti by Nature",
+          "tag": "LUXURY",
+          "description": "A luxury catamaran for those seeking an elevated experience, offering premium amenities and spacious living areas.",
+          "price": "Starting from €2,500/night"
+        }
+      },
+      "viewFleet": "View Full Fleet"
+    },
+    "included": {
+      "title": "What's Included in an Overnight Sailing Charter in Phuket",
+      "subtitle": "Every charter is fully crewed and all-inclusive, ensuring you have everything you need for a relaxing and unforgettable adventure.",
+      "crew": {
+        "title": "Crew, Chef & Professional Captain Throughout",
+        "description": "Your charter includes a licensed skipper, an onboard chef, and a deckhand, all with extensive local knowledge of the Andaman Sea. You don't need to worry about anything other than enjoying your trip."
+      },
+      "activities": {
+        "title": "All Meals, Snorkeling Gear & Water Activities",
+        "description": "Enjoy freshly prepared meals on board, including Thai delicacies and international options. We also provide snorkeling gear, kayaks, paddleboards, and more for water-based fun."
+      },
+      "extra": {
+        "title": "What's Typically Extra on Overnight Sailing Charters",
+        "description": "The only additional costs are national park fees, which are typically around 300-400 THB per person, and alcoholic beverages. Everything else is included in your pricing, with no hidden fees."
+      }
+    },
+    "occasions": {
+      "title": "Overnight Sailing in Phuket for Couples & Honeymoons",
+      "honeymoon": {
+        "title": "A Honeymoon Sailing Charter in Phuket — Unlike Any Resort Experience",
+        "description": "Nothing compares to spending your honeymoon on a private catamaran in the Andaman Sea. Enjoy private dinners, sunset sails, and secluded beaches, all while being pampered by your professional crew."
+      },
+      "sunset": {
+        "title": "Sunset Sailing, Private Dinners & Quiet Anchorages",
+        "description": "Imagine enjoying a candlelit dinner on deck, watching the sun set over the ocean, and then stargazing under the clear sky. These intimate moments make your honeymoon or special occasion unforgettable."
+      },
+      "proposals": {
+        "title": "Proposals, Anniversaries & Romantic Escapes by Sail",
+        "description": "Our team can help you create the perfect setting for proposals, anniversaries, or romantic escapes. From private flowers to custom cakes and champagne service, we'll make your special occasion truly memorable."
+      }
+    },
+    "travelers": {
+      "title": "Overnight Sailing Charter Phuket — Ideal for Solo Travelers, Adventurers, and Travel Groups",
+      "subtitle": "Whether you're traveling solo to explore the beauty of Phuket or seeking an adventurous group experience, an overnight sailing charter Phuket offers the flexibility and excitement you crave. Here's why our charters cater to all types of travelers:",
+      "items": {
+        "solo": {
+          "title": "Solo Travelers — Freedom and Exploration",
+          "description": "For solo adventurers, an overnight sailing charter offers the freedom to explore at your own pace. Enjoy secluded beaches, vibrant coral reefs, and peaceful moments at sea. The crew ensures everything is taken care of while you focus on your journey."
+        },
+        "adventure": {
+          "title": "Adventurers — Off-the-Beaten-Path Islands Await",
+          "description": "An overnight sailing charter lets you visit remote islands like Similan Islands and Koh Rok, which larger boats can't access. Dive into crystal-clear waters and explore untouched coves. The Andaman Sea offers endless adventure and exploration."
+        },
+        "groups": {
+          "title": "Travel Groups — A Unique Shared Experience",
+          "description": "For travel groups, an overnight sailing charter offers spacious, comfortable yachts ideal for shared experiences. Whether it's a special occasion or a getaway, your group can enjoy each other's company in a relaxed, private setting. The crew takes care of all the details, ensuring a memorable experience for all."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Overnight Sailing Charter Phuket — Pricing & How to Book",
+      "costTitle": "How Much Does Overnight Sailing Cost in Phuket?",
+      "costDescription": "The cost of an overnight sailing charter in Phuket varies depending on the vessel type, duration, and season. Here are our pricing tiers for a private, fully crewed sailing experience:",
+      "tiers": {
+        "budget": {
+          "label": "BUDGET",
+          "name": "Hot Chilli",
+          "price": "€1,000",
+          "per": "per night",
+          "description": "Ideal for couples or small groups seeking a comfortable, affordable option."
+        },
+        "mid": {
+          "label": "MID-TIER",
+          "name": "Mid-Tier Catamarans",
+          "price": "€1,500",
+          "per": "per night",
+          "description": "Perfect for families or small groups, offering a balance of luxury and value."
+        },
+        "luxury": {
+          "label": "LUXURY",
+          "name": "Luxury Catamarans",
+          "price": "€2,500+",
+          "per": "per night",
+          "description": "For those seeking the ultimate experience with premium amenities and bespoke services."
+        }
+      },
+      "allIncluded": "All prices include the crew, meals, snorkeling gear, water activities, and fuel. National park fees and alcoholic beverages are additional costs.",
+      "bestTimeTitle": "When Is the Best Time for Overnight Sailing in Phuket?",
+      "bestTimeText": "The best time for an overnight sailing charter in Phuket is between November and April. This period offers calm seas, clear skies, and steady winds, making it ideal for sailing. December to March is the peak season, so booking early is highly recommended during these months. For lower prices and quieter waters, consider sailing in the shoulder months of November and April.",
+      "bookTitle": "How to Book Your Overnight Sailing Charter in Phuket",
+      "bookDescription": "Booking your overnight sailing charter is simple. Follow these four easy steps:",
+      "steps": {
+        "s1": { "title": "Select Your Vessel & Itinerary", "description": "Choose from our selection of budget, mid-tier, or luxury vessels. Let us know your preferred sailing dates and destinations, such as Phi Phi, Koh Lipe, or the Similan Islands." },
+        "s2": { "title": "Personalized Quote & Itinerary", "description": "Receive a customized quote and itinerary tailored to your group size and preferences. We'll work with you to create the perfect sailing experience." },
+        "s3": { "title": "Confirm Your Booking", "description": "Once you've reviewed your itinerary and pricing, confirm your booking by signing the contract and securing your deposit. Your captain, chef, and deckhand will be ready to welcome you aboard." },
+        "s4": { "title": "Embark on Your Sailing Adventure", "description": "After confirmation, we'll send you all the details for your sailing trip. On the day of your departure, your crew will ensure everything is ready for a smooth, relaxing journey." }
+      }
+    },
+    "trustCta": {
+      "badges": {
+        "b1": "30 years of sailing expertise in the Andaman Sea",
+        "b2": "850+ five-star reviews from happy customers worldwide",
+        "b3": "Tourism Authority of Thailand licensed",
+        "b4": "World Luxury Travel Awards 2025 Winner for excellence in luxury sailing experiences"
+      },
+      "title": "Ready to Experience the Andaman Sea?",
+      "description": "Get your personalized overnight sailing quote today and start planning the adventure of a lifetime.",
+      "cta": "Get Your Free Quote",
+      "whatsapp": "WhatsApp: +66 61 234 5623"
+    },
+    "faq": {
+      "title": "FAQs — Overnight Sailing Charter Phuket",
+      "questions": {
+        "cost": {
+          "q": "How much does an overnight sailing charter cost in Phuket?",
+          "a": "Overnight sailing charters in Phuket start at €1,000 per night for a mid-range catamaran. Luxury catamarans and yachts range from €2,500 to €5,000 per night, depending on the vessel size and amenities. Prices typically include crew, meals, water activities, and fuel."
+        },
+        "islands": {
+          "q": "What islands can I visit on an overnight sailing charter from Phuket?",
+          "a": "You can visit some of the most beautiful islands in Thailand, including Phi Phi Islands, Koh Lanta, Koh Rok, Koh Ha, Koh Lipe, and the Similan Islands. These destinations offer stunning beaches, vibrant coral reefs, and serene anchorages, all easily accessible on an overnight sailing charter."
+        },
+        "nights": {
+          "q": "How many nights do you recommend for overnight sailing in Phuket?",
+          "a": "A 3–4 night charter is ideal for a comprehensive experience, allowing you to explore multiple islands, including Phi Phi, Koh Lanta, and Koh Rok. If you're short on time, a 1–2 night charter is great for a quick getaway, while a 5-night or longer charter is perfect for a deeper exploration of remote islands like Koh Lipe and the Similan Islands."
+        },
+        "included": {
+          "q": "What is included in an overnight sailing charter in Phuket?",
+          "a": "An overnight sailing charter includes a licensed skipper, chef, and deckhand. All meals, snorkeling gear, kayaks, and paddleboards are provided. Prices also cover fuel, mooring, and accident insurance, ensuring a stress-free sailing experience. National park fees and alcoholic beverages are typically extra."
+        },
+        "honeymoon": {
+          "q": "Is overnight sailing in Phuket good for a honeymoon?",
+          "a": "Yes, overnight sailing in Phuket is an excellent choice for honeymooners. It offers privacy, romantic sunsets, and secluded anchorages. You can enjoy private dinners on deck, sunrise views, and intimate moments, making it a memorable and unique experience compared to traditional resorts."
+        },
+        "typicalDay": {
+          "q": "What is a typical day like on an overnight sailing charter in Phuket?",
+          "a": "A typical day starts with a relaxing breakfast at anchor, followed by sailing to your next destination. You'll have time for snorkeling, swimming, and exploring remote beaches. As the day ends, enjoy a candlelit dinner while watching the sunset, followed by a peaceful night at anchor, and waking up to a new, serene location."
+        },
+        "safety": {
+          "q": "Is overnight sailing in Phuket safe?",
+          "a": "Yes, overnight sailing in Phuket is very safe. The catamarans we use are stable, and licensed captains are experienced in navigating the Andaman Sea. We also provide safety equipment and ensure your journey is comfortable and secure, with a crew that can handle any situation."
+        },
+        "vsCabin": {
+          "q": "What is the difference between an overnight sailing charter and a cabin cruise in Phuket?",
+          "a": "An overnight sailing charter provides a private, customizable experience with a crew dedicated solely to you and your group. In contrast, a cabin cruise typically involves shared accommodations with other guests and a fixed itinerary. With an overnight sailing charter, you enjoy more flexibility, privacy, and a tailored experience."
+        },
+        "similan": {
+          "q": "Can I reach the Similan Islands on an overnight sailing charter from Phuket?",
+          "a": "Yes, the Similan Islands are accessible on 5+ night sailing charters from Phuket. These islands are renowned for their diving and snorkeling opportunities, featuring vibrant coral reefs and clear waters. Longer charters allow you to explore these remote, protected areas and enjoy their pristine beauty."
+        },
+        "food": {
+          "q": "What food is served on overnight sailing charters in Phuket?",
+          "a": "On an overnight sailing charter, meals are freshly prepared by your onboard chef. Expect authentic Thai dishes like pad thai, green curry, and tom yum soup, along with fresh seafood and tropical fruits. Special dietary requests, such as vegetarian, vegan, or gluten-free options, are also accommodated."
         }
       }
     }

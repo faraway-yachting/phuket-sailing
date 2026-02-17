@@ -16,10 +16,10 @@ export function FeaturedYachts() {
   const [hasMore, setHasMore] = useState(true)
 
   useEffect(() => {
-    fetchAllYachts(1, 3)
+    fetchAllYachts(1, 9)
       .then(data => {
         if (data.yachts.length > 0) setYachts(data.yachts)
-        if (data.total <= 3) setHasMore(false)
+        if (data.total <= 9) setHasMore(false)
       })
       .catch(() => setHasMore(false))
       .finally(() => setLoading(false))
@@ -58,7 +58,7 @@ export function FeaturedYachts() {
         {/* Loading Skeleton */}
         {loading && (
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
-            {[1, 2, 3].map(i => (
+            {Array.from({ length: 9 }, (_, i) => i + 1).map(i => (
               <div key={i} className="bg-white rounded-3xl overflow-hidden shadow-lg animate-pulse">
                 <div className="h-64 sm:h-72 bg-gray-200 rounded-t-3xl" />
                 <div className="p-5 space-y-3">

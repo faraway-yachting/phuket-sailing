@@ -81,7 +81,7 @@ function HeroSection() {
   const { t } = useLanguage()
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden">
       <Image
         src="/assets/images/luxury-yacht-charter/hero-luxury-charter.jpg"
         alt="Luxury sailing catamaran on the turquoise Andaman Sea near Phuket"
@@ -89,17 +89,17 @@ function HeroSection() {
         priority
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-br from-[#164e63]/80 via-[#0f3a47]/70 to-[#0a2a35]/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#164e63]/40 via-[#164e63]/25 to-[#164e63]/50" />
 
-      <div className="relative z-10 mx-auto max-w-5xl px-4 py-20 sm:py-24 md:py-32 text-center">
-        <h1 className="font-serif text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl text-balance" style={{ fontFamily: "var(--font-playfair)" }}>
+      <div className="relative z-10 mx-auto max-w-5xl px-4 pb-12 pt-32 sm:pb-16 sm:pt-40 md:pb-20 md:pt-48 text-center">
+        <h1 className="font-serif text-2xl font-bold leading-tight tracking-tight text-white sm:text-3xl md:text-4xl lg:text-5xl text-balance" style={{ fontFamily: "var(--font-playfair)", textShadow: '2px 2px 10px rgba(0,0,0,0.6), 0 0 20px rgba(0,0,0,0.4)' }}>
           {t('luxuryYachtCharter.hero.title')}
         </h1>
-        <p className="mx-auto mt-2 text-lg text-white md:text-xl">
+        <p className="mx-auto mt-2 text-xl text-white md:text-2xl" style={{ textShadow: '1px 1px 6px rgba(0,0,0,0.6)' }}>
           {t('luxuryYachtCharter.hero.subtitle')}
         </p>
 
-        <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-white/90 md:text-xl">
+        <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-white md:text-xl" style={{ textShadow: '1px 1px 6px rgba(0,0,0,0.6)' }}>
           {t('luxuryYachtCharter.hero.description')}
         </p>
 

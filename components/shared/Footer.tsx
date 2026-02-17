@@ -74,6 +74,12 @@ export function Footer() {
                 </LocaleLink>
               </li>
               <li>
+                <LocaleLink href="/overnight-sailing-charter" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                  <span className="text-[#14b8a6]">›</span>
+                  {t('footer.overnightSailing')}
+                </LocaleLink>
+              </li>
+              <li>
                 <LocaleLink href="/contact" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
                   {t('footer.contactUs')}
@@ -103,6 +109,12 @@ export function Footer() {
                 <LocaleLink href="/cabin-cruise-phuket" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
                   {t('footer.cabinCruise')}
+                </LocaleLink>
+              </li>
+              <li>
+                <LocaleLink href="/overnight-sailing-charter" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                  <span className="text-[#14b8a6]">›</span>
+                  {t('footer.overnightSailing')}
                 </LocaleLink>
               </li>
               <li>

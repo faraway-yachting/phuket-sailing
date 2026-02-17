@@ -4,7 +4,7 @@ import { usePathname, useParams } from 'next/navigation'
 import { locales, defaultLocale, localeHtmlLang, type Locale } from '@/lib/i18n'
 import { reverseTranslatePath, translatePath } from '@/lib/slugTranslations'
 
-const SITE_URL = 'https://phuket-sailing.com'
+const SITE_URL = 'https://phuket-sailing.vercel.app'
 
 export function HreflangTags() {
   const pathname = usePathname()

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://phuket-sailing.vercel.app/cabin-cruise-phuket' },
   title: 'Cabin Cruise Phuket | 5-Star | 850+ Reviews',
   description:
     'Enjoy the ultimate adventure with a Cabin Cruise Phuket. Sail through Phi Phi, Phang Nga Bay, and more in comfort with private cabins and personalized service.',
@@ -19,8 +20,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Cabin Cruise Phuket | 5-Star | 850+ Reviews',
     description: 'Enjoy the ultimate adventure with a Cabin Cruise Phuket. Sail through Phi Phi, Phang Nga Bay, and more in comfort with private cabins and personalized service.',
-    images: ['/assets/images/cabin-cruise-phuket/cabin-cruise-hero.jpg'],
+    images: ['/assets/images/cabin-cruise-phuket/cabin-cruise-hero.avif'],
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cabin Cruise Phuket | 5-Star | 850+ Reviews',
+    description: 'Enjoy the ultimate adventure with a Cabin Cruise Phuket. Sail through Phi Phi, Phang Nga Bay, and more.',
+    images: ['/assets/images/cabin-cruise-phuket/cabin-cruise-hero.avif'],
   },
 }
 
