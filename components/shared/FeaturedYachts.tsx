@@ -42,7 +42,7 @@ export function FeaturedYachts() {
   }
 
   return (
-    <section className="py-10 sm:py-14 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-10 sm:py-14 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
@@ -96,6 +96,7 @@ export function FeaturedYachts() {
                   src={yacht.primaryImage}
                   alt={yacht.title}
                   fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
 
@@ -112,8 +113,8 @@ export function FeaturedYachts() {
                   {yacht.title}
                 </h3>
 
-                {/* First Line - With Skipper, Cabins, Bathrooms */}
-                <div className="flex items-center justify-center gap-1 mb-2 text-[13px] text-gray-700">
+                    {/* First Line - With Skipper, Cabins, Bathrooms */}
+                    <div className="flex items-center justify-center gap-1 mb-2 text-[12px] sm:text-[13px] text-gray-700 flex-wrap">
                   <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -136,7 +137,7 @@ export function FeaturedYachts() {
                   <span>{yacht.bathrooms} {t('featuredYachts.bathrooms')}</span>
                 </div>
 
-                <div className="flex items-center justify-center gap-1 mb-4 text-[13px] text-gray-600">
+                    <div className="flex items-center justify-center gap-1 mb-4 text-[12px] sm:text-[13px] text-gray-600 flex-wrap">
                   <svg className="w-[18px] h-[18px] text-[#14b8a6] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
                   </svg>

@@ -73,18 +73,24 @@ export function Footer() {
                   {t('footer.cabinCruise')}
                 </LocaleLink>
               </li>
-              <li>
-                <LocaleLink href="/overnight-sailing-charter" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
-                  <span className="text-[#14b8a6]">›</span>
-                  {t('footer.overnightSailing')}
-                </LocaleLink>
-              </li>
-              <li>
-                <LocaleLink href="/contact" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
-                  <span className="text-[#14b8a6]">›</span>
-                  {t('footer.contactUs')}
-                </LocaleLink>
-              </li>
+                  <li>
+                    <LocaleLink href="/overnight-sailing-charter" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                      <span className="text-[#14b8a6]">›</span>
+                      {t('footer.overnightSailing')}
+                    </LocaleLink>
+                  </li>
+                  <li>
+                    <LocaleLink href="/bareboat-sailing-phuket" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                      <span className="text-[#14b8a6]">›</span>
+                      {t('footer.bareboatSailing') || 'Bareboat Sailing'}
+                    </LocaleLink>
+                  </li>
+                  <li>
+                    <LocaleLink href="/contact" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                      <span className="text-[#14b8a6]">›</span>
+                      {t('footer.contactUs')}
+                    </LocaleLink>
+                  </li>
             </ul>
           </div>
 
@@ -111,18 +117,24 @@ export function Footer() {
                   {t('footer.cabinCruise')}
                 </LocaleLink>
               </li>
-              <li>
-                <LocaleLink href="/overnight-sailing-charter" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
-                  <span className="text-[#14b8a6]">›</span>
-                  {t('footer.overnightSailing')}
-                </LocaleLink>
-              </li>
-              <li>
-                <LocaleLink href="/terms-and-conditions" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
-                  <span className="text-[#14b8a6]">›</span>
-                  {t('footer.termsAndConditions')}
-                </LocaleLink>
-              </li>
+                  <li>
+                    <LocaleLink href="/overnight-sailing-charter" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                      <span className="text-[#14b8a6]">›</span>
+                      {t('footer.overnightSailing')}
+                    </LocaleLink>
+                  </li>
+                  <li>
+                    <LocaleLink href="/bareboat-sailing-phuket" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                      <span className="text-[#14b8a6]">›</span>
+                      {t('footer.bareboatSailing') || 'Bareboat Sailing'}
+                    </LocaleLink>
+                  </li>
+                  <li>
+                    <LocaleLink href="/terms-and-conditions" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                      <span className="text-[#14b8a6]">›</span>
+                      {t('footer.termsAndConditions')}
+                    </LocaleLink>
+                  </li>
             </ul>
           </div>
 

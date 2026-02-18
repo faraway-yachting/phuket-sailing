@@ -16,7 +16,8 @@
     "contactUs": "Contact Us",
     "selectLanguage": "Select Language",
     "cabinCruise": "Cabin Cruise",
-    "overnightSailing": "Overnight Sailing"
+    "overnightSailing": "Overnight Sailing",
+    "bareboatSailing": "Bareboat Sailing"
   },
   "hero": {
     "title": "Phuket Sailing",
@@ -1731,6 +1732,7 @@
     },
     "occasions": {
       "title": "Overnight Sailing in Phuket for Couples & Honeymoons",
+      "description": "An overnight sailing charter in Phuket is the perfect romantic getaway, offering privacy, adventure, and luxury all in one.",
       "honeymoon": {
         "title": "A Honeymoon Sailing Charter in Phuket — Unlike Any Resort Experience",
         "description": "Nothing compares to spending your honeymoon on a private catamaran in the Andaman Sea. Enjoy private dinners, sunset sails, and secluded beaches, all while being pampered by your professional crew."
@@ -1857,6 +1859,252 @@
           "a": "On an overnight sailing charter, meals are freshly prepared by your onboard chef. Expect authentic Thai dishes like pad thai, green curry, and tom yum soup, along with fresh seafood and tropical fruits. Special dietary requests, such as vegetarian, vegan, or gluten-free options, are also accommodated."
         }
       }
+    }
+  },
+  "bareboatSailing": {
+    "hero": {
+      "subtitle": "Independent Sailing Adventures",
+      "title": "Bareboat Sailing Phuket — Sail Your Own Yacht on the Andaman Sea",
+      "tagline": "",
+      "description": "From hidden lagoons to the expansive Andaman Sea, Bareboat Sailing Phuket lets you navigate Thailand's stunning coastline at your own pace, with endless opportunities for exploration.",
+      "ctaQuote": "Get a Free Bareboat Quote",
+      "ctaWhatsApp": "WhatsApp Us Now"
+    },
+    "ctaBlock": {
+      "label": "Start Your Dream Bareboat Adventure",
+      "title": "Planning a bareboat sailing trip in Phuket?",
+      "description": "Share your dates, group size, and preferences — we'll send a personalized itinerary and quote within 24 hours.",
+      "ctaQuote": "Get a Free Bareboat Quote",
+      "ctaWhatsApp": "WhatsApp Us Now"
+    },
+    "whyPhuket": {
+      "label": "Why Phuket",
+      "title": "Why Phuket Is One of the Best Destinations for Bareboat Sailing",
+      "description": "Phuket is famous for its stunning coastline, tranquil seas, and favorable sailing conditions, making it one of the best places for independent sailing. From hidden lagoons to majestic limestone islands, the Andaman Sea offers unparalleled beauty and adventure for sailors looking for a more authentic experience.",
+      "cards": {
+        "islands": {
+          "title": "An Island Labyrinth at the Right Scale for Independent Bareboat Sailing",
+          "desc": "Phuket is surrounded by 6 breathtaking islands that can be reached within 15 hours of sailing at 7 knots, each more stunning than the last. With manageable distances between anchorages, it's the perfect location for those seeking a true sailing expedition. From the Phi Phi Islands to the isolated Koh Rok, you'll always find a new adventure just over the horizon."
+        },
+        "anchorages": {
+          "title": "Anchorages That Tour Boats Never Reach",
+          "desc": "Unlike tour boats, bareboat catamaran sailing Phuket offers the freedom to discover Phuket's most secluded anchorages. Shallow-draft yachts allow access to hidden lagoons and quiet coves, where you can swim and relax in peace — far from the crowds. Bareboat sailing in Thailand offers an intimacy with the islands that guided tours simply can't provide."
+        },
+        "realSailing": {
+          "title": "Real Sailing — Wind, Swell, and the Skills That Matter Here",
+          "desc": "With consistent seasonal winds and varied sea states, the Andaman Sea bareboat sailing offers a genuine sailing challenge. Whether you're navigating the tidal channels of Phang Nga Bay or cruising across the open water to Koh Lipe sailing bareboat, you'll put your sailing skills to the test in some of the world's most beautiful waters."
+        }
+      }
+    },
+    "routes": {
+      "label": "Sailing Routes",
+      "title": "Bareboat Sailing Routes from Phuket — By Duration",
+      "subtitle": "Whether you have a long weekend or two weeks, we have the perfect itinerary for your bareboat adventure.",
+      "items": {
+        "short": {
+          "title": "Phang Nga Bay and the Racha Islands",
+          "desc": "Ideal for first-time sailors or those with limited time, this route includes calm waters, scenic limestone karsts, and beautiful anchorages like Phang Nga Bay. Sail through traditional fishing villages and enjoy peaceful evenings on your private yacht."
+        },
+        "medium": {
+          "title": "Phi Phi Islands, Koh Lanta, and Koh Rok",
+          "desc": "A longer journey to explore the renowned Phi Phi Islands, known for their crystal-clear waters and dramatic cliffs. Heading south, you'll find the tranquil islands of Koh Lanta and Koh Rok, with endless snorkeling and pristine beaches."
+        },
+        "long": {
+          "title": "Similan Islands North or Butang Archipelago South",
+          "desc": "For the adventurous sailor, embark on a multi-week journey to the Similan Islands, famous for their world-class diving spots, or head south to explore the remote Butang Islands near Malaysia. Perfect for those seeking a deeper exploration of the Andaman Sea."
+        }
+      }
+    },
+    "conditions": {
+      "label": "Sailing Conditions",
+      "title": "Bareboat Sailing Conditions in Phuket — Season, Wind and Sea State by Month",
+      "high": {
+        "months": "November — April",
+        "title": "High Season Sailing in Phuket— November to April on the Andaman Sea",
+        "desc": "During the dry season, the Andaman Sea offers the best sailing conditions with clear skies, steady trade winds, and calm waters. This is peak season, and while the islands are more popular, it's also the best time for smooth, enjoyable sailing."
+      },
+      "low": {
+        "months": "May — October",
+        "title": "Low Season Sailing in Phuket— May to October and What It Offers Experienced Sailors",
+        "desc": "The low season brings stronger winds, occasional squalls, and fewer tourists. While conditions may be more challenging, the empty anchorages and reduced fleet costs offer experienced sailors an opportunity to explore remote islands and enjoy true solitude on the water."
+      },
+      "navigation": {
+        "badge": "Navigation",
+        "title": "Passage Planning, Tides, and Local Navigation Notes",
+        "desc": "When sailing in Phuket, understanding the tides and currents is crucial. Phang Nga Bay's tidal channels, for example, can be tricky to navigate, but with the right preparation, they offer some of the most rewarding cruising experiences."
+      }
+    },
+    "vesselComparison": {
+      "label": "Vessel Comparison",
+      "title": "Catamaran Sailing vs Monohull Sailing in Phuket",
+      "catamaran": {
+        "name": "Catamaran",
+        "title": "Catamaran Sailing in Phuket — Shallow Draft, Stability, and the Liveaboard Life",
+        "desc": "Catamarans are the ideal choice for sailing in Phuket. Their shallow draft allows you to reach secluded beaches, and their stability ensures a smooth sailing experience, perfect for families and those who prefer comfort without sacrificing performance."
+      },
+      "monohull": {
+        "name": "Monohull",
+        "title": "Monohull Sailing in Phuket — Classic Feel in World-Class Waters",
+        "desc": "For those seeking a traditional sailing experience, monohulls offer a more agile sailing experience. They provide excellent upwind performance and are perfect for more experienced sailors looking to embrace the true art of sailing."
+      },
+      "whichHull": {
+        "title": "Which Hull Makes More Sense for Bareboating in Andaman Sea?",
+        "catamaran": "Offers stability and comfort with more space.",
+        "monohull": "Provides classic sailing with better upwind performance. Monohulls are generally cheaper to charter than catamarans.",
+        "choiceLabel": "Your Choice",
+        "choiceDesc": "Choosing the right vessel depends on your sailing style, group size, and experience."
+      }
+    },
+    "fleet": {
+      "label": "Our Fleet",
+      "title": "The Bareboat Sailing Fleet Available in Phuket",
+      "heroCaption": "Our fleet of catamarans and monohulls is designed for those who want to enjoy the Andaman Sea in comfort.",
+      "guests": "guests",
+      "from": "From",
+      "week": "week",
+      "viewDetails": "View Details",
+      "catamarans": {
+        "heading": "Bareboat Catamarans",
+        "models": "Lagoon 42, Lagoon 45 and Fountaine Pajot 47",
+        "desc": "Our fleet of catamarans is designed for those who want to enjoy the Andaman Sea in comfort. With large decks, spacious cabins, and shallow drafts, these yachts provide the perfect base for your sailing adventure."
+      },
+      "monohulls": {
+        "heading": "Bareboat Monohull Sailing Yachts",
+        "models": "Bavaria 33, 34, 39 and 45",
+        "desc": "For a classic sailing experience, our monohulls are the perfect choice. Offering agile handling and a more traditional sailing feel, these vessels are ideal for those who want a challenge on the water."
+      },
+      "choosing": {
+        "title": "Choosing Your Yacht for Bareboat Sailing in Phuket",
+        "subtitle": "Selecting the right yacht is crucial for a successful bareboat experience.",
+        "groupSize": {
+          "label": "Group Size",
+          "desc": "Smaller yachts for couples or friends, larger catamarans for families."
+        },
+        "sailingStyle": {
+          "label": "Sailing Style",
+          "desc": "Catamarans for stability and space, monohulls for performance."
+        },
+        "budget": {
+          "label": "Budget",
+          "desc": "Choose based on your needs, from practical to premium options."
+        },
+        "cta": "Get in touch to check availability and dates."
+      }
+    },
+    "included": {
+      "label": "Charter Details",
+      "title": "What's Included in Bareboat Sailing in Phuket — and What's Extra",
+      "whatsIncluded": {
+        "title": "What's Included in Your Bareboat Sailing Trip",
+        "desc": "Your bareboat charter includes everything needed for a smooth sailing experience: fully equipped yacht, navigation charts, safety gear, outboard tender, snorkeling equipment, and a full pre-departure briefing."
+      },
+      "whatsExtra": {
+        "title": "What's Not Included — and What to Budget For",
+        "desc": "Fuel, provisioning, national park fees (300–400 THB per person), and a security deposit are not included in the price. Alcoholic beverages and optional extras (like a skipper for the first day) will incur additional charges."
+      },
+      "addOns": {
+        "title": "Optional Add-Ons for Your Bareboat Sailing Trip",
+        "desc": "You can add a skipper for your first day, request provisioning assistance (supermarket stop before boarding), and even book extra water toys for your trip. Customizable to suit your preferences."
+      }
+    },
+    "booking": {
+      "label": "Booking Information",
+      "title": "Bareboat Sailing Phuket — Licensing, Pricing, and How to Book",
+      "pricing": {
+        "title": "Bareboat Sailing Phuket — Pricing by Vessel and Season",
+        "subtitle": "Pricing varies by vessel and season:",
+        "note": "Note: Peak season (Nov–Apr) prices are higher; low season discounts (May–Oct) available."
+      },
+      "licence": {
+        "title": "Licence Requirements for Bareboat Sailing in Phuket",
+        "desc": "To sail a bareboat in Phuket, you need a valid captain's license (e.g., RYA, ASA, IYT) and a VHF radio certificate. You must also have at least two weeks of experience on a similar vessel. Submit your documents for insurance and date confirmation.",
+        "req1": "Valid captain's license (RYA, ASA, IYT or equivalent)",
+        "req2": "VHF radio certificate",
+        "req3": "Minimum 2 weeks experience on similar vessel",
+        "req4": "Document submission for insurance confirmation"
+      },
+      "steps": {
+        "title": "How to Book Your Bareboat Sailing Trip in Phuket",
+        "subtitle": "The booking process is simple:\nFor booking, reach out via phone, WhatsApp, or email.",
+        "step1": { "title": "Share Dates", "desc": "Share your preferred dates and vessel." },
+        "step2": { "title": "Submit Licence", "desc": "Submit your license documents." },
+        "step3": { "title": "Confirm Booking", "desc": "Confirm your booking with a deposit." },
+        "step4": { "title": "Set Sail", "desc": "Receive your pre-departure briefing in Chalong Bay." }
+      },
+      "ctaQuote": "Get Your Free Bareboat Quote"
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "FAQs — Bareboat Sailing in Phuket",
+      "questions": {
+        "isPhuketGood": {
+          "q": "Is Phuket good for bareboat sailing?",
+          "a": "Yes, Phuket is an excellent destination for bareboat sailing, offering consistent trade winds, stunning coastal landscapes, and easy access to iconic locations like Phi Phi Islands, Phang Nga Bay, and Koh Lipe.\n\nWith its sheltered bays and variety of islands to explore, Phuket provides the perfect conditions for independent sailing, whether you're a seasoned skipper or setting out on your first bareboat adventure."
+        },
+        "bestRoutes": {
+          "q": "What are the best sailing routes from Phuket?",
+          "a": "The most popular sailing routes from Phuket include Phang Nga Bay, the Phi Phi Islands, and the remote Koh Lipe and Butang Islands, each offering a completely different and rewarding experience on the water.\n\nPhang Nga Bay is particularly dramatic, with towering limestone karsts and hidden sea caves to explore. For a more challenging passage, the Similan Islands and Koh Rok offer pristine reefs and secluded anchorages well worth the extra miles."
+        },
+        "bestTime": {
+          "q": "What is the best time of year for bareboat sailing in Phuket?",
+          "a": "The best time for bareboat sailing in Phuket is November to April, during the dry season, when calm seas, steady trade winds, and clear skies create the most favorable conditions for smooth, enjoyable sailing.\n\nThe peak period runs from December to March and offers the most reliable weather. If you prefer quieter anchorages with nearly identical conditions, November or April are excellent alternatives with fewer boats on the water."
+        },
+        "vsMediterranean": {
+          "q": "How does sailing in Phuket compare to the Mediterranean?",
+          "a": "Sailing in Phuket offers a more exotic, tropical alternative to the Mediterranean, with warm Andaman Sea waters, untouched islands, and remote anchorages that feel a world away from the busier European sailing hubs.\n\nUnlike the Mediterranean's crowded summer season, Phuket's islands remain relatively peaceful, especially outside peak months. The lush, jungle-covered landscapes and rich marine life give the area a character that's genuinely hard to match anywhere in Europe."
+        },
+        "catamaranAndaman": {
+          "q": "What is it like to sail a catamaran in the Andaman Sea?",
+          "a": "Sailing a catamaran in the Andaman Sea is a smooth and comfortable experience, thanks to the vessel's stability, shallow draft, and spacious layout — ideal for island-hopping across Phuket's stunning cruising grounds.\n\nThe twin-hull design allows access to shallow lagoons that monohulls cannot reach, making it easier to explore hidden corners of the coastline. Whether you're after leisurely cruising or more spirited passages, a catamaran performs beautifully in these waters."
+        },
+        "similan": {
+          "q": "Can I reach the Similan Islands on a bareboat sailing trip from Phuket?",
+          "a": "Yes, the Similan Islands are easily reachable on a bareboat from Phuket, with the passage taking around 3–4 hours depending on wind conditions — a manageable and rewarding offshore sail.\n\nThe Similans are one of Thailand's most celebrated diving destinations, with crystal-clear waters and vibrant coral reefs. The open-water passage itself is a highlight, offering excellent sailing conditions throughout the dry season."
+        },
+        "highSeason": {
+          "q": "What sailing conditions should I expect in Phuket's high season?",
+          "a": "In Phuket's high season, expect calm seas, steady northeast monsoon winds, warm temperatures, and excellent visibility — ideal conditions for cruising between islands and snorkeling along the way.\n\nThis is the most popular time on the water, so busier anchorages around Phi Phi and Phang Nga Bay can fill up quickly. Arriving early at your chosen stop is always a good idea to secure the best position."
+        },
+        "kingsCup": {
+          "q": "What is the King's Cup Regatta in Phuket?",
+          "a": "The King's Cup Regatta is one of Asia's most prestigious sailing events, held annually in Phuket each December, attracting international sailors across multiple classes including a dedicated bareboat category.\n\nThe event has a strong following among competitive racers and sailing enthusiasts alike, and it's a wonderful opportunity to experience Phuket's vibrant sailing culture first-hand. Even if you're not racing, the atmosphere around the regatta is well worth being part of."
+        },
+        "vsCrewed": {
+          "q": "What is the difference between bareboat sailing and a crewed charter?",
+          "a": "A bareboat charter means you sail the yacht independently, while a crewed charter includes a professional crew to handle all sailing, navigation, and onboard services throughout your trip.\n\nBareboat charters suit experienced sailors who want the freedom and autonomy of running their own voyage. A crewed charter offers a more relaxed holiday where everything is taken care of — ideal for those who want to enjoy the destination without the responsibility of skippering."
+        },
+        "licence": {
+          "q": "What licence do I need for bareboat sailing in Phuket?",
+          "a": "To sail a bareboat in Phuket, you need a valid captain's licence such as RYA, ASA, IYT or an equivalent qualification, along with a VHF radio certificate and at least two weeks of experience on a similar vessel.\n\nThis ensures you are fully prepared for the challenges of sailing independently in the Andaman Sea. Once you have your qualifications in order, you'll be ready to take on Phuket's beautiful cruising grounds with confidence."
+        },
+        "cost": {
+          "q": "How much does bareboat sailing in Phuket cost?",
+          "a": "Bareboat sailing in Phuket starts from €1,770/week for a Bavaria 33 and from €4,790/week for a Lagoon 42, with prices varying depending on vessel size, specification, and time of year.\n\nRates are higher during peak season from November to April, while discounts are available during the low season from May to October. Contact us directly for an exact quote based on your preferred yacht and travel dates."
+        },
+        "included": {
+          "q": "What is included in a bareboat sailing trip in Phuket?",
+          "a": "Your bareboat charter in Phuket includes a fully equipped yacht, safety gear, outboard tender, navigation charts, snorkeling equipment, and a full pre-departure briefing so you're ready to set sail with confidence.\n\nEverything is prepared and checked before you board, so there's no need to worry about the setup. You simply arrive, complete your briefing, and head out to explore the islands entirely at your own pace."
+        },
+        "skipperFirstDay": {
+          "q": "Can I have a skipper for the first day of my bareboat sailing trip?",
+          "a": "Yes, you can hire a skipper for your first day on the water — a popular option for sailors who want to settle into the boat and get comfortable with local conditions before taking full independent control.\n\nAfter the first day, you continue sailing entirely on your own terms. It's a great way to build confidence, learn the yacht's systems, and get familiar with the key navigation points around Phuket before heading off solo."
+        },
+        "badWeather": {
+          "q": "What happens if there is bad weather on a bareboat sailing trip in Phuket?",
+          "a": "If bad weather arises during your trip, our team will work with you to find sheltered routes or reschedule your plans. If conditions are genuinely unsafe, we will offer a full refund or rebooking at no penalty.\n\nYour safety is always the priority. We monitor weather conditions closely throughout your charter and stay in contact to ensure you're never caught out. Phuket's sailing season is generally very reliable, but we're always prepared to act quickly if conditions change."
+        },
+        "licence2": {
+          "q": "What licence do I need for bareboat sailing in Phuket?",
+          "a": "To sail a bareboat in Phuket, you must hold a valid captain's licence such as RYA, ASA, IYT or equivalent, along with a VHF radio certificate and at least two weeks of sailing experience on a similar vessel.\n\nOnce you submit your documents, our team will review them and confirm your eligibility to set sail, ensuring everything is in order well before your departure date."
+        }
+      }
+    },
+    "finalCta": {
+      "label": "Begin Your Adventure",
+      "title": "Ready to Sail?",
+      "description": "Start planning your bareboat sailing adventure in Phuket today. Our team is ready to help you create unforgettable memories on the Andaman Sea.",
+      "ctaQuote": "Get a Free Bareboat Quote",
+      "ctaWhatsApp": "WhatsApp Us Now"
     }
   }
 }

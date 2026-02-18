@@ -21,7 +21,7 @@ export function FAQAccordion({ faqs, title, subtitle, id = 'faq' }: FAQAccordion
   return (
     <section id={id} className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-neutral-50 to-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
           {title}
         </h2>
         {subtitle && <p className="text-xl text-neutral-600 mb-12 text-center">{subtitle}</p>}

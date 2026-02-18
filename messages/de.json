@@ -16,7 +16,8 @@
     "catamaranCharter": "Katamaran Charter",
     "luxuryYachtCharter": "Luxus-Yachtcharter",
     "cabinCruise": "Kabinenkreuzfahrt",
-    "overnightSailing": "Übernacht-Segeln"
+    "overnightSailing": "Übernacht-Segeln",
+    "bareboatSailing": "Bareboat-Segeln"
   },
   "hero": {
     "title": "Phuket Sailing",
@@ -1544,6 +1545,566 @@
           "a": "Während der Hochsaison (Dezember–März) wird empfohlen, mindestens 2–4 Wochen im Voraus zu buchen. Für Weihnachten und Neujahr empfehlen wir eine Buchung 2–3 Monate im Voraus. Für die beste Auswahl ist frühzeitiges Buchen immer empfehlenswert, besonders für mehrtägige Kabinenkreuzfahrten."
         }
       }
+    }
+  },
+  "overnightCharter": {
+    "hero": {
+      "title": "Übernachtungs-Segelcharter Phuket – Privater Katamaran auf der Andamanensee",
+      "description": "Gehen Sie an Bord eines privaten Katamarans für ein unvergessliches Übernachtungs-Segelabenteuer in Phuket. Erkunden Sie die unberührten Inseln der Andamanensee, darunter Phi Phi, Koh Rok, Koh Ha und Koh Lipe, und genießen Sie dabei vollkommenen Komfort und Privatsphäre.",
+      "cta": "Kostenloses Angebot anfordern",
+      "badges": "850+ Fünf-Sterne-Bewertungen | 30 Jahre auf der Andamanensee | Lizenziert von der Tourismusbehörde Thailands | World Luxury Travel Awards Gewinner 2025"
+    },
+    "ctaBanner": {
+      "title": "Planen Sie einen Übernachtungs-Segelcharter in Phuket?",
+      "text": "Teilen Sie uns Ihre Daten, Gruppengröße und Wünsche mit — wir senden Ihnen innerhalb von 24 Stunden einen personalisierten Reiseplan und ein Angebot. Unverbindlich.",
+      "cta": "Kostenloses Angebot für Übernachtungssegeln",
+      "whatsapp": "WhatsApp"
+    },
+    "whatIs": {
+      "title": "Was ist ein Übernachtungs-Segelcharter in Phuket?",
+      "description": "Ein Übernachtungs-Segelcharter in Phuket bietet ein privates, luxuriöses Segelerlebnis, bei dem Sie die atemberaubende Andamanensee in Ihrem eigenen Tempo erkunden können. Dieser exklusive Charter ermöglicht es Ihnen, abgelegene Inseln von der Phang Nga Bucht über die Similan- oder Phi Phi-Inseln bis zu den Butang-Inseln zu besuchen, während Sie vollständig von einer professionellen Crew versorgt werden. Ob Sie Abenteuer oder Entspannung suchen, ein Übernachtungs-Segelcharter gibt Ihnen die Freiheit, die Schönheit der Gewässer Phukets in totalem Komfort zu erleben.",
+      "cards": {
+        "yacht": {
+          "title": "Eine private Segelyacht oder Katamaran, mit voller Crew und All-Inclusive",
+          "description": "Jeder Übernachtungs-Segelcharter beinhaltet einen lizenzierten Skipper, Bordkoch und Matrosen, damit Sie die Reise genießen können, ohne einen Finger zu rühren. Alle Mahlzeiten werden frisch an Bord zubereitet, und Ihr Reiseplan wird nach Ihren Wünschen angepasst. Von einsamen Stränden bis zu lebhaften Korallenriffen — Ihr Erlebnis ist auf Komfort und Abenteuer ausgelegt."
+        },
+        "sunrise": {
+          "title": "Ein Tag auf der Andamanensee — Vom Sonnenaufgang am Ankerplatz bis zum Sonnenuntergangssegeln",
+          "description": "Beginnen Sie Ihren Tag mit einem friedlichen Frühstück vor Anker, während die Sonne über der Andamanensee aufgeht. Nach einem erfrischenden Schwimmen oder Schnorcheln segeln Sie zu Ihrem nächsten Ziel und erkunden versteckte Buchten und private Inseln. Ohne Eile oder starren Zeitplan entfaltet sich der Tag natürlich, mit reichlich Zeit zum Entspannen an Deck, einem privaten Abendessen unter den Sternen und dem Aufwachen an einem neuen, wunderschönen Ort jeden Morgen."
+        },
+        "vsDay": {
+          "title": "Übernachtungssegeln vs. Standard-Tagescharter in Phuket",
+          "dayLabel": "Tagescharter:",
+          "dayText": "Begrenzt auf wenige Stunden Segeln, mit fester Rückkehrzeit.",
+          "overnightLabel": "Übernachtungssegeln:",
+          "overnightText": "Bietet die Freiheit, an abgelegenen Inseln zu ankern, Sonnenuntergänge zu erleben und in der Ruhe des Meeres aufzuwachen, während Sie den Luxus eines privaten All-Inclusive-Erlebnisses genießen."
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Warum sollten Sie einen Übernachtungs-Segelcharter in Phuket wählen?",
+      "subtitle": "Ein Übernachtungs-Segelcharter in Phuket bietet Ihnen mehr als nur schöne Landschaften. Es geht um das Tempo, den Raum und das authentische Segelerlebnis, das auf dem Wasser entsteht. Entdecken Sie, warum Übernachtungssegeln die beste Art ist, Phukets Inseln zu erkunden.",
+      "benefits": {
+        "remoteIslands": {
+          "title": "Inseln und Ankerplätze, die Tagesausflüge nie erreichen",
+          "description": "Übernachtungscharter ermöglichen es Ihnen, versteckte Inseln wie Koh Rok, Koh Ha und die Butang-Inseln zu besuchen, die Tagesausflüge nicht erreichen können. Diese Inseln bieten kristallklares Wasser, lebendige Korallenriffe und abgelegene Strände, an denen Sie den Menschenmassen entfliehen und private Momente mit Ihren Liebsten genießen können."
+        },
+        "freedom": {
+          "title": "Das Tempo des echten Segelns — Kein Stress, keine Zeitpläne",
+          "description": "Im Gegensatz zu herkömmlichen Touren gibt Ihnen ein Übernachtungs-Segelcharter die Flexibilität, in Ihrem eigenen Tempo zu erkunden. Verbringen Sie mehr Zeit an jedem Halt, ob beim Schwimmen, Schnorcheln, Kajakfahren oder einfach beim Entspannen an Deck. Das Schöne am Übernachtungssegeln ist, dass es keinen Grund zur Eile gibt."
+        },
+        "crowds": {
+          "title": "Vor den Massen, jeden Morgen",
+          "description": "Durch die Übernachtung genießen Sie die Inseln, bevor die Massen eintreffen. Stehen Sie früh auf und erleben Sie Phi Phi und Koh Hong in ihrem friedlichsten Zustand, ohne Touristen in der Nähe. Diese frühen Morgenstunden bieten ein exklusives, ruhiges Erlebnis, das Tagesausflügler einfach nicht haben können."
+        }
+      }
+    },
+    "routes": {
+      "title": "Übernachtungs-Segelrouten und Reisepläne ab Phuket",
+      "subtitle": "Wählen Sie aus einer Vielzahl von Reiseplänen, die auf Ihre verfügbare Zeit und Vorlieben zugeschnitten sind. Ob Sie eine kurze Auszeit oder eine ausgedehnte Erkundung suchen, unsere Übernachtungs-Segelcharter bieten für jeden etwas.",
+      "recommended": "Empfohlen",
+      "items": {
+        "oneTwo": {
+          "title": "1–2 Nächte Übernachtungs-Segelcharter Phuket",
+          "description": "Für diejenigen mit wenig Zeit ist dieser Reiseplan perfekt. Erkunden Sie die Phi Phi-Inseln und Racha-Inseln, wo Sie das Beste der Gewässer Phukets in nur wenigen Tagen genießen werden. Eine großartige Option für Erstsegler oder Reisende, die einen schnellen Kurzurlaub wünschen.",
+          "guests": "2–4 Gäste",
+          "ideal": "Ideal für kurze Auszeiten oder Erstsegler",
+          "price": "Ab 1.000 €/Nacht"
+        },
+        "threeFour": {
+          "title": "3–4 Nächte Segelcharter Phuket",
+          "description": "Ein 3–4-Nächte-Charter gibt Ihnen mehr Zeit, Phi Phi, Koh Lanta und Koh Muk zu erkunden. Dieser Reiseplan bietet eine ausgewogene Mischung aus Abenteuer und Entspannung, perfekt für Familien und kleine Gruppen.",
+          "guests": "4–6 Gäste",
+          "ideal": "Hervorragend für Familien und kleine Gruppen",
+          "price": "Ab 1.500 €/Nacht"
+        },
+        "five": {
+          "title": "5 Nächte Übernachtungssegeln Phuket",
+          "description": "Der 5-Nächte-Charter ist unsere meistempfohlene Option, da er ausreichend Zeit bietet, Koh Rok, Koh Ha und andere abgelegene Inseln zu besuchen. Das beste Preis-Leistungs-Verhältnis für alle, die eine tiefere Erkundung der Andamanensee suchen.",
+          "guests": "4–8 Gäste",
+          "ideal": "Bestes Preis-Leistungs-Verhältnis für ein umfassendes Phuket-Segelerlebnis",
+          "price": "Ab 1.800 €/Nacht"
+        },
+        "sevenPlus": {
+          "title": "7+ Nächte Segelexpedition — Similan-Inseln & Koh Lipe",
+          "description": "Für das ultimative Abenteuer bringt Sie eine 7+-Nächte-Segelexpedition zu den Similan-Inseln, Koh Lipe und dem Butang-Archipel. Diese Inseln sind perfekt für erfahrene Segler und abenteuerlustige Reisende, die abseits der ausgetretenen Pfade unterwegs sein wollen.",
+          "guests": "6–12 Gäste",
+          "ideal": "Ideal für erfahrene Segler und Entdecker",
+          "price": "Ab 2.500 €/Nacht"
+        }
+      }
+    },
+    "destinations": {
+      "title": "Inseldestinationen bei einem Übernachtungs-Segelcharter in Phuket",
+      "subtitle": "Jedes Ziel auf Ihrem Charter bietet etwas Einzigartiges. Ob Sie lebendige Riffe, abgelegene Strände oder ruhige Lagunen suchen, diese Inseln werden Ihnen den Atem rauben.",
+      "items": {
+        "phiPhi": {
+          "title": "Phi Phi-Inseln & Maya Bay",
+          "subtitle": "Übernachtungssegeln ab Phuket",
+          "description": "Die Phi Phi-Inseln sind berühmt für ihre imposanten Kalksteinfelsen und lebendigen Korallenriffe. Verbringen Sie die Nacht vor Anker in der Maya Bay und wachen Sie in ihrer heiteren Schönheit auf, bevor die Tagesausflügler eintreffen.",
+          "price": "Ab 1.000 €/Nacht",
+          "detail": "Tagesausflug oder Übernachtung"
+        },
+        "phangNga": {
+          "title": "Phang Nga Bucht & Koh Hong",
+          "subtitle": "Kalksteinhöhlen & versteckte Lagunen",
+          "description": "Die Phang Nga Bucht beherbergt James Bond Island und viele weitere Kalksteinformationen. Erkunden Sie die Höhlen und Lagunen von Koh Hong per Kajak und entdecken Sie versteckte Orte, die nur wenige Touristen je zu sehen bekommen.",
+          "price": "Ab 1.000 €/Nacht",
+          "detail": "3–4 Stunden ab Phuket"
+        },
+        "kohRok": {
+          "title": "Koh Rok & Koh Ha",
+          "subtitle": "Verborgene Juwelen der Andamanensee",
+          "description": "Bekannt für ihre atemberaubenden Korallenriffe und kristallklaren Gewässer, sind Koh Rok und Koh Ha ideal für alle, die eine friedliche Auszeit suchen. Diese Inseln bieten abgelegene Strände und lebendiges Meeresleben, perfekt zum Schnorcheln und Tauchen.",
+          "price": "Ab 1.200 €/Nacht",
+          "detail": "4+ Nächte ab Phuket"
+        },
+        "kohLipe": {
+          "title": "Koh Lipe & die Butang-Inseln",
+          "subtitle": "Segeln im abgelegenen Süden Thailands",
+          "description": "In der Nähe der malaysischen Grenze gelegen, bieten Koh Lipe und die Butang-Inseln unberührte Schönheit und Abgeschiedenheit. Diese Inseln sind perfekt für eine längere, abenteuerlichere Reise.",
+          "price": "Ab 1.200 €/Nacht",
+          "detail": "7+ Nächte für das volle Erlebnis"
+        },
+        "racha": {
+          "title": "Racha-Inseln & Coral Island",
+          "subtitle": "Übernachtungssegeln nahe Phuket",
+          "description": "Wenn Sie eine schnelle Flucht nahe Phuket suchen, bieten die Racha-Inseln kristallklares Wasser und wunderschöne Strände, perfekt für 1–2-Nächte-Charter.",
+          "price": "Ab 1.200 €/Nacht",
+          "detail": "1–3 Stunden ab Phuket"
+        },
+        "similan": {
+          "title": "Bamboo Island & Similan-Inseln",
+          "subtitle": "Taucherparadies unter Segeln",
+          "description": "Für Taucher sind die Similan-Inseln und Bamboo Island ein Muss, mit erstklassigen Taucherlebnissen. Diese Inseln sind perfekt für längere Charter, bei denen Sie einige der lebendigsten Unterwasser-Ökosysteme Thailands erkunden können.",
+          "price": "Ab 1.500 €/Nacht",
+          "detail": "3+-Nächte-Charter für Tauchbegeisterte"
+        }
+      }
+    },
+    "fleet": {
+      "title": "Segelkatamarane für Übernachtungscharter in Phuket",
+      "subtitle": "Unsere Flotte von Katamaranen bietet Komfort, Stabilität und Öko-Effizienz. Ob Sie einen privaten Kurzurlaub oder ein Abenteuer mit Freunden suchen, unsere Schiffe sind darauf ausgelegt, das beste Erlebnis auf See zu bieten.",
+      "benefit1": {
+        "title": "Zweckgebaut für Segeln — Raum, Stabilität & Komfort",
+        "description": "Katamarane sind dank ihrer breiten Decks, ihrer Stabilität und ihres geringen Tiefgangs perfekt für Übernachtungssegeln, was den Zugang zu versteckten Lagunen und Buchten ermöglicht, die größere Boote nicht erreichen können. Sie sind umweltfreundlich und bieten effizienten Kraftstoffverbrauch für längere Fahrten."
+      },
+      "benefit2": {
+        "title": "Private Kabinen, eigene Badezimmer & hochwertige Ausstattung an Bord",
+        "description": "Unsere Katamarane sind mit privaten Kabinen, eigenen Badezimmern und geräumigen Wohnbereichen ausgestattet. Sie werden reichlich Platz zum Entspannen haben, und die Ausstattung an Bord sorgt für maximalen Komfort, während Sie Phukets Inseln erkunden."
+      },
+      "fleetTitle": "Flottenoptionen von Mittelklasse bis Luxus für Übernachtungssegeln",
+      "vessels": {
+        "hotChilli": {
+          "name": "Hot Chilli",
+          "description": "Eine budgetfreundliche Option, ideal für Paare oder kleine Gruppen. Komfortabel und modern, perfekt für kurze Auszeiten.",
+          "price": "Ab 1.000 €/Nacht"
+        },
+        "amadeus": {
+          "name": "Amadeus",
+          "description": "Ein Mittelklasse-Katamaran, der die perfekte Balance zwischen Luxus und Komfort bietet, ideal für Familien und kleine Gruppen.",
+          "price": "Ab 1.500 €/Nacht"
+        },
+        "nauti": {
+          "name": "Nauti by Nature",
+          "tag": "LUXUS",
+          "description": "Ein Luxus-Katamaran für alle, die ein gehobenes Erlebnis suchen, mit Premium-Ausstattung und großzügigen Wohnbereichen.",
+          "price": "Ab 2.500 €/Nacht"
+        }
+      },
+      "viewFleet": "Gesamte Flotte ansehen"
+    },
+    "included": {
+      "title": "Was ist in einem Übernachtungs-Segelcharter in Phuket enthalten",
+      "subtitle": "Jeder Charter ist mit voller Crew und All-Inclusive, damit Sie alles haben, was Sie für ein entspanntes und unvergessliches Abenteuer brauchen.",
+      "crew": {
+        "title": "Crew, Koch & professioneller Kapitän während der gesamten Reise",
+        "description": "Ihr Charter umfasst einen lizenzierten Skipper, einen Bordkoch und einen Matrosen, alle mit umfangreicher lokaler Kenntnis der Andamanensee. Sie müssen sich um nichts kümmern, außer Ihre Reise zu genießen."
+      },
+      "activities": {
+        "title": "Alle Mahlzeiten, Schnorchelausrüstung & Wasseraktivitäten",
+        "description": "Genießen Sie frisch zubereitete Mahlzeiten an Bord, darunter thailändische Spezialitäten und internationale Optionen. Wir stellen auch Schnorchelausrüstung, Kajaks, Stand-Up-Paddleboards und mehr für wasserbasierten Spaß zur Verfügung."
+      },
+      "extra": {
+        "title": "Was ist typischerweise nicht in Übernachtungs-Segelchartern enthalten",
+        "description": "Die einzigen zusätzlichen Kosten sind Nationalparkgebühren, die in der Regel etwa 300-400 THB pro Person betragen, und alkoholische Getränke. Alles andere ist in Ihrem Preis enthalten, ohne versteckte Gebühren."
+      }
+    },
+    "occasions": {
+      "title": "Übernachtungssegeln in Phuket für Paare & Flitterwochen",
+      "description": "Ein Übernachtungs-Segelcharter in Phuket ist der perfekte romantische Kurzurlaub und bietet Privatsphäre, Abenteuer und Luxus in einem.",
+      "honeymoon": {
+        "title": "Ein Flitterwochen-Segelcharter in Phuket — Anders als jedes Resort-Erlebnis",
+        "description": "Nichts vergleicht sich damit, Ihre Flitterwochen auf einem privaten Katamaran in der Andamanensee zu verbringen. Genießen Sie private Abendessen, Sonnenuntergangssegeln und einsame Strände, während Sie von Ihrer professionellen Crew verwöhnt werden."
+      },
+      "sunset": {
+        "title": "Sonnenuntergangssegeln, private Abendessen & ruhige Ankerplätze",
+        "description": "Stellen Sie sich vor, ein Candle-Light-Dinner an Deck zu genießen, den Sonnenuntergang über dem Meer zu beobachten und dann unter dem klaren Himmel Sterne zu beobachten. Diese intimen Momente machen Ihre Flitterwochen oder besonderen Anlass unvergesslich."
+      },
+      "proposals": {
+        "title": "Heiratsanträge, Jahrestage & romantische Ausflüge unter Segel",
+        "description": "Unser Team kann Ihnen helfen, die perfekte Kulisse für Heiratsanträge, Jahrestage oder romantische Ausflüge zu schaffen. Von privaten Blumen über maßgeschneiderte Kuchen bis hin zum Champagner-Service — wir machen Ihren besonderen Anlass wirklich unvergesslich."
+      }
+    },
+    "travelers": {
+      "title": "Übernachtungs-Segelcharter Phuket — Ideal für Alleinreisende, Abenteurer und Reisegruppen",
+      "subtitle": "Ob Sie allein reisen, um die Schönheit Phukets zu erkunden, oder ein abenteuerliches Gruppenerlebnis suchen — ein Übernachtungs-Segelcharter bietet die Flexibilität und Aufregung, die Sie sich wünschen. Hier erfahren Sie, warum unsere Charter für alle Reisenden geeignet sind:",
+      "items": {
+        "solo": {
+          "title": "Alleinreisende — Freiheit und Erkundung",
+          "description": "Für Solo-Abenteurer bietet ein Übernachtungs-Segelcharter die Freiheit, in Ihrem eigenen Tempo zu erkunden. Genießen Sie einsame Strände, lebendige Korallenriffe und friedliche Momente auf See. Die Crew kümmert sich um alles, während Sie sich auf Ihre Reise konzentrieren."
+        },
+        "adventure": {
+          "title": "Abenteurer — Abgelegene Inseln warten",
+          "description": "Ein Übernachtungs-Segelcharter ermöglicht es Ihnen, abgelegene Inseln wie die Similan-Inseln und Koh Rok zu besuchen, die größere Boote nicht erreichen können. Tauchen Sie in kristallklares Wasser ein und erkunden Sie unberührte Buchten. Die Andamanensee bietet endlose Abenteuer und Erkundungsmöglichkeiten."
+        },
+        "groups": {
+          "title": "Reisegruppen — Ein einzigartiges gemeinsames Erlebnis",
+          "description": "Für Reisegruppen bietet ein Übernachtungs-Segelcharter geräumige, komfortable Yachten, ideal für gemeinsame Erlebnisse. Ob für einen besonderen Anlass oder einen Kurzurlaub, Ihre Gruppe kann die Gesellschaft des anderen in einer entspannten, privaten Umgebung genießen. Die Crew kümmert sich um alle Details und sorgt für ein unvergessliches Erlebnis für alle."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Übernachtungs-Segelcharter Phuket — Preise & Buchung",
+      "costTitle": "Was kostet ein Übernachtungs-Segelcharter in Phuket?",
+      "costDescription": "Die Kosten für einen Übernachtungs-Segelcharter in Phuket variieren je nach Schiffstyp, Dauer und Saison. Hier sind unsere Preisstufen für ein privates Segelerlebnis mit voller Crew:",
+      "tiers": {
+        "budget": {
+          "label": "BUDGET",
+          "name": "Hot Chilli",
+          "price": "1.000 €",
+          "per": "pro Nacht",
+          "description": "Ideal für Paare oder kleine Gruppen, die eine komfortable, erschwingliche Option suchen."
+        },
+        "mid": {
+          "label": "MITTELKLASSE",
+          "name": "Mittelklasse-Katamarane",
+          "price": "1.500 €",
+          "per": "pro Nacht",
+          "description": "Perfekt für Familien oder kleine Gruppen, mit einer Balance aus Luxus und Preis-Leistung."
+        },
+        "luxury": {
+          "label": "LUXUS",
+          "name": "Luxus-Katamarane",
+          "price": "2.500 €+",
+          "per": "pro Nacht",
+          "description": "Für alle, die das ultimative Erlebnis mit Premium-Ausstattung und maßgeschneiderten Services suchen."
+        }
+      },
+      "allIncluded": "Alle Preise beinhalten Crew, Mahlzeiten, Schnorchelausrüstung, Wasseraktivitäten und Treibstoff. Nationalparkgebühren und alkoholische Getränke sind zusätzliche Kosten.",
+      "bestTimeTitle": "Wann ist die beste Zeit für Übernachtungssegeln in Phuket?",
+      "bestTimeText": "Die beste Zeit für einen Übernachtungs-Segelcharter in Phuket ist zwischen November und April. Diese Periode bietet ruhige See, klaren Himmel und stetige Winde, ideal zum Segeln. Dezember bis März ist die Hauptsaison, daher wird frühzeitiges Buchen in diesen Monaten dringend empfohlen. Für niedrigere Preise und ruhigere Gewässer erwägen Sie das Segeln in den Übergangsmonaten November und April.",
+      "bookTitle": "So buchen Sie Ihren Übernachtungs-Segelcharter in Phuket",
+      "bookDescription": "Die Buchung Ihres Übernachtungs-Segelcharters ist einfach. Folgen Sie diesen vier Schritten:",
+      "steps": {
+        "s1": { "title": "Wählen Sie Ihr Schiff & Reiseroute", "description": "Wählen Sie aus unserer Auswahl an Budget-, Mittelklasse- oder Luxusschiffen. Teilen Sie uns Ihre bevorzugten Segeldaten und Ziele mit, wie Phi Phi, Koh Lipe oder die Similan-Inseln." },
+        "s2": { "title": "Personalisiertes Angebot & Reiseplan", "description": "Erhalten Sie ein maßgeschneidertes Angebot und einen Reiseplan, der auf Ihre Gruppengröße und Vorlieben zugeschnitten ist. Wir arbeiten mit Ihnen zusammen, um das perfekte Segelerlebnis zu gestalten." },
+        "s3": { "title": "Bestätigen Sie Ihre Buchung", "description": "Sobald Sie Ihren Reiseplan und die Preise überprüft haben, bestätigen Sie Ihre Buchung, indem Sie den Vertrag unterzeichnen und Ihre Anzahlung leisten. Ihr Kapitän, Koch und Matrose werden bereit sein, Sie an Bord willkommen zu heißen." },
+        "s4": { "title": "Starten Sie Ihr Segelabenteuer", "description": "Nach der Bestätigung senden wir Ihnen alle Details für Ihre Segelreise. Am Tag Ihrer Abreise sorgt Ihre Crew dafür, dass alles für eine reibungslose, entspannende Reise bereit ist." }
+      }
+    },
+    "trustCta": {
+      "badges": {
+        "b1": "30 Jahre Segelerfahrung in der Andamanensee",
+        "b2": "850+ Fünf-Sterne-Bewertungen von zufriedenen Kunden weltweit",
+        "b3": "Lizenziert von der Tourismusbehörde Thailands",
+        "b4": "World Luxury Travel Awards 2025 Gewinner für herausragende Luxus-Segelerlebnisse"
+      },
+      "title": "Bereit, die Andamanensee zu erleben?",
+      "description": "Holen Sie sich noch heute Ihr personalisiertes Angebot für Übernachtungssegeln und beginnen Sie, das Abenteuer Ihres Lebens zu planen.",
+      "cta": "Kostenloses Angebot anfordern",
+      "whatsapp": "WhatsApp: +66 61 234 5623"
+    },
+    "faq": {
+      "title": "FAQ — Übernachtungs-Segelcharter Phuket",
+      "questions": {
+        "cost": {
+          "q": "Was kostet ein Übernachtungs-Segelcharter in Phuket?",
+          "a": "Übernachtungs-Segelcharter in Phuket beginnen ab 1.000 € pro Nacht für einen Mittelklasse-Katamaran. Luxus-Katamarane und Yachten kosten zwischen 2.500 € und 5.000 € pro Nacht, je nach Schiffsgröße und Ausstattung. Die Preise beinhalten in der Regel Crew, Mahlzeiten, Wasseraktivitäten und Treibstoff."
+        },
+        "islands": {
+          "q": "Welche Inseln kann ich bei einem Übernachtungs-Segelcharter ab Phuket besuchen?",
+          "a": "Sie können einige der schönsten Inseln Thailands besuchen, darunter die Phi Phi-Inseln, Koh Lanta, Koh Rok, Koh Ha, Koh Lipe und die Similan-Inseln. Diese Ziele bieten atemberaubende Strände, lebendige Korallenriffe und ruhige Ankerplätze, die alle bequem bei einem Übernachtungs-Segelcharter erreichbar sind."
+        },
+        "nights": {
+          "q": "Wie viele Nächte empfehlen Sie für Übernachtungssegeln in Phuket?",
+          "a": "Ein 3–4-Nächte-Charter ist ideal für ein umfassendes Erlebnis, das Ihnen ermöglicht, mehrere Inseln zu erkunden, darunter Phi Phi, Koh Lanta und Koh Rok. Bei wenig Zeit ist ein 1–2-Nächte-Charter perfekt für einen Kurzurlaub, während ein Charter von 5 Nächten oder länger ideal für eine tiefere Erkundung abgelegener Inseln wie Koh Lipe und der Similan-Inseln ist."
+        },
+        "included": {
+          "q": "Was ist in einem Übernachtungs-Segelcharter in Phuket enthalten?",
+          "a": "Ein Übernachtungs-Segelcharter beinhaltet einen lizenzierten Skipper, Koch und Matrosen. Alle Mahlzeiten, Schnorchelausrüstung, Kajaks und Stand-Up-Paddleboards werden bereitgestellt. Die Preise decken auch Treibstoff, Liegegebühren und Unfallversicherung ab und sorgen für ein stressfreies Segelerlebnis. Nationalparkgebühren und alkoholische Getränke sind in der Regel extra."
+        },
+        "honeymoon": {
+          "q": "Ist Übernachtungssegeln in Phuket gut für Flitterwochen?",
+          "a": "Ja, Übernachtungssegeln in Phuket ist eine ausgezeichnete Wahl für Frischvermählte. Es bietet Privatsphäre, romantische Sonnenuntergänge und abgelegene Ankerplätze. Sie können private Abendessen an Deck, Sonnenaufgänge und intime Momente genießen, was es zu einem unvergesslichen und einzigartigen Erlebnis im Vergleich zu traditionellen Resorts macht."
+        },
+        "typicalDay": {
+          "q": "Wie sieht ein typischer Tag bei einem Übernachtungs-Segelcharter in Phuket aus?",
+          "a": "Ein typischer Tag beginnt mit einem entspannten Frühstück vor Anker, gefolgt vom Segeln zu Ihrem nächsten Ziel. Sie haben Zeit zum Schnorcheln, Schwimmen und Erkunden abgelegener Strände. Am Abend genießen Sie ein Candle-Light-Dinner bei Sonnenuntergang, gefolgt von einer friedlichen Nacht vor Anker und dem Aufwachen an einem neuen, ruhigen Ort."
+        },
+        "safety": {
+          "q": "Ist Übernachtungssegeln in Phuket sicher?",
+          "a": "Ja, Übernachtungssegeln in Phuket ist sehr sicher. Die Katamarane, die wir verwenden, sind stabil, und die lizenzierten Kapitäne sind erfahren in der Navigation auf der Andamanensee. Wir stellen auch Sicherheitsausrüstung bereit und sorgen dafür, dass Ihre Reise komfortabel und sicher ist, mit einer Crew, die jede Situation bewältigen kann."
+        },
+        "vsCabin": {
+          "q": "Was ist der Unterschied zwischen einem Übernachtungs-Segelcharter und einer Kabinenkreuzfahrt in Phuket?",
+          "a": "Ein Übernachtungs-Segelcharter bietet ein privates, anpassbares Erlebnis mit einer Crew, die ausschließlich Ihnen und Ihrer Gruppe gewidmet ist. Im Gegensatz dazu beinhaltet eine Kabinenkreuzfahrt in der Regel eine gemeinsame Unterkunft mit anderen Gästen und einen festen Reiseplan. Bei einem Übernachtungs-Segelcharter genießen Sie mehr Flexibilität, Privatsphäre und ein maßgeschneidertes Erlebnis."
+        },
+        "similan": {
+          "q": "Kann ich die Similan-Inseln bei einem Übernachtungs-Segelcharter ab Phuket erreichen?",
+          "a": "Ja, die Similan-Inseln sind bei 5+-Nächte-Segelchartern ab Phuket erreichbar. Diese Inseln sind bekannt für ihre Tauch- und Schnorchelmöglichkeiten mit lebendigen Korallenriffen und klarem Wasser. Längere Charter ermöglichen es Ihnen, diese abgelegenen, geschützten Gebiete zu erkunden und ihre unberührte Schönheit zu genießen."
+        },
+        "food": {
+          "q": "Welches Essen wird auf Übernachtungs-Segelchartern in Phuket serviert?",
+          "a": "Bei einem Übernachtungs-Segelcharter werden die Mahlzeiten frisch von Ihrem Bordkoch zubereitet. Erwarten Sie authentische thailändische Gerichte wie Pad Thai, Grünes Curry und Tom Yum Suppe, zusammen mit frischen Meeresfrüchten und tropischen Früchten. Besondere Ernährungswünsche wie vegetarische, vegane oder glutenfreie Optionen werden ebenfalls berücksichtigt."
+        }
+      }
+    }
+  },
+  "bareboatSailing": {
+    "hero": {
+      "subtitle": "Unabhängige Segelabenteuer",
+      "title": "Bareboat-Segeln Phuket — Segeln Sie Ihre eigene Yacht auf der Andamanensee",
+      "tagline": "",
+      "description": "Von versteckten Lagunen bis zur weiten Andamanensee — Bareboat-Segeln in Phuket lässt Sie Thailands atemberaubende Küste in Ihrem eigenen Tempo erkunden, mit endlosen Möglichkeiten zur Entdeckung.",
+      "ctaQuote": "Kostenloses Bareboat-Angebot anfordern",
+      "ctaWhatsApp": "WhatsApp"
+    },
+    "ctaBlock": {
+      "label": "Starten Sie Ihr Bareboat-Traumabenteuer",
+      "title": "Planen Sie einen Bareboat-Segeltörn in Phuket?",
+      "description": "Teilen Sie Ihre Daten, Gruppengröße und Vorlieben mit — wir senden Ihnen innerhalb von 24 Stunden einen personalisierten Reiseplan und ein Angebot.",
+      "ctaQuote": "Kostenloses Bareboat-Angebot anfordern",
+      "ctaWhatsApp": "WhatsApp"
+    },
+    "whyPhuket": {
+      "label": "Warum Phuket",
+      "title": "Warum Phuket eines der besten Reiseziele für Bareboat-Segeln ist",
+      "description": "Phuket ist berühmt für seine atemberaubende Küste, ruhige Meere und günstige Segelbedingungen, was es zu einem der besten Orte für unabhängiges Segeln macht. Von versteckten Lagunen bis zu majestätischen Kalksteininseln bietet die Andamanensee unvergleichliche Schönheit und Abenteuer für Segler, die ein authentischeres Erlebnis suchen.",
+      "cards": {
+        "islands": {
+          "title": "Ein Insellabyrinth im richtigen Maßstab für unabhängiges Bareboat-Segeln",
+          "desc": "Phuket ist umgeben von 6 atemberaubenden Inseln, die innerhalb von 15 Stunden Segeln bei 7 Knoten erreichbar sind, jede schöner als die letzte. Mit überschaubaren Entfernungen zwischen den Ankerplätzen ist es der perfekte Ort für alle, die eine echte Segelexpedition suchen. Von den Phi Phi-Inseln bis zum abgelegenen Koh Rok finden Sie immer ein neues Abenteuer hinter dem Horizont."
+        },
+        "anchorages": {
+          "title": "Ankerplätze, die Touristenboote nie erreichen",
+          "desc": "Im Gegensatz zu Touristenbooten bietet Bareboat-Katamaran-Segeln in Phuket die Freiheit, die abgelegensten Ankerplätze zu entdecken. Yachten mit geringem Tiefgang ermöglichen den Zugang zu versteckten Lagunen und ruhigen Buchten, wo Sie in Ruhe schwimmen und entspannen können — fernab der Massen. Bareboat-Segeln in Thailand bietet eine Intimität mit den Inseln, die geführte Touren einfach nicht bieten können."
+        },
+        "realSailing": {
+          "title": "Echtes Segeln — Wind, Dünung und die Fähigkeiten, die hier zählen",
+          "desc": "Mit beständigen saisonalen Winden und variablen Seezuständen bietet das Bareboat-Segeln in der Andamanensee eine echte seglerische Herausforderung. Ob Sie durch die Gezeitenkanäle der Phang Nga Bucht navigieren oder über offenes Wasser nach Koh Lipe segeln — Sie werden Ihre Segelfähigkeiten in einigen der schönsten Gewässer der Welt auf die Probe stellen."
+        }
+      }
+    },
+    "routes": {
+      "label": "Segelrouten",
+      "title": "Bareboat-Segelrouten ab Phuket — Nach Dauer",
+      "subtitle": "Ob Sie ein langes Wochenende oder zwei Wochen haben, wir haben den perfekten Reiseplan für Ihr Bareboat-Abenteuer.",
+      "items": {
+        "short": {
+          "title": "Phang Nga Bucht und die Racha-Inseln",
+          "desc": "Ideal für Erstsegler oder diejenigen mit wenig Zeit — diese Route umfasst ruhige Gewässer, malerische Kalksteinkarste und wunderschöne Ankerplätze wie die Phang Nga Bucht. Segeln Sie durch traditionelle Fischerdörfer und genießen Sie friedliche Abende auf Ihrer privaten Yacht."
+        },
+        "medium": {
+          "title": "Phi Phi-Inseln, Koh Lanta und Koh Rok",
+          "desc": "Eine längere Reise, um die berühmten Phi Phi-Inseln zu erkunden, bekannt für ihre kristallklaren Gewässer und dramatischen Klippen. Weiter südlich finden Sie die ruhigen Inseln Koh Lanta und Koh Rok, mit endlosem Schnorcheln und unberührten Stränden."
+        },
+        "long": {
+          "title": "Similan-Inseln im Norden oder Butang-Archipel im Süden",
+          "desc": "Für den abenteuerlustigen Segler — begeben Sie sich auf eine mehrwöchige Reise zu den Similan-Inseln, berühmt für ihre erstklassigen Tauchplätze, oder segeln Sie südwärts zu den abgelegenen Butang-Inseln nahe Malaysia. Perfekt für alle, die eine tiefere Erkundung der Andamanensee suchen."
+        }
+      }
+    },
+    "conditions": {
+      "label": "Segelbedingungen",
+      "title": "Bareboat-Segelbedingungen in Phuket — Saison, Wind und Seegang nach Monat",
+      "high": {
+        "months": "November — April",
+        "title": "Hochsaison-Segeln in Phuket — November bis April auf der Andamanensee",
+        "desc": "Während der Trockenzeit bietet die Andamanensee die besten Segelbedingungen mit klarem Himmel, stetigen Passatwinden und ruhigem Wasser. Dies ist die Hauptsaison, und obwohl die Inseln beliebter sind, ist es auch die beste Zeit für reibungsloses, angenehmes Segeln."
+      },
+      "low": {
+        "months": "Mai — Oktober",
+        "title": "Nebensaison-Segeln in Phuket — Mai bis Oktober und was es erfahrenen Seglern bietet",
+        "desc": "Die Nebensaison bringt stärkere Winde, gelegentliche Böen und weniger Touristen. Obwohl die Bedingungen anspruchsvoller sein können, bieten die leeren Ankerplätze und reduzierten Flottenkosten erfahrenen Seglern die Möglichkeit, abgelegene Inseln zu erkunden und wahre Einsamkeit auf dem Wasser zu genießen."
+      },
+      "navigation": {
+        "badge": "Navigation",
+        "title": "Törnplanung, Gezeiten und lokale Navigationshinweise",
+        "desc": "Beim Segeln in Phuket ist das Verständnis von Gezeiten und Strömungen entscheidend. Die Gezeitenkanäle der Phang Nga Bucht können zum Beispiel knifflig zu navigieren sein, aber mit der richtigen Vorbereitung bieten sie einige der lohnendsten Segelerlebnisse."
+      }
+    },
+    "vesselComparison": {
+      "label": "Schiffsvergleich",
+      "title": "Katamaran-Segeln vs. Einrumpf-Segeln in Phuket",
+      "catamaran": {
+        "name": "Katamaran",
+        "title": "Katamaran-Segeln in Phuket — Geringer Tiefgang, Stabilität und Leben an Bord",
+        "desc": "Katamarane sind die ideale Wahl zum Segeln in Phuket. Ihr geringer Tiefgang ermöglicht es, abgelegene Strände zu erreichen, und ihre Stabilität sorgt für ein reibungsloses Segelerlebnis — perfekt für Familien und alle, die Komfort bevorzugen, ohne auf Leistung zu verzichten."
+      },
+      "monohull": {
+        "name": "Einrumpf",
+        "title": "Einrumpf-Segeln in Phuket — Klassisches Gefühl in erstklassigen Gewässern",
+        "desc": "Für alle, die ein traditionelles Segelerlebnis suchen, bieten Einrumpfboote ein agileres Segelerlebnis. Sie bieten hervorragende Leistung am Wind und sind perfekt für erfahrenere Segler, die die wahre Kunst des Segelns erleben möchten."
+      },
+      "whichHull": {
+        "title": "Welcher Rumpf ist sinnvoller für Bareboat-Segeln in der Andamanensee?",
+        "catamaran": "Bietet Stabilität und Komfort mit mehr Platz.",
+        "monohull": "Bietet klassisches Segeln mit besserer Leistung am Wind. Einrumpfboote sind in der Regel günstiger zu chartern als Katamarane.",
+        "choiceLabel": "Ihre Wahl",
+        "choiceDesc": "Die Wahl des richtigen Schiffs hängt von Ihrem Segelstil, Ihrer Gruppengröße und Erfahrung ab."
+      }
+    },
+    "fleet": {
+      "label": "Unsere Flotte",
+      "title": "Die verfügbare Bareboat-Segelflotte in Phuket",
+      "heroCaption": "Unsere Flotte aus Katamaranen und Einrumpfbooten ist für diejenigen konzipiert, die die Andamanensee in Komfort genießen möchten.",
+      "guests": "Gäste",
+      "from": "Ab",
+      "week": "Woche",
+      "viewDetails": "Details ansehen",
+      "catamarans": {
+        "heading": "Bareboat-Katamarane",
+        "models": "Lagoon 42, Lagoon 45 und Fountaine Pajot 47",
+        "desc": "Unsere Flotte von Katamaranen ist für diejenigen konzipiert, die die Andamanensee in Komfort genießen möchten. Mit großen Decks, geräumigen Kabinen und geringem Tiefgang bieten diese Yachten die perfekte Basis für Ihr Segelabenteuer."
+      },
+      "monohulls": {
+        "heading": "Bareboat-Einrumpf-Segelyachten",
+        "models": "Bavaria 33, 34, 39 und 45",
+        "desc": "Für ein klassisches Segelerlebnis sind unsere Einrumpfboote die perfekte Wahl. Mit agiler Handhabung und einem traditionelleren Segelgefühl sind diese Schiffe ideal für alle, die eine Herausforderung auf dem Wasser suchen."
+      },
+      "choosing": {
+        "title": "Wählen Sie Ihre Yacht für Bareboat-Segeln in Phuket",
+        "subtitle": "Die Wahl der richtigen Yacht ist entscheidend für ein erfolgreiches Bareboat-Erlebnis.",
+        "groupSize": {
+          "label": "Gruppengröße",
+          "desc": "Kleinere Yachten für Paare oder Freunde, größere Katamarane für Familien."
+        },
+        "sailingStyle": {
+          "label": "Segelstil",
+          "desc": "Katamarane für Stabilität und Platz, Einrumpfboote für Leistung."
+        },
+        "budget": {
+          "label": "Budget",
+          "desc": "Wählen Sie nach Ihren Bedürfnissen, von praktisch bis premium."
+        },
+        "cta": "Kontaktieren Sie uns, um Verfügbarkeit und Termine zu prüfen."
+      }
+    },
+    "included": {
+      "label": "Charter-Details",
+      "title": "Was ist beim Bareboat-Segeln in Phuket enthalten — und was kostet extra",
+      "whatsIncluded": {
+        "title": "Was in Ihrem Bareboat-Segeltörn enthalten ist",
+        "desc": "Ihr Bareboat-Charter beinhaltet alles, was Sie für ein reibungsloses Segelerlebnis brauchen: voll ausgestattete Yacht, Seekarten, Sicherheitsausrüstung, Beiboot mit Außenbordmotor, Schnorchelausrüstung und ein umfassendes Briefing vor der Abreise."
+      },
+      "whatsExtra": {
+        "title": "Was nicht enthalten ist — und wofür Sie einplanen sollten",
+        "desc": "Treibstoff, Verpflegung, Nationalparkgebühren (300–400 THB pro Person) und eine Kaution sind nicht im Preis enthalten. Alkoholische Getränke und optionale Extras (wie ein Skipper für den ersten Tag) verursachen zusätzliche Kosten."
+      },
+      "addOns": {
+        "title": "Optionale Zusatzleistungen für Ihren Bareboat-Segeltörn",
+        "desc": "Sie können einen Skipper für Ihren ersten Tag hinzubuchen, Unterstützung bei der Verproviantierung anfordern (Supermarktstopp vor dem Einsteigen) und sogar zusätzliche Wasserspielzeuge für Ihre Reise buchen. Anpassbar nach Ihren Wünschen."
+      }
+    },
+    "booking": {
+      "label": "Buchungsinformationen",
+      "title": "Bareboat-Segeln Phuket — Lizenz, Preise und Buchung",
+      "pricing": {
+        "title": "Bareboat-Segeln Phuket — Preise nach Schiff und Saison",
+        "subtitle": "Die Preise variieren je nach Schiff und Saison:",
+        "note": "Hinweis: Hochsaison-Preise (Nov–Apr) sind höher; Nebensaison-Rabatte (Mai–Okt) verfügbar."
+      },
+      "licence": {
+        "title": "Lizenzanforderungen für Bareboat-Segeln in Phuket",
+        "desc": "Für Bareboat-Segeln in Phuket benötigen Sie einen gültigen Kapitänsschein (z.B. RYA, ASA, IYT) und ein UKW-Funkzeugnis. Sie müssen außerdem mindestens zwei Wochen Erfahrung auf einem ähnlichen Schiff nachweisen. Reichen Sie Ihre Dokumente für die Versicherungs- und Terminbestätigung ein.",
+        "req1": "Gültiger Kapitänsschein (RYA, ASA, IYT oder gleichwertig)",
+        "req2": "UKW-Funkzeugnis",
+        "req3": "Mindestens 2 Wochen Erfahrung auf einem ähnlichen Schiff",
+        "req4": "Dokumenteneinreichung zur Versicherungsbestätigung"
+      },
+      "steps": {
+        "title": "So buchen Sie Ihren Bareboat-Segeltörn in Phuket",
+        "subtitle": "Der Buchungsprozess ist einfach:\nFür die Buchung kontaktieren Sie uns per Telefon, WhatsApp oder E-Mail.",
+        "step1": { "title": "Daten teilen", "desc": "Teilen Sie Ihre bevorzugten Daten und Ihr Wunschschiff mit." },
+        "step2": { "title": "Lizenz einreichen", "desc": "Reichen Sie Ihre Lizenzdokumente ein." },
+        "step3": { "title": "Buchung bestätigen", "desc": "Bestätigen Sie Ihre Buchung mit einer Anzahlung." },
+        "step4": { "title": "Leinen los", "desc": "Erhalten Sie Ihr Abfahrtsbriefing in der Chalong Bay." }
+      },
+      "ctaQuote": "Kostenloses Bareboat-Angebot anfordern"
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "FAQ — Bareboat-Segeln in Phuket",
+      "questions": {
+        "isPhuketGood": {
+          "q": "Ist Phuket gut für Bareboat-Segeln?",
+          "a": "Ja, Phuket ist ein hervorragendes Ziel für Bareboat-Segeln und bietet beständige Passatwinde, atemberaubende Küstenlandschaften und einfachen Zugang zu ikonischen Orten wie den Phi Phi-Inseln, der Phang Nga Bucht und Koh Lipe.\n\nMit seinen geschützten Buchten und der Vielfalt an Inseln zum Erkunden bietet Phuket die perfekten Bedingungen für unabhängiges Segeln, egal ob Sie ein erfahrener Skipper sind oder Ihr erstes Bareboat-Abenteuer antreten."
+        },
+        "bestRoutes": {
+          "q": "Was sind die besten Segelrouten ab Phuket?",
+          "a": "Die beliebtesten Segelrouten ab Phuket umfassen die Phang Nga Bucht, die Phi Phi-Inseln und die abgelegenen Koh Lipe und Butang-Inseln, die jeweils ein völlig anderes und lohnendes Erlebnis auf dem Wasser bieten.\n\nDie Phang Nga Bucht ist besonders beeindruckend, mit ihren imposanten Kalksteinkarsten und versteckten Meereshöhlen. Für eine anspruchsvollere Passage bieten die Similan-Inseln und Koh Rok unberührte Riffe und abgelegene Ankerplätze, die die zusätzlichen Seemeilen wert sind."
+        },
+        "bestTime": {
+          "q": "Was ist die beste Jahreszeit für Bareboat-Segeln in Phuket?",
+          "a": "Die beste Zeit für Bareboat-Segeln in Phuket ist von November bis April, während der Trockenzeit, wenn ruhige See, stetige Passatwinde und klarer Himmel die günstigsten Bedingungen für angenehmes Segeln schaffen.\n\nDie Spitzenzeit liegt zwischen Dezember und März und bietet das zuverlässigste Wetter. Wenn Sie ruhigere Ankerplätze bei nahezu identischen Bedingungen bevorzugen, sind November oder April hervorragende Alternativen mit weniger Booten auf dem Wasser."
+        },
+        "vsMediterranean": {
+          "q": "Wie ist das Segeln in Phuket im Vergleich zum Mittelmeer?",
+          "a": "Das Segeln in Phuket bietet eine exotischere, tropische Alternative zum Mittelmeer, mit warmen Gewässern der Andamanensee, unberührten Inseln und abgelegenen Ankerplätzen, die sich wie eine andere Welt im Vergleich zu den geschäftigeren europäischen Segelhochburgen anfühlen.\n\nIm Gegensatz zur überfüllten Sommersaison des Mittelmeers bleiben die Inseln Phukets relativ friedlich, besonders außerhalb der Spitzenmonate. Die üppigen, dschungelbedeckten Landschaften und das reiche Meeresleben verleihen der Region einen Charakter, der in Europa wirklich schwer zu finden ist."
+        },
+        "catamaranAndaman": {
+          "q": "Wie ist es, einen Katamaran in der Andamanensee zu segeln?",
+          "a": "Das Segeln eines Katamarans in der Andamanensee ist ein sanftes und komfortables Erlebnis, dank der Stabilität des Schiffs, des geringen Tiefgangs und des geräumigen Layouts — ideal für Inselhopping in Phukets wunderschönen Segelrevieren.\n\nDas Zweirumpf-Design ermöglicht den Zugang zu flachen Lagunen, die Einrumpfboote nicht erreichen können, was die Erkundung versteckter Ecken der Küste erleichtert. Ob Sie gemütliches Segeln oder sportlichere Passagen suchen, ein Katamaran verhält sich in diesen Gewässern hervorragend."
+        },
+        "similan": {
+          "q": "Kann ich die Similan-Inseln bei einem Bareboat-Segeltörn ab Phuket erreichen?",
+          "a": "Ja, die Similan-Inseln sind mit einem Bareboat ab Phuket leicht erreichbar, wobei die Passage je nach Windbedingungen etwa 3–4 Stunden dauert — ein machbarer und lohnender Hochseesegeltörn.\n\nDie Similan-Inseln sind eines der renommiertesten Tauchziele Thailands, mit kristallklarem Wasser und lebendigen Korallenriffen. Die Passage auf offener See ist selbst ein Highlight und bietet hervorragende Segelbedingungen während der gesamten Trockenzeit."
+        },
+        "highSeason": {
+          "q": "Welche Segelbedingungen kann ich in der Hochsaison in Phuket erwarten?",
+          "a": "In der Hochsaison Phukets erwarten Sie ruhige See, stetige Nordost-Monsunwinde, warme Temperaturen und hervorragende Sicht — ideale Bedingungen für das Segeln zwischen den Inseln und Schnorcheln unterwegs.\n\nDies ist die beliebteste Zeit auf dem Wasser, daher können sich die belebteren Ankerplätze um Phi Phi und die Phang Nga Bucht schnell füllen. Früh am gewählten Halt anzukommen ist immer eine gute Idee, um sich die beste Position zu sichern."
+        },
+        "kingsCup": {
+          "q": "Was ist die King's Cup Regatta in Phuket?",
+          "a": "Die King's Cup Regatta ist eines der prestigeträchtigsten Segelereignisse Asiens, das jährlich im Dezember in Phuket stattfindet und internationale Segler in mehreren Klassen anzieht, einschließlich einer speziellen Bareboat-Kategorie.\n\nDie Veranstaltung hat eine starke Anhängerschaft unter Wettkampfseglern und Segelbegeisterten gleichermaßen und ist eine wunderbare Gelegenheit, Phukets lebendige Segelkultur hautnah zu erleben. Auch wenn Sie nicht an Rennen teilnehmen, ist die Atmosphäre rund um die Regatta einen Besuch wert."
+        },
+        "vsCrewed": {
+          "q": "Was ist der Unterschied zwischen Bareboat-Segeln und einem Charter mit Crew?",
+          "a": "Ein Bareboat-Charter bedeutet, dass Sie die Yacht selbstständig segeln, während ein Charter mit Crew eine professionelle Besatzung umfasst, die sich um das gesamte Segeln, die Navigation und den Service an Bord während Ihrer Reise kümmert.\n\nBareboat-Charter eignen sich für erfahrene Segler, die die Freiheit und Autonomie wünschen, ihren eigenen Törn zu führen. Ein Charter mit Crew bietet einen entspannteren Urlaub, bei dem alles organisiert wird — ideal für alle, die das Reiseziel genießen möchten, ohne die Verantwortung des Skipperns."
+        },
+        "licence": {
+          "q": "Welchen Schein brauche ich für Bareboat-Segeln in Phuket?",
+          "a": "Für Bareboat-Segeln in Phuket benötigen Sie einen gültigen Kapitänsschein wie RYA, ASA, IYT oder eine gleichwertige Qualifikation, zusammen mit einem UKW-Funkzeugnis und mindestens zwei Wochen Erfahrung auf einem ähnlichen Schiff.\n\nDies stellt sicher, dass Sie vollständig auf die Herausforderungen des unabhängigen Segelns in der Andamanensee vorbereitet sind. Sobald Sie Ihre Qualifikationen in Ordnung haben, sind Sie bereit, Phukets wunderschöne Segelreviere mit Zuversicht in Angriff zu nehmen."
+        },
+        "cost": {
+          "q": "Was kostet Bareboat-Segeln in Phuket?",
+          "a": "Bareboat-Segeln in Phuket beginnt ab 1.770 €/Woche für eine Bavaria 33 und ab 4.790 €/Woche für eine Lagoon 42, wobei die Preise je nach Schiffsgröße, Ausstattung und Jahreszeit variieren.\n\nDie Tarife sind während der Hochsaison von November bis April höher, während in der Nebensaison von Mai bis Oktober Rabatte verfügbar sind. Kontaktieren Sie uns direkt für ein genaues Angebot basierend auf Ihrer bevorzugten Yacht und Ihren Reisedaten."
+        },
+        "included": {
+          "q": "Was ist in einem Bareboat-Segeltörn in Phuket enthalten?",
+          "a": "Ihr Bareboat-Charter in Phuket beinhaltet eine voll ausgestattete Yacht, Sicherheitsausrüstung, Beiboot mit Außenbordmotor, Seekarten, Schnorchelausrüstung und ein umfassendes Briefing vor der Abreise, damit Sie mit Zuversicht in See stechen können.\n\nAlles wird vor Ihrem Einstieg vorbereitet und überprüft, sodass Sie sich keine Sorgen um die Einrichtung machen müssen. Sie kommen einfach an, absolvieren Ihr Briefing und fahren los, um die Inseln ganz in Ihrem eigenen Tempo zu erkunden."
+        },
+        "skipperFirstDay": {
+          "q": "Kann ich einen Skipper für den ersten Tag meines Bareboat-Segeltörns haben?",
+          "a": "Ja, Sie können einen Skipper für Ihren ersten Tag auf dem Wasser engagieren — eine beliebte Option für Segler, die sich erst an das Boot gewöhnen und mit den örtlichen Bedingungen vertraut machen möchten, bevor sie die volle unabhängige Kontrolle übernehmen.\n\nNach dem ersten Tag segeln Sie ganz nach Ihren eigenen Vorstellungen weiter. Es ist eine großartige Möglichkeit, Vertrauen aufzubauen, die Systeme der Yacht kennenzulernen und sich mit den wichtigsten Navigationspunkten rund um Phuket vertraut zu machen, bevor Sie allein lossegeln."
+        },
+        "badWeather": {
+          "q": "Was passiert bei schlechtem Wetter während eines Bareboat-Segeltörns in Phuket?",
+          "a": "Wenn während Ihrer Reise schlechtes Wetter aufkommt, wird unser Team mit Ihnen zusammenarbeiten, um geschützte Routen zu finden oder Ihre Pläne umzuplanen. Wenn die Bedingungen wirklich unsicher sind, bieten wir eine vollständige Erstattung oder Umbuchung ohne Strafe an.\n\nIhre Sicherheit hat immer Priorität. Wir überwachen die Wetterbedingungen während Ihres gesamten Charters genau und bleiben in Kontakt, um sicherzustellen, dass Sie nie unvorbereitet sind. Die Segelsaison in Phuket ist im Allgemeinen sehr zuverlässig, aber wir sind immer bereit, schnell zu handeln, wenn sich die Bedingungen ändern."
+        },
+        "licence2": {
+          "q": "Welchen Schein brauche ich für Bareboat-Segeln in Phuket?",
+          "a": "Für Bareboat-Segeln in Phuket müssen Sie einen gültigen Kapitänsschein wie RYA, ASA, IYT oder gleichwertig besitzen, zusammen mit einem UKW-Funkzeugnis und mindestens zwei Wochen Segelerfahrung auf einem ähnlichen Schiff.\n\nSobald Sie Ihre Dokumente eingereicht haben, wird unser Team diese prüfen und Ihre Berechtigung zum Segeln bestätigen, um sicherzustellen, dass alles rechtzeitig vor Ihrem Abreisedatum in Ordnung ist."
+        }
+      }
+    },
+    "finalCta": {
+      "label": "Starten Sie Ihr Abenteuer",
+      "title": "Bereit zum Segeln?",
+      "description": "Beginnen Sie noch heute mit der Planung Ihres Bareboat-Segelabenteuers in Phuket. Unser Team ist bereit, Ihnen zu helfen, unvergessliche Erinnerungen auf der Andamanensee zu schaffen.",
+      "ctaQuote": "Kostenloses Bareboat-Angebot anfordern",
+      "ctaWhatsApp": "WhatsApp"
     }
   }
 }

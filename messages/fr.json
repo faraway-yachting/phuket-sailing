@@ -16,7 +16,8 @@
     "catamaranCharter": "Charter Catamaran",
     "luxuryYachtCharter": "Location de Yacht de Luxe",
     "cabinCruise": "Croisière Cabine",
-    "overnightSailing": "Navigation de Nuit"
+    "overnightSailing": "Navigation de Nuit",
+    "bareboatSailing": "Voile Bareboat"
   },
   "hero": {
     "title": "Phuket Sailing",
@@ -1544,6 +1545,566 @@
           "a": "Pendant la haute saison (décembre-mars), il est recommandé de réserver au moins 2 à 4 semaines à l'avance. Pour Noël et le Nouvel An, nous suggérons de réserver 2 à 3 mois à l'avance. Pour la meilleure sélection, réserver tôt est toujours recommandé, surtout pour les croisières cabine multi-jours."
         }
       }
+    }
+  },
+  "overnightCharter": {
+    "hero": {
+      "title": "Croisière à la voile de nuit à Phuket – Catamaran privé sur la mer d'Andaman",
+      "description": "Montez à bord d'un catamaran privé pour une aventure inoubliable de navigation de nuit à Phuket. Explorez les îles préservées de la mer d'Andaman, notamment Phi Phi, Koh Rok, Koh Ha et Koh Lipe, tout en profitant d'un confort et d'une intimité absolus.",
+      "cta": "Obtenez un devis gratuit",
+      "badges": "850+ avis cinq étoiles | 30 ans sur la mer d'Andaman | Agréé par l'Autorité du Tourisme de Thaïlande | Lauréat des World Luxury Travel Awards 2025"
+    },
+    "ctaBanner": {
+      "title": "Vous planifiez une croisière à la voile de nuit à Phuket ?",
+      "text": "Partagez vos dates, la taille de votre groupe et vos souhaits — nous vous enverrons un itinéraire personnalisé et un devis sous 24 heures. Sans engagement.",
+      "cta": "Obtenez un devis gratuit pour une croisière de nuit",
+      "whatsapp": "WhatsApp"
+    },
+    "whatIs": {
+      "title": "Qu'est-ce qu'une croisière à la voile de nuit à Phuket ?",
+      "description": "Une croisière à la voile de nuit à Phuket offre une expérience de navigation privée et luxueuse, où vous pouvez explorer la splendide mer d'Andaman à votre rythme. Cette croisière exclusive vous permet de visiter des îles reculées, de la baie de Phang Nga aux îles Similan ou Phi Phi jusqu'aux îles Butang, tout en étant entièrement pris en charge par un équipage professionnel. Que vous recherchiez l'aventure ou la détente, une croisière de nuit vous offre la liberté de découvrir la beauté des eaux de Phuket dans un confort total.",
+      "cards": {
+        "yacht": {
+          "title": "Un voilier ou catamaran privé, avec équipage complet et tout inclus",
+          "description": "Chaque croisière de nuit comprend un skipper agréé, un chef à bord et un matelot, pour que vous puissiez profiter du voyage sans lever le petit doigt. Tous les repas sont préparés frais à bord et votre itinéraire est personnalisé selon vos préférences. Des plages isolées aux récifs coralliens éclatants, votre expérience est conçue pour le confort et l'aventure."
+        },
+        "sunrise": {
+          "title": "Une journée sur la mer d'Andaman — Du mouillage au lever du soleil à la navigation au coucher du soleil",
+          "description": "Commencez votre journée par un petit-déjeuner paisible au mouillage tandis que le soleil se lève sur la mer d'Andaman. Après une baignade ou un snorkeling rafraîchissant, vous naviguerez vers votre prochaine destination, explorant des criques cachées et des îles privées. Sans précipitation ni programme rigide, la journée se déroule naturellement, avec amplement de temps pour se détendre sur le pont, savourer un dîner privé sous les étoiles et se réveiller dans un endroit magnifique et différent chaque matin."
+        },
+        "vsDay": {
+          "title": "Croisière de nuit vs. excursion à la journée à Phuket",
+          "dayLabel": "Excursion à la journée :",
+          "dayText": "Limitée à quelques heures de navigation, avec une heure de retour fixe.",
+          "overnightLabel": "Croisière de nuit :",
+          "overnightText": "Offre la liberté de mouiller près d'îles isolées, d'admirer le coucher du soleil et de se réveiller dans la tranquillité de la mer, tout en profitant du luxe d'une expérience privée tout inclus."
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Pourquoi choisir une croisière à la voile de nuit à Phuket ?",
+      "subtitle": "Une croisière de nuit à Phuket vous offre bien plus que de beaux paysages. C'est le rythme, l'espace et l'authenticité de l'expérience de navigation qui font la différence. Découvrez pourquoi la navigation de nuit est la meilleure façon d'explorer les îles de Phuket.",
+      "benefits": {
+        "remoteIslands": {
+          "title": "Des îles et mouillages inaccessibles en excursion à la journée",
+          "description": "Les croisières de nuit vous permettent de visiter des îles cachées comme Koh Rok, Koh Ha et les îles Butang, où les excursions d'une journée ne peuvent pas aller. Ces îles offrent des eaux cristallines, des récifs coralliens éclatants et des plages isolées où vous pouvez fuir la foule et profiter de moments privés avec vos proches."
+        },
+        "freedom": {
+          "title": "Le rythme de la vraie navigation — Pas de précipitation, pas de programme",
+          "description": "Contrairement aux circuits traditionnels, une croisière de nuit vous offre la flexibilité d'explorer à votre rythme. Passez plus de temps à chaque escale, que vous nagez, fassiez du snorkeling, du kayak ou que vous vous détendiez simplement sur le pont. La beauté de la navigation de nuit, c'est qu'il n'y a pas besoin de se presser."
+        },
+        "crowds": {
+          "title": "En avance sur la foule, chaque matin",
+          "description": "En restant la nuit, vous profitez des îles avant l'arrivée des foules. Levez-vous tôt pour découvrir Phi Phi et Koh Hong dans leur état le plus paisible, sans touristes alentour. Ces matinées offrent une expérience exclusive et sereine à laquelle les excursionnistes d'un jour n'ont tout simplement pas accès."
+        }
+      }
+    },
+    "routes": {
+      "title": "Itinéraires et routes de croisière de nuit depuis Phuket",
+      "subtitle": "Choisissez parmi une variété d'itinéraires conçus pour s'adapter à votre temps disponible et vos préférences. Que vous recherchiez une escapade courte ou une exploration approfondie, nos croisières de nuit offrent quelque chose pour tout le monde.",
+      "recommended": "Recommandé",
+      "items": {
+        "oneTwo": {
+          "title": "Croisière de nuit 1–2 nuits à Phuket",
+          "description": "Pour ceux qui disposent de peu de temps, cet itinéraire est parfait. Explorez les îles Phi Phi et les îles Racha, où vous profiterez du meilleur des eaux de Phuket en seulement quelques jours. C'est une excellente option pour les navigateurs débutants ou les voyageurs qui veulent une escapade rapide.",
+          "guests": "2–4 invités",
+          "ideal": "Idéal pour les escapades courtes ou les navigateurs débutants",
+          "price": "À partir de 1 000 €/nuit"
+        },
+        "threeFour": {
+          "title": "Croisière à la voile 3–4 nuits à Phuket",
+          "description": "Une croisière de 3–4 nuits vous donne plus de temps pour explorer Phi Phi, Koh Lanta et Koh Muk. Cet itinéraire offre un mélange équilibré d'aventure et de détente, parfait pour les familles et les petits groupes.",
+          "guests": "4–6 invités",
+          "ideal": "Excellent pour les familles et les petits groupes",
+          "price": "À partir de 1 500 €/nuit"
+        },
+        "five": {
+          "title": "Croisière de nuit 5 nuits à Phuket",
+          "description": "La croisière de 5 nuits est notre option la plus recommandée, car elle offre amplement de temps pour visiter Koh Rok, Koh Ha et d'autres îles reculées. C'est le meilleur rapport qualité-prix pour ceux qui recherchent une exploration approfondie de la mer d'Andaman.",
+          "guests": "4–8 invités",
+          "ideal": "Meilleur rapport qualité-prix pour une expérience complète",
+          "price": "À partir de 1 800 €/nuit"
+        },
+        "sevenPlus": {
+          "title": "Expédition 7+ nuits — Îles Similan et Koh Lipe",
+          "description": "Pour l'aventure ultime, une expédition de 7 nuits et plus vous emmène aux îles Similan, Koh Lipe et l'archipel Butang. Ces îles sont parfaites pour les navigateurs expérimentés et les voyageurs aventureux en quête de destinations hors des sentiers battus.",
+          "guests": "6–12 invités",
+          "ideal": "Idéal pour les navigateurs chevronnés et les explorateurs",
+          "price": "À partir de 2 500 €/nuit"
+        }
+      }
+    },
+    "destinations": {
+      "title": "Destinations insulaires lors d'une croisière de nuit à Phuket",
+      "subtitle": "Chaque destination de votre croisière offre quelque chose d'unique. Que vous recherchiez des récifs vibrants, des plages reculées ou des lagons calmes, ces îles vous couperont le souffle.",
+      "items": {
+        "phiPhi": {
+          "title": "Îles Phi Phi et Maya Bay",
+          "subtitle": "Croisière de nuit depuis Phuket",
+          "description": "Les îles Phi Phi sont célèbres pour leurs falaises calcaires majestueuses et leurs récifs coralliens vibrants. Passez la nuit au mouillage à Maya Bay et réveillez-vous dans sa beauté sereine avant l'arrivée des excursionnistes.",
+          "price": "À partir de 1 000 €/nuit",
+          "detail": "Excursion à la journée ou nuit"
+        },
+        "phangNga": {
+          "title": "Baie de Phang Nga et Koh Hong",
+          "subtitle": "Grottes calcaires et lagons cachés",
+          "description": "La baie de Phang Nga abrite l'île James Bond et de nombreuses autres formations calcaires. Explorez les grottes et lagons de Koh Hong en kayak et découvrez des endroits cachés que peu de touristes ont l'occasion de voir.",
+          "price": "À partir de 1 000 €/nuit",
+          "detail": "3–4 heures depuis Phuket"
+        },
+        "kohRok": {
+          "title": "Koh Rok et Koh Ha",
+          "subtitle": "Joyaux cachés de la mer d'Andaman",
+          "description": "Connues pour leurs récifs coralliens magnifiques et leurs eaux cristallines, Koh Rok et Koh Ha sont idéales pour ceux qui recherchent une escapade paisible. Ces îles offrent des plages isolées et une vie marine éclatante, parfaites pour le snorkeling et la plongée.",
+          "price": "À partir de 1 200 €/nuit",
+          "detail": "4+ nuits depuis Phuket"
+        },
+        "kohLipe": {
+          "title": "Koh Lipe et les îles Butang",
+          "subtitle": "Navigation dans le sud reculé de la Thaïlande",
+          "description": "Situées près de la frontière malaisienne, Koh Lipe et les îles Butang offrent une beauté préservée et l'isolement. Ces îles sont parfaites pour un voyage plus long et plus aventureux.",
+          "price": "À partir de 1 200 €/nuit",
+          "detail": "7+ nuits pour l'expérience complète"
+        },
+        "racha": {
+          "title": "Îles Racha et Coral Island",
+          "subtitle": "Croisière de nuit proche de Phuket",
+          "description": "Si vous recherchez une escapade rapide proche de Phuket, les îles Racha offrent des eaux cristallines et de belles plages, parfaites pour des croisières de 1–2 nuits.",
+          "price": "À partir de 1 200 €/nuit",
+          "detail": "1–3 heures depuis Phuket"
+        },
+        "similan": {
+          "title": "Bamboo Island et Îles Similan",
+          "subtitle": "Paradis des plongeurs à la voile",
+          "description": "Pour les plongeurs, les îles Similan et Bamboo Island sont des destinations incontournables, offrant des expériences de plongée de classe mondiale. Ces îles sont parfaites pour les croisières plus longues, où vous pourrez explorer certains des écosystèmes sous-marins les plus vibrants de Thaïlande.",
+          "price": "À partir de 1 500 €/nuit",
+          "detail": "Croisière 3+ nuits pour passionnés de plongée"
+        }
+      }
+    },
+    "fleet": {
+      "title": "Catamarans à voile pour croisière de nuit à Phuket",
+      "subtitle": "Notre flotte de catamarans offre confort, stabilité et éco-efficacité. Que vous recherchiez une escapade privée ou une aventure entre amis, nos bateaux sont conçus pour offrir la meilleure expérience en mer.",
+      "benefit1": {
+        "title": "Catamarans à voile conçus pour la croisière — Espace, stabilité et confort",
+        "description": "Les catamarans sont parfaits pour la navigation de nuit grâce à leurs larges ponts, leur stabilité et leur faible tirant d'eau, qui permet d'accéder à des lagons et des criques cachés inaccessibles aux plus gros bateaux. Ils sont écologiques, offrant une consommation de carburant efficace pour les longs trajets."
+      },
+      "benefit2": {
+        "title": "Cabines privées, salles de bain privatives et équipements de qualité à bord",
+        "description": "Nos catamarans sont équipés de cabines privées, de salles de bain privatives et d'espaces de vie spacieux. Vous disposerez de beaucoup d'espace pour vous détendre, et les équipements à bord garantissent un confort maximal pendant que vous explorez les îles de Phuket."
+      },
+      "fleetTitle": "Options de flotte du milieu de gamme au luxe pour la navigation de nuit",
+      "vessels": {
+        "hotChilli": {
+          "name": "Hot Chilli",
+          "description": "Une option économique idéale pour les couples ou les petits groupes. Confortable et moderne, parfait pour les escapades courtes.",
+          "price": "À partir de 1 000 €/nuit"
+        },
+        "amadeus": {
+          "name": "Amadeus",
+          "description": "Un catamaran milieu de gamme qui offre l'équilibre parfait entre luxe et confort, idéal pour les familles et les petits groupes.",
+          "price": "À partir de 1 500 €/nuit"
+        },
+        "nauti": {
+          "name": "Nauti by Nature",
+          "tag": "LUXE",
+          "description": "Un catamaran de luxe pour ceux qui recherchent une expérience haut de gamme, offrant des équipements premium et des espaces de vie spacieux.",
+          "price": "À partir de 2 500 €/nuit"
+        }
+      },
+      "viewFleet": "Voir la flotte complète"
+    },
+    "included": {
+      "title": "Ce qui est inclus dans une croisière de nuit à Phuket",
+      "subtitle": "Chaque croisière comprend un équipage complet et est tout inclus, vous assurant d'avoir tout ce dont vous avez besoin pour une aventure relaxante et inoubliable.",
+      "crew": {
+        "title": "Équipage, chef et capitaine professionnel tout au long du séjour",
+        "description": "Votre croisière comprend un skipper agréé, un chef à bord et un matelot, tous avec une connaissance approfondie de la mer d'Andaman. Vous n'avez à vous soucier de rien d'autre que de profiter de votre voyage."
+      },
+      "activities": {
+        "title": "Tous les repas, équipement de snorkeling et activités nautiques",
+        "description": "Savourez des repas fraîchement préparés à bord, incluant des spécialités thaïlandaises et des options internationales. Nous fournissons également des équipements de snorkeling, kayaks, paddleboards et plus encore pour le plaisir nautique."
+      },
+      "extra": {
+        "title": "Ce qui n'est généralement pas inclus dans les croisières de nuit",
+        "description": "Les seuls coûts supplémentaires sont les frais de parc national, généralement autour de 300-400 THB par personne, et les boissons alcoolisées. Tout le reste est inclus dans votre tarif, sans frais cachés."
+      }
+    },
+    "occasions": {
+      "title": "Croisière de nuit à Phuket pour couples et lunes de miel",
+      "description": "Une croisière de nuit à Phuket est l'escapade romantique parfaite, offrant intimité, aventure et luxe en une seule expérience.",
+      "honeymoon": {
+        "title": "Une croisière de lune de miel à Phuket — Incomparable à toute expérience en resort",
+        "description": "Rien ne se compare à passer votre lune de miel sur un catamaran privé dans la mer d'Andaman. Profitez de dîners privés, de navigations au coucher du soleil et de plages isolées, tout en étant choyés par votre équipage professionnel."
+      },
+      "sunset": {
+        "title": "Navigation au coucher du soleil, dîners privés et mouillages tranquilles",
+        "description": "Imaginez savourer un dîner aux chandelles sur le pont, regarder le soleil se coucher sur l'océan, puis observer les étoiles sous un ciel dégagé. Ces moments intimes rendent votre lune de miel ou occasion spéciale inoubliable."
+      },
+      "proposals": {
+        "title": "Demandes en mariage, anniversaires et escapades romantiques à la voile",
+        "description": "Notre équipe peut vous aider à créer le cadre parfait pour des demandes en mariage, des anniversaires ou des escapades romantiques. Des fleurs privées aux gâteaux personnalisés et au service champagne, nous rendrons votre occasion spéciale vraiment mémorable."
+      }
+    },
+    "travelers": {
+      "title": "Croisière de nuit à Phuket — Idéale pour voyageurs solo, aventuriers et groupes",
+      "subtitle": "Que vous voyagiez seul pour découvrir la beauté de Phuket ou que vous recherchiez une expérience de groupe aventureuse, une croisière de nuit offre la flexibilité et l'excitation que vous recherchez. Voici pourquoi nos croisières conviennent à tous les types de voyageurs :",
+      "items": {
+        "solo": {
+          "title": "Voyageurs solo — Liberté et exploration",
+          "description": "Pour les aventuriers solitaires, une croisière de nuit offre la liberté d'explorer à votre rythme. Profitez de plages isolées, de récifs coralliens vibrants et de moments paisibles en mer. L'équipage s'occupe de tout pendant que vous vous concentrez sur votre voyage."
+        },
+        "adventure": {
+          "title": "Aventuriers — Des îles hors des sentiers battus vous attendent",
+          "description": "Une croisière de nuit vous permet de visiter des îles reculées comme les îles Similan et Koh Rok, inaccessibles aux plus gros bateaux. Plongez dans des eaux cristallines et explorez des criques préservées. La mer d'Andaman offre des aventures et explorations infinies."
+        },
+        "groups": {
+          "title": "Groupes de voyage — Une expérience partagée unique",
+          "description": "Pour les groupes, une croisière de nuit offre des yachts spacieux et confortables idéaux pour les expériences partagées. Que ce soit pour une occasion spéciale ou une escapade, votre groupe peut profiter de la compagnie de chacun dans un cadre détendu et privé. L'équipage s'occupe de tous les détails, garantissant une expérience mémorable pour tous."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Croisière de nuit à Phuket — Tarifs et réservation",
+      "costTitle": "Combien coûte une croisière de nuit à Phuket ?",
+      "costDescription": "Le coût d'une croisière de nuit à Phuket varie selon le type de bateau, la durée et la saison. Voici nos gammes de prix pour une expérience privée avec équipage complet :",
+      "tiers": {
+        "budget": {
+          "label": "ÉCONOMIQUE",
+          "name": "Hot Chilli",
+          "price": "1 000 €",
+          "per": "par nuit",
+          "description": "Idéal pour les couples ou les petits groupes recherchant une option confortable et abordable."
+        },
+        "mid": {
+          "label": "MILIEU DE GAMME",
+          "name": "Catamarans milieu de gamme",
+          "price": "1 500 €",
+          "per": "par nuit",
+          "description": "Parfait pour les familles ou les petits groupes, offrant un équilibre entre luxe et rapport qualité-prix."
+        },
+        "luxury": {
+          "label": "LUXE",
+          "name": "Catamarans de luxe",
+          "price": "2 500 €+",
+          "per": "par nuit",
+          "description": "Pour ceux qui recherchent l'expérience ultime avec des équipements premium et des services sur mesure."
+        }
+      },
+      "allIncluded": "Tous les prix incluent l'équipage, les repas, l'équipement de snorkeling, les activités nautiques et le carburant. Les frais de parc national et les boissons alcoolisées sont en supplément.",
+      "bestTimeTitle": "Quel est le meilleur moment pour naviguer de nuit à Phuket ?",
+      "bestTimeText": "Le meilleur moment pour une croisière de nuit à Phuket est entre novembre et avril. Cette période offre des mers calmes, un ciel dégagé et des vents réguliers, idéaux pour la navigation. De décembre à mars est la haute saison, il est donc vivement recommandé de réserver tôt pendant ces mois. Pour des prix plus bas et des eaux plus tranquilles, envisagez de naviguer pendant les mois intermédiaires de novembre et avril.",
+      "bookTitle": "Comment réserver votre croisière de nuit à Phuket",
+      "bookDescription": "Réserver votre croisière de nuit est simple. Suivez ces quatre étapes :",
+      "steps": {
+        "s1": { "title": "Sélectionnez votre bateau et itinéraire", "description": "Choisissez parmi notre sélection de bateaux économiques, milieu de gamme ou luxe. Indiquez-nous vos dates et destinations préférées, comme Phi Phi, Koh Lipe ou les îles Similan." },
+        "s2": { "title": "Devis et itinéraire personnalisés", "description": "Recevez un devis et un itinéraire personnalisés adaptés à la taille de votre groupe et à vos préférences. Nous travaillerons avec vous pour créer l'expérience de navigation parfaite." },
+        "s3": { "title": "Confirmez votre réservation", "description": "Une fois votre itinéraire et vos tarifs examinés, confirmez votre réservation en signant le contrat et en versant votre acompte. Votre capitaine, chef et matelot seront prêts à vous accueillir à bord." },
+        "s4": { "title": "Embarquez pour votre aventure", "description": "Après confirmation, nous vous enverrons tous les détails de votre croisière. Le jour de votre départ, votre équipage s'assurera que tout est prêt pour un voyage fluide et relaxant." }
+      }
+    },
+    "trustCta": {
+      "badges": {
+        "b1": "30 ans d'expertise en navigation dans la mer d'Andaman",
+        "b2": "850+ avis cinq étoiles de clients satisfaits du monde entier",
+        "b3": "Agréé par l'Autorité du Tourisme de Thaïlande",
+        "b4": "Lauréat des World Luxury Travel Awards 2025 pour l'excellence des expériences de navigation de luxe"
+      },
+      "title": "Prêt à découvrir la mer d'Andaman ?",
+      "description": "Obtenez votre devis personnalisé pour une croisière de nuit aujourd'hui et commencez à planifier l'aventure de votre vie.",
+      "cta": "Obtenez votre devis gratuit",
+      "whatsapp": "WhatsApp : +66 61 234 5623"
+    },
+    "faq": {
+      "title": "FAQ — Croisière de nuit à Phuket",
+      "questions": {
+        "cost": {
+          "q": "Combien coûte une croisière de nuit à Phuket ?",
+          "a": "Les croisières de nuit à Phuket commencent à 1 000 € par nuit pour un catamaran milieu de gamme. Les catamarans et yachts de luxe vont de 2 500 € à 5 000 € par nuit, selon la taille du bateau et les équipements. Les prix incluent généralement l'équipage, les repas, les activités nautiques et le carburant."
+        },
+        "islands": {
+          "q": "Quelles îles puis-je visiter lors d'une croisière de nuit depuis Phuket ?",
+          "a": "Vous pouvez visiter certaines des plus belles îles de Thaïlande, notamment les îles Phi Phi, Koh Lanta, Koh Rok, Koh Ha, Koh Lipe et les îles Similan. Ces destinations offrent des plages magnifiques, des récifs coralliens vibrants et des mouillages sereins, facilement accessibles en croisière de nuit."
+        },
+        "nights": {
+          "q": "Combien de nuits recommandez-vous pour une croisière de nuit à Phuket ?",
+          "a": "Une croisière de 3–4 nuits est idéale pour une expérience complète, vous permettant d'explorer plusieurs îles, dont Phi Phi, Koh Lanta et Koh Rok. Si vous manquez de temps, une croisière de 1–2 nuits est parfaite pour une escapade rapide, tandis qu'une croisière de 5 nuits ou plus est idéale pour une exploration approfondie des îles reculées comme Koh Lipe et les îles Similan."
+        },
+        "included": {
+          "q": "Qu'est-ce qui est inclus dans une croisière de nuit à Phuket ?",
+          "a": "Une croisière de nuit comprend un skipper agréé, un chef et un matelot. Tous les repas, l'équipement de snorkeling, les kayaks et les paddleboards sont fournis. Les prix couvrent également le carburant, l'amarrage et l'assurance accident, garantissant une expérience de navigation sans stress. Les frais de parc national et les boissons alcoolisées sont généralement en supplément."
+        },
+        "honeymoon": {
+          "q": "La croisière de nuit à Phuket est-elle adaptée pour une lune de miel ?",
+          "a": "Oui, la croisière de nuit à Phuket est un excellent choix pour les jeunes mariés. Elle offre intimité, couchers de soleil romantiques et mouillages isolés. Vous pouvez profiter de dîners privés sur le pont, de levers de soleil et de moments intimes, en faisant une expérience mémorable et unique par rapport aux resorts traditionnels."
+        },
+        "typicalDay": {
+          "q": "À quoi ressemble une journée type lors d'une croisière de nuit à Phuket ?",
+          "a": "Une journée type commence par un petit-déjeuner relaxant au mouillage, suivi de la navigation vers votre prochaine destination. Vous aurez du temps pour le snorkeling, la baignade et l'exploration de plages reculées. En fin de journée, savourez un dîner aux chandelles en regardant le coucher du soleil, suivi d'une nuit paisible au mouillage, et réveillez-vous dans un nouvel endroit serein."
+        },
+        "safety": {
+          "q": "La croisière de nuit à Phuket est-elle sûre ?",
+          "a": "Oui, la navigation de nuit à Phuket est très sûre. Les catamarans que nous utilisons sont stables, et les capitaines agréés sont expérimentés dans la navigation sur la mer d'Andaman. Nous fournissons également des équipements de sécurité et veillons à ce que votre voyage soit confortable et sécurisé, avec un équipage capable de gérer toute situation."
+        },
+        "vsCabin": {
+          "q": "Quelle est la différence entre une croisière de nuit et une croisière cabine à Phuket ?",
+          "a": "Une croisière de nuit offre une expérience privée et personnalisable avec un équipage dédié uniquement à vous et votre groupe. En revanche, une croisière cabine implique généralement un hébergement partagé avec d'autres passagers et un itinéraire fixe. Avec une croisière de nuit, vous profitez de plus de flexibilité, d'intimité et d'une expérience sur mesure."
+        },
+        "similan": {
+          "q": "Puis-je atteindre les îles Similan lors d'une croisière de nuit depuis Phuket ?",
+          "a": "Oui, les îles Similan sont accessibles lors de croisières de 5 nuits et plus depuis Phuket. Ces îles sont réputées pour leurs opportunités de plongée et de snorkeling, avec des récifs coralliens vibrants et des eaux claires. Les croisières plus longues vous permettent d'explorer ces zones reculées et protégées et de profiter de leur beauté préservée."
+        },
+        "food": {
+          "q": "Quelle nourriture est servie lors des croisières de nuit à Phuket ?",
+          "a": "Lors d'une croisière de nuit, les repas sont fraîchement préparés par votre chef à bord. Attendez-vous à des plats thaïlandais authentiques comme le pad thai, le curry vert et la soupe tom yum, ainsi que des fruits de mer frais et des fruits tropicaux. Les demandes alimentaires spéciales, comme les options végétariennes, véganes ou sans gluten, sont également prises en compte."
+        }
+      }
+    }
+  },
+  "bareboatSailing": {
+    "hero": {
+      "subtitle": "Aventures de navigation indépendante",
+      "title": "Navigation bareboat à Phuket — Naviguez sur votre propre yacht en mer d'Andaman",
+      "tagline": "",
+      "description": "Des lagons cachés à l'immensité de la mer d'Andaman, la navigation bareboat à Phuket vous permet de parcourir le littoral thaïlandais à votre rythme, avec des possibilités d'exploration infinies.",
+      "ctaQuote": "Obtenez un devis bareboat gratuit",
+      "ctaWhatsApp": "WhatsApp"
+    },
+    "ctaBlock": {
+      "label": "Commencez votre aventure bareboat de rêve",
+      "title": "Vous planifiez une croisière bareboat à Phuket ?",
+      "description": "Partagez vos dates, la taille de votre groupe et vos préférences — nous vous enverrons un itinéraire personnalisé et un devis sous 24 heures.",
+      "ctaQuote": "Obtenez un devis bareboat gratuit",
+      "ctaWhatsApp": "WhatsApp"
+    },
+    "whyPhuket": {
+      "label": "Pourquoi Phuket",
+      "title": "Pourquoi Phuket est l'une des meilleures destinations pour la navigation bareboat",
+      "description": "Phuket est célèbre pour son littoral magnifique, ses mers tranquilles et ses conditions de navigation favorables, ce qui en fait l'un des meilleurs endroits pour la navigation indépendante. Des lagons cachés aux majestueuses îles calcaires, la mer d'Andaman offre une beauté et une aventure incomparables pour les navigateurs en quête d'une expérience plus authentique.",
+      "cards": {
+        "islands": {
+          "title": "Un labyrinthe d'îles à l'échelle idéale pour la navigation bareboat",
+          "desc": "Phuket est entourée de 6 îles à couper le souffle accessibles en moins de 15 heures de navigation à 7 nœuds, chacune plus belle que la précédente. Avec des distances gérables entre les mouillages, c'est l'endroit parfait pour ceux qui recherchent une véritable expédition à la voile. Des îles Phi Phi à l'isolé Koh Rok, vous trouverez toujours une nouvelle aventure juste derrière l'horizon."
+        },
+        "anchorages": {
+          "title": "Des mouillages que les bateaux touristiques n'atteignent jamais",
+          "desc": "Contrairement aux bateaux touristiques, la navigation bareboat en catamaran à Phuket offre la liberté de découvrir les mouillages les plus isolés. Les yachts à faible tirant d'eau permettent d'accéder à des lagons cachés et des criques tranquilles, où vous pouvez nager et vous détendre en toute tranquillité — loin des foules. La navigation bareboat en Thaïlande offre une intimité avec les îles que les visites guidées ne peuvent tout simplement pas offrir."
+        },
+        "realSailing": {
+          "title": "La vraie navigation — Vent, houle et les compétences qui comptent ici",
+          "desc": "Avec des vents saisonniers réguliers et des états de mer variés, la navigation bareboat en mer d'Andaman offre un véritable défi nautique. Que vous naviguiez dans les chenaux de marée de la baie de Phang Nga ou que vous traversiez les eaux libres vers Koh Lipe, vous mettrez vos compétences de navigation à l'épreuve dans certaines des plus belles eaux du monde."
+        }
+      }
+    },
+    "routes": {
+      "label": "Itinéraires de navigation",
+      "title": "Itinéraires de navigation bareboat depuis Phuket — Par durée",
+      "subtitle": "Que vous disposiez d'un long week-end ou de deux semaines, nous avons l'itinéraire parfait pour votre aventure bareboat.",
+      "items": {
+        "short": {
+          "title": "Baie de Phang Nga et les îles Racha",
+          "desc": "Idéal pour les navigateurs débutants ou ceux qui disposent de peu de temps, cet itinéraire comprend des eaux calmes, des karsts calcaires panoramiques et de beaux mouillages comme la baie de Phang Nga. Naviguez à travers des villages de pêcheurs traditionnels et profitez de soirées paisibles sur votre yacht privé."
+        },
+        "medium": {
+          "title": "Îles Phi Phi, Koh Lanta et Koh Rok",
+          "desc": "Un voyage plus long pour explorer les célèbres îles Phi Phi, connues pour leurs eaux cristallines et leurs falaises spectaculaires. En direction du sud, vous découvrirez les îles tranquilles de Koh Lanta et Koh Rok, avec du snorkeling sans fin et des plages préservées."
+        },
+        "long": {
+          "title": "Îles Similan au nord ou archipel Butang au sud",
+          "desc": "Pour le navigateur aventureux, embarquez pour un voyage de plusieurs semaines vers les îles Similan, célèbres pour leurs sites de plongée de classe mondiale, ou dirigez-vous vers le sud pour explorer les îles reculées de Butang près de la Malaisie. Parfait pour ceux qui recherchent une exploration plus approfondie de la mer d'Andaman."
+        }
+      }
+    },
+    "conditions": {
+      "label": "Conditions de navigation",
+      "title": "Conditions de navigation bareboat à Phuket — Saison, vent et état de la mer par mois",
+      "high": {
+        "months": "Novembre — Avril",
+        "title": "Haute saison de navigation à Phuket — Novembre à avril sur la mer d'Andaman",
+        "desc": "Pendant la saison sèche, la mer d'Andaman offre les meilleures conditions de navigation avec un ciel dégagé, des alizés réguliers et des eaux calmes. C'est la haute saison, et bien que les îles soient plus fréquentées, c'est aussi le meilleur moment pour une navigation fluide et agréable."
+      },
+      "low": {
+        "months": "Mai — Octobre",
+        "title": "Basse saison de navigation à Phuket — Mai à octobre et ce qu'elle offre aux navigateurs expérimentés",
+        "desc": "La basse saison apporte des vents plus forts, des grains occasionnels et moins de touristes. Bien que les conditions puissent être plus exigeantes, les mouillages vides et les coûts de flotte réduits offrent aux navigateurs expérimentés l'opportunité d'explorer des îles reculées et de profiter d'une véritable solitude sur l'eau."
+      },
+      "navigation": {
+        "badge": "Navigation",
+        "title": "Planification de passage, marées et notes de navigation locale",
+        "desc": "Lorsque vous naviguez à Phuket, comprendre les marées et les courants est essentiel. Les chenaux de marée de la baie de Phang Nga, par exemple, peuvent être difficiles à naviguer, mais avec la bonne préparation, ils offrent certaines des expériences de croisière les plus gratifiantes."
+      }
+    },
+    "vesselComparison": {
+      "label": "Comparaison des bateaux",
+      "title": "Catamaran vs monocoque à Phuket",
+      "catamaran": {
+        "name": "Catamaran",
+        "title": "Navigation en catamaran à Phuket — Faible tirant d'eau, stabilité et vie à bord",
+        "desc": "Les catamarans sont le choix idéal pour naviguer à Phuket. Leur faible tirant d'eau vous permet d'atteindre des plages isolées, et leur stabilité garantit une expérience de navigation fluide, parfaite pour les familles et ceux qui préfèrent le confort sans sacrifier les performances."
+      },
+      "monohull": {
+        "name": "Monocoque",
+        "title": "Navigation en monocoque à Phuket — Sensation classique dans des eaux de classe mondiale",
+        "desc": "Pour ceux qui recherchent une expérience de navigation traditionnelle, les monocoques offrent une navigation plus agile. Ils offrent d'excellentes performances au près et sont parfaits pour les navigateurs plus expérimentés qui veulent embrasser le véritable art de la voile."
+      },
+      "whichHull": {
+        "title": "Quelle coque est la plus adaptée pour la navigation bareboat en mer d'Andaman ?",
+        "catamaran": "Offre stabilité et confort avec plus d'espace.",
+        "monohull": "Offre une navigation classique avec de meilleures performances au près. Les monocoques sont généralement moins chers à louer que les catamarans.",
+        "choiceLabel": "Votre choix",
+        "choiceDesc": "Le choix du bon bateau dépend de votre style de navigation, de la taille de votre groupe et de votre expérience."
+      }
+    },
+    "fleet": {
+      "label": "Notre flotte",
+      "title": "La flotte bareboat disponible à Phuket",
+      "heroCaption": "Notre flotte de catamarans et monocoques est conçue pour ceux qui veulent profiter de la mer d'Andaman dans le confort.",
+      "guests": "invités",
+      "from": "À partir de",
+      "week": "semaine",
+      "viewDetails": "Voir les détails",
+      "catamarans": {
+        "heading": "Catamarans bareboat",
+        "models": "Lagoon 42, Lagoon 45 et Fountaine Pajot 47",
+        "desc": "Notre flotte de catamarans est conçue pour ceux qui veulent profiter de la mer d'Andaman dans le confort. Avec de grands ponts, des cabines spacieuses et un faible tirant d'eau, ces yachts constituent la base parfaite pour votre aventure à la voile."
+      },
+      "monohulls": {
+        "heading": "Voiliers monocoques bareboat",
+        "models": "Bavaria 33, 34, 39 et 45",
+        "desc": "Pour une expérience de navigation classique, nos monocoques sont le choix parfait. Offrant une maniabilité agile et une sensation de navigation plus traditionnelle, ces bateaux sont idéaux pour ceux qui veulent un défi sur l'eau."
+      },
+      "choosing": {
+        "title": "Choisir votre yacht pour la navigation bareboat à Phuket",
+        "subtitle": "Sélectionner le bon yacht est essentiel pour une expérience bareboat réussie.",
+        "groupSize": {
+          "label": "Taille du groupe",
+          "desc": "Yachts plus petits pour les couples ou amis, catamarans plus grands pour les familles."
+        },
+        "sailingStyle": {
+          "label": "Style de navigation",
+          "desc": "Catamarans pour la stabilité et l'espace, monocoques pour la performance."
+        },
+        "budget": {
+          "label": "Budget",
+          "desc": "Choisissez selon vos besoins, des options pratiques aux options premium."
+        },
+        "cta": "Contactez-nous pour vérifier la disponibilité et les dates."
+      }
+    },
+    "included": {
+      "label": "Détails de la croisière",
+      "title": "Ce qui est inclus dans la navigation bareboat à Phuket — et ce qui est en supplément",
+      "whatsIncluded": {
+        "title": "Ce qui est inclus dans votre croisière bareboat",
+        "desc": "Votre charter bareboat comprend tout le nécessaire pour une navigation fluide : yacht entièrement équipé, cartes de navigation, équipement de sécurité, annexe avec moteur hors-bord, équipement de snorkeling et un briefing complet avant le départ."
+      },
+      "whatsExtra": {
+        "title": "Ce qui n'est pas inclus — et ce qu'il faut prévoir",
+        "desc": "Le carburant, l'avitaillement, les frais de parc national (300–400 THB par personne) et la caution ne sont pas inclus dans le prix. Les boissons alcoolisées et les extras optionnels (comme un skipper pour le premier jour) entraîneront des frais supplémentaires."
+      },
+      "addOns": {
+        "title": "Options supplémentaires pour votre croisière bareboat",
+        "desc": "Vous pouvez ajouter un skipper pour votre premier jour, demander une assistance pour l'avitaillement (arrêt au supermarché avant l'embarquement) et même réserver des jouets nautiques supplémentaires pour votre voyage. Personnalisable selon vos préférences."
+      }
+    },
+    "booking": {
+      "label": "Informations de réservation",
+      "title": "Navigation bareboat à Phuket — Licence, tarifs et réservation",
+      "pricing": {
+        "title": "Navigation bareboat à Phuket — Tarifs par bateau et saison",
+        "subtitle": "Les tarifs varient selon le bateau et la saison :",
+        "note": "Note : Les tarifs de haute saison (nov–avr) sont plus élevés ; réductions de basse saison (mai–oct) disponibles."
+      },
+      "licence": {
+        "title": "Exigences de licence pour la navigation bareboat à Phuket",
+        "desc": "Pour naviguer en bareboat à Phuket, vous avez besoin d'un permis de capitaine valide (ex. RYA, ASA, IYT) et d'un certificat radio VHF. Vous devez également avoir au moins deux semaines d'expérience sur un bateau similaire. Soumettez vos documents pour la confirmation d'assurance et de dates.",
+        "req1": "Permis de capitaine valide (RYA, ASA, IYT ou équivalent)",
+        "req2": "Certificat radio VHF",
+        "req3": "Minimum 2 semaines d'expérience sur un bateau similaire",
+        "req4": "Soumission des documents pour confirmation d'assurance"
+      },
+      "steps": {
+        "title": "Comment réserver votre croisière bareboat à Phuket",
+        "subtitle": "Le processus de réservation est simple :\nPour réserver, contactez-nous par téléphone, WhatsApp ou e-mail.",
+        "step1": { "title": "Partagez vos dates", "desc": "Partagez vos dates et bateau préférés." },
+        "step2": { "title": "Soumettez votre licence", "desc": "Soumettez vos documents de licence." },
+        "step3": { "title": "Confirmez la réservation", "desc": "Confirmez votre réservation avec un acompte." },
+        "step4": { "title": "Larguez les amarres", "desc": "Recevez votre briefing de pré-départ à Chalong Bay." }
+      },
+      "ctaQuote": "Obtenez votre devis bareboat gratuit"
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "FAQ — Navigation bareboat à Phuket",
+      "questions": {
+        "isPhuketGood": {
+          "q": "Phuket est-elle adaptée à la navigation bareboat ?",
+          "a": "Oui, Phuket est une excellente destination pour la navigation bareboat, offrant des alizés réguliers, des paysages côtiers magnifiques et un accès facile à des sites emblématiques comme les îles Phi Phi, la baie de Phang Nga et Koh Lipe.\n\nAvec ses baies abritées et sa variété d'îles à explorer, Phuket offre les conditions parfaites pour la navigation indépendante, que vous soyez un skipper chevronné ou que vous partiez pour votre première aventure bareboat."
+        },
+        "bestRoutes": {
+          "q": "Quels sont les meilleurs itinéraires de navigation depuis Phuket ?",
+          "a": "Les itinéraires de navigation les plus populaires depuis Phuket comprennent la baie de Phang Nga, les îles Phi Phi et les îles reculées de Koh Lipe et Butang, chacun offrant une expérience complètement différente et enrichissante sur l'eau.\n\nLa baie de Phang Nga est particulièrement spectaculaire, avec ses karsts calcaires imposants et ses grottes marines cachées à explorer. Pour un passage plus exigeant, les îles Similan et Koh Rok offrent des récifs préservés et des mouillages isolés qui valent bien les miles supplémentaires."
+        },
+        "bestTime": {
+          "q": "Quelle est la meilleure période pour la navigation bareboat à Phuket ?",
+          "a": "La meilleure période pour la navigation bareboat à Phuket est de novembre à avril, pendant la saison sèche, lorsque des mers calmes, des alizés réguliers et un ciel dégagé créent les conditions les plus favorables pour une navigation fluide et agréable.\n\nLa période de pointe va de décembre à mars et offre la météo la plus fiable. Si vous préférez des mouillages plus tranquilles avec des conditions quasi identiques, novembre ou avril sont d'excellentes alternatives avec moins de bateaux sur l'eau."
+        },
+        "vsMediterranean": {
+          "q": "Comment la navigation à Phuket se compare-t-elle à la Méditerranée ?",
+          "a": "La navigation à Phuket offre une alternative tropicale plus exotique à la Méditerranée, avec les eaux chaudes de la mer d'Andaman, des îles préservées et des mouillages reculés qui semblent à des mondes des hubs de navigation européens plus fréquentés.\n\nContrairement à la saison estivale bondée de la Méditerranée, les îles de Phuket restent relativement paisibles, surtout en dehors des mois de pointe. Les paysages luxuriants couverts de jungle et la riche vie marine confèrent à la région un caractère véritablement difficile à égaler en Europe."
+        },
+        "catamaranAndaman": {
+          "q": "Comment est-ce de naviguer en catamaran en mer d'Andaman ?",
+          "a": "Naviguer en catamaran en mer d'Andaman est une expérience fluide et confortable, grâce à la stabilité du bateau, son faible tirant d'eau et son aménagement spacieux — idéal pour le cabotage entre les superbes zones de navigation de Phuket.\n\nLa conception bicoque permet d'accéder à des lagons peu profonds que les monocoques ne peuvent pas atteindre, facilitant l'exploration des recoins cachés du littoral. Que vous recherchiez une croisière tranquille ou des passages plus sportifs, un catamaran se comporte magnifiquement dans ces eaux."
+        },
+        "similan": {
+          "q": "Puis-je atteindre les îles Similan lors d'une croisière bareboat depuis Phuket ?",
+          "a": "Oui, les îles Similan sont facilement accessibles en bareboat depuis Phuket, avec un passage d'environ 3–4 heures selon les conditions de vent — une navigation hauturière gérable et gratifiante.\n\nLes Similan sont l'une des destinations de plongée les plus réputées de Thaïlande, avec des eaux cristallines et des récifs coralliens vibrants. Le passage en mer ouverte est en soi un point fort, offrant d'excellentes conditions de navigation tout au long de la saison sèche."
+        },
+        "highSeason": {
+          "q": "Quelles conditions de navigation attendre en haute saison à Phuket ?",
+          "a": "En haute saison à Phuket, attendez-vous à des mers calmes, des vents de mousson du nord-est réguliers, des températures chaudes et une excellente visibilité — des conditions idéales pour naviguer entre les îles et faire du snorkeling en chemin.\n\nC'est la période la plus populaire sur l'eau, donc les mouillages les plus fréquentés autour de Phi Phi et de la baie de Phang Nga peuvent se remplir rapidement. Arriver tôt à l'escale choisie est toujours une bonne idée pour s'assurer la meilleure position."
+        },
+        "kingsCup": {
+          "q": "Qu'est-ce que la King's Cup Regatta à Phuket ?",
+          "a": "La King's Cup Regatta est l'un des événements de voile les plus prestigieux d'Asie, organisé chaque année à Phuket en décembre, attirant des navigateurs internationaux dans plusieurs catégories, y compris une catégorie bareboat dédiée.\n\nL'événement a un large public parmi les coureurs compétitifs et les passionnés de voile, et c'est une merveilleuse occasion de découvrir la culture nautique vibrante de Phuket de première main. Même si vous ne courez pas, l'atmosphère autour de la régate vaut vraiment le détour."
+        },
+        "vsCrewed": {
+          "q": "Quelle est la différence entre la navigation bareboat et un charter avec équipage ?",
+          "a": "Un charter bareboat signifie que vous naviguez le yacht de manière indépendante, tandis qu'un charter avec équipage comprend un équipage professionnel pour gérer toute la navigation et les services à bord tout au long de votre voyage.\n\nLes charters bareboat conviennent aux navigateurs expérimentés qui veulent la liberté et l'autonomie de mener leur propre voyage. Un charter avec équipage offre des vacances plus détendues où tout est pris en charge — idéal pour ceux qui veulent profiter de la destination sans la responsabilité de skipper."
+        },
+        "licence": {
+          "q": "De quel permis ai-je besoin pour la navigation bareboat à Phuket ?",
+          "a": "Pour naviguer en bareboat à Phuket, vous avez besoin d'un permis de capitaine valide comme RYA, ASA, IYT ou une qualification équivalente, ainsi qu'un certificat radio VHF et au moins deux semaines d'expérience sur un bateau similaire.\n\nCela garantit que vous êtes pleinement préparé aux défis de la navigation indépendante en mer d'Andaman. Une fois vos qualifications en ordre, vous serez prêt à affronter les superbes zones de navigation de Phuket en toute confiance."
+        },
+        "cost": {
+          "q": "Combien coûte la navigation bareboat à Phuket ?",
+          "a": "La navigation bareboat à Phuket commence à partir de 1 770 €/semaine pour un Bavaria 33 et à partir de 4 790 €/semaine pour un Lagoon 42, les prix variant selon la taille du bateau, les spécifications et la période de l'année.\n\nLes tarifs sont plus élevés pendant la haute saison de novembre à avril, tandis que des réductions sont disponibles pendant la basse saison de mai à octobre. Contactez-nous directement pour un devis exact basé sur votre yacht préféré et vos dates de voyage."
+        },
+        "included": {
+          "q": "Qu'est-ce qui est inclus dans une croisière bareboat à Phuket ?",
+          "a": "Votre charter bareboat à Phuket comprend un yacht entièrement équipé, un équipement de sécurité, une annexe avec moteur hors-bord, des cartes de navigation, un équipement de snorkeling et un briefing complet avant le départ pour que vous soyez prêt à prendre la mer en toute confiance.\n\nTout est préparé et vérifié avant votre embarquement, vous n'avez donc pas à vous soucier de la mise en place. Vous arrivez simplement, complétez votre briefing et partez explorer les îles entièrement à votre rythme."
+        },
+        "skipperFirstDay": {
+          "q": "Puis-je avoir un skipper pour le premier jour de ma croisière bareboat ?",
+          "a": "Oui, vous pouvez engager un skipper pour votre premier jour sur l'eau — une option populaire pour les navigateurs qui veulent s'habituer au bateau et se familiariser avec les conditions locales avant de prendre le contrôle total de manière indépendante.\n\nAprès le premier jour, vous continuez à naviguer entièrement selon vos propres termes. C'est un excellent moyen de gagner en confiance, d'apprendre les systèmes du yacht et de vous familiariser avec les points de navigation clés autour de Phuket avant de partir en solo."
+        },
+        "badWeather": {
+          "q": "Que se passe-t-il en cas de mauvais temps lors d'une croisière bareboat à Phuket ?",
+          "a": "Si le mauvais temps survient pendant votre voyage, notre équipe travaillera avec vous pour trouver des itinéraires abrités ou reprogrammer vos plans. Si les conditions sont véritablement dangereuses, nous offrirons un remboursement complet ou une reprogrammation sans pénalité.\n\nVotre sécurité est toujours la priorité. Nous surveillons de près les conditions météorologiques tout au long de votre charter et restons en contact pour nous assurer que vous n'êtes jamais pris au dépourvu. La saison de navigation de Phuket est généralement très fiable, mais nous sommes toujours prêts à agir rapidement si les conditions changent."
+        },
+        "licence2": {
+          "q": "De quel permis ai-je besoin pour la navigation bareboat à Phuket ?",
+          "a": "Pour naviguer en bareboat à Phuket, vous devez détenir un permis de capitaine valide comme RYA, ASA, IYT ou équivalent, ainsi qu'un certificat radio VHF et au moins deux semaines d'expérience de navigation sur un bateau similaire.\n\nUne fois vos documents soumis, notre équipe les examinera et confirmera votre éligibilité pour prendre la mer, en s'assurant que tout est en ordre bien avant votre date de départ."
+        }
+      }
+    },
+    "finalCta": {
+      "label": "Commencez votre aventure",
+      "title": "Prêt à naviguer ?",
+      "description": "Commencez à planifier votre aventure bareboat à Phuket dès aujourd'hui. Notre équipe est prête à vous aider à créer des souvenirs inoubliables sur la mer d'Andaman.",
+      "ctaQuote": "Obtenez un devis bareboat gratuit",
+      "ctaWhatsApp": "WhatsApp"
     }
   }
 }

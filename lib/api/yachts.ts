@@ -15,18 +15,6 @@ interface YachtsApiResponse {
   }
 }
 
-export async function fetchFeaturedYachts(limit: number = 3): Promise<Yacht[]> {
-  const res = await fetch(
-    `${API_BASE}/yacht/all-yachts?page=1&limit=${limit}&status=published`
-  )
-  if (!res.ok) throw new Error(`API responded with ${res.status}`)
-
-  const json: YachtsApiResponse = await res.json()
-  if (!json.success) throw new Error(json.message)
-
-  return json.data.yachts
-}
-
 export async function fetchYachtById(id: string): Promise<Yacht> {
   const res = await fetch(`${API_BASE}/yacht/?id=${id}`)
   if (!res.ok) throw new Error(`API responded with ${res.status}`)

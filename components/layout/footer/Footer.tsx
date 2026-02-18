@@ -42,7 +42,7 @@ export function Footer() {
               <li className="hover:text-white transition-colors cursor-pointer hover:underline">Sailing Yachts</li>
               <li className="hover:text-white transition-colors cursor-pointer hover:underline">Catamaran Charters</li>
               <li className="hover:text-white transition-colors cursor-pointer hover:underline">Cabin Cruises</li>
-              <li className="hover:text-white transition-colors cursor-pointer hover:underline">Bareboat Charter</li>
+              <li><a href="/bareboat-sailing-phuket" className="hover:text-white transition-colors hover:underline">Bareboat Sailing</a></li>
               <li className="hover:text-white transition-colors cursor-pointer hover:underline">Sunset Sailing</li>
             </ul>
           </div>

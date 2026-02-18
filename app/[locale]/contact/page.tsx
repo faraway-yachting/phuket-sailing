@@ -11,6 +11,7 @@ export default function ContactPage() {
           src="/assets/images/home/catamaran-aerial-hero.jpg"
           alt="Phuket Sailing"
           fill
+          sizes="100vw"
           className="object-cover blur-sm"
           priority
         />

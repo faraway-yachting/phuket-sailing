@@ -10,6 +10,7 @@ const pages = [
   '/luxury-yacht-charter',
   '/cabin-cruise-phuket',
   '/overnight-sailing-charter',
+  '/bareboat-sailing-phuket',
   '/contact',
   '/yachts',
   '/terms-and-conditions',

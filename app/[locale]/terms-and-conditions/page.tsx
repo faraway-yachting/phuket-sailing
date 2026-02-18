@@ -1,6 +1,5 @@
-'use client'
 import Image from "next/image";
-import { useLanguage } from '@/components/providers/LanguageProvider';
+import { getTranslations } from '@/lib/i18n/getTranslations';
 
 const navyBadge =
   "w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br from-[#1e5a6d] to-[#164e63] flex items-center justify-center text-white font-bold text-xs sm:text-sm flex-shrink-0 shadow-md";
@@ -9,8 +8,9 @@ function SectionBadge({ id }: { id: number }) {
   return <div className={navyBadge}>{String(id).padStart(2, "0")}</div>;
 }
 
-export default function TermsPage() {
-  const { t } = useLanguage()
+export default async function TermsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const { t } = getTranslations(locale)
   
   const tocItems = [
     { id: 1, title: t('terms.toc.items.1') },
@@ -38,6 +38,7 @@ export default function TermsPage() {
           src="/assets/images/home/hero.jpg"
           alt="Phuket Sailing"
           fill
+          sizes="100vw"
           className="object-cover blur-sm"
           priority
         />

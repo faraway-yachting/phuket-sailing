@@ -47,60 +47,55 @@ export function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center justify-between h-16 sm:h-20">
+            <nav className="flex items-center justify-between h-16 lg:h-20">
           <LocaleLink href="/" className="flex items-center">
-            <div className="relative w-40 h-16 sm:w-52 sm:h-20">
+                <div className="relative w-40 h-16 lg:w-52 lg:h-20">
               <Image
                 src="/assets/images/logo.png"
                 alt="Phuket Sailing Logo"
                 fill
+                sizes="120px"
                 className="object-contain"
                 priority
               />
             </div>
           </LocaleLink>
 
-          <div className="hidden sm:flex items-center gap-8">
-            <LocaleLink
-              href="/"
-              className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
-            >
-              {t('home')}
-            </LocaleLink>
-            <LocaleLink
-              href="/catamaran-charter-phuket"
-              className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
-            >
-              {t('catamaranCharter')}
-            </LocaleLink>
-            <LocaleLink
-              href="/luxury-yacht-charter"
-              className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
-            >
-              {t('luxuryYachtCharter')}
-            </LocaleLink>
-            <LocaleLink
-              href="/cabin-cruise-phuket"
-              className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
-            >
-              {t('cabinCruise')}
-            </LocaleLink>
-            <LocaleLink
-              href="/overnight-sailing-charter"
-              className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
-            >
-              {t('overnightSailing')}
-            </LocaleLink>
-            <LocaleLink
-              href="/contact"
-              className="text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300"
-            >
-              {t('contactUs')}
-            </LocaleLink>
-          </div>
+          <div className="hidden lg:flex items-center gap-4 xl:gap-6">
+                <LocaleLink
+                  href="/catamaran-charter-phuket"
+                  className="text-xs xl:text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300 whitespace-nowrap"
+                >
+                  {t('catamaranCharter')}
+                </LocaleLink>
+                <LocaleLink
+                  href="/luxury-yacht-charter"
+                  className="text-xs xl:text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300 whitespace-nowrap"
+                >
+                  {t('luxuryYachtCharter')}
+                </LocaleLink>
+                <LocaleLink
+                  href="/cabin-cruise-phuket"
+                  className="text-xs xl:text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300 whitespace-nowrap"
+                >
+                  {t('cabinCruise')}
+                </LocaleLink>
+                <LocaleLink
+                  href="/overnight-sailing-charter"
+                  className="text-xs xl:text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300 whitespace-nowrap"
+                >
+                  {t('overnightSailing')}
+                </LocaleLink>
+                <LocaleLink
+                  href="/bareboat-sailing-phuket"
+                  className="text-xs xl:text-sm font-medium text-[#164e63] hover:text-[#14b8a6] transition-colors duration-300 whitespace-nowrap"
+                >
+                  {t('bareboatSailing')}
+                </LocaleLink>
+              </div>
 
-          <div className="hidden sm:flex items-center gap-4">
-            <div ref={langRef} className="relative">
+              <div className="hidden lg:flex items-center gap-3 xl:gap-4">
+                <div ref={langRef} className="relative">
               <button
                 onClick={() => setIsLangOpen(!isLangOpen)}
                 className="flex items-center gap-2 px-3 py-2 border-2 border-[#14b8a6] rounded-full hover:bg-gray-50 transition-colors duration-300"
@@ -150,11 +145,11 @@ export function Navbar() {
             </LocaleLink>
           </div>
 
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="sm:hidden p-2 rounded-lg text-[#164e63]"
-            aria-label="Toggle menu"
-          >
+              <button
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                className="lg:hidden p-2 rounded-lg text-[#164e63]"
+                aria-label="Toggle menu"
+              >
             {isMenuOpen ? (
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -167,19 +162,12 @@ export function Navbar() {
           </button>
         </nav>
 
-        <div
-          className={`sm:hidden overflow-hidden transition-all duration-300 ${
-            isMenuOpen ? 'max-h-[500px] pb-4' : 'max-h-0'
-          }`}
-        >
-          <div className="space-y-2">
-            <LocaleLink
-              href="/"
-              onClick={() => setIsMenuOpen(false)}
-              className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
+            <div
+              className={`lg:hidden overflow-hidden transition-all duration-300 ${
+                isMenuOpen ? 'max-h-[600px] pb-4' : 'max-h-0'
+              }`}
             >
-              {t('home')}
-            </LocaleLink>
+          <div className="space-y-2">
             <LocaleLink
               href="/catamaran-charter-phuket"
               onClick={() => setIsMenuOpen(false)}
@@ -209,11 +197,11 @@ export function Navbar() {
               {t('overnightSailing')}
             </LocaleLink>
             <LocaleLink
-              href="/contact"
+              href="/bareboat-sailing-phuket"
               onClick={() => setIsMenuOpen(false)}
               className="block px-4 py-3 text-[#164e63] font-medium hover:bg-gray-50 hover:text-[#14b8a6] rounded-lg transition-colors"
             >
-              {t('contactUs')}
+              {t('bareboatSailing')}
             </LocaleLink>
 
             <div className="px-4 py-2">
