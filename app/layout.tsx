@@ -120,8 +120,8 @@ export default function RootLayout({
               name: 'Phuket Sailing',
               image: 'https://phuket-sailing.vercel.app/assets/images/home/hero2.png',
               url: 'https://phuket-sailing.vercel.app',
-              telephone: '+66-61-234-5623',
-              email: 'booking@faraway-yachting.com',
+              telephone: '+66-61-2345623',
+              email: 'info@phuket-sailing.com',
               address: {
                 '@type': 'PostalAddress',
                 addressLocality: 'Phuket',

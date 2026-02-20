@@ -34,35 +34,35 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     {
       title: t('charterStyles.sailing.title'),
       description: t('charterStyles.sailing.description'),
-      link: '/sailing-yachts-phuket',
+      link: '/luxury-yacht-charter',
       linkText: t('charterStyles.sailing.linkText'),
       image: '/assets/images/home/sailing-yacht.jpg',
     },
     {
       title: t('charterStyles.catamaran.title'),
       description: t('charterStyles.catamaran.description'),
-      link: '/catamaran-charters-phuket',
+      link: '/catamaran-charter-phuket',
       linkText: t('charterStyles.catamaran.linkText'),
       image: '/assets/images/home/sailing-catamaran.png',
     },
     {
       title: t('charterStyles.overnight.title'),
       description: t('charterStyles.overnight.description'),
-      link: '/overnight-sailing-phuket',
+      link: '/overnight-sailing-charter',
       linkText: t('charterStyles.overnight.linkText'),
       image: '/assets/images/home/overnight-sailing.webp',
     },
     {
       title: t('charterStyles.cabin.title'),
       description: t('charterStyles.cabin.description'),
-      link: '/cabin-cruises-phuket',
+      link: '/cabin-cruise-phuket',
       linkText: t('charterStyles.cabin.linkText'),
       image: '/assets/images/home/SY-cabin.png',
     },
     {
       title: t('charterStyles.bareboat.title'),
       description: t('charterStyles.bareboat.description'),
-      link: '/bareboat-charter-phuket',
+      link: '/bareboat-sailing-phuket',
       linkText: t('charterStyles.bareboat.linkText'),
       image: '/assets/images/home/day-sailing.webp',
     },
@@ -110,11 +110,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   ]
 
   const explorePages = [
-    t('explorePages.sailingYachts'),
-    t('explorePages.catamaranCharters'),
-    t('explorePages.sailingItineraries'),
-    t('explorePages.cabinCruises'),
-    t('explorePages.bareboatCharter'),
+    { title: t('explorePages.sailingYachts'), href: '/luxury-yacht-charter' },
+    { title: t('explorePages.catamaranCharters'), href: '/catamaran-charter-phuket' },
+    { title: t('explorePages.sailingItineraries'), href: '/overnight-sailing-charter' },
+    { title: t('explorePages.cabinCruises'), href: '/cabin-cruise-phuket' },
+    { title: t('explorePages.bareboatCharter'), href: '/bareboat-sailing-phuket' },
   ]
 
   return (
@@ -198,9 +198,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                     <div className="relative z-10">
                       <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#164e63] mb-3 sm:mb-4">{charter.title}</h3>
                       <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6">{charter.description}</p>
-                      <a href={charter.link} className="inline-flex items-center justify-center bg-gradient-to-r from-[#14b8a6] to-[#0d9488] hover:from-[#0d9488] hover:to-[#0a7a6a] text-white font-bold px-6 py-3 rounded-xl text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-fit">
+                      <LocaleLink href={charter.link} className="inline-flex items-center justify-center bg-gradient-to-r from-[#14b8a6] to-[#0d9488] hover:from-[#0d9488] hover:to-[#0a7a6a] text-white font-bold px-6 py-3 rounded-xl text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 w-fit">
                         {t('charterStyles.explore')}
-                      </a>
+                      </LocaleLink>
                     </div>
                   </div>
                 </div>
@@ -410,8 +410,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           <SectionHeading subtitle={t('catamaranVsSailing.subtitle')}>{t('catamaranVsSailing.title')}</SectionHeading>
           <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
             {[
-              { titleKey: 'catamaranTitle', items: ['catamaranSpace', 'catamaranShade', 'catamaranVilla', 'catamaranSocial'], linkKey: 'catamaranLink', image: '/assets/images/home/sailing-catamaran.png' },
-              { titleKey: 'sailingTitle', items: ['sailingClassic', 'sailingSportier', 'sailingValue', 'sailingRomantic'], linkKey: 'sailingLink', image: '/assets/images/home/sailing-monohull.png' },
+              { titleKey: 'catamaranTitle', items: ['catamaranSpace', 'catamaranShade', 'catamaranVilla', 'catamaranSocial'], linkKey: 'catamaranLink', href: '/catamaran-charter-phuket', image: '/assets/images/home/sailing-catamaran.png' },
+              { titleKey: 'sailingTitle', items: ['sailingClassic', 'sailingSportier', 'sailingValue', 'sailingRomantic'], linkKey: 'sailingLink', href: '/luxury-yacht-charter', image: '/assets/images/home/sailing-monohull.png' },
             ].map((card) => (
               <div key={card.titleKey} className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg">
                 <div className="relative h-48 sm:h-56 md:h-64 mb-4 sm:mb-6 rounded-2xl overflow-hidden">
@@ -426,7 +426,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                     </li>
                   ))}
                 </ul>
-                <a href="#" className="text-[#14b8a6] font-semibold hover:text-[#0d9488] transition-colors text-sm sm:text-base">{t(`catamaranVsSailing.${card.linkKey}`)}</a>
+                <LocaleLink href={card.href} className="text-[#14b8a6] font-semibold hover:text-[#0d9488] transition-colors text-sm sm:text-base">{t(`catamaranVsSailing.${card.linkKey}`)}</LocaleLink>
               </div>
             ))}
           </div>
@@ -680,9 +680,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           <h2 className="text-center text-white mb-8 sm:mb-10 md:mb-12 text-3xl sm:text-4xl md:text-5xl font-bold">{t('explorePages.title')}</h2>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
             {explorePages.map((page, index) => (
-              <a key={index} href="#" className="bg-[#0d4d5c]/60 backdrop-blur-md rounded-2xl p-5 sm:p-6 md:p-7 hover:bg-[#14b8a6]/40 hover:scale-105 hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-2xl border border-white/30">
-                <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-white">{page}</h3>
-              </a>
+              <LocaleLink key={index} href={page.href} className="bg-[#0d4d5c]/60 backdrop-blur-md rounded-2xl p-5 sm:p-6 md:p-7 hover:bg-[#14b8a6]/40 hover:scale-105 hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-2xl border border-white/30">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-white">{page.title}</h3>
+              </LocaleLink>
             ))}
           </div>
         </div>

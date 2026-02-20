@@ -5,8 +5,8 @@ export function ContactCards() {
     {
       icon: PhoneCall,
       title: 'Call',
-      value: '+66 61 234 5623',
-      href: 'tel:+6661234562',
+      value: '+66 61 2345623',
+      href: 'tel:+66612345623',
       gradient: 'from-emerald-500 to-teal-600',
     },
     {
@@ -16,15 +16,15 @@ export function ContactCards() {
         </svg>
       ),
       title: 'WhatsApp',
-      value: '+66 61 234 5623',
-      href: 'https://wa.me/6661234562',
+      value: '+66 61 2345623',
+      href: 'https://wa.me/66612345623',
       gradient: 'from-green-500 to-green-600',
     },
     {
       icon: MailIcon,
       title: 'Email',
       value: ' info@phuket-sailing.com',
-      href: 'mailto:bookings@faraway-yachting.com',
+      href: 'mailto:info@phuket-sailing.com',
       gradient: 'from-blue-500 to-blue-600',
     },
     {

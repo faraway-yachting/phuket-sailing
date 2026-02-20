@@ -1135,7 +1135,7 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
                 {t('luxuryYachtCharter.plan.begin.phone')}
               </a>
               <a
-                href="mailto:booking@faraway-yachting.com"
+                href="mailto:info@phuket-sailing.com"
                 className="flex items-center gap-2 rounded-xl border border-white/30 px-6 py-3 text-sm font-semibold text-white transition-colors hover:border-white/60 hover:bg-white/10"
               >
                 <Mail className="h-4 w-4" />

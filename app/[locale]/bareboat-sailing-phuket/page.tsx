@@ -642,7 +642,7 @@ export default async function BareboatSailingPage({ params }: { params: Promise<
                 className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-semibold text-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
                 style={{ background: 'linear-gradient(135deg, #14b8a6 0%, #0d9488 100%)' }}
               >
-                <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" /> WhatsApp: +66 61 234 5623
+                <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" /> WhatsApp: +66 61 2345623
               </a>
             </div>
           </div>

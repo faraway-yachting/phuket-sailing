@@ -5,15 +5,15 @@
 
 export const CONTACT_INFO = {
   // Phone
-  phone: '+66 61 234 5623',
+  phone: '+66 61 2345623',
   phoneRaw: '66612345623', // For tel: and WhatsApp links
   phoneLink: 'tel:+66612345623',
 
   // Email
   email: 'info@phuket-sailing.com',
   emailLink: 'mailto:info@phuket-sailing.com',
-  bookingEmail: 'bookings@faraway-yachting.com',
-  bookingEmailLink: 'mailto:bookings@faraway-yachting.com',
+  bookingEmail: 'info@phuket-sailing.com',
+  bookingEmailLink: 'mailto:info@phuket-sailing.com',
 
   // WhatsApp
   whatsapp: 'https://wa.me/66612345623',

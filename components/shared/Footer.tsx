@@ -19,7 +19,7 @@ export function Footer() {
             <div className="space-y-3 text-white/80">
               <a href="tel:+66612345623" className="flex items-start gap-3 hover:text-[#14b8a6] transition-colors">
                 <Phone className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span>+66 61 234 5623</span>
+                <span>+66 61 2345623</span>
               </a>
               <a href="mailto:info@phuket-sailing.com" className="flex items-start gap-3 hover:text-[#14b8a6] transition-colors break-all">
                 <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />

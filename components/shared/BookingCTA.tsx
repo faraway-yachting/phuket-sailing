@@ -32,7 +32,7 @@ export function BookingCTA({ variant = 'default' }: BookingCTAProps) {
               <span>
                 {t('bookingCTA.callWhatsApp')}{' '}
                 <a href="https://wa.me/66612345623" className="text-amber-300 hover:text-amber-200 font-semibold">
-                  +66 61 234 5623
+                  +66 61 2345623
                 </a>{' '}
                 — {t('bookingCTA.respondTime')}
               </span>
@@ -41,8 +41,8 @@ export function BookingCTA({ variant = 'default' }: BookingCTAProps) {
               <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
               <span>
                 {t('bookingCTA.emailLabel')}{' '}
-                <a href="mailto:booking@faraway-yachting.com" className="text-amber-300 hover:text-amber-200 font-semibold">
-                  booking@faraway-yachting.com
+                <a href="mailto:info@phuket-sailing.com" className="text-amber-300 hover:text-amber-200 font-semibold">
+                  info@phuket-sailing.com
                 </a>{' '}
                 — {t('bookingCTA.emailResponse')}
               </span>
