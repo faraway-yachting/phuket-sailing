@@ -691,11 +691,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* FAQ Section */}
       <FAQAccordion faqs={faqs} title="Frequently Asked Questions – Phuket Sailing" id="faqs" />
 
-      <BookingCTA
-        title="Start Planning Your Charter"
-        subtitle="Private Sailing from €800/Day | Day Trips | Overnight Cruises | Multi-Day Expeditions"
-        buttonText="GET YOUR FREE QUOTE →"
-      />
+      <BookingCTA />
     </main>
   )
 }

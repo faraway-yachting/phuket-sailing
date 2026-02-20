@@ -292,7 +292,7 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
                       {t('overnightCharter.routes.recommended')}
                     </div>
                   )}
-                  <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-4 pr-20" style={{ fontFamily: "var(--font-playfair)" }}>
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-4 pr-24 sm:pr-28" style={{ fontFamily: "var(--font-playfair)" }}>
                     {t(`overnightCharter.routes.items.${r.key}.title`)}
                   </h3>
                   <p className="text-[#3a5a68] leading-relaxed mb-6 text-sm">
@@ -354,11 +354,11 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
                     <p className="text-[#3a5a68] text-sm leading-relaxed mb-4 flex-1">
                       {t(`overnightCharter.destinations.items.${dest.key}.description`)}
                     </p>
-                    <div className="flex items-center gap-2 text-[#164e63]">
+                    <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[#164e63]">
                       <span className="text-lg font-bold">
                         {t(`overnightCharter.destinations.items.${dest.key}.price`)}
                       </span>
-                      <span className="text-sm text-[#3a5a68]">|</span>
+                      <span className="text-sm text-[#3a5a68] hidden sm:inline">|</span>
                       <span className="text-sm text-[#3a5a68]">
                         {t(`overnightCharter.destinations.items.${dest.key}.detail`)}
                       </span>
@@ -509,8 +509,8 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
               </p>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-10 items-center mb-10 sm:mb-16">
-              <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl ring-4 ring-[#164e63]/10 ring-offset-4 ring-offset-white">
+            <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 items-center mb-10 sm:mb-16">
+              <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-xl ring-4 ring-[#164e63]/10 ring-offset-4 ring-offset-white">
                 <Image
                   src={`${IMG}/occasion-couples.jpg`}
                   alt={t('overnightCharter.occasions.honeymoon.title')}
@@ -604,11 +604,11 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
                 {t('overnightCharter.pricing.costDescription')}
               </p>
 
-              <div className="grid md:grid-cols-3 gap-5 mb-6">
+              <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 mb-6">
                 {tiers.map((tier, index) => (
                   <div
                     key={tier}
-                    className={`rounded-2xl transition-all duration-300 border-l-8 p-6 sm:p-8 hover:-translate-y-1 ${
+                    className={`rounded-2xl transition-all duration-300 border-l-8 p-5 sm:p-6 md:p-8 hover:-translate-y-1 ${
                       index === 1
                         ? 'bg-[#0c3b4a] border-[#14b8a6] shadow-[0_20px_50px_-12px_rgba(12,59,74,0.4)]'
                         : 'bg-white border-[#164e63] shadow-[0_10px_30px_-8px_rgba(12,59,74,0.15)] hover:shadow-[0_20px_40px_-12px_rgba(12,59,74,0.25)]'
@@ -692,9 +692,9 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
         {/* TrustCtaSection */}
         <section className="py-14 sm:py-20" style={{ background: "linear-gradient(to bottom right, #164e63, #0f3a47, #0a2a35)" }}>
           <div className="mx-auto max-w-5xl px-4 text-center text-white">
-            <div className="mb-8 flex flex-wrap justify-center items-center gap-3">
+            <div className="mb-8 flex flex-wrap justify-center items-center gap-2 sm:gap-3">
               {trustBadges.map((b) => (
-                <div key={b} className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm">
+                <div key={b} className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm">
                   <Check className="w-4 h-4 text-[#14b8a6]" />
                   <span>{t(`overnightCharter.trustCta.badges.${b}`)}</span>
                 </div>
@@ -735,11 +735,7 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
           id="faq"
         />
 
-        <BookingCTA
-          title="Start Planning Your Overnight Sailing Charter"
-          subtitle="From €1,000/night | Private Catamaran | Fully Crewed | All-Inclusive"
-          buttonText="GET YOUR FREE OVERNIGHT SAILING QUOTE →"
-        />
+        <BookingCTA variant="overnight" />
       </main>
     </>
   )

@@ -387,6 +387,45 @@
       "whatsapp": "WhatsApp",
       "line": "Line",
       "location": "我们的位置"
+    },
+    "termsAgree": "提交此表单即表示您同意我们的",
+    "termsLink": "条款和条件",
+    "bookingTermsTitle": "预订条款和条件"
+  },
+  "bookingCTA": {
+    "threeWays": "三种方式开始：",
+    "callWhatsApp": "致电/WhatsApp：",
+    "respondTime": "我们在工作时间内1小时内回复",
+    "emailLabel": "邮箱：",
+    "emailResponse": "24小时内提供定制行程和报价",
+    "lineApp": "Line App：",
+    "connect": "连接",
+    "office": "办公室：查隆湾，普吉岛 — 距普吉镇15分钟，距芭东30分钟，距机场40分钟",
+    "license": "泰国旅游局授权（OTD #34/02546）• 全额保险 • 2025年世界豪华旅游大奖得主",
+    "default": {
+      "title": "开始规划您的包船之旅",
+      "subtitle": "私人帆船起价€800/天 | 一日游 | 过夜游船 | 多日探险",
+      "button": "获取免费报价 →"
+    },
+    "cabinCruise": {
+      "title": "开始规划您的舱房邮轮",
+      "subtitle": "舱房邮轮起价€1,199/天 | 多日航行 | 私人舱房 | 全包",
+      "button": "获取舱房邮轮报价 →"
+    },
+    "catamaran": {
+      "title": "开始规划您的包船之旅",
+      "subtitle": "私人双体船起价€800/天 | 一日游 | 过夜游船 | 多日探险",
+      "button": "获取双体船报价 →"
+    },
+    "luxury": {
+      "title": "开始规划您的豪华游艇包船",
+      "subtitle": "私人帆船游艇和双体船 | 日间包船 | 过夜 | 多日探险",
+      "button": "获取游艇报价 →"
+    },
+    "overnight": {
+      "title": "开始规划您的过夜帆船之旅",
+      "subtitle": "起价€1,000/晚 | 私人双体船 | 全体船员 | 全包",
+      "button": "获取过夜帆船报价 →"
     }
   },
   "footer": {
@@ -408,6 +447,7 @@
     "sailingYachts": "帆船",
     "overnightSailing": "过夜帆船之旅",
     "barefootCharter": "裸船租赁",
+    "bareboatSailing": "裸船帆船",
     "sailingItineraries": "帆船行程",
     "charterTypes": "包船类型"
   },

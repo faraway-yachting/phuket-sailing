@@ -160,7 +160,7 @@
       "description": "Kristallklares Wasser, gesunde Korallenriffe und weiße Sandstrände, die den Fotos gerecht werden. Eine starke Wahl für Segelyachten und Katamarane, wenn Sie einen makellosen tropischen Inseltag südlich von Phuket wünschen."
     },
     "coral": {
-      "title": "Coral Island (Koh Hae)",
+      "title": "Koralleninsel (Koh Hae)",
       "description": "Entspannt, schön und beliebt zum Schwimmen und Strandgenießen. Ideal für Familien, gemischte Gruppen und Besucher, die einen unkomplizierten Tag auf der Andamanensee wünschen."
     },
     "phangNga": {
@@ -387,6 +387,45 @@
       "whatsapp": "WhatsApp",
       "line": "Line",
       "location": "Unser Standort"
+    },
+    "termsAgree": "Mit dem Absenden dieses Formulars stimmen Sie unseren",
+    "termsLink": "Allgemeinen Geschäftsbedingungen",
+    "bookingTermsTitle": "Buchungsbedingungen"
+  },
+  "bookingCTA": {
+    "threeWays": "Drei Wege, um loszulegen:",
+    "callWhatsApp": "Anruf/WhatsApp:",
+    "respondTime": "Wir antworten innerhalb einer Stunde während der Geschäftszeiten",
+    "emailLabel": "E-Mail:",
+    "emailResponse": "Individuelles Reiseprogramm und Angebot innerhalb von 24 Stunden",
+    "lineApp": "Line App:",
+    "connect": "Verbinden",
+    "office": "Büro: Chalong Bay, Phuket — 15 Minuten von Phuket Town, 30 Minuten von Patong, 40 Minuten vom Flughafen",
+    "license": "Lizenziert von der Tourism Authority of Thailand (OTD #34/02546) • Vollversichert • World Luxury Travel Awards Gewinner 2025",
+    "default": {
+      "title": "Planen Sie Ihren Charter",
+      "subtitle": "Privates Segeln ab 800€/Tag | Tagesausflüge | Übernachtungsfahrten | Mehrtägige Expeditionen",
+      "button": "KOSTENLOSES ANGEBOT ERHALTEN →"
+    },
+    "cabinCruise": {
+      "title": "Planen Sie Ihre Kabinenkreuzfahrt",
+      "subtitle": "Kabinenkreuzfahrten ab 1.199€/Tag | Mehrtägiges Segeln | Private Kabinen | All-Inclusive",
+      "button": "KOSTENLOSES KABINENKREUZFAHRT-ANGEBOT →"
+    },
+    "catamaran": {
+      "title": "Planen Sie Ihren Charter",
+      "subtitle": "Privates Katamaran-Segeln ab 800€/Tag | Tagesausflüge | Übernachtungsfahrten | Mehrtägige Expeditionen",
+      "button": "KOSTENLOSES KATAMARAN-ANGEBOT →"
+    },
+    "luxury": {
+      "title": "Planen Sie Ihren Luxus-Yachtcharter",
+      "subtitle": "Private Segelyachten & Katamarane | Tages-Charter | Übernachtung | Mehrtägige Expeditionen",
+      "button": "KOSTENLOSES YACHT-ANGEBOT →"
+    },
+    "overnight": {
+      "title": "Planen Sie Ihren Übernachtungs-Segelcharter",
+      "subtitle": "Ab 1.000€/Nacht | Privater Katamaran | Volle Crew | All-Inclusive",
+      "button": "KOSTENLOSES ÜBERNACHTUNGSSEGEL-ANGEBOT →"
     }
   },
   "common": {
@@ -655,7 +694,7 @@
         "description": "Vertikale Kalksteinkarste, die aus smaragdgrünem Wasser aufsteigen, James Bond Island, versteckte Meeshöhlen und traditionelle schwimmende Dörfer. Kajak durch eingestürzte Höhlensysteme in geheime Hongs (Lagunen), die nur bei bestimmten Gezeiten zugänglich sind. Die Phang Nga Bucht ist ruhiger als Ziele auf offener See und daher ideal für Familien und Segelanfänger.",
         "distance": "3–4 Stunden von der Chalong Bay",
         "type": "Perfekt für Tagescharters",
-        "linkText": "Phang Nga Bay Charter →"
+        "linkText": "Phang Nga Bucht Charter →"
       },
       "racha": {
         "title": "Racha-Inseln & Klarwasser-Ankerplätze",
@@ -671,31 +710,31 @@
     "testimonials": {
       "title": "Was Katamaran-Charter-Gäste sagen",
       "testimonial1": {
-        "quote": "My trip with Faraway Yachting on the Hot Chilli crew exceeded my expectations. The captain was calm, confident, and clearly very skilled. The crew took excellent care of us, making sure we were comfortable and enjoying every moment. The food prepared by the chef was delicious and beautifully presented, adding a special touch to the trip. The overall service was outstanding and created a warm, enjoyable atmosphere on board. I truly recommend Faraway Yachting for anyone who wants a relaxing and high-quality yachting experience.",
+        "quote": "Meine Reise mit Faraway Yachting auf der Hot Chilli hat meine Erwartungen übertroffen. Der Kapitän war ruhig, souverän und offensichtlich sehr erfahren. Die Crew hat sich hervorragend um uns gekümmert und dafür gesorgt, dass wir uns wohlfühlen und jeden Moment genießen. Das vom Koch zubereitete Essen war köstlich und wunderschön angerichtet, was der Reise eine besondere Note verlieh. Der gesamte Service war herausragend und schuf eine warme, angenehme Atmosphäre an Bord. Ich empfehle Faraway Yachting jedem, der ein entspanntes und hochwertiges Yachterlebnis sucht.",
         "author": "Katie Brooks"
       },
       "testimonial2": {
-        "quote": "I went on a cruise to Thailand, and it turned out to be a fantastic experience. The route included beautiful islands, warm turquoise water, and plenty of time to explore both nature and local culture. Each stop felt unique — from quiet beaches and crystal-clear snorkeling spots to lively towns with great food and friendly people. The ship itself was comfortable, clean, and well organized. Overall, this cruise was a perfect balance of relaxation and adventure.",
+        "quote": "Ich habe eine Kreuzfahrt nach Thailand gemacht, und es war ein fantastisches Erlebnis. Die Route umfasste wunderschöne Inseln, warmes türkisfarbenes Wasser und viel Zeit, um Natur und lokale Kultur zu erkunden. Jeder Halt war einzigartig — von ruhigen Stränden und kristallklaren Schnorchelplätzen bis hin zu lebhaften Städten mit tollem Essen und freundlichen Menschen. Das Schiff selbst war komfortabel, sauber und gut organisiert. Insgesamt war diese Kreuzfahrt die perfekte Balance zwischen Entspannung und Abenteuer.",
         "author": "Maria Volkova"
       },
       "testimonial3": {
-        "quote": "We had the time of our lives with Faraway Yachting. From the very first booking contact to the warm welcome at their office, everything was seamless and professional. The crew exceeded every expectation — attentive, intuitive, and always one step ahead. The food deserves special mention: better than any restaurant we tried in Asia. We'll be back next year, guaranteed.",
+        "quote": "Wir hatten die beste Zeit unseres Lebens mit Faraway Yachting. Vom ersten Buchungskontakt bis zum herzlichen Empfang in ihrem Büro war alles reibungslos und professionell. Die Crew hat jede Erwartung übertroffen — aufmerksam, intuitiv und immer einen Schritt voraus. Das Essen verdient besondere Erwähnung: besser als jedes Restaurant, das wir in Asien ausprobiert haben. Wir kommen nächstes Jahr wieder, garantiert.",
         "author": "Hans Maxheim"
       },
       "testimonial4": {
-        "quote": "It was soooo much fun! Everyone was smiling all the time. The captain, crew, chef, and interns were super helpful and friendly. The service was excellent. I really enjoyed all the activities, and the food was delicious! The Pad Thai was amazing. It was such a great experience with Faraway Yachting, truly unforgettable!",
+        "quote": "Es hat sooo viel Spaß gemacht! Alle haben die ganze Zeit gelächelt. Der Kapitän, die Crew, der Koch und die Praktikanten waren super hilfsbereit und freundlich. Der Service war ausgezeichnet. Ich habe alle Aktivitäten genossen, und das Essen war köstlich! Das Pad Thai war fantastisch. Es war ein unvergessliches Erlebnis mit Faraway Yachting!",
         "author": "Priscilla Evanson"
       },
       "testimonial5": {
-        "quote": "We had the most exceptional day on board Chili — from start to finish it was flawless. The crew were warm, attentive, and genuinely passionate, striking the perfect balance between professional and relaxed. The food was outstanding — fresh, beautifully presented, and absolutely delicious, easily restaurant-quality. If you're considering a day on Chili, don't hesitate.",
+        "quote": "Wir hatten den außergewöhnlichsten Tag an Bord der Chili — von Anfang bis Ende war es makellos. Die Crew war herzlich, aufmerksam und wirklich leidenschaftlich, mit der perfekten Balance zwischen professionell und entspannt. Das Essen war herausragend — frisch, wunderschön angerichtet und absolut köstlich, locker auf Restaurantniveau. Wenn Sie einen Tag auf der Chili in Betracht ziehen, zögern Sie nicht.",
         "author": "Dara"
       },
       "testimonial6": {
-        "quote": "We wanted to escape the busy Christmas time and sailed faraway! The Crew did a fabulous job and we had the best time with the other passengers. The trip was awesome. From beautiful snorkeling spots to empty beaches and hikes to viewpoints. Nothing was left out. The food was delicious and plenty. We would recommend and would book again.",
+        "quote": "Wir wollten der hektischen Weihnachtszeit entfliehen und sind in die Ferne gesegelt! Die Crew hat einen fabelhaften Job gemacht und wir hatten die beste Zeit mit den anderen Passagieren. Die Reise war großartig. Von wunderschönen Schnorchelplätzen über einsame Strände bis hin zu Wanderungen zu Aussichtspunkten. Nichts wurde ausgelassen. Das Essen war köstlich und reichlich. Wir würden es weiterempfehlen und wieder buchen.",
         "author": "Jonathan Singer"
       },
       "testimonial7": {
-        "quote": "I recently visited Phang Nga bay, and it was such a lovely trip. The atmosphere was calm and relaxing, and the nature there is truly beautiful. I really enjoyed the views of the sea, limestone cliffs, and the peaceful surroundings. It felt like a perfect place to slow down and enjoy nature. Phang Nga has its own charm, and I'm really happy I got to visit.",
+        "quote": "Ich habe kürzlich die Phang Nga Bucht besucht, und es war ein wundervoller Ausflug. Die Atmosphäre war ruhig und entspannend, und die Natur dort ist wirklich wunderschön. Ich habe den Blick auf das Meer, die Kalksteinfelsen und die friedliche Umgebung sehr genossen. Es fühlte sich wie der perfekte Ort an, um zur Ruhe zu kommen und die Natur zu genießen. Phang Nga hat seinen eigenen Charme, und ich bin wirklich froh, dass ich dort war.",
         "author": "Sandra Tomson"
       },
       "readAll": "Alle 850+ Bewertungen lesen →"
@@ -1304,6 +1343,7 @@
     "sailingYachts": "Segelyachten",
     "overnightSailing": "Übernachtungs-Segelreisen",
     "barefootCharter": "Bareboat Charter",
+    "bareboatSailing": "Bareboat-Segeln",
     "sailingItineraries": "Segel-Routen",
     "charterTypes": "Charter-Typen"
   },
@@ -1341,6 +1381,7 @@
       "badge2": "25 Jahre Segelerfahrung",
       "title": "Kabinenkreuzfahrt Phuket – Luxus-Segeln durch Thailands Inseln",
       "description": "Erleben Sie die perfekte Mischung aus Abenteuer und Entspannung auf einer Kabinenkreuzfahrt in Phuket. Erkunden Sie Phi Phi, die Phang Nga Bucht und Koh Lanta mit privaten Kabinen und erstklassigem Service, während Sie die Schönheit der thailändischen Inseln genießen.",
+      "badges": "850+ Fünf-Sterne-Bewertungen | 30+ Jahre Segelerfahrung | Gewinner der World Luxury Travel Awards 2025",
       "cta": "Holen Sie sich Ihr kostenloses Kabinenkreuzfahrt-Angebot",
       "whatsapp": "Kontaktieren Sie uns per WhatsApp"
     },
@@ -1355,7 +1396,8 @@
       "card1": {
         "title": "Gemeinsames Luxus-Segeln auf einem modernen Schiff",
         "p1": "Erleben Sie die perfekte Balance zwischen Privatsphäre und Gemeinschaft auf einer geteilten Kabinenkreuzfahrt. Sie genießen den Luxus privater Kabinen, die für höchsten Komfort konzipiert sind, und haben gleichzeitig die Möglichkeit, andere Reisende kennenzulernen. Unsere modernen Schiffe verfügen über geräumige Decks, stilvolle Lounges und zahlreiche Gemeinschaftsbereiche, sodass Sie sich wie auf Ihrer eigenen Privatyacht fühlen — ohne die Kosten einer Buchung.",
-        "p2": "Ob Sie allein, als Paar oder mit Freunden reisen — die Kabinenkreuzfahrt-Erfahrung lässt Sie durch einige der atemberaubendsten Reiseziele der Welt segeln und dabei Ihre Privatsphäre bewahren. Unsere professionelle Crew sorgt dafür, dass jeder Aspekt Ihrer Reise betreut wird — von der Navigation bis zur Zubereitung köstlicher Mahlzeiten. Sie müssen sich nur zurücklehnen und das Erlebnis genießen."
+        "p2": "Ob Sie allein, als Paar oder mit Freunden reisen — die Kabinenkreuzfahrt-Erfahrung lässt Sie durch einige der atemberaubendsten Reiseziele der Welt segeln und dabei Ihre Privatsphäre bewahren. Unsere professionelle Crew sorgt dafür, dass jeder Aspekt Ihrer Reise betreut wird — von der Navigation bis zur Zubereitung köstlicher Mahlzeiten. Sie müssen sich nur zurücklehnen und das Erlebnis genießen.",
+        "p3": "Ob Sie allein, als Paar oder mit Freunden reisen — alles wird für Sie organisiert. Unsere professionelle Crew navigiert, bereitet frische Mahlzeiten zu und kümmert sich um jedes Detail, damit Sie sich voll und ganz auf Entspannung, Schwimmen, Schnorcheln und die spektakuläre Insellandschaft Thailands bei Ihrer Kabinenkreuzfahrt Thailand konzentrieren können."
       },
       "card2": {
         "title": "Komfortables Kabinen-Charter-Erlebnis in Thailand",
@@ -1365,6 +1407,48 @@
         "perDay": "/Tag",
         "departs": "Abfahrt ~9:00 Uhr, Rückkehr ~17:30 Uhr",
         "guests": "Bis zu 8 Gäste"
+      }
+    },
+    "amadeus": {
+      "title": "Segelyacht Amadeus – Ihr ultimatives schwimmendes Refugium",
+      "subtitle": "Entdecken Sie, was die Amadeus, einen Mumby 48 Katamaran, zum perfekten Schiff für ein luxuriöses und unvergessliches Segelerlebnis macht.",
+      "specs": {
+        "title": "Spezifikationen des Amadeus Katamarans",
+        "year": "2013",
+        "yearLabel": "Baujahr",
+        "length": "48 Fuß (14,5 Meter)",
+        "lengthLabel": "Länge",
+        "capacity": "Maximal 8 Gäste",
+        "capacityLabel": "Kapazität"
+      },
+      "comfort": {
+        "title": "Komfort und Ausstattung an Bord",
+        "item1": "Die Amadeus bietet 3 Doppelkabinen mit Queen-Size-Betten und eigenem Bad, plus eine zusätzliche Doppelkabine mit einem nahegelegenen Bad.",
+        "item2": "Die Kabinen sind mit Doppelventilatoren, Leselampen, Moskitonetzen und bequemer Bettwäsche ausgestattet.",
+        "item3": "Mit 4 Badezimmern an Bord genießt jeder Gast Komfort und Privatsphäre, zusammen mit einer zusätzlichen Deckdusche für erfrischende Momente im Freien.",
+        "item4": "Der Katamaran verfügt auch über Sonnenschutz durch ein festes Bimini und eine flexible Markise, damit Sie kühl bleiben, während Sie die atemberaubende Aussicht genießen."
+      },
+      "entertainment": {
+        "title": "Unterhaltung und Aktivitäten",
+        "item1": "Genießen Sie eine Musiksammlung über einen Audio-CD/MP4-Player und eine iPod-Dockingstation oder entspannen Sie mit den Außenlautsprechern während der Fahrt.",
+        "item2": "Die Amadeus bietet Angelausrüstung, Schnorchelausrüstung und Wassersport wie 2 Kajaks und 1 Paddleboard, damit Gäste die Gewässer erkunden und Abenteuer genießen können.",
+        "item3": "Die Amadeus ist bekannt für ihre außergewöhnliche thailändische und europäische Küche an Bord, und wenn Sie möchten, können Sie an einem kostenlosen Thai-Kochkurs teilnehmen, um Ihre kulinarischen Fähigkeiten zu erweitern."
+      }
+    },
+    "whatsIncluded": {
+      "title": "Was in Ihrer Kabinenkreuzfahrt Phuket enthalten ist",
+      "subtitle": "Wenn Sie eine Kabinenkreuzfahrt Phuket buchen, entscheiden Sie sich für ein luxuriöses All-inclusive-Erlebnis, das sich um alles kümmert — von Bordservices bis hin zu aufregenden Aktivitäten.",
+      "included": {
+        "title": "Was in Ihrer Kabinenkreuzfahrt enthalten ist",
+        "text": "Ihr Paket umfasst 5 Nächte/6 Tage Segeln, mit Ein- und Auschecken um 11:00 Uhr. Genießen Sie die exklusive Nutzung Ihrer gebuchten Kabine und Ihres Badezimmers, wobei alle Betriebskosten der Yacht gedeckt sind, einschließlich Treibstoff und Liegeplatz. Eine professionelle Crew von 3 Personen — ein Kapitän, Koch/Stewardess und Deckhand/Ingenieur — sorgt für Ihren Komfort und Ihre Sicherheit. Vollpension ist inbegriffen, mit fünf Frühstücken, fünf Mittagessen und vier Abendessen, zusammen mit frischen Früchten und Snacks. Wenn der Nationalpark es erlaubt, gibt es auch ein Strand-BBQ. Sie haben Zugang zu Schnorchelausrüstung, Kajaks und Stand-up-Paddleboards. Eine Unfallversicherung bis zu 1 Million THB ist enthalten, damit Sie während Ihrer gesamten Reise abgesichert sind."
+      },
+      "bring": {
+        "title": "Was Sie mitbringen sollten",
+        "text": "Für maximalen Komfort bringen Sie bitte einen Hut oder eine Kappe, Sonnencreme, Sonnenbrille, bequeme Schuhe, eine Kamera, eine wasserdichte Tasche und natürlich Ihren Badeanzug für Wasseraktivitäten mit."
+      },
+      "exclusions": {
+        "title": "Ausschlüsse und optionale Extras",
+        "text": "Während Ihre Kreuzfahrt das Wesentliche abdeckt, gibt es einige Ausschlüsse: Flüge, Transfers, Hotels, Mietwagen und Wassertaxis sind nicht enthalten. Mahlzeiten oder Getränke in Restaurants sind ebenfalls ausgeschlossen, ebenso wie Nationalparkgebühren (von 50 THB bis 400 THB pro Erwachsenem). Optionale Extras umfassen Taxi-Transfers (Preise je nach Standort) und private Stand-up-Paddleboard-Miete zu 700 THB/Tag. Vorbestellte und vorausbezahlte Getränke sind verfügbar, einschließlich Softdrinks, lokaler und ausländischer Biere, Wein und Cocktails, mit detaillierter Preisangabe im Voraus."
       }
     },
     "whyChoose": {
@@ -1426,6 +1510,10 @@
         },
         "bays": {
           "title": "Wunderschöne Buchten Südthailands Segeln",
+          "sub1Title": "Weiße Sandstrände und Türkisfarbenes Wasser",
+          "sub1Description": "Südthailand bietet einige der unberührtesten Strände und türkisfarbendsten Gewässer der Welt. Auf Ihrer Kabinenkreuzfahrt können Sie abgelegene Buchten besuchen, die für größere Boote oft unzugänglich sind. Genießen Sie Schwimmen, Sonnenbaden oder einfach Entspannung an weißen Sandstränden, ohne andere Touristen in der Nähe.",
+          "sub2Title": "Schnorcheln, Kajakfahren und Ruhige Ankerplätze",
+          "sub2Description": "Die Buchten rund um Phuket sind perfekt für Wasseraktivitäten wie Schnorcheln, Kajakfahren und Stand-Up-Paddeln. Erkunden Sie lebendige Korallenriffe, schwimmen Sie mit bunten Fischen und genießen Sie ruhige Ankerplätze, die den perfekten Rahmen für einen friedlichen Tag auf See bieten.",
           "description": "Südthailand bietet einige der unberührtesten Strände und türkisfarbendsten Gewässer der Welt. Auf Ihrer Kabinenkreuzfahrt können Sie abgelegene Buchten besuchen, die für größere Boote oft unzugänglich sind. Genießen Sie Schwimmen, Sonnenbaden oder einfach Entspannung an weißen Sandstränden, ohne andere Touristen in der Nähe.\nDie Buchten rund um Phuket sind perfekt für Wasseraktivitäten wie Schnorcheln, Kajakfahren und Stand-Up-Paddeln. Erkunden Sie lebendige Korallenriffe, schwimmen Sie mit bunten Fischen und genießen Sie ruhige Ankerplätze, die den perfekten Rahmen für einen friedlichen Tag auf See bieten.",
           "pricing": "Ab 1.199 €/Tag",
           "details": "4–6 Stunden Segeln von Chalong Bay | Ideal für Familien und kleine Gruppen",
@@ -1522,7 +1610,7 @@
         },
         "children": {
           "q": "Sind Kabinenkreuzfahrten sicher für Kinder?",
-          "a": "Ja — Kabinenkreuzfahrten gehören zu den sichersten Optionen für Familien. Das stabile Doppelrumpf-Design sorgt für minimale Bewegung, ideal für Familien mit kleinen Kindern. Sicherheitsgeländer, Netze und Schwimmwesten für alle Altersgruppen sind vorhanden. Unsere erfahrene Crew sorgt dafür, dass Kinder unterhalten und bei Wasseraktivitäten sicher sind."
+          "a": "Kabinenkreuzfahrten heißen Gäste ab 12 Jahren willkommen. Dank des stabilen Doppelrumpf-Designs bietet die Kreuzfahrt ein ruhiges Erlebnis, während Sicherheitsgeländer, Netze und Rettungswesten die Sicherheit der Kinder gewährleisten."
         },
         "difference": {
           "q": "Was ist der Unterschied zwischen einer Kabinenkreuzfahrt und einem privaten Yachtcharter?",
@@ -1542,7 +1630,7 @@
         },
         "booking": {
           "q": "Wie weit im Voraus sollte ich eine Kabinenkreuzfahrt buchen?",
-          "a": "Während der Hochsaison (Dezember–März) wird empfohlen, mindestens 2–4 Wochen im Voraus zu buchen. Für Weihnachten und Neujahr empfehlen wir eine Buchung 2–3 Monate im Voraus. Für die beste Auswahl ist frühzeitiges Buchen immer empfehlenswert, besonders für mehrtägige Kabinenkreuzfahrten."
+          "a": "Für die Hochsaison (November bis Mai) wird empfohlen, 3–6 Monate im Voraus zu buchen, um Ihre bevorzugte Kabine zu sichern. Während der Spitzenzeit über Weihnachten und Neujahr ist eine Buchung 6–12 Monate im Voraus ideal, um Verfügbarkeit zu gewährleisten und Enttäuschungen zu vermeiden. Für die beste Auswahl ist frühzeitiges Buchen immer empfehlenswert, besonders für mehrtägige Kabinenkreuzfahrten."
         }
       }
     }

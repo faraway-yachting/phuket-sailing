@@ -387,6 +387,45 @@
       "whatsapp": "WhatsApp",
       "line": "Line",
       "location": "Наше Местоположение"
+    },
+    "termsAgree": "Отправляя эту форму, вы соглашаетесь с нашими",
+    "termsLink": "Условиями и Положениями",
+    "bookingTermsTitle": "Условия Бронирования"
+  },
+  "bookingCTA": {
+    "threeWays": "Три способа начать:",
+    "callWhatsApp": "Звонок/WhatsApp:",
+    "respondTime": "Мы отвечаем в течение 1 часа в рабочее время",
+    "emailLabel": "Email:",
+    "emailResponse": "Индивидуальный маршрут и расчёт стоимости в течение 24 часов",
+    "lineApp": "Line App:",
+    "connect": "Подключиться",
+    "office": "Офис: Чалонг Бей, Пхукет — 15 минут от Пхукет Тауна, 30 минут от Патонга, 40 минут от аэропорта",
+    "license": "Лицензия Управления по туризму Таиланда (OTD #34/02546) • Полная страховка • Победитель World Luxury Travel Awards 2025",
+    "default": {
+      "title": "Начните Планировать Ваш Чартер",
+      "subtitle": "Частный парус от €800/день | Дневные туры | Ночные круизы | Многодневные экспедиции",
+      "button": "ПОЛУЧИТЬ БЕСПЛАТНОЕ ПРЕДЛОЖЕНИЕ →"
+    },
+    "cabinCruise": {
+      "title": "Начните Планировать Ваш Каютный Круиз",
+      "subtitle": "Каютные круизы от €1 199/день | Многодневный парус | Частные каюты | Всё включено",
+      "button": "ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ НА КАЮТНЫЙ КРУИЗ →"
+    },
+    "catamaran": {
+      "title": "Начните Планировать Ваш Чартер",
+      "subtitle": "Частный катамаран от €800/день | Дневные туры | Ночные круизы | Многодневные экспедиции",
+      "button": "ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ НА КАТАМАРАН →"
+    },
+    "luxury": {
+      "title": "Начните Планировать Ваш Чартер Роскошной Яхты",
+      "subtitle": "Частные парусные яхты и катамараны | Дневные чартеры | Ночёвка | Многодневные экспедиции",
+      "button": "ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ НА ЯХТУ →"
+    },
+    "overnight": {
+      "title": "Начните Планировать Ваш Ночной Парусный Чартер",
+      "subtitle": "От €1 000/ночь | Частный катамаран | Полный экипаж | Всё включено",
+      "button": "ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ НА НОЧНОЙ ПАРУС →"
     }
   },
   "footer": {
@@ -408,6 +447,7 @@
     "sailingYachts": "Парусные Яхты",
     "overnightSailing": "Ночные Парусные Туры",
     "barefootCharter": "Бэрбоут Чартер",
+    "bareboatSailing": "Бэрбоут Парусный Спорт",
     "sailingItineraries": "Маршруты Парусных Круизов",
     "charterTypes": "Типы Чартеров"
   },
@@ -693,31 +733,31 @@
     "testimonials": {
       "title": "Отзывы гостей катамаранных чартеров",
       "testimonial1": {
-        "quote": "My trip with Faraway Yachting on the Hot Chilli crew exceeded my expectations. The captain was calm, confident, and clearly very skilled. The crew took excellent care of us, making sure we were comfortable and enjoying every moment. The food prepared by the chef was delicious and beautifully presented, adding a special touch to the trip. The overall service was outstanding and created a warm, enjoyable atmosphere on board. I truly recommend Faraway Yachting for anyone who wants a relaxing and high-quality yachting experience.",
+        "quote": "Моя поездка с Faraway Yachting на яхте Hot Chilli превзошла все ожидания. Капитан был спокойным, уверенным и явно очень опытным. Команда прекрасно заботилась о нас, следя за тем, чтобы нам было комфортно и мы наслаждались каждым моментом. Еда, приготовленная шеф-поваром, была восхитительной и красиво поданной, что придало путешествию особую атмосферу. Общий уровень сервиса был выдающимся и создавал тёплую, приятную обстановку на борту. Я искренне рекомендую Faraway Yachting всем, кто ищет расслабляющий и высококлассный яхтенный опыт.",
         "author": "Katie Brooks"
       },
       "testimonial2": {
-        "quote": "I went on a cruise to Thailand, and it turned out to be a fantastic experience. The route included beautiful islands, warm turquoise water, and plenty of time to explore both nature and local culture. Each stop felt unique — from quiet beaches and crystal-clear snorkeling spots to lively towns with great food and friendly people. The ship itself was comfortable, clean, and well organized. Overall, this cruise was a perfect balance of relaxation and adventure.",
+        "quote": "Я отправилась в круиз по Таиланду, и это оказался фантастический опыт. Маршрут включал красивые острова, тёплую бирюзовую воду и множество времени для изучения природы и местной культуры. Каждая остановка была уникальной — от тихих пляжей и кристально чистых мест для снорклинга до оживлённых городков с отличной едой и дружелюбными людьми. Само судно было комфортным, чистым и хорошо организованным. В целом этот круиз стал идеальным сочетанием отдыха и приключений.",
         "author": "Maria Volkova"
       },
       "testimonial3": {
-        "quote": "We had the time of our lives with Faraway Yachting. From the very first booking contact to the warm welcome at their office, everything was seamless and professional. The crew exceeded every expectation — attentive, intuitive, and always one step ahead. The food deserves special mention: better than any restaurant we tried in Asia. We'll be back next year, guaranteed.",
+        "quote": "Мы провели лучшее время в нашей жизни с Faraway Yachting. От первого контакта при бронировании до тёплого приёма в их офисе — всё было безупречно и профессионально. Команда превзошла все ожидания — внимательная, интуитивная и всегда на шаг впереди. Еда заслуживает особого упоминания: лучше, чем в любом ресторане, который мы пробовали в Азии. Мы вернёмся в следующем году, гарантировано.",
         "author": "Hans Maxheim"
       },
       "testimonial4": {
-        "quote": "It was soooo much fun! Everyone was smiling all the time. The captain, crew, chef, and interns were super helpful and friendly. The service was excellent. I really enjoyed all the activities, and the food was delicious! The Pad Thai was amazing. It was such a great experience with Faraway Yachting, truly unforgettable!",
+        "quote": "Это было тааак весело! Все улыбались всё время. Капитан, команда, шеф-повар и стажёры были невероятно отзывчивыми и дружелюбными. Сервис был отличным. Мне очень понравились все активности, а еда была восхитительной! Пад Тай был потрясающим. Это был незабываемый опыт с Faraway Yachting!",
         "author": "Priscilla Evanson"
       },
       "testimonial5": {
-        "quote": "We had the most exceptional day on board Chili — from start to finish it was flawless. The crew were warm, attentive, and genuinely passionate, striking the perfect balance between professional and relaxed. The food was outstanding — fresh, beautifully presented, and absolutely delicious, easily restaurant-quality. If you're considering a day on Chili, don't hesitate.",
+        "quote": "У нас был самый исключительный день на борту Chili — от начала до конца всё было безупречно. Команда была тёплой, внимательной и по-настоящему увлечённой, находя идеальный баланс между профессионализмом и непринуждённостью. Еда была выдающейся — свежей, красиво поданной и абсолютно восхитительной, на уровне лучших ресторанов. Если вы раздумываете провести день на Chili — не сомневайтесь.",
         "author": "Dara"
       },
       "testimonial6": {
-        "quote": "We wanted to escape the busy Christmas time and sailed faraway! The Crew did a fabulous job and we had the best time with the other passengers. The trip was awesome. From beautiful snorkeling spots to empty beaches and hikes to viewpoints. Nothing was left out. The food was delicious and plenty. We would recommend and would book again.",
+        "quote": "Мы хотели сбежать от суеты Рождества и отправились в дальнее плавание! Команда проделала потрясающую работу, и мы отлично провели время с другими пассажирами. Путешествие было великолепным. От красивых мест для снорклинга до безлюдных пляжей и пеших прогулок к смотровым площадкам. Ничего не было упущено. Еда была вкусной и обильной. Мы бы порекомендовали и забронировали снова.",
         "author": "Jonathan Singer"
       },
       "testimonial7": {
-        "quote": "I recently visited Phang Nga bay, and it was such a lovely trip. The atmosphere was calm and relaxing, and the nature there is truly beautiful. I really enjoyed the views of the sea, limestone cliffs, and the peaceful surroundings. It felt like a perfect place to slow down and enjoy nature. Phang Nga has its own charm, and I'm really happy I got to visit.",
+        "quote": "Недавно я посетила залив Пханг Нга, и это была чудесная поездка. Атмосфера была спокойной и расслабляющей, а природа там действительно прекрасна. Мне очень понравились виды на море, известняковые скалы и умиротворяющая обстановка. Это показалось идеальным местом, чтобы замедлиться и насладиться природой. У Пханг Нга есть своё особое очарование, и я очень рада, что смогла там побывать.",
         "author": "Sandra Tomson"
       },
       "readAll": "Читать все 850+ отзывов →"

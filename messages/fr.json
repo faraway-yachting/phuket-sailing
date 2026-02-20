@@ -10,7 +10,7 @@
     "pricing": "Tarifs",
     "booking": "Réservation",
     "faq": "FAQ",
-    "bookNow": "Book Now",
+    "bookNow": "Réserver",
     "contactUs": "Nous Contacter",
     "selectLanguage": "Choisir la Langue",
     "catamaranCharter": "Charter Catamaran",
@@ -387,6 +387,45 @@
       "whatsapp": "WhatsApp",
       "line": "Line",
       "location": "Notre Emplacement"
+    },
+    "termsAgree": "En soumettant ce formulaire, vous acceptez nos",
+    "termsLink": "Conditions Générales",
+    "bookingTermsTitle": "Conditions Générales de Réservation"
+  },
+  "bookingCTA": {
+    "threeWays": "Trois façons de commencer :",
+    "callWhatsApp": "Appel/WhatsApp :",
+    "respondTime": "Nous répondons dans l'heure pendant les heures d'ouverture",
+    "emailLabel": "Email :",
+    "emailResponse": "Itinéraire personnalisé et devis sous 24 heures",
+    "lineApp": "Line App :",
+    "connect": "Se connecter",
+    "office": "Bureau : Chalong Bay, Phuket — 15 minutes de Phuket Town, 30 minutes de Patong, 40 minutes de l'aéroport",
+    "license": "Licence de l'Autorité du Tourisme de Thaïlande (OTD #34/02546) • Entièrement assuré • Lauréat World Luxury Travel Awards 2025",
+    "default": {
+      "title": "Commencez à Planifier Votre Charter",
+      "subtitle": "Navigation privée à partir de 800€/jour | Excursions | Croisières de nuit | Expéditions multi-jours",
+      "button": "OBTENEZ VOTRE DEVIS GRATUIT →"
+    },
+    "cabinCruise": {
+      "title": "Commencez à Planifier Votre Croisière Cabine",
+      "subtitle": "Croisières cabine à partir de 1 199€/jour | Navigation multi-jours | Cabines privées | Tout inclus",
+      "button": "OBTENEZ VOTRE DEVIS CROISIÈRE CABINE →"
+    },
+    "catamaran": {
+      "title": "Commencez à Planifier Votre Charter",
+      "subtitle": "Navigation privée en catamaran à partir de 800€/jour | Excursions | Croisières de nuit | Expéditions multi-jours",
+      "button": "OBTENEZ VOTRE DEVIS CATAMARAN →"
+    },
+    "luxury": {
+      "title": "Commencez à Planifier Votre Charter de Yacht de Luxe",
+      "subtitle": "Yachts à voile privés et catamarans | Charters à la journée | Nuit | Expéditions multi-jours",
+      "button": "OBTENEZ VOTRE DEVIS YACHT →"
+    },
+    "overnight": {
+      "title": "Commencez à Planifier Votre Charter de Nuit",
+      "subtitle": "À partir de 1 000€/nuit | Catamaran privé | Équipage complet | Tout inclus",
+      "button": "OBTENEZ VOTRE DEVIS NAVIGATION DE NUIT →"
     }
   },
   "common": {
@@ -671,31 +710,31 @@
     "testimonials": {
       "title": "Ce que Disent les Invités de Location de Catamaran",
       "testimonial1": {
-        "quote": "My trip with Faraway Yachting on the Hot Chilli crew exceeded my expectations. The captain was calm, confident, and clearly very skilled. The crew took excellent care of us, making sure we were comfortable and enjoying every moment. The food prepared by the chef was delicious and beautifully presented, adding a special touch to the trip. The overall service was outstanding and created a warm, enjoyable atmosphere on board. I truly recommend Faraway Yachting for anyone who wants a relaxing and high-quality yachting experience.",
+        "quote": "Mon voyage avec Faraway Yachting sur le Hot Chilli a dépassé toutes mes attentes. Le capitaine était calme, confiant et visiblement très compétent. L'équipage a pris un soin exceptionnel de nous, veillant à notre confort à chaque instant. La cuisine du chef était délicieuse et magnifiquement présentée, ajoutant une touche spéciale au voyage. Le service global était remarquable et a créé une atmosphère chaleureuse et agréable à bord. Je recommande vivement Faraway Yachting à tous ceux qui recherchent une expérience nautique relaxante et haut de gamme.",
         "author": "Katie Brooks"
       },
       "testimonial2": {
-        "quote": "I went on a cruise to Thailand, and it turned out to be a fantastic experience. The route included beautiful islands, warm turquoise water, and plenty of time to explore both nature and local culture. Each stop felt unique — from quiet beaches and crystal-clear snorkeling spots to lively towns with great food and friendly people. The ship itself was comfortable, clean, and well organized. Overall, this cruise was a perfect balance of relaxation and adventure.",
+        "quote": "J'ai fait une croisière en Thaïlande et ce fut une expérience fantastique. L'itinéraire comprenait de magnifiques îles, une eau turquoise et chaude, et beaucoup de temps pour explorer la nature et la culture locale. Chaque escale était unique — des plages tranquilles et des spots de snorkeling cristallins aux villes animées avec une cuisine savoureuse et des habitants accueillants. Le bateau était confortable, propre et bien organisé. Cette croisière était un parfait équilibre entre détente et aventure.",
         "author": "Maria Volkova"
       },
       "testimonial3": {
-        "quote": "We had the time of our lives with Faraway Yachting. From the very first booking contact to the warm welcome at their office, everything was seamless and professional. The crew exceeded every expectation — attentive, intuitive, and always one step ahead. The food deserves special mention: better than any restaurant we tried in Asia. We'll be back next year, guaranteed.",
+        "quote": "Nous avons vécu les meilleurs moments de notre vie avec Faraway Yachting. Du premier contact de réservation à l'accueil chaleureux dans leurs bureaux, tout était fluide et professionnel. L'équipage a dépassé toutes nos attentes — attentionné, intuitif et toujours un pas en avance. La cuisine mérite une mention spéciale : meilleure que tous les restaurants que nous avons essayés en Asie. Nous reviendrons l'année prochaine, c'est garanti.",
         "author": "Hans Maxheim"
       },
       "testimonial4": {
-        "quote": "It was soooo much fun! Everyone was smiling all the time. The captain, crew, chef, and interns were super helpful and friendly. The service was excellent. I really enjoyed all the activities, and the food was delicious! The Pad Thai was amazing. It was such a great experience with Faraway Yachting, truly unforgettable!",
+        "quote": "C'était telleeement amusant ! Tout le monde souriait en permanence. Le capitaine, l'équipage, le chef et les stagiaires étaient super serviables et sympathiques. Le service était excellent. J'ai adoré toutes les activités et la nourriture était délicieuse ! Le Pad Thai était incroyable. Ce fut une expérience inoubliable avec Faraway Yachting !",
         "author": "Priscilla Evanson"
       },
       "testimonial5": {
-        "quote": "We had the most exceptional day on board Chili — from start to finish it was flawless. The crew were warm, attentive, and genuinely passionate, striking the perfect balance between professional and relaxed. The food was outstanding — fresh, beautifully presented, and absolutely delicious, easily restaurant-quality. If you're considering a day on Chili, don't hesitate.",
+        "quote": "Nous avons passé une journée exceptionnelle à bord du Chili — du début à la fin, c'était parfait. L'équipage était chaleureux, attentionné et véritablement passionné, trouvant l'équilibre parfait entre professionnalisme et décontraction. La cuisine était remarquable — fraîche, joliment présentée et absolument délicieuse, digne d'un grand restaurant. Si vous hésitez à passer une journée sur le Chili, n'hésitez plus.",
         "author": "Dara"
       },
       "testimonial6": {
-        "quote": "We wanted to escape the busy Christmas time and sailed faraway! The Crew did a fabulous job and we had the best time with the other passengers. The trip was awesome. From beautiful snorkeling spots to empty beaches and hikes to viewpoints. Nothing was left out. The food was delicious and plenty. We would recommend and would book again.",
+        "quote": "Nous voulions échapper à l'agitation de Noël et nous avons navigué au loin ! L'équipage a fait un travail fabuleux et nous avons passé un moment formidable avec les autres passagers. Le voyage était fantastique. Des spots de snorkeling magnifiques aux plages désertes en passant par des randonnées vers des points de vue. Rien n'a été oublié. La nourriture était délicieuse et généreuse. Nous recommandons et réserverions à nouveau.",
         "author": "Jonathan Singer"
       },
       "testimonial7": {
-        "quote": "I recently visited Phang Nga bay, and it was such a lovely trip. The atmosphere was calm and relaxing, and the nature there is truly beautiful. I really enjoyed the views of the sea, limestone cliffs, and the peaceful surroundings. It felt like a perfect place to slow down and enjoy nature. Phang Nga has its own charm, and I'm really happy I got to visit.",
+        "quote": "J'ai récemment visité la baie de Phang Nga et c'était un voyage merveilleux. L'atmosphère était calme et relaxante, et la nature y est vraiment magnifique. J'ai beaucoup apprécié les vues sur la mer, les falaises calcaires et les environs paisibles. C'était l'endroit parfait pour ralentir et profiter de la nature. Phang Nga a un charme unique et je suis vraiment ravie d'avoir pu y aller.",
         "author": "Sandra Tomson"
       },
       "readAll": "Lire toutes les 850+ avis →"
@@ -1304,6 +1343,7 @@
     "sailingYachts": "Voiliers",
     "overnightSailing": "Croisières de Nuit",
     "barefootCharter": "Location sans Équipage",
+    "bareboatSailing": "Voile Bareboat",
     "sailingItineraries": "Itinéraires de Voile",
     "charterTypes": "Types de Charter"
   },
@@ -1341,6 +1381,7 @@
       "badge2": "25 Ans d'Expertise en Voile",
       "title": "Croisière Cabine Phuket – Navigation de Luxe à Travers les Îles de Thaïlande",
       "description": "Vivez le mélange parfait d'aventure et de détente lors d'une Croisière Cabine à Phuket. Explorez Phi Phi, la Baie de Phang Nga et Koh Lanta avec des cabines privées et un service haut de gamme, tout en profitant de la beauté des îles thaïlandaises.",
+      "badges": "850+ Avis Cinq Étoiles | 30+ Ans d'Expertise en Voile | Lauréat des World Luxury Travel Awards 2025",
       "cta": "Obtenez Votre Devis Croisière Cabine Gratuit",
       "whatsapp": "Contactez-nous sur WhatsApp"
     },
@@ -1355,7 +1396,8 @@
       "card1": {
         "title": "Navigation de Luxe Partagée sur un Navire Moderne",
         "p1": "Vivez l'équilibre parfait entre intimité et convivialité lors d'une croisière cabine partagée. Vous profiterez du luxe de cabines privées conçues pour un confort optimal, tout en ayant la possibilité de rencontrer d'autres voyageurs. Nos navires modernes disposent de ponts spacieux, de salons élégants et de nombreux espaces communs, vous donnant l'impression d'être sur votre propre yacht privé sans le coût d'en réserver un.",
-        "p2": "Que vous voyagiez seul, en couple ou entre amis, l'expérience de croisière cabine vous permet de naviguer à travers certaines des destinations les plus époustouflantes du monde tout en préservant votre intimité. Notre équipage professionnel s'assure que chaque aspect de votre voyage est pris en charge, de la navigation à la préparation de délicieux repas. Il ne vous reste plus qu'à vous détendre et profiter de l'expérience."
+        "p2": "Que vous voyagiez seul, en couple ou entre amis, l'expérience de croisière cabine vous permet de naviguer à travers certaines des destinations les plus époustouflantes du monde tout en préservant votre intimité. Notre équipage professionnel s'assure que chaque aspect de votre voyage est pris en charge, de la navigation à la préparation de délicieux repas. Il ne vous reste plus qu'à vous détendre et profiter de l'expérience.",
+        "p3": "Que vous voyagiez seul, en couple ou entre amis, tout est pris en charge pour vous. Notre équipage professionnel navigue, prépare des repas frais et gère chaque détail pour que vous puissiez vous concentrer entièrement sur la détente, la baignade, le snorkeling et les paysages insulaires spectaculaires de la Thaïlande lors de votre Croisière Cabine Thaïlande."
       },
       "card2": {
         "title": "Une Expérience de Charter Cabine Confortable en Thaïlande",
@@ -1365,6 +1407,48 @@
         "perDay": "/jour",
         "departs": "Départ ~9h00, retour ~17h30",
         "guests": "Jusqu'à 8 passagers"
+      }
+    },
+    "amadeus": {
+      "title": "Voilier Amadeus – Votre Évasion Flottante Ultime",
+      "subtitle": "Découvrez ce qui fait de l'Amadeus, un catamaran Mumby 48, le navire idéal pour une expérience de navigation luxueuse et inoubliable.",
+      "specs": {
+        "title": "Spécifications du Catamaran Amadeus",
+        "year": "2013",
+        "yearLabel": "Année de Construction",
+        "length": "48 pieds (14,5 mètres)",
+        "lengthLabel": "Longueur",
+        "capacity": "Maximum 8 passagers",
+        "capacityLabel": "Capacité"
+      },
+      "comfort": {
+        "title": "Confort et Équipements à Bord",
+        "item1": "L'Amadeus propose 3 cabines doubles queen-size avec salle de bain privative, plus une cabine double supplémentaire avec une salle de bain à proximité.",
+        "item2": "Les cabines sont équipées de doubles ventilateurs, liseuses, moustiquaires et literie confortable.",
+        "item3": "Avec 4 salles de bain à bord, chaque passager profite de commodité et d'intimité, ainsi qu'une douche de pont supplémentaire pour des moments rafraîchissants en plein air.",
+        "item4": "Le catamaran dispose également d'une protection solaire grâce à un bimini fixe et un auvent flexible, vous permettant de rester au frais tout en admirant les vues magnifiques."
+      },
+      "entertainment": {
+        "title": "Divertissement et Activités",
+        "item1": "Profitez d'une collection de musique via un lecteur audio CD/MP4 et une station d'accueil iPod, ou détendez-vous avec les haut-parleurs extérieurs pendant la navigation.",
+        "item2": "L'Amadeus fournit du matériel de pêche, de l'équipement de snorkeling et des sports nautiques comme 2 kayaks et 1 paddleboard, pour que les passagers puissent explorer les eaux et profiter de l'aventure.",
+        "item3": "L'Amadeus est réputé pour son exceptionnelle cuisine thaïlandaise et européenne à bord, et si vous êtes intéressé, vous pouvez participer à un cours de cuisine thaïlandaise gratuit pour perfectionner vos compétences culinaires."
+      }
+    },
+    "whatsIncluded": {
+      "title": "Ce qui est Inclus dans Votre Croisière Cabine Phuket",
+      "subtitle": "Lorsque vous réservez une Croisière Cabine Phuket, vous vous inscrivez pour une expérience tout compris et luxueuse qui prend soin de tout, des services à bord aux activités passionnantes.",
+      "included": {
+        "title": "Ce qui est Inclus dans Votre Croisière Cabine",
+        "text": "Votre forfait comprend 5 nuits/6 jours de navigation, avec enregistrement et départ à 11h00. Profitez de l'usage exclusif de votre cabine et salle de bain réservées, avec tous les frais de fonctionnement du yacht couverts, y compris le carburant et l'amarrage. Un équipage professionnel de 3 personnes — un capitaine, un cuisinier/stewardess et un matelot/mécanicien — assurera votre confort et votre sécurité. La pension complète est fournie, avec cinq petits-déjeuners, cinq déjeuners et quatre dîners, ainsi que des fruits frais et des collations. Si le parc national le permet, un barbecue sur la plage sera également organisé. Vous aurez accès à l'équipement de snorkeling, aux kayaks et aux stand-up paddleboards. Une assurance accident jusqu'à 1 million de THB est incluse, vous assurant une couverture tout au long de votre voyage."
+      },
+      "bring": {
+        "title": "Ce que Vous Devriez Apporter",
+        "text": "Pour un confort maximum, veuillez apporter un chapeau ou une casquette, de la crème solaire, des lunettes de soleil, des chaussures confortables, un appareil photo, un sac étanche et, bien sûr, votre maillot de bain pour les activités nautiques."
+      },
+      "exclusions": {
+        "title": "Exclusions et Extras Optionnels",
+        "text": "Bien que votre croisière couvre l'essentiel, il y a quelques exclusions : les vols, les transferts, les hôtels, les véhicules de location et les taxis nautiques ne sont pas inclus. Les repas ou boissons dans les restaurants sont également exclus, ainsi que les frais de parc national (de 50 THB à 400 THB par adulte). Les extras optionnels comprennent les transferts en taxi (prix selon la destination) et la location privée de stand-up paddleboard à 700 THB/jour. Les boissons précommandées et prépayées sont disponibles, incluant sodas, bières locales et étrangères, vin et cocktails, avec des tarifs détaillés fournis à l'avance."
       }
     },
     "whyChoose": {
@@ -1426,6 +1510,10 @@
         },
         "bays": {
           "title": "Baies Magnifiques du Sud de la Thaïlande en Voilier",
+          "sub1Title": "Plages de Sable Blanc et Eaux Turquoise",
+          "sub1Description": "Le sud de la Thaïlande offre certaines des plages les plus immaculées et des eaux turquoise les plus belles du monde. Lors de votre croisière cabine, vous pouvez visiter des baies isolées souvent inaccessibles aux grands bateaux. Profitez de la baignade, du bronzage ou simplement de la détente sur les plages de sable blanc, sans aucun autre touriste aux alentours.",
+          "sub2Title": "Snorkeling, Kayak et Mouillages Calmes",
+          "sub2Description": "Les baies autour de Phuket sont parfaites pour les activités nautiques comme le snorkeling, le kayak et le paddleboard. Explorez des récifs coralliens vibrants, nagez avec des poissons colorés et profitez de mouillages calmes offrant le cadre parfait pour une journée paisible en mer.",
           "description": "Le sud de la Thaïlande offre certaines des plages les plus immaculées et des eaux turquoise les plus belles du monde. Lors de votre croisière cabine, vous pouvez visiter des baies isolées souvent inaccessibles aux grands bateaux. Profitez de la baignade, du bronzage ou simplement de la détente sur les plages de sable blanc, sans aucun autre touriste aux alentours.\nLes baies autour de Phuket sont parfaites pour les activités nautiques comme le snorkeling, le kayak et le paddleboard. Explorez des récifs coralliens vibrants, nagez avec des poissons colorés et profitez de mouillages calmes offrant le cadre parfait pour une journée paisible en mer.",
           "pricing": "À partir de 1 199 €/jour",
           "details": "4–6 heures de navigation depuis Chalong Bay | Idéal pour les familles et petits groupes",
@@ -1522,7 +1610,7 @@
         },
         "children": {
           "q": "Les croisières cabine sont-elles sûres pour les enfants ?",
-          "a": "Oui — les croisières cabine sont parmi les options les plus sûres pour les familles. La conception stable à double coque garantit un mouvement minimal, parfait pour les familles avec de jeunes enfants. Des garde-corps de sécurité, des filets et des gilets de sauvetage pour tous les âges sont fournis. Notre équipage expérimenté s'assure que les enfants sont divertis et en sécurité pendant les activités nautiques."
+          "a": "Les croisières cabine accueillent les passagers à partir de 12 ans. Grâce à la conception stable à double coque, la croisière offre une expérience fluide, tandis que les garde-corps de sécurité, les filets et les gilets de sauvetage assurent la sécurité des enfants."
         },
         "difference": {
           "q": "Quelle est la différence entre une croisière cabine et un charter de yacht privé ?",
@@ -1542,7 +1630,7 @@
         },
         "booking": {
           "q": "Combien de temps à l'avance dois-je réserver une croisière cabine ?",
-          "a": "Pendant la haute saison (décembre-mars), il est recommandé de réserver au moins 2 à 4 semaines à l'avance. Pour Noël et le Nouvel An, nous suggérons de réserver 2 à 3 mois à l'avance. Pour la meilleure sélection, réserver tôt est toujours recommandé, surtout pour les croisières cabine multi-jours."
+          "a": "Pour la haute saison (novembre à mai), il est recommandé de réserver 3 à 6 mois à l'avance pour obtenir votre cabine préférée. Pendant la période de pointe de Noël et du Nouvel An, réserver 6 à 12 mois à l'avance est idéal pour garantir la disponibilité et éviter toute déception. Pour la meilleure sélection, il est toujours conseillé de réserver tôt, surtout pour les croisières cabine multi-jours."
         }
       }
     }

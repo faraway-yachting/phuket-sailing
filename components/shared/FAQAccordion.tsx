@@ -48,7 +48,7 @@ export function FAQAccordion({ faqs, title, subtitle, id = 'faq' }: FAQAccordion
 
               <div
                 className={`overflow-hidden transition-all duration-300 ${
-                  openIndex === index ? 'max-h-96' : 'max-h-0'
+                  openIndex === index ? 'max-h-[800px]' : 'max-h-0'
                 }`}
               >
                 <div className="px-4 sm:px-6 pb-5 pl-10 sm:pl-16 md:pl-20">

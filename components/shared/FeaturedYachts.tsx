@@ -87,7 +87,7 @@ export function FeaturedYachts() {
           {yachts.map((yacht) => (
             <LocaleLink
               key={yacht._id}
-              href={`/yacht/${yacht._id}`}
+              href={`/yacht/${yacht.slug}`}
               className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer block"
             >
               {/* Yacht Image with Price Badge */}

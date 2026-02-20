@@ -3,7 +3,7 @@ import { LocaleLink } from '@/components/shared/LocaleLink'
 import { ContactCards } from '@/components/shared/ContactCards'
 import { ReviewBadges } from '@/components/shared/ReviewBadges'
 import { getTranslations } from '@/lib/i18n/getTranslations'
-import { ArrowRight, MessageCircle, Anchor, Crown, Users, Compass, Ship, Clock, MapPin, BedDouble, ShipWheel, Utensils, UtensilsCrossed, Waves, Sunset, Heart, User, Check, DollarSign } from 'lucide-react'
+import { ArrowRight, MessageCircle, Anchor, Crown, Users, Compass, Ship, MapPin, BedDouble, ShipWheel, Utensils, UtensilsCrossed, Waves, Sunset, Heart, User, Check, DollarSign, Calendar, Ruler, UsersRound, Music, Package, ShoppingBag } from 'lucide-react'
 import { FAQAccordion } from '@/components/shared/FAQAccordion'
 import { BookingCTA } from '@/components/shared/BookingCTA'
 import { FeaturedYachts } from '@/components/shared/FeaturedYachts'
@@ -23,10 +23,9 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
     <>
       <CabinCruiseFAQSchema />
       <main className="min-h-screen">
-        {/* Hero Section */}
         <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden">
           <Image
-            src="/assets/images/cabin-cruise-phuket/cabin-cruise-hero.avif"
+            src="/assets/images/cabin-cruise-phuket/amadeus-1.JPG"
             alt="Cabin Cruise Phuket"
             fill
             sizes="100vw"
@@ -47,6 +46,12 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
             >
               {t('cabinCruise.hero.description')}
             </p>
+            <p
+              className="mx-auto mt-4 text-sm sm:text-base font-semibold text-white/90 tracking-wide"
+              style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}
+            >
+              {t('cabinCruise.hero.badges')}
+            </p>
             <div className="mt-10 flex justify-center">
               <LocaleLink
                 href="/contact"
@@ -60,7 +65,6 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           </div>
         </section>
 
-        {/* Contact Cards */}
         <section className="py-6 sm:py-8 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <ContactCards />
@@ -69,7 +73,6 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
 
         <FeaturedYachts />
 
-        {/* CTA Banner */}
         <section className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 py-6 sm:py-8">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
@@ -98,7 +101,6 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           </div>
         </section>
 
-        {/* Private Cabins Section */}
         <section className="py-10 sm:py-14 lg:py-20 bg-white">
           <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-10 sm:mb-14">
@@ -114,7 +116,7 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
             <div className="grid md:grid-cols-2 gap-6 sm:gap-10 items-center mb-12 sm:mb-20">
               <div className="relative rounded-xl overflow-hidden aspect-[4/3] shadow-xl">
                 <Image
-                  src="/assets/images/cabin-cruise-phuket/cabin-cruise-hero.avif"
+                  src="/assets/images/cabin-cruise-phuket/amadeus-3.jpg"
                   alt={t('cabinCruise.cabins.card1.title')}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -126,7 +128,8 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
                   {t('cabinCruise.cabins.card1.title')}
                 </h3>
                 <p className="text-[#3a5a68] leading-relaxed mb-4">{t('cabinCruise.cabins.card1.p1')}</p>
-                <p className="text-[#3a5a68] leading-relaxed">{t('cabinCruise.cabins.card1.p2')}</p>
+                <p className="text-[#3a5a68] leading-relaxed mb-4">{t('cabinCruise.cabins.card1.p2')}</p>
+                <p className="text-[#3a5a68] leading-relaxed">{t('cabinCruise.cabins.card1.p3')}</p>
               </div>
             </div>
 
@@ -137,13 +140,13 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
                 </h3>
                 <p className="text-[#3a5a68] leading-relaxed mb-4">{t('cabinCruise.cabins.card2.p1')}</p>
                 <p className="text-[#3a5a68] leading-relaxed mb-6">{t('cabinCruise.cabins.card2.p2')}</p>
-                <div className="flex items-center gap-2 rounded-lg bg-[#164e63] px-3 py-2">
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1 rounded-lg bg-[#164e63] px-3 py-2">
                   <span className="text-xs font-medium text-white">
                     {t('cabinCruise.cabins.card2.from')} <span className="text-base font-bold text-amber-400">€1,199</span>{t('cabinCruise.cabins.card2.perDay')}
                   </span>
-                  <span className="text-white/30">|</span>
+                  <span className="text-white/30 hidden sm:inline">|</span>
                   <span className="text-xs text-white/80">{t('cabinCruise.cabins.card2.departs')}</span>
-                  <span className="text-white/30">|</span>
+                  <span className="text-white/30 hidden sm:inline">|</span>
                   <span className="text-xs text-white/80">{t('cabinCruise.cabins.card2.guests')}</span>
                 </div>
               </div>
@@ -160,23 +163,135 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           </div>
         </section>
 
-        {/* Contact Cards */}
+        <section className="py-10 sm:py-14 lg:py-20 bg-[#f7f8fa]">
+          <div className="mx-auto max-w-7xl px-4">
+            <div className="text-center mb-10 sm:mb-14">
+              <div className="inline-flex items-center gap-2 text-[#14b8a6] mb-4">
+                <Ship className="h-5 w-5" />
+                <span className="text-sm font-semibold uppercase tracking-wider">Amadeus</span>
+              </div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
+                {t('cabinCruise.amadeus.title')}
+              </h2>
+              <p className="mt-4 text-base sm:text-lg text-[#3a5a68] max-w-3xl mx-auto">
+                {t('cabinCruise.amadeus.subtitle')}
+              </p>
+            </div>
+
+            <div className="mb-10 sm:mb-14">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-6" style={{ fontFamily: "var(--font-playfair)" }}>
+                {t('cabinCruise.amadeus.specs.title')}
+              </h3>
+              <div className="grid sm:grid-cols-3 gap-4">
+                {[
+                  { icon: Calendar, label: t('cabinCruise.amadeus.specs.yearLabel'), value: t('cabinCruise.amadeus.specs.year') },
+                  { icon: Ruler, label: t('cabinCruise.amadeus.specs.lengthLabel'), value: t('cabinCruise.amadeus.specs.length') },
+                  { icon: UsersRound, label: t('cabinCruise.amadeus.specs.capacityLabel'), value: t('cabinCruise.amadeus.specs.capacity') },
+                ].map((spec, idx) => (
+                  <div key={idx} className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-xl p-5 shadow-lg text-center">
+                    <div className="inline-flex items-center justify-center h-12 w-12 rounded-lg bg-gradient-to-br from-[#14b8a6] to-[#0d9488] mb-3">
+                      <spec.icon className="h-6 w-6 text-white" />
+                    </div>
+                    <p className="text-sm text-white/70 mb-1">{spec.label}</p>
+                    <p className="text-lg font-bold text-white">{spec.value}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-2xl p-6 sm:p-8 shadow-lg">
+                <div className="inline-flex items-center justify-center h-14 w-14 rounded-xl bg-gradient-to-br from-[#14b8a6] to-[#0d9488] mb-5 shadow-md">
+                  <BedDouble className="h-7 w-7 text-white" />
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-white mb-5" style={{ fontFamily: "var(--font-playfair)" }}>
+                  {t('cabinCruise.amadeus.comfort.title')}
+                </h3>
+                <ul className="space-y-4">
+                  {['item1', 'item2', 'item3', 'item4'].map((key) => (
+                    <li key={key} className="flex items-start gap-3">
+                      <div className="flex-shrink-0 mt-1 h-5 w-5 rounded-full bg-[#14b8a6]/20 flex items-center justify-center">
+                        <Check className="h-3 w-3 text-[#14b8a6]" />
+                      </div>
+                      <span className="text-white/80 leading-relaxed text-sm">{t(`cabinCruise.amadeus.comfort.${key}`)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35] rounded-2xl p-6 sm:p-8 shadow-lg">
+                <div className="inline-flex items-center justify-center h-14 w-14 rounded-xl bg-gradient-to-br from-[#14b8a6] to-[#0d9488] mb-5 shadow-md">
+                  <Music className="h-7 w-7 text-white" />
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-white mb-5" style={{ fontFamily: "var(--font-playfair)" }}>
+                  {t('cabinCruise.amadeus.entertainment.title')}
+                </h3>
+                <ul className="space-y-4">
+                  {['item1', 'item2', 'item3'].map((key) => (
+                    <li key={key} className="flex items-start gap-3">
+                      <div className="flex-shrink-0 mt-1 h-5 w-5 rounded-full bg-[#14b8a6]/20 flex items-center justify-center">
+                        <Check className="h-3 w-3 text-[#14b8a6]" />
+                      </div>
+                      <span className="text-white/80 leading-relaxed text-sm">{t(`cabinCruise.amadeus.entertainment.${key}`)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-10 sm:py-14 lg:py-20 bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#0a2a35]">
+          <div className="mx-auto max-w-7xl px-4">
+            <div className="text-center mb-10 sm:mb-14">
+              <div className="inline-flex items-center gap-2 text-[#14b8a6] mb-4">
+                <Package className="h-5 w-5" />
+                <span className="text-sm font-semibold uppercase tracking-wider">All-Inclusive</span>
+              </div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
+                {t('cabinCruise.whatsIncluded.title')}
+              </h2>
+              <p className="mt-4 text-base sm:text-lg text-white/70 max-w-3xl mx-auto">
+                {t('cabinCruise.whatsIncluded.subtitle')}
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                { icon: Check, key: 'included' },
+                { icon: ShoppingBag, key: 'bring' },
+                { icon: DollarSign, key: 'exclusions' },
+              ].map((card) => (
+                <div key={card.key} className="bg-[#1a5c72]/60 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-xl relative overflow-hidden border border-white/10">
+                  <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-[#14b8a6] to-[#0d9488]" />
+                  <div className="flex items-center gap-3 mb-5">
+                    <div className="inline-flex items-center justify-center h-11 w-11 rounded-xl bg-gradient-to-br from-[#14b8a6] to-[#0d9488]">
+                      <card.icon className="h-5 w-5 text-white" />
+                    </div>
+                    <h3 className="text-lg sm:text-xl font-bold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
+                      {t(`cabinCruise.whatsIncluded.${card.key}.title`)}
+                    </h3>
+                  </div>
+                  <p className="text-white/80 leading-relaxed text-sm">
+                    {t(`cabinCruise.whatsIncluded.${card.key}.text`)}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section className="py-6 sm:py-8 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <ContactCards />
           </div>
         </section>
 
-        {/* Why Choose Section */}
         <section className="py-10 sm:py-14 lg:py-20 bg-[#f7f8fa]">
           <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-10 sm:mb-14">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('cabinCruise.whyChoose.title')}
               </h2>
-              <p className="mt-4 text-base sm:text-lg text-[#3a5a68] max-w-2xl mx-auto">
-                {t('cabinCruise.whyChoose.subtitle')}
-              </p>
             </div>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
@@ -201,7 +316,6 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           </div>
         </section>
 
-        {/* Itinerary Section */}
         <section className="py-10 sm:py-14 lg:py-20 bg-white">
           <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-10 sm:mb-14">
@@ -230,11 +344,11 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
                 </h3>
                 <p className="text-[#3a5a68] leading-relaxed mb-4">{t('cabinCruise.itinerary.multiDay.p1')}</p>
                 <p className="text-[#3a5a68] leading-relaxed mb-6">{t('cabinCruise.itinerary.multiDay.p2')}</p>
-                <div className="flex items-center gap-2 rounded-lg bg-[#164e63] px-3 py-2 mb-5">
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1 rounded-lg bg-[#164e63] px-3 py-2 mb-5">
                   <span className="text-xs font-medium text-white">{t('cabinCruise.itinerary.multiDay.price')}</span>
-                  <span className="text-white/30">|</span>
+                  <span className="text-white/30 hidden sm:inline">|</span>
                   <span className="text-xs text-white/80">{t('cabinCruise.itinerary.multiDay.cabins')}</span>
-                  <span className="text-white/30">|</span>
+                  <span className="text-white/30 hidden sm:inline">|</span>
                   <span className="text-xs text-white/80">{t('cabinCruise.itinerary.multiDay.meals')}</span>
                 </div>
                 <LocaleLink
@@ -253,11 +367,11 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
                 </h3>
                 <p className="text-[#3a5a68] leading-relaxed mb-4">{t('cabinCruise.itinerary.balanced.p1')}</p>
                 <p className="text-[#3a5a68] leading-relaxed mb-6">{t('cabinCruise.itinerary.balanced.p2')}</p>
-                <div className="flex items-center gap-2 rounded-lg bg-[#164e63] px-3 py-2">
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1 rounded-lg bg-[#164e63] px-3 py-2">
                   <span className="text-xs font-medium text-white">{t('cabinCruise.itinerary.balanced.price')}</span>
-                  <span className="text-white/30">|</span>
+                  <span className="text-white/30 hidden sm:inline">|</span>
                   <span className="text-xs text-white/80">{t('cabinCruise.itinerary.balanced.time')}</span>
-                  <span className="text-white/30">|</span>
+                  <span className="text-white/30 hidden sm:inline">|</span>
                   <span className="text-xs text-white/80">{t('cabinCruise.itinerary.balanced.guests')}</span>
                 </div>
               </div>
@@ -274,7 +388,6 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           </div>
         </section>
 
-        {/* Destinations Section */}
         <section className="py-10 sm:py-14 lg:py-20 bg-[#f7f8fa]">
           <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-10 sm:mb-14">
@@ -312,9 +425,18 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
                     <h3 className="text-lg font-bold text-[#164e63] mb-3" style={{ fontFamily: "var(--font-playfair)" }}>
                       {t(`cabinCruise.destinations.items.${dest.key}.title`)}
                     </h3>
-                    {t(`cabinCruise.destinations.items.${dest.key}.description`).split('\n').map((p: string, i: number) => (
-                      <p key={i} className="text-[#3a5a68] text-sm leading-relaxed mb-3 last:mb-4">{p}</p>
-                    ))}
+                    {dest.key === 'bays' ? (
+                      <>
+                        <h4 className="text-base font-semibold text-[#164e63] mb-2">{t('cabinCruise.destinations.items.bays.sub1Title')}</h4>
+                        <p className="text-[#3a5a68] text-sm leading-relaxed mb-3">{t('cabinCruise.destinations.items.bays.sub1Description')}</p>
+                        <h4 className="text-base font-semibold text-[#164e63] mb-2">{t('cabinCruise.destinations.items.bays.sub2Title')}</h4>
+                        <p className="text-[#3a5a68] text-sm leading-relaxed mb-4">{t('cabinCruise.destinations.items.bays.sub2Description')}</p>
+                      </>
+                    ) : (
+                      t(`cabinCruise.destinations.items.${dest.key}.description`).split('\n').map((p: string, i: number) => (
+                        <p key={i} className="text-[#3a5a68] text-sm leading-relaxed mb-3 last:mb-4">{p}</p>
+                      ))
+                    )}
                     <p className="text-xs font-medium text-[#164e63] mb-4">
                       {t(`cabinCruise.destinations.items.${dest.key}.details`)}
                     </p>
@@ -333,7 +455,6 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           </div>
         </section>
 
-        {/* Life Onboard Section */}
         <section className="py-10 sm:py-14 lg:py-20 bg-white">
           <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-10 sm:mb-14">
@@ -344,7 +465,7 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
 
             {[
               { icon: BedDouble, key: 'cabins', image: '/assets/images/cabin-cruise-phuket/cabin-interior.jpg' },
-              { icon: ShipWheel, key: 'design', image: '/assets/images/cabin-cruise-phuket/cabin-cruise.jpg' },
+              { icon: ShipWheel, key: 'design', image: '/assets/images/cabin-cruise-phuket/amadeus-4.JPG' },
               { icon: Utensils, key: 'decks', image: '/assets/images/cabin-cruise-phuket/deck-dining.jpg' },
             ].map((f, idx, arr) => (
               <div key={f.key} className={`grid md:grid-cols-2 gap-4 items-center ${idx < arr.length - 1 ? 'mb-10 sm:mb-16' : ''}`}>
@@ -367,16 +488,12 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           </div>
         </section>
 
-        {/* Dining & Activities Section */}
         <section className="py-10 sm:py-14 lg:py-20 bg-[#f7f8fa]">
           <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-10 sm:mb-14">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('cabinCruise.diningActivities.title')}
               </h2>
-              <p className="mt-4 text-base sm:text-lg text-[#3a5a68] max-w-2xl mx-auto">
-                {t('cabinCruise.diningActivities.subtitle')}
-              </p>
             </div>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
@@ -406,7 +523,6 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           </div>
         </section>
 
-        {/* Ideal For Section */}
         <section className="py-10 sm:py-14 lg:py-20 bg-white">
           <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-10 sm:mb-14">
@@ -417,7 +533,7 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
               {[
-                { icon: Heart, key: 'couples', image: '/assets/images/cabin-cruise-phuket/couple-sailing.jpg' },
+                { icon: Heart, key: 'couples', image: '/assets/images/cabin-cruise-phuket/amadeus-2.jpg' },
                 { icon: User, key: 'solo', image: '/assets/images/cabin-cruise-phuket/deck-dining.jpg' },
                 { icon: Users, key: 'friends', image: '/assets/images/cabin-cruise-phuket/friends-sailing.jpg' },
               ].map((p) => (
@@ -448,16 +564,12 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           </div>
         </section>
 
-        {/* Comparison Section */}
         <section className="py-10 sm:py-14 lg:py-20" style={{ background: "linear-gradient(to bottom right, #164e63, #0f3a47, #0a2a35)" }}>
           <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-10 sm:mb-14">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('cabinCruise.comparison.title')}
               </h2>
-              <p className="mt-4 text-base sm:text-lg text-white/70 max-w-2xl mx-auto">
-                {t('cabinCruise.comparison.subtitle')}
-              </p>
             </div>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
@@ -482,19 +594,14 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           </div>
         </section>
 
-        {/* FAQ Section */}
         <FAQAccordion
           faqs={faqs}
-          title="Frequently Asked Questions – Cabin Cruise Phuket"
+          title="Frequently Asked Questions — Cabin Cruises Phuket"
           subtitle=""
           id="faq"
         />
 
-        <BookingCTA
-          title="Start Planning Your Cabin Cruise"
-          subtitle="Cabin Cruises from €1,199/Day | Multi-Day Sailing | Private Cabins | All-Inclusive"
-          buttonText="GET YOUR FREE CABIN CRUISE QUOTE →"
-        />
+        <BookingCTA variant="cabinCruise" />
       </main>
     </>
   )

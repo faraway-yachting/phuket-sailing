@@ -32,7 +32,7 @@ export function CabinCruiseFAQSchema() {
         name: 'Are cabin cruises safe for children?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes — cabin cruises are among the safest options for families. The stable twin-hull design ensures minimal motion, which is perfect for families with young children. Safety railings, netting, and life jackets for all ages are provided. Our experienced crew ensures kids are entertained and safe during water activities.',
+          text: 'Cabin cruises welcome guests aged 12 and above. With the stable twin-hull design, the cruise offers a smooth experience, while safety railings, netting, and life jackets ensure kids\' safety.',
         },
       },
       {
@@ -72,7 +72,7 @@ export function CabinCruiseFAQSchema() {
         name: 'How far in advance should I book a cabin cruise?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'During peak season (December–March), it\'s recommended to book at least 2–4 weeks in advance. For Christmas and New Year, we suggest booking 2–3 months ahead. For the best selection, booking early is always recommended, especially for multi-day cabin cruises.',
+          text: 'For the high season (November to May), it\'s recommended to book 3-6 months in advance to secure your preferred cabin. During the peak season over Christmas and New Year, booking 6-12 months ahead is ideal to ensure availability and avoid disappointment. For the best selection, early booking is always advised, especially for multi-day cabin cruises.',
         },
       },
     ],

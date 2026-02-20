@@ -49,7 +49,7 @@ const defaultFormValues: ContactFormValues = {
   comments: "",
 };
 
-const WEBHOOK_URL = "https://phpstack-858394-5597469.cloudwaysapps.com/webhook/bc92f5de-31ce-4083-af54-587f0ce18ad7";
+const WEBHOOK_URL = "https://phpstack-858394-5597469.cloudwaysapps.com/webhook/37e734db-5b93-4f58-a584-ccafa1eac767";
 
 const inputClass = "h-11 rounded-lg border border-gray-200 bg-white text-neutral-800 placeholder-gray-400 focus:border-[#164e63] focus:ring-2 focus:ring-[#164e63]/20 focus:outline-none transition-all duration-200";
 
@@ -404,9 +404,9 @@ export function ContactForm() {
 
                 {/* Terms & Conditions */}
                 <p className="text-center text-sm text-gray-600">
-                  By submitting this form, you agree to our{' '}
+                  {t('contactForm.termsAgree')}{' '}
                   <LocaleLink href="/terms-and-conditions" className="text-[#164e63] hover:text-[#14b8a6] underline underline-offset-2 font-medium">
-                    Terms & Conditions
+                    {t('contactForm.termsLink')}
                   </LocaleLink>
                 </p>
 

@@ -398,24 +398,18 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
                 </div>
               </div>
 
-              {/* Stylish Pricing Banner */}
-              <div className="bg-gradient-to-r from-[#164e63] via-[#0f3a47] to-[#164e63] rounded-2xl p-6 sm:p-8 shadow-2xl text-center">
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-white">
-                  <div className="flex flex-col items-center">
-                    <span className="text-base sm:text-lg md:text-xl font-bold text-amber-300">{t('catamaranCharter.intro.pricing.dayCharters')}</span>
-                    <span className="text-xl sm:text-2xl md:text-3xl font-bold">{t('catamaranCharter.intro.pricing.from')} €800</span>
+              {/* Pricing Cards */}
+              <div className="grid sm:grid-cols-3 gap-3 sm:gap-4">
+                {[
+                  { label: t('catamaranCharter.intro.pricing.dayCharters'), price: `${t('catamaranCharter.intro.pricing.from')} €800` },
+                  { label: t('catamaranCharter.intro.pricing.overnight'), price: `${t('catamaranCharter.intro.pricing.from')} €1,000/night` },
+                  { label: t('catamaranCharter.intro.pricing.premium'), price: `${t('catamaranCharter.intro.pricing.from')} €2,500/night` },
+                ].map((item, idx) => (
+                  <div key={idx} className="p-4 sm:p-5 rounded-xl text-center" style={{ background: 'linear-gradient(to bottom right, #164e63, #0f3a47, #0a2a35)' }}>
+                    <span className="block text-white font-semibold text-sm sm:text-base mb-2">{item.label}</span>
+                    <span className="block text-lg sm:text-xl font-bold text-[#14b8a6]">{item.price}</span>
                   </div>
-                  <div className="hidden sm:block w-px h-12 bg-white/30"></div>
-                  <div className="flex flex-col items-center">
-                    <span className="text-base sm:text-lg md:text-xl font-bold text-amber-300">{t('catamaranCharter.intro.pricing.overnight')}</span>
-                    <span className="text-xl sm:text-2xl md:text-3xl font-bold">{t('catamaranCharter.intro.pricing.from')} €1,000/night</span>
-                  </div>
-                  <div className="hidden sm:block w-px h-12 bg-white/30"></div>
-                  <div className="flex flex-col items-center">
-                    <span className="text-base sm:text-lg md:text-xl font-bold text-amber-300">{t('catamaranCharter.intro.pricing.premium')}</span>
-                    <span className="text-xl sm:text-2xl md:text-3xl font-bold">{t('catamaranCharter.intro.pricing.from')} €2,500/night</span>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
@@ -424,7 +418,7 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
         {/* WhyCatamaranSection */}
         <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-neutral-50 to-white overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
               {t('catamaranCharter.whyCatamaran.title')}
             </h2>
             <div className="flex justify-center mb-16">
@@ -512,7 +506,7 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
         {/* CharterOptionsSection */}
         <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-neutral-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
               {t('catamaranCharter.charterOptions.title')}
             </h2>
             <div className="flex justify-center mb-12">
@@ -591,7 +585,7 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
         {/* CrewAndComfortSection */}
         <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-neutral-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
               {t('catamaranCharter.crew.title')}
             </h2>
             <div className="flex justify-center mb-12">
@@ -641,7 +635,7 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
         <section className="py-10 sm:py-14 bg-gradient-to-b from-white to-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-8 sm:mb-12">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] mb-4">
                 {t('catamaranCharter.specialMoments.title')}
               </h2>
               <div className="flex items-center justify-center gap-2">
@@ -710,7 +704,7 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
         <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-gray-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10 sm:mb-14">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] mb-4">
                 {t('catamaranCharter.vsMonohull.title')}
               </h2>
               <div className="flex items-center justify-center gap-2 mb-4">
@@ -795,7 +789,7 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
         {/* CustomExperienceSection */}
         <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-[#164e63] via-[#0f3a47] to-[#164e63]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
               {t('catamaranCharter.customExperience.title')}
             </h2>
             <div className="flex justify-center mb-12">
@@ -859,7 +853,7 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
         {/* PlanYourCharterSection */}
         <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-neutral-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#164e63] mb-4 text-center" style={{ fontFamily: "var(--font-playfair)" }}>
               {t('catamaranCharter.planCharter.title')}
             </h2>
             <div className="flex justify-center mb-12">
@@ -983,11 +977,7 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
           subtitle=""
         />
 
-        <BookingCTA
-          title="Start Planning Your Charter"
-          subtitle="Private Catamaran Sailing from €800/Day | Day Trips | Overnight Cruises | Multi-Day Expeditions"
-          buttonText="GET YOUR FREE CATAMARAN QUOTE →"
-        />
+        <BookingCTA variant="catamaran" />
       </main>
     </>
   )

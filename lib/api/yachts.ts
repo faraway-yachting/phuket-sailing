@@ -25,6 +25,18 @@ export async function fetchYachtById(id: string): Promise<Yacht> {
   return ('yacht' in json.data) ? (json.data as { yacht: Yacht }).yacht : json.data as Yacht
 }
 
+export async function fetchYachtBySlug(slug: string): Promise<Yacht> {
+  let page = 1
+  while (true) {
+    const { yachts, totalPages } = await fetchAllYachts(page, 100)
+    const match = yachts.find(y => y.slug === slug)
+    if (match) return fetchYachtById(match._id)
+    if (page >= totalPages) break
+    page++
+  }
+  throw new Error('Yacht not found')
+}
+
 export async function fetchAllYachts(page: number = 1, limit: number = 9) {
   const res = await fetch(
     `${API_BASE}/yacht/all-yachts?page=${page}&limit=${limit}&status=published`

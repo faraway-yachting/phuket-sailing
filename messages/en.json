@@ -387,6 +387,45 @@
       "whatsapp": "WhatsApp",
       "line": "Line",
       "location": "Our Location"
+    },
+    "termsAgree": "By submitting this form, you agree to our",
+    "termsLink": "Terms & Conditions",
+    "bookingTermsTitle": "Booking Terms and Conditions"
+  },
+  "bookingCTA": {
+    "threeWays": "Three ways to get started:",
+    "callWhatsApp": "Call/WhatsApp:",
+    "respondTime": "We respond within 1 hour during business hours",
+    "emailLabel": "Email:",
+    "emailResponse": "Custom itinerary & quote within 24 hours",
+    "lineApp": "Line App:",
+    "connect": "Connect",
+    "office": "Office: Chalong Bay, Phuket — 15 minutes from Phuket Town, 30 minutes from Patong, 40 minutes from the airport",
+    "license": "Tourism Authority of Thailand Licensed (OTD #34/02546) • Fully Insured • World Luxury Travel Awards Winner 2025",
+    "default": {
+      "title": "Start Planning Your Charter",
+      "subtitle": "Private Sailing from €800/Day | Day Trips | Overnight Cruises | Multi-Day Expeditions",
+      "button": "GET YOUR FREE QUOTE →"
+    },
+    "cabinCruise": {
+      "title": "Start Planning Your Cabin Cruise",
+      "subtitle": "Cabin Cruises from €1,199/Day | Multi-Day Sailing | Private Cabins | All-Inclusive",
+      "button": "GET YOUR FREE CABIN CRUISE QUOTE →"
+    },
+    "catamaran": {
+      "title": "Start Planning Your Charter",
+      "subtitle": "Private Catamaran Sailing from €800/Day | Day Trips | Overnight Cruises | Multi-Day Expeditions",
+      "button": "GET YOUR FREE CATAMARAN QUOTE →"
+    },
+    "luxury": {
+      "title": "Start Planning Your Luxury Yacht Charter",
+      "subtitle": "Private Sailing Yachts & Catamarans | Day Charters | Overnight | Multi-Day Expeditions",
+      "button": "GET YOUR FREE YACHT QUOTE →"
+    },
+    "overnight": {
+      "title": "Start Planning Your Overnight Sailing Charter",
+      "subtitle": "From €1,000/night | Private Catamaran | Fully Crewed | All-Inclusive",
+      "button": "GET YOUR FREE OVERNIGHT SAILING QUOTE →"
     }
   },
   "common": {
@@ -419,6 +458,7 @@
     "sailingYachts": "Sailing Yachts",
     "overnightSailing": "Overnight Sailing Trips",
     "barefootCharter": "Bareboat Charter",
+    "bareboatSailing": "Bareboat Sailing",
     "sailingItineraries": "Sailing Itineraries",
     "charterTypes": "Charter Types"
   },
@@ -638,7 +678,7 @@
         "dayCharters": "Day charters",
         "overnight": "Overnight",
         "premium": "Premium air-conditioned",
-        "from": "from"
+        "from": "From"
       }
     },
     "whyCatamaran": {
@@ -1339,45 +1379,89 @@
     "hero": {
       "badge1": "800+ ★★★★★ Reviews",
       "badge2": "25 Years of Sailing Expertise",
-      "title": "Cabin Cruise Sailing Phuket – Luxury Sailing Through Thailand's Islands",
-      "description": "Experience the perfect mix of adventure and relaxation on a Cabin Cruise Phuket. Explore Phi Phi, Phang Nga Bay, and Koh Lanta with private cabins and top-notch service, all while enjoying the beauty of Thailand's islands.",
-      "cta": "Get Your Free Cabin Cruise Quote",
-      "whatsapp": "WhatsApp Us Now"
+      "title": "Cabin Cruise Phuket – Explore Thailand's Island in Luxury",
+      "description": "Experience the perfect balance of adventure and relaxation on a Cabin Cruise Phuket. Visit breathtaking locations across Thailand's islands, including Phi Phi, Phang Nga Bay, and Koh Lanta. Enjoy private cabins and exceptional service throughout your Cabin Cruise Thailand adventure.",
+      "badges": "850+ Five-Star Reviews | 30+ Years of Sailing Expertise | World Luxury Travel Awards Winner 2025",
+      "cta": "Get Your Free Cabin Cruise Quote →",
+      "whatsapp": "WhatsApp Us Now →"
     },
     "ctaBanner": {
-      "text": "Planning your cabin cruise in Phuket? Share your dates, group size, and preferences, and we'll send a personalized itinerary and quote within 24 hours — no obligation.",
-      "cta": "Get Your Free Cabin Cruise Quote",
-      "whatsapp": "WhatsApp Us Now"
+      "text": "Planning your Cabin Cruise in Phuket? Share your dates, group size, and preferences, and we'll send a personalized itinerary and quote within 24 hours — no obligation.",
+      "cta": "Get Your Free Cabin Cruise Quote →",
+      "whatsapp": "WhatsApp Us Now →"
     },
     "cabins": {
       "badge": "Premium Experience",
       "title": "A Phuket Sailing Cruise with Private Cabins",
       "card1": {
-        "title": "Shared Luxury Sailing on a Modern Ship",
-        "p1": "Experience the perfect balance of privacy and community on a shared cabin cruise. You'll enjoy the luxury of private cabins designed for ultimate comfort, while still having the opportunity to meet fellow travelers. Our modern ships feature spacious decks, stylish lounges, and plenty of communal areas, ensuring you feel like you're on your own private yacht without the cost of booking one.",
-        "p2": "Whether you're traveling solo, as a couple, or with friends, the cabin cruise experience lets you sail through some of the most stunning destinations in the world while maintaining your privacy. Our professional crew ensures that every aspect of your journey is taken care of, from navigating to preparing delicious meals. All you need to do is relax and enjoy the experience."
+        "title": "Shared Luxury Sailing on a Modern Catamaran",
+        "p1": "Experience the perfect balance of privacy and connection on a Cabin Cruise Phuket adventure designed for travelers who want more than a day trip. This carefully curated Cabin Cruise Thailand journey blends comfort, island exploration, and relaxed social sailing in the heart of the Andaman Sea.",
+        "p2": "On board the Amadeus catamaran, you enjoy the privacy of your own cabin while sharing spacious decks, open-air lounges, and dining areas with a small group of like-minded guests. It feels like a private yacht experience — without the cost of chartering the entire boat.",
+        "p3": "Whether you're traveling solo, as a couple, or with friends, everything is handled for you. Our professional crew navigates, prepares fresh meals, and manages every detail so you can focus entirely on relaxing, swimming, snorkeling, and enjoying Thailand's spectacular island scenery on your Cabin Cruise Thailand."
       },
       "card2": {
-        "title": "Comfortable Cabin Charter Experience in Thailand",
-        "p1": "Each cabin on our cabin cruise is designed with your comfort in mind. Equipped with en-suite bathrooms, air conditioning, and premium bedding, your cabin is your retreat after a day of exploring. Whether you're enjoying the calm waters of Phi Phi Islands or soaking up the sun in Phang Nga Bay, you'll feel completely at ease in the well-appointed space.",
-        "p2": "Our cabin cruises offer more than just a room — they provide a luxury escape with every detail thoughtfully planned. Whether you're seeking rest, a moment of peace, or a cozy retreat, you'll find it in your cabin, ensuring an unforgettable trip through Thailand's stunning waters.",
+        "title": "A Comfortable Cabin Cruise Thailand Experience",
+        "p1": "Each cabin aboard Amadeus is designed as a peaceful retreat after a day at sea. With en-suite bathrooms, air conditioning, premium bedding, and thoughtful storage space, your cabin offers comfort and privacy throughout your Cabin Cruise Thailand experience.",
+        "p2": "Wake up to calm turquoise waters near Phi Phi, unwind after kayaking in Phang Nga Bay, or relax in the evening breeze as the yacht anchors in a secluded bay. This isn't just accommodation — it's a floating boutique hotel experience, designed for guests who value both adventure and comfort.",
         "from": "From ",
-        "perDay": "/day",
-        "departs": "Departs ~9:00 AM, returns ~5:30 PM",
+        "perDay": " per day",
+        "departs": "Departs ~9:00 AM",
         "guests": "Up to 8 guests"
+      }
+    },
+    "amadeus": {
+      "title": "Sailing Yacht Amadeus – Your Ultimate Floating Escape",
+      "subtitle": "Discover what makes Amadeus, a Mumby 48 catamaran, the perfect vessel for a luxurious and unforgettable sailing experience.",
+      "specs": {
+        "title": "Specifications of the Amadeus Catamaran",
+        "year": "2013",
+        "yearLabel": "Year of Build",
+        "length": "48 feet (14.5 meters)",
+        "lengthLabel": "Length",
+        "capacity": "Maximum of 8 guests",
+        "capacityLabel": "Capacity"
+      },
+      "comfort": {
+        "title": "Onboard Comfort and Features",
+        "item1": "The Amadeus offers 3 en-suite double queen-size cabins, plus an additional double cabin with a nearby bathroom.",
+        "item2": "The cabins are equipped with double fans, reading lights, mosquito screens, and comfortable bedding.",
+        "item3": "With 4 bathrooms on board, every guest enjoys convenience and privacy, along with an extra deck shower for refreshing outdoor moments.",
+        "item4": "The catamaran also features sun protection via a fixed bimini and flexible awning, ensuring you stay cool while soaking in the stunning views."
+      },
+      "entertainment": {
+        "title": "Entertainment and Activities",
+        "item1": "Enjoy a collection of music through an audio CD/MP4 player and iPod docking station, or unwind with the outdoor speakers while cruising through the seas.",
+        "item2": "The Amadeus provides fishing equipment, snorkeling gear, and water sports such as 2 kayaks and 1 paddleboard, so guests can explore the waters and enjoy adventure.",
+        "item3": "Amadeus is known for its exceptional Thai and European cuisine onboard, and if you're interested, you can participate in a free Thai cooking lesson to elevate your culinary skills."
+      }
+    },
+    "whatsIncluded": {
+      "title": "What's Included in Your Cabin Cruise Phuket",
+      "subtitle": "When you book a Cabin Cruise Phuket, you're signing up for an all-inclusive, luxurious experience that takes care of everything, from onboard services to exciting activities.",
+      "included": {
+        "title": "What's Included in Your Cabin Cruise",
+        "text": "Your package includes 5 nights/6 days sailing, with check-in and check-out at 11:00 AM. Enjoy the exclusive use of your booked cabin and bathroom, with all yacht running costs covered, including fuel and berthing. A professional crew of 3 — a captain, cook/stewardess, and deckhand/engineer — will ensure your comfort and safety. Full board is provided, with five breakfasts, five lunches, and four dinners, along with fresh fruits and snacks. If permitted by the national park, there will also be a beach BBQ. You'll have access to snorkeling gear, kayaks, and stand-up paddleboards. Accident insurance up to 1 million THB is included, ensuring you're covered throughout your journey."
+      },
+      "bring": {
+        "title": "What You Should Bring",
+        "text": "To ensure maximum comfort, please bring a hat or cap, sun lotion, sunglasses, comfortable shoes, a camera, a waterproof bag, and, of course, your swimsuit for water activities."
+      },
+      "exclusions": {
+        "title": "Exclusions and Optional Extras",
+        "text": "While your cruise covers the essentials, there are some exclusions: airline flights, transfers, hotels, rental vehicles, and water taxis are not included. Meals or drinks at restaurants are also excluded, along with national park fees (ranging from 50 THB to 400 THB per adult). Optional extras include taxi transfers (prices depend on location) and private stand-up paddleboard rentals at 700 THB/day. Drinks preordered and prepaid are available, including soft drinks, local and foreign beers, wine, and cocktails, with detailed pricing provided in advance."
       }
     },
     "whyChoose": {
       "title": "Why Choose a Cabin Cruise in Phuket",
-      "subtitle": "The perfect solution for those who want luxury sailing at a fraction of the cost",
+      "subtitle": "",
       "features": {
         "luxury": {
           "title": "Luxury Sailing Without Booking a Private Yacht",
-          "description": "If you're dreaming of a private sailing experience but don't want the cost of booking an entire yacht, a cabin cruise in Phuket is the perfect solution. Enjoy the same luxury, comfort, and privacy as a private yacht but at a more affordable price.\nWhether you're a couple seeking a romantic escape, a family wanting to explore together, or a solo traveler craving a peaceful retreat, this experience is designed for those who want the best of both worlds — luxury sailing at a fraction of the cost. You'll enjoy spacious private cabins, a professional crew, gourmet meals, and the freedom to explore Phuket's stunning islands in style, without the hefty price tag of a private charter."
+          "description": "If you're dreaming of a private sailing experience but don't want the cost of booking an entire yacht, a cabin cruise in Phuket is the perfect solution. Enjoy the same luxury, comfort, and privacy as a private yacht but at a more affordable price.\nWhether you're a couple seeking a romantic escape, a family wanting to explore together, or a solo traveler craving a peaceful retreat, this experience is designed for those who want the best of both worlds — luxury sailing at a fraction of the cost. You'll enjoy spacious private cabins, a professional crew, gourmet meals, and the freedom to explore Phuket's stunning islands in style, all while experiencing the luxury of a cabin cruise Thailand, without the hefty price tag of a private charter."
         },
         "limited": {
           "title": "Limited Guests, Spacious Ships, and Relaxed Atmosphere",
-          "description": "For those seeking a more intimate and personal experience, our cabin cruises offer a unique advantage — a limited number of guests. Whether you're traveling as a couple, with friends, or on a solo adventure, you'll have plenty of space to relax and unwind without feeling crowded.\nOur spacious ships provide ample deck space, lounges, and open areas, ensuring you can enjoy the beautiful surroundings of the Andaman Sea at your leisure. The relaxed atmosphere allows families, friends, and solo travelers to find their perfect spot, whether it's for socializing or enjoying some quiet time. Unlike large cruises or commercial tours, you'll never feel rushed, offering a much more personalized and comfortable journey."
+          "description": "For those seeking a more intimate and personal experience, our cabin cruises offer a unique advantage — a limited number of guests. Whether you're traveling as a couple, with friends, or on a solo adventure, you'll have plenty of space to relax and unwind without feeling crowded.\nOur Amadeus catamaran offers ample deck space, lounges, and open areas, ensuring you can enjoy the beautiful surroundings of the Andaman Sea at your leisure. The relaxed atmosphere allows families, friends, and solo travelers to find their perfect spot, whether it's for socializing or enjoying some quiet time. Unlike large cruises or commercial tours, you'll never feel rushed, offering a much more personalized and comfortable journey."
         },
         "curated": {
           "title": "A Curated Sailing Trip Designed for Comfort",
@@ -1387,19 +1471,19 @@
     },
     "itinerary": {
       "badge": "Sailing Routes",
-      "title": "Cabin Cruise Itinerary in the Andaman Sea",
+      "title": "Cabin Cruise Sailing Itinerary in the Andaman Sea",
       "multiDay": {
         "title": "Multi-Day Sailing Across Phuket's Island Destinations",
-        "p1": "A multi-day cabin cruise is the perfect way to explore the best of Phuket and its surrounding islands at a leisurely pace. Embark on a journey that takes you to some of the most iconic and secluded destinations, such as the Phi Phi Islands, Phang Nga Bay, Koh Lanta, and Koh Rok. Whether you're looking to relax on the beaches, snorkel in clear waters, or explore hidden coves, every stop offers something unique.",
-        "p2": "Spend your days sailing through crystal-clear waters, discovering vibrant marine life, and enjoying the unparalleled beauty of the Andaman Sea. Sleep in comfortable private cabins, enjoy freshly prepared meals, and wake up to new breathtaking views each morning. Whether you opt for a shorter 3-day cruise or a longer 7-day expedition, the multi-day sailing itinerary allows you to experience the diversity of Thailand's islands in ultimate comfort.",
+        "p1": "A multi-day cabin cruise Thailand is the perfect way to explore the best of Phuket and its surrounding islands at a leisurely pace. Embark on a journey that takes you to some of the most iconic and secluded destinations, such as the Phi Phi Islands, Phang Nga Bay, Koh Lanta, and Koh Rok. Whether you're looking to relax on the beaches, snorkel in clear waters, or explore hidden coves, every stop offers something unique.",
+        "p2": "Spend your days sailing through crystal-clear waters, discovering vibrant marine life, and enjoying the unparalleled beauty of the Andaman Sea. Sleep in comfortable private cabins aboard the Amadeus catamaran, enjoy freshly prepared meals, and wake up to new breathtaking views each morning. Whether you opt for a shorter 3-day cruise or a longer 7-day expedition, the multi-day sailing itinerary allows you to experience the diversity of Thailand's islands in ultimate comfort.",
         "price": "From €1,200/night",
         "cabins": "4 private cabins, ensuite bathrooms",
         "meals": "All meals, crew, and activities included",
-        "cta": "Plan a Multi-Day Cruise"
+        "cta": "Plan a Multi-Day Cruise →"
       },
       "balanced": {
         "title": "Balanced Sailing Days with Time to Relax and Explore",
-        "p1": "Our cabin cruise itineraries are designed to give you a perfect balance between exploration and relaxation. During each day, you'll enjoy time exploring islands like Phi Phi or Koh Racha, visiting secluded beaches, and enjoying water activities such as snorkeling, paddleboarding, and kayaking. After a day of adventure, return to the ship for a gourmet meal and some downtime as you sail to your next destination.",
+        "p1": "Our cabin cruise itineraries are designed to give you a perfect balance between exploration and relaxation. During each day, you'll enjoy time exploring islands like Phi Phi or Koh Racha, visiting secluded beaches, and enjoying water activities such as snorkeling, paddleboarding, and kayaking. After a day of adventure, return to the Amadeus for a gourmet meal and some downtime as you sail to your next destination.",
         "p2": "The relaxed pace ensures you never feel rushed. With longer stops at key destinations, you'll have time to fully immerse yourself in each location. Whether you're lounging on deck under the sun or enjoying a quiet moment in your cabin, you'll find plenty of time to unwind while exploring Thailand's stunning coastal beauty.",
         "price": "From €1,000/day",
         "time": "Departs ~9:00 AM, returns ~5:30 PM",
@@ -1412,20 +1496,24 @@
       "items": {
         "phiPhi": {
           "title": "Phi Phi Islands and Koh Phi Phi Leh Sailing",
-          "description": "The Phi Phi Islands are a must-see destination on any cabin cruise in Phuket. Known for their towering limestone cliffs, crystal-clear waters, and vibrant coral reefs, these islands offer the perfect combination of natural beauty and adventure. The shallow draft of our ships allows us to anchor in secluded lagoons like Pileh Lagoon, where larger boats can't reach, ensuring that you have a more exclusive experience.\nA cabin cruise in Phi Phi means you can enjoy famous spots like Maya Bay (featured in The Beach) and Monkey Beach without the crowds. Experience the islands at sunrise or sunset, when the landscapes are at their most tranquil and breathtaking.",
+          "description": "The Phi Phi Islands are a must-see destination on any cabin cruise in Phuket. Known for their towering limestone cliffs, crystal-clear waters, and vibrant coral reefs, these islands offer the perfect combination of natural beauty and adventure. The shallow draft of our ships, like the Amadeus, allows us to anchor in secluded lagoons like Pileh Lagoon, where larger boats can't reach, ensuring that you have a more exclusive experience.\nA cabin cruise in Phi Phi means you can enjoy famous spots like Maya Bay (featured in The Beach) and Monkey Beach without the crowds. Experience the islands at sunrise or sunset, when the landscapes are at their most tranquil and breathtaking.",
           "pricing": "From €1,200/day",
           "details": "4–5 hours sailing from Chalong Bay | Day trip or overnight",
-          "linkText": "Phi Phi Cabin Cruise"
+          "linkText": "Phi Phi Cabin Cruise →"
         },
         "phangNga": {
           "title": "Phang Nga Bay and Limestone Landscapes Sailing",
           "description": "Phang Nga Bay is one of Thailand's most iconic landscapes, with its dramatic vertical limestone karsts rising from emerald green waters. On a cabin cruise sailing, you'll have the opportunity to kayak through hidden sea caves and explore secret hongs (lagoons) that can only be accessed at certain tides.\nThe calm waters and shallow depth of the bay make it perfect for those looking to enjoy a peaceful and relaxed sailing experience. James Bond Island, one of the bay's most famous spots, is a highlight of the journey. Spend the day exploring this stunning natural landscape, before anchoring in a quiet bay for the night.",
           "pricing": "From €1,000/day",
           "details": "3–4 hours sailing from Chalong Bay | Perfect for day charters",
-          "linkText": "Phang Nga Bay Cabin Cruise"
+          "linkText": "Phang Nga Bay Cabin Cruise →"
         },
         "bays": {
           "title": "Beautiful Bays Around Southern Thailand Sailing",
+          "sub1Title": "White Sandy Beaches and Turquoise Waters",
+          "sub1Description": "Southern Thailand offers some of the most pristine beaches and turquoise waters in the world. On your cabin cruise sailing, you can visit secluded bays that are often inaccessible by larger boats. Enjoy swimming, sunbathing, or simply relaxing on the white sandy beaches, with no other tourists around.",
+          "sub2Title": "Snorkeling, Kayaking, and Calm Anchorages",
+          "sub2Description": "The bays around Phuket are perfect for water activities like snorkeling, kayaking, and paddleboarding. Explore vibrant coral reefs, swim with colorful fish, and enjoy calm anchorages that offer the perfect setting for a peaceful day at sea.",
           "description": "Southern Thailand offers some of the most pristine beaches and turquoise waters in the world. On your cabin cruise sailing, you can visit secluded bays that are often inaccessible by larger boats. Enjoy swimming, sunbathing, or simply relaxing on the white sandy beaches, with no other tourists around.\nThe bays around Phuket are perfect for water activities like snorkeling, kayaking, and paddleboarding. Explore vibrant coral reefs, swim with colorful fish, and enjoy calm anchorages that offer the perfect setting for a peaceful day at sea.",
           "pricing": "From €1,199/day",
           "details": "4–6 hours sailing from Chalong Bay | Ideal for families and small groups",
@@ -1443,11 +1531,11 @@
         },
         "design": {
           "title": "Stable Twin-Hulled Sailing Design",
-          "description": "The twin-hull design of our ships ensures a stable, smooth sailing experience, making them the perfect choice for guests who want a comfortable journey without the motion of traditional monohull vessels. The stability of the cabin cruise allows you to relax on deck, enjoy meals without distraction, and experience a serene voyage.\nUnlike monohulls that tilt and roll, our ships sit flat on the water, ensuring a more relaxing, comfortable ride for all guests, including families with children or those prone to seasickness."
+          "description": "The twin-hull design of Amadeus ensures a stable, smooth sailing experience, making it perfect for guests who want a comfortable journey without the motion of traditional monohull vessels. The stability of the cabin cruise allows you to relax on deck, enjoy meals without distraction, and experience a serene voyage.\nUnlike monohulls that tilt and roll, Amadeus sits flat on the water, ensuring a more relaxing, comfortable ride for all guests, including families with children or those prone to seasickness."
         },
         "decks": {
           "title": "Spacious Decks for Dining and Relaxation",
-          "description": "Our ships boast large, spacious decks that are perfect for dining, lounging, and enjoying the stunning views. Whether you're enjoying a meal with your group, soaking in the sun, or relaxing with a drink in hand, the spacious decks provide a comfortable environment for all your needs.\nThe shaded dining area offers respite from the sun, while the open stern is ideal for enjoying the sea breeze or taking a dip from the swim platforms. There's plenty of room for everyone, whether you prefer to relax in private or socialize with fellow passengers."
+          "description": "Amadeus boasts large, spacious decks that are perfect for dining, lounging, and enjoying the stunning views. Whether you're enjoying a meal with your group, soaking in the sun, or relaxing with a drink in hand, the spacious decks provide a comfortable environment for all your needs.\nThe shaded dining area offers respite from the sun, while the open stern is ideal for enjoying the sea breeze or taking a dip from the swim platforms. There's plenty of room for everyone, whether you prefer to relax in private or socialize with fellow passengers."
         }
       }
     },
@@ -1522,7 +1610,7 @@
         },
         "children": {
           "q": "Are cabin cruises safe for children?",
-          "a": "Yes — cabin cruises are among the safest options for families. The stable twin-hull design ensures minimal motion, which is perfect for families with young children. Safety railings, netting, and life jackets for all ages are provided. Our experienced crew ensures kids are entertained and safe during water activities."
+          "a": "Cabin cruises welcome guests aged 12 and above. With the stable twin-hull design, the cruise offers a smooth experience, while safety railings, netting, and life jackets ensure kids' safety."
         },
         "difference": {
           "q": "What's the difference between a cabin cruise and a private yacht charter?",
@@ -1542,7 +1630,7 @@
         },
         "booking": {
           "q": "How far in advance should I book a cabin cruise?",
-          "a": "During peak season (December–March), it's recommended to book at least 2–4 weeks in advance. For Christmas and New Year, we suggest booking 2–3 months ahead. For the best selection, booking early is always recommended, especially for multi-day cabin cruises."
+          "a": "For the high season (November to May), it's recommended to book 3-6 months in advance to secure your preferred cabin. During the peak season over Christmas and New Year, booking 6-12 months ahead is ideal to ensure availability and avoid disappointment. For the best selection, early booking is always advised, especially for multi-day cabin cruises."
         }
       }
     }

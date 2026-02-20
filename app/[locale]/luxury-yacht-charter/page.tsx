@@ -857,7 +857,7 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
             </h2>
           </div>
 
-          <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
+          <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-20">
             <div className="relative order-2 lg:order-1">
               <div className="overflow-hidden rounded-2xl">
                 <Image
@@ -933,7 +933,7 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
             </h2>
           </div>
 
-          <div className="mt-10 sm:mt-16 grid gap-8 md:grid-cols-2">
+          <div className="mt-10 sm:mt-16 grid gap-6 sm:gap-8 md:grid-cols-2">
             {audiences.map((audience) => (
               <div
                 key={audience.title}
@@ -999,12 +999,12 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
             </h2>
           </div>
 
-          <div className="mt-8 sm:mt-12 grid gap-5 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 sm:mt-12 grid gap-5 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-xl border border-neutral-200 bg-white p-5 sm:p-8">
               <h3 className="font-serif text-base sm:text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('luxuryYachtCharter.comparison.features.privacy.title')}
               </h3>
-              <p className="mt-3 text-base leading-relaxed text-neutral-600">
+              <p className="mt-3 text-sm sm:text-base leading-relaxed text-neutral-600">
                 {t('luxuryYachtCharter.comparison.features.privacy.description')}
               </p>
             </div>
@@ -1012,7 +1012,7 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
               <h3 className="font-serif text-base sm:text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('luxuryYachtCharter.comparison.features.access.title')}
               </h3>
-              <p className="mt-3 text-base leading-relaxed text-neutral-600">
+              <p className="mt-3 text-sm sm:text-base leading-relaxed text-neutral-600">
                 {t('luxuryYachtCharter.comparison.features.access.description')}
               </p>
             </div>
@@ -1020,7 +1020,7 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
               <h3 className="font-serif text-base sm:text-lg font-semibold text-[#164e63]" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('luxuryYachtCharter.comparison.features.premium.title')}
               </h3>
-              <p className="mt-3 text-base leading-relaxed text-neutral-600">
+              <p className="mt-3 text-sm sm:text-base leading-relaxed text-neutral-600">
                 {t('luxuryYachtCharter.comparison.features.premium.description')}
               </p>
             </div>
@@ -1172,11 +1172,7 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
         id="faq"
       />
 
-      <BookingCTA
-        title="Start Planning Your Luxury Yacht Charter"
-        subtitle="Private Sailing Yachts & Catamarans | Day Charters | Overnight | Multi-Day Expeditions"
-        buttonText="GET YOUR FREE YACHT QUOTE →"
-      />
+      <BookingCTA variant="luxury" />
     </main>
     </>
   )
