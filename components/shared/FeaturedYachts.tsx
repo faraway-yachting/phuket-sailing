@@ -101,9 +101,9 @@ export function FeaturedYachts() {
                 />
 
                 {/* Price Badge - Bottom Right Corner */}
-                <div className="absolute bottom-0 right-0 bg-[#14b8a6] text-white rounded-tl-2xl px-4 py-2.5 shadow-lg">
-                  <p className="text-[10px] font-bold uppercase tracking-wider leading-tight">{t('featuredYachts.from')}</p>
-                  <p className="text-xl font-bold leading-tight">€{yacht.daytripPriceEuro || yacht.dayTripPrice}</p>
+                <div className="absolute bottom-0 right-0 bg-[#14b8a6] text-white rounded-tl-2xl px-2.5 sm:px-4 py-2 sm:py-2.5 shadow-lg">
+                  <p className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider leading-tight">{t('featuredYachts.from')}</p>
+                  <p className="text-lg sm:text-xl font-bold leading-tight">€{yacht.daytripPriceEuro || yacht.dayTripPrice}</p>
                 </div>
               </div>
 

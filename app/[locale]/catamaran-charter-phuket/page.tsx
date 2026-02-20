@@ -873,45 +873,45 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
                   </h3>
 
                   <div className="overflow-x-auto -mx-4 sm:mx-0">
-                <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden min-w-[640px]">
+                <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden min-w-[480px]">
                   <thead>
                     <tr className="bg-[#164e63] text-white">
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">{t('catamaranCharter.planCharter.table.charterType')}</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">{t('catamaranCharter.planCharter.table.duration')}</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">{t('catamaranCharter.planCharter.table.bestFor')}</th>
-                      <th className="px-4 sm:px-6 py-3 sm:py-4 text-left font-bold text-sm sm:text-base">{t('catamaranCharter.planCharter.table.startingPrice')}</th>
+                      <th className="px-2 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.charterType')}</th>
+                      <th className="px-2 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.duration')}</th>
+                      <th className="px-2 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.bestFor')}</th>
+                      <th className="px-2 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.startingPrice')}</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="border-b border-neutral-200">
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.dayCharter.type')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.dayCharter.duration')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.dayCharter.bestFor')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-amber-600 font-bold text-sm sm:text-base">{t('catamaranCharter.planCharter.table.dayCharter.price')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-semibold text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.dayCharter.type')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.dayCharter.duration')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.dayCharter.bestFor')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-amber-600 font-bold text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.dayCharter.price')}</td>
                     </tr>
                     <tr className="bg-neutral-50 border-b border-neutral-200">
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.extendedDay.type')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.extendedDay.duration')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.extendedDay.bestFor')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-amber-600 font-bold text-sm sm:text-base">{t('catamaranCharter.planCharter.table.extendedDay.price')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-semibold text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.extendedDay.type')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.extendedDay.duration')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.extendedDay.bestFor')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-amber-600 font-bold text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.extendedDay.price')}</td>
                     </tr>
                     <tr className="border-b border-neutral-200">
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.overnight.type')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.overnight.duration')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.overnight.bestFor')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-amber-600 font-bold text-sm sm:text-base">{t('catamaranCharter.planCharter.table.overnight.price')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-semibold text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.overnight.type')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.overnight.duration')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.overnight.bestFor')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-amber-600 font-bold text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.overnight.price')}</td>
                     </tr>
                     <tr className="bg-neutral-50 border-b border-neutral-200">
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.multiDay.type')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.multiDay.duration')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.multiDay.bestFor')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-amber-600 font-bold text-sm sm:text-base">{t('catamaranCharter.planCharter.table.multiDay.price')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-semibold text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.multiDay.type')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.multiDay.duration')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.multiDay.bestFor')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-amber-600 font-bold text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.multiDay.price')}</td>
                     </tr>
                     <tr>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 font-semibold text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.premium.type')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.premium.duration')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-neutral-700 text-sm sm:text-base">{t('catamaranCharter.planCharter.table.premium.bestFor')}</td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-amber-600 font-bold text-sm sm:text-base">{t('catamaranCharter.planCharter.table.premium.price')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-semibold text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.premium.type')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.premium.duration')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-neutral-700 text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.premium.bestFor')}</td>
+                      <td className="px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-amber-600 font-bold text-xs sm:text-sm md:text-base">{t('catamaranCharter.planCharter.table.premium.price')}</td>
                     </tr>
                   </tbody>
                 </table>

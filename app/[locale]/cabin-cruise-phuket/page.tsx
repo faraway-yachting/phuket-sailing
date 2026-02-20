@@ -255,27 +255,88 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6">
-              {[
-                { icon: Check, key: 'included' },
-                { icon: ShoppingBag, key: 'bring' },
-                { icon: DollarSign, key: 'exclusions' },
-              ].map((card) => (
-                <div key={card.key} className="bg-[#1a5c72]/60 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-xl relative overflow-hidden border border-white/10">
-                  <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-[#14b8a6] to-[#0d9488]" />
-                  <div className="flex items-center gap-3 mb-5">
-                    <div className="inline-flex items-center justify-center h-11 w-11 rounded-xl bg-gradient-to-br from-[#14b8a6] to-[#0d9488]">
-                      <card.icon className="h-5 w-5 text-white" />
-                    </div>
-                    <h3 className="text-lg sm:text-xl font-bold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
-                      {t(`cabinCruise.whatsIncluded.${card.key}.title`)}
-                    </h3>
+            <div className="flex flex-col gap-6">
+              {/* Included */}
+              <div className="bg-[#1a5c72]/60 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-xl relative overflow-hidden border border-white/10">
+                <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-[#14b8a6] to-[#0d9488]" />
+                <div className="flex items-center gap-3 mb-5">
+                  <div className="inline-flex items-center justify-center h-11 w-11 rounded-xl bg-gradient-to-br from-[#14b8a6] to-[#0d9488]">
+                    <Check className="h-5 w-5 text-white" />
                   </div>
-                  <p className="text-white/80 leading-relaxed text-sm">
-                    {t(`cabinCruise.whatsIncluded.${card.key}.text`)}
-                  </p>
+                  <h3 className="text-lg sm:text-xl font-bold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
+                    {t('cabinCruise.whatsIncluded.included.title')}
+                  </h3>
                 </div>
-              ))}
+                <ul className="space-y-2">
+                  {(['item1','item2','item3','item4','item5','item6','item7','item8','item9','item10','item11','item12'] as const).map((k) => (
+                    <li key={k} className="flex items-start gap-2">
+                      <Check className="h-3.5 w-3.5 text-[#14b8a6] mt-0.5 flex-shrink-0" />
+                      <span className="text-white/80 text-sm leading-relaxed">{t(`cabinCruise.whatsIncluded.included.${k}`)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Bring */}
+              <div className="bg-[#1a5c72]/60 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-xl relative overflow-hidden border border-white/10">
+                <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-[#14b8a6] to-[#0d9488]" />
+                <div className="flex items-center gap-3 mb-5">
+                  <div className="inline-flex items-center justify-center h-11 w-11 rounded-xl bg-gradient-to-br from-[#14b8a6] to-[#0d9488]">
+                    <ShoppingBag className="h-5 w-5 text-white" />
+                  </div>
+                  <h3 className="text-lg sm:text-xl font-bold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
+                    {t('cabinCruise.whatsIncluded.bring.title')}
+                  </h3>
+                </div>
+                <ul className="space-y-2">
+                  {(['item1','item2','item3','item4','item5','item6','item7','item8','item9','item10'] as const).map((k) => (
+                    <li key={k} className="flex items-start gap-2">
+                      <Check className="h-3.5 w-3.5 text-[#14b8a6] mt-0.5 flex-shrink-0" />
+                      <span className="text-white/80 text-sm leading-relaxed">{t(`cabinCruise.whatsIncluded.bring.${k}`)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Exclusions */}
+              <div className="bg-[#1a5c72]/60 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-xl relative overflow-hidden border border-white/10">
+                <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-[#14b8a6] to-[#0d9488]" />
+                <div className="flex items-center gap-3 mb-5">
+                  <div className="inline-flex items-center justify-center h-11 w-11 rounded-xl bg-gradient-to-br from-[#14b8a6] to-[#0d9488]">
+                    <DollarSign className="h-5 w-5 text-white" />
+                  </div>
+                  <h3 className="text-lg sm:text-xl font-bold text-white" style={{ fontFamily: "var(--font-playfair)" }}>
+                    {t('cabinCruise.whatsIncluded.exclusions.title')}
+                  </h3>
+                </div>
+                <p className="text-white/60 text-xs font-semibold uppercase tracking-wider mb-2">{t('cabinCruise.whatsIncluded.exclusions.notIncludedTitle')}</p>
+                <ul className="space-y-1.5 mb-4">
+                  {(['notIncluded1','notIncluded2','notIncluded3','notIncluded4'] as const).map((k) => (
+                    <li key={k} className="flex items-start gap-2">
+                      <span className="text-red-400 text-xs mt-0.5 flex-shrink-0">✕</span>
+                      <span className="text-white/80 text-sm leading-relaxed">{t(`cabinCruise.whatsIncluded.exclusions.${k}`)}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-white/60 text-xs font-semibold uppercase tracking-wider mb-2">{t('cabinCruise.whatsIncluded.exclusions.optionalTitle')}</p>
+                <ul className="space-y-1.5 mb-4">
+                  {(['optional1','optional2'] as const).map((k) => (
+                    <li key={k} className="flex items-start gap-2">
+                      <Check className="h-3.5 w-3.5 text-amber-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-white/80 text-sm leading-relaxed">{t(`cabinCruise.whatsIncluded.exclusions.${k}`)}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-white/60 text-xs font-semibold uppercase tracking-wider mb-2">{t('cabinCruise.whatsIncluded.exclusions.drinksTitle')}</p>
+                <ul className="space-y-1.5">
+                  {(['drinks1','drinks2','drinks3','drinks4','drinks5','drinks6','drinks7'] as const).map((k) => (
+                    <li key={k} className="flex items-start gap-2">
+                      <Check className="h-3.5 w-3.5 text-[#14b8a6] mt-0.5 flex-shrink-0" />
+                      <span className="text-white/80 text-sm leading-relaxed">{t(`cabinCruise.whatsIncluded.exclusions.${k}`)}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </section>
@@ -369,8 +430,6 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
                 <p className="text-[#3a5a68] leading-relaxed mb-6">{t('cabinCruise.itinerary.balanced.p2')}</p>
                 <div className="flex flex-wrap items-center gap-x-2 gap-y-1 rounded-lg bg-[#164e63] px-3 py-2">
                   <span className="text-xs font-medium text-white">{t('cabinCruise.itinerary.balanced.price')}</span>
-                  <span className="text-white/30 hidden sm:inline">|</span>
-                  <span className="text-xs text-white/80">{t('cabinCruise.itinerary.balanced.time')}</span>
                   <span className="text-white/30 hidden sm:inline">|</span>
                   <span className="text-xs text-white/80">{t('cabinCruise.itinerary.balanced.guests')}</span>
                 </div>

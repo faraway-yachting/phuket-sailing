@@ -33,7 +33,7 @@ export function FAQAccordion({ faqs, title, subtitle, id = 'faq' }: FAQAccordion
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="w-full px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between text-left hover:bg-neutral-50 transition-colors duration-200"
               >
-                <div className="flex items-center gap-4 flex-1">
+                <div className="flex items-center gap-2 sm:gap-4 flex-1">
                   <div className="w-8 h-8 sm:w-10 sm:h-10 bg-[#164e63] rounded-full flex items-center justify-center flex-shrink-0">
                     <HelpCircle className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                   </div>
@@ -51,7 +51,7 @@ export function FAQAccordion({ faqs, title, subtitle, id = 'faq' }: FAQAccordion
                   openIndex === index ? 'max-h-[800px]' : 'max-h-0'
                 }`}
               >
-                <div className="px-4 sm:px-6 pb-5 pl-10 sm:pl-16 md:pl-20">
+                <div className="px-4 sm:px-6 pb-5 pl-8 sm:pl-12 md:pl-16">
                   <p className="text-neutral-700 leading-relaxed">{faq.answer}</p>
                 </div>
               </div>

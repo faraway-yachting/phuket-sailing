@@ -1439,16 +1439,51 @@
       "title": "Ce qui est Inclus dans Votre Croisière Cabine Phuket",
       "subtitle": "Lorsque vous réservez une Croisière Cabine Phuket, vous vous inscrivez pour une expérience tout compris et luxueuse qui prend soin de tout, des services à bord aux activités passionnantes.",
       "included": {
-        "title": "Ce qui est Inclus dans Votre Croisière Cabine",
-        "text": "Votre forfait comprend 5 nuits/6 jours de navigation, avec enregistrement et départ à 11h00. Profitez de l'usage exclusif de votre cabine et salle de bain réservées, avec tous les frais de fonctionnement du yacht couverts, y compris le carburant et l'amarrage. Un équipage professionnel de 3 personnes — un capitaine, un cuisinier/stewardess et un matelot/mécanicien — assurera votre confort et votre sécurité. La pension complète est fournie, avec cinq petits-déjeuners, cinq déjeuners et quatre dîners, ainsi que des fruits frais et des collations. Si le parc national le permet, un barbecue sur la plage sera également organisé. Vous aurez accès à l'équipement de snorkeling, aux kayaks et aux stand-up paddleboards. Une assurance accident jusqu'à 1 million de THB est incluse, vous assurant une couverture tout au long de votre voyage."
+        "title": "Ce qui est inclus dans votre croisière en cabine",
+        "item1": "5 nuits / 6 jours de navigation (check-in & check-out à 11h00)",
+        "item2": "Usage exclusif de votre cabine et salle de bain réservées",
+        "item3": "Service de 3 membres d'équipage : capitaine, cuisinier/hôtesse et matelot/ingénieur",
+        "item4": "Frais de fonctionnement du yacht (carburant & amarrage)",
+        "item5": "Pension complète : 5× petit-déjeuner, 5× déjeuner, 4× dîner, plus fruits & collations",
+        "item6": "BBQ sur la plage (si autorisé par le parc national)",
+        "item7": "Boisson de bienvenue ; machine à café, thé & eau potable",
+        "item8": "Équipement de plongée en apnée (masque, tuba, 12 palmes de différentes tailles)",
+        "item9": "Pêche à la ligne & traîne par l'équipage",
+        "item10": "Linge de lit, serviettes de bain & serviettes de plage",
+        "item11": "2× stand-up paddleboards & 2× kayaks (partagés avec les autres passagers)",
+        "item12": "Assurance accident jusqu'à 1 000 000 THB"
       },
       "bring": {
-        "title": "Ce que Vous Devriez Apporter",
-        "text": "Pour un confort maximum, veuillez apporter un chapeau ou une casquette, de la crème solaire, des lunettes de soleil, des chaussures confortables, un appareil photo, un sac étanche et, bien sûr, votre maillot de bain pour les activités nautiques."
+        "title": "Ce que vous devez apporter",
+        "item1": "Chapeau ou casquette",
+        "item2": "Crème solaire",
+        "item3": "Lunettes de soleil",
+        "item4": "Chaussures confortables",
+        "item5": "Appareil photo",
+        "item6": "Sac imperméable",
+        "item7": "Maillot de bain (nous recommandons d'en apporter au moins 3)",
+        "item8": "Votre propre shampoing, après-shampoing & sèche-cheveux si besoin (savon fourni)",
+        "item9": "Bagage souple pour un rangement facile dans les cabines",
+        "item10": "Espèces en bahts thaïlandais pour les droits d'entrée aux parcs nationaux & extras optionnels"
       },
       "exclusions": {
-        "title": "Exclusions et Extras Optionnels",
-        "text": "Bien que votre croisière couvre l'essentiel, il y a quelques exclusions : les vols, les transferts, les hôtels, les véhicules de location et les taxis nautiques ne sont pas inclus. Les repas ou boissons dans les restaurants sont également exclus, ainsi que les frais de parc national (de 50 THB à 400 THB par adulte). Les extras optionnels comprennent les transferts en taxi (prix selon la destination) et la location privée de stand-up paddleboard à 700 THB/jour. Les boissons précommandées et prépayées sont disponibles, incluant sodas, bières locales et étrangères, vin et cocktails, avec des tarifs détaillés fournis à l'avance."
+        "title": "Exclusions et extras optionnels",
+        "notIncludedTitle": "Non inclus dans votre charter :",
+        "notIncluded1": "Vols, transferts, hôtels, véhicules de location & taxis nautiques",
+        "notIncluded2": "Repas ou boissons au restaurant",
+        "notIncluded3": "Boissons non alcoolisées, bière, vin, spiritueux & cocktails (disponibles à la pré-commande)",
+        "notIncluded4": "Droits d'entrée aux parcs nationaux : Koh Phi Phi Don (point de vue) 50 THB, Cascade de Koh Lanta 200 THB, Koh Muk 300 THB, Koh Rok & Koh Ha 400 THB, Phi Phi Leh 400 THB",
+        "optionalTitle": "Extras optionnels :",
+        "optional1": "Transfert en taxi avant ou après le charter (prix selon la localisation)",
+        "optional2": "Location de stand-up paddleboard privé : 700 THB/jour",
+        "drinksTitle": "Boissons disponibles à la pré-commande & prépayées :",
+        "drinks1": "Boissons non alcoolisées (Coca, Coca Zéro, Sprite, Fanta) : 30 THB/canette",
+        "drinks2": "Bière locale (Leo, Singha ou Chang) : 80 THB/canette ou 1 500 THB/pack de 24",
+        "drinks3": "Bière étrangère (Asahi, Heineken, Carlsberg) : 120 THB/canette",
+        "drinks4": "Vin (blanc ou rouge) : 800 THB/bouteille",
+        "drinks5": "Vin pétillant : 1 200 THB/bouteille",
+        "drinks6": "Cocktails : 290 THB chacun",
+        "drinks7": "Autres boissons alcoolisées disponibles sur demande"
       }
     },
     "whyChoose": {
@@ -1885,10 +1920,22 @@
       "bookTitle": "Comment réserver votre croisière de nuit à Phuket",
       "bookDescription": "Réserver votre croisière de nuit est simple. Suivez ces quatre étapes :",
       "steps": {
-        "s1": { "title": "Sélectionnez votre bateau et itinéraire", "description": "Choisissez parmi notre sélection de bateaux économiques, milieu de gamme ou luxe. Indiquez-nous vos dates et destinations préférées, comme Phi Phi, Koh Lipe ou les îles Similan." },
-        "s2": { "title": "Devis et itinéraire personnalisés", "description": "Recevez un devis et un itinéraire personnalisés adaptés à la taille de votre groupe et à vos préférences. Nous travaillerons avec vous pour créer l'expérience de navigation parfaite." },
-        "s3": { "title": "Confirmez votre réservation", "description": "Une fois votre itinéraire et vos tarifs examinés, confirmez votre réservation en signant le contrat et en versant votre acompte. Votre capitaine, chef et matelot seront prêts à vous accueillir à bord." },
-        "s4": { "title": "Embarquez pour votre aventure", "description": "Après confirmation, nous vous enverrons tous les détails de votre croisière. Le jour de votre départ, votre équipage s'assurera que tout est prêt pour un voyage fluide et relaxant." }
+        "s1": {
+          "title": "Sélectionnez votre bateau et itinéraire",
+          "description": "Choisissez parmi notre sélection de bateaux économiques, milieu de gamme ou luxe. Indiquez-nous vos dates et destinations préférées, comme Phi Phi, Koh Lipe ou les îles Similan."
+        },
+        "s2": {
+          "title": "Devis et itinéraire personnalisés",
+          "description": "Recevez un devis et un itinéraire personnalisés adaptés à la taille de votre groupe et à vos préférences. Nous travaillerons avec vous pour créer l'expérience de navigation parfaite."
+        },
+        "s3": {
+          "title": "Confirmez votre réservation",
+          "description": "Une fois votre itinéraire et vos tarifs examinés, confirmez votre réservation en signant le contrat et en versant votre acompte. Votre capitaine, chef et matelot seront prêts à vous accueillir à bord."
+        },
+        "s4": {
+          "title": "Embarquez pour votre aventure",
+          "description": "Après confirmation, nous vous enverrons tous les détails de votre croisière. Le jour de votre départ, votre équipage s'assurera que tout est prêt pour un voyage fluide et relaxant."
+        }
       }
     },
     "trustCta": {
@@ -2114,10 +2161,22 @@
       "steps": {
         "title": "Comment réserver votre croisière bareboat à Phuket",
         "subtitle": "Le processus de réservation est simple :\nPour réserver, contactez-nous par téléphone, WhatsApp ou e-mail.",
-        "step1": { "title": "Partagez vos dates", "desc": "Partagez vos dates et bateau préférés." },
-        "step2": { "title": "Soumettez votre licence", "desc": "Soumettez vos documents de licence." },
-        "step3": { "title": "Confirmez la réservation", "desc": "Confirmez votre réservation avec un acompte." },
-        "step4": { "title": "Larguez les amarres", "desc": "Recevez votre briefing de pré-départ à Chalong Bay." }
+        "step1": {
+          "title": "Partagez vos dates",
+          "desc": "Partagez vos dates et bateau préférés."
+        },
+        "step2": {
+          "title": "Soumettez votre licence",
+          "desc": "Soumettez vos documents de licence."
+        },
+        "step3": {
+          "title": "Confirmez la réservation",
+          "desc": "Confirmez votre réservation avec un acompte."
+        },
+        "step4": {
+          "title": "Larguez les amarres",
+          "desc": "Recevez votre briefing de pré-départ à Chalong Bay."
+        }
       },
       "ctaQuote": "Obtenez votre devis bareboat gratuit"
     },

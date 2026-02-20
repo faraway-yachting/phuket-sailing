@@ -41,7 +41,7 @@ export function ContactCards() {
   ]
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 pt-6 sm:pt-8">
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 pt-6 sm:pt-8">
       {contacts.map((contact, index) => (
         <a
           key={index}

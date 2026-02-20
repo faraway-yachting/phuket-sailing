@@ -143,7 +143,7 @@ export default async function BareboatSailingPage({ params }: { params: Promise<
 
               {/* Blob-shaped image */}
               <div
-                className="relative w-[230px] h-[285px] sm:w-[300px] sm:h-[370px] lg:w-[350px] lg:h-[430px] overflow-hidden shadow-2xl"
+                className="relative w-[min(230px,75vw)] h-[285px] sm:w-[300px] sm:h-[370px] lg:w-[350px] lg:h-[430px] overflow-hidden shadow-2xl"
                 style={{ borderRadius: '60% 40% 40% 60% / 55% 55% 45% 45%' }}
               >
                 <Image

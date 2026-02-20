@@ -1028,7 +1028,7 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
 
           <div className="mt-8 sm:mt-12 overflow-x-auto rounded-xl border border-neutral-200">
             <div
-              className="grid grid-cols-3 px-3 sm:px-6 py-3 sm:py-4 min-w-[500px]"
+              className="grid grid-cols-3 px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 min-w-[360px]"
               style={{ background: "linear-gradient(to bottom right, #164e63, #0f3a47, #0a2a35)" }}
             >
               <div className="text-sm font-medium text-white/90">{t('luxuryYachtCharter.comparison.table.header.feature')}</div>
@@ -1044,7 +1044,7 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
             {comparisonItems.map((item, idx) => (
               <div
                 key={item.feature}
-                className={`grid grid-cols-3 px-3 sm:px-6 py-3 sm:py-4 min-w-[500px] ${
+                className={`grid grid-cols-3 px-2 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 min-w-[360px] ${
                   idx % 2 === 0 ? "bg-white" : "bg-neutral-50"
                 } ${idx < comparisonItems.length - 1 ? "border-b border-neutral-200" : ""}`}
               >

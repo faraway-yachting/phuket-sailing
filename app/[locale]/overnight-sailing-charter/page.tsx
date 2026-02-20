@@ -292,7 +292,7 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
                       {t('overnightCharter.routes.recommended')}
                     </div>
                   )}
-                  <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-4 pr-24 sm:pr-28" style={{ fontFamily: "var(--font-playfair)" }}>
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-4 pr-20 sm:pr-24" style={{ fontFamily: "var(--font-playfair)" }}>
                     {t(`overnightCharter.routes.items.${r.key}.title`)}
                   </h3>
                   <p className="text-[#3a5a68] leading-relaxed mb-6 text-sm">

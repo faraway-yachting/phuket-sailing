@@ -1439,16 +1439,51 @@
       "title": "Was in Ihrer Kabinenkreuzfahrt Phuket enthalten ist",
       "subtitle": "Wenn Sie eine Kabinenkreuzfahrt Phuket buchen, entscheiden Sie sich für ein luxuriöses All-inclusive-Erlebnis, das sich um alles kümmert — von Bordservices bis hin zu aufregenden Aktivitäten.",
       "included": {
-        "title": "Was in Ihrer Kabinenkreuzfahrt enthalten ist",
-        "text": "Ihr Paket umfasst 5 Nächte/6 Tage Segeln, mit Ein- und Auschecken um 11:00 Uhr. Genießen Sie die exklusive Nutzung Ihrer gebuchten Kabine und Ihres Badezimmers, wobei alle Betriebskosten der Yacht gedeckt sind, einschließlich Treibstoff und Liegeplatz. Eine professionelle Crew von 3 Personen — ein Kapitän, Koch/Stewardess und Deckhand/Ingenieur — sorgt für Ihren Komfort und Ihre Sicherheit. Vollpension ist inbegriffen, mit fünf Frühstücken, fünf Mittagessen und vier Abendessen, zusammen mit frischen Früchten und Snacks. Wenn der Nationalpark es erlaubt, gibt es auch ein Strand-BBQ. Sie haben Zugang zu Schnorchelausrüstung, Kajaks und Stand-up-Paddleboards. Eine Unfallversicherung bis zu 1 Million THB ist enthalten, damit Sie während Ihrer gesamten Reise abgesichert sind."
+        "title": "Was in Ihrer Kabinen-Kreuzfahrt enthalten ist",
+        "item1": "5 Nächte / 6 Tage Segeln (Check-in & Check-out um 11:00 Uhr)",
+        "item2": "Exklusive Nutzung Ihrer gebuchten Kabine und Ihres Badezimmers",
+        "item3": "Service von 3 Besatzungsmitgliedern: Kapitän, Koch/Stewardess und Decksmann/Ingenieur",
+        "item4": "Betriebskosten der Yacht (Kraftstoff & Liegeplatz)",
+        "item5": "Vollpension: 5× Frühstück, 5× Mittagessen, 4× Abendessen sowie Obst & Snacks",
+        "item6": "Strand-BBQ (sofern vom Nationalpark genehmigt)",
+        "item7": "Willkommensgetränk; Kaffeemaschine, Tee & Trinkwasser",
+        "item8": "Schnorchelausrüstung (Maske, Schnorchel, 12 Flossen in verschiedenen Größen)",
+        "item9": "Handleinenangeln & Schleppangeln durch die Besatzung",
+        "item10": "Bettwäsche, Badetücher & Schwimmtücher",
+        "item11": "2× Stand-up-Paddleboards & 2× Kajaks (geteilt mit anderen Gästen)",
+        "item12": "Unfallversicherung bis zu 1.000.000 THB"
       },
       "bring": {
         "title": "Was Sie mitbringen sollten",
-        "text": "Für maximalen Komfort bringen Sie bitte einen Hut oder eine Kappe, Sonnencreme, Sonnenbrille, bequeme Schuhe, eine Kamera, eine wasserdichte Tasche und natürlich Ihren Badeanzug für Wasseraktivitäten mit."
+        "item1": "Hut oder Mütze",
+        "item2": "Sonnencreme",
+        "item3": "Sonnenbrille",
+        "item4": "Bequeme Schuhe",
+        "item5": "Kamera",
+        "item6": "Wasserdichte Tasche",
+        "item7": "Badeanzug (wir empfehlen mindestens 3 mitzubringen)",
+        "item8": "Eigenes Shampoo, Conditioner & Haartrockner bei Bedarf (Körperseife wird gestellt)",
+        "item9": "Weiches Gepäck zur einfachen Verstauung in den Kabinen",
+        "item10": "Bargeld in Thai Baht für Nationalparkeintrittsgelder & optionale Extras"
       },
       "exclusions": {
         "title": "Ausschlüsse und optionale Extras",
-        "text": "Während Ihre Kreuzfahrt das Wesentliche abdeckt, gibt es einige Ausschlüsse: Flüge, Transfers, Hotels, Mietwagen und Wassertaxis sind nicht enthalten. Mahlzeiten oder Getränke in Restaurants sind ebenfalls ausgeschlossen, ebenso wie Nationalparkgebühren (von 50 THB bis 400 THB pro Erwachsenem). Optionale Extras umfassen Taxi-Transfers (Preise je nach Standort) und private Stand-up-Paddleboard-Miete zu 700 THB/Tag. Vorbestellte und vorausbezahlte Getränke sind verfügbar, einschließlich Softdrinks, lokaler und ausländischer Biere, Wein und Cocktails, mit detaillierter Preisangabe im Voraus."
+        "notIncludedTitle": "Nicht im Charter enthalten:",
+        "notIncluded1": "Flüge, Transfers, Hotels, Mietfahrzeuge & Wassertaxis",
+        "notIncluded2": "Mahlzeiten oder Getränke in Restaurants",
+        "notIncluded3": "Softdrinks, Bier, Wein, Spirituosen & Cocktails (auf Vorbestellung erhältlich)",
+        "notIncluded4": "Nationalpark- & Eintrittsgebühren: Phi Phi Don Aussichtspunkt 50 THB, Lanta Wasserfall 200 THB, Koh Muk 300 THB, Koh Rok & Koh Ha 400 THB, Phi Phi Leh 400 THB",
+        "optionalTitle": "Optionale Extras:",
+        "optional1": "Taxitransfer vor oder nach dem Charter (Preis je nach Standort)",
+        "optional2": "Privates Stand-up-Paddleboard-Verleih: 700 THB/Tag",
+        "drinksTitle": "Getränke zur Vorbestellung & Vorauszahlung:",
+        "drinks1": "Softdrinks (Cola, Cola Zero, Sprite, Fanta): 30 THB/Dose",
+        "drinks2": "Lokales Bier (Leo, Singha oder Chang): 80 THB/Dose oder 1.500 THB/24er-Pack",
+        "drinks3": "Ausländisches Bier (Asahi, Heineken, Carlsberg): 120 THB/Dose",
+        "drinks4": "Wein (weiß oder rot): 800 THB/Flasche",
+        "drinks5": "Sekt: 1.200 THB/Flasche",
+        "drinks6": "Cocktails: 290 THB pro Stück",
+        "drinks7": "Andere alkoholische Getränke auf Anfrage erhältlich"
       }
     },
     "whyChoose": {
@@ -1885,10 +1920,22 @@
       "bookTitle": "So buchen Sie Ihren Übernachtungs-Segelcharter in Phuket",
       "bookDescription": "Die Buchung Ihres Übernachtungs-Segelcharters ist einfach. Folgen Sie diesen vier Schritten:",
       "steps": {
-        "s1": { "title": "Wählen Sie Ihr Schiff & Reiseroute", "description": "Wählen Sie aus unserer Auswahl an Budget-, Mittelklasse- oder Luxusschiffen. Teilen Sie uns Ihre bevorzugten Segeldaten und Ziele mit, wie Phi Phi, Koh Lipe oder die Similan-Inseln." },
-        "s2": { "title": "Personalisiertes Angebot & Reiseplan", "description": "Erhalten Sie ein maßgeschneidertes Angebot und einen Reiseplan, der auf Ihre Gruppengröße und Vorlieben zugeschnitten ist. Wir arbeiten mit Ihnen zusammen, um das perfekte Segelerlebnis zu gestalten." },
-        "s3": { "title": "Bestätigen Sie Ihre Buchung", "description": "Sobald Sie Ihren Reiseplan und die Preise überprüft haben, bestätigen Sie Ihre Buchung, indem Sie den Vertrag unterzeichnen und Ihre Anzahlung leisten. Ihr Kapitän, Koch und Matrose werden bereit sein, Sie an Bord willkommen zu heißen." },
-        "s4": { "title": "Starten Sie Ihr Segelabenteuer", "description": "Nach der Bestätigung senden wir Ihnen alle Details für Ihre Segelreise. Am Tag Ihrer Abreise sorgt Ihre Crew dafür, dass alles für eine reibungslose, entspannende Reise bereit ist." }
+        "s1": {
+          "title": "Wählen Sie Ihr Schiff & Reiseroute",
+          "description": "Wählen Sie aus unserer Auswahl an Budget-, Mittelklasse- oder Luxusschiffen. Teilen Sie uns Ihre bevorzugten Segeldaten und Ziele mit, wie Phi Phi, Koh Lipe oder die Similan-Inseln."
+        },
+        "s2": {
+          "title": "Personalisiertes Angebot & Reiseplan",
+          "description": "Erhalten Sie ein maßgeschneidertes Angebot und einen Reiseplan, der auf Ihre Gruppengröße und Vorlieben zugeschnitten ist. Wir arbeiten mit Ihnen zusammen, um das perfekte Segelerlebnis zu gestalten."
+        },
+        "s3": {
+          "title": "Bestätigen Sie Ihre Buchung",
+          "description": "Sobald Sie Ihren Reiseplan und die Preise überprüft haben, bestätigen Sie Ihre Buchung, indem Sie den Vertrag unterzeichnen und Ihre Anzahlung leisten. Ihr Kapitän, Koch und Matrose werden bereit sein, Sie an Bord willkommen zu heißen."
+        },
+        "s4": {
+          "title": "Starten Sie Ihr Segelabenteuer",
+          "description": "Nach der Bestätigung senden wir Ihnen alle Details für Ihre Segelreise. Am Tag Ihrer Abreise sorgt Ihre Crew dafür, dass alles für eine reibungslose, entspannende Reise bereit ist."
+        }
       }
     },
     "trustCta": {
@@ -2114,10 +2161,22 @@
       "steps": {
         "title": "So buchen Sie Ihren Bareboat-Segeltörn in Phuket",
         "subtitle": "Der Buchungsprozess ist einfach:\nFür die Buchung kontaktieren Sie uns per Telefon, WhatsApp oder E-Mail.",
-        "step1": { "title": "Daten teilen", "desc": "Teilen Sie Ihre bevorzugten Daten und Ihr Wunschschiff mit." },
-        "step2": { "title": "Lizenz einreichen", "desc": "Reichen Sie Ihre Lizenzdokumente ein." },
-        "step3": { "title": "Buchung bestätigen", "desc": "Bestätigen Sie Ihre Buchung mit einer Anzahlung." },
-        "step4": { "title": "Leinen los", "desc": "Erhalten Sie Ihr Abfahrtsbriefing in der Chalong Bay." }
+        "step1": {
+          "title": "Daten teilen",
+          "desc": "Teilen Sie Ihre bevorzugten Daten und Ihr Wunschschiff mit."
+        },
+        "step2": {
+          "title": "Lizenz einreichen",
+          "desc": "Reichen Sie Ihre Lizenzdokumente ein."
+        },
+        "step3": {
+          "title": "Buchung bestätigen",
+          "desc": "Bestätigen Sie Ihre Buchung mit einer Anzahlung."
+        },
+        "step4": {
+          "title": "Leinen los",
+          "desc": "Erhalten Sie Ihr Abfahrtsbriefing in der Chalong Bay."
+        }
       },
       "ctaQuote": "Kostenloses Bareboat-Angebot anfordern"
     },
