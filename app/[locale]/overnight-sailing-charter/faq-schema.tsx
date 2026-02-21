@@ -8,7 +8,7 @@ export function OvernightSailingFAQSchema() {
         name: 'How much does an overnight sailing charter cost in Phuket?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Overnight sailing charters in Phuket start at €1,000 per night for a mid-range catamaran. Luxury catamarans and yachts range from €2,500 to €5,000 per night, depending on the vessel size and amenities. Prices typically include crew, meals, water activities, and fuel.',
+          text: 'Prices depend on the type of boat you choose. Budget options such as the Hot Chilli speedboat are typically around €900 – €1,500 per night. Mid-tier catamarans like Amadeus usually range from €1,000 – €1,800 per night. For a more luxurious experience, larger catamarans and yachts can cost €2,500 – €5,000 per night, and superyachts are generally in the €10,000 – €15,000 per night range. Most pricing includes the crew, meals, water activities, and fuel, while park fees and alcoholic drinks are additional.',
         },
       },
       {
@@ -16,7 +16,7 @@ export function OvernightSailingFAQSchema() {
         name: 'What islands can I visit on an overnight sailing charter from Phuket?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'You can visit some of the most beautiful islands in Thailand, including Phi Phi Islands, Koh Lanta, Koh Rok, Koh Ha, Koh Lipe, and the Similan Islands. These destinations offer stunning beaches, vibrant coral reefs, and serene anchorages, all easily accessible on an overnight sailing charter.',
+          text: 'The islands you can visit depend on the duration of your charter. For 2–4 night trips, you can explore Phang Nga Bay, the Phi Phi Islands, and the Racha Islands—perfect for first-time sailors or those with limited time. A 5-night charter allows you to reach more remote destinations such as Koh Mook, Koh Rok, and Koh Ha, offering a mix of adventure and secluded beaches. Longer charters of 7 nights or more take you to the Similan Islands and the Butang Archipelago, ideal for divers and travelers seeking a more exclusive, off-the-beaten-path experience.',
         },
       },
       {
@@ -24,7 +24,7 @@ export function OvernightSailingFAQSchema() {
         name: 'How many nights do you recommend for overnight sailing in Phuket?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A 3–4 night charter is ideal for a comprehensive experience, allowing you to explore multiple islands, including Phi Phi, Koh Lanta, and Koh Rok. If you\'re short on time, a 1–2 night charter is great for a quick getaway, while a 5-night or longer charter is perfect for a deeper exploration of remote islands like Koh Lipe and the Similan Islands.',
+          text: "For the most rewarding experience, we suggest a minimum of five nights. This allows you to explore the region's standout destinations, including the more secluded islands of Koh Ha, Koh Rok, and Koh Mook, which showcase the best of Phuket's overnight sailing adventures.",
         },
       },
       {
@@ -48,7 +48,7 @@ export function OvernightSailingFAQSchema() {
         name: 'What is a typical day like on an overnight sailing charter in Phuket?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'A typical day starts with a relaxing breakfast at anchor, followed by sailing to your next destination. You\'ll have time for snorkeling, swimming, and exploring remote beaches. As the day ends, enjoy a candlelit dinner while watching the sunset, followed by a peaceful night at anchor, and waking up to a new, serene location.',
+          text: 'Guests usually begin the day with a swim at sunrise, followed by breakfast on the boat. The morning is often spent exploring or snorkeling at nearby islands, then sailing to the next location with lunch served onboard. Afternoons include more cruising and island stops, while evenings are for relaxing, enjoying the sunset, or dining onboard. The itinerary can be fully customized to suit your preferences.',
         },
       },
       {
@@ -56,7 +56,7 @@ export function OvernightSailingFAQSchema() {
         name: 'Is overnight sailing in Phuket safe?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Yes, overnight sailing in Phuket is very safe. The catamarans we use are stable, and licensed captains are experienced in navigating the Andaman Sea. We also provide safety equipment and ensure your journey is comfortable and secure, with a crew that can handle any situation.',
+          text: "Yes, overnight sailing in Phuket is safe. All yachts come with up-to-date navigation equipment, safety gear, and life vests. The crew undergoes regular safety training, and you'll receive a full safety briefing from an experienced sailor before departure. Routes are carefully planned using current weather information to ensure a secure and enjoyable experience.",
         },
       },
       {
@@ -64,7 +64,7 @@ export function OvernightSailingFAQSchema() {
         name: 'What is the difference between an overnight sailing charter and a cabin cruise in Phuket?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'An overnight sailing charter provides a private, customizable experience with a crew dedicated solely to you and your group. In contrast, a cabin cruise typically involves shared accommodations with other guests and a fixed itinerary. With an overnight sailing charter, you enjoy more flexibility, privacy, and a tailored experience.',
+          text: 'An overnight sailing charter lets you experience remote islands, enjoy sunsets, nights, and sunrises at sea, and avoid the daytime crowds, offering a more private and immersive adventure. In contrast, a cabin cruise typically focuses on shorter trips with shared accommodations and daytime excursions, providing less flexibility and time to explore secluded spots.',
         },
       },
       {
@@ -80,7 +80,7 @@ export function OvernightSailingFAQSchema() {
         name: 'What food is served on overnight sailing charters in Phuket?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'On an overnight sailing charter, meals are freshly prepared by your onboard chef. Expect authentic Thai dishes like pad thai, green curry, and tom yum soup, along with fresh seafood and tropical fruits. Special dietary requests, such as vegetarian, vegan, or gluten-free options, are also accommodated.',
+          text: 'Meals are freshly prepared on board by a private chef, featuring a mix of Thai and international dishes. You can customize the menu according to your dietary needs, including vegetarian, vegan, or allergy-friendly options, and special requests for premium or western-style meals can also be accommodated.',
         },
       },
     ],

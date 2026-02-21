@@ -31,9 +31,12 @@
     "bookNow": "Jetzt Buchen",
     "details": "Details",
     "withSkipper": "Mit Skipper",
+    "withoutSkipper": "Ohne Skipper",
     "cabins": "Kabinen",
     "bathrooms": "Badezimmer",
-    "from": "Ab"
+    "from": "Ab",
+    "guests": "Gäste",
+    "overnight": "Übernachtung"
   },
   "charterStyles": {
     "title": "Wählen Sie Ihren Segelcharter-Stil",
@@ -1673,7 +1676,7 @@
   "overnightCharter": {
     "hero": {
       "title": "Übernachtungs-Segelcharter Phuket – Privater Katamaran auf der Andamanensee",
-      "description": "Gehen Sie an Bord eines privaten Katamarans für ein unvergessliches Übernachtungs-Segelabenteuer in Phuket. Erkunden Sie die unberührten Inseln der Andamanensee, darunter Phi Phi, Koh Rok, Koh Ha und Koh Lipe, und genießen Sie dabei vollkommenen Komfort und Privatsphäre.",
+      "description": "Step aboard a private catamaran for an unforgettable overnight sailing charter in Phuket. Explore the pristine islands of the Andaman Sea, including Phi Phi, Koh Rok, Koh Ha, and Koh Lipe, while enjoying complete comfort and privacy.",
       "cta": "Kostenloses Angebot anfordern",
       "badges": "850+ Fünf-Sterne-Bewertungen | 30 Jahre auf der Andamanensee | Lizenziert von der Tourismusbehörde Thailands | World Luxury Travel Awards Gewinner 2025"
     },
@@ -1705,7 +1708,7 @@
       }
     },
     "whyChoose": {
-      "title": "Warum sollten Sie einen Übernachtungs-Segelcharter in Phuket wählen?",
+      "title": "Why Should You Choose an Overnight  Sailing Charter in Phuket?",
       "subtitle": "Ein Übernachtungs-Segelcharter in Phuket bietet Ihnen mehr als nur schöne Landschaften. Es geht um das Tempo, den Raum und das authentische Segelerlebnis, das auf dem Wasser entsteht. Entdecken Sie, warum Übernachtungssegeln die beste Art ist, Phukets Inseln zu erkunden.",
       "benefits": {
         "remoteIslands": {
@@ -1821,18 +1824,23 @@
         "hotChilli": {
           "name": "Hot Chilli",
           "description": "Eine budgetfreundliche Option, ideal für Paare oder kleine Gruppen. Komfortabel und modern, perfekt für kurze Auszeiten.",
-          "price": "Ab 1.000 €/Nacht"
+          "price": "€900 – €1,500 / night"
         },
         "amadeus": {
           "name": "Amadeus",
           "description": "Ein Mittelklasse-Katamaran, der die perfekte Balance zwischen Luxus und Komfort bietet, ideal für Familien und kleine Gruppen.",
-          "price": "Ab 1.500 €/Nacht"
+          "price": "€1,000 – €1,800 / night"
         },
         "nauti": {
           "name": "Nauti by Nature",
           "tag": "LUXUS",
           "description": "Ein Luxus-Katamaran für alle, die ein gehobenes Erlebnis suchen, mit Premium-Ausstattung und großzügigen Wohnbereichen.",
-          "price": "Ab 2.500 €/Nacht"
+          "price": "€2,500 – €5,000 / night"
+        },
+        "miaKai": {
+          "name": "Mia Kai",
+          "description": "Eine Superjacht für das ultimative Luxuserlebnis mit geräumigen Kabinen, Klimaanlage und maßgeschneiderten Services.",
+          "price": "€10,000 – €15,000 / night"
         }
       },
       "viewFleet": "Gesamte Flotte ansehen"
@@ -1895,23 +1903,30 @@
         "budget": {
           "label": "BUDGET",
           "name": "Hot Chilli",
-          "price": "1.000 €",
+          "price": "€900 – €1,500",
           "per": "pro Nacht",
           "description": "Ideal für Paare oder kleine Gruppen, die eine komfortable, erschwingliche Option suchen."
         },
         "mid": {
           "label": "MITTELKLASSE",
           "name": "Mittelklasse-Katamarane",
-          "price": "1.500 €",
+          "price": "€1,000 – €1,800",
           "per": "pro Nacht",
           "description": "Perfekt für Familien oder kleine Gruppen, mit einer Balance aus Luxus und Preis-Leistung."
         },
         "luxury": {
           "label": "LUXUS",
           "name": "Luxus-Katamarane",
-          "price": "2.500 €+",
+          "price": "€2,500 – €5,000",
           "per": "pro Nacht",
-          "description": "Für alle, die das ultimative Erlebnis mit Premium-Ausstattung und maßgeschneiderten Services suchen."
+          "description": "Für diejenigen, die das ultimative Erlebnis mit Premium-Ausstattung suchen, einschließlich größerer Kabinen, Klimaanlage und maßgeschneiderten Services."
+        },
+        "superyacht": {
+          "label": "SUPERJACHT",
+          "name": "Superjachten (Mia Kai)",
+          "price": "€10,000 – €15,000",
+          "per": "per night",
+          "description": "Für den Gipfel des Luxus und personalisierten Service."
         }
       },
       "allIncluded": "Alle Preise beinhalten Crew, Mahlzeiten, Schnorchelausrüstung, Wasseraktivitäten und Treibstoff. Nationalparkgebühren und alkoholische Getränke sind zusätzliche Kosten.",
@@ -1955,15 +1970,15 @@
       "questions": {
         "cost": {
           "q": "Was kostet ein Übernachtungs-Segelcharter in Phuket?",
-          "a": "Übernachtungs-Segelcharter in Phuket beginnen ab 1.000 € pro Nacht für einen Mittelklasse-Katamaran. Luxus-Katamarane und Yachten kosten zwischen 2.500 € und 5.000 € pro Nacht, je nach Schiffsgröße und Ausstattung. Die Preise beinhalten in der Regel Crew, Mahlzeiten, Wasseraktivitäten und Treibstoff."
+          "a": "Der Preis hängt von der Art des Bootes ab, das Sie wählen. Budget-Optionen wie der Hot Chilli liegen typischerweise bei 900 – 1.500 € pro Nacht. Mittelklasse-Katamarane wie der Amadeus liegen bei 1.000 – 1.800 € pro Nacht. Für ein luxuriöseres Erlebnis können größere Katamarane und Yachten 2.500 – 5.000 € pro Nacht kosten, und Superjachten liegen in der Regel im Bereich von 10.000 – 15.000 € pro Nacht. Die meisten Preise beinhalten Crew, Mahlzeiten, Wasseraktivitäten und Kraftstoff, während Parkgebühren und Alkohol zusätzlich berechnet werden."
         },
         "islands": {
           "q": "Welche Inseln kann ich bei einem Übernachtungs-Segelcharter ab Phuket besuchen?",
-          "a": "Sie können einige der schönsten Inseln Thailands besuchen, darunter die Phi Phi-Inseln, Koh Lanta, Koh Rok, Koh Ha, Koh Lipe und die Similan-Inseln. Diese Ziele bieten atemberaubende Strände, lebendige Korallenriffe und ruhige Ankerplätze, die alle bequem bei einem Übernachtungs-Segelcharter erreichbar sind."
+          "a": "Die Inseln, die Sie besuchen können, hängen von der Dauer Ihrer Charter ab. Für 2–4 Nacht-Trips können Sie Phang Nga Bay, die Phi Phi Inseln und die Racha Inseln erkunden — perfekt für Erstsegler oder Reisende mit wenig Zeit. Eine 5-Nacht-Charter ermöglicht es Ihnen, abgelegenere Ziele wie Koh Mook, Koh Rok und Koh Ha zu erreichen, die Abenteuer und einsame Strände bieten. Längere Chartern von 7 Nächten oder mehr bringen Sie zu den Similan-Inseln und dem Butang-Archipel, ideal für Taucher und Reisende auf der Suche nach abseits gelegenen Reisezielen."
         },
         "nights": {
           "q": "Wie viele Nächte empfehlen Sie für Übernachtungssegeln in Phuket?",
-          "a": "Ein 3–4-Nächte-Charter ist ideal für ein umfassendes Erlebnis, das Ihnen ermöglicht, mehrere Inseln zu erkunden, darunter Phi Phi, Koh Lanta und Koh Rok. Bei wenig Zeit ist ein 1–2-Nächte-Charter perfekt für einen Kurzurlaub, während ein Charter von 5 Nächten oder länger ideal für eine tiefere Erkundung abgelegener Inseln wie Koh Lipe und der Similan-Inseln ist."
+          "a": "Für das beste Erlebnis empfehlen wir mindestens fünf Nächte. So können Sie die beeindruckendsten Ziele der Region erkunden, darunter die abgelegeneren Inseln Koh Ha, Koh Rok und Koh Mook, die das Beste der Übernacht-Segeltouren rund um Phuket zeigen."
         },
         "included": {
           "q": "Was ist in einem Übernachtungs-Segelcharter in Phuket enthalten?",
@@ -1975,15 +1990,15 @@
         },
         "typicalDay": {
           "q": "Wie sieht ein typischer Tag bei einem Übernachtungs-Segelcharter in Phuket aus?",
-          "a": "Ein typischer Tag beginnt mit einem entspannten Frühstück vor Anker, gefolgt vom Segeln zu Ihrem nächsten Ziel. Sie haben Zeit zum Schnorcheln, Schwimmen und Erkunden abgelegener Strände. Am Abend genießen Sie ein Candle-Light-Dinner bei Sonnenuntergang, gefolgt von einer friedlichen Nacht vor Anker und dem Aufwachen an einem neuen, ruhigen Ort."
+          "a": "Die Gäste beginnen den Tag in der Regel mit einem Morgenschwimmen bei Sonnenaufgang, gefolgt vom Frühstück an Bord. Der Vormittag wird häufig mit der Erkundung oder dem Schnorcheln auf nahe gelegenen Inseln verbracht, dann geht die Fahrt zur nächsten Station, wobei das Mittagessen an Bord serviert wird. Am Nachmittag gibt es weitere Fahrten und Inselstopps, während die Abende der Entspannung, dem Genuss des Sonnenuntergangs oder dem Abendessen an Bord gewidmet sind. Das Reiseprogramm kann vollständig nach Ihren Wünschen angepasst werden."
         },
         "safety": {
           "q": "Ist Übernachtungssegeln in Phuket sicher?",
-          "a": "Ja, Übernachtungssegeln in Phuket ist sehr sicher. Die Katamarane, die wir verwenden, sind stabil, und die lizenzierten Kapitäne sind erfahren in der Navigation auf der Andamanensee. Wir stellen auch Sicherheitsausrüstung bereit und sorgen dafür, dass Ihre Reise komfortabel und sicher ist, mit einer Crew, die jede Situation bewältigen kann."
+          "a": "Ja, das Segeln über Nacht in Phuket ist sicher. Alle Yachten verfügen über aktuelle Navigationsausrüstung, Sicherheitsausrüstung und Schwimmwesten. Die Crew absolviert regelmäßig Sicherheitsschulungen, und Sie erhalten vor der Abfahrt ein vollständiges Sicherheitsbriefing von einem erfahrenen Segler. Die Routen werden sorgfältig unter Berücksichtigung aktueller Wetterdaten geplant, um ein sicheres und angenehmes Erlebnis zu gewährleisten."
         },
         "vsCabin": {
           "q": "Was ist der Unterschied zwischen einem Übernachtungs-Segelcharter und einer Kabinenkreuzfahrt in Phuket?",
-          "a": "Ein Übernachtungs-Segelcharter bietet ein privates, anpassbares Erlebnis mit einer Crew, die ausschließlich Ihnen und Ihrer Gruppe gewidmet ist. Im Gegensatz dazu beinhaltet eine Kabinenkreuzfahrt in der Regel eine gemeinsame Unterkunft mit anderen Gästen und einen festen Reiseplan. Bei einem Übernachtungs-Segelcharter genießen Sie mehr Flexibilität, Privatsphäre und ein maßgeschneidertes Erlebnis."
+          "a": "Eine Übernacht-Segelcharter ermöglicht es Ihnen, abgelegene Inseln zu erkunden, Sonnenuntergänge, Nächte und Sonnenaufgänge auf dem Meer zu genießen und die Tagesmengen zu vermeiden, was ein privateres und intensiveres Abenteuer bietet. Im Gegensatz dazu konzentriert sich eine Kabinenkreuzfahrt in der Regel auf kürzere Fahrten mit gemeinschaftlichen Unterkünften und Tagesausflügen, was weniger Flexibilität und Zeit bietet, um abgelegene Spots zu erkunden."
         },
         "similan": {
           "q": "Kann ich die Similan-Inseln bei einem Übernachtungs-Segelcharter ab Phuket erreichen?",
@@ -1991,7 +2006,7 @@
         },
         "food": {
           "q": "Welches Essen wird auf Übernachtungs-Segelchartern in Phuket serviert?",
-          "a": "Bei einem Übernachtungs-Segelcharter werden die Mahlzeiten frisch von Ihrem Bordkoch zubereitet. Erwarten Sie authentische thailändische Gerichte wie Pad Thai, Grünes Curry und Tom Yum Suppe, zusammen mit frischen Meeresfrüchten und tropischen Früchten. Besondere Ernährungswünsche wie vegetarische, vegane oder glutenfreie Optionen werden ebenfalls berücksichtigt."
+          "a": "Die Mahlzeiten werden frisch an Bord von einem privaten Koch zubereitet und bieten eine Mischung aus thailändischen und internationalen Gerichten. Sie können das Menü nach Ihren Ernährungsbedürfnissen anpassen, einschließlich vegetarischer, veganer oder allergenfreier Optionen. Sonderwünsche für Premium- oder westliche Mahlzeiten können ebenfalls berücksichtigt werden."
         }
       }
     }
@@ -2252,6 +2267,32 @@
       "description": "Beginnen Sie noch heute mit der Planung Ihres Bareboat-Segelabenteuers in Phuket. Unser Team ist bereit, Ihnen zu helfen, unvergessliche Erinnerungen auf der Andamanensee zu schaffen.",
       "ctaQuote": "Kostenloses Bareboat-Angebot anfordern",
       "ctaWhatsApp": "WhatsApp"
+    }
+  },
+  "metadata": {
+    "overnight": {
+      "title": "Nacht-Segelcharter Phuket | 5-Sterne | 850+ Bewertungen",
+      "description": "Segeln Sie über Nacht auf einem privaten Katamaran in Phuket — Phi Phi Inseln, Phang Nga Bucht bis Koh Lipe. Vollständige Crew, alle Mahlzeiten inklusive."
+    },
+    "bareboat": {
+      "title": "Bareboat-Segeln Phuket | 5-Sterne | 850+ verifizierte Bewertungen",
+      "description": "Segeln Sie mit Ihrer eigenen Yacht durch die Andamanensee — Kalksteininseln, versteckte Lagunen. Nur für lizenzierte Segler. Vollständige Flotte, alle Saisons."
+    },
+    "luxury": {
+      "title": "Luxus-Segelyacht-Charter Phuket | 850+ Fünf-Sterne-Bewertungen",
+      "description": "Buchen Sie einen preisgekrönten Luxus-Segelyacht-Charter in Phuket. Private Katamarane und Segelyachten zu den Phi Phi Inseln, Koh Rok und Phang Nga Bucht."
+    },
+    "catamaran": {
+      "title": "Katamaran-Charter Phuket – Privates Segeln in Komfort | Phuket Sailing",
+      "description": "Erleben Sie luxuriöse Katamaran-Charter in Phuket. Perfekt für Familien und Gruppen. Erkunden Sie die Phi Phi Inseln und die Phang Nga Bucht."
+    },
+    "cabin": {
+      "title": "Kabinen-Kreuzfahrt Phuket | 5-Sterne | 850+ Bewertungen",
+      "description": "Erleben Sie das ultimative Abenteuer mit einer Kabinen-Kreuzfahrt in Phuket. Segeln Sie durch Phi Phi und Phang Nga Bucht in Komfort mit Privatkabinen."
+    },
+    "contact": {
+      "title": "Kontakt | Phuket Sailing",
+      "description": "Nehmen Sie Kontakt mit Phuket Sailing auf. Füllen Sie unser Formular aus für ein personalisiertes Angebot Ihres Yacht-Charters."
     }
   }
 }

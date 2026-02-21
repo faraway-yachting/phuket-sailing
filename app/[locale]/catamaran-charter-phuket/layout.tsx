@@ -1,33 +1,44 @@
 import { Metadata } from 'next'
+import { getTranslations } from '@/lib/i18n/getTranslations'
 
-export const metadata: Metadata = {
-  alternates: { canonical: 'https://phuket-sailing.vercel.app/catamaran-charter-phuket' },
-  title: 'Catamaran Charter Phuket – Private Sailing in Comfort & Style | Phuket Sailing',
-  description:
-    'Experience luxury catamaran charters in Phuket. Perfect for families, groups, and special events. Explore Phi Phi Islands, Phang Nga Bay, and more with our professional crew. Day trips and overnight charters available.',
-  keywords: [
-    'catamaran charter phuket',
-    'phuket catamaran',
-    'luxury catamaran rental',
-    'private catamaran charter',
-    'phuket sailing',
-    'phi phi islands catamaran',
-    'phang nga bay charter',
-    'catamaran day trip',
-    'overnight sailing phuket'
-  ],
-  openGraph: {
-    title: 'Catamaran Charter Phuket – Private Sailing in Comfort & Style',
-    description: 'Experience luxury catamaran charters in Phuket. Perfect for families, groups, and special events.',
-    images: ['/assets/images/catamaran-charter/hero.jpg'],
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Catamaran Charter Phuket – Private Sailing in Comfort & Style',
-    description: 'Experience luxury catamaran charters in Phuket. Perfect for families, groups, and special events.',
-    images: ['/assets/images/catamaran-charter/hero.jpg'],
-  },
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const { t } = getTranslations(locale)
+  const title = t('metadata.catamaran.title')
+  const description = t('metadata.catamaran.description')
+
+  return {
+    alternates: { canonical: 'https://phuket-sailing.vercel.app/catamaran-charter-phuket' },
+    title,
+    description,
+    keywords: [
+      'catamaran charter phuket',
+      'phuket catamaran',
+      'luxury catamaran rental',
+      'private catamaran charter',
+      'phuket sailing',
+      'phi phi islands catamaran',
+      'phang nga bay charter',
+      'catamaran day trip',
+      'overnight sailing phuket',
+    ],
+    openGraph: {
+      title,
+      description,
+      images: ['/assets/images/catamaran-charter/hero.jpg'],
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/images/catamaran-charter/hero.jpg'],
+    },
+  }
 }
 
 export default function CatamaranCharterLayout({

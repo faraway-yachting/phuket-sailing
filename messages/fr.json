@@ -31,9 +31,12 @@
     "bookNow": "Réserver",
     "details": "Détails",
     "withSkipper": "Avec skipper",
+    "withoutSkipper": "Sans skipper",
     "cabins": "Cabines",
     "bathrooms": "Salles de bain",
-    "from": "À partir de"
+    "from": "À partir de",
+    "guests": "Invités",
+    "overnight": "Nuit"
   },
   "charterStyles": {
     "title": "Choisissez votre style de croisière à la voile",
@@ -1673,7 +1676,7 @@
   "overnightCharter": {
     "hero": {
       "title": "Croisière à la voile de nuit à Phuket – Catamaran privé sur la mer d'Andaman",
-      "description": "Montez à bord d'un catamaran privé pour une aventure inoubliable de navigation de nuit à Phuket. Explorez les îles préservées de la mer d'Andaman, notamment Phi Phi, Koh Rok, Koh Ha et Koh Lipe, tout en profitant d'un confort et d'une intimité absolus.",
+      "description": "Step aboard a private catamaran for an unforgettable overnight sailing charter in Phuket. Explore the pristine islands of the Andaman Sea, including Phi Phi, Koh Rok, Koh Ha, and Koh Lipe, while enjoying complete comfort and privacy.",
       "cta": "Obtenez un devis gratuit",
       "badges": "850+ avis cinq étoiles | 30 ans sur la mer d'Andaman | Agréé par l'Autorité du Tourisme de Thaïlande | Lauréat des World Luxury Travel Awards 2025"
     },
@@ -1705,7 +1708,7 @@
       }
     },
     "whyChoose": {
-      "title": "Pourquoi choisir une croisière à la voile de nuit à Phuket ?",
+      "title": "Why Should You Choose an Overnight  Sailing Charter in Phuket?",
       "subtitle": "Une croisière de nuit à Phuket vous offre bien plus que de beaux paysages. C'est le rythme, l'espace et l'authenticité de l'expérience de navigation qui font la différence. Découvrez pourquoi la navigation de nuit est la meilleure façon d'explorer les îles de Phuket.",
       "benefits": {
         "remoteIslands": {
@@ -1821,18 +1824,23 @@
         "hotChilli": {
           "name": "Hot Chilli",
           "description": "Une option économique idéale pour les couples ou les petits groupes. Confortable et moderne, parfait pour les escapades courtes.",
-          "price": "À partir de 1 000 €/nuit"
+          "price": "€900 – €1,500 / night"
         },
         "amadeus": {
           "name": "Amadeus",
           "description": "Un catamaran milieu de gamme qui offre l'équilibre parfait entre luxe et confort, idéal pour les familles et les petits groupes.",
-          "price": "À partir de 1 500 €/nuit"
+          "price": "€1,000 – €1,800 / night"
         },
         "nauti": {
           "name": "Nauti by Nature",
           "tag": "LUXE",
           "description": "Un catamaran de luxe pour ceux qui recherchent une expérience haut de gamme, offrant des équipements premium et des espaces de vie spacieux.",
-          "price": "À partir de 2 500 €/nuit"
+          "price": "€2,500 – €5,000 / night"
+        },
+        "miaKai": {
+          "name": "Mia Kai",
+          "description": "Un superyacht pour une expérience de luxe ultime, avec des cabines spacieuses, la climatisation et des services sur mesure.",
+          "price": "€10,000 – €15,000 / night"
         }
       },
       "viewFleet": "Voir la flotte complète"
@@ -1895,23 +1903,30 @@
         "budget": {
           "label": "ÉCONOMIQUE",
           "name": "Hot Chilli",
-          "price": "1 000 €",
+          "price": "€900 – €1,500",
           "per": "par nuit",
           "description": "Idéal pour les couples ou les petits groupes recherchant une option confortable et abordable."
         },
         "mid": {
           "label": "MILIEU DE GAMME",
           "name": "Catamarans milieu de gamme",
-          "price": "1 500 €",
+          "price": "€1,000 – €1,800",
           "per": "par nuit",
           "description": "Parfait pour les familles ou les petits groupes, offrant un équilibre entre luxe et rapport qualité-prix."
         },
         "luxury": {
           "label": "LUXE",
           "name": "Catamarans de luxe",
-          "price": "2 500 €+",
+          "price": "€2,500 – €5,000",
           "per": "par nuit",
-          "description": "Pour ceux qui recherchent l'expérience ultime avec des équipements premium et des services sur mesure."
+          "description": "Pour ceux qui recherchent l'expérience ultime avec des équipements premium, notamment des cabines plus grandes, la climatisation et des services sur mesure."
+        },
+        "superyacht": {
+          "label": "SUPERYACHT",
+          "name": "Superyachts (Mia Kai)",
+          "price": "€10,000 – €15,000",
+          "per": "per night",
+          "description": "Pour le summum du luxe et un service personnalisé."
         }
       },
       "allIncluded": "Tous les prix incluent l'équipage, les repas, l'équipement de snorkeling, les activités nautiques et le carburant. Les frais de parc national et les boissons alcoolisées sont en supplément.",
@@ -1955,15 +1970,15 @@
       "questions": {
         "cost": {
           "q": "Combien coûte une croisière de nuit à Phuket ?",
-          "a": "Les croisières de nuit à Phuket commencent à 1 000 € par nuit pour un catamaran milieu de gamme. Les catamarans et yachts de luxe vont de 2 500 € à 5 000 € par nuit, selon la taille du bateau et les équipements. Les prix incluent généralement l'équipage, les repas, les activités nautiques et le carburant."
+          "a": "Le prix dépend du type de bateau que vous choisissez. Les options budget comme le Hot Chilli sont généralement autour de 900 – 1 500 € par nuit. Les catamarans de gamme intermédiaire comme l'Amadeus varient de 1 000 – 1 800 € par nuit. Pour une expérience plus luxueuse, les grands catamarans et yachts peuvent coûter 2 500 – 5 000 € par nuit, et les superyachts sont généralement dans la fourchette de 10 000 – 15 000 € par nuit. La plupart des tarifs comprennent l'équipage, les repas, les activités nautiques et le carburant, tandis que les frais de parc et les boissons alcoolisées sont en supplément."
         },
         "islands": {
           "q": "Quelles îles puis-je visiter lors d'une croisière de nuit depuis Phuket ?",
-          "a": "Vous pouvez visiter certaines des plus belles îles de Thaïlande, notamment les îles Phi Phi, Koh Lanta, Koh Rok, Koh Ha, Koh Lipe et les îles Similan. Ces destinations offrent des plages magnifiques, des récifs coralliens vibrants et des mouillages sereins, facilement accessibles en croisière de nuit."
+          "a": "Les îles que vous pouvez visiter dépendent de la durée de votre charte. Pour des séjours de 2 à 4 nuits, vous pouvez explorer la baie de Phang Nga, les îles Phi Phi et les îles Racha — idéales pour les premiers navigateurs ou ceux qui ont peu de temps. Une charte de 5 nuits vous permet d'atteindre des destinations plus éloignées telles que Koh Mook, Koh Rok et Koh Ha, offrant un mélange d'aventure et de plages isolées. Les chartes de 7 nuits ou plus vous emmènent aux îles Similan et à l'archipel Butang, idéales pour les plongeurs et les voyageurs en quête d'expériences hors des sentiers battus."
         },
         "nights": {
           "q": "Combien de nuits recommandez-vous pour une croisière de nuit à Phuket ?",
-          "a": "Une croisière de 3–4 nuits est idéale pour une expérience complète, vous permettant d'explorer plusieurs îles, dont Phi Phi, Koh Lanta et Koh Rok. Si vous manquez de temps, une croisière de 1–2 nuits est parfaite pour une escapade rapide, tandis qu'une croisière de 5 nuits ou plus est idéale pour une exploration approfondie des îles reculées comme Koh Lipe et les îles Similan."
+          "a": "Pour une expérience optimale, nous recommandons un minimum de cinq nuits. Cela vous permet d'explorer les destinations phares de la région, notamment les îles plus isolées de Koh Ha, Koh Rok et Koh Mook, qui représentent le meilleur de la navigation nocturne à Phuket."
         },
         "included": {
           "q": "Qu'est-ce qui est inclus dans une croisière de nuit à Phuket ?",
@@ -1975,15 +1990,15 @@
         },
         "typicalDay": {
           "q": "À quoi ressemble une journée type lors d'une croisière de nuit à Phuket ?",
-          "a": "Une journée type commence par un petit-déjeuner relaxant au mouillage, suivi de la navigation vers votre prochaine destination. Vous aurez du temps pour le snorkeling, la baignade et l'exploration de plages reculées. En fin de journée, savourez un dîner aux chandelles en regardant le coucher du soleil, suivi d'une nuit paisible au mouillage, et réveillez-vous dans un nouvel endroit serein."
+          "a": "Les invités commencent généralement la journée par une baignade au lever du soleil, suivie du petit-déjeuner à bord. La matinée est souvent consacrée à l'exploration ou au snorkeling aux îles voisines, puis à la navigation vers le prochain arrêt avec le déjeuner servi à bord. Les après-midis incluent davantage de navigation et d'escales, tandis que les soirées sont consacrées à la détente, à profiter du coucher de soleil ou à dîner à bord. L'itinéraire peut être entièrement personnalisé selon vos préférences."
         },
         "safety": {
           "q": "La croisière de nuit à Phuket est-elle sûre ?",
-          "a": "Oui, la navigation de nuit à Phuket est très sûre. Les catamarans que nous utilisons sont stables, et les capitaines agréés sont expérimentés dans la navigation sur la mer d'Andaman. Nous fournissons également des équipements de sécurité et veillons à ce que votre voyage soit confortable et sécurisé, avec un équipage capable de gérer toute situation."
+          "a": "Oui, la navigation nocturne à Phuket est sûre. Tous les yachts sont équipés d'un matériel de navigation à jour, d'équipements de sécurité et de gilets de sauvetage. L'équipage suit régulièrement des formations de sécurité, et vous recevrez un briefing de sécurité complet avant le départ. Les itinéraires sont soigneusement planifiés en tenant compte des conditions météorologiques actuelles pour garantir une expérience sûre et agréable."
         },
         "vsCabin": {
           "q": "Quelle est la différence entre une croisière de nuit et une croisière cabine à Phuket ?",
-          "a": "Une croisière de nuit offre une expérience privée et personnalisable avec un équipage dédié uniquement à vous et votre groupe. En revanche, une croisière cabine implique généralement un hébergement partagé avec d'autres passagers et un itinéraire fixe. Avec une croisière de nuit, vous profitez de plus de flexibilité, d'intimité et d'une expérience sur mesure."
+          "a": "Une charte de navigation nocturne vous permet de découvrir des îles éloignées, de profiter des couchers et levers de soleil en mer, et d'éviter les foules diurnes, offrant une aventure plus privée et immersive. En revanche, une croisière en cabine se concentre généralement sur des voyages plus courts avec des hébergements partagés et des excursions de jour, offrant moins de flexibilité et de temps pour explorer des endroits isolés."
         },
         "similan": {
           "q": "Puis-je atteindre les îles Similan lors d'une croisière de nuit depuis Phuket ?",
@@ -1991,7 +2006,7 @@
         },
         "food": {
           "q": "Quelle nourriture est servie lors des croisières de nuit à Phuket ?",
-          "a": "Lors d'une croisière de nuit, les repas sont fraîchement préparés par votre chef à bord. Attendez-vous à des plats thaïlandais authentiques comme le pad thai, le curry vert et la soupe tom yum, ainsi que des fruits de mer frais et des fruits tropicaux. Les demandes alimentaires spéciales, comme les options végétariennes, véganes ou sans gluten, sont également prises en compte."
+          "a": "Les repas sont préparés fraîchement à bord par un chef privé, proposant un mélange de plats thaïlandais et internationaux. Vous pouvez personnaliser le menu selon vos besoins alimentaires, notamment les options végétariennes, végétaliennes ou sans allergènes. Des demandes spéciales pour des repas premium ou de style occidental peuvent également être accommodées."
         }
       }
     }
@@ -2252,6 +2267,32 @@
       "description": "Commencez à planifier votre aventure bareboat à Phuket dès aujourd'hui. Notre équipe est prête à vous aider à créer des souvenirs inoubliables sur la mer d'Andaman.",
       "ctaQuote": "Obtenez un devis bareboat gratuit",
       "ctaWhatsApp": "WhatsApp"
+    }
+  },
+  "metadata": {
+    "overnight": {
+      "title": "Charter voile de nuit Phuket | 5 étoiles | 850+ avis",
+      "description": "Naviguez de nuit sur un catamaran privé à Phuket — îles Phi Phi, baie de Phang Nga jusqu'à Koh Lipe. Équipage complet, tous repas inclus. 850+ avis cinq étoiles."
+    },
+    "bareboat": {
+      "title": "Voile bareboat Phuket | 5 étoiles | 850+ avis vérifiés",
+      "description": "Naviguez sur votre propre yacht à travers la mer d'Andaman — îles calcaires, lagons cachés. Marins agréés uniquement. Flotte complète, toutes saisons."
+    },
+    "luxury": {
+      "title": "Charter yacht de luxe Phuket | 850+ avis cinq étoiles",
+      "description": "Réservez un charter de yacht de luxe primé à Phuket. Catamarans privés et voiliers vers les îles Phi Phi, Koh Rok, la baie de Phang Nga et Koh Lipe."
+    },
+    "catamaran": {
+      "title": "Charter catamaran Phuket – Navigation privée en confort | Phuket Sailing",
+      "description": "Vivez des charters en catamaran de luxe à Phuket. Parfait pour les familles et groupes. Explorez les îles Phi Phi, la baie de Phang Nga et plus encore."
+    },
+    "cabin": {
+      "title": "Croisière en cabine Phuket | 5 étoiles | 850+ avis",
+      "description": "Profitez d'une aventure ultime avec une croisière en cabine à Phuket. Naviguez à Phi Phi, la baie de Phang Nga en confort avec des cabines privées."
+    },
+    "contact": {
+      "title": "Contactez-nous | Phuket Sailing",
+      "description": "Contactez Phuket Sailing. Remplissez notre formulaire pour un devis personnalisé pour votre charter de yacht."
     }
   }
 }

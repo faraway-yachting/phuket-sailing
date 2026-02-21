@@ -3,6 +3,7 @@ import { Footer } from '@/components/shared/Footer'
 import { Certifications } from '@/components/shared/Certifications'
 import { WhatsAppButton } from '@/components/shared/WhatsAppButton'
 import { LanguageProvider } from '@/components/providers/LanguageProvider'
+import { YachtCacheProvider } from '@/contexts/YachtCacheContext'
 import { HreflangTags } from '@/components/shared/HreflangTags'
 import { locales, localeHtmlLang, type Locale } from '@/lib/i18n'
 
@@ -19,12 +20,14 @@ export default function LocaleLayout({
 }) {
   return (
     <LanguageProvider>
-      <HreflangTags />
-      <Navbar />
-      {children}
-      <Certifications />
-      <Footer />
-      <WhatsAppButton />
+      <YachtCacheProvider>
+        <HreflangTags />
+        <Navbar />
+        {children}
+        <Certifications />
+        <Footer />
+        <WhatsAppButton />
+      </YachtCacheProvider>
     </LanguageProvider>
   )
 }

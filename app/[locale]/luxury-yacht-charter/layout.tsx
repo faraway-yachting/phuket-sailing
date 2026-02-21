@@ -1,34 +1,45 @@
 import { Metadata } from 'next'
+import { getTranslations } from '@/lib/i18n/getTranslations'
 
-export const metadata: Metadata = {
-  alternates: { canonical: 'https://phuket-sailing.vercel.app/luxury-yacht-charter' },
-  title: 'Luxury Sailing Yacht Charter Phuket - 30 years of experience. 850+ five-star reviews.',
-  description:
-    'Book award winning luxury sailing yacht charter in Phuket with Phuket Sailing. Private catamarans and sailing yachts to Phi Phi Islands, Koh Rok, Phang Nga Bay and Koh Lipe. Perfect for honeymoons, couples and small groups.',
-  keywords: [
-    'luxury yacht charter phuket',
-    'private yacht phuket',
-    'luxury sailing phuket',
-    'phuket yacht charter',
-    'luxury catamaran phuket',
-    'private sailing charter',
-    'phi phi islands yacht',
-    'phang nga bay charter',
-    'honeymoon sailing phuket',
-    'overnight yacht charter phuket'
-  ],
-  openGraph: {
-    title: 'Luxury Sailing Yacht Charter Phuket - 30 years of experience. 850+ five-star reviews.',
-    description: 'Book award winning luxury sailing yacht charter in Phuket with Phuket Sailing. Private catamarans and sailing yachts to Phi Phi Islands, Koh Rok, Phang Nga Bay and Koh Lipe. Perfect for honeymoons, couples and small groups.',
-    images: ['/assets/images/luxury-yacht-charter/hero-luxury-charter.jpg'],
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Luxury Sailing Yacht Charter Phuket - 30 years of experience. 850+ five-star reviews.',
-    description: 'Book award winning luxury sailing yacht charter in Phuket with Phuket Sailing. Private catamarans and sailing yachts.',
-    images: ['/assets/images/luxury-yacht-charter/hero-luxury-charter.jpg'],
-  },
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const { t } = getTranslations(locale)
+  const title = t('metadata.luxury.title')
+  const description = t('metadata.luxury.description')
+
+  return {
+    alternates: { canonical: 'https://phuket-sailing.vercel.app/luxury-yacht-charter' },
+    title,
+    description,
+    keywords: [
+      'luxury yacht charter phuket',
+      'private yacht phuket',
+      'luxury sailing phuket',
+      'phuket yacht charter',
+      'luxury catamaran phuket',
+      'private sailing charter',
+      'phi phi islands yacht',
+      'phang nga bay charter',
+      'honeymoon sailing phuket',
+      'overnight yacht charter phuket',
+    ],
+    openGraph: {
+      title,
+      description,
+      images: ['/assets/images/luxury-yacht-charter/hero-luxury-charter.jpg'],
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/assets/images/luxury-yacht-charter/hero-luxury-charter.jpg'],
+    },
+  }
 }
 
 export default function LuxuryYachtCharterLayout({

@@ -53,6 +53,7 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
     { key: 'hotChilli', image: `${IMG}/hot-chilli.jpeg` },
     { key: 'amadeus', image: `${IMG}/amadeus.jpg` },
     { key: 'nauti', image: `${IMG}/nauty-by-nature.jpg`, luxury: true },
+    { key: 'miaKai', image: `/assets/images/luxury-yacht-charter/hero-luxury-charter.jpg`, luxury: true },
   ]
 
   const occasionSections = [
@@ -67,7 +68,7 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
     { key: 'groups', image: `${IMG}/occasion-family.jpg` },
   ]
 
-  const tiers = ['budget', 'mid', 'luxury']
+  const tiers = ['budget', 'mid', 'luxury', 'superyacht']
   const steps = ['s1', 's2', 's3', 's4']
   const trustBadges = ['b1', 'b2', 'b3', 'b4']
 
@@ -407,7 +408,7 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
               {t('overnightCharter.fleet.fleetTitle')}
             </h3>
 
-            <div className="grid lg:grid-cols-3 gap-3">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
               {vessels.map((v) => (
                 <div
                   key={v.key}
@@ -433,7 +434,7 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
                       {t(`overnightCharter.fleet.vessels.${v.key}.price`)}
                     </div>
                     <LocaleLink
-                      href="/yachts"
+                      href="/overnight-sailing-charter"
                       className="inline-flex items-center justify-center gap-2 w-full rounded-xl px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all hover:shadow-xl hover:scale-105 active:scale-95 bg-[#164e63] hover:bg-[#164e63]/90"
                     >
                       {t('overnightCharter.fleet.viewFleet')} <ArrowRight className="h-4 w-4" />
@@ -604,7 +605,7 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
                 {t('overnightCharter.pricing.costDescription')}
               </p>
 
-              <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 mb-6">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-6">
                 {tiers.map((tier, index) => (
                   <div
                     key={tier}
