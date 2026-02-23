@@ -57,9 +57,9 @@ export function PhoneInput<T extends FieldValues>({
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent>
-                        {Object.entries(COUNTRY_CODES).map(([code, { flag }]) => (
+                        {Object.entries(COUNTRY_CODES).map(([code, { flag, name }]) => (
                           <SelectItem key={code} value={code}>
-                            {flag} {code}
+                            {flag} {name} {code}
                           </SelectItem>
                         ))}
                       </SelectContent>

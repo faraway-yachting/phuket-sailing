@@ -2,6 +2,7 @@
 
 import React, { useState, FormEvent } from 'react'
 import { useLanguage } from '@/components/providers/LanguageProvider'
+import { COUNTRY_CODES } from '@/lib/constants/forms'
 
 const WEBHOOK_URL = 'https://phpstack-858394-5597469.cloudwaysapps.com/webhook/bec4091e-c485-4548-a6ee-a06d0882517d'
 
@@ -83,7 +84,9 @@ export function YachtContactForm({ yachtTitle }: Props) {
           <input name="email" type="email" placeholder={t('yachtDetail.email')} required className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
           <div className="flex flex-col sm:flex-row gap-2">
             <select name="countryCode" className="w-full sm:w-auto px-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] text-sm">
-              <option>+66</option><option>+1</option><option>+44</option>
+              {Object.entries(COUNTRY_CODES).map(([code, { flag, name }]) => (
+                <option key={code} value={code}>{flag} {name} {code}</option>
+              ))}
             </select>
             <input name="phone" type="tel" placeholder={t('yachtDetail.whatsapp')} className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
           </div>

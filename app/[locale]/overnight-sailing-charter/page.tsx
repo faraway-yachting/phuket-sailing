@@ -77,7 +77,7 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
       <OvernightSailingFAQSchema />
       <main className="min-h-screen">
         {/* HeroSection */}
-        <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden">
+        <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden -mt-20">
           <Image
             src={`${IMG}/hero-catamaran-sunset.jpg`}
             alt="Overnight Sailing Charter Phuket — Private Catamaran anchored at sunset"
@@ -588,26 +588,26 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
                   <div
                     key={tier}
                     className={`rounded-2xl transition-all duration-300 border-l-8 p-5 sm:p-6 md:p-8 hover:-translate-y-1 ${
-                      index === 1
+                      index === 1 || index === 3
                         ? 'bg-[#0c3b4a] border-[#14b8a6] shadow-[0_20px_50px_-12px_rgba(12,59,74,0.4)]'
                         : 'bg-white border-[#164e63] shadow-[0_10px_30px_-8px_rgba(12,59,74,0.15)] hover:shadow-[0_20px_40px_-12px_rgba(12,59,74,0.25)]'
                     }`}
                   >
-                    <div className={`text-xs font-bold uppercase tracking-widest mb-3 ${index === 1 ? 'text-[#14b8a6]' : 'text-[#14b8a6]'}`}>
+                    <div className="text-xs font-bold uppercase tracking-widest mb-3 text-[#14b8a6]">
                       {t(`overnightCharter.pricing.tiers.${tier}.label`)}
                     </div>
-                    <h4 className={`text-lg font-bold mb-4 ${index === 1 ? 'text-white' : 'text-[#164e63]'}`} style={{ fontFamily: "var(--font-playfair)" }}>
+                    <h4 className={`text-lg font-bold mb-4 ${index === 1 || index === 3 ? 'text-white' : 'text-[#164e63]'}`} style={{ fontFamily: "var(--font-playfair)" }}>
                       {t(`overnightCharter.pricing.tiers.${tier}.name`)}
                     </h4>
-                    <div className={`pb-4 mb-4 border-b ${index === 1 ? 'border-white/20' : 'border-[#e5e7eb]'}`}>
-                      <span className={`text-3xl font-bold ${index === 1 ? 'text-white' : 'text-[#164e63]'}`}>
+                    <div className={`pb-4 mb-4 border-b ${index === 1 || index === 3 ? 'border-white/20' : 'border-[#e5e7eb]'}`}>
+                      <div className={`text-xl sm:text-2xl font-bold whitespace-nowrap ${index === 1 || index === 3 ? 'text-white' : 'text-[#164e63]'}`}>
                         {t(`overnightCharter.pricing.tiers.${tier}.price`)}
-                      </span>
-                      <span className={`text-sm ml-2 ${index === 1 ? 'text-white/90' : 'text-[#3a5a68]'}`}>
+                      </div>
+                      <div className={`text-sm ${index === 1 || index === 3 ? 'text-white/90' : 'text-[#3a5a68]'}`}>
                         {t(`overnightCharter.pricing.tiers.${tier}.per`)}
-                      </span>
+                      </div>
                     </div>
-                    <p className={`text-sm leading-relaxed ${index === 1 ? 'text-white' : 'text-[#3a5a68]'}`}>
+                    <p className={`text-sm leading-relaxed ${index === 1 || index === 3 ? 'text-white' : 'text-[#3a5a68]'}`}>
                       {t(`overnightCharter.pricing.tiers.${tier}.description`)}
                     </p>
                   </div>

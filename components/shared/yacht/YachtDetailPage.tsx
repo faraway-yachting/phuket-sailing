@@ -63,9 +63,9 @@ export async function YachtDetailPage({ locale, slug, backHref = '/' }: { locale
 
   return (
     <main className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 pb-6">
         <LocaleLink href={backHref} className="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-[#14b8a6] transition-colors mb-3">
-          ← {t('common.backToHome')}
+          {t('common.backToHome')}
         </LocaleLink>
         <div className="grid lg:grid-cols-3 gap-6 sm:gap-8">
 

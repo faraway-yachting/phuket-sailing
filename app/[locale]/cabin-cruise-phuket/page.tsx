@@ -23,7 +23,7 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
     <>
       <CabinCruiseFAQSchema />
       <main className="min-h-screen">
-        <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden -mt-8">
+        <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden -mt-20">
           <Image
             src="/assets/images/cabin-cruise-phuket/amadeus-1.JPG"
             alt="Cabin Cruise Phuket"

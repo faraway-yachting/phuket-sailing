@@ -201,7 +201,7 @@ export default async function CatamaranCharterPhuketPage({ params }: { params: P
       <CatamaranFAQSchema />
       <main className="min-h-screen">
         {/* HeroSection */}
-        <section className="relative min-h-[85vh] flex items-center overflow-hidden">
+        <section className="relative min-h-[85vh] flex items-center overflow-hidden -mt-8">
           <div className="absolute inset-0 z-0">
             <Image
               src="/assets/images/catamaran-charter/hero.jpg"

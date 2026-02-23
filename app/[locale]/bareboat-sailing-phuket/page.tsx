@@ -33,7 +33,7 @@ export default async function BareboatSailingPage({ params }: { params: Promise<
       <BareboatFAQSchema />
 
       {/* ===== HERO SECTION ===== */}
-      <section className="relative min-h-[85vh] sm:h-screen sm:min-h-[600px] flex items-center overflow-hidden">
+      <section className="relative min-h-[85vh] sm:h-screen sm:min-h-[600px] flex items-center overflow-hidden -mt-20">
         <Image
           src={`${IMG}/bareboat-hero.jpg`}
           alt="Bareboat sailing on the Andaman Sea"
@@ -48,7 +48,7 @@ export default async function BareboatSailingPage({ params }: { params: Promise<
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-5 leading-tight drop-shadow-[0_2px_12px_rgba(0,0,0,0.5)]">
             {t('bareboatSailing.hero.title')}
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-white mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)]">
+          <p className="text-lg sm:text-xl md:text-2xl text-white mb-8 sm:mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)]">
             {t('bareboatSailing.hero.description')}
           </p>
 

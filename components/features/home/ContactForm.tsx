@@ -27,13 +27,9 @@ import { Mail, Phone, MessageCircle, MessageSquare, MapPin } from "lucide-react"
 import { useLanguage } from "@/components/providers/LanguageProvider";
 import { LocaleLink } from "@/components/shared/LocaleLink";
 
-const countryCodes = {
-  "+66": { flag: "🇹🇭", name: "Thailand" },
-  "+1": { flag: "🇺🇸", name: "USA" },
-  "+44": { flag: "🇬🇧", name: "UK" },
-  "+61": { flag: "🇦🇺", name: "Australia" },
-  "+65": { flag: "🇸🇬", name: "Singapore" },
-} as const;
+import { COUNTRY_CODES } from "@/lib/constants/forms";
+
+const countryCodes = COUNTRY_CODES;
 
 const defaultFormValues: ContactFormValues = {
   name: "",
@@ -191,11 +187,9 @@ export function ContactForm() {
                                       </SelectTrigger>
                                     </FormControl>
                                     <SelectContent>
-                                      <SelectItem value="+66">🇹🇭 +66</SelectItem>
-                                      <SelectItem value="+1">🇺🇸 +1</SelectItem>
-                                      <SelectItem value="+44">🇬🇧 +44</SelectItem>
-                                      <SelectItem value="+61">🇦🇺 +61</SelectItem>
-                                      <SelectItem value="+65">🇸🇬 +65</SelectItem>
+                                      {Object.entries(countryCodes).map(([code, { flag, name }]) => (
+                                        <SelectItem key={code} value={code}>{flag} {name} {code}</SelectItem>
+                                      ))}
                                     </SelectContent>
                                   </Select>
                                 </FormItem>
