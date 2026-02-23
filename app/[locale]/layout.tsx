@@ -23,7 +23,7 @@ export default function LocaleLayout({
       <YachtCacheProvider>
         <HreflangTags />
         <Navbar />
-        <div className="h-14 lg:h-16 md:mt-6" />
+        <div className="h-16 md:h-24 lg:h-28" />
         {children}
         <Certifications />
         <Footer />

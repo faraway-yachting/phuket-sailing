@@ -24,8 +24,8 @@ export const CONTACT_INFO = {
   lineId: 'phuket-sailing',
 
   // Address
-  address: '40/1 Chaofa Road, Moo 9 Tambon Chalong, Amphoe Mueang Phuket, Chang Wat Phuket 83130',
-  addressShort: 'Chalong, Phuket 83130',
+  address: '160 Robinson Road, #14-04 Business Federation Center, 068914 Singapore',
+  addressShort: 'Singapore 068914',
 
   // Social Media
   social: {

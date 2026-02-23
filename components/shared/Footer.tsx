@@ -2,7 +2,7 @@
 
 import { LocaleLink } from "@/components/shared/LocaleLink";
 import { useLanguage } from "@/components/providers/LanguageProvider";
-import { Mail, Phone, MapPin, Facebook, Instagram, MessageCircle } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
   const { t } = useLanguage();
@@ -27,7 +27,7 @@ export function Footer() {
               </a>
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span>40/1 Chaofa Road, Moo 9 Tambon Chalong, Amphoe Mueang Phuket, Chang Wat Phuket 83130</span>
+                <span>160 Robinson Road, #14-04 Business Federation Center, 068914 Singapore</span>
               </div>
             </div>
 
@@ -65,7 +65,7 @@ export function Footer() {
               <li>
                 <LocaleLink href="/impressum" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
-                  Impressum
+                  {t('footer.impressum')}
                 </LocaleLink>
               </li>
             </ul>

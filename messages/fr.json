@@ -1348,7 +1348,8 @@
     "barefootCharter": "Location sans Équipage",
     "bareboatSailing": "Voile Bareboat",
     "sailingItineraries": "Itinéraires de Voile",
-    "charterTypes": "Types de Charter"
+    "charterTypes": "Types de Charter",
+    "privacyPolicy": "Politique de Confidentialité"
   },
   "yachtDetail": {
     "notFound": "Yacht Introuvable",
@@ -2271,7 +2272,7 @@
   },
   "metadata": {
     "overnight": {
-      "title": "Charter voile de nuit Phuket | 5 étoiles | 850+ avis",
+      "title": "Charter voile de nuit Phuket | 850+ ★★★★★",
       "description": "Naviguez de nuit sur un catamaran privé à Phuket — îles Phi Phi, baie de Phang Nga jusqu'à Koh Lipe. Équipage complet, tous repas inclus. 850+ avis cinq étoiles."
     },
     "bareboat": {
@@ -2291,8 +2292,87 @@
       "description": "Profitez d'une aventure ultime avec une croisière en cabine à Phuket. Naviguez à Phi Phi, la baie de Phang Nga en confort avec des cabines privées."
     },
     "contact": {
-      "title": "Contactez-nous | Phuket Sailing",
+      "title": "Contactez-nous | Phuket Sailing | 850+ ★★★★★",
       "description": "Contactez Phuket Sailing. Remplissez notre formulaire pour un devis personnalisé pour votre charter de yacht."
+    },
+    "privacyPolicy": {
+      "title": "Politique de Confidentialité | Phuket Sailing | 850+ ★★★★★",
+      "description": "Notre politique de confidentialité décrit comment Away Charters Global Pte. Ltd. collecte, utilise et protège vos informations personnelles lors de l'utilisation de nos services de charter de yacht à Phuket."
     }
+  },
+  "privacyPolicy": {
+    "badge": "Vos Données, Protégées",
+    "title": "Politique de Confidentialité",
+    "heroDescription": "Comment Away Charters Global Pte. Ltd. collecte, utilise et protège vos informations personnelles lors de l'utilisation de nos services de charter de yacht.",
+    "lastUpdated": "Dernière mise à jour Février 2026",
+    "introText": "Cette Politique de Confidentialité décrit nos politiques et procédures concernant la collecte, l'utilisation et la divulgation de vos informations lorsque vous utilisez le Service et vous informe de vos droits en matière de confidentialité et de la manière dont la loi vous protège. Nous utilisons vos Données Personnelles pour fournir et améliorer le Service. En utilisant le Service, vous acceptez la collecte et l'utilisation des informations conformément à cette Politique de Confidentialité.",
+    "tocTitle": "Table des Matières",
+    "sections": {
+      "interpretation": "Interprétation et Définitions",
+      "whatWeCollect": "Ce que Nous Collectons",
+      "howWeUseIt": "Comment Nous les Utilisons",
+      "dataSharing": "Partage des Données",
+      "yourRights": "Vos Droits",
+      "retentionSecurity": "Conservation et Sécurité",
+      "childrensPrivacy": "Confidentialité des Enfants",
+      "links": "Liens vers d'Autres Sites Web",
+      "changes": "Modifications de cette Politique de Confidentialité",
+      "contact": "Nous Contacter"
+    },
+    "definitions": {
+      "account": { "term": "Compte", "definition": "Votre identifiant unique pour accéder à nos services." },
+      "affiliate": { "term": "Affilié", "definition": "Toute entité liée à nous par une participation de 50 % ou plus." },
+      "company": { "term": "Société / Nous", "definition": "Away Charters Global Pte. Ltd., Phuket, Thaïlande." },
+      "cookies": { "term": "Cookies", "definition": "Petits fichiers stockés sur votre appareil pour améliorer la navigation et suivre l'utilisation." },
+      "country": { "term": "Pays", "definition": "Thaïlande." },
+      "device": { "term": "Appareil", "definition": "Tout appareil que vous utilisez pour accéder à notre service (ordinateur, téléphone, tablette)." },
+      "personalData": { "term": "Données Personnelles", "definition": "Toute information qui vous identifie directement ou indirectement." },
+      "service": { "term": "Service", "definition": "Notre site web et tout ce qu'il offre." },
+      "serviceProvider": { "term": "Fournisseur de Services", "definition": "Les tiers avec lesquels nous travaillons pour gérer, soutenir ou analyser notre service." },
+      "usageData": { "term": "Données d'Utilisation", "definition": "Données collectées automatiquement (par ex., durée de visite des pages)." },
+      "website": { "term": "Site Web", "definition": "Phuket Sailing, https://www.phuket-sailing.com/" },
+      "you": { "term": "Vous", "definition": "La personne physique ou morale utilisant nos services." }
+    },
+    "collect": {
+      "personalData": { "title": "Données Personnelles", "desc": "Nom, e-mail, numéro de téléphone (uniquement lorsque vous les fournissez)." },
+      "usageData": { "title": "Données d'Utilisation", "desc": "Détails de l'appareil, adresse IP, pages visitées, temps passé." },
+      "cookies": { "title": "Cookies", "desc": "Pour améliorer votre expérience et mémoriser vos préférences." }
+    },
+    "useData": {
+      "intro": "Nous utilisons vos données pour :",
+      "items": {
+        "1": "Fournir et améliorer nos services.",
+        "2": "Gérer votre compte et vos réservations.",
+        "3": "Vous contacter avec des mises à jour, des offres et du support.",
+        "4": "Assurer la sécurité et prévenir la fraude.",
+        "5": "Analyser l'utilisation et améliorer notre site web."
+      }
+    },
+    "sharing": {
+      "intro": "Nous pouvons partager des informations uniquement avec :",
+      "items": {
+        "1": "Les fournisseurs de services (pour le support, l'analyse ou la communication).",
+        "2": "Les affiliés et partenaires (pour améliorer les services ou proposer des promotions).",
+        "3": "Les autorités légales (si requis par la loi).",
+        "4": "Les transferts d'entreprise (en cas de fusion/vente)."
+      }
+    },
+    "rights": {
+      "intro": "Vous avez le droit de :",
+      "items": {
+        "1": "Accéder, mettre à jour ou supprimer vos données à tout moment.",
+        "2": "Contrôler les préférences de cookies.",
+        "3": "Retirer votre consentement le cas échéant."
+      }
+    },
+    "retention": "Nous conservons vos données uniquement aussi longtemps que nécessaire et suivons des mesures de sécurité strictes. Bien qu'aucun système ne soit sécurisé à 100 %, nous prenons toutes les précautions pour protéger vos informations.",
+    "children": "Nous ne collectons pas sciemment de données de personnes de moins de 13 ans. Les parents peuvent nous contacter pour la suppression si des données ont été partagées par un enfant.",
+    "linksText": "Notre site web peut inclure des liens vers d'autres sites que nous n'exploitons pas. Une fois que vous quittez notre site, leurs règles de confidentialité s'appliquent — pas les nôtres. Nous vous recommandons de consulter la Politique de Confidentialité de tout site tiers que vous visitez.",
+    "changesText": "Nous pouvons mettre à jour notre Politique de Confidentialité de temps en temps. Nous vous informerons de tout changement en publiant la nouvelle Politique de Confidentialité sur cette page. Nous vous informerons par e-mail et/ou par un avis visible sur notre Service, avant que le changement ne prenne effet, et mettrons à jour la date de \"Dernière mise à jour\" en haut de cette Politique de Confidentialité. Il vous est conseillé de consulter cette Politique de Confidentialité périodiquement pour tout changement. Les modifications de cette Politique de Confidentialité prennent effet lorsqu'elles sont publiées sur cette page.",
+    "contactText": "Si vous avez des questions concernant cette Politique de Confidentialité, vous pouvez nous contacter :",
+    "contactEmail": "Par e-mail :",
+    "ctaTitle": "Questions sur Votre Confidentialité ?",
+    "ctaText": "Nous nous engageons pour la transparence et la protection de vos informations personnelles. Contactez notre équipe si vous avez des questions ou des préoccupations.",
+    "ctaButton": "Nous Contacter"
   }
 }

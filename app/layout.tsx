@@ -8,8 +8,8 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfa
 export const metadata: Metadata = {
   metadataBase: new URL('https://phuket-sailing.vercel.app'),
   title: {
-    default: 'Phuket Sailing – Private Yacht & Catamaran Charters | Day Trips to Overnight Adventures',
-    template: '%s | Phuket Sailing',
+    default: 'Phuket Sailing – Private Yacht & Catamaran Charters | 850+ ★★★★★ Reviews',
+    template: '%s | 850+ ★★★★★ Reviews',
   },
   description: 'Sail Phuket\'s most beautiful islands with Phuket Sailing — 30 years of experience, 850+ ★★★★★ reviews. Private yachts, catamarans, overnight trips to Phi Phi, Racha Islands & Koh Lipe. Get your custom quote today.',
   keywords: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     canonical: 'https://phuket-sailing.vercel.app',
   },
   openGraph: {
-    title: 'Phuket Sailing – Private Yacht & Catamaran Charters | Day Trips to Overnight Adventures',
+    title: 'Phuket Sailing – Private Yacht & Catamaran Charters | 850+ ★★★★★ Reviews',
     description: 'Sail Phuket\'s most beautiful islands with Phuket Sailing — 30 years of experience, 850+ ★★★★★ reviews. Private yachts, catamarans, overnight trips to Phi Phi, Racha Islands & Koh Lipe. Get your custom quote today.',
     url: 'https://phuket-sailing.vercel.app',
     siteName: 'Phuket Sailing',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Phuket Sailing – Private Yacht & Catamaran Charters',
+    title: 'Phuket Sailing – Private Yacht & Catamaran Charters | 850+ ★★★★★ Reviews',
     description: 'Sail Phuket\'s most beautiful islands with Phuket Sailing — 30 years of experience, 850+ ★★★★★ reviews. Private yachts, catamarans, overnight trips to Phi Phi, Racha Islands & Koh Lipe.',
     images: ['/assets/images/home/hero2.png'],
   },

@@ -1,7 +1,9 @@
 'use client'
 
-import React from 'react'
+import React, { useState, FormEvent } from 'react'
 import { useLanguage } from '@/components/providers/LanguageProvider'
+
+const WEBHOOK_URL = 'https://phpstack-858394-5597469.cloudwaysapps.com/webhook/bec4091e-c485-4548-a6ee-a06d0882517d'
 
 interface Props {
   yachtTitle: string
@@ -9,6 +11,39 @@ interface Props {
 
 export function YachtContactForm({ yachtTitle }: Props) {
   const { t } = useLanguage()
+  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    setStatus('sending')
+
+    const form = e.currentTarget
+    const data = new FormData(form)
+
+    const payload = {
+      yacht: yachtTitle,
+      name: data.get('name'),
+      email: data.get('email'),
+      countryCode: data.get('countryCode'),
+      phone: data.get('phone'),
+      guests: data.get('guests'),
+      dateFrom: data.get('dateFrom'),
+      dateTo: data.get('dateTo'),
+      message: data.get('message'),
+    }
+
+    try {
+      await fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+      setStatus('sent')
+      form.reset()
+    } catch {
+      setStatus('error')
+    }
+  }
 
   return (
     <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 lg:sticky lg:top-24">
@@ -29,25 +64,43 @@ export function YachtContactForm({ yachtTitle }: Props) {
         </a>
       </div>
 
-      <form className="space-y-3">
-        <input type="text" placeholder={t('yachtDetail.yourName')} required className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
-        <input type="email" placeholder={t('yachtDetail.email')} required className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
-        <div className="flex flex-col sm:flex-row gap-2">
-          <select className="w-full sm:w-auto px-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] text-sm">
-            <option>+66</option><option>+1</option><option>+44</option>
-          </select>
-          <input type="tel" placeholder={t('yachtDetail.whatsapp')} className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
+      {status === 'sent' ? (
+        <div className="text-center py-8">
+          <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg className="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <p className="text-lg font-semibold text-[#164e63]">{t('common.thankYou') || 'Thank you!'}</p>
+          <p className="text-sm text-gray-500 mt-1">{t('common.weWillContact') || 'We will contact you shortly.'}</p>
+          <button type="button" onClick={() => setStatus('idle')} className="mt-4 text-sm text-[#14b8a6] hover:underline">
+            {t('common.sendAnother') || 'Send another inquiry'}
+          </button>
         </div>
-        <input type="number" placeholder={t('yachtDetail.noOfGuests')} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
-        <div className="grid grid-cols-2 gap-2">
-          <input type="date" className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
-          <input type="date" className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
-        </div>
-        <textarea rows={3} placeholder={t('yachtDetail.commentsRequests')} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm resize-none" />
-        <button type="submit" className="w-full bg-gradient-to-r from-[#164e63] to-[#0a2a35] hover:from-[#0a2a35] hover:to-[#164e63] text-white font-bold py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl">
-          {t('common.submit')}
-        </button>
-      </form>
+      ) : (
+        <form onSubmit={handleSubmit} className="space-y-3">
+          <input name="name" type="text" placeholder={t('yachtDetail.yourName')} required className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
+          <input name="email" type="email" placeholder={t('yachtDetail.email')} required className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
+          <div className="flex flex-col sm:flex-row gap-2">
+            <select name="countryCode" className="w-full sm:w-auto px-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] text-sm">
+              <option>+66</option><option>+1</option><option>+44</option>
+            </select>
+            <input name="phone" type="tel" placeholder={t('yachtDetail.whatsapp')} className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
+          </div>
+          <input name="guests" type="number" placeholder={t('yachtDetail.noOfGuests')} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
+          <div className="grid grid-cols-2 gap-2">
+            <input name="dateFrom" type="date" className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
+            <input name="dateTo" type="date" className="px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
+          </div>
+          <textarea name="message" rows={3} placeholder={t('yachtDetail.commentsRequests')} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm resize-none" />
+          <button type="submit" disabled={status === 'sending'} className="w-full bg-gradient-to-r from-[#164e63] to-[#0a2a35] hover:from-[#0a2a35] hover:to-[#164e63] text-white font-bold py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-60">
+            {status === 'sending' ? (t('common.sending') || 'Sending...') : t('common.submit')}
+          </button>
+          {status === 'error' && (
+            <p className="text-red-500 text-sm text-center">{t('common.errorTryAgain') || 'Something went wrong. Please try again.'}</p>
+          )}
+        </form>
+      )}
     </div>
   )
 }

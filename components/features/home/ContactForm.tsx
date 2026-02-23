@@ -470,7 +470,7 @@ export function ContactForm() {
                     </div>
                     <div>
                       <p className="font-semibold text-white text-sm">{t('contactForm.contactMethods.location')}</p>
-                      <p className="text-xs text-white/80">160 Robinson Road, #14-04 Singapore</p>
+                      <p className="text-xs text-white/80">160 Robinson Road, #14-04 Business Federation Center, 068914 Singapore</p>
                     </div>
                   </div>
 

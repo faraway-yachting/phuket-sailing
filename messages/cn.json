@@ -452,7 +452,8 @@
     "barefootCharter": "裸船租赁",
     "bareboatSailing": "裸船帆船",
     "sailingItineraries": "帆船行程",
-    "charterTypes": "包船类型"
+    "charterTypes": "包船类型",
+    "privacyPolicy": "隐私政策"
   },
   "common": {
     "learnMore": "了解更多",
@@ -2291,8 +2292,87 @@
       "description": "享受普吉岛客舱游轮的终极冒险。乘坐舒适的私人客舱航行至皮皮岛、攀牙湾等。"
     },
     "contact": {
-      "title": "联系我们 | Phuket Sailing",
+      "title": "联系我们 | Phuket Sailing | 850+ ★★★★★",
       "description": "联系Phuket Sailing。填写我们的表格，获取您的游艇租船个性化报价。"
+    },
+    "privacyPolicy": {
+      "title": "隐私政策 | Phuket Sailing | 850+ ★★★★★",
+      "description": "我们的隐私政策描述了 Away Charters Global Pte. Ltd. 在您使用我们在普吉岛的游艇租赁服务时如何收集、使用和保护您的个人信息。"
     }
+  },
+  "privacyPolicy": {
+    "badge": "您的数据，受到保护",
+    "title": "隐私政策",
+    "heroDescription": "Away Charters Global Pte. Ltd. 在您使用我们的游艇租赁服务时如何收集、使用和保护您的个人信息。",
+    "lastUpdated": "最后更新 2026年2月",
+    "introText": "本隐私政策描述了我们在您使用本服务时收集、使用和披露您的信息的政策和程序，并告知您有关您的隐私权以及法律如何保护您。我们使用您的个人数据来提供和改进服务。使用本服务即表示您同意按照本隐私政策收集和使用信息。",
+    "tocTitle": "目录",
+    "sections": {
+      "interpretation": "解释与定义",
+      "whatWeCollect": "我们收集的内容",
+      "howWeUseIt": "我们如何使用",
+      "dataSharing": "数据共享",
+      "yourRights": "您的权利",
+      "retentionSecurity": "保留与安全",
+      "childrensPrivacy": "儿童隐私",
+      "links": "其他网站链接",
+      "changes": "本隐私政策的变更",
+      "contact": "联系我们"
+    },
+    "definitions": {
+      "account": { "term": "账户", "definition": "您用于访问我们服务的唯一登录信息。" },
+      "affiliate": { "term": "关联方", "definition": "通过50%以上的股权或控制权与我们相关联的任何实体。" },
+      "company": { "term": "公司 / 我们", "definition": "Away Charters Global Pte. Ltd.，普吉岛，泰国。" },
+      "cookies": { "term": "Cookie", "definition": "存储在您设备上的小文件，用于改善浏览体验和跟踪使用情况。" },
+      "country": { "term": "国家", "definition": "泰国。" },
+      "device": { "term": "设备", "definition": "您用于访问我们服务的任何设备（电脑、手机、平板电脑）。" },
+      "personalData": { "term": "个人数据", "definition": "任何直接或间接识别您身份的信息。" },
+      "service": { "term": "服务", "definition": "我们的网站及其提供的一切。" },
+      "serviceProvider": { "term": "服务提供商", "definition": "我们合作运营、支持或分析我们服务的第三方。" },
+      "usageData": { "term": "使用数据", "definition": "自动收集的数据（例如页面访问时长）。" },
+      "website": { "term": "网站", "definition": "Phuket Sailing, https://www.phuket-sailing.com/" },
+      "you": { "term": "您", "definition": "使用我们服务的个人或法人实体。" }
+    },
+    "collect": {
+      "personalData": { "title": "个人数据", "desc": "姓名、电子邮件、电话号码（仅在您提供时）。" },
+      "usageData": { "title": "使用数据", "desc": "设备详情、IP地址、访问的页面、停留时间。" },
+      "cookies": { "title": "Cookie", "desc": "用于改善您的体验并记住偏好设置。" }
+    },
+    "useData": {
+      "intro": "我们使用您的数据来：",
+      "items": {
+        "1": "提供和改进我们的服务。",
+        "2": "管理您的账户和预订。",
+        "3": "就更新、优惠和支持与您联系。",
+        "4": "确保安全并防止欺诈。",
+        "5": "分析使用情况并优化我们的网站。"
+      }
+    },
+    "sharing": {
+      "intro": "我们仅与以下方面共享信息：",
+      "items": {
+        "1": "服务提供商（用于支持、分析或通信）。",
+        "2": "关联方和合作伙伴（用于改善服务或提供促销）。",
+        "3": "法律机关（如法律要求）。",
+        "4": "业务转让（在合并/出售的情况下）。"
+      }
+    },
+    "rights": {
+      "intro": "您有权：",
+      "items": {
+        "1": "随时访问、更新或删除您的数据。",
+        "2": "控制Cookie偏好设置。",
+        "3": "在适用情况下撤回同意。"
+      }
+    },
+    "retention": "我们仅在必要时保留您的数据，并遵循严格的安全措施。虽然没有任何系统是100%安全的，但我们采取一切预防措施来保护您的信息。",
+    "children": "我们不会故意收集13岁以下任何人的数据。如果儿童分享了数据，家长可以联系我们进行删除。",
+    "linksText": "我们的网站可能包含指向我们不运营的其他网站的链接。一旦您离开我们的网站，将适用其隐私规则——而非我们的。我们建议您查看您访问的任何第三方网站的隐私政策。",
+    "changesText": "我们可能会不时更新我们的隐私政策。我们将通过在本页面上发布新的隐私政策来通知您任何变更。我们将在变更生效前通过电子邮件和/或在我们的服务上发出显著通知告知您，并更新本隐私政策顶部的「最后更新」日期。建议您定期查看本隐私政策以了解任何变更。本隐私政策的变更在发布于本页面时生效。",
+    "contactText": "如果您对本隐私政策有任何疑问，可以通过以下方式联系我们：",
+    "contactEmail": "通过电子邮件：",
+    "ctaTitle": "对隐私有疑问？",
+    "ctaText": "我们致力于透明度和保护您的个人信息。如果您有任何问题或顾虑，请联系我们的团队。",
+    "ctaButton": "联系我们"
   }
 }
