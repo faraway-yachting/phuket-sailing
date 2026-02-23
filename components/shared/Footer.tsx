@@ -31,17 +31,6 @@ export function Footer() {
               </div>
             </div>
 
-            <div className="flex gap-4 mt-6">
-              <a href="#" className="w-10 h-10 rounded-full border-2 border-white/30 flex items-center justify-center hover:border-[#14b8a6] hover:text-[#14b8a6] transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full border-2 border-white/30 flex items-center justify-center hover:border-[#14b8a6] hover:text-[#14b8a6] transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full border-2 border-white/30 flex items-center justify-center hover:border-[#14b8a6] hover:text-[#14b8a6] transition-colors">
-                <MessageCircle className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           <div>
@@ -71,6 +60,12 @@ export function Footer() {
                 <LocaleLink href="/privacy-policy" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
                   <span className="text-[#14b8a6]">›</span>
                   {t('footer.privacyPolicy')}
+                </LocaleLink>
+              </li>
+              <li>
+                <LocaleLink href="/impressum" className="hover:text-[#14b8a6] transition-colors flex items-center gap-2">
+                  <span className="text-[#14b8a6]">›</span>
+                  Impressum
                 </LocaleLink>
               </li>
             </ul>
@@ -138,21 +133,6 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
-            <p>{t('footer.copyright')}</p>
-            <div className="flex gap-6">
-              <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors">
-                {t('footer.impressum')}
-              </LocaleLink>
-              <LocaleLink href="#" className="hover:text-[#14b8a6] transition-colors">
-                {t('footer.sitemap')}
-              </LocaleLink>
-            </div>
-          </div>
-        </div>
-      </div>
     </footer>
   );
 }
