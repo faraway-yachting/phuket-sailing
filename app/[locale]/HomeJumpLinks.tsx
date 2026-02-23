@@ -56,8 +56,8 @@ export function HomeJumpLinks({ links }: { links: JumpLink[] }) {
   }, [links])
 
   return (
-    <nav className="bg-white border-t border-gray-200">
-      <div className="flex flex-wrap items-center justify-center gap-0.5 sm:gap-1 md:flex-nowrap py-3 sm:py-4">
+    <nav className="bg-white overflow-x-auto px-4 sm:px-6 lg:px-8">
+      <div className="flex items-center justify-center gap-1 xs:gap-1.5 sm:gap-3 py-3 sm:py-4 max-w-5xl mx-auto flex-wrap">
         {links.map((link) => {
           const Icon = iconMap[link.icon] || Anchor
           const isActive = activeLink === link.href || (!activeLink && link.href === links[0]?.href)
@@ -65,13 +65,13 @@ export function HomeJumpLinks({ links }: { links: JumpLink[] }) {
             <a
               key={link.href}
               href={link.href}
-              className={`flex items-center gap-1 sm:gap-1.5 transition-colors duration-200 text-xs sm:text-sm font-medium whitespace-nowrap px-2 sm:px-3 py-2 sm:py-2.5 border-t ${
+              className={`flex items-center gap-1 sm:gap-2 transition-colors duration-200 text-[11px] xs:text-xs sm:text-sm md:text-base font-medium whitespace-nowrap px-1.5 xs:px-2 sm:px-4 py-1.5 xs:py-2 sm:py-3 border-b-2 ${
                 isActive
-                  ? 'text-[#0c3a47] border-[#0c3a47] border-t-2'
-                  : 'text-gray-600 hover:text-[#164e63] border-gray-200'
+                  ? 'text-[#0c3a47] border-[#0c3a47]'
+                  : 'text-gray-600 hover:text-[#164e63] border-gray-200 hover:border-[#14b8a6]'
               }`}
             >
-              <Icon className={`w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 ${
+              <Icon className={`w-3.5 h-3.5 sm:w-5 sm:h-5 flex-shrink-0 ${
                 isActive ? 'text-[#0c3a47]' : 'text-[#14b8a6]'
               }`} />
               <span>{link.label}</span>

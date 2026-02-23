@@ -1,51 +1,9 @@
-import { Metadata } from 'next'
 import { LocaleLink } from '@/components/shared/LocaleLink'
 import { fetchYachtBySlug } from '@/lib/api/yachts'
 import { getTranslations } from '@/lib/i18n/getTranslations'
 import { YachtGallery } from './YachtGallery'
 import { YachtAnchors } from './YachtAnchors'
 import { YachtContactForm } from './YachtContactForm'
-
-const SITE_URL = 'https://phuket-sailing.vercel.app'
-
-type Props = {
-  params: Promise<{ locale: string; slug: string }>
-}
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale, slug } = await params
-  try {
-    const yacht = await fetchYachtBySlug(slug)
-    const title = `${yacht.title} – Charter in Phuket`
-    const description = `Charter ${yacht.title} in Phuket. ${yacht.length} ${yacht.boatType}, ${yacht.cabins} cabins, up to ${yacht.guests} guests. Day trips from €${yacht.daytripPriceEuro || yacht.dayTripPrice}.`
-    
-    return {
-      title,
-      description,
-      openGraph: {
-        title,
-        description,
-        images: yacht.primaryImage ? [{ url: yacht.primaryImage, width: 1200, height: 630, alt: yacht.title }] : [],
-        type: 'website',
-        url: `${SITE_URL}/${locale}/yacht/${slug}`,
-      },
-      twitter: {
-        card: 'summary_large_image',
-        title,
-        description,
-        images: yacht.primaryImage ? [yacht.primaryImage] : [],
-      },
-      alternates: {
-        canonical: `${SITE_URL}/${locale}/yacht/${slug}`,
-      },
-    }
-  } catch {
-    return {
-      title: 'Yacht Charter Phuket',
-      description: 'Explore our fleet of sailing yachts and catamarans for charter in Phuket.',
-    }
-  }
-}
 
 function RichText({ html }: { html: string }) {
   return (
@@ -56,8 +14,7 @@ function RichText({ html }: { html: string }) {
   )
 }
 
-export default async function YachtDetailsPage({ params }: Props) {
-  const { locale, slug } = await params
+export async function YachtDetailPage({ locale, slug, backHref = '/' }: { locale: string; slug: string; backHref?: string }) {
   const { t } = getTranslations(locale)
 
   let yacht
@@ -75,7 +32,7 @@ export default async function YachtDetailsPage({ params }: Props) {
         <p className="text-gray-500 mb-6 text-center max-w-md">
           {t('yachtDetail.notFoundDescription')}
         </p>
-        <LocaleLink href="/" className="text-[#14b8a6] font-semibold hover:underline">{t('common.backToHome')}</LocaleLink>
+        <LocaleLink href={backHref} className="text-[#14b8a6] font-semibold hover:underline">{t('common.backToHome')}</LocaleLink>
       </main>
     )
   }
@@ -107,8 +64,8 @@ export default async function YachtDetailsPage({ params }: Props) {
   return (
     <main className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-6">
-        <LocaleLink href="/" className="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-[#14b8a6] transition-colors mb-3">
-          {t('common.backToHome')}
+        <LocaleLink href={backHref} className="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-[#14b8a6] transition-colors mb-3">
+          ← {t('common.backToHome')}
         </LocaleLink>
         <div className="grid lg:grid-cols-3 gap-6 sm:gap-8">
 

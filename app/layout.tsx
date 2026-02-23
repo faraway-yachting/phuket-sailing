@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: '/assets/images/favicon.png',
   },
   // verification: {
   //   google: 'ADD_YOUR_GOOGLE_VERIFICATION_CODE_HERE',

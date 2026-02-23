@@ -18,6 +18,10 @@ function stripLocale(pathname: string): string {
 // Central filter — path → DB field mapping
 // type field:  "crewed" | "bareboat"  (set in admin panel per yacht)
 // tags field:  string[]               (e.g. ["overnight", "super yacht"])
+function getYachtHrefPrefix(pathname: string): string {
+  return stripLocale(pathname) === '/bareboat-sailing-phuket' ? '/bareboat' : '/crewed_boats'
+}
+
 function filterYachtsByPath(yachts: Yacht[], pathname: string): Yacht[] {
   const path = stripLocale(pathname)
 
@@ -51,6 +55,7 @@ export function FeaturedYachts() {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
 
   const filtered = filterYachtsByPath(allYachts, pathname)
+  const yachtPrefix = getYachtHrefPrefix(pathname)
   const visible = filtered.slice(0, visibleCount)
   const hasMoreFiltered = visibleCount < filtered.length
 
@@ -109,7 +114,7 @@ export function FeaturedYachts() {
             {visible.map((yacht) => (
               <LocaleLink
                 key={yacht._id}
-                href={`/yacht/${yacht.slug}`}
+                href={`${yachtPrefix}/${yacht.slug}`}
                 className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer block"
               >
                 {/* Image */}

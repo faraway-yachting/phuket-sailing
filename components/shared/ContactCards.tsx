@@ -1,6 +1,22 @@
+'use client'
+
+import { useState } from 'react'
 import { PhoneCall, Send, Mail as MailIcon } from 'lucide-react'
 
 export function ContactCards() {
+  const [copiedIndex, setCopiedIndex] = useState<number | null>(null)
+
+  const isMobile = () => typeof window !== 'undefined' && /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)
+
+  const handleClick = (e: React.MouseEvent, href: string, value: string, index: number) => {
+    if ((href.startsWith('tel:') || href.startsWith('mailto:')) && !isMobile()) {
+      e.preventDefault()
+      navigator.clipboard.writeText(value.trim())
+      setCopiedIndex(index)
+      setTimeout(() => setCopiedIndex(null), 1500)
+    }
+  }
+
   const contacts = [
     {
       icon: PhoneCall,
@@ -23,7 +39,7 @@ export function ContactCards() {
     {
       icon: MailIcon,
       title: 'Email',
-      value: ' info@phuket-sailing.com',
+      value: 'info@phuket-sailing.com',
       href: 'mailto:info@phuket-sailing.com',
       gradient: 'from-blue-500 to-blue-600',
     },
@@ -46,12 +62,11 @@ export function ContactCards() {
         <a
           key={index}
           href={contact.href}
+          onClick={(e) => handleClick(e, contact.href, contact.value, index)}
           className="group flex flex-col items-center justify-center text-center"
         >
-          {/* Outer circle border */}
           <div className="relative mb-3 sm:mb-4">
             <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-gray-100 flex items-center justify-center p-1 transition-all duration-300 group-hover:bg-gray-200 shadow-md group-hover:shadow-lg">
-              {/* Inner colored circle */}
               <div className={`bg-gradient-to-br ${contact.gradient} w-full h-full rounded-full flex items-center justify-center transition-all duration-300 group-hover:scale-105`}>
                 <contact.icon className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
               </div>
@@ -63,6 +78,10 @@ export function ContactCards() {
           <p className="text-xs sm:text-sm text-teal-600 font-medium break-all px-1 sm:px-2">
             {contact.value}
           </p>
+
+          {copiedIndex === index && (
+            <span className="text-xs font-semibold text-[#14b8a6] mt-1">Copied!</span>
+          )}
         </a>
       ))}
     </div>

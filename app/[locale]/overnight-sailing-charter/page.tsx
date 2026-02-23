@@ -76,28 +76,6 @@ export default async function OvernightSailingCharterPage({ params }: { params: 
     <>
       <OvernightSailingFAQSchema />
       <main className="min-h-screen">
-        {/* BreadcrumbNav */}
-        <nav aria-label="breadcrumb" className="bg-white border-b border-gray-100">
-          <div className="max-w-7xl mx-auto px-4 py-3">
-            <ol className="flex flex-wrap items-center gap-1.5 text-sm text-[#3a5a68]">
-              <li className="inline-flex items-center gap-1.5">
-                <LocaleLink href="/" className="hover:text-[#164e63] transition-colors flex items-center gap-1">
-                  <Home className="w-3.5 h-3.5" />
-                  Home
-                </LocaleLink>
-              </li>
-              <li><ChevronRight className="w-3.5 h-3.5 text-[#3a5a68]/50" /></li>
-              <li className="inline-flex items-center">
-                <span className="text-[#3a5a68]/70">Phuket Sailing Tours</span>
-              </li>
-              <li><ChevronRight className="w-3.5 h-3.5 text-[#3a5a68]/50" /></li>
-              <li className="inline-flex items-center">
-                <span className="font-medium text-[#164e63]">Overnight Sailing Charter Phuket</span>
-              </li>
-            </ol>
-          </div>
-        </nav>
-
         {/* HeroSection */}
         <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden">
           <Image

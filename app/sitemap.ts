@@ -14,6 +14,7 @@ const pages = [
   '/contact',
   '/yachts',
   '/terms-and-conditions',
+  '/privacy-policy',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -26,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE_URL}${enPath}`,
       lastModified: new Date(),
       changeFrequency: page === '/' ? 'weekly' : 'monthly',
-      priority: page === '/' ? 1.0 : page === '/terms-and-conditions' ? 0.3 : 0.8,
+      priority: page === '/' ? 1.0 : (page === '/terms-and-conditions' || page === '/privacy-policy') ? 0.3 : 0.8,
     })
 
     for (const locale of locales) {
@@ -38,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${SITE_URL}${fullPath}`,
         lastModified: new Date(),
         changeFrequency: page === '/' ? 'weekly' : 'monthly',
-        priority: page === '/' ? 0.9 : page === '/terms-and-conditions' ? 0.2 : 0.7,
+        priority: page === '/' ? 0.9 : (page === '/terms-and-conditions' || page === '/privacy-policy') ? 0.2 : 0.7,
       })
     }
   }

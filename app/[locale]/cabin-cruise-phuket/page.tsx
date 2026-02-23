@@ -23,7 +23,7 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
     <>
       <CabinCruiseFAQSchema />
       <main className="min-h-screen">
-        <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden">
+        <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden -mt-8">
           <Image
             src="/assets/images/cabin-cruise-phuket/amadeus-1.JPG"
             alt="Cabin Cruise Phuket"
@@ -45,12 +45,6 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
               style={{ textShadow: '1px 1px 6px rgba(0,0,0,0.6)' }}
             >
               {t('cabinCruise.hero.description')}
-            </p>
-            <p
-              className="mx-auto mt-4 text-sm sm:text-base font-semibold text-white/90 tracking-wide"
-              style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}
-            >
-              {t('cabinCruise.hero.badges')}
             </p>
             <div className="mt-10 flex justify-center">
               <LocaleLink

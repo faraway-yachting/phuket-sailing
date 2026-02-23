@@ -156,15 +156,15 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </div>
       </section>
 
-      {/* Jump Links */}
-      <HomeJumpLinks links={jumpLinks} />
-
       {/* Contact Cards */}
       <section className="bg-white py-6 sm:py-8">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <ContactCards />
         </div>
       </section>
+
+      {/* Jump Links */}
+      <HomeJumpLinks links={jumpLinks} />
 
       <FeaturedYachts />
 

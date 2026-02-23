@@ -357,7 +357,7 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
     <LuxuryYachtFAQSchema />
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-end justify-center overflow-hidden -mt-4">
         <Image
           src="/assets/images/luxury-yacht-charter/hero-luxury-charter.jpg"
           alt="Luxury sailing catamaran on the turquoise Andaman Sea near Phuket"
@@ -374,10 +374,6 @@ export default async function LuxuryYachtCharterPage({ params }: { params: Promi
           </h1>
           <p className="mx-auto mt-2 text-xl text-white md:text-2xl" style={{ textShadow: '1px 1px 6px rgba(0,0,0,0.6)' }}>
             {t('luxuryYachtCharter.hero.subtitle')}
-          </p>
-
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-white md:text-xl" style={{ textShadow: '1px 1px 6px rgba(0,0,0,0.6)' }}>
-            {t('luxuryYachtCharter.hero.description')}
           </p>
 
           <div className="mt-10 flex justify-center">

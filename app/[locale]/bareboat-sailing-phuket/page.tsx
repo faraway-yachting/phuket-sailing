@@ -32,20 +32,6 @@ export default async function BareboatSailingPage({ params }: { params: Promise<
     <main className="min-h-screen bg-white">
       <BareboatFAQSchema />
 
-      {/* ===== BREADCRUMB ===== */}
-      <div className="bg-gray-50 border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-          <nav className="flex items-center gap-2 text-xs sm:text-sm text-gray-500">
-            <LocaleLink href="/" className="hover:text-[#14b8a6] transition-colors flex items-center gap-1">
-              <Home className="w-3.5 h-3.5" />
-              Home
-            </LocaleLink>
-            <ChevronRight className="w-3.5 h-3.5 text-gray-400" />
-            <span className="text-[#164e63] font-medium">Bareboat Sailing Phuket</span>
-          </nav>
-        </div>
-      </div>
-
       {/* ===== HERO SECTION ===== */}
       <section className="relative min-h-[85vh] sm:h-screen sm:min-h-[600px] flex items-center overflow-hidden">
         <Image

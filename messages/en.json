@@ -463,7 +463,8 @@
     "barefootCharter": "Bareboat Charter",
     "bareboatSailing": "Bareboat Sailing",
     "sailingItineraries": "Sailing Itineraries",
-    "charterTypes": "Charter Types"
+    "charterTypes": "Charter Types",
+    "privacyPolicy": "Privacy Policy"
   },
   "yachtDetail": {
     "notFound": "Yacht Not Found",
@@ -2293,6 +2294,85 @@
     "contact": {
       "title": "Contact Us | Phuket Sailing",
       "description": "Get in touch with Phuket Sailing. Fill out our form to get a personalized quote for your yacht charter."
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy | Phuket Sailing",
+      "description": "Our privacy policy describes how Away Charters Global Pte. Ltd. collects, uses and protects your personal information when you use our yacht charter services in Phuket."
     }
+  },
+  "privacyPolicy": {
+    "badge": "Your Data, Protected",
+    "title": "Privacy Policy",
+    "heroDescription": "How Away Charters Global Pte. Ltd. collects, uses, and protects your personal information when you use our yacht charter services.",
+    "lastUpdated": "Last Updated February 2026",
+    "introText": "This Privacy Policy describes our policies and procedures on the collection, use and disclosure of your information when you use the Service and tells you about your privacy rights and how the law protects you. We use your Personal Data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.",
+    "tocTitle": "Table of Contents",
+    "sections": {
+      "interpretation": "Interpretation and Definitions",
+      "whatWeCollect": "What We Collect",
+      "howWeUseIt": "How We Use It",
+      "dataSharing": "Data Sharing",
+      "yourRights": "Your Rights",
+      "retentionSecurity": "Retention & Security",
+      "childrensPrivacy": "Children's Privacy",
+      "links": "Links to Other Websites",
+      "changes": "Changes to this Privacy Policy",
+      "contact": "Contact Us"
+    },
+    "definitions": {
+      "account": { "term": "Account", "definition": "Your unique login to access our services." },
+      "affiliate": { "term": "Affiliate", "definition": "Any entity connected to us through 50%+ ownership or control." },
+      "company": { "term": "Company / We / Us", "definition": "Away Charters Global Pte. Ltd., Phuket, Thailand." },
+      "cookies": { "term": "Cookies", "definition": "Small files stored on your device to improve browsing and track usage." },
+      "country": { "term": "Country", "definition": "Thailand." },
+      "device": { "term": "Device", "definition": "Any gadget you use to access our service (computer, phone, tablet)." },
+      "personalData": { "term": "Personal Data", "definition": "Any information that identifies you directly or indirectly." },
+      "service": { "term": "Service", "definition": "Our website and everything it offers." },
+      "serviceProvider": { "term": "Service Provider", "definition": "Third parties we work with to run, support, or analyze our service." },
+      "usageData": { "term": "Usage Data", "definition": "Automatically collected data (e.g., page visit duration)." },
+      "website": { "term": "Website", "definition": "Phuket Sailing, https://www.phuket-sailing.com/" },
+      "you": { "term": "You", "definition": "The individual or legal entity using our services." }
+    },
+    "collect": {
+      "personalData": { "title": "Personal Data", "desc": "Name, email, phone number (only when you provide it)." },
+      "usageData": { "title": "Usage Data", "desc": "Device details, IP address, pages visited, time spent." },
+      "cookies": { "title": "Cookies", "desc": "To improve your experience and remember preferences." }
+    },
+    "useData": {
+      "intro": "We use your data to:",
+      "items": {
+        "1": "Provide and improve our services.",
+        "2": "Manage your account and bookings.",
+        "3": "Contact you with updates, offers, and support.",
+        "4": "Ensure security and prevent fraud.",
+        "5": "Analyze usage and enhance our website."
+      }
+    },
+    "sharing": {
+      "intro": "We may share information only with:",
+      "items": {
+        "1": "Service providers (for support, analysis, or communication).",
+        "2": "Affiliates & partners (to improve services or offer promotions).",
+        "3": "Legal authorities (if required by law).",
+        "4": "Business transfers (in case of merger/sale)."
+      }
+    },
+    "rights": {
+      "intro": "You have the right to:",
+      "items": {
+        "1": "Access, update, or delete your data anytime.",
+        "2": "Control cookie preferences.",
+        "3": "Withdraw consent where applicable."
+      }
+    },
+    "retention": "We keep your data only as long as needed and follow strict safety measures. While no system is 100% secure, we take every precaution to protect your information.",
+    "children": "We do not knowingly collect data from anyone under 13. Parents may contact us for deletion if data was shared by a child.",
+    "linksText": "Our website may include links to other sites we don't operate. Once you leave our site, their privacy rules apply — not ours. We recommend reviewing the Privacy Policy of any third-party site you visit.",
+    "changesText": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective, and update the \"Last updated\" date at the top of this Privacy Policy. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.",
+    "contactText": "If you have any questions about this Privacy Policy, you can contact us:",
+    "contactEmail": "By email:",
+    "ctaTitle": "Questions About Your Privacy?",
+    "ctaText": "We are committed to transparency and protecting your personal information. Contact our team if you have any questions or concerns.",
+    "ctaButton": "Contact Us"
   }
 }
