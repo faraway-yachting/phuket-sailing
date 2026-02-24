@@ -2,7 +2,7 @@
 
 import React, { useState, FormEvent } from 'react'
 import { useLanguage } from '@/components/providers/LanguageProvider'
-import { COUNTRY_CODES } from '@/lib/constants/forms'
+import { CountryCodeCombobox } from '@/components/shared/CountryCodeCombobox'
 
 const WEBHOOK_URL = 'https://phpstack-858394-5597469.cloudwaysapps.com/webhook/bec4091e-c485-4548-a6ee-a06d0882517d'
 
@@ -13,6 +13,7 @@ interface Props {
 export function YachtContactForm({ yachtTitle }: Props) {
   const { t } = useLanguage()
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
+  const [countryCode, setCountryCode] = useState('+66')
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -25,7 +26,7 @@ export function YachtContactForm({ yachtTitle }: Props) {
       yacht: yachtTitle,
       name: data.get('name'),
       email: data.get('email'),
-      countryCode: data.get('countryCode'),
+      countryCode,
       phone: data.get('phone'),
       guests: data.get('guests'),
       dateFrom: data.get('dateFrom'),
@@ -82,12 +83,8 @@ export function YachtContactForm({ yachtTitle }: Props) {
         <form onSubmit={handleSubmit} className="space-y-3">
           <input name="name" type="text" placeholder={t('yachtDetail.yourName')} required className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
           <input name="email" type="email" placeholder={t('yachtDetail.email')} required className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
-          <div className="flex flex-col sm:flex-row gap-2">
-            <select name="countryCode" className="w-full sm:w-auto px-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] text-sm">
-              {Object.entries(COUNTRY_CODES).map(([code, { flag, name }]) => (
-                <option key={code} value={code}>{flag} {name} {code}</option>
-              ))}
-            </select>
+          <div className="flex gap-2">
+            <CountryCodeCombobox value={countryCode} onChange={setCountryCode} className="w-28 shrink-0" />
             <input name="phone" type="tel" placeholder={t('yachtDetail.whatsapp')} className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />
           </div>
           <input name="guests" type="number" placeholder={t('yachtDetail.noOfGuests')} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />

@@ -44,6 +44,11 @@ function filterYachtsByPath(yachts: Yacht[], pathname: string): Yacht[] {
     )
   }
 
+  // Catamaran & Cabin Cruise pages → only crewed yachts (exclude bareboat)
+  if (path === '/catamaran-charter-phuket' || path === '/cabin-cruise-phuket') {
+    return yachts.filter(y => y.type?.toLowerCase() !== 'bareboat')
+  }
+
   // All other pages → show everything
   return yachts
 }

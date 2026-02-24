@@ -16,6 +16,7 @@ const pages = [
   '/terms-and-conditions',
   '/privacy-policy',
   '/impressum',
+  '/sitemap-page',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

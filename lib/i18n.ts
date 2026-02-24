@@ -16,6 +16,16 @@ export const localeNames: Record<Locale, string> = {
   ar: 'Arabic',
 }
 
+export const localeNativeNames: Record<Locale, string> = {
+  en: 'English',
+  fr: 'Français',
+  de: 'Deutsch',
+  ru: 'Русский',
+  th: 'ไทย',
+  cn: '中文',
+  ar: 'العربية',
+}
+
 export const localeHtmlLang: Record<Locale, string> = {
   en: 'en',
   fr: 'fr',

@@ -17,6 +17,7 @@ export const slugTranslations: Record<Locale, Record<string, string>> = {
     'overnight-sailing-phuket': 'overnight-sailing-phuket',
     'bareboat-charter-phuket': 'bareboat-charter-phuket',
     'sailing-itineraries-phuket': 'sailing-itineraries-phuket',
+    'sitemap-page': 'sitemap-page',
   },
   fr: {
     'catamaran-charter-phuket': 'charter-catamaran-phuket',
@@ -34,6 +35,7 @@ export const slugTranslations: Record<Locale, Record<string, string>> = {
     'overnight-sailing-phuket': 'croisieres-nuit-phuket',
     'bareboat-charter-phuket': 'location-coque-nue-phuket',
     'sailing-itineraries-phuket': 'itineraires-voile-phuket',
+    'sitemap-page': 'plan-du-site',
   },
   de: {
     'catamaran-charter-phuket': 'katamaran-charter-phuket',
@@ -51,6 +53,7 @@ export const slugTranslations: Record<Locale, Record<string, string>> = {
     'overnight-sailing-phuket': 'uebernacht-segeln-phuket',
     'bareboat-charter-phuket': 'bareboat-charter-phuket',
     'sailing-itineraries-phuket': 'segel-routen-phuket',
+    'sitemap-page': 'seitenplan',
   },
   ru: {
     'catamaran-charter-phuket': 'charter-katamarana-phuket',
@@ -68,6 +71,7 @@ export const slugTranslations: Record<Locale, Record<string, string>> = {
     'overnight-sailing-phuket': 'nochnye-kruizy-phuket',
     'bareboat-charter-phuket': 'berboat-charter-phuket',
     'sailing-itineraries-phuket': 'marshruty-phuket',
+    'sitemap-page': 'karta-sajta',
   },
   th: {
     'catamaran-charter-phuket': 'chao-rua-katamaran-phuket',
@@ -85,6 +89,7 @@ export const slugTranslations: Record<Locale, Record<string, string>> = {
     'overnight-sailing-phuket': 'long-rua-klangkhuen-phuket',
     'bareboat-charter-phuket': 'chao-rua-plao-phuket',
     'sailing-itineraries-phuket': 'senthang-long-rua-phuket',
+    'sitemap-page': 'phaen-thi-website',
   },
   cn: {
     'catamaran-charter-phuket': 'shuangtichuan-baochuan-puji',
@@ -102,6 +107,7 @@ export const slugTranslations: Record<Locale, Record<string, string>> = {
     'overnight-sailing-phuket': 'guoye-hangxing-puji',
     'bareboat-charter-phuket': 'guangchuan-zulin-puji',
     'sailing-itineraries-phuket': 'hangxing-luxian-puji',
+    'sitemap-page': 'wangzhan-ditu',
   },
   ar: {
     'catamaran-charter-phuket': 'tajeer-katamaran-phuket',
@@ -119,6 +125,7 @@ export const slugTranslations: Record<Locale, Record<string, string>> = {
     'overnight-sailing-phuket': 'rihlat-layliya-phuket',
     'bareboat-charter-phuket': 'tajeer-bidun-taqm-phuket',
     'sailing-itineraries-phuket': 'masar-ibhar-phuket',
+    'sitemap-page': 'kharitat-almawqi',
   },
 }
 

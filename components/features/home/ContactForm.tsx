@@ -26,10 +26,7 @@ import {
 import { Mail, Phone, MessageCircle, MessageSquare, MapPin } from "lucide-react";
 import { useLanguage } from "@/components/providers/LanguageProvider";
 import { LocaleLink } from "@/components/shared/LocaleLink";
-
-import { COUNTRY_CODES } from "@/lib/constants/forms";
-
-const countryCodes = COUNTRY_CODES;
+import { CountryCodeCombobox } from "@/components/shared/CountryCodeCombobox";
 
 const defaultFormValues: ContactFormValues = {
   name: "",
@@ -166,35 +163,14 @@ export function ContactForm() {
                           <FormField
                             control={form.control}
                             name="phoneCountryCode"
-                            render={({ field }) => {
-                              const selectedCode = field.value || "+66";
-                              const country = countryCodes[selectedCode as keyof typeof countryCodes] || countryCodes["+66"];
-
-                              return (
-                                <FormItem className="w-28">
-                                  <Select
-                                    onValueChange={field.onChange}
-                                    value={field.value}
-                                  >
-                                    <FormControl>
-                                      <SelectTrigger className="h-11 rounded-lg border border-gray-200 bg-gray-50 focus:border-[#164e63] focus:ring-2 focus:ring-[#164e63]/20 focus:outline-none">
-                                        <SelectValue>
-                                          <span className="flex items-center gap-1.5">
-                                            <span>{country.flag}</span>
-                                            <span className="text-sm font-medium text-gray-600">{selectedCode}</span>
-                                          </span>
-                                        </SelectValue>
-                                      </SelectTrigger>
-                                    </FormControl>
-                                    <SelectContent>
-                                      {Object.entries(countryCodes).map(([code, { flag, name }]) => (
-                                        <SelectItem key={code} value={code}>{flag} {name} {code}</SelectItem>
-                                      ))}
-                                    </SelectContent>
-                                  </Select>
-                                </FormItem>
-                              );
-                            }}
+                            render={({ field }) => (
+                              <FormItem className="w-28">
+                                <CountryCodeCombobox
+                                  value={field.value || '+66'}
+                                  onChange={field.onChange}
+                                />
+                              </FormItem>
+                            )}
                           />
                           <FormControl>
                             <Input

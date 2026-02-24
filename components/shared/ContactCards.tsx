@@ -63,6 +63,7 @@ export function ContactCards() {
           key={index}
           href={contact.href}
           onClick={(e) => handleClick(e, contact.href, contact.value, index)}
+          {...(contact.href.startsWith('http') && !isMobile() ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
           className="group flex flex-col items-center justify-center text-center"
         >
           <div className="relative mb-3 sm:mb-4">

@@ -36,7 +36,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       description: t('charterStyles.sailing.description'),
       link: '/luxury-yacht-charter',
       linkText: t('charterStyles.sailing.linkText'),
-      image: '/assets/images/home/sailing-yacht.jpg',
+      image: '/assets/images/home/au6lybsyxqznyrp0816h.jpg',
     },
     {
       title: t('charterStyles.catamaran.title'),
@@ -64,7 +64,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       description: t('charterStyles.bareboat.description'),
       link: '/bareboat-sailing-phuket',
       linkText: t('charterStyles.bareboat.linkText'),
-      image: '/assets/images/home/day-sailing.webp',
+      image: '/assets/images/home/bareboat-catamaran-charter.jpg',
     },
   ]
 
