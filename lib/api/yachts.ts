@@ -21,7 +21,7 @@ interface YachtsApiResponse {
 }
 
 export async function fetchYachtById(id: string): Promise<Yacht> {
-  const res = await fetch(`${API_BASE}/yacht/?id=${id}`)
+  const res = await fetch(`${API_BASE}/yacht/?id=${id}`, { next: { revalidate: 60 } })
   if (!res.ok) throw new Error(`API responded with ${res.status}`)
 
   const json = await res.json() as { statusCode: number; success: boolean; message: string; data: Yacht | { yacht: Yacht } }
@@ -53,7 +53,7 @@ export async function fetchAllYachts(page: number = 1, limit: number = 9) {
   }, 20000)
 
   try {
-    const res = await fetch(url, { signal: controller.signal })
+    const res = await fetch(url, { next: { revalidate: 60 }, signal: controller.signal })
     clearTimeout(timeout)
     console.log('[fetchAllYachts] response status:', res.status, 'ok:', res.ok)
     if (!res.ok) throw new Error(`API responded with ${res.status}`)
