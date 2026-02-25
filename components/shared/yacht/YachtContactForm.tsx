@@ -23,12 +23,17 @@ export function YachtContactForm({ yachtTitle }: Props) {
     const form = e.currentTarget
     const data = new FormData(form)
 
+    const phoneNumber = data.get('phone') as string
+    const yachtUrl = typeof window !== 'undefined' ? window.location.href : ''
     const payload = {
-      yacht: yachtTitle,
+      formId: 'yacht-detail-form',
+      formType: 'Yacht Inquiry',
+      formSource: 'Yacht Detail Page',
+      yachtTitle,
+      yachtUrl,
       name: data.get('name'),
       email: data.get('email'),
-      countryCode,
-      phone: data.get('phone'),
+      phone: phoneNumber ? `${countryCode}${phoneNumber}` : '',
       guests: data.get('guests'),
       dateFrom: data.get('dateFrom'),
       dateTo: data.get('dateTo'),

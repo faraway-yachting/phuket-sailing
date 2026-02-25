@@ -59,12 +59,18 @@ export function ContactForm() {
     setIsSubmitting(true);
 
     try {
+      const { phoneCountryCode, phoneNumber, ...rest } = data;
+      const payload = {
+        ...rest,
+        phone: phoneNumber ? `${phoneCountryCode}${phoneNumber}` : '',
+      };
+
       const response = await fetch(WEBHOOK_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify(payload),
       });
 
       if (!response.ok) {
