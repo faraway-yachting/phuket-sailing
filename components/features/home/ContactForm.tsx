@@ -75,10 +75,6 @@ export function ContactForm() {
       setIsSuccess(true);
     } catch (error) {
       console.error("Error submitting form:", error);
-      toast.error("Submission Failed", {
-        description: "There was an error submitting your form. Please try again or contact us directly.",
-        duration: 5000,
-      });
     } finally {
       setIsSubmitting(false);
     }
