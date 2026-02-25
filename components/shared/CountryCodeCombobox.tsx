@@ -10,23 +10,21 @@ interface CountryCodeComboboxProps {
   className?: string
 }
 
-const entries = Object.entries(COUNTRY_CODES)
-
 export function CountryCodeCombobox({ value, onChange, className }: CountryCodeComboboxProps) {
   const [open, setOpen] = useState(false)
   const [search, setSearch] = useState('')
   const ref = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
-  const selected = COUNTRY_CODES[value as keyof typeof COUNTRY_CODES] || COUNTRY_CODES['+66']
+  const selected = COUNTRY_CODES.find(c => c.code === value) || COUNTRY_CODES.find(c => c.code === '+66')!
 
   const filtered = search
-    ? entries.filter(([code, { name, fullName }]) =>
+    ? COUNTRY_CODES.filter(({ code, name, fullName }) =>
         fullName.toLowerCase().includes(search.toLowerCase()) ||
         name.toLowerCase().includes(search.toLowerCase()) ||
         code.includes(search)
       )
-    : entries
+    : COUNTRY_CODES
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -73,12 +71,12 @@ export function CountryCodeCombobox({ value, onChange, className }: CountryCodeC
             {filtered.length === 0 ? (
               <div className="py-4 text-center text-sm text-gray-400">No results</div>
             ) : (
-              filtered.map(([code, { flag, name, fullName }]) => (
+              filtered.map(({ code, flag, name, fullName }, idx) => (
                 <button
-                  key={code}
+                  key={`${name}-${idx}`}
                   type="button"
                   onClick={() => { onChange(code); setOpen(false); setSearch('') }}
-                  className={`flex items-center w-full px-3 py-2.5 text-sm hover:bg-gray-50 transition-colors ${value === code ? 'bg-[#164e63]/5 font-medium' : ''}`}
+                  className={`flex items-center w-full px-3 py-2.5 text-sm hover:bg-gray-50 transition-colors ${value === code && selected.name === name ? 'bg-[#164e63]/5 font-medium' : ''}`}
                 >
                   <span className="w-8 shrink-0">{flag}</span>
                   <span className="flex-1 text-left text-gray-700">{fullName}</span>
