@@ -495,7 +495,9 @@
     "backToHome": "← กลับหน้าแรก",
     "loading": "กำลังโหลด…",
     "submit": "ส่ง",
-    "sendAnother": "ส่งคำขออีกครั้ง"
+    "sendAnother": "ส่งคำขออีกครั้ง",
+    "sending": "กำลังส่ง...",
+    "errorTryAgain": "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง"
   },
   "formSuccess": {
     "title": "ติดต่อเรา",

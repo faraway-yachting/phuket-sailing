@@ -495,7 +495,9 @@
     "backToHome": "← 返回首页",
     "loading": "加载中…",
     "submit": "提交",
-    "sendAnother": "发送另一个咨询"
+    "sendAnother": "发送另一个咨询",
+    "sending": "发送中...",
+    "errorTryAgain": "出了点问题，请重试。"
   },
   "formSuccess": {
     "title": "联系我们",

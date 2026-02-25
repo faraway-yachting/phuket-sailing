@@ -441,7 +441,9 @@
     "backToHome": "← Back to Home",
     "loading": "Loading…",
     "submit": "Submit",
-    "sendAnother": "Send another inquiry"
+    "sendAnother": "Send another inquiry",
+    "sending": "Sending...",
+    "errorTryAgain": "Something went wrong. Please try again."
   },
   "formSuccess": {
     "title": "Get In Touch",

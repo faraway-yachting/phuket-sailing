@@ -495,7 +495,9 @@
     "backToHome": "← العودة للرئيسية",
     "loading": "جاري التحميل…",
     "submit": "إرسال",
-    "sendAnother": "إرسال استفسار آخر"
+    "sendAnother": "إرسال استفسار آخر",
+    "sending": "جارٍ الإرسال...",
+    "errorTryAgain": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
   },
   "formSuccess": {
     "title": "تواصل معنا",

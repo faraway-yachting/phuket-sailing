@@ -441,7 +441,9 @@
     "backToHome": "← Zurück zur Startseite",
     "loading": "Laden…",
     "submit": "Absenden",
-    "sendAnother": "Weitere Anfrage senden"
+    "sendAnother": "Weitere Anfrage senden",
+    "sending": "Wird gesendet...",
+    "errorTryAgain": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
   },
   "formSuccess": {
     "title": "Kontaktieren Sie uns",

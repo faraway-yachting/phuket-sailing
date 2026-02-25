@@ -441,7 +441,9 @@
     "backToHome": "← Retour à l'accueil",
     "loading": "Chargement…",
     "submit": "Envoyer",
-    "sendAnother": "Envoyer une autre demande"
+    "sendAnother": "Envoyer une autre demande",
+    "sending": "Envoi en cours...",
+    "errorTryAgain": "Une erreur est survenue. Veuillez réessayer."
   },
   "formSuccess": {
     "title": "Contactez-nous",
