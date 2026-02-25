@@ -494,7 +494,17 @@
     "previous": "ก่อนหน้า",
     "backToHome": "← กลับหน้าแรก",
     "loading": "กำลังโหลด…",
-    "submit": "ส่ง"
+    "submit": "ส่ง",
+    "sendAnother": "ส่งคำขออีกครั้ง"
+  },
+  "formSuccess": {
+    "title": "ติดต่อเรา",
+    "thankYou": "ขอบคุณที่ติดต่อเรา",
+    "responseTime": "ทีมดูแลแขกของเราจะติดต่อกลับภายใน 24 ชั่วโมง",
+    "urgentText": "หากคุณต้องการคำตอบเร่งด่วน กรุณาติดต่อเราที่:",
+    "welcomeText": "เราหวังว่าจะได้ต้อนรับคุณบนเรือ",
+    "warmRegards": "ด้วยความนับถือ,",
+    "teamName": "ทีม Phuket Sailing"
   },
   "terms": {
     "metadata": {

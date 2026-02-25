@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { toast } from "sonner";
 import { Button } from "@/components/shared/ui/button";
 import { contactFormSchema, type ContactFormValues } from "@/lib/validation/schema";
 import {
@@ -27,6 +26,7 @@ import { Mail, Phone, MessageCircle, MessageSquare, MapPin } from "lucide-react"
 import { useLanguage } from "@/components/providers/LanguageProvider";
 import { LocaleLink } from "@/components/shared/LocaleLink";
 import { CountryCodeCombobox } from "@/components/shared/CountryCodeCombobox";
+import { FormSuccessScreen } from "@/components/shared/FormSuccessScreen";
 
 const defaultFormValues: ContactFormValues = {
   name: "",
@@ -49,6 +49,7 @@ const inputClass = "h-11 rounded-lg border border-gray-200 bg-white text-neutral
 export function ContactForm() {
   const { t } = useLanguage();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
   const form = useForm<ContactFormValues>({
     resolver: yupResolver(contactFormSchema),
     defaultValues: defaultFormValues,
@@ -70,12 +71,8 @@ export function ContactForm() {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
-      toast.success("Form Submitted Successfully!", {
-        description: "Thank you for your inquiry! We'll get back to you soon.",
-        duration: 5000,
-      });
-
       form.reset(defaultFormValues);
+      setIsSuccess(true);
     } catch (error) {
       console.error("Error submitting form:", error);
       toast.error("Submission Failed", {
@@ -94,6 +91,9 @@ export function ContactForm() {
 
           {/* Left Section - Contact Form */}
           <div className="lg:col-span-3 bg-white rounded-2xl shadow-lg shadow-[#164e63]/8 border border-gray-100 p-6 sm:p-8 md:p-10">
+            {isSuccess ? (
+              <FormSuccessScreen onReset={() => setIsSuccess(false)} />
+            ) : (<>
             <div className="mb-8">
               <h2 className="text-3xl font-bold text-[#164e63] mb-2">
                 {t('contactForm.title')}
@@ -393,6 +393,7 @@ export function ContactForm() {
                 </div>
               </form>
             </Form>
+            </>)}
           </div>
 
           {/* Right Section - Contact Information */}

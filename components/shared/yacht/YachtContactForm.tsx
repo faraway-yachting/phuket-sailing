@@ -3,6 +3,7 @@
 import React, { useState, FormEvent } from 'react'
 import { useLanguage } from '@/components/providers/LanguageProvider'
 import { CountryCodeCombobox } from '@/components/shared/CountryCodeCombobox'
+import { FormSuccessScreen } from '@/components/shared/FormSuccessScreen'
 
 const WEBHOOK_URL = 'https://phpstack-858394-5597469.cloudwaysapps.com/webhook/bec4091e-c485-4548-a6ee-a06d0882517d'
 
@@ -67,18 +68,7 @@ export function YachtContactForm({ yachtTitle }: Props) {
       </div>
 
       {status === 'sent' ? (
-        <div className="text-center py-8">
-          <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-            <svg className="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
-          <p className="text-lg font-semibold text-[#164e63]">{t('common.thankYou') || 'Thank you!'}</p>
-          <p className="text-sm text-gray-500 mt-1">{t('common.weWillContact') || 'We will contact you shortly.'}</p>
-          <button type="button" onClick={() => setStatus('idle')} className="mt-4 text-sm text-[#14b8a6] hover:underline">
-            {t('common.sendAnother') || 'Send another inquiry'}
-          </button>
-        </div>
+        <FormSuccessScreen onReset={() => setStatus('idle')} />
       ) : (
         <form onSubmit={handleSubmit} className="space-y-3">
           <input name="name" type="text" placeholder={t('yachtDetail.yourName')} required className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#14b8a6] focus:border-transparent text-sm" />

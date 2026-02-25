@@ -440,7 +440,17 @@
     "previous": "Previous",
     "backToHome": "← Back to Home",
     "loading": "Loading…",
-    "submit": "Submit"
+    "submit": "Submit",
+    "sendAnother": "Send another inquiry"
+  },
+  "formSuccess": {
+    "title": "Get In Touch",
+    "thankYou": "Thank you for contacting us.",
+    "responseTime": "Our Guest Experience Team will be in touch with you within 24 hours.",
+    "urgentText": "If you need an urgent response, please reach us on:",
+    "welcomeText": "We look forward to welcoming you on board.",
+    "warmRegards": "Warm regards,",
+    "teamName": "The Phuket Sailing Team"
   },
   "footer": {
     "quickLinks": "Quick Links",

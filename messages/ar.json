@@ -494,7 +494,17 @@
     "previous": "السابق",
     "backToHome": "← العودة للرئيسية",
     "loading": "جاري التحميل…",
-    "submit": "إرسال"
+    "submit": "إرسال",
+    "sendAnother": "إرسال استفسار آخر"
+  },
+  "formSuccess": {
+    "title": "تواصل معنا",
+    "thankYou": "شكراً لتواصلك معنا.",
+    "responseTime": "سيتواصل معك فريق تجربة الضيوف خلال 24 ساعة.",
+    "urgentText": "إذا كنت بحاجة إلى رد عاجل، تواصل معنا عبر:",
+    "welcomeText": "نتطلع للترحيب بك على متن السفينة.",
+    "warmRegards": "مع أطيب التحيات،",
+    "teamName": "فريق Phuket Sailing"
   },
   "terms": {
     "metadata": {

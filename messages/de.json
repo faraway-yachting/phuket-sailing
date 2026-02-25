@@ -440,7 +440,17 @@
     "previous": "Vorherige",
     "backToHome": "← Zurück zur Startseite",
     "loading": "Laden…",
-    "submit": "Absenden"
+    "submit": "Absenden",
+    "sendAnother": "Weitere Anfrage senden"
+  },
+  "formSuccess": {
+    "title": "Kontaktieren Sie uns",
+    "thankYou": "Vielen Dank für Ihre Kontaktaufnahme.",
+    "responseTime": "Unser Gästeerlebnis-Team wird sich innerhalb von 24 Stunden bei Ihnen melden.",
+    "urgentText": "Wenn Sie eine dringende Antwort benötigen, erreichen Sie uns über:",
+    "welcomeText": "Wir freuen uns darauf, Sie an Bord willkommen zu heißen.",
+    "warmRegards": "Mit freundlichen Grüßen,",
+    "teamName": "Das Phuket Sailing Team"
   },
   "terms": {
     "metadata": {

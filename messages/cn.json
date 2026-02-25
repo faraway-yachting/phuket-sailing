@@ -494,7 +494,17 @@
     "previous": "上一个",
     "backToHome": "← 返回首页",
     "loading": "加载中…",
-    "submit": "提交"
+    "submit": "提交",
+    "sendAnother": "发送另一个咨询"
+  },
+  "formSuccess": {
+    "title": "联系我们",
+    "thankYou": "感谢您联系我们。",
+    "responseTime": "我们的宾客体验团队将在24小时内与您联系。",
+    "urgentText": "如需紧急回复，请通过以下方式联系我们：",
+    "welcomeText": "我们期待在船上欢迎您。",
+    "warmRegards": "此致敬礼，",
+    "teamName": "Phuket Sailing 团队"
   },
   "terms": {
     "metadata": {
