@@ -455,6 +455,24 @@
     "charterTypes": "ประเภทเรือเช่า",
     "privacyPolicy": "นโยบายความเป็นส่วนตัว"
   },
+  "cabinCruiseBooking": {
+    "title": "คำขอจองห้องพัก",
+    "name": "ชื่อของคุณ",
+    "email": "อีเมลของคุณ",
+    "phone": "หมายเลขโทรศัพท์",
+    "cabinType": "เลือกประเภทห้องพัก",
+    "cabinTypes": {
+      "standard": "ห้องมาตรฐาน",
+      "deluxe": "ห้องดีลักซ์",
+      "premium": "ห้องพรีเมียม"
+    },
+    "personsInCabin": "จำนวนคนต่อห้อง",
+    "guests": "จำนวนผู้เข้าพัก",
+    "travelDate": "วันเดินทาง",
+    "returnDate": "วันกลับ",
+    "comments": "ความคิดเห็นหรือคำขอเพิ่มเติม?",
+    "submit": "ส่ง"
+  },
   "sitemapPage": {
     "title": "แผนผังเว็บไซต์",
     "allPages": "หน้าทั้งหมดใน",

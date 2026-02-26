@@ -42,8 +42,6 @@ const defaultFormValues: ContactFormValues = {
   comments: "",
 };
 
-const WEBHOOK_URL = "https://phpstack-858394-5597469.cloudwaysapps.com/webhook/37e734db-5b93-4f58-a584-ccafa1eac767";
-
 const inputClass = "h-11 rounded-lg border border-gray-200 bg-white text-neutral-800 placeholder-gray-400 focus:border-[#164e63] focus:ring-2 focus:ring-[#164e63]/20 focus:outline-none transition-all duration-200";
 
 export function ContactForm() {
@@ -65,11 +63,9 @@ export function ContactForm() {
         phone: phoneNumber ? `${phoneCountryCode}${phoneNumber}` : '',
       };
 
-      const response = await fetch(WEBHOOK_URL, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       });
 
@@ -79,6 +75,8 @@ export function ContactForm() {
 
       form.reset(defaultFormValues);
       setIsSuccess(true);
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'contact_form_submit' });
     } catch (error) {
       console.error("Error submitting form:", error);
     } finally {

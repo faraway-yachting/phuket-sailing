@@ -7,6 +7,7 @@ import { ArrowRight, MessageCircle, Anchor, Crown, Users, Compass, Ship, MapPin,
 import { FAQAccordion } from '@/components/shared/FAQAccordion'
 import { BookingCTA } from '@/components/shared/BookingCTA'
 import { FeaturedYachts } from '@/components/shared/FeaturedYachts'
+import { CabinCruiseBookingForm } from '@/components/shared/CabinCruiseBookingForm'
 import { CabinCruiseFAQSchema } from './faq-schema'
 
 export default async function CabinCruisePhuketPage({ params }: { params: Promise<{ locale: string }> }) {
@@ -653,6 +654,8 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
           subtitle=""
           id="faq"
         />
+
+        <CabinCruiseBookingForm />
 
         <BookingCTA variant="cabinCruise" />
       </main>

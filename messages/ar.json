@@ -455,6 +455,24 @@
     "charterTypes": "أنواع الاستئجار",
     "privacyPolicy": "سياسة الخصوصية"
   },
+  "cabinCruiseBooking": {
+    "title": "طلب حجز",
+    "name": "اسمك",
+    "email": "بريدك الإلكتروني",
+    "phone": "رقم الهاتف",
+    "cabinType": "اختر نوع الكابينة",
+    "cabinTypes": {
+      "standard": "كابينة عادية",
+      "deluxe": "كابينة ديلوكس",
+      "premium": "كابينة بريميوم"
+    },
+    "personsInCabin": "عدد الأشخاص في الكابينة",
+    "guests": "عدد الضيوف",
+    "travelDate": "تاريخ السفر",
+    "returnDate": "تاريخ العودة",
+    "comments": "أي تعليقات أو طلبات أخرى؟",
+    "submit": "إرسال"
+  },
   "sitemapPage": {
     "title": "خريطة الموقع",
     "allPages": "جميع الصفحات في",

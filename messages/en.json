@@ -478,6 +478,24 @@
     "charterTypes": "Charter Types",
     "privacyPolicy": "Privacy Policy"
   },
+  "cabinCruiseBooking": {
+    "title": "Booking Request",
+    "name": "Your Name",
+    "email": "Your Email",
+    "phone": "Phone Number",
+    "cabinType": "Select Cabin Type",
+    "cabinTypes": {
+      "standard": "Standard Cabin",
+      "deluxe": "Deluxe Cabin",
+      "premium": "Premium Cabin"
+    },
+    "personsInCabin": "Select Person in Cabin",
+    "guests": "No. of Guests",
+    "travelDate": "Travel Date",
+    "returnDate": "Return Date",
+    "comments": "Any other comments or requests?",
+    "submit": "Submit"
+  },
   "sitemapPage": {
     "title": "Sitemap",
     "allPages": "All pages in",

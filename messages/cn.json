@@ -455,6 +455,24 @@
     "charterTypes": "包船类型",
     "privacyPolicy": "隐私政策"
   },
+  "cabinCruiseBooking": {
+    "title": "预订请求",
+    "name": "您的姓名",
+    "email": "您的邮箱",
+    "phone": "电话号码",
+    "cabinType": "选择舱位类型",
+    "cabinTypes": {
+      "standard": "标准舱",
+      "deluxe": "豪华舱",
+      "premium": "高级舱"
+    },
+    "personsInCabin": "每舱人数",
+    "guests": "客人数量",
+    "travelDate": "出发日期",
+    "returnDate": "返回日期",
+    "comments": "其他评论或要求？",
+    "submit": "提交"
+  },
   "sitemapPage": {
     "title": "网站地图",
     "allPages": "所有页面",

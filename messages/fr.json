@@ -1363,6 +1363,24 @@
     "charterTypes": "Types de Charter",
     "privacyPolicy": "Politique de Confidentialité"
   },
+  "cabinCruiseBooking": {
+    "title": "Demande de Réservation",
+    "name": "Votre Nom",
+    "email": "Votre E-mail",
+    "phone": "Numéro de Téléphone",
+    "cabinType": "Type de Cabine",
+    "cabinTypes": {
+      "standard": "Cabine Standard",
+      "deluxe": "Cabine Deluxe",
+      "premium": "Cabine Premium"
+    },
+    "personsInCabin": "Personnes par Cabine",
+    "guests": "Nombre d'Invités",
+    "travelDate": "Date de Départ",
+    "returnDate": "Date de Retour",
+    "comments": "Commentaires ou demandes supplémentaires ?",
+    "submit": "Envoyer"
+  },
   "sitemapPage": {
     "title": "Plan du Site",
     "allPages": "Toutes les pages en",

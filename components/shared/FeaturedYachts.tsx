@@ -142,23 +142,38 @@ export function FeaturedYachts() {
                 <div className="p-5">
                   <h3 className="text-lg sm:text-xl font-bold text-[#164e63] mb-3">{yacht.title}</h3>
 
-                  <div className="flex items-center justify-center gap-2 mb-2 text-xs sm:text-sm text-gray-600 flex-wrap">
+                  <div className="flex items-center justify-center gap-3 mb-2 text-xs sm:text-sm text-gray-600 flex-wrap">
                     <span className="flex items-center gap-1">
                       <svg className="w-4 h-4 text-[#14b8a6]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                       {yacht.type?.toLowerCase() === 'bareboat' ? t('featuredYachts.withoutSkipper') : t('featuredYachts.withSkipper')}
                     </span>
                     <span className="text-gray-300">|</span>
-                    <span>{yacht.cabins} {t('featuredYachts.cabins')}</span>
+                    <span className="flex items-center gap-1">
+                      <svg className="w-4 h-4 text-[#14b8a6]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1h-2" /></svg>
+                      {yacht.cabins} {t('featuredYachts.cabins')}
+                    </span>
                     <span className="text-gray-300">|</span>
-                    <span>{yacht.bathrooms} {t('featuredYachts.bathrooms')}</span>
+                    <span className="flex items-center gap-1">
+                      <svg className="w-4 h-4 text-[#14b8a6]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M4 12h16a1 1 0 011 1v3a4 4 0 01-4 4H7a4 4 0 01-4-4v-3a1 1 0 011-1zM6 12V5a2 2 0 012-2h0a2 2 0 012 2v7" /></svg>
+                      {yacht.bathrooms} {t('featuredYachts.bathrooms')}
+                    </span>
                   </div>
 
-                  <div className="flex items-center justify-center gap-2 mb-4 text-xs sm:text-sm text-gray-500 flex-wrap">
-                    <span>{yacht.length}</span>
+                  <div className="flex items-center justify-center gap-3 mb-4 text-xs sm:text-sm text-gray-500 flex-wrap">
+                    <span className="flex items-center gap-1">
+                      <svg className="w-4 h-4 text-[#14b8a6]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M21.174 6.812a1 1 0 00-3.986-3.987L3.842 16.174a2 2 0 000 2.83l1.154 1.154a2 2 0 002.83 0zM15 5l4 4m-7.5-.5l.5.5m-4 3l.5.5" /></svg>
+                      {yacht.length} ft
+                    </span>
                     <span className="text-gray-300">|</span>
-                    <span>{yacht.guests} {t('featuredYachts.guests')}</span>
+                    <span className="flex items-center gap-1">
+                      <svg className="w-4 h-4 text-[#14b8a6]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                      {yacht.guests} {t('featuredYachts.guests')}
+                    </span>
                     <span className="text-gray-300">|</span>
-                    <span>{yacht.passengerOvernight} {t('featuredYachts.overnight')}</span>
+                    <span className="flex items-center gap-1">
+                      <svg className="w-4 h-4 text-[#14b8a6]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+                      {yacht.passengerOvernight} {t('featuredYachts.overnight')}
+                    </span>
                   </div>
 
                   <div className="flex justify-center">

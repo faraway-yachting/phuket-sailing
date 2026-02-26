@@ -30,14 +30,14 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      images: ['/assets/images/cabin-cruise-phuket/cabin-cruise-hero.avif'],
+      images: ['/assets/images/cabin-cruise-phuket/amadeus-1.JPG'],
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: ['/assets/images/cabin-cruise-phuket/cabin-cruise-hero.avif'],
+      images: ['/assets/images/cabin-cruise-phuket/amadeus-1.JPG'],
     },
   }
 }

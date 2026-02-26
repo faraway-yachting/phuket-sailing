@@ -107,11 +107,11 @@ export async function YachtDetailPage({ locale, slug, backHref = '/' }: { locale
 
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 md:gap-4 mb-6 sm:mb-8">
                 <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-2.5 sm:p-4 text-center">
-                  <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#14b8a6] mx-auto mb-1 sm:mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                  <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#14b8a6] mx-auto mb-1 sm:mb-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.174 6.812a1 1 0 00-3.986-3.987L3.842 16.174a2 2 0 000 2.83l1.154 1.154a2 2 0 002.83 0zM15 5l4 4m-7.5-.5l.5.5m-4 3l.5.5" />
                   </svg>
                   <p className="text-[10px] sm:text-xs text-gray-500 mb-1">{t('yachtDetail.length')}</p>
-                  <p className="text-sm sm:text-lg font-bold text-[#164e63]">{yacht.length}</p>
+                  <p className="text-sm sm:text-lg font-bold text-[#164e63]">{yacht.length} ft</p>
                 </div>
 
                 <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-2.5 sm:p-4 text-center">
@@ -135,10 +135,7 @@ export async function YachtDetailPage({ locale, slug, backHref = '/' }: { locale
 
                 <div className="bg-white border-2 border-[#14b8a6] rounded-xl p-2.5 sm:p-4 text-center">
                   <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#14b8a6] mx-auto mb-1 sm:mb-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                    <path d="M9 17v1a3 3 0 003 3v0a3 3 0 003-3v-1" strokeLinecap="round" strokeLinejoin="round" />
-                    <rect x="6" y="11" width="12" height="6" rx="1" strokeLinecap="round" strokeLinejoin="round" />
-                    <path d="M12 11V9" strokeLinecap="round" />
-                    <path d="M12 9a2 2 0 100-4 2 2 0 000 4z" strokeLinecap="round" strokeLinejoin="round" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 12h16a1 1 0 011 1v3a4 4 0 01-4 4H7a4 4 0 01-4-4v-3a1 1 0 011-1zM6 12V5a2 2 0 012-2h0a2 2 0 012 2v7" />
                   </svg>
                   <p className="text-[10px] sm:text-xs text-gray-500 mb-1">{t('yachtDetail.bathrooms')}</p>
                   <p className="text-sm sm:text-lg font-bold text-[#164e63]">{yacht.bathrooms}</p>

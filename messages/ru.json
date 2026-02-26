@@ -455,6 +455,24 @@
     "charterTypes": "Типы Чартеров",
     "privacyPolicy": "Политика Конфиденциальности"
   },
+  "cabinCruiseBooking": {
+    "title": "Запрос на Бронирование",
+    "name": "Ваше Имя",
+    "email": "Ваш E-mail",
+    "phone": "Номер Телефона",
+    "cabinType": "Выберите Тип Каюты",
+    "cabinTypes": {
+      "standard": "Стандартная Каюта",
+      "deluxe": "Каюта Делюкс",
+      "premium": "Премиум Каюта"
+    },
+    "personsInCabin": "Человек в Каюте",
+    "guests": "Кол-во Гостей",
+    "travelDate": "Дата Отправления",
+    "returnDate": "Дата Возвращения",
+    "comments": "Дополнительные комментарии или пожелания?",
+    "submit": "Отправить"
+  },
   "sitemapPage": {
     "title": "Карта Сайта",
     "allPages": "Все страницы на",

@@ -5,8 +5,6 @@ import { useLanguage } from '@/components/providers/LanguageProvider'
 import { CountryCodeCombobox } from '@/components/shared/CountryCodeCombobox'
 import { FormSuccessScreen } from '@/components/shared/FormSuccessScreen'
 
-const WEBHOOK_URL = 'https://phpstack-858394-5597469.cloudwaysapps.com/webhook/bec4091e-c485-4548-a6ee-a06d0882517d'
-
 interface Props {
   yachtTitle: string
 }
@@ -41,13 +39,16 @@ export function YachtContactForm({ yachtTitle }: Props) {
     }
 
     try {
-      await fetch(WEBHOOK_URL, {
+      const res = await fetch('/api/yacht-inquiry', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       })
+      if (!res.ok) throw new Error('Failed')
       setStatus('sent')
       form.reset()
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'yacht_form_submit' });
     } catch {
       setStatus('error')
     }

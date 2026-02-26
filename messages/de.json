@@ -1363,6 +1363,24 @@
     "charterTypes": "Charter-Typen",
     "privacyPolicy": "Datenschutzrichtlinie"
   },
+  "cabinCruiseBooking": {
+    "title": "Buchungsanfrage",
+    "name": "Ihr Name",
+    "email": "Ihre E-Mail",
+    "phone": "Telefonnummer",
+    "cabinType": "Kabinentyp wählen",
+    "cabinTypes": {
+      "standard": "Standardkabine",
+      "deluxe": "Deluxe-Kabine",
+      "premium": "Premium-Kabine"
+    },
+    "personsInCabin": "Personen pro Kabine",
+    "guests": "Anzahl der Gäste",
+    "travelDate": "Reisedatum",
+    "returnDate": "Rückreisedatum",
+    "comments": "Weitere Kommentare oder Wünsche?",
+    "submit": "Absenden"
+  },
   "sitemapPage": {
     "title": "Seitenplan",
     "allPages": "Alle Seiten auf",
