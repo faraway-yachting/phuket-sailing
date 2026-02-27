@@ -74,7 +74,7 @@ export async function YachtDetailPage({ locale, slug, backHref = '/' }: { locale
             <YachtAnchors anchors={anchors} />
 
             <div id="about" className="bg-white rounded-xl shadow-md overflow-hidden p-4 sm:p-6 md:p-8">
-              <h2 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-4 sm:mb-6">{yacht.title}</h2>
+              <h1 className="text-xl sm:text-2xl font-bold text-[#164e63] mb-4 sm:mb-6">{yacht.title}</h1>
 
               <YachtGallery images={gallery} title={yacht.title} />
 
@@ -203,7 +203,7 @@ export async function YachtDetailPage({ locale, slug, backHref = '/' }: { locale
                   <svg className="w-7 h-7 text-[#14b8a6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                   </svg>
-                  <h3 className="text-xl font-bold text-[#164e63]">{t('yachtDetail.dayCharter')}</h3>
+                  <h2 className="text-xl font-bold text-[#164e63]">{t('yachtDetail.dayCharter')}</h2>
                 </div>
                 <RichText html={yacht.dayCharter} />
               </div>
@@ -215,7 +215,7 @@ export async function YachtDetailPage({ locale, slug, backHref = '/' }: { locale
                   <svg className="w-7 h-7 text-[#14b8a6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                   </svg>
-                  <h3 className="text-xl font-bold text-[#164e63]">{t('yachtDetail.overnightCharter')}</h3>
+                  <h2 className="text-xl font-bold text-[#164e63]">{t('yachtDetail.overnightCharter')}</h2>
                 </div>
                 <RichText html={yacht.overnightCharter} />
               </div>

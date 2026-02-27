@@ -6,7 +6,6 @@ import { getTranslations } from '@/lib/i18n/getTranslations'
 import { ArrowRight, MessageCircle, Anchor, Crown, Users, Compass, Ship, MapPin, BedDouble, ShipWheel, Utensils, UtensilsCrossed, Waves, Sunset, Heart, User, Check, DollarSign, Calendar, Ruler, UsersRound, Music, Package, ShoppingBag } from 'lucide-react'
 import { FAQAccordion } from '@/components/shared/FAQAccordion'
 import { BookingCTA } from '@/components/shared/BookingCTA'
-import { FeaturedYachts } from '@/components/shared/FeaturedYachts'
 import { CabinCruiseBookingForm } from '@/components/shared/CabinCruiseBookingForm'
 import { CabinCruiseFAQSchema } from './faq-schema'
 
@@ -65,8 +64,6 @@ export default async function CabinCruisePhuketPage({ params }: { params: Promis
             <ContactCards />
           </div>
         </section>
-
-        <FeaturedYachts />
 
         <section className="bg-gradient-to-br from-slate-50 via-gray-50 to-sky-50 py-6 sm:py-8">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -55,8 +55,8 @@ export function YachtContactForm({ yachtTitle }: Props) {
   }
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 lg:sticky lg:top-24">
-      <h3 className="text-lg font-bold text-[#164e63] text-center mb-4">{yachtTitle}</h3>
+    <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 lg:sticky lg:top-24" suppressHydrationWarning>
+      <h2 className="text-lg font-bold text-[#164e63] text-center mb-4">{yachtTitle}</h2>
 
       <div className="text-center mb-4 space-y-2">
         <a href="tel:+66612345623" className="flex items-center justify-center gap-2 text-[#164e63] hover:text-[#14b8a6] transition-colors">

@@ -14,7 +14,7 @@ export function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
 
             <div>
-              <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
+              <h3 className="text-2xl font-bold mb-4 text-white" style={{ fontFamily: "var(--font-playfair)" }}>
                 Phuket Sailing
               </h3>
               <div className="space-y-3 text-white/80">
@@ -34,7 +34,7 @@ export function Footer() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
+              <h3 className="text-xl font-bold mb-4 text-white" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('footer.quickLinks')}
               </h3>
               <ul className="space-y-2 text-white/80">
@@ -78,7 +78,7 @@ export function Footer() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
+              <h3 className="text-xl font-bold mb-4 text-white" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('footer.charterTypes')}
               </h3>
               <ul className="space-y-2 text-white/80">
@@ -116,7 +116,7 @@ export function Footer() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-4" style={{ fontFamily: "var(--font-playfair)" }}>
+              <h3 className="text-xl font-bold mb-4 text-white" style={{ fontFamily: "var(--font-playfair)" }}>
                 {t('footer.subscribe')}
               </h3>
               <p className="text-white/80 text-sm mb-4">
